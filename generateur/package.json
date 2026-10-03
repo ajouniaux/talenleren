@@ -1,0 +1,15 @@
+{
+  "name": "talenleren-powerpoints",
+  "private": true,
+  "description": "Générateur des 19 présentations — English UE 3, Case File 01 « The night nobody heard »",
+  "scripts": {
+    "build": "OUT=../powerpoints node build.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-icons": "^5.7.0",
+    "sharp": "^0.35.5"
+  }
+}
