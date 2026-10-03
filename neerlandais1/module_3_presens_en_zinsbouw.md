@@ -18,7 +18,7 @@
 - 18 phrases à conjuguer en 4 séries colorées et des amorces de production (« Op zondag… »).
 
 **Faiblesses corrigées**
-- L'ordre des compléments est faux (« quand – où – comment »). « 38 uur per week » est placé dans la colonne WAT. Une phrase-exemple est redondante (*deze zomervakantie onze vakantie*).
+- L'ordre des compléments n'est pas l'ordre neutre (« quand – où – comment » au lieu de Te-Ma-Pl). « 38 uur per week » est placé dans la colonne WAT. Une phrase-exemple est redondante (*deze zomervakantie onze vakantie*).
 - La formation du radical n'est jamais formulée. Le tableau de la diapo 6 mélange les cas sans règle et utilise un verbe rare (*loeien*) et une traduction fausse (*zitten = s'assoir*).
 - **L'inversion n'est jamais enseignée**, alors que la dernière diapo l'impose.
 - Les questions ne sont pas systématisées.
@@ -236,10 +236,10 @@ Rappelez les sons invariables de M1 (diapo 10) : *ie, oe, eu, ui, ij, ei, ou, au
 
 **Contenu textuel**
 > **wij / we · jullie · zij / ze** → **infinitif** : *we werken · jullie werken · ze werken*
-> ⚠ *jullie* = « vous » pluriel, mais verbe à l'infinitif : *jullie werk**en*** (pas ~~werkt~~)
+> ⚠ *jullie* = « vous » pluriel, mais verbe à l'infinitif : *jullie werk**en***
 > **La formule** : radical · radical + t · infinitif
 
-**Notes pour l'animateur** — Validez la règle formulée par la classe à la diapo 3. Erreur fréquente des francophones : *jullie werkt*, par analogie avec « vous travaillez ». Faites réciter la formule comme un mantra rythmé : « radical — plus t — infinitif ».
+**Notes pour l'animateur** — Validez la règle formulée par la classe à la diapo 3. Erreur fréquente des francophones : *jullie werkt*, par analogie avec « vous travaillez ». Nuance : *jullie werkt* s'entend à l'oral, surtout aux Pays-Bas, et n'est pas considéré comme fautif. On enseigne *werken*, la forme standard, sans sanctionner lourdement *werkt*. Faites réciter la formule comme un mantra rythmé : « radical — plus t — infinitif ».
 
 ---
 
@@ -278,7 +278,7 @@ Rappelez les sons invariables de M1 (diapo 10) : *ie, oe, eu, ui, ij, ei, ou, au
 > *Je neemt de trein.* → ***Neem je** de trein?* · *Je pakt een koffie.* → ***Pak je** een koffie?*
 > Mais : ***Werkt u** in Brussel? · **Werkt hij** in Brussel? · **Werkt ze** in Brussel?*
 
-**Notes pour l'animateur** — Contraste avec le français : pas de « est-ce que », et l'intonation seule (« Tu travailles à Bruxelles ? ») ne suffit pas. On **doit** inverser. La chute du *t* ne concerne que **je / jij placés après le verbe** : c'est la seule « irrégularité » de la formule. Les élèves l'ont déjà vue en M2 (*Ben jij…?*, *Hoe heet je?*).
+**Notes pour l'animateur** — Contraste avec le français : pas de « est-ce que ». La question par simple intonation (*Jij werkt in Brussel?*) existe à l'oral, mais elle exprime surtout l'étonnement ; la forme de base, à apprendre, est l'inversion. La chute du *t* ne concerne que **je / jij placés après le verbe** : c'est la seule « irrégularité » de la formule. Les élèves l'ont déjà vue en M2 (*Ben jij…?*, *Waar woon je?*). Avec *Hoe heet je?*, rien ne tombe : le radical *heet* finit déjà par t (M4).
 
 ---
 
@@ -316,7 +316,11 @@ Rappelez les sons invariables de M1 (diapo 10) : *ie, oe, eu, ui, ij, ei, ou, au
 > ④ **WAT?** *quoi* · ⑤ **AAN / VOOR WIE?** *à qui, pour qui* · ⑥ **WERKWOORD 2** *2e partie du verbe*
 > *Ik **eet** een koekje.*
 
-**Notes pour l'animateur** — Correction par rapport à l'archive : l'ordre de la case ③ était « quand – où – comment ». La règle néerlandaise est **Te-Ma-Pl** (*Tijd – Manier – Plaats*) : *Ik ga **morgen met de trein naar Gent**.* Moyen mnémotechnique : « TeMPeL » (le temple). Les cases vides restent vides : une phrase n'a pas besoin de remplir les 6 cases.
+**Notes pour l'animateur** — Correction par rapport à l'archive : l'ordre de la case ③ était « quand – où – comment ». L'ordre neutre néerlandais est **Te-Ma-Pl** (*Tijd – Manier – Plaats*) : *Ik ga **morgen met de trein naar Gent**.* C'est un ordre par défaut, pas une loi absolue. Moyen mnémotechnique : « TeMPeL » (le temple). Les cases vides restent vides : une phrase n'a pas besoin de remplir les 6 cases.
+
+Deux précisions à donner dès que la question se pose :
+- un **pronom objet** (*je, hem, het, haar*) se place juste après le verbe (ou après le sujet inversé), **avant** la case ③ : *Ik bel **je** morgen op* ;
+- un **objet défini** peut lui aussi précéder ③ : *Ik bel **de klant** morgen op* est aussi naturel que *Ik bel morgen de klant op*.
 
 ---
 
@@ -463,7 +467,7 @@ Faites lire chaque ligne à voix haute et demandez « Quel est le verbe ? Combie
 >
 > **✓ CORRECTIE** — 1 luistert · 2 roept · 3 zingt · 4 begrijpen · 5 stopt · 6 kookt · 7 betaal · 8 begint · 9 Slapen · 10 Neem · 11 Bel · 12 Drinkt
 
-**Notes pour l'animateur** — Les items de l'archive *geven, reizen, lezen, leven, rijden* et *sluiten* ont été retirés : ils relèvent des règles de M4 (v→f, z→s, radical en -t / -d) et y sont repris. Faites justifier le n° 11 (*Bel jij* : simplification **et** chute du t) et le n° 12 (*Drinkt u* : le t reste). Différenciation : les apprenants en difficulté font ★ et ★★, les autres enchaînent jusqu'à ★★★.
+**Notes pour l'animateur** — Les items de l'archive *geven, reizen, lezen, leven, rijden* ont été déplacés dans l'exercice 2 de M4 : ils relèvent de ses règles (v→f, z→s, radical en -d). *sluiten* (radical en -t) a été retiré : il relève du réflexe ③ de M4 et y est illustré par d'autres verbes. Faites justifier le n° 11 (*Bel jij* : simplification **et** chute du t) et le n° 12 (*Drinkt u* : le t reste). Différenciation : les apprenants en difficulté font ★ et ★★, les autres enchaînent jusqu'à ★★★.
 
 ---
 
@@ -501,9 +505,9 @@ Faites lire chaque ligne à voix haute et demandez « Quel est le verbe ? Combie
 > 4 [ je · waar · woon · ? ]
 > 5 [ begint · de les · om 9 uur · ? ]
 >
-> **✓ CORRECTIE** — 1 *Ik bel morgen de klant op.* / *Morgen bel ik de klant op.* · 2 *Mijn collega werkt elke dag in Gent.* / *Elke dag werkt mijn collega in Gent.* · 3 *We moeten Nederlands leren.* · 4 *Waar woon je?* · 5 *Begint de les om 9 uur?*
+> **✓ CORRECTIE** — 1 *Ik bel morgen de klant op.* / *Ik bel de klant morgen op.* / *Morgen bel ik de klant op.* · 2 *Mijn collega werkt elke dag in Gent.* / *Elke dag werkt mijn collega in Gent.* / *In Gent werkt mijn collega elke dag.* · 3 *We moeten Nederlands leren.* · 4 *Waar woon je?* · 5 *Begint de les om 9 uur?*
 
-**Notes pour l'animateur** — Acceptez les deux ordres des items 1 et 2 : c'est l'occasion de revoir le tourniquet. Au n° 2, vérifiez **Te-Ma-Pl** (*elke dag* avant *in Gent*). Variante kinesthésique : imprimez les étiquettes ; les apprenants, debout, les tiennent et se rangent dans l'ordre.
+**Notes pour l'animateur** — Acceptez tous les ordres de la correction pour les items 1 et 2 : c'est l'occasion de revoir le tourniquet et la place de l'objet défini (diapo 14). Au n° 2, vérifiez **Te-Ma-Pl** (*elke dag* avant *in Gent*). Variante kinesthésique : imprimez les étiquettes ; les apprenants, debout, les tiennent et se rangent dans l'ordre.
 
 ---
 
@@ -566,7 +570,7 @@ Faites lire chaque ligne à voix haute et demandez « Quel est le verbe ? Combie
 - pince → diapo 18 ;
 - t devant *jij* → diapo 12.
 
-Faites nommer la règle en même temps que la correction. Prolongement : les apprenants écrivent la réponse de Sofie (3 phrases, dont au moins une avec inversion).
+Faites nommer la règle en même temps que la correction. *Op dinsdag* pour un mardi précis est l'usage belge ; aux Pays-Bas, on dirait plutôt *Dinsdag heb ik…* (*op dinsdag* y signifie « le mardi, chaque semaine »). Prolongement : les apprenants écrivent la réponse de Sofie (3 phrases, dont au moins une avec inversion).
 
 ---
 
@@ -605,14 +609,14 @@ Critère de réussite affiché : chaque phrase commence par l'amorce **et** le v
 - *En bas* : un teaser de M4, avec la carte « LEZEN → ik lez ? ik lees ? » et un point d'interrogation.
 
 **Contenu textuel**
-> 1. Conjuguez : *hij (maken)*, *jij (zitten)*, *wij (spreken)*.
+> 1. Conjuguez : *hij (maken)*, *jij (bellen)*, *wij (spreken)*.
 > 2. Transformez en question : *Je woont in Luik.*
 > 3. Commencez par « Morgen » : *Ik moet thuis werken.*
 >
 > Conjuguer 😟 😐 🙂 · Questionner 😟 😐 🙂 · Placer le verbe 😟 😐 🙂
 
 **Notes pour l'animateur** — Réponses :
-1. *maakt · zit · spreken*.
+1. *maakt · belt · spreken*.
 2. *Woon je in Luik?*
 3. *Morgen moet ik thuis werken.*
 

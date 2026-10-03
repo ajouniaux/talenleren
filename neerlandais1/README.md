@@ -37,7 +37,7 @@ Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en m
 
 ## À vérifier avant les cours
 
-- **Relecture du néerlandais** : les exemples ont été vérifiés. Une relecture finale par l'enseignante reste conseillée, en particulier pour les choix d'usage belge (*gsm, poetsen, verlof, Goeiedag*).
+- **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*) sont signalés dans les notes. Une dernière lecture par l'enseignante reste conseillée.
 - **Pictogrammes** : le pictogramme de *drijven* (archive « semi-réguliers ») doit être remplacé : il montre l'action de ramer.
 - **Formulaires des mises en situation (M2)** : les enseignes sont fictives (Sportclub Vitaal, Brasserie De Lepel). Les formulaires réels des archives contenaient un logo de marque.
 

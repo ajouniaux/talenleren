@@ -117,17 +117,19 @@
 - *À droite* : 4 sorties : carte **DE** bleu nuit, carte **HET** orange, carte **EEN** ardoise, case **Ø** en pointillés.
 - Les flèches, tracées dans la couleur de leur sortie :
   - le / la / l' → une flèche qui **se divise** vers DE et HET, avec l'étiquette « ? dépend du mot » ;
-  - les → DE ;
+  - les → DE, ou Ø au sens général ;
   - un / une → EEN ;
   - des / du / de la → Ø.
 
 **Contenu textuel**
 > **le, la, l'** → *de* ou *het* (selon le mot)
-> **les** → *de* (toujours !)
+> **les** → *de* (jamais *het*) — ou Ø au sens général : *Katten zijn lief.* (Les chats sont gentils.)
 > **un, une** → *een*
 > **des, du, de la** → Ø : *Ik drink koffie. Ik koop appels.*
 
 **Notes pour l'animateur** — Bonne nouvelle : 3 sorties sur 4 sont automatiques. Toute la difficulté est concentrée dans la flèche qui se divise. Prononciation : *de* « deu », *het* « ət » (le h est souvent muet à l'oral : *'t*), *een* « eun » (≠ *één*, le chiffre, M2).
+
+⚠ Piège classique : l'article **générique** français (« J'aime **le** café », « **Les** chats… ») devient Ø en néerlandais : *Ik hou van Ø koffie. Ø Katten zijn lief.* On le retravaille diapo 16.
 
 ---
 
@@ -214,7 +216,7 @@
 **Visuel / Schéma / Agencement**
 - Schéma **S8** : un **aimant DE** bleu nuit au centre.
 - Autour, 7 pastilles-suffixes reliées par des traits, chacune avec 2 exemples : **-ing · -heid · -ie · -ij · -nis · -de / -te · -teit**.
-- En périphérie, une pastille orange « ! *het vonnis, het getuigenis* » reliée à *-nis*.
+- En périphérie, des pastilles orange « ! » : *het vonnis, het getuigenis* (reliées à *-nis*), *het ding* (*-ing*), *het einde, het gemiddelde* (*-de*), *het ministerie* (*-ie*).
 - La pastille **-ing** est 2 fois plus grande, avec l'étiquette « ⭐ la plus utile au travail ».
 
 **Contenu textuel**
@@ -223,7 +225,7 @@
 > **-nis** : *de kennis · de gebeurtenis* · **-de / -te** : *de liefde · de hoogte* · **-teit** : *de universiteit · de kwaliteit*
 > *De oefening is niet zo moeilijk.* · *Ik zweer het je! Dat is de waarheid.*
 
-**Notes pour l'animateur** — Ces terminaisons sont fiables à presque 100 %. *-nis* a deux exceptions juridiques rares (*het vonnis, het getuigenis*). Coquille de l'archive corrigée : « les mots **par** -ie » devient « **en** -ie ». Les deux phrases-exemples de l'archive sont conservées.
+**Notes pour l'animateur** — Ces **suffixes** sont très fiables, mais pas à 100 %. Exceptions à connaître : *het ding* (la chose), *het einde* (la fin), *het gemiddelde* (la moyenne), *het ministerie* (fréquent dans l'administration belge), et deux mots juridiques en *-nis* (*het vonnis, het getuigenis*). Coquille de l'archive corrigée : « les mots **par** -ie » devient « **en** -ie ». Les deux phrases-exemples de l'archive sont conservées.
 
 ---
 
@@ -273,7 +275,7 @@ Ces familles sont moins utiles au travail : survolez-les en 5 minutes.
 - *het schip* est ajouté aux exceptions des transports ;
 - « les mots qui expriment le temps » était trop large : *het jaar, het uur, het weekend* sont parmi les mots les plus fréquents de la langue.
 
-Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar heeft 4 seizoenen, **het** weekend duurt 2 dagen.*
+Conseil : mémoriser ces 5 exceptions en bloc, **du plus long au plus court** : ***het** jaar → **het** seizoen → **het** weekend → **het** uur → **het** kwartier*. *het voorjaar / het najaar* (printemps / automne) ne contredisent pas la règle des saisons : ce sont des mots composés en *-jaar* (diapo 15).
 
 ---
 
@@ -291,7 +293,7 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 > *de tafel → het tafeltje · het huis → het huisje · de kop → het kopje*
 > *het meisje · het koekje · het broodje*
 
-**Notes pour l'animateur** — C'est la règle la plus fiable du module. Lien avec M3 (*Ik eet een koekje*) et M2 (*het meisje*, diapo 8). *het broodje* (le petit pain garni) est le roi de la pause de midi en Belgique. La formation des diminutifs (*-je / -tje / -pje*) sera étudiée en *Néerlandais 2*. Ici, on retient seulement : finale en *-je* → HET.
+**Notes pour l'animateur** — C'est la règle la plus fiable du module. Lien avec M3 (*Ik eet een koekje*) et avec la diapo 8 (*het meisje*). *het broodje* (le petit pain garni) est le roi de la pause de midi en Belgique. La formation des diminutifs (*-je / -tje / -pje*) sera étudiée en *Néerlandais 2*. Ici, on retient seulement : finale en *-je* → HET.
 
 ---
 
@@ -311,7 +313,7 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 **Contenu textuel**
 > 🍽️ **Infinitif employé comme nom** : *het eten · het leven · het werken*
 > 💬 **Langues** : *het Nederlands · het Frans*
-> 🪵 **Matières** : *het hout · het goud · het papier · het glas*
+> 🪵 **Matières** : *het hout · het goud · het papier · het glas* (! *de wol*)
 > 🎨 **Couleurs** (comme noms) : *het rood · het blauw* · 🧭 **Points cardinaux** : *het noorden · het zuiden*
 
 **Notes pour l'animateur** — L'infinitif nominalisé est fiable à 100 % : *Het eten is lekker* (la nourriture), *Het werken in Brussel is leuk* (le fait de travailler). Pour les langues, on utilise rarement l'article (*Ik spreek Ø Frans*), mais on dit *Het Nederlands is moeilijk*.
@@ -323,17 +325,18 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 **Objectif pédagogique** — Reconnaître les préfixes *ge-, be-, ver-, ont-* et les finales *-ment, -um, -isme*, et savoir que la **terminaison l'emporte**.
 
 **Visuel / Schéma / Agencement**
-- *Moitié gauche* : 4 **pastilles-préfixes** orange (*ge- · be- · ver- · ont-*), chacune suivie de 2 exemples.
+- *Moitié gauche* : 4 **pastilles-préfixes** orange (*ge- · be- · ver- · ont-*), chacune suivie de 2 exemples, avec la mention « + radical de verbe, sans suffixe ».
 - *Moitié droite* : 3 **pastilles-terminaisons** orange (*-ment · -um · -isme*), chacune avec ses exemples.
 - *Bandeau bas* : un mini-duel « préfixe vs terminaison » : *ver·gader·**ing*** → la flèche du préfixe (orange) est vaincue par celle de la terminaison (bleu), et une couronne 👑 est posée sur **-ing** → *de vergadering*.
 
 **Contenu textuel**
+> **Préfixe + radical de verbe** (sans suffixe) :
 > **ge-** : *het gesprek · het gebouw · het gezin* · **be-** : *het bedrijf · het beroep · het bezoek*
-> **ver-** : *het verhaal · het verlof* · **ont-** : *het ontbijt*
+> **ver-** : *het verhaal · het verlof* · **ont-** : *het ontbijt* · ! *de verkoop*
 > **-ment** : *het document · het moment* · **-um** : *het museum · het centrum* (! *de datum*) · **-isme** : *het toerisme*
 > 👑 **La terminaison gagne** : *de verga·der**ing** · de bestel**ling** · de gemeen**te***
 
-**Notes pour l'animateur** — Plusieurs mots de M2 en profitent : *het beroep*, *het gezin*, et *de gemeente* (exception par la terminaison *-te*). Ces préfixes sont des tendances fortes, pas des lois. *het verlof* (le congé) est le mot belge courant au bureau. Faites deviner l'article de *het bericht* (le message) et *de beslissing* (la décision).
+**Notes pour l'animateur** — Plusieurs mots de M2 en profitent : *het beroep*, *het gezin*, et *de gemeente* (exception par la terminaison *-te*). Ces préfixes sont des tendances fortes, pas des lois, et ils ne valent que pour un préfixe suivi d'un radical de verbe (*ge·spreken → het gesprek*). Un mot qui commence simplement par ces lettres n'est pas concerné (*de berg, de bel*). Ces préfixes ne s'appliquent ni aux personnes (*de verkoper, de bezoeker, de bediende* sont des personnes → DE), ni aux mots composés (*de vergaderzaal, de verjaardag* : c'est le dernier mot qui décide). *het verlof* (le congé) est le mot belge courant au bureau. Faites deviner l'article de *het bericht* (le message) et *de beslissing* (la décision).
 
 ---
 
@@ -373,9 +376,10 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 
 **Contenu textuel**
 > **1re mention** → *een* · **déjà connu** → *de / het* (comme en français)
-> ✗ ~~*Ik drink van de koffie*~~ → ✓ *Ik drink Ø koffie.* · *Wil je Ø water?* · *Ik koop Ø appels.*
+> ✗ ~~*Ik drink van de koffie*~~ → ✓ *Ik drink Ø koffie.* (du café) · *Wil je Ø water?* · *Ik koop Ø appels.*
+> *een koffie* = **un** café (une tasse) · « J'aime **le** café » → *Ik hou van Ø koffie.* (sens général)
 
-**Notes pour l'animateur** — Le fonctionnement *een → de / het* est identique au français. Seul le partitif pose problème : l'erreur *van de* calquée sur « du » est fréquente chez les débutants. *een* n'a pas de pluriel : *een appel → Ø appels*.
+**Notes pour l'animateur** — Le fonctionnement *een → de / het* est identique au français. Seul le partitif pose problème : l'erreur *van de* calquée sur « du » est fréquente chez les débutants. *een* n'a pas de pluriel : *een appel → Ø appels*. Au bar ou à la machine, *een koffie* (« un café ») est parfaitement correct. Le sens **général** prend aussi Ø : *Ik hou van koffie*, *Katten zijn lief*.
 
 ---
 
@@ -406,20 +410,25 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 **Visuel / Schéma / Agencement**
 - Organigramme **S9** vertical, en 7 losanges successifs. Chaque **OUI** sort vers la droite sur une carte DE (bleue) ou HET (orange) ; chaque **NON** descend.
   1. Pluriel ? → **DE**
-  2. Finit par *-je* ? → **HET**
-  3. Infinitif ou langue ? → **HET**
-  4. Finit par *-ing, -heid, -ie, -ij, -nis, -de/-te, -teit* ? → **DE**
-  5. Commence par *ge-, be-, ver-, ont-* ou finit par *-ment, -um, -isme* ? → **HET**
-  6. Une personne ? → **DE** (sauf *kind*)
-  7. Mot composé ? → « regarde le dernier mot » (boucle vers le haut)
+  2. Mot composé ? → « je regarde le **dernier mot** » et je recommence avec lui (flèche qui remonte)
+  3. Finit par *-je* (diminutif) ? → **HET**
+  4. Une personne ? → **DE** (sauf *het kind, het lid*)
+  5. Infinitif ou langue ? → **HET**
+  6. Suffixe *-ing, -heid, -ie, -ij, -nis, -de/-te, -teit* ? → **DE** (! *het ding, het einde, het ministerie*)
+  7. Préfixe *ge-, be-, ver-, ont-* + radical de verbe, **sans suffixe** ? Ou suffixe *-ment, -um, -isme* ? → **HET** (! *de verkoop, de datum*)
 - Sortie finale (NON partout) : une bouée 🛟 « dictionnaire… ou **DE** ».
 
 **Contenu textuel**
-> 1 Pluriel → DE · 2 *-je* → HET · 3 infinitif / langue → HET · 4 *-ing, -heid, -ie…* → DE
-> 5 *ge-, be-, ver-, ont-, -ment, -um* → HET · 6 personne → DE · 7 composé → dernier mot
+> 1 Pluriel → DE · 2 composé → dernier mot · 3 *-je* → HET · 4 personne → DE
+> 5 infinitif / langue → HET · 6 *-ing, -heid, -ie…* → DE · 7 *ge-, be-, ver-, ont-* + verbe, *-ment, -um* → HET
 > Sinon → dictionnaire, ou **DE** 🛟
 
-**Notes pour l'animateur** — L'ordre des questions est important : la terminaison (4) passe **avant** le préfixe (5), ce qui règle *de vergadering*. Testez l'organigramme en direct sur 5 mots tirés au sort parmi ceux de l'exercice 1. À imprimer au format A5 avec l'organigramme de M4.
+**Notes pour l'animateur** — L'ordre des questions est important :
+- le mot composé (2) passe d'abord : *de vergaderzaal* se décide sur *zaal*, pas sur *ver-* ;
+- la personne (4) passe avant le préfixe : *de verkoper, de bezoeker* ;
+- le suffixe (6) passe avant le préfixe (7) : *de vergadering*.
+
+Testez l'organigramme en direct sur 5 mots tirés au sort parmi ceux de l'exercice 1. À imprimer au format A5 avec l'organigramme de M4.
 
 ---
 
@@ -473,7 +482,7 @@ Conseil : mémoriser ces 5 exceptions en bloc, par une phrase : ***Het** jaar he
 > **✓ CORRECTIE** — *de huizen · de kinderen · de collega's · de boeken · de vergaderingen · de meisjes · de lessen · de ramen*
 
 **Notes pour l'animateur** — Points d'attention :
-- *collega's* (apostrophe après une voyelle finale) ;
+- *collega's* (apostrophe après une voyelle longue finale *a, i, o, u, y* : *collega's, foto's, menu's*) ;
 - *meisjes* (*-s* après *-je*) ;
 - *lessen* et *ramen* : la règle de M1 (doubler / simplifier).
 
@@ -495,7 +504,7 @@ Ces nuances du pluriel (-s / -en) sont approfondies en *Néerlandais 2*.
 > 5 We leren …… talen. · 6 …… kantoor is op de tweede verdieping. · 7 Ik neem …… trein van 8 uur.
 > 8 …… informatie staat op de website. · 9 Mijn zoon wil …… broodje met kaas. · 10 …… documenten liggen op tafel.
 >
-> **✓ CORRECTIE** — 1 Ø · 2 De · 3 een · 4 Het · 5 Ø · 6 Het · 7 de · 8 De · 9 een · 10 De
+> **✓ CORRECTIE** — 1 Ø (ou *een* : une tasse) · 2 De · 3 een · 4 Het · 5 Ø · 6 Het · 7 de · 8 De · 9 een · 10 De
 
 **Notes pour l'animateur** — Faites justifier :
 - n° 1 et 5 : partitif ou pluriel indéfini (diapo 16) ;

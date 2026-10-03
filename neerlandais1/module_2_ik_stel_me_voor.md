@@ -96,9 +96,9 @@
 
 **Contenu textuel**
 > 🪪 Ik **ben** Sofie Peeters. · 🎂 Ik **ben** 34 jaar. · 🏠 Ik **woon** in Gent.
-> 🌍 Ik **kom** uit België. · 💼 Ik **werk** bij een bank, in Brussel. · 💬 Ik **spreek** Nederlands, Frans en Engels.
+> 🌍 Ik **kom** uit België. · 💼 Ik **werk** in Brussel, op de personeelsdienst. · 💬 Ik **spreek** Nederlands, Frans en Engels.
 
-**Notes pour l'animateur** — Lisez le texte une fois, bulles vides. Question : « Qu'avez-vous compris ? » Remplissez les bulles au fur et à mesure des réponses (les mots transparents aident : *Gent, België, bank, Frans*). Faites remarquer que deux phrases commencent par *Ik ben* : l'une donne le nom, l'autre l'âge. C'est le piège de la diapo 8.
+**Notes pour l'animateur** — Lisez le texte une fois, bulles vides. Question : « Qu'avez-vous compris ? » Remplissez les bulles au fur et à mesure des réponses (les mots transparents aident : *Gent, België, Brussel, Frans*). *de personeelsdienst* = le service du personnel (RH). Faites remarquer que deux phrases commencent par *Ik ben* : l'une donne le nom, l'autre l'âge. C'est le piège de la diapo 8.
 
 ---
 

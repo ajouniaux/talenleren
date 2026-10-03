@@ -103,7 +103,7 @@ Pièges fréquents :
 - confusion E/I : en néerlandais, E se dit « é » ;
 - J prononcé « ji » au lieu de « yé » ;
 - G : son raclé, plus doux en Flandre qu'aux Pays-Bas ;
-- IJ : dans les dictionnaires, on le trouve souvent au Y. On l'appelle « lange ij » pour le distinguer de « ei » (« korte ei »).
+- IJ : se comporte comme une seule lettre. En début de mot, les deux lettres prennent la majuscule (*IJsland*). On l'appelle « lange ij » pour le distinguer de « ei » (« korte ei »).
 
 ---
 
@@ -148,6 +148,8 @@ Correction par rapport à l'archive : *ruzie / muziek* ne permettait aucun contr
 
 **Notes pour l'animateur** — Reprenez le script de l'archive : « Un son est court quand la voyelle est suivie d'une consonne dans la même syllabe. Un son est long quand la voyelle termine la syllabe. » Faites mimer : les mains écartées pour une porte ouverte, les mains jointes pour une porte fermée. Ce geste servira de signal non verbal pendant les corrections orales.
 
+Une seule exception, à signaler dès maintenant : le **e non accentué** se prononce « e » muet, même en syllabe ouverte. C'est le cas des préfixes *be-, ge-, ver-*, de la finale *-en* et du *-e* final : *be·ta·len* = « beu-TAA-len », pas « béé-taa-len » (voir diapo 12).
+
 ---
 
 ### [DIAPOSITIVE 6 : Comment couper un mot en syllabes ?]
@@ -189,7 +191,7 @@ Correction par rapport à l'archive : *ruzie / muziek* ne permettait aucun contr
 > **U** — *bus* → *bus·sen* (le bus)
 > **Pour garder le son COURT, je double la consonne.**
 
-**Notes pour l'animateur** — Reprenez le script de l'archive (« Pour garder le son court, le néerlandais double la consonne »). Exemples remplacés : *muf*, *los* et *bel* étaient rares ou ambigus. *Les → lessen* parle directement aux apprenants (« les lessen Nederlands »).
+**Notes pour l'animateur** — Reprenez le script de l'archive (« Pour garder le son court, le néerlandais double la consonne »). Exemples remplacés : *muf* et *los* étaient rares, et *bel* était présenté tantôt comme nom (sonnette), tantôt comme verbe. *Les → lessen* parle directement aux apprenants (« les lessen Nederlands »).
 
 ---
 
@@ -209,7 +211,7 @@ Correction par rapport à l'archive : *ruzie / muziek* ne permettait aucun contr
 > **U** — *muur* → *mu·ren* (le mur)
 > **Syllabe fermée : 2 voyelles. Syllabe ouverte : 1 seule suffit.**
 
-**Notes pour l'animateur** — Reprenez le script de l'archive (« LA-TEN : la syllabe est ouverte, une seule voyelle suffit »). Faites formuler par la classe : « Pourquoi pas *raamen* ? » Correction par rapport à l'archive : *diffuus / diffuze* (rare, orthographe et découpage fautifs) est remplacé par *muur / muren*.
+**Notes pour l'animateur** — Reprenez le script de l'archive (« LA-TEN : la syllabe est ouverte, une seule voyelle suffit »). Faites formuler par la classe : « Pourquoi pas *raamen* ? » Correction par rapport à l'archive : *diffuus* (rare, avec la forme fautive « DIFFUZE » au lieu de *diffuse* et le découpage « DI-FFU-ZE » au lieu de *dif·fu·se*) est remplacé par *muur / muren*.
 
 ---
 
@@ -236,7 +238,7 @@ Correction par rapport à l'archive : *ruzie / muziek* ne permettait aucun contr
 >
 > **Court** = 1 voyelle + consonne doublée · **Long** = 2 voyelles (fermée) ou 1 voyelle (ouverte)
 
-**Notes pour l'animateur** — Paire minimale de l'archive à faire lire : *BE·LEN* (son long, « béé-len ») / *BEL·LEN* (son court, « bèl-len »). Le I est absent du tableau à dessein : il suit sa propre logique (diapo suivante). Proposez de photographier cette diapo : c'est la fiche-mémo du module.
+**Notes pour l'animateur** — Paire minimale à faire lire : *BO·MEN* (les arbres, son long, « bôô-men ») / *BOM·MEN* (les bombes, son court, « bom-men »). Elle remplace la paire de l'archive *BE·LEN / BEL·LEN* : *belen* n'existe pas en néerlandais. Le I est absent du tableau à dessein : il suit sa propre logique (diapo suivante). Proposez de photographier cette diapo : c'est la fiche-mémo du module.
 
 ---
 
@@ -328,7 +330,7 @@ Pour **ui**, le plus difficile : partez de « œil » puis glissez vers « i » 
 > fermée (e muet) · **ouverte → long** · e muet · fermée
 > → « vər-**GHAA**-də-ring »
 
-**Notes pour l'animateur** — Faites appliquer la méthode à 2 autres mots du monde du travail : *telefoneren* (te·le·fo·ne·ren : toutes les syllabes sont ouvertes) et *collega* (col·le·ga). Signalez que l'accent tonique tombe souvent sur la syllabe du radical (*ga* dans *vergadering*).
+**Notes pour l'animateur** — Faites appliquer la méthode à 2 autres mots du monde du travail : *telefoneren* (te·le·fo·**ne**·ren : *te, fo, ne* sont ouvertes et longues, *le* et *ren* ont un e muet) et *collega* (col·le·ga). Signalez que l'accent tonique tombe souvent sur la syllabe du radical (*ga* dans *vergadering*).
 
 ---
 
@@ -371,7 +373,7 @@ Pour **ui**, le plus difficile : partez de « œil » puis glissez vers « i » 
 - **Tour 1** : lisez un seul mot de chaque paire, dans un ordre aléatoire. La classe lève le carton.
 - **Tour 2** : lisez la paire entière. Les apprenants disent « 1 » ou « 2 » pour désigner le mot long.
 
-Notez au tableau les paires qui posent problème. *stad / staat* montre aussi que le d final se prononce t (diapo 12).
+Notez au tableau les paires qui posent problème. *peen* (carotte) est surtout néerlandais ; en Flandre, on dit plutôt *wortel* : on le garde ici pour la paire minimale. *stad / staat* montre aussi que le d final se prononce t (diapo 12).
 
 ---
 

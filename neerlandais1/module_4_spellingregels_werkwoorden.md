@@ -218,7 +218,7 @@
 > *rijden → ik rijd · hij rijdt* (rouler) · *vinden → ik vind · hij vindt* (trouver)
 > *antwoorden → ik antwoord · hij antwoordt* (répondre)
 
-**Notes pour l'animateur** — L'astuce mnémotechnique s'appuie sur un verbe sans *d* : remplacez par *werken* (*ik werk / hij werkt*). Si on entend un *t* avec *werken*, on ajoute un *t* avec *worden*. C'est la question qu'on se pose à chaque fois. Même les néerlandophones font cette faute : rassurez les apprenants, mais exigez-la dans les productions écrites.
+**Notes pour l'animateur** — L'astuce mnémotechnique s'appuie sur un verbe sans *d* : remplacez par *werken* (*ik werk / hij werkt*). Si on entend un *t* avec *werken*, on ajoute un *t* avec *worden*. C'est la question qu'on se pose à chaque fois. Même les néerlandophones font cette faute : rassurez les apprenants, mais exigez la forme correcte dans les productions écrites.
 
 ---
 
@@ -254,7 +254,7 @@
 - *À droite* : un tableau des 5 verbes, avec une colonne pour chacune des 3 bandes S1.
 
 **Contenu textuel**
-> **Infinitif − n = radical** (la voyelle est en fin de mot : porte ouverte → son long)
+> **Verbes d'une syllabe : infinitif − n = radical** (la voyelle est en fin de mot : porte ouverte → son long)
 > | | ik | jij · u · hij | wij · jullie · zij |
 > |---|---|---|---|
 > | **gaan** (aller) | ga | gaat | gaan |
@@ -347,7 +347,7 @@
 **Visuel / Schéma / Agencement**
 - Organigramme **S9** vertical, plein écran, avec des flèches OUI (vert) / NON (ardoise) :
   - **Losange 1** « *zijn, hebben, kunnen, willen, mogen* ? » → OUI : carte ⭐ « par cœur (diapo 13) ». NON ↓
-  - **Losange 2** « Infinitif en *-aan, -ien, -oen* ? » → OUI : « radical = − n ». NON : « radical = − en ».
+  - **Losange 2** « Infinitif d'une seule syllabe (*gaan, staan, slaan, zien, doen*) ? » → OUI : « radical = − n ». NON : « radical = − en ».
   - **Rectangle 3** « *z → s · v → f* ».
   - **Rectangle 4** « voyelle longue → je double · consonne double → je simplifie ».
   - **Sortie** : la carte **S1**, avec les 3 bandes et les mentions « radical en -t : pas de 2e t » et « *je / jij* après le verbe : pas de t ».
@@ -407,7 +407,7 @@
 > 1 Jan en Sofie (geven) een cadeau. · 2 Ik (reizen) elke zomer. · 3 Jij (lezen) veel boeken.
 > 4 (Leven) jij gezond? · 5 U (rijden) voorzichtig. · 6 Mijn collega (praten) te veel.
 > 7 Hij (worden) volgende maand 40. · 8 (Vinden) je de les leuk? · 9 Ik (gaan) met de trein naar Luik.
-> 10 (Zien) u de bus? · 11 Ze (schrijven) een mail naar de klant. · 12 We (blijven) vandaag thuis.
+> 10 (Zien) u de bus? · 11 Sofie (schrijven) een mail naar de klant. · 12 We (blijven) vandaag thuis.
 >
 > **✓ CORRECTIE** — 1 geven · 2 reis · 3 leest · 4 Leef · 5 rijdt · 6 praat · 7 wordt · 8 Vind · 9 ga · 10 Ziet · 11 schrijft · 12 blijven
 
@@ -470,7 +470,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik **wil** thuis **werken**.* · 2 *Hij **kan** Nederlands **spreken**.* · 3 *We **mogen** met de bankkaart **betalen**.* · 4 *Jullie **moeten** het formulier **invullen**.* · 5 ***Kun / Kan** jij morgen **rijden**?* · 6 *Ze **wil** naar de vergadering **gaan**.*
 
-**Notes pour l'animateur** — Le n° 4 est le plus formateur : la particule *in* se recolle (*invullen*). Au n° 5, l'inversion se combine à la pince. Au n° 6, on entend aussi *Ze wil naar de vergadering* (sans *gaan*) à l'oral : acceptez-le en le signalant.
+**Notes pour l'animateur** — Le n° 4 est le plus formateur : la particule *in* se recolle (*invullen*). Au n° 5, l'inversion se combine à la pince. Au n° 6, *Ze wil naar de vergadering* (sans *gaan*) est aussi correct, à l'oral comme à l'écrit : acceptez-le.
 
 ---
 

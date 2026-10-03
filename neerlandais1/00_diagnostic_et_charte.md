@@ -100,7 +100,7 @@
 | Se présenter · 15 | Logo d'une marque sur le formulaire | Marque réelle | Formulaire neutre (enseigne fictive) |
 | Se présenter · 21–23 | Synonymes en production libre en 1 min | Trop exigeant en A1 | Tri d'un nuage de mots (Woordwolk) |
 | Se présenter · 2 | Objectif « verschillen in formaliteit » | Annoncé, jamais traité | 3 diapos : saluer, je/u, arbre « vous → u ou jullie ? » |
-| Verbes réguliers · 3–5 | « wanneer – waar – hoe » | Ordre faux | **Te-Ma-Pl** : temps – manière – lieu (*wanneer – hoe – waar*) |
+| Verbes réguliers · 3–5 | « wanneer – waar – hoe » | Ce n'est pas l'ordre neutre | **Te-Ma-Pl** : temps – manière – lieu (*wanneer – hoe – waar*), présenté comme ordre par défaut |
 | Verbes réguliers · 5 | « 38 uur per week » dans la colonne WAT | C'est un complément de temps | Case ③ |
 | Verbes réguliers · 5 | « We brengen deze zomervakantie onze vakantie met z'n allen door » | Redondant, peu naturel | Remplacé par *We bellen vandaag een klant op.* |
 | Verbes réguliers · 5 | « Ze nemen vandaag aan een opleiding met de leraar deel » | Ordre peu naturel | *Ze nemen vandaag aan een opleiding deel.* |
@@ -127,7 +127,8 @@
 | Prononciation · 2 | « Dans la vidéo précédente… » | Contenu absent | Discrimination auditive intégrée (M1, diapo 4 + exercice 1) |
 | Prononciation · 2 | Le I illustré par *ruzie / muziek* | Les deux mots contiennent *ie* long : aucun contraste | *zit / ziet* |
 | Prononciation · 3 | Notes « BEL (sonnette) » ≠ tableau « BEL = appeler, verbe » ; « LAAT (tard) » ≠ « laisser » | Incohérences notes/diapo | Exemples réharmonisés (noms au singulier → pluriel) |
-| Prononciation · 4 | « DIFUUS » / « DIFFUUS » ; découpage « DI-FFU-ZE » | Orthographe ; découpage faux (*dif-fu-ze*) ; mot rare | *muur → mu·ren* |
+| Prononciation · 4 | « DIFUUS » / « DIFFUUS » → « DIFFUZE », découpage « DI-FFU-ZE » | Orthographe (*diffuus → diffuse*) ; découpage faux (*dif·fu·se*) ; mot rare | *muur → mu·ren* |
+| Prononciation · 5 (notes) | « BE-LEN / BEL-LEN » | *belen* n'existe pas | *bo·men / bom·men* (arbres / bombes) |
 | Prononciation · 4 | *MIER / MIEREN* présenté comme voyelle doublée | *ie* est un digramme invariable (jamais « ii ») | Traité avec les sons invariables |
 | Prononciation · 3–4 | *muf, goor, diffuus, loeien* | Mots rares | Mots fréquents : *les, vis, pot, bus, raam, been, boom, muur* |
 
@@ -232,6 +233,7 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
   - ⑤ **AAN/VOOR WIE? AAN/VOOR WAT?** ;
   - ⑥ **WERKWOORD 2** (particule, infinitif).
 - Les boîtes ② et ⑥ ont un **contour rouge épais** et un **cercle rouge** autour de la pastille. Les autres ont un contour ardoise.
+- Te-Ma-Pl est l'ordre **neutre**, pas une loi. Un pronom objet (*je, hem, het*) se place avant ③ (*Ik bel je morgen op*) ; un objet défini peut aussi précéder ③ (*Ik bel de klant morgen op*).
 - Sous la grille, les phrases s'affichent ligne par ligne (une par clic), chaque groupe sous sa colonne, les verbes en rouge gras.
 
 **S3 — Le tourniquet (inversion V2)**
@@ -267,7 +269,7 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - *À droite* : 4 sorties : carte **DE** (bleu nuit), carte **HET** (orange), carte **EEN** (ardoise), case **Ø** (pointillés).
 - Flèches :
   - le/la/l' → une flèche **qui se divise** vers DE et HET, avec « ? dépend du mot » ;
-  - les → DE ;
+  - les → DE (ou Ø au sens général : *Katten zijn lief*) ;
   - un/une → EEN ;
   - des/du/de la → Ø.
 
@@ -322,7 +324,7 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | verbe conjugué | de persoonsvorm (pv) | *hij **werkt*** |
 | sujet | het onderwerp | ***Karim** werkt* |
 | inversion | de inversie | *Morgen **werk ik*** |
-| particule séparable | het scheidbaar deel | *Ik bel je **op*** |
+| particule séparable | het scheidbare deel | *Ik bel je **op*** |
 | article défini / indéfini | bepaald / onbepaald lidwoord | *de, het / een* |
 | nom | het zelfstandig naamwoord | *het huis* |
 | singulier / pluriel | het enkelvoud / het meervoud | *het huis / de huizen* |
