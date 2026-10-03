@@ -151,7 +151,7 @@ exports.build = (d) => {
       ['vanaf · maandag', 'à partir de · lundi', '**kennen**', 'connaître'],
     ],
     foot: 'Pour le **travail administratif** : ^^de^^ administratie. %%het%% bestuur = la **direction** ou l’administration **publique** (//het openbaar bestuur//).',
-    notes: "Ajout : kennen (connaître), nécessaire pour le Jalon 2 (Je ne connais pas encore toutes les tâches). Approximation du livret : « het bestuur » ne correspond pas bien à « l’administration » de la phrase 2 du Jalon 2 (= le travail administratif) ; on traduit par « de administratie » et on garde « het bestuur » pour la direction d’une organisation ou le secteur public. Le sommaire de la section 4 (page d’ouverture, avant la p. 92) numérote cette situation « 05 » ; dans le livret, c’est bien la fiche 6.",
+    notes: "Ajout : kennen (connaître), nécessaire pour le Jalon 2 (Je ne connais pas encore toutes les tâches). Approximation du livret : « het bestuur » ne correspond pas bien à « l’administration » de la phrase 2 du Jalon 2 (= le travail administratif) ; on traduit par « de administratie » et on garde « het bestuur » pour la direction d’une organisation ou le secteur public. Coquille du livret : le sommaire de la section 4 (page d’ouverture, avant la p. 92) numérote cette situation « 05 » ; dans le livret, c’est bien la fiche 6.",
   });
 
   d.table({

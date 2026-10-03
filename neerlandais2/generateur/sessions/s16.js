@@ -158,7 +158,7 @@ exports.build = (d) => {
       ['^^de^^ manager', 'le / la manager', '^^de^^ **naam** · namen', 'le nom · les noms'],
     ],
     foot: '//samenwerken// est **séparable** : //We werken vaak **samen**.// · %%het%% team = ^^de^^ ploeg (même sens, très belge).',
-    notes: "Le livret donne « team » sans article : het team. Ajouts pour les Jalons : de logistiek, de manager (Jalon 1, phrases 3 et 5) et de naam · namen (Jalon 2, phrase 5). En Belgique, le service se dit aussi « de dienst » (de personeelsdienst = le service du personnel). Le sommaire de la section 4 (page d’ouverture) annonce en 07 « Au téléphone avec un client » : dans le livret, la fiche 7 est bien « Se présenter dans l’entreprise ».",
+    notes: "Le livret donne « team » sans article : het team. Ajouts pour les Jalons : de logistiek, de manager (Jalon 1, phrases 3 et 5) et de naam · namen (Jalon 2, phrase 5). En Belgique, le service se dit aussi « de dienst » (de personeelsdienst = le service du personnel). Coquille du livret : le sommaire de la section 4 (page d’ouverture) annonce en 07 « Au téléphone avec un client » : dans le livret, la fiche 7 est bien « Se présenter dans l’entreprise ».",
   });
 
   d.table({
