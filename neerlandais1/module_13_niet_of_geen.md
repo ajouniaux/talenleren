@@ -170,7 +170,8 @@
 **Contenu textuel**
 > ① **À la fin** de la phrase simple (après le complément défini) : *Ik ken Liesbeth **niet**. · Ik zie de klant vandaag **niet**.*
 > ② **Devant le 2e élément verbal** (infinitif, particule, participe) : *Ik kan **niet** komen. · Hij eet zijn frieten **niet** op. · Ik heb **niet** gestudeerd.*
-> ③ **Devant** une préposition, un adjectif, un adverbe : *Zij gaat **niet** naar school. · Het is **niet** duur. · Ik werk **niet** graag.*
+> ③ **Devant** une préposition, un adjectif, un adverbe de manière : *Zij gaat **niet** naar school. · Het is **niet** duur. · Ik werk **niet** graag.*
+> Mais les adverbes de temps (*vandaag, morgen, gisteren*) restent **devant** *niet* : *Ik werk vandaag **niet**.*
 
 **Notes pour l'animateur** — Règle ② = la pince : *niet* se place juste avant la mâchoire droite. *Ik heb niet gestudeerd* annonce le M15. Les règles « imparfait » et « *om … te* » de l'archive sont réservées à Néerlandais 2.
 
@@ -257,7 +258,7 @@
 
 **Contenu textuel**
 > **geen** = niet + een / Ø (+ nom) · **niet** = tout le reste
-> Place de *niet* : ① à la fin · ② devant le 2e verbe · ③ devant préposition / adjectif / adverbe
+> Place de *niet* : ① à la fin · ② devant le 2e verbe · ③ devant préposition / adjectif / adverbe de manière (*vandaag, morgen* : avant *niet*)
 > *nooit · niets · niemand · nog niet · niet meer · jawel!*
 
 **Notes pour l'animateur** — Référence pour les exercices.
@@ -310,7 +311,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik heb geen broer.* · 2 *Karim werkt niet op maandag.* · 3 *Sofie kan vandaag niet komen.* · 4 *We nemen de trein niet.* · 5 *Ik spreek geen Duits.* · 6 *Hij belt de klant niet op.* · 7 *Het is niet duur.* · 8 *Ik drink nooit koffie.*
 
-**Notes pour l'animateur** — N° 8 : *altijd* (toujours) ↔ *nooit* (jamais). N° 2 : *op maandag* commence par une préposition (règle ③).
+**Notes pour l'animateur** — N° 8 : *altijd* (toujours) ↔ *nooit* (jamais). N° 2 : *op maandag* commence par une préposition (règle ③) ; *Karim werkt op maandag niet* est aussi accepté (ordre plus neutre).
 
 ---
 

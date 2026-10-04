@@ -305,7 +305,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 17 ex4 la bonne particule
-  const ex4 = [['Kunt u dit formulier [[in]]vullen?', 'memo'], ['Ik bel je morgen [[terug]].', 'telephone-receiver'], ['Neem je paraplu [[mee]]!', 'umbrella'], ['Doe het raam [[dicht]], het is koud.', 'window'], ['Kleed je vlug [[aan]]!', 't-shirt'], ['Ik sta elke dag om 7 uur [[op]].', 'alarm-clock'], ['Log [[uit]] voor je weggaat!', 'laptop'], ['De bus is [[weg]], we zijn te laat.', 'bus']];
+  const ex4 = [['Kunt u dit formulier [[in]]vullen?', 'memo'], ['Je hebt gebeld? Ik bel je morgen [[terug]].', 'telephone-receiver'], ['Neem je paraplu [[mee]]!', 'umbrella'], ['Doe het raam [[dicht]], het is koud.', 'window'], ['Kleed je vlug [[aan]]!', 't-shirt'], ['Ik sta elke dag om 7 uur [[op]].', 'alarm-clock'], ['Log [[uit]] voor je weggaat!', 'laptop'], ['De bus is [[weg]], we zijn te laat.', 'bus']];
   d.ex({ g: 17, title: 'Exercice 4 — La bonne particule', stars: '★★', instr: 'Complétez avec une particule de la banque.' }, (s, mode, top) => {
     const rh = (6.88 - top) / 4;
     ex4.forEach(([t, il], i) => {

@@ -126,7 +126,7 @@ function build(d) {
       d.t(s, nl, x + 1.15, 4.2, 4.3, 0.7, { size: 23, valign: 'middle', color: c });
       d.t(s, lab, x + 1.15, 4.9, 4.3, 0.5, { size: 15, italic: true, color: 'accent5', valign: 'middle' });
     });
-    d.t(s, 'Test : remplacez « pouvoir » par « avoir le droit ». Si ça marche → **mogen**. · //{{Kan ik binnenkomen?}}// = est-ce physiquement possible ?', 0.9, 5.8, 11.6, 0.9, { size: 17, valign: 'middle', align: 'center' });
+    d.t(s, 'Test : remplacez « pouvoir » par « avoir le droit ». Si ça marche → **mogen**. · //Kan ik binnenkomen?// s’entend aussi en Flandre, mais pour une **permission**, //Mag ik…?// est la forme sûre.', 0.9, 5.8, 11.6, 0.9, { size: 17, valign: 'middle', align: 'center' });
   }
 
   // ---------------------------------------------------------------- 7 piège savoir

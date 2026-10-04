@@ -416,7 +416,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 18 ex2 t ou d
-  const ex2 = [['gewerk', 't'], ['gebel', 'd'], ['gefiets', 't'], ['gehoor', 'd'], ['gekook', 't'], ['geleer', 'd'], ['gestop', 't'], ['gewoon', 'd'], ['gelach', 't'], ['geleef', 'd']];
+  const ex2 = [['gewerk', 't'], ['gebel', 'd'], ['gefiets', 't'], ['gehoor', 'd'], ['gekook', 't'], ['geleer', 'd'], ['gestop', 't'], ['gewoon', 'd'], ['gerook', 't'], ['geleef', 'd']];
   d.ex({ g: 18, title: 'Exercice 2 — t ou d ?', stars: '★', instr: 'Levez le carton T ou D ! Puis écrivez la dernière lettre.' }, (s, mode, top) => {
     d.t(s, '##S##°°o°°##FT##  ##K##°°e°°##t####CH##°°u°°##P##', 0.6, top, 12.13, 0.65, { size: 30, align: 'center', valign: 'middle', head: true });
     const w = 2.25; const h = 1.05;
@@ -431,7 +431,7 @@ function build(d) {
       d.oval(s, x, by, 1.2, 1.2, { fill: c });
       d.t(s, L, x, by, 1.2, 1.2, { size: 44, bold: true, color: 'bg1', align: 'center', valign: 'middle', head: true });
     });
-    if (mode === 'a') d.t(s, ['//gelacht// : //ch// est dans KetCHuP', '//geleefd// : //v// à l’infinitif (diapo 7)'], 4.0, by, 5.33, 1.2, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+    if (mode === 'a') d.t(s, ['//gerookt// : //k// est dans KetCHuP', '//geleefd// : //v// à l’infinitif (diapo 7)'], 4.0, by, 5.33, 1.2, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
   });
 
   // ---------------------------------------------------------------- 19 ex3 hebben of zijn
@@ -458,7 +458,7 @@ function build(d) {
   // ---------------------------------------------------------------- 21 ex5 heb je ooit
   {
     const s = d.page({ g: 21, tag: 'JIJ NU !', title: 'Exercice 5 — Heb je ooit…?', stars: '★' });
-    const G = [['Big Ben gezien', 'gb'], ['in New York geweest', 'statue-of-liberty'], ['een marathon gelopen', 'person-running'], ['slakken gegeten', 'snail'],
+    const G = [['Big Ben gezien', 'gb'], ['New York bezocht', 'statue-of-liberty'], ['een marathon gelopen', 'person-running'], ['slakken gegeten', 'snail'],
       ['met dolfijnen gezwommen', 'dolphin'], ['een taart gebakken', 'shortcake'], ['in een vliegtuig geslapen', 'airplane'], ['een Nederlandse film gezien', 'clapper-board']];
     const w = 2.05; const h = 2.45;
     G.forEach(([t, il], i) => {

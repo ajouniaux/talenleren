@@ -152,13 +152,13 @@ function build(d) {
     const R = [
       ['①', 'À la fin de la phrase simple', [[['Ik', 'n'], ['ken', 'v'], ['Liesbeth', 'n'], ['niet.', 'ng']], [['Ik', 'n'], ['zie', 'v'], ['de klant vandaag', 'n'], ['niet.', 'ng']]]],
       ['②', 'Devant le 2e élément verbal', [[['Ik', 'n'], ['kan', 'v'], ['niet', 'ng'], ['komen.', 'i']], [['Hij', 'n'], ['eet', 'v'], ['zijn frieten', 'n'], ['niet', 'ng'], ['op.', 'i']]]],
-      ['③', 'Devant préposition, adjectif, adverbe', [[['Zij', 'n'], ['gaat', 'v'], ['niet', 'ng'], ['naar school.', 'n']], [['Het', 'n'], ['is', 'v'], ['niet', 'ng'], ['duur.', 'n']]]],
+      ['③', 'Devant préposition, adjectif, adverbe de manière (//vandaag// : avant //niet//)', [[['Zij', 'n'], ['gaat', 'v'], ['niet', 'ng'], ['naar school.', 'n']], [['Het', 'n'], ['is', 'v'], ['niet', 'ng'], ['duur.', 'n']]]],
     ];
     R.forEach(([n, lab, rows], i) => {
       const y = 1.72 + i * 1.62;
       d.rect(s, 0.6, y, 12.13, 1.5, { fill: i % 2 ? 'bg1' : 'bg2', line: BORDER });
       d.num(s, n === '①' ? 1 : n === '②' ? 2 : 3, 0.75, y + 0.15, 0.5, NIET, 16);
-      d.t(s, lab, 1.4, y + 0.08, 9, 0.55, { size: 17, bold: true, color: NIET, valign: 'middle' });
+      d.t(s, lab, 1.4, y + 0.08, 11.2, 0.55, { size: 17, bold: true, color: NIET, valign: 'middle' });
       rows.forEach((r, k) => strip(s, 1.4 + k * 5.7, y + 0.7, r, { size: 18, h: 0.65, gap: 0.06 }));
     });
     d.t(s, 'Règle ② = la pince : //niet// juste avant la mâchoire droite (infinitif, particule, participe).', 0.6, 6.95 - 0.38, 12.13, 0.35, { size: 15, italic: true, color: 'accent5', align: 'center' });
@@ -237,7 +237,7 @@ function build(d) {
     d.t(s, '//Ik heb geen auto. · Ik werk niet.//', 0.8, 3.45, 5.5, 1.1, { size: 18, color: 'accent5', valign: 'middle' });
     d.rect(s, 6.83, 1.7, 5.9, 3.1, { fill: 'bg1', line: NIET, lw: 2.5, shadow: true });
     d.t(s, 'PLACE DE NIET', 7.03, 1.8, 5.5, 0.4, { size: 14, bold: true, color: NIET, cs: 2 });
-    d.t(s, ['**①** à la fin', '**②** devant le 2e verbe', '**③** devant préposition / adjectif / adverbe'], 7.03, 2.3, 5.5, 2.4, { size: 19, gap: 10, valign: 'middle' });
+    d.t(s, ['**①** à la fin', '**②** devant le 2e verbe', '**③** devant préposition / adjectif / adverbe de manière', '//vandaag, morgen// : avant //niet//'], 7.03, 2.25, 5.5, 2.5, { size: 17, gap: 8, valign: 'middle' });
     const W = ['nooit', 'niets', 'niemand', 'nog niet', 'niet meer', 'jawel!'];
     W.forEach((w, i) => {
       const x = 0.6 + i * 2.06;
@@ -316,7 +316,7 @@ function build(d) {
   }
 
   // ---------------------------------------------------------------- 19 ex5 détective
-  d.ex({ g: 19, title: 'Exercice 5 — Le détective', stars: '★★', instr: 'Ahmed décrit sa nouvelle job. Trouvez les 5 erreurs.' }, (s, mode, top) => {
+  d.ex({ g: 19, title: 'Exercice 5 — Le détective', stars: '★★', instr: 'Ahmed décrit son nouveau job. Trouvez les 5 erreurs.' }, (s, mode, top) => {
     const h = 6.88 - top;
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'tx2', line: null, radius: 0.04 });

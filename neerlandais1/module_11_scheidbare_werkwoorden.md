@@ -334,7 +334,7 @@
 
 **Contenu textuel**
 > Banque : *in · terug · mee · dicht · aan · op · uit · weg*
-> 1 Kunt u dit formulier ……vullen? · 2 Ik bel je morgen …… · 3 Neem je paraplu ……! · 4 Doe het raam ……, het is koud.
+> 1 Kunt u dit formulier ……vullen? · 2 Je hebt gebeld? Ik bel je morgen …… · 3 Neem je paraplu ……! · 4 Doe het raam ……, het is koud.
 > 5 Kleed je vlug ……! · 6 Ik sta elke dag om 7 uur …… · 7 Log …… voor je weggaat! · 8 De bus is ……, we zijn te laat.
 >
 > **✓ CORRECTIE** — 1 *in* · 2 *terug* · 3 *mee* · 4 *dicht* · 5 *aan* · 6 *op* · 7 *uit* · 8 *weg*

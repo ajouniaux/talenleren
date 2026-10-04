@@ -359,11 +359,11 @@
 - Le mot SoFT KetCHuP est rappelé en haut.
 
 **Contenu textuel**
-> *gewerk_ · gebel_ · gefiets_ · gehoor_ · gekook_ · geleer_ · gestop_ · gewoon_ · gelach_ · geleef_*
+> *gewerk_ · gebel_ · gefiets_ · gehoor_ · gekook_ · geleer_ · gestop_ · gewoon_ · gerook_ · geleef_*
 >
-> **✓ CORRECTIE** — **t** : *gewerkt, gefietst, gekookt, gestopt, gelacht* · **d** : *gebeld, gehoord, geleerd, gewoond, geleefd*
+> **✓ CORRECTIE** — **t** : *gewerkt, gefietst, gekookt, gestopt, gerookt* · **d** : *gebeld, gehoord, geleerd, gewoond, geleefd*
 
-**Notes pour l'animateur** — Les apprenants lèvent un carton T ou D. *gelacht* : radical *lach*, et *ch* est dans KetCHuP. *geleefd* : piège de la diapo 7.
+**Notes pour l'animateur** — Les apprenants lèvent un carton T ou D. *gerookt* : radical *rook*, et *k* est dans KetCHuP. (Attention : *lachen* donne *gelachen*, irrégulier : voir ex. 4.) *geleefd* : piège de la diapo 7.
 
 ---
 
@@ -380,7 +380,7 @@
 >
 > **✓ CORRECTIE** — 1 *heb* · 2 *is* · 3 *hebben* · 4 *is* · 5 *Hebben* · 6 *is* · 7 *ben* · 8 *is*
 
-**Notes pour l'animateur** — N° 4 et 7 : les pièges de la diapo 11 (*geweest, gebleven*). N° 8 : *opstaan* = changement de position → *zijn*.
+**Notes pour l'animateur** — N° 4 : piège de la diapo 11 (*geweest*). N° 7 : *blijven* → *zijn* (diapo 10). N° 8 : *opstaan* = changement de position → *zijn*.
 
 ---
 
@@ -409,10 +409,10 @@
 - Règles : on circule, on interroge, on note un prénom par case.
 
 **Contenu textuel**
-> *Heb je ooit…?* · *Big Ben gezien · in New York geweest · een marathon gelopen · slakken gegeten · met dolfijnen gezwommen · een taart gebakken · in een vliegtuig geslapen · een Nederlandse film gezien*
+> *Heb je ooit…?* · *Big Ben gezien · New York bezocht · een marathon gelopen · slakken gegeten · met dolfijnen gezwommen · een taart gebakken · in een vliegtuig geslapen · een Nederlandse film gezien*
 > Réponses : *Ja, ik heb al … · Nee, ik heb nog nooit …*
 
-**Notes pour l'animateur** — Corrections de l'archive : *Ik ben naar New York gereisd* devient *Ik ben in New York geweest* (plus naturel) ; *Ik heb een Blind date gedaan* est remplacé ; *Hamlet lezen* et *de Everest beklimmen* sont remplacés par des expériences plus courantes. *nog nooit* = « jamais encore ».
+**Notes pour l'animateur** — Corrections de l'archive : *Ik ben naar New York gereisd* devient *New York bezocht* (compatible avec *Heb je ooit…?* ; *in New York geweest* demanderait *Ben je ooit…?*) ; *Ik heb een Blind date gedaan* est remplacé ; *Hamlet lezen* et *de Everest beklimmen* sont remplacés par des expériences plus courantes. *nog nooit* = « jamais encore ».
 
 ---
 

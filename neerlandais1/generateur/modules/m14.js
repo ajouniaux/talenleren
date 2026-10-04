@@ -93,7 +93,7 @@ function build(d) {
   // ---------------------------------------------------------------- 5 les 4 recettes
   {
     const s = d.page({ g: 5, tag: 'GRAMMAIRE', title: 'Les 4 recettes' });
-    const R = [['nom + nom', BR.nom, 'nom', '//de politieman · de schoenmaat · het appelsap//'], ['radical de verbe + nom', BR.rad, 'radical', '//de eetkamer (eet-en) · de zitplaats · het vliegtuig · de wachtkamer//'], ['préposition + nom', BR.prep, 'prép.', '//de voordeur · de ingang · de uitgang · de bijlage//'], ['adjectif + nom', BR.adj, 'adj.', '//de grootvader · de snelweg · het kleinkind//']];
+    const R = [['nom + nom', BR.nom, 'nom', '//de politieman · de schoenmaat · het appelsap//'], ['radical de verbe + nom', BR.rad, 'radical', '//de eetkamer (eet-en) · de zitplaats · het vliegtuig · de wachtkamer//'], ['préposition + nom', BR.prep, 'prép.', '//de voordeur · de ingang · de uitgang · de achterdeur//'], ['adjectif + nom', BR.adj, 'adj.', '//de grootvader · de snelweg · het kleinkind//']];
     R.forEach(([lab, c, b1, ex], i) => {
       const y = 1.8 + i * 1.22;
       brick(s, b1, 0.6, y + 0.2, 1.35, 0.7, c, { size: 15 });
@@ -143,7 +143,7 @@ function build(d) {
         d.t(s, fr[i], x + 3.65, y, 2.2, 0.5, { size: 13, italic: true, color: 'accent5', valign: 'middle' });
       });
     });
-    band(s, 'Astuce : on l’**entend**, donc on l’**écrit**. En A1, on apprend ces mots tels quels.', 6.25, 0.6, 'tx2');
+    band(s, 'Le //-s-// s’écrit quand on l’**entend** ; le //n// de //-en-//, lui, ne s’entend souvent pas (//pannenkoek//). En A1, on apprend ces mots tels quels.', 6.15, 0.75, 'tx2');
   }
 
   // ---------------------------------------------------------------- 8 diminutifs
@@ -151,7 +151,7 @@ function build(d) {
     const s = d.page({ g: 8, tag: 'GRAMMAIRE', title: 'Les diminutifs : -je, -tje, -pje, -etje' });
     d.rect(s, 0.6, 1.7, 12.13, 0.6, { fill: 'accent1', line: null });
     d.t(s, 'Tous les diminutifs sont **HET** : de stoel → **het** stoeltje', 0.6, 1.7, 12.13, 0.6, { size: 19, color: 'bg1', align: 'center', valign: 'middle' });
-    const D = [['-je', 'cas général', ['het huis**##je##**', 'het boek**##je##**', 'het kop**##je##**'], 'house'], ['-tje', 'voyelle longue ; l, n, r, w', ['het stoel**##tje##**', 'het ei**##tje##**', 'het vrouw**##tje##**'], 'chair'], ['-pje', 'après m', ['het boom**##pje##**', 'het raam**##pje##**'], 'deciduous-tree'], ['-etje', 'voyelle courte + l, m, n, r, ng', ['het bal**##letje##**', 'het ring**##etje##**'], 'ring']];
+    const D = [['-je', 'cas général', ['het huis**##je##**', 'het boek**##je##**', 'het kop**##je##**'], 'house'], ['-tje', 'voyelle longue (+ l, n, r, w)', ['het stoel**##tje##**', 'het ei**##tje##**', 'het vrouw**##tje##**'], 'chair'], ['-pje', 'voyelle longue + m', ['het boom**##pje##**', 'het raam**##pje##**'], 'deciduous-tree'], ['-etje', 'voyelle courte + l, m, n, r, ng', ['het bal**##letje##**', 'het ring**##etje##**'], 'ring']];
     const w = (12.13 - 3 * 0.2) / 4;
     D.forEach(([suf, cond, ex, il], i) => {
       const x = 0.6 + i * (w + 0.2); const y = 2.55;
@@ -276,7 +276,8 @@ function build(d) {
     });
     if (mode === 'a') {
       d.rect(s, 8.4, top, 4.33, 6.88 - top, { fill: 'EDF6F0', line: 'accent3', lw: 1.25 });
-      d.t(s, words.map((w, i) => `**${i + 1}${'abcdefgh'[sol[i]]}** //${w}//`), 8.6, top + 0.1, 4.0, 6.68 - top, { size: 18, gap: 6, valign: 'middle' });
+      d.t(s, words.map((w, i) => `**${i + 1}${'abcdefgh'[sol[i]]}** //${w}//`), 8.6, top + 0.1, 4.0, 6.08 - top, { size: 18, gap: 6, valign: 'middle' });
+      d.t(s, 'Aussi correct : //3d vergaderkamer · 4g wachtzaal// (BE)', 8.6, 6.2, 4.0, 0.6, { size: 14, italic: true, color: 'accent5', valign: 'middle' });
     } else d.ill(s, 'building-construction', 9.6, top + 1.2, 2.0, 2.0);
   });
 
@@ -311,7 +312,7 @@ function build(d) {
       d.t(s, [`**${i + 1}**  //${a}//`, `→ //${b}//`], x + 0.85, y, 3.7, rh, { size: 19, valign: 'middle', gap: 2, mode });
     });
     d.rect(s, 9.9, top, 2.83, 6.88 - top, { fill: 'FDF1E6', line: 'accent1', lw: 1.25 });
-    d.t(s, ['**-je** général', '**-tje** voyelle longue ; l, n, r, w', '**-pje** après m', '**-etje** voyelle courte + l, m, n, r, ng', '→ toujours **het**'], 10.05, top + 0.15, 2.55, 6.6 - top, { size: 15, gap: 10 });
+    d.t(s, ['**-je** général', '**-tje** voyelle longue (+ l, n, r, w)', '**-pje** voyelle longue + m', '**-etje** voyelle courte + l, m, n, r, ng', '→ toujours **het**'], 10.05, top + 0.15, 2.55, 6.6 - top, { size: 15, gap: 10 });
   });
 
   // ---------------------------------------------------------------- 18 ex4 traduction express
@@ -331,7 +332,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 19 ex5 famille werk
-  const fam = [['werken', 'travailler'], ['de werker', 'le travailleur'], ['de werknemer', 'l’employé'], ['de werkgever', 'l’employeur'], ['de werkplek', 'le poste de travail'], ['werkloos', 'sans emploi'], ['het thuiswerk', 'le télétravail'], ['het werkwoord', 'le verbe']];
+  const fam = [['werken', 'travailler'], ['de werker', 'le travailleur'], ['de werknemer', 'l’employé'], ['de werkgever', 'l’employeur'], ['de werkplek', 'le poste de travail'], ['werkloos', 'sans emploi'], ['het thuiswerk', 'le travail à domicile'], ['het werkwoord', 'le verbe']];
   d.ex({ g: 19, title: 'Exercice 5 — La famille « werk »', stars: '★', instr: 'Combien de mots avec « werk » connaissez-vous ? Complétez la carte mentale.' }, (s, mode, top) => {
     const cx = 6.66; const cy = top + (6.88 - top) / 2;
     const pos = [[-4.6, -1.65], [-4.6, -0.55], [-4.6, 0.55], [-4.6, 1.65], [4.6, -1.65], [4.6, -0.55], [4.6, 0.55], [4.6, 1.65]];

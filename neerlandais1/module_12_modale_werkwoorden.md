@@ -141,11 +141,11 @@
 - Encadré **S10** avec une flèche qui se divise.
   - FR « Je **peux** venir demain. » → *Ik **kan** morgen komen.* (c'est possible).
   - FR « **Puis**-je entrer ? » → *Mag ik binnenkomen?* (permission).
-- Au centre, le test : « Puis-je **avoir le droit** ? » → OUI : *mogen*.
+- Au centre, le test : « Ai-je **le droit** ? » → OUI : *mogen*.
 
 **Contenu textuel**
 > « Je peux venir demain. » → *Ik **kan** morgen komen.* 💪
-> « Puis-je entrer ? » → *Mag ik binnenkomen?* ✅ (✗ ~~*Kan ik binnenkomen?*~~ = est-ce physiquement possible ?)
+> « Puis-je entrer ? » → *Mag ik binnenkomen?* ✅ (*Kan ik binnenkomen?* s'entend aussi en Flandre, mais pour une **permission**, *Mag ik…?* est la forme sûre.)
 > Test : remplacez « pouvoir » par « avoir le droit » → si ça marche : **mogen**.
 
 **Notes pour l'animateur** — En Flandre, *Kan ik…?* s'entend aussi pour demander poliment (*Kan ik u helpen?*). Mais pour une **autorisation**, *Mag ik…?* est la forme sûre. *Mag ik?* seul = « Je peux ? » (en prenant une chaise, par exemple).
@@ -337,7 +337,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik moet morgen werken.* · 2 *Ik kan vandaag niet komen.* · 3 *Mag je binnenkomen?* · 4 *Sofie wil de klant opbellen.* · 5 *Zullen we samen lunchen?* · 6 *Ik mag mijn badge niet vergeten.*
 
-**Notes pour l'animateur** — N° 1 : *Morgen moet ik werken* est aussi correct (inversion). N° 6 : *niet* se place après le complément défini *mijn badge* (M13).
+**Notes pour l'animateur** — N° 1 : *Morgen moet ik werken* est aussi correct (inversion). N° 2 : *Vandaag kan ik niet komen* aussi. N° 6 : *niet* se place après le complément défini *mijn badge* (M13).
 
 ---
 

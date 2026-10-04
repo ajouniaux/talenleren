@@ -116,10 +116,10 @@
 **Contenu textuel**
 > **nom + nom** : *de politieman · de schoenmaat · het appelsap*
 > **radical de verbe + nom** : *de eetkamer (eet-en) · de zitplaats (zitt-en) · het vliegtuig (vlieg-en) · de wachtkamer (wacht-en)*
-> **préposition + nom** : *de voordeur · de ingang · de uitgang · de bijlage*
+> **préposition + nom** : *de voordeur · de ingang · de uitgang · de achterdeur*
 > **adjectif + nom** : *de grootvader · de snelweg · het kleinkind*
 
-**Notes pour l'animateur** — Correction de l'archive : *vliegtuig* et *knipbeurt* (une coupe de cheveux) sont des « radical + nom ». *de bijlage* (pièce jointe) vient du M10. Le radical s'obtient comme au M3 (*eten → eet*).
+**Notes pour l'animateur** — Correction de l'archive : *vliegtuig* et *knipbeurt* (une coupe de cheveux) sont des « radical + nom ». Le radical s'obtient comme au M3 (*eten → eet*).
 
 ---
 
@@ -153,7 +153,7 @@
 **Contenu textuel**
 > **-s-** : *de verjaardag**s**taart · het station**s**plein · de identiteit**s**kaart · de arbeid**s**overeenkomst*
 > **-en-** : *het zieken**huis** · de brieven**bus** · de pannen**koek** · de boeken**kast***
-> Astuce : on l'**entend**, donc on l'**écrit**.
+> Astuce : le *-s-* s'écrit quand on l'**entend** ; le *n* de *-en-*, lui, ne s'entend souvent pas (*pannenkoek*). En A1, on apprend ces mots tels quels.
 
 **Notes pour l'animateur** — En A1, on apprend ces mots tels quels. *-en-* ressemble souvent au pluriel (*boeken + kast*). *de arbeidsovereenkomst* (le contrat de travail) est utile au bureau.
 
@@ -172,7 +172,7 @@
 **Contenu textuel**
 > **-je** (cas général) : *het huis**je** · het boek**je** · het kop**je***
 > **-tje** (après une voyelle longue, ou *l, n, r, w* après une voyelle longue) : *het stoel**tje** · het ei**tje** · het vrouw**tje***
-> **-pje** (après *m*) : *het boom**pje** · het raam**pje***
+> **-pje** (après une voyelle longue + *m*) : *het boom**pje** · het raam**pje***
 > **-etje** (voyelle courte + *l, m, n, r, ng*) : *het bal**letje** · het ring**etje***
 > Tous **het** : *de stoel → **het** stoeltje*
 
@@ -296,7 +296,7 @@
 >
 > **✓ CORRECTIE** — 1e *koffiepauze* · 2b *fietspad* · 3g *vergaderzaal* · 4d *wachtkamer* · 5c *voordeur* · 6f *tandarts* · 7h *parkeerplaats* · 8a *brievenbus*
 
-**Notes pour l'animateur** — N° 7 : *parkeer* est le radical de *parkeren*. *de tandarts* = le dentiste.
+**Notes pour l'animateur** — N° 7 : *parkeer* est le radical de *parkeren*. *de tandarts* = le dentiste. Acceptez aussi 3d *vergaderkamer* et 4g *wachtzaal* (le mot usuel en Belgique).
 
 ---
 
@@ -393,7 +393,7 @@
 - Gabarit **E9**, avec un teaser du M15 (un calendrier qui tourne ses pages vers la gauche, *gisteren*).
 
 **Contenu textuel**
-> 1. Que signifie *de fietsenstalling* (*fiets* + *stalling* = le garage) ?
+> 1. Que signifie *de fietsenstalling* (*stalling* = le garage) ?
 > 2. Article : *school (de) + gebouw (het)* → …… schoolgebouw
 > 3. Le diminutif de *de bal* ?
 >
