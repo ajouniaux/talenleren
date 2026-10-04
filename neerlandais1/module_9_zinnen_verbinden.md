@@ -94,7 +94,7 @@
 > *Karim **moet** vandaag in Brussel **werken**.*
 > Rappel : le verbe conjugué est **toujours en case ②**.
 
-**Notes pour l'animateur** — Faites retrouver la règle par la classe : « Qu'est-ce qui ne bouge jamais ? » (le verbe en ②). Annoncez : « Aujourd'hui, nous allons découvrir **la seule situation** où le verbe quitte la case ② : la subordonnée. »
+**Notes pour l'animateur** — Faites retrouver la règle par la classe : « Qu'est-ce qui ne bouge jamais ? » (le verbe en ②). Annoncez : « Aujourd'hui, nous allons découvrir **la seule situation, dans une phrase affirmative,** où le verbe quitte la case ② : la subordonnée. »
 
 ---
 
@@ -132,7 +132,7 @@
 > **en** = et — *Karim **werkt** in Brussel en Sofie **woont** in Gent.*
 > **maar** = mais — *Ik **spreek** Frans, maar ik **leer** Nederlands.*
 > **want** = car — *Ik **neem** de trein, want ik **heb** geen auto.*
-> **of** = ou — *Kom je vandaag of **kom** je morgen?*
+> **of** = ou — *Sofie **werkt** thuis of ze **is** ziek.*
 > **dus** = donc — *Het **regent**, dus ik **neem** de bus.* · *Het **regent**, dus **neem** ik de bus.*
 
 **Notes pour l'animateur** — Moyen mnémotechnique : **EMWOD** (*en, maar, want, of, dus*). Pour *dus*, les deux ordres existent. L'inversion (*dus neem ik*) est la plus courante à l'écrit ; acceptez les deux. *Of* signifie aussi « si » (diapo 12).
@@ -196,7 +196,7 @@
 > hoofdzin (verbe en ②) | mot-crochet | bijzin (verbe **à la fin**)
 > Règle : après un mot-crochet, le verbe conjugué va **à la fin de la subordonnée**.
 
-**Notes pour l'animateur** — C'est l'exemple de l'archive (*Ik denk dat ik ziek ben omdat ik buikpijn heb*), découpé en deux étapes. Faites lire la phrase en tapant sur la table au moment du verbe : le rythme aide à mémoriser. Le sujet suit **directement** le mot-crochet (*dat ik…*, *omdat de trein…*).
+**Notes pour l'animateur** — C'est l'exemple de l'archive (*Ik denk dat ik ziek ben omdat ik buikpijn heb*), découpé en deux étapes. Faites lire la phrase en tapant sur la table au moment du verbe : le rythme aide à mémoriser. Le sujet suit **en général** directement le mot-crochet (*dat ik…*, *omdat de trein…*).
 
 ---
 
@@ -338,9 +338,9 @@
   - **Niets** (gris) : rien ne bouge.
 
 **Contenu textuel**
-> *Gisteren · Omdat · Dikwijls · Als · Want · En · Maar · Dat · Soms · Morgen*
+> *gisteren · omdat · dikwijls · als · want · en · maar · dat · soms · morgen*
 >
-> **✓ CORRECTIE** — **Inversie** : *Gisteren, Dikwijls, Soms, Morgen* · **Rejet** : *Omdat, Als, Dat* · **Niets** : *Want, En, Maar*
+> **✓ CORRECTIE** — **Inversie** : *gisteren, dikwijls, soms, morgen* · **Rejet** : *omdat, als, dat* · **Niets** : *want, en, maar*
 
 **Notes pour l'animateur** — Faites justifier : un adverbe en case ① provoque l'inversion (M3) ; un mot-crochet provoque le rejet ; un mot-pont ne change rien. *dikwijls* (souvent) est très belge ; *vaak* est le mot commun.
 
@@ -387,7 +387,7 @@
 >
 > **✓ CORRECTIE** — 1 *en* · 2 *dat* · 3 *Als* · 4 *maar* · 5 *want* · 6 *of* · 7 *dus* · 8 *omdat*
 
-**Notes pour l'animateur** — La structure est un indice : n° 5, *ik heb* (verbe en ②) → mot-pont (*want*, pas *omdat*). N° 8, *heeft* à la fin → mot-crochet. N° 6 : *of* = « si » (question indirecte).
+**Notes pour l'animateur** — La structure est un indice : n° 5, *ik heb* (verbe en ②) → mot-pont (*want*, pas *omdat*). N° 8, *heeft* à la fin → mot-crochet. N° 6 : *of* = « si » (question indirecte). Acceptez aussi *maar* au n° 1 et *blij **dat** ze een nieuwe job heeft* au n° 8 : ces réponses sont correctes.
 
 ---
 
@@ -415,16 +415,16 @@
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E7** : chronomètre, bouton « Start! ».
-- 6 tuiles illustrées : *talen · sport · teamwerk · een goede leraar · vakantie · koffie*.
+- 6 tuiles illustrées : *Nederlands · sport · teamwerk · een goede leraar · vakantie · koffie*.
 - Règles en 3 puces.
 
 **Contenu textuel**
 > **Waarom is … belangrijk?**
-> 🗣️ talen · 🏃 sport · 🤝 teamwerk · 👩‍🏫 een goede leraar · 🏖️ vakantie · ☕ koffie
+> 🗣️ Nederlands · 🏃 sport · 🤝 teamwerk · 👩‍🏫 een goede leraar · 🏖️ vakantie · ☕ koffie
 > Règles : par deux, tirez une tuile. 1 minute pour donner un maximum de raisons. 1 point par phrase correcte (*want* : verbe en ②, *omdat* : verbe à la fin).
 > Amorces : *… is belangrijk, want het is … · … is belangrijk omdat je … kunt …*
 
-**Notes pour l'animateur** — Exemples de réponses : *Talen zijn belangrijk, want je kunt met veel mensen praten.* · *Sport is belangrijk omdat het gezond is.* · *Koffie is belangrijk omdat ik 's morgens moe ben!* Les thèmes de l'archive trop abstraits pour l'A1 (*klimaatverandering, tradities, medisch onderzoek*) sont remplacés.
+**Notes pour l'animateur** — Exemples de réponses : *Nederlands is belangrijk, want je kunt met je collega's praten.* · *Sport is belangrijk omdat het gezond is.* · *Koffie is belangrijk omdat ik 's morgens moe ben!* Les thèmes de l'archive trop abstraits pour l'A1 (*klimaatverandering, tradities, medisch onderzoek*) sont remplacés.
 
 ---
 
@@ -443,7 +443,7 @@
 > Vignettes : *de trein heeft vertraging · ik sta in de file · mijn wekker is kapot · mijn kind is ziek · het regent heel hard · mijn fiets heeft een lekke band*
 > Banque : *Sorry dat ik te laat ben. · Excuseer, mevrouw. · Ik ben te laat omdat… · Geen probleem. · Ga zitten. · Gelukkig ben je er nu!*
 
-**Notes pour l'animateur** — *in de file staan* = être dans les embouteillages (BE et NL). *Sorry dat ik te laat ben* est désormais analysable : *dat* + verbe à la fin. Variante comique : l'excuse la plus incroyable de la classe (*… omdat een koe op de weg staat*). Corrigez surtout la place du verbe.
+**Notes pour l'animateur** — *in de file staan* = être dans les embouteillages (BE et NL). *Sorry dat ik te laat ben* est désormais analysable : *dat* + verbe à la fin. Variante comique : l'excuse la plus incroyable de la classe (*… omdat er een koe op de weg staat*). Corrigez surtout la place du verbe.
 
 ---
 

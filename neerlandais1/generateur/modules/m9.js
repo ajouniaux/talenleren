@@ -83,7 +83,7 @@ function build(d) {
     });
     d.rect(s, 0.6, 5.5, 12.13, 0.55, { fill: 'accent6', tr: 90, line: 'accent6', lw: 1 });
     d.t(s, 'Rappel (M3) : le verbe conjugué est **toujours en case ②**.', 0.85, 5.5, 11.7, 0.55, { size: 19, valign: 'middle' });
-    band(s, 'Aujourd’hui : la **seule** situation où le verbe quitte la case ② → la subordonnée.', 6.2, 0.65, HOOK);
+    band(s, 'Aujourd’hui : la **seule** situation, dans une phrase affirmative, où le verbe quitte la case ② → la subordonnée.', 6.2, 0.65, HOOK);
   }
 
   // ---------------------------------------------------------------- 4 deux façons de relier
@@ -118,7 +118,7 @@ function build(d) {
       ['en', 'et', '//Karim **!!werkt!!** in Brussel **en** Sofie **!!woont!!** in Gent.//'],
       ['maar', 'mais', '//Ik **!!spreek!!** Frans, **maar** ik **!!leer!!** Nederlands.//'],
       ['want', 'car', '//Ik **!!neem!!** de trein, **want** ik **!!heb!!** geen auto.//'],
-      ['of', 'ou', '//**!!Kom!!** je vandaag **of** **!!kom!!** je morgen?//'],
+      ['of', 'ou', '//Sofie **!!werkt!!** thuis **of** ze **!!is!!** ziek.//'],
       ['dus', 'donc', '//Het **!!regent!!**, **dus** ik **!!neem!!** de bus.//\n//Het **!!regent!!**, **dus** **!!neem!!** ik de bus.//'],
     ];
     const w = (12.13 - 4 * 0.2) / 5;
@@ -193,7 +193,7 @@ function build(d) {
     strip(s, 4.45, 4.2, [['que', 'f', 1.6]], { size: 22, h: 0.7 });
     strip(s, 6.55, 4.2, [['je', 'f', 1.2], ['suis', 'f', 1.55], ['malade.', 'f', 1.6]], { size: 22, h: 0.7 });
     d.t(s, '→ en français, le verbe reste à sa place', 0.6, 4.92, 12.13, 0.3, { size: 14, italic: true, color: 'accent5', align: 'center' });
-    band(s, 'Règle : après un mot-crochet, le verbe conjugué va **à la fin de la subordonnée**. Le sujet suit **directement** le mot-crochet.', 5.35, 0.95, 'tx2');
+    band(s, 'Règle : après un mot-crochet, le verbe conjugué va **à la fin de la subordonnée**. Le sujet suit **en général** directement le mot-crochet.', 5.35, 0.95, 'tx2');
     d.t(s, 'Astuce : lisez la phrase et tapez sur la table au moment du verbe !', 0.6, 6.45, 12.13, 0.4, { size: 15, italic: true, color: 'accent5', align: 'center' });
   }
 
@@ -323,7 +323,7 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 16 ex1 inversion / rejet / niets
-  const ex1 = [['Gisteren', 0], ['Omdat', 1], ['Dikwijls', 0], ['Als', 1], ['Want', 2], ['En', 2], ['Maar', 2], ['Dat', 1], ['Soms', 0], ['Morgen', 0]];
+  const ex1 = [['gisteren', 0], ['omdat', 1], ['dikwijls', 0], ['als', 1], ['want', 2], ['en', 2], ['maar', 2], ['dat', 1], ['soms', 0], ['morgen', 0]];
   d.ex({ g: 16, title: 'Exercice 1 — Inversion, rejet ou rien ?', stars: '★', instr: 'Que se passe-t-il après chaque mot ? Classez-les.' }, (s, mode, top) => {
     if (mode === 'q') ex1.forEach(([w], i) => {
       const x = 0.6 + (i % 5) * 2.48; const y = top + Math.floor(i / 5) * 0.8;
@@ -392,7 +392,7 @@ function build(d) {
   {
     const s = d.page({ g: 20, tag: 'JIJ NU !', title: 'Exercice 5 — Waarom? en 1 minute', stars: '★★' });
     d.t(s, '//Waarom is … belangrijk?//', 0.6, 1.65, 7.6, 0.7, { size: 28, bold: true, color: 'tx2', valign: 'middle', head: true });
-    const tiles = [['talen', 'speaking-head'], ['sport', 'person-running'], ['teamwerk', 'handshake'], ['een goede leraar', 'woman-teacher'], ['vakantie', 'beach-with-umbrella'], ['koffie', 'hot-beverage']];
+    const tiles = [['Nederlands', 'speaking-head'], ['sport', 'person-running'], ['teamwerk', 'handshake'], ['een goede leraar', 'woman-teacher'], ['vakantie', 'beach-with-umbrella'], ['koffie', 'hot-beverage']];
     tiles.forEach(([t, il], i) => {
       const x = 0.6 + (i % 3) * 2.6; const y = 2.5 + Math.floor(i / 3) * 1.95;
       d.rect(s, x, y, 2.4, 1.75, { fill: 'bg1', line: 'accent1', lw: 2, shadow: true });

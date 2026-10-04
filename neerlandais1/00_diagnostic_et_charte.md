@@ -155,8 +155,9 @@
 | Prononciation · 4 | *MIER / MIEREN* présenté comme voyelle doublée | *ie* est un digramme invariable (jamais « ii ») | Traité avec les sons invariables |
 | Prononciation · 3–4 | *muf, goor, diffuus, loeien* | Mots rares | Mots fréquents : *les, vis, pot, bus, raam, been, boom, muur* |
 | Diphtongues · 1 | *eeuw* = « é + u » | Repère faux | « é + ou » (*leeuw, sneeuw*) |
+| Diphtongues · 1 | *ui* : point d'arrivée non précisé | *ui* glisse vers un « u » arrondi (pas vers « i », qui le rapprocherait de *ij*) | « œ » → « u », lèvres arrondies |
 | Diphtongues · 1 | *eeeuw* | Coquille | *eeuw* (le siècle) |
-| Diphtongues · 1 | *vrolijk* « (!) » | Piège signalé mais pas expliqué | Diapo PIÈGE : *-lijk* se prononce « leuk » (*vrolijk, moeilijk, eigenlijk*) |
+| Diphtongues · 1 | *vrolijk* « (!) » | Piège signalé mais pas expliqué | Diapo PIÈGE : *-lijk* se prononce « lek », avec un e muet (*vrolijk, moeilijk, natuurlijk*) |
 | Diphtongues · 1 | *ieuw*, *uw* absents | Lacune | Ajoutés (*nieuw, uw*) |
 | Pays · 2 | Belgique, Flandre, Wallonie seulement | Lacune | + Bruxelles, voisins, pays d'origine des apprenants |
 | Pays · 2 | Majuscule non traitée | Piège n°1 à l'écrit | Diapo PIÈGE : *Belgisch, Frans, Nederlands* (majuscule) |
@@ -166,6 +167,7 @@
 | Formel · 12 | *nar* | Coquille | *naar* |
 | Formel · 14–20 | « Wat zeg je als… » (subordonnées) | Structure vue seulement au M9 | Situations données en français |
 | Formel · 21–24 | Situations « réveillé par le patron », « licencié » ; négocier par mail | Peu utiles ; niveau UE2 | Une journée au bureau, appel pour signaler une absence |
+| Formel · 11 | Paires *job / beroep*, *helaas / tot onze spijt* | En Belgique, *job* et *helaas* sont neutres, même à l'écrit formel | *krijgen / ontvangen*, *nu / momenteel* |
 | Phrases · tout | Étiquette « UE 2-3 » | Deck de Néerlandais 2 | Seule la passerelle A1 est reprise (M9) |
 | Phrases · 4–12 | « proposition simple / complexe » | Terminologie fausse | *hoofdzin* (principale) / *bijzin* (subordonnée) |
 | Phrases · 14 | *… toen ze sliep* pour « pendant que » | Mauvaise conjonction | *terwijl ze sliep* (Néerlandais 2) |

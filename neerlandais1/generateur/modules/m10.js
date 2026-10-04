@@ -71,7 +71,7 @@ function build(d) {
   {
     const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Échauffement — la boîte de réception' });
     const by = win(s, 0.6, 1.65, 10.2, 5.2, { title: 'Postvak IN — karim.benali@peetersco.be' });
-    const rows = [['Sofie Peeters', 'Lunch morgen?', '9.12', 'woman-office-worker'], ['Directie Peeters & Co', 'Vergadering donderdag 10 uur', '9.40', 'office-building'], ['Webshop Bolero', 'Uw bestelling 4521', '10.05', 'shopping-cart'], ['Mama', 'Zondag eten bij ons?', '11.30', 'old-woman'], ['Heer Maes (klant)', 'Vraag over factuur 2025-118', '14.02', 'man-office-worker']];
+    const rows = [['Sofie Peeters', 'Lunch morgen?', '9.12', 'woman-office-worker'], ['Directie Peeters & Co', 'Vergadering donderdag 10 uur', '9.40', 'office-building'], ['Webshop Bolero', 'Uw bestelling 4521', '10.05', 'shopping-cart'], ['Mama', 'Zondag eten bij ons?', '11.30', 'old-woman'], ['Jan Maes (klant)', 'Vraag over factuur 2026-118', '14.02', 'man-office-worker']];
     const rh = (6.8 - by) / 5;
     rows.forEach(([who, subj, t, il], i) => {
       const y = by + i * rh;
@@ -147,7 +147,7 @@ function build(d) {
     ], { w: 8.6 });
     d.t(s, '▲ très formel', 9.45, 1.75, 3.2, 0.4, { size: 15, bold: true, color: 'tx2' });
     d.t(s, '▼ informel', 9.45, 5.35, 3.2, 0.4, { size: 15, bold: true, color: INF });
-    d.card(s, 9.45, 2.3, 3.28, 2.9, { icon: 'FaStar', head: 'Beste', color: 'accent1', body: ['le plus courant en Flandre : il convient **presque partout**.', '//mevrouw / heer// + **nom de famille**'], size: 15 });
+    d.card(s, 9.45, 2.3, 3.28, 2.9, { icon: 'FaStar', head: 'Beste', color: 'accent1', body: ['le plus courant en Flandre : il convient **presque partout**.', '//Beste meneer// · //Geachte heer// + **nom de famille**'], size: 15 });
     band(s, 'Après la formule : **virgule**, ligne vide, puis **majuscule**.   //Beste Sofie,// ↵ //Ik stuur je…//', 6.0, 0.85, 'accent2');
   }
 
@@ -221,11 +221,11 @@ function build(d) {
   }
   {
     const s = d.page({ g: 11, tag: 'VOCABULAIRE', title: 'Modèle 2 — proposer un rendez-vous (formel)' });
-    model(s, [['Aan:', 'j.maes@maesbouw.be'], ['Onderwerp:', '**Afspraak dinsdag 14 mei**']], [
-      ['//Geachte heer Maes,//', 1], ['//Hartelijk dank voor uw mail.//', 1], ['//Ik wil graag een afspraak met u maken. We moeten over de facturen praten. Past ##dinsdag 14 mei om 10 uur## voor u? Ons kantoor is in de Wetstraat 25 in Brussel.//', 2.6], ['//Ik hoor graag van u.//', 1], ['//Met vriendelijke groet · Karim Benali//\n//Boekhouder, Peeters & Co · 02 123 45 67//', 1.5],
+    model(s, [['Aan:', 'j.maes@maesbouw.be'], ['Onderwerp:', '**Afspraak dinsdag 12 mei**']], [
+      ['//Geachte heer Maes,//', 1], ['//Hartelijk dank voor uw mail.//', 1], ['//Ik wil graag een afspraak met u maken. We moeten over de facturen praten. Past ##dinsdag 12 mei om 10 uur## voor u? Ons kantoor is in de Wetstraat 25 in Brussel.//', 2.6], ['//Ik hoor graag van u.//', 1], ['//Met vriendelijke groet · Karim Benali//\n//Boekhouder, Peeters & Co · 02 123 45 67//', 1.5],
     ], (s2, x, y, w, h) => {
       d.ill(s2, 'spiral-calendar', x + 0.7, y + 0.1, 2.0, 2.0);
-      d.card(s2, x, y + 2.3, w, h - 2.3, { icon: 'FaComments', head: 'À l’oral', color: 'accent2', body: ['//Past … voor u?// = Est-ce que … vous convient ?', '//dinsdag veertien mei om tien uur//'], size: 15 });
+      d.card(s2, x, y + 2.3, w, h - 2.3, { icon: 'FaComments', head: 'À l’oral', color: 'accent2', body: ['//Past … voor u?// = Est-ce que … vous convient ?', '//dinsdag twaalf mei om tien uur//'], size: 15 });
     });
   }
   {
@@ -243,7 +243,7 @@ function build(d) {
   {
     const s = d.page({ g: 13, tag: 'VOCABULAIRE', title: 'L’objet et les boutons' });
     d.t(s, 'L’OBJET (//het onderwerp//) : **court** (2 à 6 mots), **précis**, pas de phrase complète', 0.6, 1.65, 12.13, 0.45, { size: 17, color: 'tx2' });
-    const bad = ['(geen onderwerp)', 'Vraag', 'Hallo!']; const good = ['Ziek vandaag', 'Afspraak dinsdag 14 mei', 'Vraag over factuur 2025-118'];
+    const bad = ['(geen onderwerp)', 'Vraag', 'Hallo!']; const good = ['Ziek vandaag', 'Afspraak dinsdag 12 mei', 'Vraag over factuur 2026-118'];
     bad.forEach((t, i) => {
       const y = 2.25 + i * 0.75;
       d.rect(s, 0.6, y, 4.6, 0.62, { fill: 'FBEDEB', line: 'accent6', lw: 1.5 });
@@ -298,7 +298,7 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 16 ex1 anatomie
-  const zones = ['Van: karim.benali@peetersco.be', 'Aan: j.maes@maesbouw.be', 'Afspraak dinsdag 14 mei', 'Geachte heer Maes,', 'Ik wil graag een afspraak met u maken…', 'Met vriendelijke groet', 'Karim Benali, Boekhouder'];
+  const zones = ['Van: karim.benali@peetersco.be', 'Aan: j.maes@maesbouw.be', 'Afspraak dinsdag 12 mei', 'Geachte heer Maes,', 'Ik wil graag een afspraak met u maken…', 'Met vriendelijke groet', 'Karim Benali, Boekhouder'];
   const labels = ['de aanhef', 'het onderwerp', 'de handtekening', 'de afzender', 'de hoofdtekst', 'de ontvanger', 'de afsluiting'];
   const sol1 = ['d', 'f', 'b', 'a', 'e', 'g', 'c'];
   d.ex({ g: 16, title: 'Exercice 1 — L’anatomie', stars: '★', instr: 'Associez chaque zone (1–7) à son nom (a–g).' }, (s, mode, top) => {
@@ -320,9 +320,9 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 17 ex2 formel / informel
-  d.ex({ g: 17, title: 'Exercice 2 — Formel ou informel ?', stars: '★', instr: 'Trouvez 5 indices de registre dans chaque e-mail.' }, (s, mode, top) => {
+  d.ex({ g: 17, title: 'Exercice 2 — Formel ou informel ?', stars: '★', instr: 'Trouvez au moins 5 indices de registre dans chaque e-mail.' }, (s, mode, top) => {
     const h = 6.88 - top;
-    const A = ['//<<Hoi Max>>,//', '//<<Alles goed?>> Parijs is echt geweldig! De mensen zijn aardig en de Eiffeltoren is <<wow>>. Heb <<jij>> plannen voor de zomer? <<Mis je!>>//', '//<<Groetjes>>, Anne//'];
+    const A = ['//<<Hoi Max>>,//', '//<<Alles goed?>> Parijs is echt geweldig! De mensen zijn vriendelijk en de Eiffeltoren is <<wow>>. Heb <<jij>> plannen voor de zomer? <<Mis je!>>//', '//<<Groetjes>>, Anne//'];
     const B = ['//<<Beste mevrouw De Vries>>,//', '//Ik hoop dat het goed met <<u>> gaat. Kunnen we donderdag om 10 uur vergaderen? We moeten over het project praten. <<Alvast bedankt.>>//', '//<<Met vriendelijke groet>>, Pieter <<Smet>>//'];
     [[A, INF, 'Anne → Max', 0.6], [B, FOR, 'Pieter Smet → mevrouw De Vries', 6.8]].forEach(([lines, c, ttl, x]) => {
       const by = win(s, x, top, 5.93, mode === 'a' ? h - 1.25 : h, { title: ttl });
@@ -388,7 +388,7 @@ function build(d) {
   // ---------------------------------------------------------------- 20 ex5 détective
   d.ex({ g: 20, title: 'Exercice 5 — Le détective du mail', stars: '★★', instr: 'Karim écrit à sa cheffe. Trouvez les 6 erreurs.' }, (s, mode, top) => {
     const h = 6.88 - top;
-    const by = win(s, 0.6, top, 8.9, h, { fields: [['Aan:', 'an.janssens@peetersco.be'], ['Onderwerp:', mode === 'q' ? '//(leeg)//' : '//(leeg)// ++→ Ziek morgen++']], fsize: 14 });
+    const by = win(s, 0.6, top, 8.9, h, { fields: [['Aan:', 'an.janssens@peetersco.be'], ['Onderwerp:', mode === 'q' ? '//(leeg)//' : '//(leeg)// ++→ Afwezig morgen++']], fsize: 14 });
     const txt = [
       '//{{Hoi}}++ Beste++ mevrouw Janssens,//',
       '//Ik kan morgen niet komen {{omdat ik ben ziek}}++ omdat ik ziek ben++. Kunt u de vergadering verplaatsen? Ik stuur {{je}}++ u++ de documenten.//',

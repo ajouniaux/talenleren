@@ -87,7 +87,7 @@
 > 2 **Directie Peeters & Co** — *Vergadering donderdag 10 uur* — 9.40
 > 3 **Webshop Bolero** — *Uw bestelling 4521* — 10.05
 > 4 **Mama** — *Zondag eten bij ons?* — 11.30
-> 5 **Heer Maes (klant)** — *Vraag over factuur 2025-118* — 14.02
+> 5 **Jan Maes (klant)** — *Vraag over factuur 2026-118* — 14.02
 
 **Notes pour l'animateur** — Demandez : « Formel (F) ou informel (I) ? Comment le savez-vous déjà, sans ouvrir le mail ? » Réponses : 1 I · 2 F · 3 F · 4 I · 5 F. Les indices : le prénom, le point d'interrogation familier, *uw*, le numéro de dossier. *Bolero* est une enseigne fictive.
 
@@ -131,7 +131,7 @@
 > 🔽 *Hoi Lies, / Hallo Tom,* — ami·e, collègue proche
 > Après la formule : **virgule**, ligne vide, puis **majuscule**.
 
-**Notes pour l'animateur** — *Beste* est le plus courant dans les e-mails professionnels en Flandre. Il convient presque partout. *Geachte* est plus distant (lettres, premiers contacts). *meneer / mevrouw* + **nom de famille**, jamais + prénom. On écrit *heer* dans *Geachte heer Maes* (*meneer* à l'oral, M8).
+**Notes pour l'animateur** — *Beste* est le plus courant dans les e-mails professionnels en Flandre. Il convient presque partout. *Geachte* est plus distant (lettres, premiers contacts). *meneer / mevrouw* + **nom de famille**, jamais + prénom. Avec *Beste*, on écrit *meneer* (*Beste meneer Maes*) ; avec *Geachte*, on écrit *heer* (*Geachte heer Maes*).
 
 ---
 
@@ -246,14 +246,14 @@
 - La date et l'heure sont surlignées en orange.
 
 **Contenu textuel**
-> *Aan:* j.maes@maesbouw.be · *Onderwerp:* Afspraak dinsdag 14 mei
+> *Aan:* j.maes@maesbouw.be · *Onderwerp:* Afspraak dinsdag 12 mei
 > ① *Geachte heer Maes,*
 > ② *Hartelijk dank voor uw mail.*
-> ③ *Ik wil graag een afspraak met u maken. We moeten over de facturen praten. Past dinsdag 14 mei om 10 uur voor u? Ons kantoor is in de Wetstraat 25 in Brussel.*
+> ③ *Ik wil graag een afspraak met u maken. We moeten over de facturen praten. Past dinsdag 12 mei om 10 uur voor u? Ons kantoor is in de Wetstraat 25 in Brussel.*
 > ④ *Ik hoor graag van u.*
 > ⑤ *Met vriendelijke groet · Karim Benali · Boekhouder, Peeters & Co · 02 123 45 67*
 
-**Notes pour l'animateur** — *Past … voor u?* = « Est-ce que … vous convient ? ». Faites lire la date et l'heure à voix haute (*dinsdag veertien mei om tien uur*, M2). *Maesbouw* est une entreprise fictive.
+**Notes pour l'animateur** — *Past … voor u?* = « Est-ce que … vous convient ? ». Faites lire la date et l'heure à voix haute (*dinsdag twaalf mei om tien uur*, M2). *Maesbouw* est une entreprise fictive.
 
 ---
 
@@ -287,7 +287,7 @@
 - *Bas* : une barre d'outils de messagerie avec 5 boutons illustrés et leur traduction.
 
 **Contenu textuel**
-> ✗ *(geen onderwerp)* · ✗ *Vraag* · ✗ *Hallo!* → ✓ *Ziek vandaag* · ✓ *Afspraak dinsdag 14 mei* · ✓ *Vraag over factuur 2025-118*
+> ✗ *(geen onderwerp)* · ✗ *Vraag* · ✗ *Hallo!* → ✓ *Ziek vandaag* · ✓ *Afspraak dinsdag 12 mei* · ✓ *Vraag over factuur 2026-118*
 > Règle : **court** (2 à 6 mots), **précis**, pas de phrase complète.
 > *Verzenden* (envoyer) · *Beantwoorden* (répondre) · *Allen beantwoorden* (répondre à tous) · *Doorsturen* (transférer) · *Bijlage toevoegen* (joindre)
 
@@ -340,7 +340,7 @@
 - Correction : flèches bleu nuit.
 
 **Contenu textuel**
-> Zones : 1 *Van: karim.benali@…* · 2 *Aan: j.maes@…* · 3 *Afspraak dinsdag 14 mei* · 4 *Geachte heer Maes,* · 5 *Ik wil graag een afspraak met u maken…* · 6 *Met vriendelijke groet* · 7 *Karim Benali, Boekhouder*
+> Zones : 1 *Van: karim.benali@…* · 2 *Aan: j.maes@…* · 3 *Afspraak dinsdag 12 mei* · 4 *Geachte heer Maes,* · 5 *Ik wil graag een afspraak met u maken…* · 6 *Met vriendelijke groet* · 7 *Karim Benali, Boekhouder*
 > Étiquettes : a *de aanhef* · b *het onderwerp* · c *de handtekening* · d *de afzender* · e *de hoofdtekst* · f *de ontvanger* · g *de afsluiting*
 >
 > **✓ CORRECTIE** — 1d · 2f · 3b · 4a · 5e · 6g · 7c
@@ -357,11 +357,11 @@
 - Deux fenêtres d'e-mail côte à côte :
   - à gauche, Anne → Max (bleu clair) ;
   - à droite, Pieter Smet → mevrouw De Vries (bleu nuit).
-- Consigne : « Trouvez 5 indices dans chaque e-mail. »
+- Consigne : « Trouvez au moins 5 indices dans chaque e-mail. »
 - Correction : les indices sont surlignés et numérotés.
 
 **Contenu textuel**
-> **A** — *Hoi Max, Alles goed? Parijs is echt geweldig! De mensen zijn aardig en de Eiffeltoren is wow. Heb jij plannen voor de zomer? Mis je! Groetjes, Anne*
+> **A** — *Hoi Max, Alles goed? Parijs is echt geweldig! De mensen zijn vriendelijk en de Eiffeltoren is wow. Heb jij plannen voor de zomer? Mis je! Groetjes, Anne*
 > **B** — *Beste mevrouw De Vries, Ik hoop dat het goed met u gaat. Kunnen we donderdag om 10 uur vergaderen? We moeten over het project praten. Alvast bedankt. Met vriendelijke groet, Pieter Smet*
 >
 > **✓ CORRECTIE** — **A, informel** : *Hoi* + prénom · *Alles goed?* · *jij* · exclamations, *wow* · *Mis je!* (phrase sans sujet) · *Groetjes* + prénom. **B, formel** : *Beste mevrouw* + nom · *met u* · phrase complète et polie · *Alvast bedankt* · *Met vriendelijke groet* + prénom **et nom**.
@@ -416,7 +416,7 @@
 > *Aan:* an.janssens@peetersco.be · *Onderwerp:* (leeg)
 > *Hoi mevrouw Janssens, Ik kan morgen niet komen omdat ik ben ziek. Kunt u de vergadering verplaatsen? Ik stuur je de documenten. Kusjes, Karim*
 >
-> **✓ CORRECTIE** — ① objet vide → *Ziek morgen* · ② ~~*Hoi*~~ → *Beste* · ③ ~~*omdat ik ben ziek*~~ → *omdat ik ziek **ben*** · ④ ~~*je*~~ → *u* · ⑤ ~~*Kusjes*~~ → *Met vriendelijke groet* · ⑥ ~~*Karim*~~ → *Karim Benali*
+> **✓ CORRECTIE** — ① objet vide → *Afwezig morgen* · ② ~~*Hoi*~~ → *Beste* · ③ ~~*omdat ik ben ziek*~~ → *omdat ik ziek **ben*** · ④ ~~*je*~~ → *u* · ⑤ ~~*Kusjes*~~ → *Met vriendelijke groet* · ⑥ ~~*Karim*~~ → *Karim Benali*
 
 **Notes pour l'animateur** — Chaque erreur renvoie à une case de la checklist (diapo 14). *Kunt u de vergadering verplaatsen?* est correct : c'est un leurre. Faites corriger par deux, puis comparez avec la checklist.
 
@@ -487,6 +487,6 @@
 **Notes pour l'animateur** — Réponses :
 1. *Geachte heer, geachte mevrouw,* (ou *Geachte heer / mevrouw* + nom).
 2. *Met vriendelijke groet.*
-3. *Beste / Geachte heer Maes, ik stuur u de factuur.*
+3. *Beste meneer Maes,* (ou *Geachte heer Maes,*) ↵ *Ik stuur u de factuur.* (virgule, ligne vide, majuscule)
 
 Bilan : faites relire à chacun la frise des 10 modules et choisir le module à retravailler. En Néerlandais 2 : le passé, les relatives, *om … te*, l'adjectif et les autres conjonctions.

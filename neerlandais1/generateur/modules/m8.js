@@ -62,7 +62,7 @@ function build(d) {
     const s = d.page({ g: 4, tag: 'GRAMMAIRE', title: 'Les 6 curseurs du registre' });
     const rows = [
       ['Pronom', '//je / jij//', '//u//'], ['Verbe', '//werk je?//', '//werkt u?//'], ['Possessif', '//je / jouw//', '//uw//'],
-      ['Salutation', '//Hoi! / Hallo!//', '//Goedemorgen, mevrouw…//'], ['Mots', '//job, vragen//', '//beroep, verzoeken//'], ['Clôture', '//Daag! / Groetjes//', '//Tot ziens / Met vriendelijke groet//'],
+      ['Salutation', '//Hoi! / Hallo!//', '//Goedemorgen, mevrouw…//'], ['Mots', '//krijgen, vragen//', '//ontvangen, verzoeken//'], ['Clôture', '//Daag! / Groetjes//', '//Tot ziens / Met vriendelijke groet//'],
     ];
     d.rect(s, 0.6, 1.65, 12.13, 4.55, { fill: '2B3445', line: null });
     d.t(s, 'INFORMEEL', 3.0, 1.72, 3.0, 0.35, { size: 13, bold: true, color: INF, cs: 2 });
@@ -206,7 +206,7 @@ function build(d) {
   // ---------------------------------------------------------------- 11 paires
   {
     const s = d.page({ g: 11, tag: 'VOCABULAIRE', title: 'Les mots qui changent de registre' });
-    const pairs = [['meedoen', 'deelnemen', 'participer'], ['vragen', 'verzoeken', 'demander'], ['vertellen', 'meedelen', 'communiquer'], ['helaas', 'tot onze spijt', 'malheureusement'], ['job', 'beroep / functie', 'métier'], ['Groetjes', 'Met vriendelijke groet', 'salutations']];
+    const pairs = [['meedoen', 'deelnemen', 'participer'], ['vragen', 'verzoeken', 'demander'], ['vertellen', 'meedelen', 'communiquer'], ['nu', 'momenteel', 'maintenant'], ['krijgen', 'ontvangen', 'recevoir'], ['Groetjes', 'Met vriendelijke groet', 'salutations']];
     d.t(s, 'INFORMEEL', 0.6, 1.65, 3.6, 0.35, { size: 13, bold: true, color: INF, cs: 2, align: 'center' });
     d.t(s, 'FORMEEL', 8.63, 1.65, 4.1, 0.35, { size: 13, bold: true, color: 'tx2', cs: 2, align: 'center' });
     pairs.forEach(([a, b, fr], i) => {
@@ -228,9 +228,9 @@ function build(d) {
     d.rect(s, 0.6, 1.7, 12.13, 5.15, { fill: 'accent6', tr: 94, line: 'accent6', lw: 1, ltr: 40 });
     d.chip(s, '⚠ PIÈGE', 0.8, 1.85, 'accent6', 0.32, 12);
     d.icon(s, 'FaTimesCircle', 'accent6', 0.95, 2.48, 0.45);
-    d.t(s, '//Goedemorgen mevrouw Claes, hoe gaat het met {{je}}? Kunt u {{je}} adres geven?//', 1.6, 2.3, 10.9, 0.85, { size: 22, valign: 'middle' });
+    d.t(s, '//Goedemorgen, mevrouw Claes, hoe gaat het met {{je}}? Kunt u {{je}} adres geven?//', 1.6, 2.3, 10.9, 0.85, { size: 22, valign: 'middle' });
     d.icon(s, 'FaArrowDown', 'accent6', 6.45, 3.25, 0.4);
-    [['FORMEEL', FOR, '//Goedemorgen mevrouw Claes, hoe gaat het met <<u>>? Kunt u <<uw>> adres geven?//'], ['INFORMEEL', INF, '//Hoi Lies, hoe gaat het met <<je>>? Kun <<je>> <<je>> adres geven?//']].forEach(([h, c, t], i) => {
+    [['FORMEEL', FOR, '//Goedemorgen, mevrouw Claes, hoe gaat het met <<u>>? Kunt u <<uw>> adres geven?//'], ['INFORMEEL', INF, '//Hoi Lies, hoe gaat het met <<je>>? Kun <<je>> <<je>> adres geven?//']].forEach(([h, c, t], i) => {
       const y = 3.8 + i * 1.45;
       d.rect(s, 0.9, y, 11.53, 1.25, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.25 });
       d.chip(s, h, 1.1, y + 0.42, c, 0.4, 13);
@@ -304,8 +304,8 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 17 ex2 paires
-  const L = ['meedoen', 'vragen', 'vertellen', 'helaas', 'job', 'Groetjes'];
-  const R = ['Met vriendelijke groet', 'meedelen', 'deelnemen', 'beroep', 'tot onze spijt', 'verzoeken'];
+  const L = ['meedoen', 'vragen', 'vertellen', 'nu', 'krijgen', 'Groetjes'];
+  const R = ['Met vriendelijke groet', 'meedelen', 'deelnemen', 'ontvangen', 'momenteel', 'verzoeken'];
   const sol = [2, 5, 1, 4, 3, 0];
   d.ex({ g: 17, title: 'Exercice 2 — Les paires de registre', stars: '★', instr: 'Associez le mot familier (1–6) et le mot soutenu (a–f).' }, (s, mode, top) => {
     const rh = (6.88 - top - 0.1) / 6;
@@ -328,11 +328,11 @@ function build(d) {
     ['Vous rencontrez un nouveau collègue.', 'handshake', 'Dag, ik ben Karim. Aangenaam!', 0],
     ['Au restaurant, vous demandez l’addition.', 'receipt', 'Mag ik de rekening, alstublieft?', 1],
     ['À la boulangerie, vous voulez un pain.', 'bread', 'Een brood, alstublieft.', 1],
-    ['Votre voisin vous aide.', 'hammer', 'Dank je wel, dat is vriendelijk!', 0],
+    ['Votre voisin vous aide.', 'hammer', 'Dank je wel, dat is lief van je!', 0],
     ['Vous saluez votre professeur le matin.', 'woman-teacher', 'Goedemorgen, mevrouw!', 1],
     ['Vous demandez le chemin dans la rue.', 'world-map', 'Pardon, waar is het station?', 1],
     ['Vous demandez des congés à votre cheffe.', 'beach-with-umbrella', 'Mag ik volgende week verlof nemen?', 1],
-    ['Vous bousculez quelqu’un dans un magasin.', 'collision', 'Oei, sorry! / Excuseer!', 0],
+    ['Vous bousculez quelqu’un dans un magasin.', 'collision', 'Excuseer! / Pardon!', 1],
   ];
   d.ex({ g: 18, title: 'Exercice 3 — Que dites-vous ?', stars: '★★', instr: 'Que dites-vous en néerlandais ? Choisissez le bon registre.' }, (s, mode, top) => {
     const ch = (6.88 - top - 0.2) / 2;
@@ -351,7 +351,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 19 ex4 familier → poli
-  const ex4 = [['Hoi Tom, kun je me helpen?', 'Goedemorgen meneer Peeters, kunt u me helpen?'], ['Heb je even tijd?', 'Hebt u even tijd?'], ['Wil je een koffie?', 'Wilt u een koffie?'], ['Hoe gaat het met je?', 'Hoe gaat het met u?'], ['Wat is je adres?', 'Wat is uw adres?'], ['Groetjes, Karim', 'Met vriendelijke groet, Karim Benali'], ['Ik wil een afspraak.', 'Ik wil graag een afspraak maken.'], ['Daag!', 'Tot ziens!']];
+  const ex4 = [['Hoi Tom, kun je me helpen?', 'Goedemorgen, meneer Peeters, kunt u me helpen?'], ['Heb je even tijd?', 'Hebt u even tijd?'], ['Wil je een koffie?', 'Wilt u een koffie?'], ['Hoe gaat het met je?', 'Hoe gaat het met u?'], ['Wat is je adres?', 'Wat is uw adres?'], ['Groetjes, Karim', 'Met vriendelijke groet, Karim Benali'], ['Ik wil een afspraak.', 'Ik wil graag een afspraak maken.'], ['Daag!', 'Tot ziens!']];
   d.ex({ g: 19, title: 'Exercice 4 — Familier → poli', stars: '★★', instr: 'Rendez chaque phrase formelle : tous les curseurs à droite !' }, (s, mode, top) => {
     const rh = (6.88 - top) / 8;
     ex4.forEach(([a, b], i) => {
@@ -385,7 +385,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 21 ex6 journée au bureau
-  const day = [['8 u 30', 'eight-thirty', 'Vous arrivez et saluez tous vos collègues.', 'Goedemorgen allemaal!'], ['9 u', 'nine-oclock', 'Vous arrivez en retard à une réunion avec la directrice.', 'Sorry, ik ben te laat. Excuseer, mevrouw.'], ['12 u 30', 'twelve-thirty', 'Un collègue vous propose de déjeuner ensemble.', 'Ja, graag! Goed idee!'], ['17 u 30', 'five-thirty', 'Vous partez et souhaitez une bonne soirée.', 'Tot morgen! Nog een fijne avond!']];
+  const day = [['8 u 30', 'eight-thirty', 'Vous arrivez et saluez tous vos collègues.', 'Goedemorgen allemaal!'], ['9 u', 'nine-oclock', 'Vous arrivez en retard à une réunion avec la directrice.', 'Excuseer, mevrouw, ik ben te laat.'], ['12 u 30', 'twelve-thirty', 'Un collègue vous propose de déjeuner ensemble.', 'Ja, graag! Goed idee!'], ['17 u 30', 'five-thirty', 'Vous partez et souhaitez une bonne soirée.', 'Tot morgen! Nog een fijne avond!']];
   d.ex({ g: 21, title: 'Exercice 6 — Une journée au bureau', stars: '★★★', instr: 'Que dites-vous à chaque moment de la journée ?' }, (s, mode, top) => {
     d.line(s, 0.6, top + 0.45, 12.73, top + 0.45, { color: 'accent1', lw: 3 });
     const w = (12.13 - 3 * 0.25) / 4;

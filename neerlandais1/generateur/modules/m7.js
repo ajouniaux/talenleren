@@ -90,7 +90,7 @@ function build(d) {
   {
     const s = d.page({ g: 5, tag: 'VOCABULAIRE', title: 'Le tableau à 5 colonnes : la Belgique' });
     nat(s, [
-      ['be', 'België', 'Belgisch', 'NL · FR · DU', 'de Belg', 'de Belgisch##e##'],
+      ['be', 'België', 'Belgisch', 'NL · FR · DE', 'de Belg', 'de Belgisch##e##'],
       [null, 'Vlaanderen', 'Vlaams', 'Nederlands', 'de Vlaming', 'de Vlaams##e##'],
       [null, 'Wallonië', 'Waals', 'Frans', 'de Waal', 'de Waals##e##'],
       [null, 'Brussel', 'Brussels', 'Frans · Nederlands', 'de Brusselaar', 'de Brussels##e##'],
@@ -105,14 +105,14 @@ function build(d) {
   // ---------------------------------------------------------------- 6 piège majuscule
   {
     const s = d.page({ g: 6, tag: 'PIÈGE FR ≠ NL', title: 'PIÈGE : la majuscule' });
-    d.trap(s, 0.6, 1.7, 8.6, 3.0, 'Je suis {{b}}elge et je parle {{f}}rançais.', '//Ik ben <<B>>elg en ik spreek <<F>>rans.//', { size: 26 });
+    d.trap(s, 0.6, 1.7, 8.6, 3.0, 'Je suis ##b##elge et je parle ##f##rançais.', '//Ik ben <<B>>elg en ik spreek <<F>>rans.//', { size: 26 });
     d.rect(s, 9.5, 1.7, 3.23, 3.0, { fill: 'bg2', line: BORDER });
     d.t(s, 'B', 9.5, 1.85, 3.23, 2.2, { size: 120, bold: true, color: 'accent3', align: 'center', valign: 'middle', head: true });
     d.ill(s, 'magnifying-glass-tilted-left', 10.3, 3.15, 1.45, 1.45);
     d.table(s, [
       ['', 'Français', 'Nederlands'],
-      ['adjectif de pays', 'belge · {{f}}rançais', '<<B>>elgisch · <<F>>rans'],
-      ['langue', 'le {{n}}éerlandais', '<<N>>ederlands'],
+      ['adjectif de pays', '##b##elge · ##f##rançais', '<<B>>elgisch · <<F>>rans'],
+      ['langue', 'le ##n##éerlandais', '<<N>>ederlands'],
     ], { x: 0.6, y: 4.95, w: 12.13, colW: [3.0, 4.5, 4.63], size: 18, headSize: 15, rowH: 0.48, headColors: ['accent5', 'accent6', 'accent3'] });
     d.t(s, 'Exemples : //de Belgische chocolade · een Waalse stad · Ik spreek Frans.//', 0.6, 6.45, 12.13, 0.4, { size: 16, color: 'accent5', align: 'center' });
   }

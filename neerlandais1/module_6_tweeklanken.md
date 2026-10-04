@@ -20,7 +20,7 @@
 - Tout tient sur **une seule diapo-tableau** : aucune progression, aucune écoute, aucun exercice.
 - Repère faux pour *eeuw* (« é + u » ; on entend « é + ou »).
 - Coquille *eeeuw* (pour *eeuw*).
-- Le piège de *-lijk* (*vrolijk* = « vroleuk ») est signalé mais pas expliqué.
+- Le piège de *-lijk* (*vrolijk* = « vro-lek ») est signalé mais pas expliqué.
 - Les sons *ieuw* (*nieuw*) et *uw* (*uw*, vu en M2) manquent.
 - Les confusions typiques des francophones (*u / uu / eu / ui / oe*) ne sont pas travaillées.
 
@@ -53,7 +53,7 @@
 > Les sons doubles
 > *huis · tijd · keuken · vrouw*
 
-**Notes pour l'animateur** — Prononcez *huis* lentement, puis demandez : « Combien de sons entendez-vous dans *ui* ? » Réponse attendue : un son qui **glisse**, de « œ » vers « i ». C'est le principe de toute la séance.
+**Notes pour l'animateur** — Prononcez *huis* lentement, puis demandez : « Combien de sons entendez-vous dans *ui* ? » Réponse attendue : un son qui **glisse**, de « œ » vers « u », lèvres arrondies. C'est le principe de toute la séance.
 
 ---
 
@@ -100,16 +100,16 @@
 - Pastille `PRONONCIATION`.
 - Schéma central : deux points (« départ », « arrivée ») reliés par une **flèche courbe** orange qui « glisse ».
 - Trois exemples alignés :
-  - *ui* : « œ » → « i » ;
+  - *ui* : « œ » → « u » (lèvres arrondies) ;
   - *ij/ei* : « è » → « i » ;
   - *ou/au* : « a » → « ou ».
 - Une illustration de bouche ou de visage qui parle à gauche.
 
 **Contenu textuel**
 > Un son double = **un seul son qui glisse** d'une position de la bouche à une autre.
-> **ui** : « œ » ➜ « i » · **ij / ei** : « è » ➜ « i » · **ou / au** : « a » ➜ « ou »
+> **ui** : « œ » ➜ « u » · **ij / ei** : « è » ➜ « i » · **ou / au** : « a » ➜ « ou »
 
-**Notes pour l'animateur** — Faites mimer le glissement avec la main, comme une glissade. Pour *ui*, partez du « eu » de *fauteuil* et fermez vers « i ». Ne cherchez pas la perfection : l'objectif A1 est d'être compris et de ne pas confondre les sons.
+**Notes pour l'animateur** — Faites mimer le glissement avec la main, comme une glissade. Pour *ui*, partez du « eu » de *fauteuil* et fermez vers « u », en gardant les lèvres arrondies (sinon, *ui* glisse vers *ij*). Ne cherchez pas la perfection : l'objectif A1 est d'être compris et de ne pas confondre les sons.
 
 ---
 
@@ -145,9 +145,9 @@
 **Contenu textuel**
 > **ij** (*lange ij*) : *mijn · wijn · tijd · Kortrijk* · **ei** (*korte ei*) : *klein · trein · weinig · reis*
 > Même son « è-i » → à l'écrit, il faut **apprendre** le mot.
-> ⚠ **-lijk** se prononce « -leuk » : *vrolijk, moeilijk, natuurlijk*
+> ⚠ **-lijk** se prononce « -lek », avec un e muet (≠ le *eu* long de *leuk*) : *vrolijk, moeilijk, natuurlijk*
 
-**Notes pour l'animateur** — En Flandre, *ij/ei* se prononce souvent plus ouvert, presque « è » long : les deux prononciations sont correctes. À la dictée, on demande : *Lange ij of korte ei?* (vu en M1). Le *-lijk* final est réduit, comme un « e » muet (lien avec le *-en* final du M1).
+**Notes pour l'animateur** — La norme garde le glissement « è » → « i ». Dans certaines régions de Flandre (Anvers, Brabant), on entend un « è » plus ouvert, presque sans glissement : apprenez le glissement, reconnaissez la variante. À la dictée, on demande : *Lange ij of korte ei?* (vu en M1). Le *-lijk* final est réduit, comme un « e » muet (lien avec le *-en* final du M1).
 
 ---
 
@@ -156,7 +156,7 @@
 **Objectif pédagogique** — Maîtriser *ui* et le distinguer de *u* et *uu*.
 
 **Visuel / Schéma / Agencement**
-- *En haut* : schéma de glissement « œ » ➜ « i », avec une flèche orange.
+- *En haut* : schéma de glissement « œ » ➜ « u », avec une flèche orange.
 - *Au centre* : un **trio minimal** en 3 cartes : *hut* (framboise) · *huur* (vert) · *huis* (orange), chacune avec son illustration (cabane, clé et euros, maison).
 - *En bas* : 4 mots du quotidien avec leur illustration.
 
@@ -181,7 +181,7 @@
 - Sous chaque colonne, le « réflexe français » barré et le bon repère.
 
 **Contenu textuel**
-> **u** *bus* — ~~« u »~~ → « eu » bref · **uu** *vuur* — = « u » français long · **eu** *neus, keuken, leuk* — = « eu » de *feu*
+> **u** *bus* — ~~« u »~~ → « eu » bref · **uu** *vuur* — = « u » français (allongé devant **r**) · **eu** *neus, keuken, leuk* — = « eu » de *feu*
 > *De keuken is leuk.* — La cuisine est chouette.
 
 **Notes pour l'animateur** — Jeu rapide : l'enseignant dit un mot, la classe lève 1, 2 ou 3 doigts (u, uu, eu). *Leuven* (eu) et *Luik* (ui) sont un bon test belge.
@@ -253,7 +253,7 @@
 > | Son | Repère | Exemples | Piège |
 > |---|---|---|---|
 > | ij / ei | « è-i » | tijd, klein | deux écritures |
-> | ui | « œ-i » | huis, tuin | ≠ u, uu |
+> | ui | « œ-u » | huis, tuin | ≠ u, uu |
 > | eu | « eu » de feu | keuken, deur | ≠ u |
 > | oe | « ou » | boek, broer | ≠ u |
 > | ou / au | « aou » | vrouw, blauw | deux écritures |
@@ -273,7 +273,7 @@
 - En dessous, deux mots décomposés en boîtes de syllabes ; le son double est dans une boîte orange **insécable**, avec un cadenas.
 
 **Contenu textuel**
-> *moei·lijk* → [moei] + [lijk = « leuk »] · *keu·ken* → [keu] + [ken]
+> *moei·lijk* → [moei] + [lijk = « lek »] · *keu·ken* → [keu] + [ken]
 > Le son double ne se coupe **jamais** et ne change jamais.
 
 **Notes pour l'animateur** — Rappel du M1, diapo 6 (« son double : je ne le coupe jamais »). Testez sur *buiten* (bui·ten) et *nieuwe* (nieu·we).
@@ -409,4 +409,4 @@
 **Notes pour l'animateur** — Réponses :
 1. *ui*, *uu*, *u*.
 2. *trein*, *tijd*.
-3. « vroleuk » (*-lijk* = « leuk »).
+3. « vro-lek » (*-lijk* = « lek », e muet).

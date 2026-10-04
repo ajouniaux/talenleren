@@ -84,7 +84,7 @@
 > **Lut** : *Hallo, ik heet Lut. Ik ben afkomstig uit België. Ik heb de Belgische nationaliteit.*
 > **Rik** : *Dag! Ik ben Rik. Ik kom ook uit België. Ik ben Belg en mijn moedertaal is Nederlands.*
 
-**Notes pour l'animateur** — Repérage : combien de façons différentes de dire « je suis belge » ? Réponse : 4 (*afkomstig uit België · de Belgische nationaliteit · uit België · Belg*). Elles sont classées diapo 7.
+**Notes pour l'animateur** — Repérage : combien de façons différentes de dire « je suis belge » ? Réponse : 4 (*afkomstig uit België · de Belgische nationaliteit · uit België · Belg*). *afkomstig uit* (« originaire de ») est seulement à reconnaître ; les trois autres sont classées diapo 7.
 
 ---
 
@@ -105,7 +105,7 @@
 > **Vlaanderen** → Nederlands · **Wallonië** → Frans · **Brussel** → Frans en Nederlands · **Oost-België** → Duits
 > België heeft **drie** officiële talen.
 
-**Notes pour l'animateur** — La langue de Flandre s'appelle officiellement *Nederlands* ; *Vlaams* désigne les variantes régionales. À Bruxelles, les administrations sont bilingues. La communauté germanophone se trouve autour d'Eupen.
+**Notes pour l'animateur** — La langue de Flandre s'appelle officiellement *Nederlands* ; *Vlaams* désigne les variantes régionales. À Bruxelles, les administrations sont bilingues. La communauté germanophone se trouve autour d'Eupen et de Saint-Vith ; elle fait partie de la Région wallonne. La carte la montre à part pour sa langue : la Belgique compte 3 régions mais 4 zones linguistiques.
 
 ---
 
@@ -125,7 +125,7 @@
 **Contenu textuel**
 > | Land / gewest | Adjectief | Taal | Inwoner | Inwoonster |
 > |---|---|---|---|---|
-> | België | Belgisch | NL · FR · DU | de Belg | de Belgische |
+> | België | Belgisch | NL · FR · DE | de Belg | de Belgische |
 > | Vlaanderen | Vlaams | Nederlands | de Vlaming | de Vlaamse |
 > | Wallonië | Waals | Frans | de Waal | de Waalse |
 > | Brussel | Brussels | Frans · Nederlands | de Brusselaar | de Brusselse |
@@ -140,7 +140,7 @@
 
 **Visuel / Schéma / Agencement**
 - Encadré **S10** :
-  - ligne française « Je suis **b**elge et je parle **f**rançais. », les minuscules surlignées ;
+  - ligne française « Je suis **b**elge et je parle **f**rançais. », les minuscules surlignées en orange (elles sont correctes en français) ;
   - flèche ↓ ;
   - ligne néerlandaise *Ik ben **B**elg en ik spreek **F**rans.*, les majuscules en vert.
 - À droite, une « loupe » sur la lettre B.
@@ -186,7 +186,7 @@
 > Il est **belge** · Elle est **belge** → *Hij is **Belg**.* · *Zij is **Belgische**.*
 > En néerlandais, on dit plutôt le **nom** d'habitant, qui change pour une femme.
 
-**Notes pour l'animateur** — *Ik ben Belgisch* s'entend à l'oral, mais *Ik ben Belg / Belgische* est la forme standard. Pour une femme : *Belgische*, *Vlaamse*, *Waalse*. Pour un homme : *Belg*, *Vlaming*, *Waal*. Reprise de l'archive : *Ik ben Vlaming / Ik ben Vlaamse*.
+**Notes pour l'animateur** — *Ik ben Belg / Belgische* est la forme la plus courante ; *Ik ben Belgisch* est aussi correct (Taalunie). Ce qui compte : ne pas calquer le français *belge* en oubliant la forme d'habitant. Pour une femme : *Belgische*, *Vlaamse*, *Waalse*. Pour un homme : *Belg*, *Vlaming*, *Waal*. Reprise de l'archive : *Ik ben Vlaming / Ik ben Vlaamse*.
 
 ---
 
@@ -208,7 +208,7 @@
 > | Groot-Brittannië | Brits | Engels | de Brit | de Britse |
 > | Spanje | Spaans | Spaans | de Spanjaard | de Spaanse |
 
-**Notes pour l'animateur** — Les noms d'habitants masculins sont irréguliers (*Fransman, Spanjaard*) : on les apprend. Les féminins suivent presque tous la règle « adjectif + e ». Piège : *Nederlands* est à la fois l'adjectif et la langue.
+**Notes pour l'animateur** — Les noms d'habitants masculins sont irréguliers (*Fransman, Spanjaard*) : on les apprend. Les féminins suivent presque tous la règle « adjectif + e ». Piège : *Nederland* (le pays) ≠ *Nederlands* (l'adjectif et la langue).
 
 ---
 
@@ -280,7 +280,7 @@
 > **Marc** : *Ik ben Waal. Ik kom uit Bergen, een Waalse stad. Mijn moedertaal is Frans.*
 > **Hanne** : *Wij spreken thuis Nederlands én Frans!*
 
-**Notes pour l'animateur** — Faites relever les mots de nationalité et dites pourquoi c'est *Vlaamse* (Hanne, une femme) mais *Waal* (Marc, un homme). *én … én* avec accents = « et … et » (insistance).
+**Notes pour l'animateur** — Faites relever les mots de nationalité et dites pourquoi c'est *Vlaamse* (Hanne, une femme) mais *Waal* (Marc, un homme). *én* accentué = « et » appuyé (insistance : les deux langues).
 
 ---
 

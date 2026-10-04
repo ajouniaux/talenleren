@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Niveau** | A1 · UE1 · bloc 2 |
-| **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14 + ex. 1–2 · séance 2 : diapos 19–23) |
+| **Durée** | 2 séances de 90 min (séance 1 : diapos 1–18, ex. 1 à 3 · séance 2 : diapos 19–23, ex. 4 à 7) |
 | **Source** | `2020-11-26_AJ_neerlandais1_formel_informel.pptx` (24 diapos) |
 | **Prérequis** | M2 (*je / u / jullie*, saluer, *uw*), M4 (*kunnen, mogen, willen*) |
 | **Savoir-faire visés** | ① Choisir *je* ou *u* et rester cohérent · ② Saluer, demander des nouvelles, remercier, s'excuser et prendre congé dans les deux registres · ③ Formuler une demande polie à l'oral et au téléphone |
@@ -13,7 +13,7 @@
 **Forces conservées**
 - Des paires de photos formel / informel, avec la phrase néerlandaise et sa traduction (salutations, « ça va ? », réponses, congé, remerciements).
 - L'échelle de nuances *vrij / heel / zeer / best / redelijk goed / slecht*.
-- Le tri formel / informel de situations et de paires de mots (*meedoen / deelnemen*, *vragen / verzoeken*, *helaas / tot onze spijt*…).
+- Le tri formel / informel de situations et de paires de mots (*meedoen / deelnemen*, *vragen / verzoeken*, *vertellen / meedelen*…).
 - Deux banques très riches de situations (« Wat zeg je als… », « Meer situaties »).
 - Les situations-images au bureau.
 
@@ -22,6 +22,7 @@
 - Traductions **inversées** en diapo 9 (« Dankuwel, ik wens u een fijne dag » traduit par « passe une bonne journée », et inversement).
 - Majuscule fautive « Meneer de Directeur » (on écrit *meneer de directeur*).
 - Coquille *nar* (pour *naar*).
+- Les paires *job / beroep* et *helaas / tot onze spijt* sont trompeuses en Belgique : *job* et *helaas* y sont neutres, y compris à l'écrit formel. Elles sont remplacées par *krijgen / ontvangen* et *nu / momenteel*.
 - Situations peu adaptées au monde professionnel ou étranges (« réveillé par le patron au bureau », « licencié »).
 - Activités « extra » de niveau UE2 (négocier par mail, gérer une plainte).
 - Les situations rédigées en subordonnées néerlandaises (*als je…*) ne sont pas accessibles avant le M9.
@@ -107,7 +108,7 @@
 
 **Contenu textuel**
 > **Pronom** : *je / jij* ⟷ *u* · **Verbe** : *werk je?* ⟷ *werkt u?* · **Possessif** : *je / jouw* ⟷ *uw*
-> **Salutation** : *Hoi! / Hallo!* ⟷ *Goedemorgen, mevrouw…* · **Mots** : *job, vragen* ⟷ *beroep, verzoeken* · **Clôture** : *Daag! / Groetjes* ⟷ *Tot ziens / Met vriendelijke groet*
+> **Salutation** : *Hoi! / Hallo!* ⟷ *Goedemorgen, mevrouw…* · **Mots** : *krijgen, vragen* ⟷ *ontvangen, verzoeken* · **Clôture** : *Daag! / Groetjes* ⟷ *Tot ziens / Met vriendelijke groet*
 > Règle d'or : **tous les curseurs du même côté.**
 
 **Notes pour l'animateur** — L'erreur typique n'est pas de choisir le mauvais registre, mais de **mélanger** (*Hoe gaat het met je, mevrouw Claes?*). L'exercice 5 (le détective) porte sur ce mélange.
@@ -231,9 +232,9 @@
 
 **Contenu textuel**
 > *meedoen* ⟷ *deelnemen* (participer) · *vragen* ⟷ *verzoeken* (demander) · *vertellen* ⟷ *meedelen* (communiquer)
-> *helaas* ⟷ *tot onze spijt* (malheureusement) · *job* ⟷ *beroep / functie* · *Groetjes* ⟷ *Met vriendelijke groet*
+> *nu* ⟷ *momenteel* (maintenant) · *krijgen* ⟷ *ontvangen* (recevoir) · *Groetjes* ⟷ *Met vriendelijke groet*
 
-**Notes pour l'animateur** — Ces mots formels servent surtout à l'écrit (mails, lettres officielles : M10). Note : *deelnemen* et *meedelen* sont des verbes à particule (*Ik neem deel*, M3).
+**Notes pour l'animateur** — Ces mots formels servent surtout à l'écrit (mails, lettres officielles : M10). Note : *deelnemen* et *meedelen* sont des verbes à particule (*Ik neem deel*, M3). En Belgique, *job* et *helaas* sont neutres : on peut les écrire dans un mail formel.
 
 ---
 
@@ -248,8 +249,8 @@
   - deux versions cohérentes en vert (formelle et informelle).
 
 **Contenu textuel**
-> ✗ *Goedemorgen mevrouw Claes, hoe gaat het met **je**? Kunt u **je** adres geven?*
-> ✓ *Goedemorgen mevrouw Claes, hoe gaat het met **u**? Kunt u **uw** adres geven?*
+> ✗ *Goedemorgen, mevrouw Claes, hoe gaat het met **je**? Kunt u **je** adres geven?*
+> ✓ *Goedemorgen, mevrouw Claes, hoe gaat het met **u**? Kunt u **uw** adres geven?*
 > ✓ *Hoi Lies, hoe gaat het met **je**? Kun **je** **je** adres geven?*
 
 **Notes pour l'animateur** — Le possessif suit le pronom : *u → uw*, *je → je / jouw*. C'est l'erreur de l'activité « Léa » de l'archive, simplifiée ici.
@@ -333,8 +334,8 @@
 - Gabarit **E2** : 6 pastilles « informeel » à gauche, 6 pastilles « formeel » mélangées à droite. Correction avec des flèches bleu nuit.
 
 **Contenu textuel**
-> Informeel : 1 *meedoen* · 2 *vragen* · 3 *vertellen* · 4 *helaas* · 5 *job* · 6 *Groetjes*
-> Formeel : a *Met vriendelijke groet* · b *meedelen* · c *deelnemen* · d *beroep* · e *tot onze spijt* · f *verzoeken*
+> Informeel : 1 *meedoen* · 2 *vragen* · 3 *vertellen* · 4 *nu* · 5 *krijgen* · 6 *Groetjes*
+> Formeel : a *Met vriendelijke groet* · b *meedelen* · c *deelnemen* · d *ontvangen* · e *momenteel* · f *verzoeken*
 >
 > **✓ CORRECTIE** — 1c · 2f · 3b · 4e · 5d · 6a
 
@@ -354,7 +355,7 @@
 > 1 Vous rencontrez un nouveau collègue. · 2 Au restaurant, vous demandez l'addition. · 3 À la boulangerie, vous voulez un pain. · 4 Votre voisin vous aide.
 > 5 Vous saluez votre professeur le matin. · 6 Vous demandez le chemin dans la rue. · 7 Vous demandez des congés à votre cheffe. · 8 Vous bousculez quelqu'un dans un magasin.
 >
-> **✓ CORRECTIE** — 1 *Dag, ik ben Karim. Aangenaam!* · 2 *Mag ik de rekening, alstublieft?* · 3 *Een brood, alstublieft.* · 4 *Dank je wel, dat is vriendelijk!* · 5 *Goedemorgen, mevrouw!* · 6 *Pardon, waar is het station?* · 7 *Mag ik volgende week verlof nemen?* · 8 *Oei, sorry! / Excuseer!*
+> **✓ CORRECTIE** — 1 *Dag, ik ben Karim. Aangenaam!* · 2 *Mag ik de rekening, alstublieft?* · 3 *Een brood, alstublieft.* · 4 *Dank je wel, dat is lief van je!* · 5 *Goedemorgen, mevrouw!* · 6 *Pardon, waar is het station?* · 7 *Mag ik volgende week verlof nemen?* · 8 *Excuseer! / Pardon!* (inconnu → formel)
 
 **Notes pour l'animateur** — Les situations sont données en français : les originaux néerlandais de l'archive (*Wat zeg je als…*) contiennent des subordonnées vues seulement au M9. Acceptez toute réponse dans le bon registre. Les 22 autres situations de l'archive peuvent servir de réserve pour les classes rapides.
 
@@ -371,7 +372,7 @@
 > 1 *Hoi Tom, kun je me helpen?* · 2 *Heb je even tijd?* · 3 *Wil je een koffie?* · 4 *Hoe gaat het met je?*
 > 5 *Wat is je adres?* · 6 *Groetjes, Karim* · 7 *Ik wil een afspraak.* · 8 *Daag!*
 >
-> **✓ CORRECTIE** — 1 *Goedemorgen meneer Peeters, kunt u me helpen?* · 2 *Hebt u even tijd?* · 3 *Wilt u een koffie?* · 4 *Hoe gaat het met u?* · 5 *Wat is uw adres?* · 6 *Met vriendelijke groet, Karim Benali* · 7 *Ik wil graag een afspraak maken.* · 8 *Tot ziens!*
+> **✓ CORRECTIE** — 1 *Goedemorgen, meneer Peeters, kunt u me helpen?* · 2 *Hebt u even tijd?* · 3 *Wilt u een koffie?* · 4 *Hoe gaat het met u?* · 5 *Wat is uw adres?* · 6 *Met vriendelijke groet, Karim Benali* · 7 *Ik wil graag een afspraak maken.* · 8 *Tot ziens!*
 
 **Notes pour l'animateur** — N° 2 : *Hebt u* et *Heeft u* sont tous deux corrects. N° 7 : *graag* adoucit, et *maken* complète la pince (M3). N° 6 : en formel, on signe avec le nom complet.
 
@@ -405,7 +406,7 @@
 > 8 h 30 — Vous arrivez et saluez tous vos collègues. · 9 h — Vous arrivez en retard à une réunion avec la directrice.
 > 12 h 30 — Un collègue vous propose de déjeuner ensemble. · 17 h 30 — Vous partez et souhaitez une bonne soirée.
 >
-> **✓ CORRECTIE** — *Goedemorgen allemaal!* · *Sorry, ik ben te laat. Excuseer, mevrouw.* · *Ja, graag! Goed idee!* · *Tot morgen! Nog een fijne avond!*
+> **✓ CORRECTIE** — *Goedemorgen allemaal!* · *Excuseer, mevrouw, ik ben te laat.* · *Ja, graag! Goed idee!* · *Tot morgen! Nog een fijne avond!*
 
 **Notes pour l'animateur** — Jouez la frise en petits groupes, chacun prenant une vignette. Les situations « licencié » et « réveillé par le patron » de l'archive sont remplacées par des situations plus utiles. *Sorry dat ik te laat ben* (subordonnée) peut être donné comme bloc tout fait.
 

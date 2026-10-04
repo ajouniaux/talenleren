@@ -71,7 +71,7 @@ function build(d) {
     d.ill(s, 'speaking-head', 0.7, 3.25, 2.3, 2.3);
     d.t(s, 'départ', 5.0, 2.55, 1.4, 0.32, { size: 14, italic: true, color: 'accent5', align: 'center' });
     d.t(s, 'arrivée', 8.3, 2.55, 1.4, 0.32, { size: 14, italic: true, color: 'accent5', align: 'center' });
-    const rows = [['ui', '« œ »', '« i »', 'huis', 'house'], ['ij / ei', '« è »', '« i »', 'tijd', 'alarm-clock'], ['ou / au', '« a »', '« ou »', 'vrouw', 'woman']];
+    const rows = [['ui', '« œ »', '« u »', 'huis', 'house'], ['ij / ei', '« è »', '« i »', 'tijd', 'alarm-clock'], ['ou / au', '« a »', '« ou »', 'vrouw', 'woman']];
     rows.forEach(([snd, a, b, ex, il], i) => {
       const y = 3.15 + i * 1.25; const dd = 0.95;
       d.rect(s, 3.3, y + 0.12, 1.55, 0.85, { fill: DBL, line: null });
@@ -128,7 +128,7 @@ function build(d) {
       { head: 'korte ei', color: DBL, ills: ['train'], words: ['kl##ei##n', 'tr##ei##n', 'w##ei##nig', 'r##ei##s'], tr: 'petit · le train · peu · le voyage' },
       'même son\n« è-i »', 2.55);
     d.t(s, 'À l’écrit, aucune règle : il faut **apprendre** le mot. À la dictée : //Lange ij of korte ei?//', 0.6, 4.33, 12.13, 0.42, { size: 17, align: 'center', valign: 'middle' });
-    d.trap(s, 0.6, 4.85, 12.13, 2.0, 'vro**lijk** → {{« vro-lèik »}}', '**-lijk** se prononce « -leuk » : //vrolijk · moeilijk · natuurlijk//', { size: 20 });
+    d.trap(s, 0.6, 4.85, 12.13, 2.0, 'vro**lijk** → {{« vro-lèik »}}', '**-lijk** se prononce « -lek » (e muet, ≠ //leuk//) : //vrolijk · moeilijk · natuurlijk//', { size: 20 });
   }
 
   // ---------------------------------------------------------------- 7 ui
@@ -136,11 +136,11 @@ function build(d) {
     const s = d.page({ g: 7, tag: 'PRONONCIATION', title: 'ui : le son roi du néerlandais' });
     // glide
     d.curve(s, 2.0, 1.95, 4.4, 1.95, { h: 0.3, color: DBL, lw: 3 });
-    [['« œ »', 2.0, 'bg2', 'tx2'], ['« i »', 4.4, 'FDF1E6', DBL]].forEach(([t, cx, f, c]) => {
+    [['« œ »', 2.0, 'bg2', 'tx2'], ['« u »', 4.4, 'FDF1E6', DBL]].forEach(([t, cx, f, c]) => {
       d.oval(s, cx - 0.36, 1.95, 0.72, 0.62, { fill: f, line: c, lw: 1.5 });
       d.t(s, t, cx - 0.36, 1.95, 0.72, 0.62, { size: 16, bold: true, color: c, align: 'center', valign: 'middle' });
     });
-    d.t(s, '**ui** = « œ » qui glisse vers « i ». Ni « oui », ni « ui » français !', 5.2, 1.75, 7.5, 0.8, { size: 19, valign: 'middle' });
+    d.t(s, '**ui** = « œ » qui glisse vers « u », lèvres arrondies. Ni « oui », ni « ui » français !', 5.2, 1.75, 7.5, 0.8, { size: 19, valign: 'middle' });
     // trio
     const trio = [['h%%u%%t', 'la cabane', 'u court', K.short, ['hut']], ['h<<uu>>r', 'le loyer', 'uu long', K.long, ['key', 'euro-banknote']], ['h##ui##s', 'la maison', 'ui double', DBL, ['house']]];
     trio.forEach(([w, tr, lab, c, ills], i) => {
@@ -169,7 +169,7 @@ function build(d) {
     d.chip(s, '⚠ PIÈGE', 0.8, 1.85, 'accent6', 0.32, 12);
     const cols = [
       ['u', K.short, 'bus', 'b%%u%%s', '{{« u » français}}', '→ « **eu** » bref'],
-      ['uu', K.long, 'fire', 'v<<uu>>r', '= « **u** » français…', '→ mais **long**'],
+      ['uu', K.long, 'fire', 'v<<uu>>r', '= « **u** » français…', '→ long devant **r**'],
       ['eu', DBL, 'nose', 'n##eu##s · k##eu##ken · l##eu##k', '= « **eu** » de //feu//', '→ toujours pareil'],
     ];
     cols.forEach(([snd, c, il, w, bad, good], i) => {
@@ -254,7 +254,7 @@ function build(d) {
     d.table(s, [
       ['Son', 'Repère FR', 'Exemples', 'Piège'],
       ['##ij## / ##ei##', '« è-i »', '//tijd, klein//', 'deux écritures'],
-      ['##ui##', '« œ-i »', '//huis, tuin//', '≠ u, uu'],
+      ['##ui##', '« œ-u »', '//huis, tuin//', '≠ u, uu'],
       ['##eu##', '« eu » de //feu//', '//keuken, deur//', '≠ u'],
       ['##oe##', '« ou »', '//boek, broer//', '≠ u'],
       ['##ou## / ##au##', '« aou »', '//vrouw, blauw//', 'deux écritures'],
@@ -272,7 +272,7 @@ function build(d) {
     [['GiScissors', '1 · Je coupe'], ['FaDoorOpen', '2 · Porte ouverte ?'], ['FaVolumeUp', '3 · Je prononce']].forEach(([, lab], i) => {
       s.addText(lab, { shape: d.S.CHEVRON, x: 0.6 + i * 4.0, y: 1.75, w: 4.05, h: 0.9, fill: { color: ['accent2', 'tx2', 'accent3'][i] }, color: 'FFFFFF', bold: true, fontSize: 20, align: 'center', valign: 'middle', margin: 0 });
     });
-    const words = [['moeilijk', 'difficile', [['moei', true, ''], ['lijk', false, '= « leuk »']]], ['keuken', 'la cuisine', [['keu', true, ''], ['ken', false, '']]]];
+    const words = [['moeilijk', 'difficile', [['moei', true, ''], ['lijk', false, '= « lek »']]], ['keuken', 'la cuisine', [['keu', true, ''], ['ken', false, '']]]];
     words.forEach(([w, tr, parts], i) => {
       const y = 3.0 + i * 1.6;
       d.t(s, `//${w}//`, 0.6, y, 2.6, 0.75, { size: 28, bold: true, valign: 'middle', head: true });
