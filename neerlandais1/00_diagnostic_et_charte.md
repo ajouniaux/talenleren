@@ -189,8 +189,8 @@
 
 ### 5.5 Pictogrammes et personnage-guide
 
-- Pictogrammes **plats, monochromes vert forêt** (style des archives) dans des cadres carrés à coins arrondis. Une seule famille d'icônes.
-- **Personnage-guide** : l'avatar de l'enseignant (archives A2, D2, A21) apparaît sur les diapos *Missie*, *Échauffement* et *consigne d'exercice*, toujours à droite, en pied.
+- **Illustrations** : une seule famille, en couleur, *Fluent Emoji* (Microsoft, licence MIT). Elles remplacent les pictogrammes verts, l'avatar et les photos des archives. Les objets, personnes et lieux sont illustrés en couleur ; les petits symboles d'interface (✓, ✗, flèches, cadenas) restent des icônes monochromes.
+- **Personnages** : l'enseignant (*man-teacher*) sur les diapos *Missie*, *Échauffement* et les intercalaires ; Karim et Sofie (employés de bureau) dans les exemples et les mises en situation.
 - Six **icônes d'identité** reviennent en M2 et ailleurs : 🪪 naam · 🎂 leeftijd · 🏠 woonplaats · 🌍 afkomst · 💼 beroep · 💬 talen.
 
 ### 5.6 Pastilles (Z2)

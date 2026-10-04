@@ -174,7 +174,7 @@ function build(d) {
       ],
     });
     s.addText(parse('Pas des exceptions : des **réflexes** !'), {
-      shape: d.S.ROUNDED_RECTANGULAR_CALLOUT, x: 10.45, y: 2.55, w: 2.28, h: 1.4, fill: { color: 'FFFFFF' }, line: { color: HEX.accent1, width: 2 },
+      shape: d.S.ROUNDED_RECTANGULAR_CALLOUT, x: 10.5, y: 4.35, w: 2.23, h: 1.3, fill: { color: 'FFFFFF' }, line: { color: HEX.accent1, width: 2 },
       fontSize: 18, color: 'tx1', align: 'center', valign: 'middle', margin: 5,
     });
   }
@@ -382,8 +382,8 @@ function build(d) {
     cards.forEach(([inf, fr, forms], i) => {
       const x = 0.6 + i * (w + 0.25); const yy = 5.18;
       d.rect(s, x, yy, w, 1.67, { fill: 'bg2', line: BORDER, shadow: true });
-      d.t(s, `**${inf}**`, x + 0.15, yy + 0.08, 1.6, 0.42, { size: 18, color: 'tx2', valign: 'middle' });
-      d.t(s, `//${fr}//`, x + 1.5, yy + 0.08, w - 1.65, 0.42, { size: 14, color: 'accent5', valign: 'middle', align: 'right' });
+      d.t(s, `**${inf}**`, x + 0.15, yy + 0.08, 1.75, 0.42, { size: 18, color: 'tx2', valign: 'middle', fit: true, max: 18, min: 14 });
+      d.t(s, `//${fr}//`, x + 1.85, yy + 0.08, w - 2.0, 0.42, { size: 13, color: 'accent5', valign: 'middle', align: 'right' });
       d.line(s, x + 0.15, yy + 0.55, x + w - 0.15, yy + 0.55, { color: BORDER, lw: 1, arrow: false });
       d.t(s, forms, x + 0.15, yy + 0.62, w - 0.3, 1.0, { size: 18, gap: 0, valign: 'middle' });
     });
@@ -515,8 +515,8 @@ function build(d) {
     // NL line with the pince
     d.rect(s, 0.8, 3.33, 7.9, 1.15, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.25 });
     d.num(s, 'NL', 0.95, 3.66, 0.5, 'accent3', 13);
-    const lay = layout([['Ik'], ['moet', 'v'], ['morgen'], ['werken', 'v2'], ['.', '.']], 1.8, 30, 0.14);
-    pince(d, s, lay, 3.58, 0.56, { above: true, boxes: true, off: 0.17, lw: 3 });
+    const lay = layout([['Ik'], ['moet', 'v'], ['morgen'], ['werken', 'v2'], ['.', '.']], 1.65, 30, { pad: 0.1, gap: 0.08 });
+    pince(d, s, lay, 3.58, 0.56, { above: true, off: 0.17, lw: 3, flw: 2.5 });
     drawSentence(d, s, lay, 3.58, 0.56, 30);
     const mid = lay.pos[2];
     d.t(s, 'le cœur de la phrase', mid.x - 0.4, 4.15, mid.w + 0.8, 0.28, { size: 12, italic: true, color: 'accent5', align: 'center' });
@@ -537,15 +537,15 @@ function build(d) {
     // bonus: the particle sticks back to the infinitive
     d.rect(s, 0.6, 5.77, 12.13, 1.08, { fill: 'FFFFFF', line: 'accent5', lw: 1, dash: 'dash' });
     d.chip(s, '+ BONUS : particule', 0.8, 6.18, 'accent5', 0.34, 12);
-    const l1 = layout([['Ik'], ['bel', 'v'], ['de klant'], ['op', 'p'], ['.', '.']], 3.7, 20);
-    const l2 = layout([['Ik'], ['moet', 'v'], ['de klant'], ['##op##!!bellen!!', 'v2'], ['.', '.']], 6.35, 20);
-    const ty = 6.27; const th = 0.45;
-    const op1 = l1.pos[3]; const op2 = l2.pos[3];
-    d.curve(s, op1.cx, ty + 0.02, op2.x + tw('op', 20, true) / 2, ty + 0.02, { h: 0.3, color: 'accent1', lw: 2 });
-    drawSentence(d, s, l1, ty, th, 20);
-    d.t(s, '→', l1.end + 0.1, ty, 0.5, th, { size: 22, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-    drawSentence(d, s, l2, ty, th, 20);
-    d.t(s, '(on recolle, en un seul mot)', l2.end + 0.25, ty, 12.6 - l2.end - 0.25, th, { size: 15, italic: true, color: 'accent5', valign: 'middle' });
+    const l1 = layout([['Ik'], ['bel', 'v'], ['de klant'], ['op', 'p'], ['.', '.']], 3.65, 18, { pad: 0.05, gap: 0.05 });
+    const l2 = layout([['Ik'], ['moet', 'v'], ['de klant'], ['##op##!!bellen!!', 'v2'], ['.', '.']], l1.end + 0.6, 18, { pad: 0.05, gap: 0.05 });
+    const ty = 6.3; const th = 0.42;
+    const op2 = l2.pos[3]; const opX = op2.cx - (tw('opbellen', 18, true) * 1.1) / 2 + tw('op', 18, true) * 0.55;
+    d.curve(s, l1.pos[3].cx, ty + 0.03, opX, ty + 0.03, { h: 0.28, color: 'accent1', lw: 2 });
+    drawSentence(d, s, l1, ty, th, 18);
+    d.t(s, '→', l1.end + 0.05, ty, 0.5, th, { size: 20, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
+    drawSentence(d, s, l2, ty, th, 18);
+    d.t(s, '(on recolle, en un seul mot)', l2.end + 0.2, 5.85, 12.6 - l2.end - 0.2, 0.9, { size: 14, italic: true, color: 'accent5', valign: 'middle', fit: true, max: 15, min: 12 });
   }
 
   // ---------------------------------------------------------------- 15 organigramme (S9)
@@ -554,11 +554,11 @@ function build(d) {
     const cx = 3.1; const dw = 5.0;
     const diamond = (y, h, text) => {
       s.addShape(d.S.DIAMOND, { x: cx - dw / 2, y, w: dw, h, fill: { color: HEX.lt2 }, line: { color: HEX.dk2, width: 1.75 } });
-      d.t(s, text, cx - 1.45, y + 0.12, 2.9, h - 0.24, { size: 14, align: 'center', valign: 'middle', gap: 0, fit: true, max: 14, min: 12 });
+      lines(s, text, cx - 1.5, y + 0.12, 3.0, h - 0.24, { align: 'center', gap: 0, fit: true, max: 14, min: 12 });
     };
     const box = (x, y, w, h, text, o = {}) => {
       d.rect(s, x, y, w, h, { fill: o.fill || 'FFFFFF', line: o.line || 'tx2', lw: 1.5, radius: 0.1 });
-      d.t(s, text, x + 0.1, y, w - 0.2, h, { size: o.size || 15, align: 'center', valign: 'middle', bold: o.bold, gap: 0, fit: true, max: o.size || 15, min: 12 });
+      lines(s, Array.isArray(text) ? text : [text], x + 0.1, y, w - 0.2, h, { align: 'center', bold: o.bold, gap: 0, fit: true, max: o.size || 15, min: 12 });
     };
     const yes = (x1, y, x2) => { d.line(s, x1, y, x2, y, { color: 'accent3', lw: 2 }); d.t(s, 'OUI', x1, y - 0.3, x2 - x1, 0.26, { size: 12, bold: true, color: 'accent3', align: 'center' }); };
     const no = (y1, y2) => { d.line(s, cx, y1, cx, y2, { color: 'accent5', lw: 2 }); d.t(s, 'NON', cx + 0.12, y1, 0.6, y2 - y1, { size: 12, bold: true, color: 'accent5', valign: 'middle' }); };
@@ -719,7 +719,7 @@ function build(d) {
       fixes.forEach(([n, f], i) => {
         const y = Y + 0.42 + i * 0.6;
         d.rect(s, RX, y, RW, 0.52, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: BORDER, lw: 0.5 });
-        cchip(d, s, n, RX + 0.1, y + 0.1, 0.8, 0.32, n === 'pluriel' ? HEX.accent5 : HEX.dk2, 12);
+        cchip(d, s, n, RX + 0.1, y + 0.09, 0.8, 0.34, n === 'pluriel' ? HEX.accent5 : HEX.dk2, n === 'pluriel' ? 12 : 17);
         d.t(s, f, RX + 1.05, y, RW - 1.15, 0.52, { size: 17, valign: 'middle' });
       });
       const ly = Y + 0.42 + 5 * 0.6 + 0.1;
@@ -744,18 +744,19 @@ function build(d) {
       const y = top + i * pitch;
       d.rect(s, 0.6, y, 4.1, h, { fill: 'bg2', line: BORDER });
       d.num(s, i + 1, 0.7, y + (h - 0.42) / 2, 0.42, 'tx2', 13);
-      d.t(s, src, 1.25, y, 3.4, h, { size: 18, valign: 'middle', fit: true, max: 18, min: 14 });
-      s.addShape(d.S.RIGHT_ARROW, { x: 4.85, y: y + 0.04, w: 2.05, h: h - 0.08, fill: { color: HEX.accent1 }, line: { color: HEX.accent1, width: 0 } });
+      d.t(s, src, 1.25, y, 3.4, h, { size: 17, valign: 'middle', fit: true, max: 17, min: 13 });
+      s.addShape(d.S.PENTAGON, { x: 4.85, y: y + 0.06, w: 2.05, h: h - 0.12, fill: { color: HEX.accent1 }, line: { color: HEX.accent1, width: 0.5 } });
       d.oval(s, 4.95, y + (h - 0.4) / 2, 0.4, 0.4, { fill: 'FFFFFF' });
       d.icon(s, ic, c, 5.02, y + (h - 0.26) / 2, 0.26);
-      d.t(s, modal, 5.4, y, 1.2, h, { size: 15, bold: true, color: 'bg1', valign: 'middle' });
+      d.t(s, modal, 5.42, y, 1.3, h, { size: 15, bold: true, color: 'bg1', valign: 'middle' });
       if (mode === 'q') d.rect(s, 7.05, y, 5.68, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, dash: 'dash' });
       else {
         d.rect(s, 7.05, y, 5.68, h, { fill: 'FFFFFF', line: 'accent3', lw: 1.75 });
-        const lay = layout(parts, 7.3, 19, 0.06);
-        const ty = y + 0.05; const th = h - 0.25;
-        pince(d, s, lay, ty, th, { off: 0.1, lw: 2, m: 0.05 });
-        drawSentence(d, s, lay, ty, th, 19);
+        let pt = 18; let lay = layout(parts, 7.2, pt, { pad: 0.06, gap: 0.06 });
+        while (lay.end > 12.6 && pt > 14) { pt -= 1; lay = layout(parts, 7.2, pt, { pad: 0.06, gap: 0.06 }); }
+        const ty = y + 0.06; const th = h - 0.24;
+        pince(d, s, lay, ty, th, { off: 0.09, lw: 1.75, flw: 1.75 });
+        drawSentence(d, s, lay, ty, th, pt);
       }
     });
   });
@@ -779,12 +780,12 @@ function build(d) {
         if (ic.startsWith('Fa')) d.icon(s, ic, 'accent3', x + 0.3, y + 0.3, 0.7);
         else d.pic(s, ic, x + 0.2, y + 0.2, 0.9, 0.9);
         d.t(s, '//' + inf + '//', x + 1.3, y + 0.12, w - 1.4, 0.4, { size: 15, color: 'accent5', valign: 'middle' });
-        d.t(s, `hij <<${ans}>>`, x + 1.3, y + 0.5, w - 1.4, 0.65, { size: 22, valign: 'middle', fit: true, max: 22, min: 16 });
+        d.t(s, `<<${ans}>>`, x + 1.3, y + 0.5, w - 1.4, 0.65, { size: ans.length > 10 ? 21 : 25, valign: 'middle', head: true });
       }
     });
     d.rect(s, 0.6, 6.08, 12.13, 0.77, { fill: 'bg2', line: BORDER });
     d.icon(s, 'FaTheaterMasks', 'accent1', 0.8, 6.27, 0.4);
-    d.t(s, 'Un joueur **mime** le verbe · l’équipe répond avec une phrase complète : « //**Hij leest!**// » / « //**Ze rijdt!**// »', 1.4, 6.08, 11.2, 0.77, { size: 17, valign: 'middle' });
+    d.t(s, ['Un joueur **mime** le verbe · l’équipe répond avec une phrase complète :', '« //**Hij leest!**// »  /  « //**Ze rijdt!**// »'], 1.4, 6.08, 11.2, 0.77, { size: 16, valign: 'middle', gap: 0 });
   });
 
   // ---------------------------------------------------------------- 23 ex7 planning (E8)
@@ -792,14 +793,14 @@ function build(d) {
     const s = d.page({ g: 23, tag: 'MISE EN SITUATION', title: 'Exercice 7 — Le planning de l’équipe', stars: '★★★' });
     d.rect(s, 0.6, 1.66, 12.13, 0.46, { fill: 'purple', tr: 90, line: 'purple', lw: 1 });
     d.t(s, 'En binôme : placez les 4 tâches dans la semaine, **sans montrer votre carte** !', 0.85, 1.66, 11.7, 0.46, { size: 17, valign: 'middle' });
-    const y = 2.27; const H = 2.4;
+    const y = 2.27; const H = 2.33;
     [['A', 'accent2', ['**lundi** à Gand', '**mercredi** : libre'], 0.6], ['B', 'purple', ['**mardi** : formation', '**jeudi** : télétravail'], 10.33]].forEach(([L, c, lines, x]) => {
       d.rect(s, x, y, 2.4, H, { fill: 'bg1', line: c, lw: 1.75, shadow: true });
       d.num(s, L, x + 0.15, y + 0.15, 0.55, c, 18);
       d.t(s, 'Rôle ' + L, x + 0.8, y + 0.15, 1.1, 0.55, { size: 19, bold: true, color: c, valign: 'middle', head: true });
       d.icon(s, 'FaUserSecret', c, x + 1.9, y + 0.24, 0.36);
       d.t(s, 'Mon agenda (secret) :', x + 0.15, y + 0.82, 2.15, 0.32, { size: 13, italic: true, color: 'accent5' });
-      d.t(s, lines, x + 0.15, y + 1.2, 2.15, 1.1, { size: 16, gap: 8, valign: 'top', bullet: true });
+      d.t(s, lines, x + 0.12, y + 1.18, 2.2, 1.1, { size: 15, gap: 6, valign: 'top', bullet: true });
     });
     const BX = 3.25; const BW = 6.83; const cw = BW / 5;
     d.rect(s, BX, y, BW, H, { fill: 'FFFFFF', line: 'tx2', lw: 1.5, radius: 0.04 });
@@ -811,18 +812,18 @@ function build(d) {
       if (i) d.line(s, x, y + 0.55, x, y + H - 0.1, { color: BORDER, lw: 1, arrow: false, dash: 'dash' });
     });
     const tasks = [['de klant opbellen', 'FFE27A'], ['een mail schrijven', 'CFE3F6'], ['de documenten lezen', 'D4EDDC'], ['naar de bank gaan', 'F6D3E3']];
-    const pw = (BW - 0.25 * 3) / 4; const ty = 4.8;
+    const pw = (BW - 0.25 * 3) / 4; const ty = 4.73;
     tasks.forEach(([t, f], i) => {
       const x = BX + i * (pw + 0.25);
-      d.rect(s, x, ty, pw, 0.5, { fill: f, line: null, radius: 0.03, shadow: true });
-      d.t(s, '//' + t + '//', x + 0.05, ty, pw - 0.1, 0.5, { size: 14, bold: true, align: 'center', valign: 'middle', fit: true, max: 14, min: 12 });
+      d.rect(s, x, ty, pw, 0.6, { fill: f, line: null, radius: 0.03, shadow: true });
+      d.t(s, '//' + t + '//', x + 0.05, ty, pw - 0.1, 0.6, { size: 13, bold: true, align: 'center', valign: 'middle' });
     });
-    d.rect(s, 0.6, ty, 2.4, 0.5, { fill: 'bg2', line: BORDER });
-    d.icon(s, 'FaStopwatch', 'accent1', 0.75, ty + 0.08, 0.34);
-    d.t(s, '6 minutes', 1.2, ty, 1.7, 0.5, { size: 17, bold: true, color: 'accent1', valign: 'middle' });
-    d.rect(s, 10.33, ty, 2.4, 0.5, { fill: 'bg2', line: BORDER });
-    d.t(s, 'Puis : présentez à la classe (//hij / zij//)', 10.4, ty, 2.28, 0.5, { size: 13, italic: true, color: 'accent5', valign: 'middle', fit: true, max: 13, min: 11 });
-    const by = 5.45;
+    d.rect(s, 0.6, ty, 2.4, 0.6, { fill: 'bg2', line: BORDER });
+    d.icon(s, 'FaStopwatch', 'accent1', 0.75, ty + 0.13, 0.34);
+    d.t(s, '6 minutes', 1.2, ty, 1.7, 0.6, { size: 17, bold: true, color: 'accent1', valign: 'middle' });
+    d.rect(s, 10.33, ty, 2.4, 0.6, { fill: 'bg2', line: BORDER });
+    d.t(s, 'Puis : présentez à la classe (//hij / zij//)', 10.42, ty, 2.25, 0.6, { size: 13, italic: true, color: 'accent5', valign: 'middle', fit: true, max: 13, min: 11 });
+    const by = 5.5;
     d.rect(s, 0.6, by, 12.13, 6.86 - by, { fill: 'bg2', line: BORDER });
     d.t(s, 'BANQUE DE PHRASES', 0.8, by + 0.06, 4, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     d.t(s, ['– //!!Kun!! **jij** op maandag de klant !!opbellen!!?//', '– //Nee, op maandag !!kan!! ik niet: ik !!moet!! naar Gent !!gaan!!. Maar op woensdag !!kan!! ik wel.//'], 0.8, by + 0.4, 6.0, 6.8 - by - 0.4, { size: 15, gap: 4, fit: true, max: 15, min: 12 });
@@ -839,18 +840,20 @@ function build(d) {
     d.rect(s, 0.6, 6.03, 6.6, 0.82, { fill: 'FFFFFF', line: 'accent5', lw: 1, dash: 'dash' });
     d.icon(s, 'FaRedoAlt', 'accent5', 0.8, 6.27, 0.34);
     d.t(s, 'Erreur à la question 1 ? → organigramme (diapo 15) + exercice 1 à la maison.', 1.3, 6.03, 5.8, 0.82, { size: 15, italic: true, color: 'accent5', valign: 'middle' });
-    const X = 7.6; const Y = 5.15; const W = 5.13; const H = 1.7;
+    const X = 7.6; const Y = 5.12; const W = 5.13; const H = 1.73;
     d.rect(s, X, Y, W, H, { fill: 'tx2', line: null });
-    d.t(s, 'MODULE 5', X + 0.2, Y + 0.15, 1.6, 0.3, { size: 12, bold: true, color: 'accent1', cs: 2 });
-    d.t(s, ['**Prochaine fois :**', '//De of het?//'], X + 0.2, Y + 0.5, 1.75, 1.05, { size: 16, color: 'bg1', valign: 'middle', gap: 2 });
-    [['DE ?', 'accent2', X + 2.15], ['HET ?', 'accent1', X + 3.6]].forEach(([t, c, x]) => {
-      d.rect(s, x, Y + 0.15, 1.3, 0.62, { fill: c, line: 'FFFFFF', lw: 1.5, radius: 0.08 });
-      d.t(s, t, x, Y + 0.15, 1.3, 0.62, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle', head: true });
+    d.t(s, 'MODULE 5', X + 0.2, Y + 0.08, 2.2, 0.34, { size: 14, bold: true, color: 'bg1', valign: 'middle' });
+    d.t(s, '//De of het?//', X + 0.2, Y + 0.42, 2.2, 0.3, { size: 13, color: 'bg2', valign: 'middle' });
+    [['DE ?', 'accent2', X + 2.6], ['HET ?', 'accent1', X + 3.8]].forEach(([t, c, x]) => {
+      d.rect(s, x, Y + 0.12, 1.1, 0.55, { fill: c, line: 'FFFFFF', lw: 1.5, radius: 0.08 });
+      d.t(s, t, x, Y + 0.12, 1.1, 0.55, { size: 20, bold: true, color: 'bg1', align: 'center', valign: 'middle', head: true });
     });
-    d.line(s, X + 2.8, Y + 0.8, X + 3.3, Y + 0.97, { color: 'FFFFFF', lw: 1.5 });
-    d.line(s, X + 4.25, Y + 0.8, X + 3.75, Y + 0.97, { color: 'FFFFFF', lw: 1.5 });
-    d.pic(s, 'a_huis', X + 2.55, Y + 1.0, 0.6, 0.6);
-    d.t(s, 'huis', X + 3.25, Y + 1.0, 1.4, 0.6, { size: 26, bold: true, color: 'bg1', valign: 'middle', head: true });
+    d.line(s, X + 3.15, Y + 0.72, X + 3.55, Y + 0.95, { color: 'FFFFFF', lw: 1.5 });
+    d.line(s, X + 4.35, Y + 0.72, X + 3.95, Y + 0.95, { color: 'FFFFFF', lw: 1.5 });
+    d.rect(s, X + 2.6, Y + 1.0, 2.3, 0.6, { fill: 'FFFFFF', line: null, radius: 0.08 });
+    d.pic(s, 'a_huis', X + 2.75, Y + 1.05, 0.5, 0.5);
+    d.t(s, 'huis', X + 3.35, Y + 1.0, 1.4, 0.6, { size: 24, bold: true, color: 'tx1', valign: 'middle', head: true });
+    d.icon(s, 'FaQuestion', 'accent1', X + 0.5, Y + 0.85, 0.7);
   }
 }
 

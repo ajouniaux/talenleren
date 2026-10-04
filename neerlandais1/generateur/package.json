@@ -6,6 +6,8 @@
     "build": "OUT=../powerpoints node build.js"
   },
   "dependencies": {
+    "@iconify-json/fluent-emoji-flat": "^1.2.6",
+    "@iconify/utils": "^3.1.7",
     "pptxgenjs": "^4.0.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

@@ -10,9 +10,12 @@ const sharp = require('sharp');
 const FA = require('react-icons/fa');
 const GI = require('react-icons/gi');
 const JSZip = require(require.resolve('jszip', { paths: [require.resolve('pptxgenjs')] }));
+const { getIconData, iconToSVG, iconToHTML, replaceIDs } = require('@iconify/utils');
+const FLUENT = require('@iconify-json/fluent-emoji-flat/icons.json');
 
+// Illustrations: Microsoft Fluent Emoji (flat), MIT licence — rendered to PNG at build time.
 const IMG_DIR = path.join(__dirname, 'img');
-const IMGS = JSON.parse(fs.readFileSync(path.join(IMG_DIR, 'manifest.json'), 'utf8'));
+const IMGS = fs.existsSync(path.join(IMG_DIR, 'manifest.json')) ? JSON.parse(fs.readFileSync(path.join(IMG_DIR, 'manifest.json'), 'utf8')) : {};
 
 // Same palette as Néerlandais 2 and 3 (charte § 5.2).
 const THEME = {
@@ -43,6 +46,32 @@ const TAGS = {
   'TICKET DE SORTIE': 'accent5', 'MINI-DÉFI': 'accent1', '+ APERÇU': 'accent5',
 };
 
+// Former archive image keys → Fluent Emoji illustrations (the archive pictures are no longer used).
+const PIC2ILL = {
+  prof_pointe: 'man-teacher', prof_question: 'thinking-face', horloge: 'stopwatch', bulles_questions: 'red-question-mark',
+  p_man: 'man', p_slaan: 'oncoming-fist', p_fles: 'bottle-with-popping-cork', p_lezen: 'open-book', p_koppel: 'two-hearts', p_lopen: 'person-walking', p_kus: 'kiss-mark', p_vuur: 'fire',
+  v_slaan: 'oncoming-fist', v_lezen: 'open-book', v_praten: 'speaking-head', v_zien: 'eyes',
+  a_hond: 'dog', a_huis: 'house-with-garden', a_collegas: 'busts-in-silhouette', a_buurman: 'man', a_juf: 'woman-teacher', a_vriend: 'people-hugging', a_tableau: 'memo',
+  w_deze_week: 'spiral-calendar', w_zondag: 'couch-and-lamp', w_weekend: 'popcorn', w_vrije_tijd: 'beach-with-umbrella',
+};
+
+// Object/people glyphs → colour illustrations (applied when drawn in colour and ≥ 0.45 in)
+const FA2ILL = {
+  FaCalendarAlt: 'spiral-calendar', FaCalendarWeek: 'spiral-calendar', FaCalendarDay: 'tear-off-calendar', FaPencilAlt: 'pencil', FaPen: 'writing-hand', FaHome: 'house', FaHeart: 'red-heart',
+  FaGlobeEurope: 'globe-showing-europe-africa', FaFemale: 'woman', FaMale: 'man', FaUtensils: 'fork-and-knife', FaUsers: 'busts-in-silhouette', FaUserFriends: 'people-hugging',
+  FaTrophy: 'trophy', FaSun: 'sun', FaStopwatch: 'stopwatch', FaMugHot: 'hot-beverage', FaCoffee: 'hot-beverage', FaMountain: 'snow-capped-mountain', FaMoon: 'crescent-moon',
+  FaLaptop: 'laptop', FaDesktop: 'desktop-computer', FaPrint: 'printer', FaChair: 'chair', FaCar: 'automobile', FaBus: 'bus', FaTrain: 'train', FaSubway: 'metro', FaBicycle: 'bicycle',
+  FaBuilding: 'office-building', FaBook: 'green-book', FaBookOpen: 'open-book', FaBirthdayCake: 'birthday-cake', FaAppleAlt: 'red-apple', FaWalking: 'person-walking', FaRunning: 'person-running',
+  FaUmbrellaBeach: 'beach-with-umbrella', FaTree: 'deciduous-tree', FaSeedling: 'seedling', FaPalette: 'artist-palette', FaMusic: 'musical-notes', FaMobileAlt: 'mobile-phone',
+  FaHourglassHalf: 'hourglass-not-done', FaHeartbeat: 'beating-heart', FaGift: 'wrapped-gift', FaEye: 'eyes', FaEnvelope: 'envelope', FaCrown: 'crown', FaCookie: 'cookie',
+  FaCompass: 'compass', FaCloud: 'cloud', FaChild: 'child', FaBriefcase: 'briefcase', FaBell: 'bell', FaBed: 'bed', FaPhoneAlt: 'telephone-receiver', FaIdCard: 'identification-card',
+  FaKey: 'key', FaShoppingBasket: 'basket', FaInbox: 'basket', FaConciergeBell: 'bellhop-bell', FaMagnet: 'magnet', FaThumbtack: 'pushpin', FaTheaterMasks: 'performing-arts',
+  FaDumbbell: 'person-lifting-weights', FaWater: 'water-wave', FaDice: 'game-die', FaUserTie: 'man-office-worker', FaUserSecret: 'detective', FaGraduationCap: 'graduation-cap',
+  GiPlasticDuck: 'duck', GiLinkedRings: 'ring', GiDiamondRing: 'ring', GiSteamLocomotive: 'locomotive', GiSandwich: 'sandwich', GiRose: 'rose', GiRiver: 'water-wave', GiPear: 'pear',
+  GiMountains: 'snow-capped-mountain', GiLog: 'wood', GiLockers: 'file-cabinet', GiKnifeFork: 'fork-and-knife', GiGreekTemple: 'classical-building', GiCoffeeCup: 'hot-beverage',
+  GiBrokenHeart: 'broken-heart', GiHumanEar: 'ear', GiMuscleUp: 'flexed-biceps', GiDeskLamp: 'light-bulb', GiFactory: 'factory', GiScissors: 'scissors',
+};
+
 // ---------------------------------------------------------------- icons (two-pass: record, render, rebuild)
 const ICONS = {};
 const WANTED = new Set();
@@ -57,7 +86,23 @@ function ico(name, color) {
   WANTED.add(k);
   return BLANK;
 }
+const ILL = {};
+const WANTED_ILL = new Set();
+function illData(name) {
+  if (ILL[name]) return ILL[name];
+  if (!getIconData(FLUENT, name)) throw new Error('unknown illustration ' + name);
+  WANTED_ILL.add(name);
+  return BLANK;
+}
 async function renderIcons() {
+  for (const name of WANTED_ILL) {
+    const data = getIconData(FLUENT, name);
+    const r = iconToSVG(data, { height: 512 });
+    const svg = iconToHTML(replaceIDs(r.body), r.attributes);
+    const buf = await sharp(Buffer.from(svg)).resize(512, 512, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer();
+    ILL[name] = 'image/png;base64,' + buf.toString('base64');
+  }
+  WANTED_ILL.clear();
   for (const k of WANTED) {
     if (ICONS[k]) continue;
     const [name, c] = k.split('_');
@@ -281,9 +326,25 @@ class Deck {
       fill: { color: 'FFFFFF', transparency: 100 },
     });
   }
-  icon(s, name, color, x, y, size = 0.4) { s.addImage({ data: ico(name, color), x, y, w: size, h: size, altText: name.replace(/^(Fa|Gi)/, '') }); }
+  // colour illustration (Fluent Emoji flat), square, centred in the box
+  ill(s, name, x, y, w, h = w, o = {}) {
+    const d = Math.min(w, h);
+    s.addImage({ data: illData(name), x: x + (w - d) / 2, y: o.valign === 'top' ? y : y + (h - d) / 2, w: d, h: d, altText: o.alt || name.replace(/-/g, ' '), transparency: o.tr, shadow: o.shadow ? shadow() : undefined });
+  }
+  icon(s, name, color, x, y, size = 0.4) {
+    // pictures of objects/people (coloured, not tiny) are drawn as colour illustrations; small or white glyphs stay icons
+    if (FA2ILL[name] && hx(color).toUpperCase() !== 'FFFFFF' && size >= 0.45) return this.ill(s, FA2ILL[name], x, y, size, size, { valign: 'top' });
+    s.addImage({ data: ico(name, color), x, y, w: size, h: size, altText: name.replace(/^(Fa|Gi)/, '') });
+  }
   iconDisc(s, name, x, y, d, fill, iconColor = 'FFFFFF') { this.oval(s, x, y, d, d, { fill }); this.icon(s, name, iconColor, x + d * 0.24, y + d * 0.24, d * 0.52); }
   pic(s, key, x, y, w, h, o = {}) {
+    if (PIC2ILL[key]) {
+      const dd = Math.min(w, h);
+      const X = o.align === 'left' ? x : o.align === 'right' ? x + w - dd : x + (w - dd) / 2;
+      const Y = o.valign === 'top' ? y : o.valign === 'bottom' ? y + h - dd : y + (h - dd) / 2;
+      this.ill(s, PIC2ILL[key], X, Y, dd, dd, { valign: 'top', alt: o.alt });
+      return { x: X, y: Y, w: dd, h: dd };
+    }
     const im = IMGS[key];
     if (!im) throw new Error('unknown image ' + key);
     const [iw, ih, file] = im;
@@ -357,7 +418,7 @@ class Deck {
     this.rect(s, x, y, w, h, { fill: c, tr: o.tr ?? 88, line: c, lw: 1.25, radius: 0.18 });
     this.t(s, text, x + 0.18, y, w - 0.36, h, { size: o.size || 18, valign: 'middle', fit: true, max: o.size || 18, min: 12, mode: o.mode, align: o.align });
   }
-  avatar(s, which = 'prof_pointe', x = 10.9, y = 3.6, w = 2.0, h = 3.3) { this.pic(s, which, x, y, w, h, { valign: 'bottom', alt: 'Avatar de l’enseignant' }); }
+  avatar(s, which = 'man-teacher', x = 10.9, y = 3.6, w = 2.0, h = 3.3) { this.pic(s, PIC2ILL[which] ? which : 'prof_pointe', x, y, w, h, { valign: 'bottom', alt: 'L’enseignant' }); }
 
   // ------------------------------------------------------------ slide types
   cover(o) {
@@ -393,7 +454,8 @@ class Deck {
         this.t(s, c.t, x + 0.25, top + 2.2, w - 0.5, h - 2.4, { size: 19, align: 'center', fit: true, max: 20, min: 14 });
       }
     });
-    this.avatar(s, 'prof_pointe', 10.85, 1.7, 2.1, o.band ? 4.3 : 5.0);
+    this.ill(s, 'man-teacher', 10.85, 1.9, 1.9, 1.9);
+    this.ill(s, 'speech-balloon', 11.9, 1.6, 0.8, 0.8);
     if (o.band) {
       this.rect(s, 0.6, 6.2, 12.13, 0.62, { fill: 'bg2', line: 'tx2', lw: 0.75 });
       this.icon(s, 'FaLightbulb', 'accent1', 0.8, 6.33, 0.36);
@@ -420,7 +482,7 @@ class Deck {
       this.t(s, title, x + 0.15, y + 0.72, w - 0.3, 0.68, { size: 15, bold: true, color: 'bg1', fit: true, max: 16, min: 11, valign: 'top' });
       this.t(s, stars, x + 0.15, y + 1.35, w - 0.3, 0.32, { size: 14, color: 'accent1', bold: true });
     });
-    this.pic(s, 'prof_pointe', 11.0, 2.8, 1.9, 4.0, { valign: 'bottom' });
+    this.ill(s, 'man-teacher', 11.0, 4.0, 1.8, 1.8);
     return s;
   }
 

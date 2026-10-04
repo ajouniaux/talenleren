@@ -97,7 +97,7 @@ function build(d) {
       d.rect(s, x, y + 0.4, w, 0.22, { fill: 'accent2', line: null, radius: 0 });
       d.icon(s, 'FaIdCard', 'FFFFFF', x + 0.25, y + 0.11, 0.4);
       d.rect(s, x + 0.35, y + 0.95, 1.6, 2.05, { fill: 'FFFFFF', line: BORDER, radius: 0.06 });
-      d.icon(s, 'FaUser', 'accent5', x + 0.6, y + 1.3, 1.1);
+      d.ill(s, 'man-office-worker', x + 0.45, y + 1.15, 1.4, 1.4);
       d.line(s, x + 0.35, y + 3.5, x + 1.95, y + 3.5, { color: 'accent5', lw: 1.25, arrow: false, dash: 'sysDot' });
       ['naam', 'leeftijd', 'woon', 'afkomst', 'beroep', 'talen'].forEach((k, i) => {
         const fy = y + 0.92 + i * 0.5;
@@ -133,9 +133,9 @@ function build(d) {
       d.line(s, cx + (dx / L) * r, cy + (dy / L) * r, ex, ey, { color: 'accent5', lw: 1.25, arrow: false });
     });
     d.oval(s, cx - r, cy - r, 2 * r, 2 * r, { fill: 'bg2', line: 'tx2', lw: 2.5 });
-    d.icon(s, 'FaUser', 'accent5', cx - 0.55, cy - 0.6, 1.1);
+    d.ill(s, 'woman-office-worker', cx - 0.72, cy - 0.78, 1.44, 1.44);
     d.t(s, 'Sofie', cx - 1.0, cy + r + 0.06, 2.0, 0.45, { size: 20, bold: true, color: 'tx2', align: 'center', head: true });
-    d.pic(s, 'prof_question', cx - 0.65, 1.68, 1.3, 1.3);
+    d.bubble(s, 'Qu’avez-vous compris ?', cx - 1.2, 1.75, 2.4, 0.7, 'accent1', { size: 16, align: 'center' });
     items.forEach(([k, txt], i) => {
       const { x, y } = pos[i];
       d.rect(s, x, y, bw, bh, { fill: 'bg1', line: ID[k][1], lw: 2, radius: 0.18, shadow: true });
@@ -150,16 +150,16 @@ function build(d) {
     const lx = 0.6; const lw = 4.75; const rx = 12.73 - lw; const cxl = 5.5; const cw = 2.33;
     const row = (y, h, fr, inf, form) => {
       d.rect(s, lx, y, lw, h, { fill: LIGHT, line: 'accent2', lw: 1.25, radius: 0.15 });
-      d.t(s, inf, lx + 0.2, y, lw - 0.4, h, { size: 19, valign: 'middle', fit: true, max: 19, min: 14 });
+      d.t(s, inf, lx + 0.2, y, lw - 0.4, h, { size: 18, valign: 'middle', fit: true, max: 18, min: 12 });
       d.rect(s, cxl, y + (h - 0.48) / 2, cw, 0.48, { fill: 'F4F6F9', line: BORDER, radius: 0.24 });
       d.t(s, fr, cxl, y + (h - 0.48) / 2, cw, 0.48, { size: 17, bold: true, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
       d.rect(s, rx, y, lw, h, { fill: 'tx2', line: null, radius: 0.15 });
-      d.t(s, form, rx + 0.2, y, lw - 0.4, h, { size: 19, color: 'bg1', valign: 'middle', fit: true, max: 19, min: 14 });
+      d.t(s, form, rx + 0.2, y, lw - 0.4, h, { size: 18, color: 'bg1', valign: 'middle', fit: true, max: 18, min: 12 });
     };
     d.icon(s, 'FaSignInAlt', 'accent5', 0.6, 1.63, 0.26);
     d.t(s, 'ARRIVER', 0.95, 1.62, 3, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2, valign: 'middle' });
-    row(1.95, 0.85, 'Bonjour', 'Hallo! · Hoi!', 'Goedemorgen / Goedemiddag / Goedenavond (meneer, mevrouw)');
-    row(2.95, 0.65, 'Ça va ?', 'Alles goed? · Hoe gaat het (met jou)?', 'Hoe gaat het met u?');
+    row(1.95, 0.95, 'Bonjour', 'Hallo! · Hoi!', 'Goedemorgen / Goedemiddag / Goedenavond //(meneer, mevrouw)//');
+    row(3.0, 0.7, 'Ça va ?', 'Alles goed? · Hoe gaat het (met jou)?', 'Hoe gaat het met u?');
     d.rect(s, 4.2, 3.75, 4.93, 0.5, { fill: 'accent2', tr: 80, line: 'accent2', lw: 1, radius: 0.25 });
     d.t(s, '//Enchanté(e)// — **Aangenaam!**', 4.2, 3.75, 4.93, 0.5, { size: 18, align: 'center', valign: 'middle' });
     // gauge
@@ -379,20 +379,16 @@ function build(d) {
     const s = d.page({ g: 11, tag: 'VOCABULAIRE', title: 'Mon état civil — de burgerlijke staat' });
     d.t(s, '//Ik ben…//', 0.6, 1.62, 6, 0.45, { size: 22, bold: true, color: 'tx2', valign: 'middle' });
     const tiles = [
-      ['GiPerson', 'alleenstaand / vrijgezel', 'célibataire'], ['ROOF', 'samenwonend', 'cohabitant'], ['GiLinkedRings', 'getrouwd / gehuwd', 'marié·e'],
-      ['GiBrokenHeart', 'gescheiden', 'divorcé·e'], ['GiDiamondRing', 'verloofd', 'fiancé·e'], ['FaRibbon', 'weduwe / weduwnaar', 'veuve / veuf'],
+      ['person-standing', 'alleenstaand / vrijgezel', 'célibataire'], ['house-with-garden', 'samenwonend', 'cohabitant'], ['wedding', 'getrouwd / gehuwd', 'marié·e'],
+      ['broken-heart', 'gescheiden', 'divorcé·e'], ['ring', 'verloofd', 'fiancé·e'], ['wilted-flower', 'weduwe / weduwnaar', 'veuve / veuf'],
     ];
     const w = (12.13 - 2 * 0.3) / 3; const h = 1.85;
     tiles.forEach(([ic, nl, fr], i) => {
       const x = 0.6 + (i % 3) * (w + 0.3); const y = 2.15 + Math.floor(i / 3) * (h + 0.2);
       d.rect(s, x, y, w, h, { fill: 'bg2', line: BORDER, shadow: true });
       const ix = x + w / 2 - 0.45;
-      if (ic === 'ROOF') {
-        s.addShape(d.S.ISOSCELES_TRIANGLE, { x: ix - 0.12, y: y + 0.1, w: 1.14, h: 0.38, fill: { color: '2E7D4F' }, line: { color: '2E7D4F', width: 0 } });
-        d.icon(s, 'GiPerson', 'accent3', ix + 0.02, y + 0.46, 0.5);
-        d.icon(s, 'GiPerson', 'accent3', ix + 0.38, y + 0.46, 0.5);
-      } else d.icon(s, ic, ic === 'FaRibbon' ? 'tx1' : 'accent3', ix + 0.05, y + 0.12, 0.8);
-      d.t(s, nl, x + 0.1, y + 1.0, w - 0.2, 0.45, { size: Math.min(22, Math.floor(((w - 0.2) * 72) / (nl.length * 0.56))), bold: true, color: 'tx2', align: 'center', valign: 'middle' });
+      d.ill(s, ic, ix + 0.05, y + 0.12, 0.8, 0.8);
+      d.t(s, nl, x + 0.1, y + 0.98, w - 0.2, 0.45, { size: nl.length > 18 ? 16 : 20, bold: true, color: 'tx2', align: 'center', valign: 'middle' });
       d.t(s, fr, x + 0.15, y + 1.43, w - 0.3, 0.32, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
     });
     d.rect(s, 0.6, 6.15, 12.13, 0.7, { fill: 'accent6', tr: 93, line: 'accent6', lw: 1, ltr: 40 });
@@ -725,7 +721,7 @@ function build(d) {
     d.rect(s, 0.6, top, 12.13, h, { fill: 'bg1', line: 'tx2', lw: 1.5, radius: 0.08, shadow: true });
     d.rect(s, 0.75, top + 0.15, 2.9, h - 0.3, { fill: 'bg2', line: null, radius: 0.08 });
     d.oval(s, 1.15, top + 0.4, 2.1, 2.1, { fill: 'FFFFFF', line: 'tx2', lw: 2 });
-    d.icon(s, 'FaUser', 'accent5', 1.6, top + 0.8, 1.2);
+    d.ill(s, 'man-office-worker', 1.45, top + 0.6, 1.5, 1.5);
     d.t(s, 'Karim Benali', 0.8, top + 2.65, 2.8, 0.45, { size: 19, bold: true, color: 'tx2', align: 'center', head: true });
     ['naam', 'leeftijd', 'woon', 'afkomst', 'talen', 'beroep'].forEach((k, i) => d.icon(s, ID[k][0], ID[k][1], 1.0 + (i % 3) * 0.85, top + 3.25 + Math.floor(i / 3) * 0.55, 0.36));
     const txt = 'Hallo! Ik [[heet]] °°(heten)°° Karim Benali. Ik [[ben]] °°(zijn)°° 32 jaar. Ik [[woon]] °°(wonen)°° in Namen, maar ik [[werk]] °°(werken)°° in Brussel. Ik [[kom]] °°(komen)°° uit België; mijn ouders [[komen]] °°(komen)°° uit Marokko. Ik [[spreek]] °°(spreken)°° Frans, Arabisch en een beetje Nederlands. Ik [[ben]] °°(zijn)°° getrouwd en ik [[heb]] °°(hebben)°° een dochter. Ze [[heet]] °°(heten)°° Lina en ze [[is]] °°(zijn)°° vijf jaar.';
@@ -735,7 +731,7 @@ function build(d) {
   // ---------------------------------------------------------------- 24 E6 detective
   d.ex({ g: 24, title: 'Exercice 4 — Geslaagd of gezakt?', stars: '★★', instr: 'Julie se présente. Geslaagd of gezakt ? Votez, puis trouvez les 7 erreurs.' }, (s, mode, top) => {
     d.oval(s, 0.85, top + 0.1, 2.1, 2.1, { fill: 'bg2', line: 'accent3', lw: 2.5 });
-    d.icon(s, 'FaUser', 'accent5', 1.3, top + 0.5, 1.2);
+    d.ill(s, 'woman-health-worker', 1.15, top + 0.35, 1.5, 1.5);
     d.t(s, 'Julie uit Namen', 0.6, top + 2.3, 2.6, 0.45, { size: 18, bold: true, color: 'tx2', align: 'center', head: true });
     [['Geslaagd', 'accent3', 'FaThumbsUp'], ['Gezakt', 'accent6', 'FaThumbsDown']].forEach(([t, c, ic], i) => {
       const y = top + 3.0 + i * 0.95; const on = mode === 'q' || i === 1;
@@ -817,7 +813,7 @@ function build(d) {
     d.rect(s, x, y + 0.25, w, 0.15, { fill: 'accent4', line: null, radius: 0 });
     d.t(s, 'IDENTITEITSKAART', x + 0.15, y, w - 0.3, 0.4, { size: 13, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
     d.rect(s, x + 0.2, y + 0.55, 0.95, 1.15, { fill: 'FFFFFF', line: BORDER, radius: 0.04 });
-    d.icon(s, 'FaUser', 'accent5', x + 0.33, y + 0.72, 0.7);
+    d.ill(s, 'man-office-worker', x + 0.28, y + 0.68, 0.8, 0.8);
     [['Naam', 'Benali'], ['Voornaam', 'Karim'], ['Nationaliteit', 'Belgisch']].forEach(([l, v], i) => {
       const yy = y + 0.52 + i * 0.4;
       d.t(s, l, x + 1.35, yy, 1.2, 0.36, { size: 11, color: 'accent5', valign: 'middle' });
@@ -885,7 +881,7 @@ function build(d) {
         ['herhalen', 3.35, 1.32, 20, 0], ['collega', 4.85, 1.28, 30, -4], ['heten', 6.85, 1.45, 20, 10],
         ['job', 3.55, 2.05, 28, 6], ['vertellen', 4.55, 2.05, 24, 0], ['oefenen', 6.55, 2.15, 20, -6],
         ['wonen', 3.45, 2.8, 20, -6], ['functie', 4.85, 2.75, 26, 0], ['zeggen', 6.6, 2.9, 22, 8],
-        ['studeren', 3.95, 3.5, 24, 4], ['babbelen', 5.6, 3.6, 20, -5], ['beroep', 6.75, 3.45, 22, 0],
+        ['studeren', 3.25, 3.7, 24, 4], ['babbelen', 5.35, 3.8, 20, -5], ['beroep', 7.05, 3.6, 22, 0],
       ];
       cloud.forEach(([w, x, dy, sz, rot], i) => {
         const ww = w.length * sz * 0.0085 + 0.3; const hh = sz / 72 * 1.5;

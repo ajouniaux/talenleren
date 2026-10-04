@@ -9,6 +9,20 @@ Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en m
 
 ## Contenu du dossier
 
+## Les PowerPoint (prêts à projeter)
+
+| Fichier | Diapos |
+|---|---|
+| [`powerpoints/Module_1_Klanken.pptx`](powerpoints/Module_1_Klanken.pptx) | 26 |
+| [`powerpoints/Module_2_Ik_stel_me_voor.pptx`](powerpoints/Module_2_Ik_stel_me_voor.pptx) | 37 |
+| [`powerpoints/Module_3_Het_presens.pptx`](powerpoints/Module_3_Het_presens.pptx) | 34 |
+| [`powerpoints/Module_4_Spellingregels.pptx`](powerpoints/Module_4_Spellingregels.pptx) | 30 |
+| [`powerpoints/Module_5_De_of_het.pptx`](powerpoints/Module_5_De_of_het.pptx) | 33 |
+
+Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT).
+
+## Les gabarits
+
 | Fichier | Contenu |
 |---|---|
 | [`00_diagnostic_et_charte.md`](00_diagnostic_et_charte.md) | Analyse critique des 5 archives, nouveau parcours et justification de l'ordre, **errata** (erreurs relevées et corrigées), **charte graphique** (palette alignée sur Néerlandais 2 et 3, code couleur grammatical), **bibliothèque de schémas S1–S11**, **gabarits d'exercices E1–E9**, glossaire FR ↔ NL |
@@ -38,9 +52,15 @@ Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en m
 ## À vérifier avant les cours
 
 - **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*) sont signalés dans les notes. Une dernière lecture par l'enseignante reste conseillée.
-- **Pictogrammes** : le pictogramme de *drijven* (archive « semi-réguliers ») doit être remplacé : il montre l'action de ramer.
 - **Formulaires des mises en situation (M2)** : les enseignes sont fictives (Sportclub Vitaal, Brasserie De Lepel). Les formulaires réels des archives contenaient un logo de marque.
 
-## Étape suivante possible
+## Régénérer les PowerPoint
 
-Générer les 5 fichiers `.pptx` à partir de ces gabarits, avec un générateur sur le modèle de `neerlandais2/generateur` (mêmes thème, palette et conventions question / correction).
+Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, gabarits d'exercices) et un fichier par module dans `generateur/modules/`. Les objectifs et les notes animateur sont lus directement dans les gabarits `module_N_*.md` : modifier un gabarit met donc à jour les notes du deck.
+
+```bash
+cd generateur
+npm install
+npm run build        # réécrit les 5 fichiers dans ../powerpoints
+node build.js 3      # un seul module
+```

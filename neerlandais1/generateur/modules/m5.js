@@ -5,8 +5,6 @@ const { BORDER, GHOST, plain, parse, fitSize } = require('../lib');
 const meta = { n: 5, slug: 'De_of_het', title: 'De of het? — Les articles', short: 'De of het?', template: 'module_5_de_of_het.md' };
 
 // ---------------------------------------------------------------- local constants
-const IMGS = require('../img/manifest.json');
-const IMG = (k) => path.join(__dirname, '..', 'img', IMGS[k][2]);
 const YEL = 'FFE07A'; // yellow highlight (slide 3)
 const ZERO = '7F8C9E'; // Ø : dashed grey
 const WOOD = '8B6B43';
@@ -109,7 +107,9 @@ function build(d) {
   {
     const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT' });
     const bx = 0.6; const by = 1.62; const bw = 9.5; const bh = 5.26;
-    s.addImage({ path: IMG('a_tableau'), x: bx, y: by, w: bw, h: bh, altText: 'Tableau' });
+    // drawn whiteboard (wooden frame) instead of a picture
+    d.rect(s, bx, by, bw, bh - 0.35, { fill: 'FFFFFF', line: WOOD, lw: 6, radius: 0.04, shadow: true });
+    d.rect(s, bx + bw * 0.3, by + bh - 0.38, bw * 0.4, 0.12, { fill: WOOD, line: null, radius: 0.02 });
     // board interior ≈ x 2.7–97.5 %, y 3.2–70 % of the picture
     const ix = bx + bw * 0.04; const iw = bw * 0.92; const iy = by + bh * 0.05;
     const sep = ix + 4.55;
@@ -121,7 +121,7 @@ function build(d) {
       const y = iy + 0.6 + i * 0.95; const h = 0.75;
       d.num(s, i + 1, ix + 0.05, y + 0.14, 0.46, 'tx2', 15);
       // Dutch: subject+verb | article | noun
-      d.t(s, a, ix + 0.6, y, 1.5, h, { size: 24, align: 'right', valign: 'middle' });
+      d.t(s, a, ix + 0.45, y, 1.65, h, { size: 21, align: 'right', valign: 'middle' });
       if (art) { d.rect(s, ix + 2.18, y + 0.1, 0.78, h - 0.2, { fill: YEL, line: null, radius: 0.05 }); d.t(s, art, ix + 2.18, y + 0.1, 0.78, h - 0.2, { size: 24, bold: true, align: 'center', valign: 'middle' }); } else zbox(s, ix + 2.23, y + 0.1, 0.68, h - 0.2, { line: 'tx1', lw: 1.75 });
       d.t(s, n, ix + 3.04, y, 1.4, h, { size: 24, valign: 'middle' });
       // French
@@ -131,7 +131,7 @@ function build(d) {
       d.t(s, fn, sep + 3.05, y, 1.25, h, { size: 20, valign: 'middle', italic: true, color: 'accent5' });
     });
     // teacher (flipped so that he points at the board) + question
-    s.addImage({ path: IMG('prof_pointe'), x: 10.25, y: 3.95, w: 2.75, h: 2.75, flipH: true, altText: 'Avatar de l’enseignant' });
+    d.ill(s, 'man-teacher', 10.55, 3.95, 2.2, 2.2);
     d.bubble(s, 'Et « **des** » ?', 10.3, 2.2, 2.43, 0.8, 'accent2', { size: 18, align: 'center' });
     d.line(s, 11.3, 3.0, 11.45, 3.75, { color: 'accent2', lw: 1.5, arrow: false });
   }
@@ -271,8 +271,8 @@ function build(d) {
       const a = (ang * Math.PI) / 180; const x = CX + rm * Math.sin(a); const y = CY - rm * Math.cos(a);
       d.t(s, w, x - 0.6, y - 0.3, 1.2, 0.6, { size: 26, bold: true, color: 'bg1', align: 'center', valign: 'middle', head: true });
     });
-    d.t(s, '≈ 2 / 3', CX - 1.5, CY - 0.72, 3.0, 1.0, { size: 60, bold: true, color: 'tx2', align: 'center', valign: 'middle', head: true });
-    d.t(s, 'des noms sont en **DE**', CX - 1.25, CY + 0.32, 2.5, 0.4, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+    d.t(s, '≈ 2/3', CX - 1.2, CY - 0.6, 2.4, 0.8, { size: 40, bold: true, color: 'tx2', align: 'center', valign: 'middle', head: true });
+    d.t(s, 'des noms en **DE**', CX - 1.0, CY + 0.2, 2.0, 0.4, { size: 13, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
     d.t(s, 'Environ **2 noms sur 3** sont des mots en **@@DE@@**.', 6.3, 1.7, 6.43, 0.8, { size: 24, valign: 'middle' });
     const tips = [
       ['GiLifeBuoy', 'tx2', 'Je ne sais pas → je dis **@@de@@** : j’ai plus de chances d’avoir raison.'],
@@ -291,17 +291,16 @@ function build(d) {
   d.section('Les familles DE');
   {
     const s = d.page({ g: 8, tag: 'VOCABULAIRE' });
-    [['a_buurman', 0.6], ['a_juf', 2.925], ['a_vriend', 5.25]].forEach(([k, x]) => d.pic(s, k, x, 1.7, 1.77, 2.55, { shadow: true }));
-    [['a_collegas', 'collega', 7.575], ['FaUserTie', 'directeur', 10.43]].forEach(([p, w, x]) => {
+    [['a_buurman', 'buurman', 0.6], ['a_juf', 'juf', 3.06], ['a_vriend', 'vriend', 5.52], ['a_collegas', 'collega', 7.98], ['man-office-worker', 'directeur', 10.43]].forEach(([p, w, x], k) => {
       d.rect(s, x, 1.7, 2.3, 2.55, { fill: 'bg1', line: 'tx2', lw: 1.5, radius: 0.05, shadow: true });
       d.t(s, `@@de@@ ${w}`, x, 1.85, 2.3, 0.55, { size: 22, bold: true, align: 'center', valign: 'middle' });
-      if (p.startsWith('Fa')) d.icon(s, p, 'accent3', x + 0.6, 2.6, 1.1);
-      else d.pic(s, p, x + 0.5, 2.5, 1.3, 1.3);
-      d.chip(s, 'MÉTIER', x + 0.62, 3.83, 'accent5', 0.28, 10);
+      if (p.startsWith('a_')) d.pic(s, p, x + 0.5, 2.45, 1.3, 1.3);
+      else d.ill(s, p, x + 0.5, 2.45, 1.3, 1.3);
+      d.chip(s, k < 3 ? 'PERSONNE' : 'MÉTIER', x + (k < 3 ? 0.5 : 0.62), 3.83, 'accent5', 0.28, 10);
     });
     d.rect(s, 0.6, 4.45, 12.13, 0.68, { fill: 'bg2', line: 'tx2', lw: 1 });
     d.icon(s, 'FaUserFriends', 'tx2', 0.8, 4.6, 0.4);
-    d.t(s, 'Les **personnes** et les **métiers** → **@@DE@@** : //@@de@@ man · @@de@@ vrouw · @@de@@ buurman · @@de@@ collega · @@de@@ directeur · @@de@@ klant//', 1.35, 4.45, 11.25, 0.68, { size: 18, valign: 'middle', fit: true, max: 18, min: 14 });
+    d.t(s, 'Les **personnes** et les **métiers** → **@@DE@@** : //@@de@@ man · @@de@@ vrouw · @@de@@ buurman · @@de@@ collega · @@de@@ directeur · @@de@@ klant//', 1.35, 4.45, 11.25, 0.68, { size: 16, valign: 'middle', fit: true, max: 16, min: 11 });
     // example sentence
     d.rect(s, 0.6, 5.33, 5.85, 1.52, { fill: 'accent2', tr: 90, line: 'accent2', lw: 1.25, radius: 0.15 });
     d.iconDisc(s, 'FaComments', 0.8, 5.72, 0.72, 'accent2');
@@ -311,7 +310,7 @@ function build(d) {
     d.rect(s, 6.7, 5.33, 6.03, 1.52, { fill: 'accent1', tr: 90, line: 'accent1', lw: 1.5 });
     bang(s, 6.88, 5.43, 0.48);
     d.t(s, 'exceptions → **HET**', 7.5, 5.43, 5.0, 0.48, { size: 17, bold: true, color: 'accent1', valign: 'middle' });
-    [['##het## kind', 6.9, 1.6], ['##het## meisje', 8.65, 1.8], ['##het## lid //(le membre)//', 10.6, 1.95]].forEach(([t, x, w]) => {
+    [['##het## kind', 6.9, 1.55], ['##het## meisje', 8.55, 1.75], ['##het## lid', 10.4, 1.25]].forEach(([t, x, w]) => {
       d.rect(s, x, 6.05, w, 0.62, { fill: 'bg1', line: 'accent1', lw: 2 });
       d.t(s, t, x + 0.05, 6.05, w - 0.1, 0.62, { size: 19, bold: true, align: 'center', valign: 'middle', fit: true, max: 19, min: 12 });
     });
@@ -362,7 +361,7 @@ function build(d) {
       d.t(s, ex.map((w) => `@@de@@ ${w}`), x + bw + 0.12, y + 0.05, NW - bw - 0.17, h - 0.1, { size: big ? 16 : 16, valign: 'middle', gap: 2, fit: true, max: 16, min: 12 });
     });
     // exceptions (orange, periphery)
-    exc.forEach(([w, , x, y]) => pill(s, `! ${w}`, x, y, 1.7, 0.4, 'accent1', { size: 14, min: 11 }));
+    exc.forEach(([w, , x, y]) => pill(s, `! ${w}`, x, y, 1.7, 0.4, 'accent1', { size: 12, min: 9 }));
     // example sentences
     d.rect(s, 0.6, 6.25, 12.13, 0.6, { fill: 'bg2', line: BORDER });
     d.icon(s, 'FaComments', 'tx2', 0.8, 6.37, 0.36);
@@ -392,7 +391,7 @@ function build(d) {
       const cx = x + 0.2 + (k % 2) * (cw + 0.12) + (o.words.length % 2 && k === o.words.length - 1 ? (cw + 0.12) / 2 : 0);
       const yy = cy + Math.floor(k / 2) * (chipH + 0.1);
       d.rect(s, cx, yy, cw, chipH, { fill: 'bg1', line: 'tx2', lw: 1.25 });
-      d.t(s, `@@de@@ ${wd}`, cx + 0.05, yy, cw - 0.1, chipH, { size: 18, align: 'center', valign: 'middle', fit: true, max: 18, min: 12 });
+      d.t(s, `@@de@@ ${wd}`, cx + 0.05, yy, cw - 0.1, chipH, { size: 16, align: 'center', valign: 'middle', fit: true, max: 16, min: 11 });
     });
     cy += chipsH + 0.22;
     if (o.exc) {
@@ -421,7 +420,7 @@ function build(d) {
     const s = d.page({ g: 11, tag: 'VOCABULAIRE' });
     [
       { icon: 'FaSortNumericDown', title: 'Chiffres et lettres', strip: ['#3', '#7', '#a'], words: ['drie', 'zeven', 'a'], sentence: '@@De@@ 7 is mijn geluksgetal.' },
-      { icon: 'FaTrain', title: 'Transports', strip: ['FaCar', 'FaTrain', 'FaBus', 'FaBicycle', 'FaSubway'], words: ['auto', 'trein', 'bus', 'fiets', 'tram'], exc: ['vliegtuig', 'schip', 'vervoer'], excH: 0.95, big: true, sentence: 'Ik neem graag @@de@@ fiets om te gaan werken.' },
+      { icon: 'FaTrain', title: 'Transports', strip: ['FaCar', 'FaTrain', 'FaBus', 'FaBicycle'], words: ['auto', 'trein', 'bus', 'fiets'], exc: ['vliegtuig', 'schip', 'vervoer'], excH: 0.8, big: true, sentence: 'Ik neem graag @@de@@ fiets om te gaan werken.' },
       { icon: 'FaCalendarAlt', title: 'Jours, mois, saisons', strip: ['FaCalendarDay', 'FaUmbrellaBeach', 'FaCalendarWeek', 'FaCalendarAlt'], words: ['maandag', 'zomer', 'dag', 'week', 'maand'], exc: ['jaar', 'uur', 'kwartier', 'seizoen', 'weekend'], excH: 1.45, big: true },
     ].forEach((o, i) => tile(s, 0.6 + i * (TW + 0.3), 1.7, TW, 5.15, o));
   }
@@ -445,12 +444,12 @@ function build(d) {
     d.t(s, 'grand', 0.9, 4.25, 3.9, 0.3, { size: 13, italic: true, color: 'accent5', align: 'center' });
     d.t(s, 'petit', 8.7, 3.95, 2.95, 0.3, { size: 13, italic: true, color: 'accent5', align: 'center' });
     // six mini cards
-    const minis = [['GiTable', 'de tafel →', 'tafel', 'tje'], ['FaHome', 'het huis →', 'huis', 'je'], ['FaMugHot', 'de kop →', 'kop', 'je'], ['FaFemale', '', 'meis', 'je'], ['FaCookie', '', 'koek', 'je'], ['GiSandwich', '', 'brood', 'je']];
+    const minis = [['GiTable', 'de tafel →', 'tafel', 'tje'], ['FaHome', 'het huis →', 'huis', 'je'], ['FaMugHot', 'de kop →', 'kop', 'je'], ['girl', '', 'meis', 'je'], ['FaCookie', '', 'koek', 'je'], ['GiSandwich', '', 'brood', 'je']];
     const mw = 1.85; const gap = (12.13 - 6 * mw) / 5;
     minis.forEach(([ic, src, base, end], i) => {
       const x = 0.6 + i * (mw + gap); const y = 4.7;
       d.rect(s, x, y, mw, 2.15, { fill: 'bg1', line: 'accent1', lw: 2, shadow: true });
-      d.icon(s, ic, 'accent1', x + mw / 2 - 0.36, y + 0.2, 0.72);
+      if (/^(Fa|Gi)/.test(ic)) d.icon(s, ic, 'accent1', x + mw / 2 - 0.36, y + 0.2, 0.72); else d.ill(s, ic, x + mw / 2 - 0.36, y + 0.2, 0.72, 0.72);
       if (src) d.t(s, `//${src}//`, x, y + 1.0, mw, 0.35, { size: 14, color: 'accent5', align: 'center', valign: 'middle' });
       d.t(s, `##het## ${base}##${end}##`, x + 0.05, y + 1.35, mw - 0.1, 0.65, { size: 20, bold: true, align: 'center', valign: 'middle', fit: true, max: 20, min: 14 });
     });
@@ -458,11 +457,11 @@ function build(d) {
 
   // ---------------------------------------------------------------- 13 HET ② the 5 drawers (S8 HET)
   {
-    const s = d.page({ g: 13, tag: 'GRAMMAIRE' });
+    const s = d.page({ g: 13, tag: 'GRAMMAIRE', title: 'Les familles HET ② — infinitifs, langues, matières' });
     const C = [6.67, 3.5]; const Rr = 0.95;
     const dw = 4.65; const dh = 1.5;
     const drawers = [
-      ['FaUtensils', 'Infinitif employé comme nom', ['eten', 'leven', 'werken'], 0.6, 1.7],
+      ['FaUtensils', 'Infinitif → nom', ['eten', 'leven', 'werken'], 0.6, 1.7],
       ['FaComments', 'Langues', ['Nederlands', 'Frans'], 0.6, 3.5],
       ['GiLog', 'Matières', ['hout', 'goud', 'papier', 'glas'], 12.73 - dw, 1.7, '! @@de@@ wol'],
       ['FaPalette', 'Couleurs (comme noms)', ['rood', 'blauw'], 12.73 - dw, 3.5],
@@ -497,7 +496,7 @@ function build(d) {
       rows.forEach(([lab, ex, exc], i) => {
         const y = 2.27 + i * 0.75;
         pill(s, lab, x + 0.2, y, chipW, 0.6, 'accent1', { size: 22, head: true });
-        d.t(s, ex, x + chipW + 0.35, y, w - chipW - (exc ? 1.75 : 0.5), 0.6, { size: 18, valign: 'middle', fit: true, max: 18, min: 13 });
+        d.t(s, ex, x + chipW + 0.35, y, w - chipW - (exc ? 2.0 : 0.5), 0.6, { size: 18, valign: 'middle', fit: true, max: 18, min: 13 });
         if (exc) { d.rect(s, x + w - 1.6, y + 0.1, 1.42, 0.4, { fill: 'bg1', line: 'tx2', lw: 1.25, radius: 0.08 }); d.t(s, exc, x + w - 1.6, y + 0.1, 1.42, 0.4, { size: 14, bold: true, align: 'center', valign: 'middle' }); }
       });
     };
@@ -519,7 +518,7 @@ function build(d) {
     d.rect(s, 1.68, 5.95, 0.85, 0.7, { fill: 'bg1', line: 'accent1', lw: 2 });
     d.t(s, 'ver', 1.68, 5.95, 0.85, 0.7, { size: 26, bold: true, color: 'accent1', align: 'center', valign: 'middle', head: true });
     d.t(s, '·', 2.53, 5.95, 0.2, 0.7, { size: 26, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-    d.t(s, 'gader', 2.73, 5.95, 1.15, 0.7, { size: 26, bold: true, align: 'center', valign: 'middle', head: true });
+    d.t(s, 'gader', 2.68, 5.95, 1.25, 0.7, { size: 22, bold: true, align: 'center', valign: 'middle', head: true });
     d.t(s, '·', 3.88, 5.95, 0.2, 0.7, { size: 26, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
     d.rect(s, 4.08, 5.95, 0.85, 0.7, { fill: 'tx2', tr: 88, line: 'tx2', lw: 3 });
     d.t(s, 'ing', 4.08, 5.95, 0.85, 0.7, { size: 26, bold: true, color: 'tx2', align: 'center', valign: 'middle', head: true });
@@ -552,7 +551,7 @@ function build(d) {
     });
     d.rect(s, 0.6, 6.2, 12.13, 0.65, { fill: 'tx2', line: null });
     d.icon(s, 'GiSteamLocomotive', 'FFFFFF', 0.85, 6.3, 0.45);
-    d.t(s, 'C’est toujours le **dernier mot** qui donne l’article : il porte la casquette du conducteur.', 1.5, 6.2, 11.0, 0.65, { size: 19, color: 'bg1', valign: 'middle' });
+    d.t(s, 'C’est toujours le **dernier mot** qui donne l’article : il porte la casquette du conducteur.', 1.5, 6.2, 11.0, 0.65, { size: 17, color: 'bg1', valign: 'middle', fit: true, max: 17, min: 13 });
   }
 
   // ---------------------------------------------------------------- 16 een → de / het, et le Ø
@@ -690,7 +689,7 @@ function build(d) {
       ex1.forEach(([w], i) => {
         const x = 0.6 + (i % 8) * 1.533; const y = top + 0.05 + Math.floor(i / 8) * 0.72;
         d.rect(s, x, y, 1.4, 0.6, { fill: 'bg2', line: GHOST, lw: 1.25 });
-        d.t(s, w, x + 0.04, y, 1.32, 0.6, { size: 15, bold: true, align: 'center', valign: 'middle', fit: true, max: 15, min: 11 });
+        d.t(s, w, x + 0.02, y, 1.36, 0.6, { size: 13, bold: true, align: 'center', valign: 'middle', fit: true, max: 13, min: 10 });
       });
     }
     const cy = mode === 'q' ? top + 1.6 : top + 0.05; const ch = 6.85 - cy;
@@ -720,9 +719,9 @@ function build(d) {
       const x0 = i < 4 ? 0.6 : 6.83; const y = top + 0.1 + (i % 4) * 0.98; const h = 0.78;
       d.rect(s, x0, y, 2.4, h, { fill: 'bg2', line: AC[a], lw: 2.5 });
       d.t(s, `${mk(a, a === 'DE' ? 'de' : 'het')} ${sg}`, x0 + 0.08, y, 2.24, h, { size: 21, align: 'center', valign: 'middle', fit: true, max: 21, min: 13, head: true });
-      s.addText('meervoud', { shape: d.S.RIGHT_ARROW, x: x0 + 2.5, y: y + 0.12, w: 1.0, h: h - 0.24, fill: { color: 'accent1' }, line: { color: 'accent1', width: 0.5 }, color: 'FFFFFF', bold: true, fontSize: 11, align: 'center', valign: 'middle', margin: 0 });
+      s.addText('pl.', { shape: d.S.RIGHT_ARROW, x: x0 + 2.5, y: y + 0.12, w: 1.0, h: h - 0.24, fill: { color: 'accent1' }, line: { color: 'accent1', width: 0.5 }, color: 'FFFFFF', bold: true, fontSize: 12, align: 'center', valign: 'middle', margin: 0 });
       d.rect(s, x0 + 3.6, y, 2.3, h, { fill: 'bg1', line: 'tx2', lw: 2.5 });
-      d.t(s, mode === 'q' ? '°°…………°°' : `@@de@@ ${pl}`, x0 + 3.68, y, 2.14, h, { size: 21, align: 'center', valign: 'middle', fit: true, max: 21, min: 12, head: true });
+      d.t(s, mode === 'q' ? '°°…………°°' : `@@de@@ ${pl}`, x0 + 3.65, y, 2.2, h, { size: 19, align: 'center', valign: 'middle', fit: true, max: 19, min: 11, head: true });
     });
     const by = 6.2;
     d.rect(s, 0.6, by, 12.13, 0.65, { fill: 'tx2', line: null });

@@ -8,10 +8,9 @@ function build(d) {
   d.cover({
     g: 1, title: 'Klanken', sub: 'Long ou court ?', line: 'man ≠ maan',
     visual: (s) => {
-      [['MAN', 'p_man', K.short, 7.2], ['MAAN', null, K.long, 10.25]].forEach(([w, p, c, x]) => {
+      [['MAN', 'man', K.short, 7.2], ['MAAN', 'crescent-moon', K.long, 10.25]].forEach(([w, p, c, x]) => {
         d.rect(s, x, 1.7, 2.6, 3.6, { fill: 'FFFFFF', line: c, lw: 5, radius: 0.12, shadow: true });
-        if (p) d.pic(s, p, x + 0.4, 1.95, 1.8, 2.1);
-        else d.icon(s, 'FaMoon', 'accent3', x + 0.55, 2.1, 1.5);
+        d.ill(s, p, x + 0.4, 1.95, 1.8, 2.1);
         d.t(s, w, x, 4.25, 2.6, 0.8, { size: 36, bold: true, color: c, align: 'center', valign: 'middle', head: true });
       });
       d.oval(s, 9.58, 3.1, 0.6, 0.6, { fill: 'FFFFFF' });
@@ -54,11 +53,11 @@ function build(d) {
   // ---------------------------------------------------------------- 4 écoute (q then reveal)
   {
     const rows = [
-      ['A', ['p_man', 'man', 'l’homme'], ['p_slaan', 'slaan', 'frapper']],
-      ['E', ['p_fles', 'fles', 'la bouteille'], ['p_lezen', 'lezen', 'lire']],
-      ['I', ['FaChair', 'zit', 'est assis'], ['FaEye', 'ziet', 'voit']],
-      ['O', ['p_koppel', 'koppel', 'le couple'], ['p_lopen', 'lopen', 'marcher']],
-      ['U', ['p_kus', 'kus', 'le bisou'], ['p_vuur', 'vuur', 'le feu']],
+      ['A', ['man', 'man', 'l’homme'], ['oncoming-fist', 'slaan', 'frapper']],
+      ['E', ['bottle-with-popping-cork', 'fles', 'la bouteille'], ['open-book', 'lezen', 'lire']],
+      ['I', ['chair', 'zit', 'est assis'], ['eyes', 'ziet', 'voit']],
+      ['O', ['two-hearts', 'koppel', 'le couple'], ['person-walking', 'lopen', 'marcher']],
+      ['U', ['kiss-mark', 'kus', 'le bisou'], ['fire', 'vuur', 'le feu']],
     ];
     for (const mode of ['q', 'a']) {
       const s = d.page({ g: 4, tag: 'PRONONCIATION', title: mode === 'q' ? 'Écoutez — même lettre, deux sons ?' : 'Écoutez — même lettre, deux sons !' }, mode === 'a');
@@ -70,9 +69,10 @@ function build(d) {
         d.line(s, 6.47, y + 0.5, 6.9, y + 0.5, { color: BORDER, lw: 1.25 });
         [[a, K.short, 'COURT', 1.75], [b, K.long, 'LONG', 6.95]].forEach(([[p, w, fr], c, lab, x]) => {
           d.rect(s, x, y + 0.04, 4.7, rh - 0.08, { fill: 'bg1', line: mode === 'q' ? BORDER : c, lw: mode === 'q' ? 1.25 : 3 });
-          if (p.startsWith('Fa')) d.icon(s, p, 'accent3', x + 0.2, y + 0.15, 0.7);
-          else d.pic(s, p, x + 0.12, y + 0.1, 0.85, 0.8);
-          d.t(s, w, x + 1.15, y + 0.04, 1.8, rh - 0.08, { size: 28, bold: true, color: mode === 'q' ? 'tx1' : c, valign: 'middle', head: true });
+          d.ill(s, p, x + 0.15, y + 0.12, 0.76, 0.76);
+          d.t(s, w, x + 1.15, y + 0.04, 1.8, mode === 'q' ? rh - 0.08 : 0.62, { size: 28, bold: true, color: mode === 'q' ? 'tx1' : c, valign: 'middle', head: true });
+          // duration of the sound: short bar vs long bar
+          if (mode === 'a') d.rect(s, x + 1.18, y + 0.7, c === K.long ? 1.6 : 0.45, 0.11, { fill: c, line: null, radius: 0.05 });
           d.t(s, fr, x + 2.9, y + 0.04, 1.2, rh - 0.08, { size: 14, italic: true, color: 'accent5', valign: 'middle' });
           if (mode === 'a') d.chip(s, lab, x + 4.7 - 0.95, y + 0.12, c, 0.3, 11);
         });
@@ -138,6 +138,17 @@ function build(d) {
     d.t(s, '<<vert>> = voyelle longue · %%framboise%% = voyelle courte · @@bleu nuit@@ = son double', 4.3, 6.62, 8.4, 0.3, { size: 13, italic: true, color: 'accent5' });
   }
 
+  // mini schema: three stacked steps with arrows (attempt → wrong → right)
+  const miniFlow = (s, x, y, steps) => {
+    const h = 0.62; const gap = 0.3; const w = 3.53;
+    steps.forEach(([txt, c, ic], i) => {
+      const yy = y + i * (h + gap);
+      d.rect(s, x, yy, w, h, { fill: ic === 'FaTimes' ? 'FBEDEB' : ic === 'FaCheck' ? 'EDF6F0' : 'bg2', line: c, lw: 1.5 });
+      d.t(s, ic === 'FaTimes' ? `{{${txt.split(' = ')[0]}}}${txt.includes(' = ') ? ' = ' + txt.split(' = ')[1] : ''}` : `**${txt}**`, x + 0.15, yy, w - 0.65, h, { size: 18, valign: 'middle', head: true });
+      if (ic) d.icon(s, ic, c, x + w - 0.45, yy + 0.16, 0.3);
+      if (i < steps.length - 1) d.line(s, x + w / 2, yy + h + 0.02, x + w / 2, yy + h + gap - 0.02, { color: 'accent5', lw: 1.5 });
+    });
+  };
   // ---------------------------------------------------------------- 7 courts
   {
     const s = d.page({ g: 7, tag: 'GRAMMAIRE', title: 'Les sons courts : la consonne monte la garde' });
@@ -150,9 +161,7 @@ function build(d) {
       ['**U**', 'b%%u%%s', 'b%%u%%**%%s·s%%**en', '//le bus//'],
     ], { x: 0.6, y: 1.7, w: 8.3, colW: [1.3, 2.0, 2.9, 2.1], size: 26, headSize: 16, headColor: 'accent4', align: ['center', 'center', 'center', 'left'], rowH: 0.78 });
     d.card(s, 9.2, 1.7, 3.53, 2.4, { icon: 'FaShieldAlt', head: 'Je double !', color: 'accent4', body: ['Pour garder le son **COURT**, je **double** la consonne.'] });
-    d.rect(s, 9.2, 4.35, 3.53, 2.5, { fill: 'accent6', tr: 93, line: 'accent6', lw: 1 });
-    d.icon(s, 'FaTimes', 'accent6', 9.4, 4.5, 0.4);
-    d.t(s, ['Sans doublement :', '**ka·ten**', '= « kaa-ten » (porte ouverte → son long)'], 9.45, 5.0, 3.1, 1.75, { size: 17, color: 'tx1', fit: true, max: 18, min: 13 });
+    miniFlow(s, 9.2, 4.3, [['kat + en', 'tx2', null], ['ka·ten = « kaa-ten »', 'accent6', 'FaTimes'], ['kat·ten', 'accent4', 'FaCheck']]);
   }
 
   // ---------------------------------------------------------------- 8 longs
@@ -166,9 +175,7 @@ function build(d) {
       ['**U**', 'm<<uu>>r', 'm<<u>>{{u}}·ren', '//le mur//'],
     ], { x: 0.6, y: 1.7, w: 8.3, colW: [1.3, 2.4, 2.6, 2.0], size: 26, headSize: 16, headColor: 'accent3', align: ['center', 'center', 'center', 'left'], rowH: 0.9 });
     d.card(s, 9.2, 1.7, 3.53, 2.4, { icon: 'FaCheck', head: 'Pas besoin !', color: 'accent3', body: ['Syllabe fermée : **2 voyelles**.', 'Syllabe ouverte : **1 seule** suffit.'] });
-    d.rect(s, 9.2, 4.35, 3.53, 2.5, { fill: 'accent6', tr: 93, line: 'accent6', lw: 1 });
-    d.icon(s, 'FaTimes', 'accent6', 9.4, 4.5, 0.4);
-    d.t(s, ['On n’écrit jamais :', '**{{raamen}}**', 'La porte est ouverte : un seul //a// suffit.'], 9.45, 5.0, 3.1, 1.75, { size: 17, fit: true, max: 18, min: 13 });
+    miniFlow(s, 9.2, 4.3, [['raam + en', 'tx2', null], ['raa·men', 'accent6', 'FaTimes'], ['ra·men', 'accent3', 'FaCheck']]);
   }
 
   // ---------------------------------------------------------------- 9 tableau-miroir
@@ -223,7 +230,8 @@ function build(d) {
     // the bouncer
     d.rect(s, 9.3, 1.75, 3.43, 3.9, { fill: 'bg2', line: 'tx2', lw: 2 });
     d.t(s, 'FIN DE MOT', 9.3, 1.85, 3.43, 0.45, { size: 16, bold: true, color: 'tx2', align: 'center', cs: 2 });
-    d.icon(s, 'FaBan', 'accent6', 10.4, 2.45, 1.25);
+    d.ill(s, 'man-guard', 9.55, 2.35, 1.4, 1.4);
+    d.ill(s, 'no-entry', 11.15, 2.55, 1.05, 1.05);
     d.t(s, '{{V}}   {{Z}}', 9.3, 3.85, 3.43, 0.8, { size: 40, bold: true, align: 'center', valign: 'middle', head: true });
     d.t(s, 'interdits → **f** et **s**', 9.3, 4.75, 3.43, 0.6, { size: 17, align: 'center', valign: 'middle' });
     d.rect(s, 0.6, 6.0, 12.13, 0.85, { fill: 'accent1', tr: 88, line: 'accent1', lw: 1 });
@@ -279,7 +287,7 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 15 ex1 oreille d'or
-  const pairs = [['man', 'maan', 'homme / lune'], ['tak', 'taak', 'branche / tâche'], ['stad', 'staat', 'ville / État'], ['wet', 'weet', 'loi / je sais'], ['bom', 'boom', 'bombe / arbre'], ['zon', 'zoon', 'soleil / fils'], ['zit', 'ziet', 'est assis / voit'], ['pen', 'peen', 'stylo / carotte']];
+  const pairs = [['man', 'maan', 'homme / lune', 'man', 'crescent-moon'], ['tak', 'taak', 'branche / tâche', 'herb', 'clipboard'], ['stad', 'staat', 'ville / État', 'cityscape', 'classical-building'], ['wet', 'weet', 'loi / je sais', 'balance-scale', 'light-bulb'], ['bom', 'boom', 'bombe / arbre', 'bomb', 'deciduous-tree'], ['zon', 'zoon', 'soleil / fils', 'sun', 'boy'], ['zit', 'ziet', 'est assis / voit', 'chair', 'eyes'], ['pen', 'peen', 'stylo / carotte', 'fountain-pen', 'carrot']];
   d.ex({ g: 15, title: 'Exercice 1 — Oreille d’or', stars: '★', instr: 'Écoutez. Long ou court ? Levez votre carton !' }, (s, mode, top) => {
     if (mode === 'q') {
       d.rect(s, 0.9, top + 0.2, 3.6, 1.9, { fill: 'accent3', line: null, radius: 0.3 });
@@ -293,11 +301,13 @@ function build(d) {
         d.t(s, String(i + 1), x, top + 2.7, 1.3, 1.3, { size: 30, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
       }
     } else {
-      pairs.forEach(([a, b, tr], i) => {
+      pairs.forEach(([a, b, tr, ia, ib], i) => {
         const x = 0.6 + (i % 4) * 3.1; const y = top + Math.floor(i / 4) * 2.3;
-        d.rect(s, x, y, 2.85, 2.05, { fill: 'bg2', line: BORDER, shadow: true });
-        d.t(s, `%%${a}%%  /  <<${b}>>`, x, y + 0.15, 2.85, 0.9, { size: 28, align: 'center', valign: 'middle', head: true });
-        d.t(s, tr, x + 0.1, y + 1.1, 2.65, 0.8, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+        d.rect(s, x, y, 2.85, 2.1, { fill: 'bg2', line: BORDER, shadow: true });
+        d.t(s, `%%${a}%%  /  <<${b}>>`, x, y + 0.05, 2.85, 0.7, { size: 28, align: 'center', valign: 'middle', head: true });
+        d.ill(s, ia, x + 0.45, y + 0.78, 0.75, 0.75);
+        d.ill(s, ib, x + 1.65, y + 0.78, 0.75, 0.75);
+        d.t(s, tr, x + 0.1, y + 1.58, 2.65, 0.45, { size: 14, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
       });
     }
   });
@@ -310,7 +320,7 @@ function build(d) {
         const x = 0.6 + (i % 5) * 2.48; const y = top + Math.floor(i / 5) * 1.05;
         d.rect(s, x, y, 2.25, 0.85, { fill: 'bg1', line: 'accent5', lw: 1.25, dash: 'dash' });
         d.t(s, w, x, y, 2.25, 0.85, { size: 24, bold: true, align: 'center', valign: 'middle', head: true });
-        d.icon(s, 'GiScissors', 'accent1', x + 1.95, y - 0.12, 0.3);
+        d.ill(s, 'scissors', x + 1.9, y - 0.15, 0.38, 0.38);
       });
     }
     const by = top + (mode === 'q' ? 2.35 : 0.1); const bh = 6.88 - by;
@@ -320,14 +330,14 @@ function build(d) {
       if (mode === 'a') {
         const ws = ex2.filter((e) => e[2] === long);
         ws.forEach(([, cut], k) => d.t(s, cut, x + 0.3 + (k % 2) * 2.8, by + 0.85 + Math.floor(k / 2) * 0.85, 2.7, 0.7, { size: 28, bold: true, align: 'center', valign: 'middle', head: true }));
-      } else d.icon(s, 'FaInbox', c, x + 2.64, by + bh / 2 - 0.1, 0.7);
+      } else d.ill(s, 'basket', x + 2.49, by + bh / 2 - 0.25, 1.0, 1.0);
     });
   });
 
   // ---------------------------------------------------------------- 17 ex3 usine
   const ex3 = [['kat', 'katten'], ['raam', 'ramen'], ['boom', 'bomen'], ['bus', 'bussen'], ['pen', 'pennen'], ['been', 'benen'], ['jaar', 'jaren'], ['vis', 'vissen'], ['uur', 'uren'], ['les', 'lessen'], ['dier', 'dieren'], ['boek', 'boeken']];
   d.ex({ g: 17, title: 'Exercice 3 — L’usine à pluriels', stars: '★★', instr: 'Mettez au pluriel. Attention à la porte : je double ou je simplifie ?' }, (s, mode, top) => {
-    d.iconDisc(s, 'GiFactory', 0.6, top + 0.05, 0.75, 'tx2');
+    d.ill(s, 'factory', 0.6, top + 0.02, 0.8, 0.8);
     d.t(s, 'singulier  →  ⚙ + en  →  pluriel', 1.5, top + 0.05, 6, 0.75, { size: 20, bold: true, color: 'tx2', valign: 'middle' });
     d.list(s, ex3.map(([a, b]) => `**${a}**  →  [[${b}]]`), mode, { y: top + 1.0, w: 8.4, h: 6.88 - top - 1.0, cols: 2, size: 24, gap: 10 });
     d.rect(s, 9.3, top + 1.0, 3.43, 6.88 - top - 1.0, { fill: 'accent1', tr: 90, line: 'accent1', lw: 1.25 });
@@ -338,7 +348,7 @@ function build(d) {
   // ---------------------------------------------------------------- 18 ex4 correcteur
   const ex4 = [['de raamen', 'de ramen', 1], ['de katen', 'de katten', 1], ['de boomen', 'de bomen', 1], ['de busen', 'de bussen', 1], ['de jaaren', 'de jaren', 1], ['de lesen', 'de lessen', 1]];
   d.ex({ g: 18, title: 'Exercice 4 — Le correcteur', stars: '★★', instr: 'Quelle est la bonne orthographe ? Vous avez 60 secondes.' }, (s, mode, top) => {
-    d.pic(s, 'horloge', 11.6, 0.95, 0.65, 0.65);
+    d.ill(s, 'stopwatch', 11.95, 0.95, 0.7, 0.7);
     ex4.forEach(([bad, good], i) => {
       const y = top + i * 0.82; const order = i % 2 ? [good, bad] : [bad, good];
       d.num(s, i + 1, 0.6, y + 0.12, 0.5, 'tx2', 16);
@@ -360,16 +370,17 @@ function build(d) {
   {
     const s = d.page({ g: 19, tag: 'JIJ NU !', title: 'Exercice 5 — Tongbrekers (virelangues)', stars: '★★' });
     const tw = [
-      ['<<Kaat>> %%zat%% <<laat>> in de %%stad%% met de %%kat%%.', 'Kaat était assise tard en ville avec le chat.'],
-      ['De <<zoon>> <<ziet>> de %%zon%% niet.', 'Le fils ne voit pas le soleil.'],
-      ['Ik <<weet>>: de %%wet%% is de %%wet%%.', 'Je sais : la loi, c’est la loi.'],
+      ['<<Kaat>> %%zat%% <<laat>> in de %%stad%% met de %%kat%%.', 'Kaat était assise tard en ville avec le chat.', 'cat'],
+      ['De <<zoon>> <<ziet>> de %%zon%% niet.', 'Le fils ne voit pas le soleil.', 'sun-behind-cloud'],
+      ['Ik <<weet>>: de %%wet%% is de %%wet%%.', 'Je sais : la loi, c’est la loi.', 'balance-scale'],
     ];
-    tw.forEach(([nl, fr], i) => {
+    tw.forEach(([nl, fr, il], i) => {
       const y = 1.7 + i * 1.42;
       d.rect(s, 0.6, y, 12.13, 1.25, { fill: i % 2 ? 'bg1' : 'bg2', line: BORDER, shadow: true });
       d.iconDisc(s, 'FaMicrophone', 0.85, y + 0.25, 0.8, 'accent1');
       d.t(s, nl, 1.95, y + 0.08, 10.6, 0.75, { size: 30, valign: 'middle', head: true });
       d.t(s, fr, 1.95, y + 0.8, 10.6, 0.42, { size: 16, italic: true, color: 'accent5' });
+      d.ill(s, il, 11.6, y + 0.17, 0.9, 0.9);
     });
     d.t(s, '① lentement en chœur   ② vite   ③ défi : la phrase 1, trois fois sans erreur !', 0.6, 6.4, 12.13, 0.45, { size: 18, bold: true, color: 'accent1', align: 'center' });
     d.t(s, '<<vert>> = son long · %%framboise%% = son court', 0.6, 6.0, 12.13, 0.35, { size: 14, italic: true, color: 'accent5', align: 'center' });
