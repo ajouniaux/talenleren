@@ -149,14 +149,14 @@
 - 5 familles colorées (cartes) + une carte « astuce du pluriel ».
 
 **Contenu textuel**
-> **famille « a »** : *eten → at · lezen → las · nemen → nam · spreken → sprak · komen → kwam · zien → zag*
+> **famille « a »** : *eten → at · geven → gaf · lezen → las · nemen → nam · spreken → sprak · komen → kwam · zien → zag*
 > **famille « ee »** : *schrijven → schreef · blijven → bleef · krijgen → kreeg*
 > **famille « o »** : *drinken → dronk · beginnen → begon · vinden → vond*
 > **les positions (M17)** : *zitten → zat · liggen → lag · staan → stond · hangen → hing*
 > **les incontournables** : *zijn → was / waren · hebben → had · gaan → ging · doen → deed*
-> Pluriel : + *en*, avec la règle des syllabes (M1) : *at → aten · las → lazen · kwam → kwamen*
+> Pluriel : + *en*, avec la règle des syllabes (M1) : *at → aten · las → lazen · kwam → kwamen* ; mais *begon → begonnen · had → hadden* (voyelle courte)
 
-**Notes pour l'animateur** — Au pluriel, la voyelle s'allonge (syllabe ouverte, M1) : *at* (court) → *aten* (long). *las → lazen* (s → z, M4 à l'envers). *was → waren* est irrégulier. Faites lire chaque famille à voix haute, en rythme.
+**Notes pour l'animateur** — Au pluriel, la voyelle s'allonge (syllabe ouverte, M1) : *at* (court) → *aten* (long). *las → lazen* (s → z, M4 à l'envers). *was → waren* est irrégulier. Attention : *begon → begonnen*, *had → hadden* (la voyelle reste courte, la consonne double). Faites lire chaque famille à voix haute, en rythme.
 
 ---
 
@@ -190,7 +190,7 @@
 > **récit** : *Ik **stond** op, ik **dronk** een koffie en ik **vertrok**.*
 > perfectum : *Ik heb mijn sleutel verloren! · Wat heb je gisteren gedaan?*
 
-**Notes pour l'animateur** — Règle pratique : une histoire commence souvent au perfectum (*Ik heb gisteren iets grappigs meegemaakt.*), puis continue à l'imperfectum. À l'oral, en cas de doute : perfectum pour un fait, imperfectum pour le décor.
+**Notes pour l'animateur** — Règle pratique : une histoire commence souvent au perfectum (*Ik heb gisteren iets grappigs meegemaakt.*), puis continue à l'imperfectum. À l'oral, en cas de doute : perfectum pour un fait, imperfectum pour le décor. *vertrok* (*vertrekken*) : irrégulier à reconnaître.
 
 ---
 

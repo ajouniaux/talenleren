@@ -101,7 +101,7 @@
 **Contenu textuel**
 > **staan** — debout, sur sa base : *De fles staat op tafel. · De boeken staan in de kast. · De auto staat in de garage.*
 > **liggen** — à plat, couché : *De pen ligt op het bureau. · De krant ligt op de stoel. · Ik lig in bed.*
-> **zitten** — dedans, dans un espace fermé : *Mijn sleutel zit in mijn tas. · Er zit koffie in de thermos.*
+> **zitten** — dans un contenant (sac, poche, boîte, tiroir) : *Mijn sleutel zit in mijn tas. · Er zit koffie in de thermos.*
 > **hangen** — suspendu, accroché : *De klok hangt aan de muur. · Mijn jas hangt aan de kapstok.*
 
 **Notes pour l'animateur** — *De auto staat in de garage* : un véhicule « est debout » sur ses roues (*Mijn fiets staat buiten*). Pour les personnes : *zitten* = être assis, *staan* = être debout, *liggen* = être couché.
@@ -117,7 +117,7 @@
 - Entre chaque paire, une flèche ⇄.
 
 **Contenu textuel**
-> *De fles **staat** op tafel. ⇄ De fles **ligt** op de grond.*
+> *De fles **staat** op tafel. ⇄ De fles **ligt** op tafel.*
 > *Het boek **staat** in de kast. ⇄ Het boek **ligt** op tafel.*
 > On regarde la **position de l'objet à ce moment-là**.
 
@@ -247,17 +247,17 @@
 **Visuel / Schéma / Agencement**
 - Pastille `À RETENIR`.
 - Organigramme **S9** :
-  1. « C'est dedans (espace fermé) ? » → *zitten* ;
+  1. « C'est dans un contenant (sac, poche, boîte) ? » → *zitten* ;
   2. « C'est suspendu ? » → *hangen* ;
   3. « C'est debout, sur sa base ? » → *staan* ;
   4. sinon (à plat, couché) → *liggen*.
 - À côté de chaque sortie, le verbe d'action correspondant.
 
 **Contenu textuel**
-> dedans → *zitten* / *stoppen* · suspendu → *hangen* / *hangen* · debout → *staan* / *zetten* · à plat → *liggen* / *leggen*
+> dans un contenant → *zitten* / *stoppen* · suspendu → *hangen* / *hangen* · debout → *staan* / *zetten* · à plat → *liggen* / *leggen*
 > Personnes : *zitten* (assis) · *staan* (debout) · *liggen* (couché)
 
-**Notes pour l'animateur** — Ce schéma est la référence pour tous les exercices.
+**Notes pour l'animateur** — Ce schéma est la référence pour tous les exercices. Une armoire, un garage, une pièce ne sont pas des contenants : la position compte (*De kopjes **staan** in de kast. · De auto **staat** in de garage.*).
 
 ---
 
@@ -350,9 +350,9 @@
 - Gabarit **E6** : le message de Sofie, en télétravail, à Karim, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Hoi Karim, ik werk vandaag thuis. Kun je iets voor me zoeken? Mijn agenda is op mijn bureau. Mijn sleutels liggen in mijn jaszak, en mijn jas hangt aan de kapstok. Mijn bril staat naast de computer en mijn gsm legt in de la. Kun je mijn agenda in mijn tas zitten? Dank je!* »
+> « *Hoi Karim, ik werk vandaag thuis. Kun je iets voor me zoeken? Mijn agenda is op mijn bureau. Mijn sleutels liggen in mijn jaszak, en mijn jas hangt aan de kapstok. Mijn bril staat naast de computer en mijn gsm legt op de kast. Kun je mijn agenda in mijn tas zitten? Dank je!* »
 >
-> **✓ CORRECTIE** — ~~*is op mijn bureau*~~ **ligt op mijn bureau** · ~~*liggen in mijn jaszak*~~ **zitten in mijn jaszak** · ~~*Mijn bril staat*~~ **Mijn bril ligt** · ~~*legt in de la*~~ **ligt in de la** · ~~*in mijn tas zitten*~~ **in mijn tas stoppen**
+> **✓ CORRECTIE** — ~~*is op mijn bureau*~~ **ligt op mijn bureau** · ~~*liggen in mijn jaszak*~~ **zitten in mijn jaszak** · ~~*Mijn bril staat*~~ **Mijn bril ligt** · ~~*legt op de kast*~~ **ligt op de kast** · ~~*in mijn tas zitten*~~ **in mijn tas stoppen**
 
 **Notes pour l'animateur** — Leurre : *mijn jas hangt aan de kapstok*. *de bril* = les lunettes (un singulier en néerlandais !). Chaque erreur renvoie à une diapo : 7 (*is*), 4 (*zitten*), 5 (position réelle), 9 (*legt / ligt*), 10 (*stoppen*).
 

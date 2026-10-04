@@ -146,7 +146,7 @@ function build(d) {
     d.t(s, ['//**Wees** voorzichtig!//', '//**Wees** gerust!//', '//**Wees** op tijd!//'], 7.75, 3.35, 4.8, 1.3, { size: 18, gap: 3 });
     d.line(s, 7.75, 4.75, 12.5, 4.75, { color: 'E8D9B5', lw: 1, arrow: false });
     d.t(s, 'Verbes courts (M4) : //gaan → **Ga!** · doen → **Doe!** · staan → **Sta!**//', 7.75, 4.85, 4.85, 0.95, { size: 17, valign: 'middle' });
-    d.t(s, '//Heb geduld!// (sois patient) existe, mais reste rare. Très fréquents : //Ga zitten! · Doe de deur dicht!//', 0.6, 6.2, 12.13, 0.6, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+    d.t(s, '//Heb geduld!// (sois patient) : radical //heb// · au téléphone : //Hebt u even geduld.// · très fréquent : //Ga zitten!//', 0.6, 6.2, 12.13, 0.6, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 6 piège une seule forme

@@ -114,7 +114,7 @@
 > ⭐ *zijn → **Wees** voorzichtig! · Wees gerust! · Wees op tijd!*
 > *gaan → Ga! · doen → Doe! · staan → Sta!*
 
-**Notes pour l'animateur** — *Wees* est la seule vraie forme irrégulière. *Heb geduld!* (sois patient) existe, mais reste rare. *Ga!, Doe!, Sta!* sont simplement des radicaux de verbes courts (M4). *Ga zitten! Doe de deur dicht!* sont très fréquents.
+**Notes pour l'animateur** — *Wees* est la seule vraie forme irrégulière. *Heb geduld!* (sois patient) est régulier (radical *heb*) ; au téléphone : *Hebt u even geduld.* *Ga!, Doe!, Sta!* sont simplement des radicaux de verbes courts (M4). *Ga zitten! Doe de deur dicht!* sont très fréquents.
 
 ---
 

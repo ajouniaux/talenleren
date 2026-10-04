@@ -76,7 +76,7 @@
 
 **Visuel / Schéma / Agencement**
 - *Gauche* : l'agenda de Sofie pour la semaine prochaine (lundi → vendredi), une ligne par jour avec une illustration.
-- *Droite* : 3 questions-réponses en bulles.
+- *Droite* : 2 questions-réponses en bulles.
 
 **Contenu textuel**
 > Agenda : *maandag 9.00 vergadering met An · dinsdag thuiswerken · woensdag 14.00 gesprek met een kandidaat · donderdag klant in Antwerpen · vrijdag 17.00 afscheidsdrink van Jan*
@@ -166,7 +166,7 @@
 **Contenu textuel**
 > déplacement : *Ik ga naar de bakker.* (je vais chez le boulanger)
 > futur : *Ik ga brood kopen.* (je vais acheter du pain)
-> les deux : *Ik ga brood kopen bij de bakker.*
+> les deux : *Ik ga bij de bakker brood kopen.*
 > ⚠ *Ik ga eten.* = je vais manger (maintenant, ou plus tard : le contexte décide)
 
 **Notes pour l'animateur** — En français comme en néerlandais, « aller » sert aux deux. La différence est dans la suite : un lieu (*naar…*) ou un infinitif au bout.
@@ -218,7 +218,7 @@
 > *Ik ga verhuizen. · We gaan trouwen. · Ik ga een nieuwe job zoeken. · Ik ga een cursus volgen. · We gaan op reis. · Mijn vader gaat met pensioen.*
 > Aperçu : *Ik ben van plan om te verhuizen.* (j'ai l'intention de…)
 
-**Notes pour l'animateur** — *met pensioen gaan* = prendre sa retraite. *van plan zijn om … te* + infinitif : construction de Néerlandais 2, à reconnaître. Faites dire à chacun un projet vrai : *Volgend jaar ga ik…*
+**Notes pour l'animateur** — *op reis gaan* et *met pensioen gaan* (prendre sa retraite) sont des expressions : pas de 2e *gaan* (✗ ~~*We gaan op reis gaan*~~). *van plan zijn om … te* + infinitif : construction de Néerlandais 2, à reconnaître. Faites dire à chacun un projet vrai : *Volgend jaar ga ik…*
 
 ---
 
@@ -230,9 +230,9 @@
 - Une frise : « maintenant » → un point futur (*vrijdag 17 uur*) ; l'action terminée avant ce point est hachurée.
 
 **Contenu textuel**
-> *Vrijdag **zal** ik het rapport **geschreven hebben**.* (j'aurai écrit)
+> ***Tegen** vrijdag **zal** ik het rapport **geschreven hebben**.* (d'ici vendredi, j'aurai écrit)
 > *Volgend jaar **zal** ik hier tien jaar **gewerkt hebben**.*
-> À l'oral, souvent : *Vrijdag **heb** ik het rapport **geschreven**.* (passé composé + marqueur)
+> À l'oral, souvent : ***Tegen** vrijdag **heb** ik het rapport **geschreven**.* (passé composé + marqueur)
 
 **Notes pour l'animateur** — À reconnaître seulement. En fin de phrase : participe + *hebben* (ou *hebben* + participe). Le passé composé avec un marqueur futur est la solution la plus simple.
 
@@ -317,7 +317,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik zal u morgen een offerte sturen.* · 2 *Ik zal je helpen.* · 3 *Ik zal de technicus bellen.* · 4 *Ik zal het rapport vrijdag afmaken.* · 5 *Zullen we een taart kopen?* · 6 *Zullen we gaan lunchen?*
 
-**Notes pour l'animateur** — Acceptez toute promesse correcte. N° 1 : *u* pour un client (M8). N° 4 : *afmaken* se recolle (M11). N° 5 et 6 : proposition (*Zullen we…?*). *jarig zijn* = fêter son anniversaire.
+**Notes pour l'animateur** — Acceptez toute promesse correcte. N° 1 : *u* pour un client (M8). N° 4 : *afmaken* se recolle (M11). N° 5 et 6 : proposition (*Zullen we…?*). *jarig zijn* = avoir son anniversaire (c'est son anniversaire).
 
 ---
 
@@ -376,7 +376,7 @@
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E8** : carte A (An, qui propose) / carte B (Sofie, qui organise).
-- Document « *Programma teamdag* » (horaire vide de 9 h à 17 h) et banque de phrases.
+- Document « *Programma teamdag* » (horaire vide de 9 h à 18 h) et banque de phrases.
 
 **Contenu textuel**
 > **Situation** : Peeters & Co organise une journée d'équipe (*teamdag*) le mois prochain. An et Sofie préparent le programme.

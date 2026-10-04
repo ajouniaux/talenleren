@@ -138,7 +138,7 @@ function build(d) {
     const P = [
       ['staan', 'debout, sur sa base', ['De fles **staat** op tafel.', 'De boeken **staan** in de kast.', 'De auto **staat** in de garage.']],
       ['liggen', 'à plat, couché', ['De pen **ligt** op het bureau.', 'De krant **ligt** op de stoel.', 'Ik **lig** in bed.']],
-      ['zitten', 'dedans, dans un espace fermé', ['Mijn sleutel **zit** in mijn tas.', 'Er **zit** koffie in de thermos.']],
+      ['zitten', 'dans un contenant (sac, poche, boîte)', ['Mijn sleutel **zit** in mijn tas.', 'Er **zit** koffie in de thermos.']],
       ['hangen', 'suspendu, accroché', ['De klok **hangt** aan de muur.', 'Mijn jas **hangt** aan de kapstok.']],
     ];
     const w = (12.13 - 3 * 0.2) / 4;
@@ -176,7 +176,7 @@ function build(d) {
         d.chip(s, verb, cx + 1.17 - 0.4, 3.85, j ? C.liggen : C.staan, 0.36, 14);
       });
       d.t(s, '⇄', x + 2.5, 2.35, 0.9, 0.9, { size: 30, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-      const L = obj === 'bottle' ? ['De fles **staat** op tafel.', 'De fles **ligt** op de grond.'] : ['Het boek **staat** in de kast.', 'Het boek **ligt** op tafel.'];
+      const L = obj === 'bottle' ? ['De fles **staat** op tafel.', 'De fles **ligt** op tafel.'] : ['Het boek **staat** in de kast.', 'Het boek **ligt** op tafel.'];
       d.t(s, L.map((e) => `//${e}//`), x + 0.3, 4.35, 5.4, 0.85, { size: 17, valign: 'middle', gap: 2 });
     });
     band(s, 'On regarde la **position de l’objet à ce moment-là**, pas l’objet lui-même. //Mijn gsm **zit** in mijn zak · **ligt** op tafel.//', 5.5, 1.0, 'tx2', 18);
@@ -308,7 +308,7 @@ function build(d) {
   {
     const s = d.page({ g: 13, tag: 'À RETENIR', title: 'À retenir : l’organigramme de la position' });
     const diamond = (t, x, y, w, h, size = 15) => s.addText(t, { shape: d.S.DIAMOND, x, y, w, h, fill: { color: 'EEF3F8' }, line: { color: '17375E', width: 1.5 }, fontSize: size, bold: true, color: '1B2333', align: 'center', valign: 'middle', margin: 0 });
-    const Q = [['C’est dedans (espace fermé) ?', 'zitten', 'stoppen'], ['C’est suspendu ?', 'hangen', 'hangen'], ['C’est debout, sur sa base ?', 'staan', 'zetten']];
+    const Q = [['C’est dans un contenant (sac, poche, boîte) ?', 'zitten', 'stoppen'], ['C’est suspendu ?', 'hangen', 'hangen'], ['C’est debout, sur sa base ?', 'staan', 'zetten']];
     Q.forEach(([q, k, act], i) => {
       const y = 1.7 + i * 1.22;
       diamond(q, 0.6, y, 4.6, 1.0, 14);
@@ -330,7 +330,7 @@ function build(d) {
       d.t(s, fr, 10.15, y + 0.5, 2.38, 0.38, { size: 14, italic: true, color: 'accent5', align: 'center' });
     });
     d.t(s, 'action : //gaan zitten, gaan staan, gaan liggen//', 10.1, 5.3, 2.5, 0.9, { size: 13, align: 'center', valign: 'middle' });
-    d.t(s, 'Ce schéma est la référence pour tous les exercices.', 0.6, 6.42, 9.05, 0.4, { size: 14, italic: true, color: 'accent5' });
+    d.t(s, '//kast, garage// : la position compte → //De kopjes **staan** in de kast.//', 0.6, 6.4, 9.05, 0.45, { size: 15, italic: true, color: 'accent5' });
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
@@ -409,7 +409,7 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'tx2', line: null, radius: 0.04 });
     d.t(s, 'Sofie → Karim', 0.85, top, 8, 0.5, { size: 14, bold: true, color: 'bg1', valign: 'middle' });
-    const txt = '//Hoi Karim, ik werk vandaag thuis. Kun je iets voor me zoeken? Mijn agenda {{is}}++ ligt++ op mijn bureau. Mijn sleutels {{liggen}}++ zitten++ in mijn jaszak, en mijn jas hangt aan de kapstok. Mijn bril {{staat}}++ ligt++ naast de computer en mijn gsm {{legt}}++ ligt++ in de la. Kun je mijn agenda in mijn tas {{zitten}}++ stoppen++? Dank je!//';
+    const txt = '//Hoi Karim, ik werk vandaag thuis. Kun je iets voor me zoeken? Mijn agenda {{is}}++ ligt++ op mijn bureau. Mijn sleutels {{liggen}}++ zitten++ in mijn jaszak, en mijn jas hangt aan de kapstok. Mijn bril {{staat}}++ ligt++ naast de computer en mijn gsm {{legt}}++ ligt++ op de kast. Kun je mijn agenda in mijn tas {{zitten}}++ stoppen++? Dank je!//';
     d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 21, mode, ls: 1.25, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });

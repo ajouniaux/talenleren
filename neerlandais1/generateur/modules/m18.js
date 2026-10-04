@@ -193,7 +193,7 @@ function build(d) {
       d.chip(s, rule, x + 1.7, 3.75, c, 0.36, 13);
     });
     d.rect(s, 0.6, 4.9, 12.13, 0.8, { fill: 'bg2', line: BORDER });
-    d.t(s, 'Les deux : //Ik **ga** brood **kopen** bij de bakker.//', 0.85, 4.9, 11.7, 0.8, { size: 20, valign: 'middle' });
+    d.t(s, 'Les deux : //Ik **ga** bij de bakker brood **kopen**.//', 0.85, 4.9, 11.7, 0.8, { size: 20, valign: 'middle' });
     d.rect(s, 0.6, 5.9, 12.13, 0.95, { fill: 'accent6', tr: 92, line: 'accent6', lw: 1 });
     d.t(s, '⚠ //Ik ga eten.// = je vais manger (maintenant, ou plus tard : le **contexte** décide)', 0.85, 5.9, 11.7, 0.95, { size: 19, valign: 'middle' });
   }
@@ -248,7 +248,7 @@ function build(d) {
       d.ill(s, il, x + 0.2, y + 0.47, 1.0, 1.0);
       d.t(s, `//${t}//`, x + 1.35, y, w - 1.45, 1.95, { size: 18, valign: 'middle' });
     });
-    d.t(s, 'Aperçu : //Ik ben **van plan om** te verhuizen.// (j’ai l’intention de…) · //met pensioen gaan// = prendre sa retraite', 0.6, 6.15, 12.13, 0.65, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+    d.t(s, '//op reis gaan · met pensioen gaan// (prendre sa retraite) : expressions, pas de 2e //gaan// · aperçu : //Ik ben **van plan om** te verhuizen.//', 0.6, 6.15, 12.13, 0.65, { size: 16, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 12 aperçu futur antérieur
@@ -262,7 +262,7 @@ function build(d) {
     d.line(s, 8.0, 1.85, 8.0, 3.45, { color: 'accent6', lw: 2.5, arrow: false });
     d.icon(s, 'FaFlagCheckered', 'accent6', 7.85, 1.75, 0.4);
     d.t(s, '//vrijdag 17 uur//', 8.15, 3.2, 2.5, 0.4, { size: 15, bold: true, color: 'accent6' });
-    d.t(s, ['//Vrijdag **zal** ik het rapport **geschreven hebben**.// (j’aurai écrit)', '//Volgend jaar **zal** ik hier tien jaar **gewerkt hebben**.//', 'À l’oral, souvent : //Vrijdag **heb** ik het rapport **geschreven**.// (passé composé + marqueur)'], 0.6, 3.9, 12.13, 2.1, { size: 19, gap: 10, valign: 'middle' });
+    d.t(s, ['//**Tegen** vrijdag **zal** ik het rapport **geschreven hebben**.// (d’ici vendredi, j’aurai écrit)', '//Volgend jaar **zal** ik hier tien jaar **gewerkt hebben**.//', 'À l’oral, souvent : //**Tegen** vrijdag **heb** ik het rapport **geschreven**.// (passé composé + marqueur)'], 0.6, 3.9, 12.13, 2.1, { size: 19, gap: 10, valign: 'middle' });
     band(s, 'À reconnaître seulement. Le passé composé + un marqueur futur est la solution la plus simple.', 6.2, 0.65, 'accent5', 17);
   }
 

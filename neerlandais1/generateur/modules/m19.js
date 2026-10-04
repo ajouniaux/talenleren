@@ -154,7 +154,7 @@ function build(d) {
   {
     const s = d.page({ g: 7, tag: 'À RETENIR', title: 'Les irréguliers fréquents' });
     const F = [
-      ['famille « a »', 'accent3', [['eten', 'at'], ['lezen', 'las'], ['nemen', 'nam'], ['spreken', 'sprak'], ['komen', 'kwam'], ['zien', 'zag']]],
+      ['famille « a »', 'accent3', [['eten', 'at'], ['geven', 'gaf'], ['lezen', 'las'], ['nemen', 'nam'], ['spreken', 'sprak'], ['komen', 'kwam'], ['zien', 'zag']]],
       ['famille « ee »', 'accent4', [['schrijven', 'schreef'], ['blijven', 'bleef'], ['krijgen', 'kreeg']]],
       ['famille « o »', 'accent2', [['drinken', 'dronk'], ['beginnen', 'begon'], ['vinden', 'vond']]],
       ['les positions (M17)', 'accent1', [['zitten', 'zat'], ['liggen', 'lag'], ['staan', 'stond'], ['hangen', 'hing']]],
@@ -169,14 +169,14 @@ function build(d) {
       const rh = Math.min(0.42, (h - 0.6) / rows.length);
       rows.forEach(([a, b], k) => {
         const yy = y + 0.56 + k * rh + ((h - 0.6) - rows.length * rh) / 2;
-        d.t(s, `//${a}//`, x + 0.25, yy, 1.6, rh, { size: rows.length > 5 ? 15 : 16, valign: 'middle' });
-        d.t(s, `→ //**${b}**//`, x + 1.85, yy, w - 2.0, rh, { size: rows.length > 5 ? 15 : 16, valign: 'middle' });
+        d.t(s, `//${a}//`, x + 0.25, yy, 1.6, rh, { size: rows.length > 5 ? 14 : 16, valign: 'middle' });
+        d.t(s, `→ //**${b}**//`, x + 1.85, yy, w - 2.0, rh, { size: rows.length > 5 ? 14 : 16, valign: 'middle' });
       });
     });
     const x = 0.6 + 2 * (w + 0.25); const y = 1.7 + h + 0.2;
     d.rect(s, x, y, w, h, { fill: 'bg2', line: BORDER });
     d.ill(s, 'light-bulb', x + 0.2, y + 0.2, 0.6, 0.6);
-    d.t(s, ['**Pluriel** : + //en//, avec les syllabes du M1 :', '//at → **aten** · las → **lazen** · kwam → **kwamen**//', '//was → **waren**// (irrégulier)'], x + 0.9, y + 0.15, w - 1.05, h - 0.3, { size: 15, gap: 8, valign: 'middle' });
+    d.t(s, ['**Pluriel** : + //en//, syllabes du M1 :', '//at → **aten** · las → **lazen** · kwam → **kwamen**//', 'voyelle courte : //begon → **begonnen** · had → **hadden**//', '//was → **waren**// (irrégulier)'], x + 0.9, y + 0.1, w - 1.05, h - 0.2, { size: 14, gap: 5, valign: 'middle' });
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
