@@ -123,12 +123,13 @@
   - Rangée 1 : *ij/ei · ui · eu · oe · ou/au*.
   - Rangée 2 : *aai · ooi · oei · eeuw · ieuw / uw*.
 - Chaque tuile contient le son en grand, le repère français en italique et un mot-exemple avec son illustration.
+- Les tuiles *eu* et *oe* portent une petite pastille grise « 1 son, sans glissement ».
 
 **Contenu textuel**
 > **ij / ei** « réveil » *tijd* · **ui** « fauteuil » *huis* · **eu** « feu » *keuken* · **oe** « pour » *boek* · **ou / au** « aou » *vrouw*
 > **aai** « aïe » *saai* · **ooi** « ô-y » *mooi* · **oei** « ouille » *doei* · **eeuw** « é-ou » *sneeuw* · **ieuw** « i-ou » *nieuw*
 
-**Notes pour l'animateur** — Correction par rapport à l'archive : *eeuw* se prononce « é + ou », et non « é + u ». La coquille *eeeuw* est corrigée en *eeuw* (le siècle). Les repères français ne sont que des approximations : l'écoute de l'enseignant prime.
+**Notes pour l'animateur** — Correction par rapport à l'archive : *eeuw* se prononce « é + ou », et non « é + u ». La coquille *eeeuw* est corrigée en *eeuw* (le siècle). Précision : *eu* et *oe* s'écrivent avec deux lettres mais ne glissent pas. Ce sont des voyelles simples, pas des diphtongues. Ils sont travaillés ici à cause des confusions avec *u / uu* (diapos 8 et 9). Les repères français ne sont que des approximations : l'écoute de l'enseignant prime.
 
 ---
 
@@ -254,8 +255,8 @@
 > |---|---|---|---|
 > | ij / ei | « è-i » | tijd, klein | deux écritures |
 > | ui | « œ-u » | huis, tuin | ≠ u, uu |
-> | eu | « eu » de feu | keuken, deur | ≠ u |
-> | oe | « ou » | boek, broer | ≠ u |
+> | eu | « eu » de feu | keuken, deur | ≠ u · ne glisse pas |
+> | oe | « ou » | boek, broer | ≠ u · ne glisse pas |
 > | ou / au | « aou » | vrouw, blauw | deux écritures |
 > | aai · ooi · oei | aïe · ô-y · ouille | saai · mooi · moeilijk | |
 > | eeuw · ieuw · uw | é-ou · i-ou · u-ou | sneeuw · nieuw · uw | |

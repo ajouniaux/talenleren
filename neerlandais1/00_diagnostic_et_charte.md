@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 10 modules. Chaque gabarit de module (`module_1_…` à `module_10_…`) renvoie aux **schémas standardisés S1–S13**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 15 modules. Chaque gabarit de module (`module_1_…` à `module_15_…`) renvoie aux **schémas standardisés S1–S13**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -18,6 +18,11 @@
 | `neerlandais1_formel_informel.pptx` | 2020-11 | 24 | Paires de photos formel / informel, échelle *Hoe gaat het?*, paires de mots (*meedoen / deelnemen*), 2 banques de situations, situations-images | **Restructurer** : traductions inversées, doublon partiel avec M2, activités « extra » de niveau UE2 | **Module 8** |
 | `neerlandais2_phrases_simples_complexes.pptx` | 2020-11 | 52 | Traductions-défis avec schéma P1 / P2, *als / of*, inversion ou rejet, juist / fout, *Waarom…?*, défis-photos | **Extraire** : deck de Néerlandais 2 (« UE 2-3 ») ; seule la passerelle A1 est reprise ; terminologie « simple / complexe » fausse | **Module 9** |
 | `neerlandais1_mail_opstellen.pptx` | 2020-11 | 20 | Anatomie d'un e-mail, 2 e-mails à comparer, tri des formules, échelle *Hallo / Beste / Geachte*, situations de rédaction | **Recentrer** : e-mails à compléter de niveau UE 2-4, coquilles, consignes qui mélangent *je* et *u* | **Module 10** |
+| `neerlandais1_verbes_particules.pdf` | 2020-11 | 31 | Particule + verbe, origines de la particule, séparable / inséparable, schéma S · V · C · RV, « *Een dag op het werk* », phrases illustrées à trous | **Extraire** : moitié du deck en UE 2-4 (doublets *doorlopen*, *onder- / over-*, imparfait) | **Module 11** |
+| `neerlandais1_verbes_modaux.pptx` | 2020-11 | 9 | Grille à deux verbes, une diapo par modal (sens + pictogramme), 2 jeux de plateau | **Recentrer** : doublon de conjugaison avec M4, tableaux illisibles, pièges de sens FR/NL absents | **Module 12** |
+| `neerlandais1_negation.pdf` | 2020-11 | 10 | Tableau définis → *niet* / indéfinis → *geen*, 6 règles de place, phrases illustrées | **Corriger et compléter** : diapo illisible, règle fausse « *geen* devant un chiffre », *nooit / niets / jawel* absents | **Module 13** |
+| `Neerlandais1_ppt_formation_des_mots.pptx` | 2021-07 | 5 | 4 recettes de mots composés, pictogrammes | **Développer** : classement partiellement faux, ni règle de l'article, ni diminutifs, ni suffixes, aucun exercice | **Module 14** |
+| `neerlandais1_passe_compose.pptx` | 2020-11 | 12 | Grille à deux verbes, « SoFT KetCHuP », participes en contexte, préfixes, « *Heb je ooit…?* » | **Restructurer** : diapo des préfixes mêlant imparfaits et participes, *hebben / zijn* non expliqué, coquilles | **Module 15** |
 
 ---
 
@@ -70,6 +75,13 @@
  ij/ei, ui, eu,     nationalités, adjectif  je / u, saluer, remercier,   en, maar, want / omdat,   anatomie, aanhef,
  oe, ou/au          + e, majuscules         demander, téléphone          dat, als : verbe à la fin  afsluiting, 5 blocs
  (← M1)             (← M2, M5)              (← M2, M4)                    (← M3)                     (← M8, M9 : synthèse)
+                                                                                                          │
+ ┌──────────────────────────────── BLOC 3 : approfondir le verbe et la phrase ──────────────────────────────┘
+ ▼
+ M11 SCHEIDBARE WW ──► M12 MODALE WW ──► M13 NIET OF GEEN? ──► M14 WOORDVORMING ──► M15 HET PERFECTUM
+ opstaan → ik sta op,  kunnen/mogen/     geen = niet + een,     composés (Lego),      ge + radical + t/d,
+ inséparables          willen/moeten,    place de niet,         -tje, -ing, -er,      hebben / zijn,
+ (← M3)                pièges FR (← M4)  nooit, jawel (← M5)    -heid (← M5)          irréguliers (← M11, M13 : synthèse)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -84,6 +96,11 @@
 | **M8** | *Formeel of informeel?* · Le registre | « *je* ou *u*, et comment rester cohérent ? » | 2 séances | Archive « formel / informel » (2020) |
 | **M9** | *Zinnen verbinden* · Relier deux phrases | « Pourquoi *omdat ik ziek **ben*** ? » | 2 séances | Archive N2 « phrases simples / complexes » (2020), partie A1 |
 | **M10** | *Een mail opstellen* · Écrire un e-mail | « Comment écrire à sa cheffe, à un client, à une collègue ? » | 2 séances | Archive « mail opstellen » (2020) |
+| **M11** | *Scheidbare werkwoorden* · Les verbes à particule | « Pourquoi *Ik sta op* et pas *Ik opsta* ? » | 2 séances | Archive « verbes à particule » (2020), partie A1 |
+| **M12** | *Modale werkwoorden* · Pouvoir, vouloir, devoir | « *Kan ik* ou *Mag ik* ? » | 2 séances | Archive « verbes modaux » (2020) |
+| **M13** | *Niet of geen?* · La négation | « *Ik heb geen auto*, mais *Ik werk niet* : pourquoi ? » | 2 séances | Archive « négation » (2020) |
+| **M14** | *Woordvorming* · La formation des mots | « Pourquoi *wachtkamer* et pas *kamer wacht* ? » | 1 séance | Archive « formation des mots » (2021) |
+| **M15** | *Het perfectum* · Le passé composé | « Qu'avez-vous fait ce week-end ? » | 2 séances | Archive « passé composé » (2020) |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -97,11 +114,13 @@
   - M7 élargit l'identité du M2 (*Ik kom uit…*) et utilise l'adjectif + e entrevu en M5 ;
   - M8 transforme le *je / u* du M2 en compétence sociale (saluer, remercier, demander, téléphoner).
 - **M9 est la seule exception à la règle du verbe en 2e position** vue en M3 : il ne vient qu'après la consolidation de M3–M8. Il ne garde de l'archive de Néerlandais 2 que *en, maar, want, of, dus* et *omdat, dat, als*. Le reste est laissé à Néerlandais 2.
-- **M10 est le module de synthèse** : écrire un e-mail mobilise le registre (M8), *omdat* (M9), le verbe en 2e position (M3), les nombres et les dates (M2). Il se termine par le bilan du parcours.
+- **M10 est le module de synthèse** : écrire un e-mail mobilise le registre (M8), *omdat* (M9), le verbe en 2e position (M3), les nombres et les dates (M2). Il clôt le bloc 2.
+- **Le bloc 3 approfondit le verbe et la phrase.** M11 et M12 reprennent la pince du M3 et les modaux du M4 : particule recollée, sens de *kunnen / mogen*. M13 s'appuie sur les articles du M5 (*geen* = *niet* + *een*). M14 réutilise les mots composés et *-je* du M5.
+- **M15 (le passé composé) vient en dernier** : le participe a besoin des particules (*opgestaan*, M11), des inséparables (*betaald*, M11) et de la place de *niet* (*niet gewerkt*, M13). C'est la synthèse du parcours, avec le bilan final.
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 10 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 15 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -181,6 +200,23 @@
 | Mail · 17 | *Je bent vandaag ziek… waarin u een collega vraagt om … uw taken* | *je* et *u* mélangés dans la consigne | Situations données en français |
 | Mail · 4 | E-mail formel signé *Pieter* | En formel : prénom + nom | *Pieter Smet* |
 | Mail · 3 | Adresses e-mail avec des domaines réels | Marques réelles | Adresses fictives (*@peetersco.be*) |
+| Particules · 22–31 | Doublets (*doorlopen, voorkomen, overkomen*), verbes en *onder- / over-*, imparfait, *staan … te* | Niveau UE 2-4 | Réservé à Néerlandais 2 ; participe des verbes à particule au M15 |
+| Particules · 25 | *Ik zie door / doorzie dat België … zal winnen* | Aucune des deux formes n'a ce sens | *Ik voorzie dat…* (Néerlandais 2) |
+| Particules · 28 | *de contactdetails* ; *overhandigen* classé parmi les verbes à particule | Coquille ; *over-* y est inséparable | *contractdetails* ; retiré |
+| Particules · 12 | *Als ik opsta ga ik meteen douchen* | Virgule manquante après la subordonnée | *Als ik opsta, ga ik…* |
+| Modaux · 3–6 | Tableaux gris sur gris, formes superposées | Illisible ; doublon avec M4 | Un seul tableau de rappel + carte des 4 sens |
+| Modaux · 2 | *Hij zal 38 uur per week werken* ; *We willen … onze vakantie doorbrengen* | Futur surutilisé ; phrase redondante | Phrases réécrites (diapo 9) |
+| Modaux · 7–8 | *mental gezond*, *Welke doel*, *Vraag je buurman ten huwelijk* | Coquilles ; tâches inadaptées | *mentaal*, *Welk doel* ; tâches A1 |
+| Négation · 3 | Tableau définis / indéfinis | Textes superposés, illisible | Organigramme S9 |
+| Négation · 8 | « *GEEN* devant un chiffre » (*Deze jongen is geen 18 jaar*) | Règle fausse : *geen* + nombre = « moins de », surtout avec *nog* | *Hij is nog geen 18* (à reconnaître) ; nombre ordinaire : *niet* |
+| Négation · 4 | Règles « imparfait » et « *om … te* » | Hors A1 | Réservées à Néerlandais 2 |
+| Formation · 4 | *vliegtuig, knipbeurt* classés « nom + nom » | Ce sont des radicaux de verbe (*vliegen, knippen*) | « radical + nom » |
+| Formation · 2 | *schoenmaat* classé « diphtongue » | *oe* n'est pas une diphtongue | Diapo retirée |
+| Passé composé · 10 | *bedroog, herzag, bestond, betrok, geleek* parmi des participes ; *gebaren* ; *eruigezien* | Imparfaits, infinitif, mot inexistant | Diapo réécrite : inséparables sans *ge-* |
+| Passé composé · 9 | *de laatste jaar*, *continen* ; *Ik heb het … moeilijk. Ik heb … geleefd* | Coquilles ; temps incohérents | *de laatste jaren*, *continenten* |
+| Passé composé · 4 | *Ik heb een koekje opgemaakt* ; *Ze hebben … met de leraar meegemaakt* | Sens ; complément manquant | Phrases réécrites |
+| Passé composé · 11 | *Ik heb een Blind date gedaan* | Majuscule, tournure | Remplacé par des expériences courantes |
+| Diphtongues (M6) | *eu* et *oe* présentés parmi les « sons qui glissent » | Ce sont des voyelles simples écrites avec deux lettres | Pastille « sans glissement » (M6, diapos 5 et 12) |
 
 ---
 
@@ -188,7 +224,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 10 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 15 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -212,7 +248,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 10 modules)
+### 5.3 Code couleur grammatical (constant dans les 15 modules)
 
 | Élément | Code visuel |
 |---|---|

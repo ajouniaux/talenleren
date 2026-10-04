@@ -19,7 +19,7 @@
 
 **Faiblesses corrigées**
 - **Terminologie fausse** : « proposition simple / complexe » désigne en réalité la **proposition principale** (*hoofdzin*) et la **subordonnée** (*bijzin*). Une phrase « complexe » est l'ensemble des deux.
-- **Niveau** : l'archive mélange l'A1 et l'UE 2-3. On y trouve des relatives (*Het meisje dat ik … heb ontmoet*), *waarover*, *hoewel, tenzij, zodra, mits, opdat, doordat, aangezien, sinds*, *om … te*, le passé et le futur. Tout cela est **réservé à Néerlandais 2** (liste dans les notes de la diapo 22).
+- **Niveau** : l'archive mélange l'A1 et l'UE 2-3. On y trouve des relatives (*Het meisje dat ik … heb ontmoet*), *waarover*, *hoewel, tenzij, zodra, mits, opdat, doordat, aangezien, sinds*, *om … te*, le passé et le futur. Tout cela est **réservé à Néerlandais 2** (liste dans les notes de la diapo 22), sauf le passé composé, vu au M15.
 - Le tableau « inversion ou rejet » classe *Of* dans « rejet » sans préciser qu'il y a deux *of* : « ou » (aucun changement) et « si » interrogatif (rejet).
 - Coquilles : *préposition relative* (pour *proposition*), *conjunction*, *Doit utilisant*, *In December* (on écrit *december*), *Die vindt plaats* (*het examen* → *Dat vindt plaats*).
 - La traduction « Iemand is bij haar komen stelen **toen** ze sliep » pour « pendant que » : on attend *terwijl*.

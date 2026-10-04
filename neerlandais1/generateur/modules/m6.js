@@ -101,6 +101,7 @@ function build(d) {
       d.t(s, fr, x, y + 0.68, w, 0.35, { size: 14, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
       d.ill(s, il, x + w / 2 - 0.4, y + 1.05, 0.8, 0.8);
       d.t(s, `//${ex}//`, x, y + 1.85, w, 0.45, { size: 20, bold: true, align: 'center', valign: 'middle' });
+      if (snd === 'eu' || snd === 'oe') d.chip(s, 'sans glissement', x + w / 2 - 0.84, y - 0.13, 'accent5', 0.26, 10);
     });
     d.chip(s, '3 lettres : voyelle + glissade', 0.6, 4.11, DBL, 0.28, 11);
   }
@@ -255,8 +256,8 @@ function build(d) {
       ['Son', 'Repère FR', 'Exemples', 'Piège'],
       ['##ij## / ##ei##', '« è-i »', '//tijd, klein//', 'deux écritures'],
       ['##ui##', '« œ-u »', '//huis, tuin//', '≠ u, uu'],
-      ['##eu##', '« eu » de //feu//', '//keuken, deur//', '≠ u'],
-      ['##oe##', '« ou »', '//boek, broer//', '≠ u'],
+      ['##eu##', '« eu » de //feu//', '//keuken, deur//', '≠ u · sans glissement'],
+      ['##oe##', '« ou »', '//boek, broer//', '≠ u · sans glissement'],
       ['##ou## / ##au##', '« aou »', '//vrouw, blauw//', 'deux écritures'],
       ['aa##i## · oo##i## · oe##i##', 'aïe · ô-y · ouille', '//saai · mooi · moeilijk//', ''],
       ['eeu##w## · ieu##w## · u##w##', 'é-ou · i-ou · u-ou', '//sneeuw · nieuw · uw//', ''],

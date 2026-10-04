@@ -449,12 +449,12 @@ function build(d) {
   // ---------------------------------------------------------------- 23 ticket + bilan
   {
     const s = d.ticket({
-      g: 23, title: 'Ticket de sortie et bilan du parcours',
+      g: 23, title: 'Ticket de sortie et bilan du bloc 2',
       q: ['Formule d’appel pour un client que vous ne connaissez pas ?', 'Formule finale passe-partout en formel ?', 'Corrigez : //Hoi meneer Maes, ik stuur je de factuur.//'],
       self: ['Reconnaître', 'Choisir', 'Rédiger'],
-      teaser: { icon: 'FaTrophy', text: '**Proficiat! Néerlandais 1 is klaar.** — Volgende stap : Néerlandais 2' },
+      teaser: { icon: 'FaTrophy', text: '**Proficiat! Bloc 1 en 2 zijn klaar.** — Volgende stap : bloc 3, M11 Scheidbare werkwoorden' },
     });
-    d.t(s, 'LE PARCOURS', 7.6, 5.05, 3, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, 'BLOCS 1 ET 2', 7.6, 5.05, 3, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     for (let k = 0; k < 10; k++) {
       const x = 7.6 + k * 0.47; const c = k < 5 ? 'accent2' : 'accent1';
       d.oval(s, x, 5.42, 0.4, 0.4, { fill: c });

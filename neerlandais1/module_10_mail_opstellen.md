@@ -28,7 +28,7 @@
 **Décisions**
 - Un e-mail = **5 blocs** (aanhef · opening · kern · slotzin · afsluiting + naam), toujours dans le même ordre et avec les mêmes couleurs.
 - Trois e-mails-modèles du fil rouge (Karim → sa cheffe, → un client, → Sofie) servent de patrons pour l'exercice 6.
-- Le module se termine par le **bilan du parcours Néerlandais 1**.
+- Le module se termine par le **bilan du bloc 2** et annonce le bloc 3 (M11–M15).
 
 ## Déroulé
 
@@ -442,7 +442,7 @@
 > 3 *Bestelling 4521* — *Geachte heer, geachte mevrouw, Ik wacht nog op mijn bestelling (nummer 4521). Het pakket is er nog niet. Kunt u mij helpen? Alvast bedankt. Met vriendelijke groet, Karim Benali*
 > 4 *Rapport vrijdag* — *Hoi Tom, Even een herinnering: het rapport moet vrijdag klaar zijn. Lukt dat? Groetjes, Sofie*
 
-**Notes pour l'animateur** — Chaque apprenant choisit une situation F et une situation I. Les modèles sont au présent : le passé composé (*Ik heb … besteld*) est vu en Néerlandais 2. Faites échanger les e-mails : le voisin corrige avec la checklist.
+**Notes pour l'animateur** — Chaque apprenant choisit une situation F et une situation I. Les modèles sont au présent : le passé composé (*Ik heb … besteld*) est vu au M15. Faites échanger les e-mails : le voisin corrige avec la checklist.
 
 ---
 
@@ -468,13 +468,13 @@
 
 ---
 
-### [DIAPOSITIVE 23 : Ticket de sortie et bilan du parcours]
+### [DIAPOSITIVE 23 : Ticket de sortie et bilan du bloc 2]
 
-**Objectif pédagogique** — Vérifier les 3 objectifs du module et clore le parcours Néerlandais 1.
+**Objectif pédagogique** — Vérifier les 3 objectifs du module et clore le bloc 2.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** à gauche.
-- *À droite* : une frise des 10 modules (pastilles M1–M10), toutes cochées, avec une illustration de trophée et une flèche « Volgende stap: Néerlandais 2 ».
+- *À droite* : une frise des 10 premiers modules (pastilles M1–M10), toutes cochées, avec une illustration de trophée et un bandeau « Volgende stap: bloc 3 — M11 Scheidbare werkwoorden ».
 
 **Contenu textuel**
 > 1. Formule d'appel pour un client que vous ne connaissez pas ?
@@ -482,11 +482,11 @@
 > 3. Corrigez : *Hoi meneer Maes, ik stuur je de factuur.*
 >
 > Reconnaître 😟 😐 🙂 · Choisir 😟 😐 🙂 · Rédiger 😟 😐 🙂
-> **Proficiat! Néerlandais 1 is klaar.** 🏆
+> **Proficiat! Bloc 1 en 2 zijn klaar.** 🏆
 
 **Notes pour l'animateur** — Réponses :
 1. *Geachte heer, geachte mevrouw,* (ou *Geachte heer / mevrouw* + nom).
 2. *Met vriendelijke groet.*
 3. *Beste meneer Maes,* (ou *Geachte heer Maes,*) ↵ *Ik stuur u de factuur.* (virgule, ligne vide, majuscule)
 
-Bilan : faites relire à chacun la frise des 10 modules et choisir le module à retravailler. En Néerlandais 2 : le passé, les relatives, *om … te*, l'adjectif et les autres conjonctions.
+Bilan : faites relire à chacun la frise des 10 modules et choisir le module à retravailler. Le bloc 3 approfondit le verbe et la phrase : verbes à particule, modaux, négation, formation des mots et passé composé.
