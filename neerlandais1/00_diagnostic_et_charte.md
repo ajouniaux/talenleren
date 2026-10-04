@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 15 modules. Chaque gabarit de module (`module_1_…` à `module_15_…`) renvoie aux **schémas standardisés S1–S13**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 19 modules. Chaque gabarit de module (`module_1_…` à `module_19_…`) renvoie aux **schémas standardisés S1–S15**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -23,6 +23,8 @@
 | `neerlandais1_negation.pdf` | 2020-11 | 10 | Tableau définis → *niet* / indéfinis → *geen*, 6 règles de place, phrases illustrées | **Corriger et compléter** : diapo illisible, règle fausse « *geen* devant un chiffre », *nooit / niets / jawel* absents | **Module 13** |
 | `Neerlandais1_ppt_formation_des_mots.pptx` | 2021-07 | 5 | 4 recettes de mots composés, pictogrammes | **Développer** : classement partiellement faux, ni règle de l'article, ni diminutifs, ni suffixes, aucun exercice | **Module 14** |
 | `neerlandais1_passe_compose.pptx` | 2020-11 | 12 | Grille à deux verbes, « SoFT KetCHuP », participes en contexte, préfixes, « *Heb je ooit…?* » | **Restructurer** : diapo des préfixes mêlant imparfaits et participes, *hebben / zijn* non expliqué, coquilles | **Module 15** |
+
+> **Bloc 4 (M16–M19) : modules créés sans archive.** L'impératif, les verbes de position, le futur et l'imparfait n'avaient pas de présentation d'origine. Ils sont conçus directement selon la charte ci-dessous et prennent appui sur les modules précédents (M3, M4, M11, M12, M15).
 
 ---
 
@@ -82,6 +84,13 @@
  opstaan → ik sta op,  kunnen/mogen/     geen = niet + een,     composés (Lego),      ge + radical + t/d,
  inséparables          willen/moeten,    place de niet,         -tje, -ing, -er,      hebben / zijn,
  (← M3)                pièges FR (← M4)  nooit, jawel (← M5)    -heid (← M5)          irréguliers (← M11, M13 : synthèse)
+                                                                                                          │
+ ┌──────────────────────────────── BLOC 4 : agir, situer, se projeter, raconter ───────────────────────────┘
+ ▼
+ M16 GEBIEDENDE WIJS ──► M17 ZITTEN, STAAN, LIGGEN, HANGEN ──► M18 DE TOEKOMST ──► M19 HET IMPERFECTUM
+ Kom binnen! Wees…!     positions, leggen / zetten,            présent + marqueur,   -te / -de, was, had,
+ u, even, maar          « mettre » = 4 verbes                  gaan, zullen          ging, toen (← M15, M17 :
+ (← M3, M8, M11)        (← M4, M15)                            (← M12, M15)          synthèse et bilan final)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -101,6 +110,10 @@
 | **M13** | *Niet of geen?* · La négation | « *Ik heb geen auto*, mais *Ik werk niet* : pourquoi ? » | 2 séances | Archive « négation » (2020) |
 | **M14** | *Woordvorming* · La formation des mots | « Pourquoi *wachtkamer* et pas *kamer wacht* ? » | 1 séance | Archive « formation des mots » (2021) |
 | **M15** | *Het perfectum* · Le passé composé | « Qu'avez-vous fait ce week-end ? » | 2 séances | Archive « passé composé » (2020) |
+| **M16** | *De gebiedende wijs* · L'impératif | « *Kom binnen!* : comment donner une consigne sans être sec ? » | 2 séances | Création |
+| **M17** | *Zitten, staan, liggen, hangen* · Les verbes de position | « Pourquoi *Het boek ligt* mais *De fles staat* ? » | 2 séances | Création |
+| **M18** | *De toekomst* · Parler du futur | « *Morgen werk ik*, *Ik ga verhuizen* ou *Ik zal je bellen* ? » | 2 séances | Création |
+| **M19** | *Het imperfectum* · L'imparfait | « Comment raconter ses souvenirs ? » | 2 séances | Création |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -116,11 +129,13 @@
 - **M9 est la seule exception à la règle du verbe en 2e position** vue en M3 : il ne vient qu'après la consolidation de M3–M8. Il ne garde de l'archive de Néerlandais 2 que *en, maar, want, of, dus* et *omdat, dat, als*. Le reste est laissé à Néerlandais 2.
 - **M10 est le module de synthèse** : écrire un e-mail mobilise le registre (M8), *omdat* (M9), le verbe en 2e position (M3), les nombres et les dates (M2). Il clôt le bloc 2.
 - **Le bloc 3 approfondit le verbe et la phrase.** M11 et M12 reprennent la pince du M3 et les modaux du M4 : particule recollée, sens de *kunnen / mogen*. M13 s'appuie sur les articles du M5 (*geen* = *niet* + *een*). M14 réutilise les mots composés et *-je* du M5.
-- **M15 (le passé composé) vient en dernier** : le participe a besoin des particules (*opgestaan*, M11), des inséparables (*betaald*, M11) et de la place de *niet* (*niet gewerkt*, M13). C'est la synthèse du parcours, avec le bilan final.
+- **M15 (le passé composé) clôt le bloc 3** : le participe a besoin des particules (*opgestaan*, M11), des inséparables (*betaald*, M11) et de la place de *niet* (*niet gewerkt*, M13). C'est la synthèse du bloc 3, avec le bilan des blocs 1 à 3.
+- **Le bloc 4 ajoute quatre outils pour agir et raconter.** M16 (l'impératif) n'est qu'un radical (M3) et reprend le registre du M8 et les particules du M11. M17 (les verbes de position) a besoin des participes du M15 (*gelegen, gelegd*). M18 (le futur) reprend la pince des modaux (M12) et la frise du temps du M15.
+- **M19 (l'imparfait) vient en dernier** : il réutilise le test *SoFT KetCHuP* du M15, les familles d'irréguliers du M15 et les positions du M17 (*zat, stond, lag, hing*). Il contient le bilan final du parcours (M1–M19).
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 15 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 19 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -224,7 +239,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 15 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 19 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -248,7 +263,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 15 modules)
+### 5.3 Code couleur grammatical (constant dans les 19 modules)
 
 | Élément | Code visuel |
 |---|---|
@@ -392,6 +407,16 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - Le corps est découpé en **5 bandes colorées** : ① aanhef (bleu nuit) · ② opening (bleu) · ③ kern (orange) · ④ slotzin (vert) · ⑤ afsluiting + naam (bleu nuit).
 - Des étiquettes reliées par des flèches donnent le terme néerlandais, sa question-guide (*van wie? aan wie? waarover?*) et sa traduction.
 
+**S14 — Les quatre positions** (M17)
+- 4 colonnes, une couleur par verbe : **staan** bleu · **liggen** vert · **zitten** orange · **hangen** framboise.
+- Dans chaque colonne, une silhouette géométrique : rectangle vertical sur un socle (*staan*), rectangle horizontal posé à plat (*liggen*), objet dans une boîte ouverte (*zitten*), objet suspendu à un clou (*hangen*).
+- Le verbe d'action garde la couleur de sa position (*leggen* vert, *zetten* bleu…), avec un contour pointillé.
+
+**S15 — L'échelle de politesse** (M16)
+- Un escalier de 5 marches montant de gauche à droite : ① direct (rouge) · ② invitation (orange) · ③ poli (vert) · ④ demande (bleu) · ⑤ très poli (violet).
+- Au-dessus de chaque marche, une bulle avec la même consigne reformulée (*Ga zitten! → Zou u even willen gaan zitten?*).
+- Il prolonge les curseurs du registre du M8.
+
 ### 5.9 Gabarits d'exercices
 
 | Code | Type | Agencement standard |
@@ -431,3 +456,9 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | singulier / pluriel | het enkelvoud / het meervoud | *het huis / de huizen* |
 | diminutif | het verkleinwoord | *het huisje* |
 | pronom personnel | het persoonlijk voornaamwoord | *ik, jij, u…* |
+| participe passé | het voltooid deelwoord | *gewerkt, gegeten* |
+| passé composé | het perfectum (de voltooid tegenwoordige tijd) | *Ik **heb** gewerkt.* |
+| imparfait | het imperfectum (de onvoltooid verleden tijd) | *Ik **werkte**.* |
+| futur | de toekomende tijd | *Ik **zal** werken.* |
+| impératif | de gebiedende wijs | ***Kom** binnen!* |
+| verbe de position | het houdingswerkwoord | *staan, liggen, zitten, hangen* |

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Niveau** | A1 · UE1 · bloc 3 (module de synthèse du parcours) |
+| **Niveau** | A1 · UE1 · bloc 3 (module de synthèse du bloc 3) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–17, ex. 1 et 2 · séance 2 : diapos 18–24, ex. 3 à 7) |
 | **Source** | `2020-11-26_AJ_neerlandais1_passe_compose.pptx` (12 diapos, étiquetée « UE 2 ») |
 | **Prérequis** | M3 (radical, grille S2, pince), M4 (z/v), M11 (particules, inséparables), M13 (*niet*) |
@@ -35,7 +35,7 @@
 - Le participe est une **chaîne de montage** (schéma S5) : *ge* + radical + *t / d*.
 - *hebben / zijn* : deux portes, la grande (*hebben*, 90 %) et la petite (*zijn* : déplacement, changement, *blijven, zijn*).
 - Dix-sept irréguliers fréquents, regroupés par familles de voyelles.
-- Le module se termine par le **bilan du parcours complet** (M1–M15).
+- Le module se termine par le **bilan des blocs 1 à 3** (M1–M15) ; le bilan final du parcours est au M19.
 
 ## Déroulé
 
@@ -449,13 +449,13 @@
 
 ---
 
-### [DIAPOSITIVE 24 : Ticket de sortie et bilan du parcours]
+### [DIAPOSITIVE 24 : Ticket de sortie et bilan du bloc 3]
 
-**Objectif pédagogique** — Vérifier les 3 objectifs et clore le parcours *Néerlandais 1*.
+**Objectif pédagogique** — Vérifier les 3 objectifs et clore les blocs 1 à 3.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** à gauche.
-- *À droite* : une frise des 15 modules (pastilles M1–M15 en 3 couleurs de bloc), toutes cochées, avec un trophée et le bandeau « Volgende stap: Néerlandais 2 ».
+- *À droite* : une frise des 15 premiers modules (pastilles M1–M15 en 3 couleurs de bloc), toutes cochées, avec un trophée et le bandeau « Volgende stap : bloc 4 ».
 
 **Contenu textuel**
 > 1. Le participe de *opbellen* ? de *vertellen* ?
@@ -463,11 +463,11 @@
 > 3. Au passé : *Ik werk niet.*
 >
 > Former 😟 😐 🙂 · Choisir 😟 😐 🙂 · Raconter 😟 😐 🙂
-> **Proficiat! Néerlandais 1 is klaar.** 🏆
+> **Proficiat! Bloc 3 is klaar.** 🏆 — Volgende stap : bloc 4, M16 *De gebiedende wijs*
 
 **Notes pour l'animateur** — Réponses :
 1. *opgebeld* · *verteld*.
 2. *ben*.
 3. *Ik heb niet gewerkt.*
 
-Bilan : faites relire la frise des 15 modules et choisir un module à retravailler. En Néerlandais 2 : l'imparfait, les relatives, *om … te*, l'adjectif, les autres conjonctions, *hoeven te*.
+Bilan : faites relire la frise des 15 modules et choisir un module à retravailler. Bloc 4 : l'impératif (M16), les verbes de position (M17), le futur (M18) et l'imparfait (M19, bilan final du parcours).

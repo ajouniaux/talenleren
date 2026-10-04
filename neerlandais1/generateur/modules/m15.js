@@ -511,12 +511,12 @@ function build(d) {
   // ---------------------------------------------------------------- 24 ticket + bilan du parcours
   {
     const s = d.ticket({
-      g: 24, title: 'Ticket de sortie et bilan du parcours',
+      g: 24, title: 'Ticket de sortie et bilan du bloc 3',
       q: ['Le participe de //opbellen// ? de //vertellen// ?', '//hebben// ou //zijn// : //Ik …… ziek geweest.//', 'Au passé composé : //Ik werk niet.//'],
       self: ['Former', 'Choisir', 'Raconter'],
-      teaser: { icon: 'FaTrophy', text: '**Proficiat! Néerlandais 1 is klaar.** — Volgende stap : Néerlandais 2' },
+      teaser: { icon: 'FaTrophy', text: '**Proficiat! Bloc 3 is klaar.** — Volgende stap : bloc 4, M16 De gebiedende wijs' },
     });
-    d.t(s, 'NÉERLANDAIS 1 · 15 MODULES', 7.6, 5.05, 4.5, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, 'BLOCS 1 À 3 · 15 MODULES', 7.6, 5.05, 4.5, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     for (let k = 0; k < 15; k++) {
       const x = 7.6 + k * 0.31; const c = k < 5 ? 'accent2' : k < 10 ? 'accent1' : 'accent3';
       d.oval(s, x, 5.45, 0.28, 0.28, { fill: c });

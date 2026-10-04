@@ -222,7 +222,7 @@
 > ***Sta** je vroeg **op**? · Hoe laat **log** je **in**? · **Neem** je je laptop **mee**?*
 > ***Kom** binnen! · **Doe** de deur **dicht**! · **Bel** me morgen **terug**!*
 
-**Notes pour l'animateur** — L'impératif = le radical en tête (*Kom!*), la particule reste au bout. *binnenkomen* (entrer) et *dichtdoen* (fermer) sont très fréquents. Ajoutez *alstublieft* pour la politesse (M8).
+**Notes pour l'animateur** — L'impératif = le radical en tête (*Kom!*), la particule reste au bout. *binnenkomen* (entrer) et *dichtdoen* (fermer) sont très fréquents. Ajoutez *alstublieft* pour la politesse (M8). L'impératif est approfondi au M16.
 
 ---
 

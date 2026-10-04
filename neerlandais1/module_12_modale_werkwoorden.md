@@ -236,7 +236,7 @@
 > Promettre : *Ik **zal** je morgen **bellen**.* — Je t'appellerai demain.
 > *ik zal · jij zult / zal · hij / zij zal · wij / jullie / zij zullen*
 
-**Notes pour l'animateur** — *zullen* sert aussi au futur, mais le néerlandais emploie surtout le présent (*Morgen bel ik je*) : l'archive (*Hij zal 38 uur per week werken*) surutilise le futur. Le jeu « *Vertel wat je dinsdagavond zal doen* » devient « *Wat doe je dinsdagavond?* ».
+**Notes pour l'animateur** — *zullen* sert aussi au futur, mais le néerlandais emploie surtout le présent (*Morgen bel ik je*) : l'archive (*Hij zal 38 uur per week werken*) surutilise le futur. Le jeu « *Vertel wat je dinsdagavond zal doen* » devient « *Wat doe je dinsdagavond?* ». Les trois façons de parler du futur sont l'objet du M18.
 
 ---
 
