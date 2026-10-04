@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Niveau** | A1 · UE1 · bloc 2 |
-| **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14 + ex. 1–2 · séance 2 : diapos 18–24) |
+| **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14 + ex. 1–2 · séance 2 : diapos 19–23) |
 | **Source** | `2020-11-26_AJ_neerlandais1_formel_informel.pptx` (24 diapos) |
 | **Prérequis** | M2 (*je / u / jullie*, saluer, *uw*), M4 (*kunnen, mogen, willen*) |
 | **Savoir-faire visés** | ① Choisir *je* ou *u* et rester cohérent · ② Saluer, demander des nouvelles, remercier, s'excuser et prendre congé dans les deux registres · ③ Formuler une demande polie à l'oral et au téléphone |
@@ -38,7 +38,7 @@
 |---|---|---|
 | Découvrir | 1 – 4 | 15 min |
 | Comprendre | 5 – 14 | 45 min |
-| JIJ NU ! | 15 – 24 | 2 × 45 min |
+| JIJ NU ! | 15 – 23 | 2 × 45 min |
 
 ---
 

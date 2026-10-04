@@ -595,15 +595,15 @@ Ces nuances du pluriel (-s / -en) sont approfondies en *Néerlandais 2*.
 
 ---
 
-### [DIAPOSITIVE 27 : Ticket de sortie — et bilan du parcours]
+### [DIAPOSITIVE 27 : Ticket de sortie — et bilan du bloc 1]
 
-**Objectif pédagogique** — Vérifier les objectifs du module et clore le parcours *Néerlandais 1* par une auto-évaluation globale.
+**Objectif pédagogique** — Vérifier les objectifs du module et clore le bloc 1 (M1–M5) par une auto-évaluation globale.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** en 2 parties.
 - *Gauche* : 3 questions éclair sur M5.
 - *Droite* : un **bilan des 5 modules**, sous forme de 5 pastilles-icônes (🔊 Klanken, 🪪 Ik stel me voor, ⚙️ Presens, ✏️ Spellingregels, DE/HET), chacune avec l'échelle 😟 😐 🙂.
-- *En bas* : un bandeau « Volgende stap: Néerlandais 2 ».
+- *En bas* : un bandeau « Volgende stap: bloc 2 — M6 Tweeklanken ».
 
 **Contenu textuel**
 > 1. *…… gesprek · …… oefening · …… broodje* ?
@@ -617,4 +617,4 @@ Ces nuances du pluriel (-s / -en) sont approfondies en *Néerlandais 2*.
 2. *de boeken*.
 3. *de kantoordeur*.
 
-Les résultats du bilan orientent la révision avant l'évaluation de l'UE1 : renvoyez chaque apprenant à la diapo « À retenir » du module où il a coché 😟 (M1 d. 9, M2 d. 13, M3 d. 19, M4 d. 15, M5 d. 18).
+Les résultats du bilan orientent la révision avant le bloc 2 (M6–M10), qui reprend chaque thème en spirale : renvoyez chaque apprenant à la diapo « À retenir » du module où il a coché 😟 (M1 d. 9, M2 d. 13, M3 d. 19, M4 d. 15, M5 d. 18).

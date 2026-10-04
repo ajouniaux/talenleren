@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 5 modules. Chaque gabarit de module (`module_1_…` à `module_5_…`) renvoie aux **schémas standardisés S1–S11**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 10 modules. Chaque gabarit de module (`module_1_…` à `module_10_…`) renvoie aux **schémas standardisés S1–S13**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -13,6 +13,11 @@
 | `neerlandais1_present_conjugaisons_semi_regulieres.pptx` | 2020-11 | 4 | 5 tableaux à pictogrammes (slaan, lezen, drijven, praten, zien) | **Réécrire** : aucune règle formulée, aucun exercice | **Module 4** |
 | `Neerlandais1_ppt_articles.pptx` | 2024-08 | 14 | Contraste FR/NL, piège du genre, 9 catégories de mots en DE | **Compléter** : aucune règle HET, aucune stratégie, aucun exercice, format 4:3 | **Module 5** |
 | `Neerlandais1_ppt_prononciation_sons_longs_courts.pptx` | 2025-10 | 6 | Alphabet + pictogrammes, règle syllabe ouverte/fermée, tableau de synthèse, script « voix off » détaillé | **Compléter** : renvoie à une « vidéo précédente » absente, pas de discrimination auditive, pas de diphtongues, pas d'exercices | **Module 1** |
+| `Neerlandais1_ppt_prononciation_diphtongues.pptx` | 2022-03 | 4 | Un tableau de 12 sons doubles avec repère français, exemples et illustrations | **Développer** : tout sur une diapo, aucune écoute, aucun exercice, repère faux pour *eeuw* | **Module 6** |
+| `Neerlandais1_ppt_pays_nationalites_langues.pptx` | 2024-08 | 4 | Tableau pays · adjectif · langue · habitant · habitante (Belgique, Flandre, Wallonie), 5 formules d'identité, mini-dialogues | **Compléter** : Belgique seule, règle de formation et majuscules non traitées, aucun exercice | **Module 7** |
+| `neerlandais1_formel_informel.pptx` | 2020-11 | 24 | Paires de photos formel / informel, échelle *Hoe gaat het?*, paires de mots (*meedoen / deelnemen*), 2 banques de situations, situations-images | **Restructurer** : traductions inversées, doublon partiel avec M2, activités « extra » de niveau UE2 | **Module 8** |
+| `neerlandais2_phrases_simples_complexes.pptx` | 2020-11 | 52 | Traductions-défis avec schéma P1 / P2, *als / of*, inversion ou rejet, juist / fout, *Waarom…?*, défis-photos | **Extraire** : deck de Néerlandais 2 (« UE 2-3 ») ; seule la passerelle A1 est reprise ; terminologie « simple / complexe » fausse | **Module 9** |
+| `neerlandais1_mail_opstellen.pptx` | 2020-11 | 20 | Anatomie d'un e-mail, 2 e-mails à comparer, tri des formules, échelle *Hallo / Beste / Geachte*, situations de rédaction | **Recentrer** : e-mails à compléter de niveau UE 2-4, coquilles, consignes qui mélangent *je* et *u* | **Module 10** |
 
 ---
 
@@ -58,6 +63,13 @@
  syllabe        « en bloc »)            inversion, pince   modaux                mots composés
     │                                        ▲                  ▲                    ▲
     └──────── règle syllabe ouverte/fermée ──┴──────────────────┴── pluriels ────────┘
+                                                                                     │
+ ┌───────────────────────────────── BLOC 2 : la spirale ───────────────────────────────┘
+ ▼
+ M6 TWEEKLANKEN ──► M7 LANDEN EN TALEN ──► M8 FORMEEL OF INFORMEEL? ──► M9 ZINNEN VERBINDEN ──► M10 EEN MAIL OPSTELLEN
+ ij/ei, ui, eu,     nationalités, adjectif  je / u, saluer, remercier,   en, maar, want / omdat,   anatomie, aanhef,
+ oe, ou/au          + e, majuscules         demander, téléphone          dat, als : verbe à la fin  afsluiting, 5 blocs
+ (← M1)             (← M2, M5)              (← M2, M4)                    (← M3)                     (← M8, M9 : synthèse)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -67,6 +79,11 @@
 | **M3** | *Het presens* · Le présent et la phrase | « Comment conjuguer et où placer le verbe ? » | 2 séances | Archive « verbes réguliers » (2020) |
 | **M4** | *Spellingregels* · Les verbes qui s'adaptent | « Pourquoi *ik lees* et pas *ik lez* ? » | 1 à 2 séances | Archive « semi-réguliers » (2020) |
 | **M5** | *De of het?* · Les articles | « Comment choisir, et que faire dans le doute ? » | 2 séances | Archive « articles » (2024) |
+| **M6** | *Tweeklanken* · Les sons doubles | « *huis*, *buur* ou *boer* ? » | 1 séance | Archive « diphtongues » (2022) |
+| **M7** | *Landen en talen* · Pays, nationalités, langues | « Belg, Belgische ou Belgisch ? » | 1 séance | Archive « pays, nationalités, langues » (2024) |
+| **M8** | *Formeel of informeel?* · Le registre | « *je* ou *u*, et comment rester cohérent ? » | 2 séances | Archive « formel / informel » (2020) |
+| **M9** | *Zinnen verbinden* · Relier deux phrases | « Pourquoi *omdat ik ziek **ben*** ? » | 2 séances | Archive N2 « phrases simples / complexes » (2020), partie A1 |
+| **M10** | *Een mail opstellen* · Écrire un e-mail | « Comment écrire à sa cheffe, à un client, à une collègue ? » | 2 séances | Archive « mail opstellen » (2020) |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -74,11 +91,17 @@
 - **M2 tôt.** Se présenter est le besoin communicatif de la première semaine. On y apprend *zijn* et *hebben* (irréguliers, indispensables) et 5 verbes **en bloc** (*Ik woon in…*, *Ik kom uit…*), avec un seul tableau-aperçu de la formule. Le présent n'est donc plus exposé deux fois.
 - **M3 systématise** ce que M2 a fait utiliser : la formule du présent, puis la place du verbe (V2, inversion, pince verbale). C'est le **piège n°1** des francophones.
 - **M4 regroupe en un seul endroit** toutes les adaptations orthographiques et les verbes courts. Il ajoute les verbes de modalité, qui alimentent la « pince » vue en M3.
-- **M5 en dernier.** Il réinvestit le pluriel (M1) et les noms rencontrés en M2–M4. Il prépare *Néerlandais 2* (deze/dit, adjectif).
+- **M5 clôt le bloc 1.** Il réinvestit le pluriel (M1) et les noms rencontrés en M2–M4. Il prépare *Néerlandais 2* (deze/dit, adjectif).
+- **Le bloc 2 est une spirale.** Chaque module reprend un module du bloc 1 et l'approfondit :
+  - M6 complète M1 (les sons doubles) ;
+  - M7 élargit l'identité du M2 (*Ik kom uit…*) et utilise l'adjectif + e entrevu en M5 ;
+  - M8 transforme le *je / u* du M2 en compétence sociale (saluer, remercier, demander, téléphoner).
+- **M9 est la seule exception à la règle du verbe en 2e position** vue en M3 : il ne vient qu'après la consolidation de M3–M8. Il ne garde de l'archive de Néerlandais 2 que *en, maar, want, of, dus* et *omdat, dat, als*. Le reste est laissé à Néerlandais 2.
+- **M10 est le module de synthèse** : écrire un e-mail mobilise le registre (M8), *omdat* (M9), le verbe en 2e position (M3), les nombres et les dates (M2). Il se termine par le bilan du parcours.
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 5 modules. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 10 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -131,6 +154,31 @@
 | Prononciation · 5 (notes) | « BE-LEN / BEL-LEN » | *belen* n'existe pas | *bo·men / bom·men* (arbres / bombes) |
 | Prononciation · 4 | *MIER / MIEREN* présenté comme voyelle doublée | *ie* est un digramme invariable (jamais « ii ») | Traité avec les sons invariables |
 | Prononciation · 3–4 | *muf, goor, diffuus, loeien* | Mots rares | Mots fréquents : *les, vis, pot, bus, raam, been, boom, muur* |
+| Diphtongues · 1 | *eeuw* = « é + u » | Repère faux | « é + ou » (*leeuw, sneeuw*) |
+| Diphtongues · 1 | *eeeuw* | Coquille | *eeuw* (le siècle) |
+| Diphtongues · 1 | *vrolijk* « (!) » | Piège signalé mais pas expliqué | Diapo PIÈGE : *-lijk* se prononce « leuk » (*vrolijk, moeilijk, eigenlijk*) |
+| Diphtongues · 1 | *ieuw*, *uw* absents | Lacune | Ajoutés (*nieuw, uw*) |
+| Pays · 2 | Belgique, Flandre, Wallonie seulement | Lacune | + Bruxelles, voisins, pays d'origine des apprenants |
+| Pays · 2 | Majuscule non traitée | Piège n°1 à l'écrit | Diapo PIÈGE : *Belgisch, Frans, Nederlands* (majuscule) |
+| Pays · 3 | Bulles de dialogue superposées | Illisible | Dialogue réécrit en bulles alternées |
+| Formel · 9 | *Dankuwel, ik wens u een fijne dag* = « passe une bonne journée » (et inversement) | Traductions inversées | *Dank u wel, ik wens u een fijne dag* = « Merci, je vous souhaite une bonne journée » |
+| Formel · 5 | *Meneer de Directeur* | Majuscules fautives | *meneer de directeur* |
+| Formel · 12 | *nar* | Coquille | *naar* |
+| Formel · 14–20 | « Wat zeg je als… » (subordonnées) | Structure vue seulement au M9 | Situations données en français |
+| Formel · 21–24 | Situations « réveillé par le patron », « licencié » ; négocier par mail | Peu utiles ; niveau UE2 | Une journée au bureau, appel pour signaler une absence |
+| Phrases · tout | Étiquette « UE 2-3 » | Deck de Néerlandais 2 | Seule la passerelle A1 est reprise (M9) |
+| Phrases · 4–12 | « proposition simple / complexe » | Terminologie fausse | *hoofdzin* (principale) / *bijzin* (subordonnée) |
+| Phrases · 14 | *… toen ze sliep* pour « pendant que » | Mauvaise conjonction | *terwijl ze sliep* (Néerlandais 2) |
+| Phrases · 17 | *Of* → « rejet » | Ambigu : *of* « ou » ne change rien ; *of* « si » rejette le verbe | Distinction *of* (ou) / *of* (si) en diapo BONUS |
+| Phrases · 43 | *een belangrijk examen. Die vindt plaats…* | *het examen* → *dat* | *Dat vindt plaats…* |
+| Phrases · 41–49 | *préposition relative*, *conjunction*, *Doit utilisant*, *In December* | Coquilles | *proposition relative*, *conjonction*, *Doit utiliser*, *december* |
+| Mail · 8–11 | *Hou zou je…* | Coquille | *Hoe zou je…* |
+| Mail · 19 | *Bedacht de onbeleefdste e-mail* | Forme verbale | *Bedenk…* |
+| Mail · 15–16 | *het het secretariaat* ; *te uit te schakelen* ; *op de medewerking* | Coquilles | Textes remplacés par des e-mails A1 |
+| Mail · 12–16 | E-mails à compléter de niveau UE 2-4 | Trop difficiles en A1 | 3 e-mails-modèles A1 au présent |
+| Mail · 17 | *Je bent vandaag ziek… waarin u een collega vraagt om … uw taken* | *je* et *u* mélangés dans la consigne | Situations données en français |
+| Mail · 4 | E-mail formel signé *Pieter* | En formel : prénom + nom | *Pieter Smet* |
+| Mail · 3 | Adresses e-mail avec des domaines réels | Marques réelles | Adresses fictives (*@peetersco.be*) |
 
 ---
 
@@ -138,7 +186,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 5 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 10 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -162,7 +210,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 5 modules)
+### 5.3 Code couleur grammatical (constant dans les 10 modules)
 
 | Élément | Code visuel |
 |---|---|
@@ -295,6 +343,17 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - Sur la jointure, l'émoticône 🤔 dans un cercle noir (comme à l'origine) : c'est la « zone de doute ».
 - Les mots apparaissent en haut au centre, puis glissent (animation) vers leur zone après le vote de la classe.
 
+**S12 — Hoofdzin + bijzin (le pont et le wagon)** (reprise standardisée du schéma P1 / P2 de l'archive « phrases »)
+- *Le pont* (coordination) : deux boîtes bleues complètes, chacune avec son verbe en ②, reliées par une arche portant le mot-pont (*en, maar, want, of, dus*). Légende : « rien ne bouge ».
+- *Le wagon* (subordination) : une boîte bleue « hoofdzin » (verbe en ②), un crochet orange portant le mot-crochet (*omdat, dat, als*), puis une boîte orange « bijzin » dont la **dernière case est rouge** (« verbe »).
+- Une flèche courbe rouge montre le verbe qui quitte la 2e place pour la dernière.
+- Variante « wagon en tête » : la bijzin occupe la case ① ; les deux verbes rouges se touchent autour de la virgule (« verbe, verbe »).
+
+**S13 — Anatomie d'un e-mail**
+- Une fenêtre d'e-mail (barre de titre, champs *Van / Aan / Onderwerp*).
+- Le corps est découpé en **5 bandes colorées** : ① aanhef (bleu nuit) · ② opening (bleu) · ③ kern (orange) · ④ slotzin (vert) · ⑤ afsluiting + naam (bleu nuit).
+- Des étiquettes reliées par des flèches donnent le terme néerlandais, sa question-guide (*van wie? aan wie? waarover?*) et sa traduction.
+
 ### 5.9 Gabarits d'exercices
 
 | Code | Type | Agencement standard |
@@ -326,6 +385,10 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | inversion | de inversie | *Morgen **werk ik*** |
 | particule séparable | het scheidbare deel | *Ik bel je **op*** |
 | article défini / indéfini | bepaald / onbepaald lidwoord | *de, het / een* |
+| proposition principale | de hoofdzin | ***Ik blijf thuis** omdat…* |
+| subordonnée | de bijzin | *… **omdat ik ziek ben*** |
+| conjonction (mot de liaison) | het voegwoord | *en, maar, want / omdat, dat, als* |
+| nationalité / habitant | de nationaliteit / de inwoner | *Belgisch / Belg, Belgische* |
 | nom | het zelfstandig naamwoord | *het huis* |
 | singulier / pluriel | het enkelvoud / het meervoud | *het huis / de huizen* |
 | diminutif | het verkleinwoord | *het huisje* |

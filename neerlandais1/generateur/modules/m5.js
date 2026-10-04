@@ -903,10 +903,10 @@ function build(d) {
   {
     const E = '  ';
     const s = d.ticket({
-      g: 27, title: 'Ticket de sortie — et bilan du parcours',
+      g: 27, title: 'Ticket de sortie — et bilan du bloc 1',
       q: ['//…… gesprek · …… oefening · …… broodje// ?', 'Au pluriel : //het boek// → ?', '//het kantoor + de deur// → ?'],
       self: [E + 'Klanken', E + 'Ik stel me voor', E + 'Presens', E + 'Spellingregels', E + 'De of het'],
-      teaser: { icon: 'FaFlagCheckered', text: '**Volgende stap: Néerlandais 2** — bravo, le parcours Néerlandais 1 est terminé !' },
+      teaser: { icon: 'FaFlagCheckered', text: '**Volgende stap: bloc 2** — M6 Tweeklanken : les sons doubles (//huis, tijd, keuken//)' },
     });
     const rh = Math.min(0.95, 3.6 / 5);
     ['FaVolumeUp', 'FaIdCard', 'FaCog', 'FaPencilAlt', null].forEach((ic, i) => {
