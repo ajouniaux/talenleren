@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Niveau** | A1+ · UE1 · bloc 4 (module de synthèse du parcours) |
+| **Niveau** | A1+ · UE1 · bloc 4 (module de synthèse du bloc 4) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14, ex. 1 à 3 · séance 2 : diapos 15–22, ex. 4 à 7) |
 | **Source** | Création (aucune archive) |
 | **Prérequis** | M1 (syllabes, pluriel), M3 (radical), M9 (mot-crochet, « verbe, verbe »), M11 (particules), M15 (SoFT KetCHuP, irréguliers), M17 (*zitten, staan, liggen, hangen*) |
@@ -24,7 +24,7 @@
 **Décisions**
 - Règle d'usage simplifiée en trois cas : décor / description, habitude, récit ; *zijn, hebben* et les modaux presque toujours à l'imperfectum.
 - Code couleur : *-te* orange, *-de* bleu (comme *-t / -d* au M15) ; verbes irréguliers par familles de couleurs.
-- Le module se termine par le **bilan du parcours complet** (M1–M19).
+- Le module se termine par le **bilan des blocs 1 à 4** (M1–M19) ; le bilan final du parcours est au M24.
 
 ## Déroulé
 
@@ -396,13 +396,13 @@
 
 ---
 
-### [DIAPOSITIVE 22 : Ticket de sortie et bilan du parcours]
+### [DIAPOSITIVE 22 : Ticket de sortie et bilan du bloc 4]
 
-**Objectif pédagogique** — Vérifier les 3 objectifs et clore le parcours *Néerlandais 1*.
+**Objectif pédagogique** — Vérifier les 3 objectifs et clore les blocs 1 à 4.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** à gauche.
-- *À droite* : la frise des 19 modules en 4 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : Néerlandais 2 ».
+- *À droite* : la frise des 19 premiers modules en 4 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : bloc 5 ».
 
 **Contenu textuel**
 > 1. L'imperfectum de *werken* (*ik*) et de *wonen* (*wij*) ?
@@ -410,11 +410,11 @@
 > 3. Traduisez : « Quand j'étais petit, je jouais au foot. »
 >
 > Former 😟 😐 🙂 · Mémoriser 😟 😐 🙂 · Raconter 😟 😐 🙂
-> **Proficiat! Néerlandais 1 is klaar.** 🏆
+> **Proficiat! Bloc 4 is klaar.** 🏆 — Volgende stap : bloc 5, M20 *Van wie is dit?*
 
 **Notes pour l'animateur** — Réponses :
 1. *werkte* · *woonden*.
 2. *was* · *had* · *ging*.
 3. *Toen ik klein was, speelde ik voetbal.*
 
-Bilan : faites relire la frise des 19 modules et choisir un module à retravailler. En Néerlandais 2 : les relatives, *om … te*, l'adjectif, les autres conjonctions, *hoeven te*, le conditionnel (*zou*).
+Bilan : faites relire la frise des 19 modules et choisir un module à retravailler. Bloc 5 : les possessifs et démonstratifs (M20), l'adjectif (M21), les relatifs (M22), *er / daar / waar* (M23) et les particules modales (M24, bilan final du parcours).

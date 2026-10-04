@@ -35,7 +35,7 @@
 - Le participe est une **chaîne de montage** (schéma S5) : *ge* + radical + *t / d*.
 - *hebben / zijn* : deux portes, la grande (*hebben*, 90 %) et la petite (*zijn* : déplacement, changement, *blijven, zijn*).
 - Dix-sept irréguliers fréquents, regroupés par familles de voyelles.
-- Le module se termine par le **bilan des blocs 1 à 3** (M1–M15) ; le bilan final du parcours est au M19.
+- Le module se termine par le **bilan des blocs 1 à 3** (M1–M15) ; le bilan final du parcours est au M24.
 
 ## Déroulé
 
@@ -445,7 +445,7 @@
 > *Weekverslag* : *Wat heb je gedaan? · Wie heb je gebeld / ontmoet? · Wat is niet gelukt?*
 > Banque : *Vorige week heb ik… · Ik heb drie klanten gebeld. · Ik heb de facturen gecontroleerd. · Ik ben naar Antwerpen gegaan. · Ik heb een nieuwe collega ontmoet. · Het project is nog niet klaar.*
 
-**Notes pour l'animateur** — *gelukt* = réussi (*lukken*, M8 : *Lukt dat?*). Chacun parle une minute, puis l'équipe pose une question (*Heb je ook…?*). C'est la tâche finale orale du parcours.
+**Notes pour l'animateur** — *gelukt* = réussi (*lukken*, M8 : *Lukt dat?*). Chacun parle une minute, puis l'équipe pose une question (*Heb je ook…?*). C'est la tâche finale orale du bloc 3.
 
 ---
 
@@ -470,4 +470,4 @@
 2. *ben*.
 3. *Ik heb niet gewerkt.*
 
-Bilan : faites relire la frise des 15 modules et choisir un module à retravailler. Bloc 4 : l'impératif (M16), les verbes de position (M17), le futur (M18) et l'imparfait (M19, bilan final du parcours).
+Bilan : faites relire la frise des 15 modules et choisir un module à retravailler. Bloc 4 : l'impératif (M16), les verbes de position (M17), le futur (M18) et l'imparfait (M19, bilan du bloc 4).

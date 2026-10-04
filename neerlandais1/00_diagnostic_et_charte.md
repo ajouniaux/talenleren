@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 19 modules. Chaque gabarit de module (`module_1_…` à `module_19_…`) renvoie aux **schémas standardisés S1–S15**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 24 modules. Chaque gabarit de module (`module_1_…` à `module_24_…`) renvoie aux **schémas standardisés S1–S20**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -25,6 +25,8 @@
 | `neerlandais1_passe_compose.pptx` | 2020-11 | 12 | Grille à deux verbes, « SoFT KetCHuP », participes en contexte, préfixes, « *Heb je ooit…?* » | **Restructurer** : diapo des préfixes mêlant imparfaits et participes, *hebben / zijn* non expliqué, coquilles | **Module 15** |
 
 > **Bloc 4 (M16–M19) : modules créés sans archive.** L'impératif, les verbes de position, le futur et l'imparfait n'avaient pas de présentation d'origine. Ils sont conçus directement selon la charte ci-dessous et prennent appui sur les modules précédents (M3, M4, M11, M12, M15).
+
+> **Bloc 5 (M20–M24) : modules créés sans archive.** Les possessifs et démonstratifs, l'accord de l'adjectif, les pronoms relatifs, les adverbes pronominaux (*er, daar, waar* + préposition) et les particules modales sont conçus de la même façon. Ils amènent le parcours vers le niveau A2 et s'appuient sur M2, M5, M7, M9, M11, M13 et M16.
 
 ---
 
@@ -90,7 +92,15 @@
  M16 GEBIEDENDE WIJS ──► M17 ZITTEN, STAAN, LIGGEN, HANGEN ──► M18 DE TOEKOMST ──► M19 HET IMPERFECTUM
  Kom binnen! Wees…!     positions, leggen / zetten,            présent + marqueur,   -te / -de, was, had,
  u, even, maar          « mettre » = 4 verbes                  gaan, zullen          ging, toen (← M15, M17 :
- (← M3, M8, M11)        (← M4, M15)                            (← M12, M15)          synthèse et bilan final)
+ (← M3, M8, M11)        (← M4, M15)                            (← M12, M15)          synthèse du bloc 4)
+                                                                                                           │
+ ┌──────────────────────────────── BLOC 5 : préciser, relier, nuancer ─────────────────────────────────────┘
+ ▼
+ M20 VAN WIE IS DIT? ──► M21 GROOT OF GROTE? ──► M22 DIE OF DAT? ──► M23 WAAR DENK JE AAN? ──► M24 NOU, TOCH, MAAR…
+ mijn, zijn, haar,       een groot huis,          die / dat / wat,     er / daar / waar +       particules modales :
+ deze / dit / die / dat  de grote auto            verbe à la fin       préposition, verbes      adoucir, insister,
+ (← M2, M5)              (← M5, M7, M20)          (← M9, M20)          à préposition (← M11)    rassurer (← M13, M16 :
+                                                                                                  synthèse et bilan final)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -114,6 +124,11 @@
 | **M17** | *Zitten, staan, liggen, hangen* · Les verbes de position | « Pourquoi *Het boek ligt* mais *De fles staat* ? » | 2 séances | Création |
 | **M18** | *De toekomst* · Parler du futur | « *Morgen werk ik*, *Ik ga verhuizen* ou *Ik zal je bellen* ? » | 2 séances | Création |
 | **M19** | *Het imperfectum* · L'imparfait | « Comment raconter ses souvenirs ? » | 2 séances | Création |
+| **M20** | *Van wie is dit?* · Possessifs et démonstratifs | « *zijn* ou *haar* ? *deze* ou *dit* ? » | 2 séances | Création |
+| **M21** | *Groot of grote?* · L'accord de l'adjectif | « Pourquoi *een groot huis* mais *de grote auto* ? » | 2 séances | Création |
+| **M22** | *Die of dat?* · Les pronoms relatifs | « Comment dire *la collègue qui…*, *le rapport que…* ? » | 2 séances | Création |
+| **M23** | *Waar denk je aan?* · Les adverbes pronominaux | « Comment dire *J'y pense* ou *avec lequel* ? » | 2 séances | Création |
+| **M24** | *Nou, toch, maar…* · Les particules modales | « Comment parler moins sec, plus naturellement ? » | 2 séances | Création |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -121,7 +136,7 @@
 - **M2 tôt.** Se présenter est le besoin communicatif de la première semaine. On y apprend *zijn* et *hebben* (irréguliers, indispensables) et 5 verbes **en bloc** (*Ik woon in…*, *Ik kom uit…*), avec un seul tableau-aperçu de la formule. Le présent n'est donc plus exposé deux fois.
 - **M3 systématise** ce que M2 a fait utiliser : la formule du présent, puis la place du verbe (V2, inversion, pince verbale). C'est le **piège n°1** des francophones.
 - **M4 regroupe en un seul endroit** toutes les adaptations orthographiques et les verbes courts. Il ajoute les verbes de modalité, qui alimentent la « pince » vue en M3.
-- **M5 clôt le bloc 1.** Il réinvestit le pluriel (M1) et les noms rencontrés en M2–M4. Il prépare *Néerlandais 2* (deze/dit, adjectif).
+- **M5 clôt le bloc 1.** Il réinvestit le pluriel (M1) et les noms rencontrés en M2–M4. Il prépare le bloc 5 (*deze / dit* au M20, l'adjectif au M21).
 - **Le bloc 2 est une spirale.** Chaque module reprend un module du bloc 1 et l'approfondit :
   - M6 complète M1 (les sons doubles) ;
   - M7 élargit l'identité du M2 (*Ik kom uit…*) et utilise l'adjectif + e entrevu en M5 ;
@@ -131,11 +146,14 @@
 - **Le bloc 3 approfondit le verbe et la phrase.** M11 et M12 reprennent la pince du M3 et les modaux du M4 : particule recollée, sens de *kunnen / mogen*. M13 s'appuie sur les articles du M5 (*geen* = *niet* + *een*). M14 réutilise les mots composés et *-je* du M5.
 - **M15 (le passé composé) clôt le bloc 3** : le participe a besoin des particules (*opgestaan*, M11), des inséparables (*betaald*, M11) et de la place de *niet* (*niet gewerkt*, M13). C'est la synthèse du bloc 3, avec le bilan des blocs 1 à 3.
 - **Le bloc 4 ajoute quatre outils pour agir et raconter.** M16 (l'impératif) n'est qu'un radical (M3) et reprend le registre du M8 et les particules du M11. M17 (les verbes de position) a besoin des participes du M15 (*gelegen, gelegd*). M18 (le futur) reprend la pince des modaux (M12) et la frise du temps du M15.
-- **M19 (l'imparfait) vient en dernier** : il réutilise le test *SoFT KetCHuP* du M15, les familles d'irréguliers du M15 et les positions du M17 (*zat, stond, lag, hing*). Il contient le bilan final du parcours (M1–M19).
+- **M19 (l'imparfait) clôt le bloc 4** : il réutilise le test *SoFT KetCHuP* du M15, les familles d'irréguliers du M15 et les positions du M17 (*zat, stond, lag, hing*). Il contient le bilan des blocs 1 à 4 (M1–M19).
+- **Le bloc 5 affine la phrase et le ton.** M20 (possessifs et démonstratifs) prolonge les articles du M5 : *deze / dit* suivent *de / het*. M21 (l'adjectif) en a besoin : la seule case sans *-e* est *een* + mot *het* (*een groot huis*), et *dit grote huis* prend un *-e*. M22 (les relatifs) applique la même logique *de / het* (*die / dat*) et réutilise le verbe à la fin du M9.
+- **M23 (er / daar / waar)** prolonge le *waarmee* du M22 ; la préposition va au bout comme la particule du M11 (*Ik denk er vaak aan*).
+- **M24 (les particules modales) vient en dernier** : il élargit les petits mots du M16 (*even, maar, eens*) et le *wel / toch* du M13. C'est la synthèse orale du parcours, avec le bilan final (M1–M24).
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 19 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire. Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 24 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire, qui accueille ses premiers jours au bloc 5 (M22). Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -239,7 +257,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 19 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 24 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -263,7 +281,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 19 modules)
+### 5.3 Code couleur grammatical (constant dans les 24 modules)
 
 | Élément | Code visuel |
 |---|---|
@@ -278,6 +296,8 @@
 | **HET** | Orange `D9700F` (carte « HET » orange) |
 | **Ø** (pas d'article) | Case vide en pointillés |
 | **Correction** | Réponse juste en **vert gras** ; erreur ~~barrée en rouge~~ |
+
+> Au bloc 5, la logique DE / HET s'étend : *deze, die* (démonstratifs et relatif) en bleu nuit, *dit, dat* en orange (M20, M22) ; le *-e* de l'adjectif en framboise (M21) ; *er / daar* en vert et la préposition en orange (M23) ; les particules modales en 4 familles : adoucir bleu, insister orange, questionner framboise, rassurer vert (M24, **S20**).
 
 > Les apprenants reçoivent en M1 un **carton bicolore** (vert/framboise), puis en M5 deux **palettes** (DE bleue / HET orange). Ces objets réapparaissent dans les jeux.
 
@@ -417,6 +437,30 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - Au-dessus de chaque marche, une bulle avec la même consigne reformulée (*Ga zitten! → Zou u even willen gaan zitten?*).
 - Il prolonge les curseurs du registre du M8.
 
+**S16 — La croix des démonstratifs** (M20)
+- Un tableau 2 × 2 : en colonnes, **proche** (ici) / **loin** (là-bas) ; en lignes, mot *de* (bleu nuit) / mot *het* (orange).
+- Cases : *deze* · *die* / *dit* · *dat*. Le pluriel rejoint la ligne *de* (*deze boeken, die boeken*).
+- Une petite main (ici) et une flèche vers l'horizon (là-bas) en tête de colonne.
+
+**S17 — La case sans -e** (M21)
+- Un tableau 2 × 3 : en lignes, mot *de* / mot *het* ; en colonnes, avec *de / het* · avec *een* · pluriel.
+- Toutes les cases ont le *-e* framboise, sauf une, entourée en rouge : *een groot huis* (*een / geen* / rien + mot *het* au singulier).
+- Variante « organigramme » (S9) sur la diapo *À retenir* : « devant le nom ? » puis « *een* + mot *het* ? ».
+
+**S18 — L'aiguillage du relatif** (M22)
+- À gauche, 3 rails : mot *de* (bleu nuit), mot *het* (orange), pluriel (bleu nuit).
+- Ils convergent vers deux gares : *die* (ovale bleu nuit) et *dat* (ovale orange), avec un exemple à droite.
+- Synthèse : + *wat* (après *alles, iets, niets*, vert) et *met wie / waarmee* (avec une préposition).
+
+**S19 — Le tableau de conversion** (M23)
+- 4 lignes : « préposition + *het / dat / wat / dit* » barré en rouge → *er / daar / waar / hier* + préposition (vert, préposition orange).
+- Une colonne « nuance » (neutre, « ça », question, « ceci ») et un exemple par ligne.
+- Rappel en bandeau : *met → mee* ; pour une **personne**, préposition + pronom.
+
+**S20 — La palette des nuances** (M24)
+- 4 blocs de couleur : **adoucir** (bleu : *even, maar, eens*) · **insister** (orange : *toch, nou, wel*) · **questionner** (framboise : *soms, dan, ook alweer*) · **rassurer** (vert : *hoor, wel*).
+- Dans chaque bloc, les particules en grand et un exemple ; la même couleur revient dans tous les exercices du module.
+
 ### 5.9 Gabarits d'exercices
 
 | Code | Type | Agencement standard |
@@ -462,3 +506,9 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | futur | de toekomende tijd | *Ik **zal** werken.* |
 | impératif | de gebiedende wijs | ***Kom** binnen!* |
 | verbe de position | het houdingswerkwoord | *staan, liggen, zitten, hangen* |
+| pronom possessif | het bezittelijk voornaamwoord | *mijn, zijn, haar, ons / onze* |
+| pronom démonstratif | het aanwijzend voornaamwoord | *deze, dit, die, dat* |
+| adjectif | het bijvoeglijk naamwoord | *een **groot** huis, de **grote** auto* |
+| pronom relatif | het betrekkelijk voornaamwoord | *de klant **die** belt* |
+| adverbe pronominal | het voornaamwoordelijk bijwoord | ***er**mee, **daar**op, **waar**aan* |
+| particule modale | het modaal partikel | *even, maar, toch, hoor* |

@@ -422,12 +422,12 @@ function build(d) {
   // ---------------------------------------------------------------- 22 ticket + bilan du parcours
   {
     const s = d.ticket({
-      g: 22, title: 'Ticket de sortie et bilan du parcours',
+      g: 22, title: 'Ticket de sortie et bilan du bloc 4',
       q: ['L’imperfectum de //werken// (//ik//) et de //wonen// (//wij//) ?', '//zijn, hebben, gaan// à l’imperfectum (//ik//) ?', 'Traduisez : « Quand j’étais petit, je jouais au foot. »'],
       self: ['Former', 'Mémoriser', 'Raconter'],
-      teaser: { icon: 'FaTrophy', text: '**Proficiat! Néerlandais 1 is klaar.** — Volgende stap : Néerlandais 2' },
+      teaser: { icon: 'FaTrophy', text: '**Proficiat! Bloc 4 is klaar.** — Volgende stap : bloc 5, M20 //Van wie is dit?//' },
     });
-    d.t(s, 'NÉERLANDAIS 1 · 19 MODULES', 7.6, 5.0, 4.5, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, 'BLOCS 1 À 4 · 19 MODULES', 7.6, 5.0, 4.5, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     const B = [['M1–M5', 5, 'accent2'], ['M6–M10', 5, 'accent1'], ['M11–M15', 5, 'accent3'], ['M16–M19', 4, 'purple']];
     const unit = (4.55 - 3 * 0.06) / 19; let x = 7.6;
     B.forEach(([lab, n, c]) => {
