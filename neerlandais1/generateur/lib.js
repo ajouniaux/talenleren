@@ -218,7 +218,7 @@ class Deck {
     p.author = 'A. Jouniaux';
     p.company = 'IRAM — Néerlandais 1 (UE1)';
     p.subject = 'Néerlandais 1 — Langue en situation, en milieu professionnel';
-    p.title = `Module ${meta.n} — ${meta.title}`;
+    p.title = meta.docTitle || `Module ${meta.n} — ${meta.title}`;
     this.S = p.shapes;
     this.G = readTemplate(path.join(__dirname, '..', meta.template));
     this.used = new Set();
@@ -227,7 +227,7 @@ class Deck {
 
   layouts() {
     const p = this.pres;
-    const foot = `Néerlandais 1 · UE1 · Module ${this.m.n} · ${this.m.short}`;
+    const foot = this.m.foot || `Néerlandais 1 · UE1 · Module ${this.m.n} · ${this.m.short}`;
     p.defineSlideMaster({
       title: 'N1_CONTENT', background: { color: HEX.lt1 },
       objects: [
@@ -276,7 +276,7 @@ class Deck {
     const L = plain(title).length;
     s.addText(title, L > 60 ? { placeholder: 'title', fontSize: 22 } : L > 50 ? { placeholder: 'title', fontSize: 26 } : { placeholder: 'title' });
     let x = 0.6;
-    if (spec.tag) x += this.chip(s, spec.tag, x, 0.26, TAGS[spec.tag] || 'tx2') + 0.12;
+    if (spec.tag) x += this.chip(s, spec.tag, x, 0.26, spec.tagColor || TAGS[spec.tag] || 'tx2') + 0.12;
     if (correction) x += this.chip(s, '✓ CORRECTIE', x, 0.26, 'accent3') + 0.12;
     if (spec.stars) this.t(s, spec.stars, 11.13, 0.24, 1.6, 0.38, { size: 16, color: 'accent1', align: 'right', valign: 'middle', bold: true });
     s.addNotes(this.notesFor(spec.g, correction, spec.notes));
@@ -497,7 +497,7 @@ class Deck {
   cover(o) {
     this.section('Ouverture');
     const s = this.slide('N1_COVER');
-    this.chip(s, `MODULE ${this.m.n} / 24`, 0.6, 0.7, 'accent1', 0.42, 14);
+    this.chip(s, o.chip || `MODULE ${this.m.n} / 24`, 0.6, 0.7, 'accent1', 0.42, 14);
     s.addText(o.title, { placeholder: 'title' });
     s.addText(flow([
       { runs: parse(o.sub || '', 'a', { italic: true }), opts: { paraSpaceAfter: 12 } },

@@ -3,12 +3,16 @@ const path = require('path');
 const { Deck, renderIcons } = require('./lib');
 
 (async () => {
-  const only = process.argv.slice(2).map(Number);
+  const only = process.argv.slice(2);
   const outDir = process.env.OUT || path.join(__dirname, '..', 'powerpoints');
   fs.mkdirSync(outDir, { recursive: true });
-  const files = fs.readdirSync(path.join(__dirname, 'modules')).filter((f) => /^m\d+\.js$/.test(f)).sort((a, b) => parseInt(a.slice(1), 10) - parseInt(b.slice(1), 10));
+  // numbered modules (m1.js … m24.js) first, then the extra decks (e.g. uitspraak.js)
+  const all = fs.readdirSync(path.join(__dirname, 'modules')).filter((f) => f.endsWith('.js'));
+  const num = all.filter((f) => /^m\d+\.js$/.test(f)).sort((a, b) => parseInt(a.slice(1), 10) - parseInt(b.slice(1), 10));
+  const files = [...num, ...all.filter((f) => !num.includes(f)).sort()];
+  const key = (f) => (/^m\d+\.js$/.test(f) ? String(parseInt(f.slice(1), 10)) : f.replace(/\.js$/, ''));
   for (const f of files) {
-    if (only.length && !only.includes(parseInt(f.slice(1), 10))) continue;
+    if (only.length && !only.includes(key(f))) continue;
     const mod = require('./modules/' + f);
     // pass 1 records the icons the module needs; pass 2 builds with rendered icons
     mod.build(new Deck(mod.meta));
@@ -17,7 +21,7 @@ const { Deck, renderIcons } = require('./lib');
     mod.build(d);
     const missing = Object.keys(d.G).map(Number).filter((n) => !d.used.has(n));
     if (missing.length) console.warn(`  ! template slides not used in ${f}: ${missing.join(', ')}`);
-    const name = `Module_${mod.meta.n}_${mod.meta.slug}.pptx`;
+    const name = mod.meta.file || `Module_${mod.meta.n}_${mod.meta.slug}.pptx`;
     await d.save(path.join(outDir, name));
     console.log(`${name}: ${d.pres.slides.length} slides`);
   }

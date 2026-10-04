@@ -17,6 +17,8 @@ Le parcours compte cinq blocs :
 
 Les blocs 4 et 5 (M16 à M24) ont été créés sans archive.
 
+En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6).
+
 ## Contenu du dossier
 
 ## Les PowerPoint (prêts à projeter)
@@ -47,6 +49,7 @@ Les blocs 4 et 5 (M16 à M24) ont été créés sans archive.
 | 5 | [`powerpoints/Module_22_Die_of_dat.pptx`](powerpoints/Module_22_Die_of_dat.pptx) | 27 |
 | 5 | [`powerpoints/Module_23_Waar_denk_je_aan.pptx`](powerpoints/Module_23_Waar_denk_je_aan.pptx) | 27 |
 | 5 | [`powerpoints/Module_24_Nou_toch_maar.pptx`](powerpoints/Module_24_Nou_toch_maar.pptx) | 27 |
+| Complément | [`powerpoints/Uitspraak_5_seances.pptx`](powerpoints/Uitspraak_5_seances.pptx) — prononciation en 5 séances | 22 |
 
 Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT). La carte de la Belgique et les drapeaux sont dessinés directement dans PowerPoint.
 
@@ -79,6 +82,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | [`module_22_die_of_dat.md`](module_22_die_of_dat.md) | **M22 · Die of dat?** — l'aiguillage *die / dat*, piège qui / que, verbe à la fin, relative au milieu, *dat ≠ dat*, *wat* après *alles, iets, niets*, *met wie / waarmee*, définir un mot inconnu · 22 diapos, 7 exercices |
 | [`module_23_er_daar_waar.md`](module_23_er_daar_waar.md) | **M23 · Waar denk je aan?** — le tableau de conversion (*er, daar, waar, hier* + préposition), *met → mee*, personne ou chose, séparation, 12 verbes à préposition fixe, questions, relatif *waarmee*, aperçu des emplois de *er* · 22 diapos, 7 exercices |
 | [`module_24_modale_partikels.md`](module_24_modale_partikels.md) | **M24 · Nou, toch, maar…** — la palette des nuances, *even, maar, eens*, *toch*, *nou* et en Flandre *allez, zeg*, *soms, dan, ook alweer, eigenlijk*, *wel, hoor*, place des particules, même mot / deux sens, bilan du parcours · 22 diapos, 7 exercices |
+| [`uitspraak_5_seances.md`](uitspraak_5_seances.md) | ***Uitspraak!*** — 5 séances de prononciation : voyelles courtes / longues (paires minimales, paniers, duel de phrases), sons doubles (loto, toboggan *u · uu · ui*, chasse), consonnes-pièges (*h, g / ch*, lettres caméléons, jeu de l'oie), mots courts et mots longs (rappel « lire un mot en 4 gestes », escaliers de syllabes, mots-monstres), phrase (accent de phrase, formes réduites, *tongbrekers*, morpion) · 22 diapos dont 5 de corrigés |
 
 ## Correspondance avec les archives
 
@@ -100,6 +104,8 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | `2021-07-05_AJ_Neerlandais1_ppt_formation_des_mots.pptx` | M14 |
 | `2020-11-26_AJ_neerlandais1_passe_compose.pptx` | M15 |
 | *(aucune archive : création)* | M16 à M24 |
+| `2026-02-27_AJ_neerlandais_debutants_exercices_prononciation` (*Uitspraakoefeningen* 1 à 6) | *Uitspraak!* (séances 1 à 4) |
+| `2026-03-15_AJ_neerlandais_debutants_uitspraak_assimil.pdf` (fiche « Prononciation ») | *Uitspraak!* (repères, *e* atone, accent tonique) |
 
 ## Comment lire un gabarit
 
@@ -120,7 +126,8 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 24 fichiers dans ../powerpoints
+npm run build        # réécrit les 25 fichiers dans ../powerpoints
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
+node build.js uitspraak   # le complément de prononciation
 ```

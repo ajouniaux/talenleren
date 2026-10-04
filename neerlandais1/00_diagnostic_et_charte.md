@@ -28,6 +28,8 @@
 
 > **Bloc 5 (M20–M24) : modules créés sans archive.** Les possessifs et démonstratifs, l'accord de l'adjectif, les pronoms relatifs, les adverbes pronominaux (*er, daar, waar* + préposition) et les particules modales sont conçus de la même façon. Ils amènent le parcours vers le niveau A2 et s'appuient sur M2, M5, M7, M9, M11, M13 et M16.
 
+> **Complément *Uitspraak!* (prononciation, 5 séances).** Construit à partir des *Uitspraakoefeningen* 1 à 6 (2026) et d'une fiche « Prononciation » (Assimil) : 3 diapos par séance (écouter, s'entraîner, jouer) et une annexe de corrigés. Il reprend la syllabe-porte (M1), les repères des sons doubles (M6) et le code couleur vert / framboise ; la séance 4 ajoute l'accent tonique à la méthode de lecture du M1.
+
 ---
 
 ## 2. Diagnostic transversal
