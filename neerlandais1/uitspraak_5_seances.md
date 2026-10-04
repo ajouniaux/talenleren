@@ -22,6 +22,7 @@
 - L'exercice 2 range *ie* parmi les voyelles doublées. Or *ie* s'écrit toujours *ie* (M1, diapo 10) : il est traité avec les sons doubles (séance 2).
 - L'exercice 3 classe *nieuw* avec *ie* : c'est le son à trois lettres *ieuw* (séance 2, diapo 3).
 - Coquille : *Ijskoud* → ***IJ**skoud* (les deux lettres en majuscule).
+- Exercice 4 : *reuze uien* → *reuzenuien* (*reuze* seul = « super », familier) ; *van moe* (« maman », vieilli et inconnu en Belgique ; les apprenants connaissent *moe* = fatigué) → *van Koen*.
 - Mots rares (*guur, loom, kier, klier, boef*) : gardés seulement en lecture, jamais comme mots à retenir.
 - Il manquait une méthode pour les mots longs et un travail sur la phrase (rythme, formes réduites) : séances 4 et 5.
 
@@ -59,9 +60,9 @@
 **Contenu textuel**
 > **Uitspraak!**
 > La prononciation en 5 séances
-> *kat · kaat · kijk · goed · gezellig*
+> *man · maan · kijk · goed · gezellig*
 
-**Notes pour l'animateur** — Lisez les cinq mots de la ligne d'accroche et demandez : « Qu'est-ce qui change d'un mot à l'autre ? » Réponse : voyelle courte (*kat*) et longue (*kaat*), son double (*kijk*), *g* raclé (*goed*), mot long (*gezellig*). Ce sont les quatre premières séances ; la cinquième les réunit dans la phrase.
+**Notes pour l'animateur** — Lisez les cinq mots de la ligne d'accroche et demandez : « Qu'est-ce qui change d'un mot à l'autre ? » Réponse : voyelle courte (*man*) et longue (*maan*), son double (*kijk*), *g* raclé (*goed*), mot long (*gezellig*). Ce sont les quatre premières séances ; la cinquième les réunit dans la phrase.
 
 ---
 
@@ -90,7 +91,7 @@
 **Visuel / Schéma / Agencement**
 - Pastille de séance ① ÉCOUTER, jalon ① allumé.
 - *À gauche* : un rappel en deux cartes, framboise (« porte fermée → court ») et vert (« porte ouverte ou voyelle doublée → long »), avec le carton bicolore.
-- *Au centre* : 15 paires minimales en 5 rangées (une par voyelle), le mot court en framboise, le mot long en vert.
+- *Au centre* : 15 paires (minimales pour *a, e, i, o* ; presque minimales pour *u*) en 5 rangées (une par voyelle), le mot court en framboise, le mot long en vert.
 
 **Contenu textuel**
 > **a** : *man – maan · vak – vaak · lat – laat*
@@ -100,7 +101,7 @@
 > **u** : *mus – muur · kus – kuur · zus – zuur*
 > Consigne : l'enseignant·e lit **un** mot de chaque paire. Levez le carton : **framboise** = court, **vert** = long. Puis, par deux, à vous de lire !
 
-**Notes pour l'animateur** — Liste à lire (exemple) : *maan, vak, laat, pen, been, hel, vies, lid, ziet, bos, boom, pot, muur, kus, zuur*. Changez l'ordre à chaque tour. Pour le *u* : *mus* ≈ « meus » bref, *muur* ≈ « mur » long (M1, diapo 12). *i / ie* : le *i* long s'écrit toujours *ie*. Sens utiles : *vaak* (souvent), *laat* (tard), *peen* (carotte), *been* (jambe), *heel* (très), *vies* (sale), *lied* (chanson), *boos* (fâché), *poot* (patte), *muur* (mur), *zuur* (acide).
+**Notes pour l'animateur** — Liste à lire (exemple) : *maan, vak, laat, pen, been, hel, vies, lid, ziet, bos, boom, pot, muur, kus, zuur*. Changez l'ordre à chaque tour. Pour le *u* : *mus* ≈ « meus » bref, *muur* ≈ « mur » long (M1, diapo 12). *i / ie* : le son « i » s'écrit presque toujours *ie* (sauf emprunts : *juni, kilo*). En réalité, la différence est surtout de timbre : *i* bref est plus ouvert, presque « é » ; *ie* = « i » français, allongé seulement devant *r* (*bier*). Sens utiles : *vaak* (souvent), *laat* (tard), *peen* (carotte), *been* (jambe), *heel* (très), *vies* (sale), *lied* (chanson), *boos* (fâché), *poot* (patte), *muur* (mur), *zuur* (acide).
 
 ---
 
@@ -192,11 +193,11 @@
 - *À droite* : la carte des sons à trois lettres (*aai, ooi, oei, eeuw, ieuw*), avec un mot illustré pour chacun.
 
 **Contenu textuel**
-> 1. *Doei! Ik ga naar huis.* · 2. *Moeders snijden reuze uien.* · 3. *Leren breien groene truien.* · 4. *IJskoud bier uit de keuken van moe.* · 5. *Mooie, nieuwe truien zijn nooit saai.*
+> 1. *Doei! Ik ga naar huis.* · 2. *Moeders snijden reuzenuien.* · 3. *Leren breien groene truien.* · 4. *IJskoud bier uit de keuken van Koen.* · 5. *Mooie, nieuwe truien zijn nooit saai.*
 > **aai** « aïe » *saai* · **ooi** « ô-y » *mooi* · **oei** « ouille » *doei* · **eeuw** « é-ou » *sneeuw* · **ieuw** « i-ou » *nieuw*
 > Règles : par équipe, comptez les sons doubles de chaque phrase, puis lisez-la sans faute. Bon nombre + bonne lecture = 2 points.
 
-**Notes pour l'animateur** — Corrigé : 1 → 2 (*oei, ui*) · 2 → 4 (*oe, ij, eu, ui*) · 3 → 3 (*ei, oe, ui*) · 4 → 6 (*IJ, ou, ie, ui, eu, oe*) · 5 → 6 (*ooi, ieuw, ui, ij, ooi, aai*). Dans *leren*, *e* est long mais simple : ce n'est pas un son double. Sens : 1 Salut ! Je rentre à la maison. 2 Les mères coupent des oignons géants. 3 Apprendre à tricoter des pulls verts. 4 Une bière glacée de la cuisine de maman. 5 Les beaux pulls neufs ne sont jamais ennuyeux.
+**Notes pour l'animateur** — Corrigé : 1 → 2 (*oei, ui*) · 2 → 4 (*oe, ij, eu, ui*) · 3 → 3 (*ei, oe, ui*) · 4 → 6 (*IJ, ou, ie, ui, eu, oe*) · 5 → 6 (*ooi, ieuw, ui, ij, ooi, aai*). Dans *leren*, *e* est long mais simple : ce n'est pas un son double. Sens : 1 Salut ! Je rentre à la maison. 2 Les mères coupent des oignons géants. 3 Apprendre à tricoter des pulls verts. 4 Une bière glacée de la cuisine de Koen. *Doei!* s'entend surtout aux Pays-Bas ; en Flandre, on dit plutôt *Daag!* 5 Les beaux pulls neufs ne sont jamais ennuyeux.
 
 ---
 
@@ -212,6 +213,7 @@
 **Contenu textuel**
 > **h** : *heten – eten · hoor – oor · hij – ei · hal – al* — *Ik **h**eet Tom* ≠ *Ik eet Tom!*
 > **g / ch** (« jota » espagnole) : *goed · groot · gaan · dag · acht · lachen* · *school* = s + ch · *-isch* = « is » (*Russisch*)
+> Dans les repères, le son raclé est noté « gh » (*goed* ≈ « ghout »), jamais le *g* de *gare*.
 > Défi : *Goedemorgen! Goed geslapen? Ga je graag naar Gent?*
 
 **Notes pour l'animateur** — Jeu d'écoute : lisez un mot de chaque paire ; main levée = on entend le *h*. Sens : *heten* (s'appeler) / *eten* (manger) · *hoor* (j'entends) / *oor* (oreille) · *hij* (il) / *ei* (œuf) · *hal* (hall) / *al* (déjà). Le *g* belge est plus doux que le *g* néerlandais : les deux sont corrects. Mettez la main sur la gorge pour sentir le frottement. *sch* au début = « s » + *ch* raclé (*school*) ; *-isch* en fin de mot = « is » (*Russisch, praktisch*).
@@ -250,7 +252,7 @@
 > Cases : *goed · hallo · jij · dag! · ★ Ik heet Hans. · brengen · meisje · ⟲ · hebben · school · oranje · ★ Hoe gaat het? · denken · Russisch · ⏩ · alsjeblieft · Tsjechië · ★ Goedemiddag!*
 > 1. Lancez le dé, avancez, lisez la case. 2. L'équipe adverse juge : faute = retour à la case précédente. 3. Premier arrivé : *Proficiat!*
 
-**Notes pour l'animateur** — Aide-mémoire : *goed* (« ghout », *d* → t) · *hallo* (*h* soufflé) · *jij* (« yèï ») · *dag* (*g* final raclé) · *brengen* (*ng*) · *meisje* (« mèï-cheu ») · *hebben* (*h*, *e* muet) · *school* (s + ch) · *oranje* (« o-ran-gneu ») · *denken* (*nk*) · *Russisch* (« reu-sis ») · *alsjeblieft* (*sj*) · *Tsjechië* (« tchè-chi-yeu »). Jouez en 2 à 4 équipes, avec un pion par équipe.
+**Notes pour l'animateur** — Aide-mémoire : *goed* (« ghout » : *gh* raclé, *d* → t) · *hallo* (*h* soufflé) · *jij* (« yèï ») · *dag* (*g* final raclé) · *brengen* (*ng*) · *meisje* (« mèï-cheu ») · *hebben* (*h*, *e* muet) · *school* (s + ch) · *oranje* (« o-ra-gneu », comme *montagne*, accent sur *ra*) · *denken* (*nk*) · *Russisch* (« reu-sis ») · *alsjeblieft* (*sj*) · *Tsjechië* (« tchè-ghi-yeu », *gh* raclé). Jouez en 2 à 4 équipes, avec un pion par équipe.
 
 ---
 
@@ -265,14 +267,14 @@
 
 **Contenu textuel**
 > ✂ **Je coupe** : 1 consonne → avant (*wo·nen*) · 2 consonnes → entre (*kat·ten*) · son double jamais coupé (*kij·ken*)
-> 🚪 **Je regarde la porte** : ouverte → long (*ma·ken*) · fermée → court (*mak·ker*) · voyelle doublée → toujours long (*maan*)
-> 🎯 **Je trouve l'accent** : 1re syllabe du mot de base (***wo**·nen*) · jamais sur *be-, ge-, ver-, ont-* (*be·**ta**·len*) · mot composé → le 1er mot (***voor**·naam*) · mots d'origine française → à la fin (*pa·**pier**, di·rec·**teur***)
-> 🤫 **J'avale les *e* muets** (« e » de *le*) : *be-, ge-, ver-, -e, -en* (n à peine prononcé), *-el, -er* · *-ig* = « euch » (*twin·tig*) · *-lijk* = « leuk » (*vrien·de·lijk*)
-> **Un mot d'une syllabe** est toujours accentué : je lis la voyelle → *kat* (court) · *maan* (long) · *huis* (son double)
+> 🚪 **Je regarde la porte** : ouverte → long (*ma·ken*) · fermée → court (*mak·ker*) · voyelle doublée → toujours long (*maan*) · *ch* ferme la porte (*la·chen* : *a* court)
+> 🎯 **Je trouve l'accent** : 1re syllabe du mot de base (***wo**·nen*) · jamais sur les préfixes *be-, ge-, ver-, ont-* (*be·**ta**·len* ; mais ***be**·ter, **ge**·ven*) · mot composé → le 1er mot (***voor**·naam*) · mots d'origine française → souvent à la fin (*pa·**pier**, di·rec·**teur***)
+> 🤫 **J'avale les *e* muets** (« e » de *le*) : préfixes *be-, ge-, ver-*, finales *-e, -en, -el, -er* (dans *-en*, le *n* est souvent avalé aux Pays-Bas, souvent prononcé en Belgique : les deux sont corrects) · *-ig* = « eugh » (*twin·tig*) · *-lijk* = « leuk » (*vrien·de·lijk*)
+> **Un mot d'une syllabe lu seul** est accentué : je lis la voyelle → *kat* (court) · *maan* (long) · *huis* (son double). Mais *de, je, we, ze, het, een* gardent un *e* muet et ne sont pas accentués dans la phrase (séance 5).
 > *verjaardag* → *ver · **jaar** · dag* (e muet · long et accentué · court)
 > Mini-défi : appliquez les 4 gestes à *betalen · gezellig · vriendelijk*.
 
-**Notes pour l'animateur** — C'est la seule diapo de théorie du parcours : elle reprend la méthode en 3 étapes du M1 (diapo 13) et ajoute l'accent tonique. Corrigé du mini-défi : *be·**ta**·len* (*be* muet, *ta* long, *len* muet) · *ge·**zel**·lig* (*ge* muet, *zel* court, *lig* « leuch ») · ***vrien**·de·lijk* (*vrien* « vrinn », *de* muet, *lijk* « leuk »). Faites frapper les syllabes dans les mains et taper du pied sur la syllabe accentuée. L'accent néerlandais est fort : la syllabe accentuée est plus longue et plus haute, les autres s'effacent.
+**Notes pour l'animateur** — C'est la seule diapo de théorie du parcours : elle reprend la méthode en 3 étapes du M1 (diapo 13) et ajoute l'accent tonique. Corrigé du mini-défi : *be·**ta**·len* (*be* muet, *ta* long, *len* muet) · *ge·**zel**·lig* (*ge* muet, *zel* court, *lig* « leugh ») · ***vrien**·de·lijk* (*vrien* « vrinn », *de* muet, *lijk* « leuk »). Faites frapper les syllabes dans les mains et taper du pied sur la syllabe accentuée. L'accent néerlandais est fort : la syllabe accentuée est plus longue et plus haute, les autres s'effacent.
 
 ---
 
@@ -298,7 +300,7 @@
 - WERK (1) · WER·ken (2) · ge·WERKT (2) · ME·de·wer·ker (4) · ME·de·wer·kers (4)
 - HUIS (1) · HUI·zen (2) · HUIS·je (2) · ZIE·ken·huis (3) · ZIE·ken·hui·zen (4)
 
-Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver·ta·len*). Dans un mot composé, il passe sur le premier mot (*zie·ken·huis*). *taal → talen* : la porte s'ouvre, une seule voyelle suffit (M1).
+Observation : l'accent ne bouge pas quand on ajoute un préfixe ou une finale (*ta·len → ver·ta·len → ver·ta·lin·gen*). Dans un mot composé, il passe sur le premier mot (*zie·ken·huis*). *taal → talen* : la porte s'ouvre, une seule voyelle suffit (M1).
 
 ---
 
@@ -317,7 +319,7 @@ Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver
 > 👾 Boss final : *arbeidsongeschiktheidsverzekering*
 > Règles : par équipe, choisissez une carte. 5 secondes pour réfléchir (couper, porte, accent), puis lecture d'une traite. Lecture juste = autant de points que de syllabes !
 
-**Notes pour l'animateur** — Corrigé : ***moei**·lijk* (2) · ***mak**·ke·lijk* (3) · *ge·**zond**·heid* (3) · *na·**tuur**·lijk* (3) · *for·mu·**lier*** (3) · ***woor**·den·schat* (3) · ***in**·lich·tin·gen* (4) · *na·tio·na·li·**teit*** (5) · ***ar**·beids·on·ge·schikt·heids·ver·ze·ke·ring* (10). Pièges : *-lijk* = « leuk », *-heid* garde son *ei*, *-tio-* se prononce « tsio » ou « sio ». Sens : difficile · facile · santé · naturellement · formulaire · vocabulaire · renseignements · nationalité · assurance invalidité (le mot-boss est célèbre pour sa longueur).
+**Notes pour l'animateur** — Corrigé : ***moei**·lijk* (2) · ***mak**·ke·lijk* (3) · *ge·**zond**·heid* (3) · *na·**tuur**·lijk* (3) · *for·mu·**lier*** (3) · ***woor**·den·schat* (3) · ***in**·lich·tin·gen* (4) · *na·tio·na·li·**teit*** (5) · ***ar**·beids·on·ge·schikt·heids·ver·ze·ke·ring* (10). Pièges : *-lijk* = « leuk », *-heid* garde son *ei*, *-tio-* se prononce « tsio » ou « sio ». Sens : difficile · facile · santé · naturellement · formulaire · vocabulaire · renseignements · nationalité · assurance invalidité (le mot-boss est célèbre pour sa longueur). En Belgique, on dit souvent *ge·**mak**·ke·lijk* (4 syllabes) : acceptez-le.
 
 ---
 
@@ -358,7 +360,7 @@ Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver
 > ★★★ *Als achter vliegen vliegen vliegen, vliegen vliegen vliegen achterna.* (v, ie, ch)
 > Règles : choisissez un niveau, lisez 3 fois de plus en plus vite. Le jury (la classe) donne 1 à 3 étoiles.
 
-**Notes pour l'animateur** — Sens : 1 Le chat gratte les boucles de l'escalier. 2 Liesje apprenait à Lotje à marcher le long de la longue allée des Tilleuls. 3 Je m'appelle Hans et j'aime manger du hareng. 4 Huit oies grises sont allées hier, toutes contentes, à Gand. 5 Le cocher astique la diligence avec du produit pour diligence. 6 Quand des mouches volent derrière des mouches, des mouches poursuivent des mouches (*vliegen* = les mouches **et** voler). Les virelangues 1, 2, 5 et 6 sont des classiques ; 3 et 4 ont été créés pour ce parcours. Lisez d'abord lentement, syllabe par syllabe.
+**Notes pour l'animateur** — Sens : 1 Le chat gratte les boucles de l'escalier. 2 Liesje apprenait à Lotje à marcher le long de la longue allée des Tilleuls. 3 Je m'appelle Hans et j'aime manger du hareng. 4 Huit oies grises sont allées hier, toutes contentes, à Gand. 5 Le cocher astique la diligence avec du produit à diligence. 6 Quand des mouches volent derrière des mouches, des mouches poursuivent des mouches (*vliegen* = les mouches **et** voler). Les virelangues 1, 2, 5 et 6 sont des classiques ; 3 et 4 ont été créés pour ce parcours. Lisez d'abord lentement, syllabe par syllabe.
 
 ---
 
@@ -377,7 +379,7 @@ Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver
 > ⑦ Syllabes + accent : *vergadering* · ⑧ Syllabes + accent : *verjaardagsfeest* · ⑨ Dis-le comme à l'oral : *Hoe gaat het?*
 > Règles : deux équipes, X et O. Choisissez une case, relevez le défi : réussi = votre signe. Trois signes alignés = victoire !
 
-**Notes pour l'animateur** — Corrigé : ① court – long – court – long · ② « eu » bref – « u » – « œil » · ③ dictez par exemple *klein* (*ei*) et *wijn* (*ij*) · ④ *h* soufflé · ⑤ ***sche**·ve·nin·gen* : s + ch raclé, *e* long, deux *e* muets · ⑥ « mèï-cheu » · « o-ran-gneu » · « tchè-chi-yeu » · ⑦ *ver·**ga**·de·ring* (4) · ⑧ *ver·**jaar**·dags·feest* (4) · ⑨ *Hoe gaat 't?* *Scheveningen* (station balnéaire près de La Haye) est un mot célèbre : il trahit les non-néerlandophones depuis des siècles. Félicitez chaque tentative !
+**Notes pour l'animateur** — Corrigé : ① court – long – court – long · ② « eu » bref – « u » – « œil » · ③ dictez par exemple *klein* (*ei*) et *wijn* (*ij*) · ④ *h* soufflé · ⑤ ***sche**·ve·nin·gen* : s + ch raclé, *e* long, deux *e* muets · ⑥ « mèï-cheu » · « o-ra-gneu » · « tchè-ghi-yeu » · ⑦ *ver·**ga**·de·ring* (4) · ⑧ *ver·**jaar**·dags·feest* (4) · ⑨ *Hoe gaat 't?* *Scheveningen* (station balnéaire près de La Haye) est un célèbre mot-test de la Seconde Guerre mondiale : il aurait servi à démasquer les espions allemands. Félicitez chaque tentative !
 
 ---
 
@@ -407,7 +409,7 @@ Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver
 - 3 colonnes : Loto (règle de vérification) · Toboggan (sens et dictée) · Chasse aux sons doubles (nombres).
 
 **Contenu textuel**
-> **Loto** — vérifiez la ligne gagnante : chaque mot doit être lu avec le son de sa colonne.
+> **Loto** — vérifiez la ligne gagnante : chaque mot doit être lu avec le son de sa colonne. Pièges : *ui* lu comme dans « lui » → *uit* ≈ « euït » · *u* lu « u » → *bus* ≈ « beus » · *ij* lu « i » → *prijs* ≈ « prèïs » · *oe* lu « o-é » → *moe* ≈ « mou »
 > **Toboggan** — dictée : *wijn* (ij) · *trein* (ei) · *tijd* (ij) · *klein* (ei) · *mei* (ei) · *vijf* (ij)
 > **Chasse** — 1 → 2 · 2 → 4 · 3 → 3 · 4 → 6 · 5 → 6
 
@@ -426,7 +428,7 @@ Observation : l'accent ne bouge pas quand on ajoute une finale (*ta·len → ver
 **Contenu textuel**
 > **Souffle ou silence** — *heten* s'appeler / *eten* manger · *hoor* j'entends / *oor* oreille · *hij* il / *ei* œuf · *hal* hall / *al* déjà
 > **Lettres caméléons** — 1-B · 2-G · 3-E · 4-I · 5-A · 6-H · 7-C · 8-J · 9-F · 10-D · 11-L · 12-K
-> **Jeu de l'oie** — *goed* « ghout » · *jij* « yèï » · *meisje* « mèï-cheu » · *oranje* « o-ran-gneu » · *Russisch* « reu-sis » · *Tsjechië* « tchè-chi-yeu »
+> **Jeu de l'oie** — *goed* « ghout » (*gh* raclé) · *jij* « yèï » · *meisje* « mèï-cheu » · *oranje* « o-ra-gneu » · *Russisch* « reu-sis » · *Tsjechië* « tchè-ghi-yeu »
 
 **Notes pour l'animateur** — Les repères entre guillemets sont des approximations : faites toujours entendre le mot.
 

@@ -55,7 +55,7 @@ function build(d) {
 
   // ------------------------------------------------------------ 1 cover
   d.cover({
-    g: 1, chip: 'PRONONCIATION · 5 SÉANCES', title: 'Uitspraak!', sub: 'La prononciation en 5 séances d’entraînement', line: 'kat · kaat · kijk · goed · gezellig',
+    g: 1, chip: 'PRONONCIATION · 5 SÉANCES', title: 'Uitspraak!', sub: 'La prononciation en 5 séances d’entraînement', line: 'man · maan · kijk · goed · gezellig',
     visual: (s) => {
       const P = [[7.6, 4.75], [8.6, 3.95], [9.6, 3.15], [10.6, 2.35], [11.6, 1.55]];
       for (let i = 0; i < 4; i++) d.line(s, P[i][0] + 0.45, P[i][1] + 0.45, P[i + 1][0] + 0.45, P[i + 1][1] + 0.45, { color: 'FFFFFF', lw: 2, dash: 'dash', arrow: false });
@@ -130,7 +130,7 @@ function build(d) {
         chipBox(s, b, x + pw / 2 + 0.05, y, pw / 2 - 0.05, rh, LONG, { size: 20 });
       });
     });
-    band(s, '//u// ≠ //uu// : //mus// « meus », bref · //muur// « mur », long — le //i// long s’écrit toujours //ie//', 6.1, 0.72, 'tx2', 17);
+    band(s, '//u// ≠ //uu// : //mus// « meus », bref · //muur// « mur », long — le son « i » s’écrit presque toujours //ie//', 6.1, 0.72, 'tx2', 17);
   }
 
   // ------------------------------------------------------------ 4 les paniers
@@ -239,7 +239,7 @@ function build(d) {
   {
     const s = sp(8, 1, 2, 'La chasse aux sons doubles');
     const top = instr(s, 'Par équipe : comptez les sons doubles de chaque phrase, puis lisez-la sans faute. Bon nombre + bonne lecture = 2 points.');
-    const F = ['Doei! Ik ga naar huis.', 'Moeders snijden reuze uien.', 'Leren breien groene truien.', 'IJskoud bier uit de keuken van moe.', 'Mooie, nieuwe truien zijn nooit saai.'];
+    const F = ['Doei! Ik ga naar huis.', 'Moeders snijden reuzenuien.', 'Leren breien groene truien.', 'IJskoud bier uit de keuken van Koen.', 'Mooie, nieuwe truien zijn nooit saai.'];
     F.forEach((f, i) => {
       const y = top + i * 0.86;
       d.rect(s, 0.6, y, 7.6, 0.74, { fill: i % 2 ? 'bg1' : 'bg2', line: BORDER, radius: 0.08 });
@@ -290,7 +290,7 @@ function build(d) {
     ['goed', 'groot', 'gaan', 'dag', 'acht', 'lachen'].forEach((wd, i) => {
       chipBox(s, wd, x + 0.3 + (i % 3) * 1.8, top + 0.8 + Math.floor(i / 3) * 0.66, 1.65, 0.54, 'accent1', { size: 19 });
     });
-    d.t(s, ['//**sch**ool// = « s » + //ch// raclé', '//Russi**sch**// = « is » (//-isch// en fin de mot)', 'En Belgique, le //g// est plus doux : c’est correct !'], x + 0.3, top + 2.2, w - 0.5, 1.55, { size: 16, gap: 6, valign: 'middle' });
+    d.t(s, ['//**sch**ool// = « s » + //ch// raclé', '//Russi**sch**// = « is » (//-isch// en fin de mot)', 'Repère : « gh » = raclé (//goed// ≈ « ghout »)', 'En Belgique, le //g// est plus doux : c’est correct !'], x + 0.3, top + 2.15, w - 0.5, 1.65, { size: 15, gap: 4, valign: 'middle' });
     band(s, '**Défi :** //Goedemorgen! Goed geslapen? Ga je graag naar Gent?//', 6.1, 0.75, 'accent1', 20);
   }
 
@@ -362,9 +362,9 @@ function build(d) {
     const s = sp(12, 3, 0, 'Rappel : lire un mot en 4 gestes', '① RAPPEL');
     const G = [
       ['FaCut', 'Je coupe', 'accent2', ['1 consonne → avant : //wo·nen//', '2 consonnes → entre : //kat·ten//', 'son double jamais coupé : //kij·ken//']],
-      ['FaDoorOpen', 'Je regarde la porte', LONG, ['ouverte → long : //ma·ken//', 'fermée → court : //mak·ker//', 'voyelle doublée → long : //maan//']],
-      ['FaBullseye', 'Je trouve l’accent', ACC, ['1re syllabe du mot de base : //**##wo##**·nen//', 'jamais //be-, ge-, ver-, ont-// : //be·**##ta##**·len//', 'composé → 1er mot : //**##voor##**·naam//', 'mot français → à la fin : //pa·**##pier##**//']],
-      ['FaVolumeMute', 'J’avale les e muets', 'accent5', ['//be-, ge-, ver-, -e, -en, -el, -er// = « e » de //le//', '//-en// : le //n// s’entend à peine', '//-ig// « euch » : //twin·tig//', '//-lijk// « leuk » : //vrien·de·lijk//']],
+      ['FaDoorOpen', 'Je regarde la porte', LONG, ['ouverte → long : //ma·ken//', 'fermée → court : //mak·ker//', 'voyelle doublée → long : //maan//', '//ch// ferme la porte : //la·chen//']],
+      ['FaBullseye', 'Je trouve l’accent', ACC, ['1re syllabe du mot de base : //**##wo##**·nen//', 'jamais sur les préfixes //be-, ge-, ver-// : //be·**##ta##**·len//', 'composé → 1er mot : //**##voor##**·naam//', 'mot français → souvent à la fin : //pa·**##pier##**//']],
+      ['FaVolumeMute', 'J’avale les e muets', 'accent5', ['préfixes //be-, ge-, ver-//, finales //-e, -en, -el, -er// = « e » de //le//', '//-en// : //n// avalé (NL) ou prononcé (BE)', '//-ig// « eugh » : //twin·tig//', '//-lijk// « leuk » : //vrien·de·lijk//']],
     ];
     const w = (12.13 - 3 * 0.22) / 4; const h = 2.75; const y = 1.72;
     G.forEach(([ic, head, c, lines], i) => {
@@ -379,7 +379,7 @@ function build(d) {
     // mot d'une syllabe
     const y2 = 4.65;
     d.rect(s, 0.6, y2, 4.6, 1.35, { fill: 'EAF1F8', line: 'accent2', lw: 1.5, radius: 0.1 });
-    d.t(s, ['**Un mot d’une syllabe** est toujours accentué :', 'je lis la voyelle → //%%kat%%// (court) · //<<maan>>// (long) · //huis// (son double)'], 0.75, y2, 4.35, 1.35, { size: 14, gap: 4, valign: 'middle' });
+    d.t(s, ['**Un mot d’une syllabe lu seul** est accentué : je lis la voyelle → //%%kat%%// · //<<maan>>// · //huis//', 'Mais //de, je, het, een// restent muets dans la phrase.'], 0.75, y2, 4.35, 1.35, { size: 14, gap: 4, valign: 'middle', fit: true, max: 14, min: 11 });
     // verjaardag
     const x0 = 5.45;
     d.t(s, '**verjaardag**', x0, y2, 2.0, 0.55, { size: 18, color: 'tx2', valign: 'middle' });
@@ -561,7 +561,7 @@ function build(d) {
   {
     const s = cor(19, 1);
     three(s, [
-      ['Le loto', ['Vérifiez la ligne gagnante : chaque mot est lu avec le son de sa colonne.', '', 'Pièges fréquents :', '//ui// lu « ou » → //uit// ≈ « euït »', '//eu// lu « u » → //deur// ≈ « deur »', '//oe// lu « u » → //moe// ≈ « mou »']],
+      ['Le loto', ['Vérifiez la ligne gagnante : chaque mot est lu avec le son de sa colonne.', '', 'Pièges fréquents :', '//ui// lu comme dans « lui » → //uit// ≈ « euït »', '//u// lu « u » → //bus// ≈ « beus »', '//ij// lu « i » → //prijs// ≈ « prèïs »', '//oe// lu « o-é » → //moe// ≈ « mou »']],
       ['Le toboggan', ['Dictée //ij / ei// :', '1 //w**ij**n// · 2 //tr**ei**n// · 3 //t**ij**d//', '4 //kl**ei**n// · 5 //m**ei**// · 6 //v**ij**f//', '', 'Sens : //buur// voisin · //buis// tube · //muis// souris · //huur// loyer · //duin// dune · //zuid// sud']],
       ['La chasse aux sons doubles', ['1 → **2** : //oei, ui//', '2 → **4** : //oe, ij, eu, ui//', '3 → **3** : //ei, oe, ui//', '4 → **6** : //IJ, ou, ie, ui, eu, oe//', '5 → **6** : //ooi, ieuw, ui, ij, ooi, aai//']],
     ], { k: 1, size: 16 });
@@ -571,8 +571,8 @@ function build(d) {
     const s = cor(20, 2);
     three(s, [
       ['Souffle ou silence ?', ['//heten// s’appeler · //eten// manger', '//hoor// j’entends · //oor// oreille', '//hij// il · //ei// œuf', '//hal// hall · //al// déjà', '', 'Défi : //Bonjour ! Bien dormi ? Tu vas volontiers à Gand ?//']],
-      ['Les lettres caméléons', ['1 //hond// → **B** « t »', '2 //ik heb// → **G** « p »', '3 //juni// → **E** « y »', '4 //nieuw// → **I** « ou »', '5 //lang// → **A** « ng »', '6 //bank// → **H** « ng-k »', '7 //meisje// → **C** « ch »', '8 //oranje// → **J** « gn »', '9 //Tsjechië// → **F** « tch »', '10 //Russisch// → **D** « is »', '11 //school// → **L** « s-ch »', '12 //dag// → **K** « ch » raclé']],
-      ['Le jeu de l’oie (aide-mémoire)', ['//goed// « ghout »', '//jij// « yèï »', '//brengen// //ng// = un son', '//meisje// « mèï-cheu »', '//oranje// « o-ran-gneu »', '//denken// //nk//', '//Russisch// « reu-sis »', '//Tsjechië// « tchè-chi-yeu »']],
+      ['Les lettres caméléons', ['1 //hond// → **B** « t »', '2 //ik heb// → **G** « p »', '3 //juni// → **E** « y »', '4 //nieuw// → **I** « ou »', '5 //lang// → **A** « ng »', '6 //bank// → **H** « ng-k »', '7 //meisje// → **C** « ch »', '8 //oranje// → **J** « gn »', '9 //Tsjechië// → **F** « tch »', '10 //Russisch// → **D** « is »', '11 //school// → **L** « s » + ch raclé', '12 //dag// → **K** « ch » raclé']],
+      ['Le jeu de l’oie (aide-mémoire)', ['//goed// « ghout » (gh raclé)', '//jij// « yèï »', '//brengen// //ng// = un son', '//meisje// « mèï-cheu »', '//oranje// « o-ra-gneu »', '//denken// //nk//', '//Russisch// « reu-sis »', '//Tsjechië// « tchè-ghi-yeu »']],
     ], { k: 2, size: 15, gap: 3 });
   }
   // 21
@@ -581,7 +581,7 @@ function build(d) {
     three(s, [
       ['Mini-défi et escaliers ①②', ['//be·**##ta##**·len · ge·**##zel##**·lig · **##vrien##**·de·lijk//', '', '//**##taal##** · **##ta##**·len · ver·**##ta##**·len · ver·**##ta##**·ling · ver·**##ta##**·lin·gen// (1-2-3-3-4)', '', '//**##naam##** · **##na##**·men · **##voor##**·naam · **##ach##**·ter·naam · **##ach##**·ter·na·men// (1-2-2-3-4)']],
       ['Escaliers ③④', ['//**##werk##** · **##wer##**·ken · ge·**##werkt##** · **##me##**·de·wer·ker · **##me##**·de·wer·kers// (1-2-2-4-4)', '', '//**##huis##** · **##hui##**·zen · **##huis##**·je · **##zie##**·ken·huis · **##zie##**·ken·hui·zen// (1-2-2-3-4)', '', 'L’accent reste sur la base ; dans un mot composé, il passe sur le 1er mot.']],
-      ['Les mots-monstres', ['//**##moei##**·lijk// 2 · //**##mak##**·ke·lijk// 3', '//ge·**##zond##**·heid// 3 · //na·**##tuur##**·lijk// 3', '//for·mu·**##lier##**// 3 · //**##woor##**·den·schat// 3', '//**##in##**·lich·tin·gen// 4', '//na·tio·na·li·**##teit##**// 5', '//**##ar##**·beids·on·ge·schikt·heids·ver·ze·ke·ring// **10**']],
+      ['Les mots-monstres', ['//**##moei##**·lijk// 2', '//**##mak##**·ke·lijk// 3 (BE : //ge·**##mak##**·ke·lijk// 4)', '//ge·**##zond##**·heid// 3 · //na·**##tuur##**·lijk// 3', '//for·mu·**##lier##**// 3 · //**##woor##**·den·schat// 3', '//**##in##**·lich·tin·gen// 4', '//na·tio·na·li·**##teit##**// 5', '//**##ar##**·beids·on·ge·schikt·heids·ver·ze·ke·ring// **10**']],
     ], { k: 3, size: 15, gap: 5 });
   }
   // 22
@@ -589,8 +589,8 @@ function build(d) {
     const s = cor(22, 4);
     three(s, [
       ['Le chef d’orchestre', ['a **##IK##** → ②', 'b **##WOON##** → ③', 'c **##BRUS##**sel → ①', '', '1 → **C** //Hoe gaat ’t?//', '2 → **A** //’k Heb ’t niet.//', '3 → **D** //Heb je ’n pen?//', '4 → **B** //Da’s goed.//']],
-      ['Les tongbrekers (sens)', ['1 Le chat gratte les boucles de l’escalier.', '2 Liesje apprenait à Lotje à marcher le long de la longue allée des Tilleuls.', '3 Je m’appelle Hans et j’aime manger du hareng.', '4 Huit oies grises allaient hier, contentes, à Gand.', '5 Le cocher astique la diligence avec du produit à diligence.', '6 Quand des mouches volent derrière des mouches…']],
-      ['Le morpion', ['① court – long – court – long', '② « eu » – « u » – « œil »', '③ p. ex. //klein// (ei) · //wijn// (ij)', '④ //h// soufflé', '⑤ //**##sche##**·ve·nin·gen//', '⑥ « mèï-cheu » · « o-ran-gneu » · « tchè-chi-yeu »', '⑦ //ver·**##ga##**·de·ring// (4)', '⑧ //ver·**##jaar##**·dags·feest// (4)', '⑨ //Hoe gaat ’t?//']],
+      ['Les tongbrekers (sens)', ['1 Le chat gratte les boucles de l’escalier.', '2 Liesje apprenait à Lotje à marcher le long de la longue allée des Tilleuls.', '3 Je m’appelle Hans et j’aime manger du hareng.', '4 Huit oies grises sont allées hier, toutes contentes, à Gand.', '5 Le cocher astique la diligence avec du produit à diligence.', '6 Quand des mouches volent derrière des mouches…']],
+      ['Le morpion', ['① court – long – court – long', '② « eu » – « u » – « œil »', '③ p. ex. //klein// (ei) · //wijn// (ij)', '④ //h// soufflé', '⑤ //**##sche##**·ve·nin·gen//', '⑥ « mèï-cheu » · « o-ra-gneu » · « tchè-ghi-yeu »', '⑦ //ver·**##ga##**·de·ring// (4)', '⑧ //ver·**##jaar##**·dags·feest// (4)', '⑨ //Hoe gaat ’t?//']],
     ], { k: 4, size: 14, gap: 3, h: 4.3 });
     band(s, '//**Proficiat! Je spreekt al heel goed Nederlands.**//', 6.15, 0.68, 'purple', 20);
     d.ill(s, 'trophy', 11.9, 6.2, 0.58, 0.58);
