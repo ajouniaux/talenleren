@@ -93,7 +93,7 @@
 **Contenu textuel**
 > **Karim** : *Hoi Sofie! Wat **heb** je in het weekend **gedaan**?*
 > **Sofie** : *Ik **heb** lekker **geslapen** en ik **heb** een boek **gelezen**. Zondag **ben** ik naar Gent **gegaan**. En jij?*
-> **Karim** : *Ik **heb** gewoon **gewerkt** in de tuin.*
+> **Karim** : *Ik **heb** gewoon in de tuin **gewerkt**.*
 
 **Notes pour l'animateur** — Faites relever les paires auxiliaire + participe. Question-piège : pourquoi *ben … gegaan* et pas *heb* ? Réponse diapo 10.
 

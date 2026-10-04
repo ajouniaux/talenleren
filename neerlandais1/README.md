@@ -1,4 +1,4 @@
-# Néerlandais 1 (UE1 · A1) — Parcours de référence en 10 modules
+# Néerlandais 1 (UE1 · A1) — Parcours de référence en 15 modules
 
 Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en milieu professionnel*. Public : adultes francophones (Belgique). Chaque module est livré sous forme de **gabarit diapositive par diapositive**, prêt à être monté dans PowerPoint. Pour chaque diapositive, le gabarit donne :
 
@@ -7,10 +7,11 @@ Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en m
 - le contenu textuel ;
 - les notes pour l'animateur.
 
-Le parcours compte deux blocs :
+Le parcours compte trois blocs :
 
 - le **bloc 1** (M1–M5) pose les bases ;
-- le **bloc 2** (M6–M10) les reprend en spirale et se termine par une tâche complète : écrire un e-mail professionnel.
+- le **bloc 2** (M6–M10) les reprend en spirale et se termine par une tâche complète : écrire un e-mail professionnel ;
+- le **bloc 3** (M11–M15) construit le verbe et la phrase (particules, modaux, négation, formation des mots) et se termine par le passé composé et le bilan du parcours.
 
 ## Contenu du dossier
 
@@ -28,6 +29,11 @@ Le parcours compte deux blocs :
 | 2 | [`powerpoints/Module_8_Formeel_of_informeel.pptx`](powerpoints/Module_8_Formeel_of_informeel.pptx) | 29 |
 | 2 | [`powerpoints/Module_9_Zinnen_verbinden.pptx`](powerpoints/Module_9_Zinnen_verbinden.pptx) | 26 |
 | 2 | [`powerpoints/Module_10_Een_mail_opstellen.pptx`](powerpoints/Module_10_Een_mail_opstellen.pptx) | 30 |
+| 3 | [`powerpoints/Module_11_Scheidbare_werkwoorden.pptx`](powerpoints/Module_11_Scheidbare_werkwoorden.pptx) | 26 |
+| 3 | [`powerpoints/Module_12_Modale_werkwoorden.pptx`](powerpoints/Module_12_Modale_werkwoorden.pptx) | 27 |
+| 3 | [`powerpoints/Module_13_Niet_of_geen.pptx`](powerpoints/Module_13_Niet_of_geen.pptx) | 25 |
+| 3 | [`powerpoints/Module_14_Woordvorming.pptx`](powerpoints/Module_14_Woordvorming.pptx) | 27 |
+| 3 | [`powerpoints/Module_15_Het_perfectum.pptx`](powerpoints/Module_15_Het_perfectum.pptx) | 29 |
 
 Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT). La carte de la Belgique et les drapeaux sont dessinés directement dans PowerPoint.
 
@@ -35,7 +41,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 
 | Fichier | Contenu |
 |---|---|
-| [`00_diagnostic_et_charte.md`](00_diagnostic_et_charte.md) | Analyse critique des 10 archives, parcours en 2 blocs et justification de l'ordre, **errata** (erreurs relevées et corrigées), **charte graphique** (palette alignée sur Néerlandais 2 et 3, code couleur grammatical), **bibliothèque de schémas S1–S13**, **gabarits d'exercices E1–E9**, glossaire FR ↔ NL |
+| [`00_diagnostic_et_charte.md`](00_diagnostic_et_charte.md) | Analyse critique des 15 archives, parcours en 3 blocs et justification de l'ordre, **errata** (erreurs relevées et corrigées), **charte graphique** (palette alignée sur Néerlandais 2 et 3, code couleur grammatical), **bibliothèque de schémas S1–S13**, **gabarits d'exercices E1–E9**, glossaire FR ↔ NL |
 | [`module_1_klanken.md`](module_1_klanken.md) | **M1 · Klanken** — sons longs / courts, syllabe ouverte / fermée, sons invariables, pièges de prononciation · 21 diapos, 6 exercices |
 | [`module_2_ik_stel_me_voor.md`](module_2_ik_stel_me_voor.md) | **M2 · Ik stel me voor** — saluer, pronoms, *je / u / jullie*, *zijn*, *hebben*, nombres, 5 verbes de présentation, prépositions, formulaire, épellation · 31 diapos, 8 exercices (dont 3 mises en situation) |
 | [`module_3_presens_en_zinsbouw.md`](module_3_presens_en_zinsbouw.md) | **M3 · Het presens** — radical, formule du présent, questions, grille de phrase à 6 cases, verbe en 2e position, inversion, pince verbale · 28 diapos, 7 exercices |
@@ -45,7 +51,12 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | [`module_7_landen_en_talen.md`](module_7_landen_en_talen.md) | **M7 · Landen en talen** — la Belgique (régions, langues), tableau pays · adjectif · langue · habitant·e, majuscule, *Ik ben Belg*, adjectif + e, langues et niveaux · 22 diapos, 6 exercices |
 | [`module_8_formeel_informeel.md`](module_8_formeel_informeel.md) | **M8 · Formeel of informeel?** — les 6 curseurs du registre, *je* ou *u*, saluer, *Hoe gaat het?*, prendre congé, remercier, s'excuser, demander poliment, téléphone · 23 diapos, 7 exercices |
 | [`module_9_zinnen_verbinden.md`](module_9_zinnen_verbinden.md) | **M9 · Zinnen verbinden** — le pont (*en, maar, want, of, dus*) et le wagon (*omdat, dat, als*), verbe à la fin, piège *want ≠ omdat*, *als / of*, « verbe, verbe » · 22 diapos, 6 exercices |
-| [`module_10_mail_opstellen.md`](module_10_mail_opstellen.md) | **M10 · Een mail opstellen** — anatomie d'un e-mail, échelles *aanhef / afsluiting*, 5 blocs, banque de phrases, 3 modèles, objet, checklist, bilan du parcours · 23 diapos, 7 exercices |
+| [`module_10_mail_opstellen.md`](module_10_mail_opstellen.md) | **M10 · Een mail opstellen** — anatomie d'un e-mail, échelles *aanhef / afsluiting*, 5 blocs, banque de phrases, 3 modèles, objet, checklist, bilan des blocs 1 et 2 · 23 diapos, 7 exercices |
+| [`module_11_scheidbare_werkwoorden.md`](module_11_scheidbare_werkwoorden.md) | **M11 · Scheidbare werkwoorden** — un verbe en deux morceaux, la particule au bout, séparable ou inséparable (préfixe, accent), particule recollée (modal, subordonnée), impératif, une journée au bureau · 21 diapos, 7 exercices |
+| [`module_12_modale_werkwoorden.md`](module_12_modale_werkwoorden.md) | **M12 · Modale werkwoorden** — la carte des 4 sens, pièges « pouvoir » (*kunnen / mogen*), « savoir » + verbe, « il ne faut pas » (*niet mogen*), la pince, demander poliment, bonus *zullen* · 22 diapos, 7 exercices |
+| [`module_13_niet_of_geen.md`](module_13_niet_of_geen.md) | **M13 · Niet of geen?** — *geen = niet + een*, organigramme, 3 règles de place de *niet*, *niet* dans la pince, *nooit, niets, niemand, nog niet*, répondre « si ! » (*jawel, toch wel*) · 21 diapos, 6 exercices |
+| [`module_14_woordvorming.md`](module_14_woordvorming.md) | **M14 · Woordvorming** — le dernier mot commande (sens et article), 4 recettes de composés, ordre inversé, *-s- / -en-*, diminutifs, *-ing / -er*, *-heid, on-, -loos*, faux amis composés · 21 diapos, 6 exercices |
+| [`module_15_perfectum.md`](module_15_perfectum.md) | **M15 · Het perfectum** — la pince du passé, *ge* + radical + *t / d* (SoFT KetCHuP), particules et inséparables, 17 irréguliers fréquents, *hebben* ou *zijn*, mots du passé, subordonnée, bilan du parcours · 24 diapos, 7 exercices |
 
 ## Correspondance avec les archives
 
@@ -61,13 +72,18 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | `2020-11-26_AJ_neerlandais1_formel_informel.pptx` | M8 |
 | `2020-11-26_AJ_neerlandais2_phrases_simples_complexes.pptx` | M9 (partie A1 seulement ; le reste est réservé à Néerlandais 2) |
 | `2020-11-26_AJ_neerlandais1_mail_opstellen.pptx` | M10 |
+| `2020-11-26_AJ_neerlandais1_verbes_particules.pdf` | M11 (contenus UE 2–4 réservés à Néerlandais 2) |
+| `2020-11-26_AJ_neerlandais1_verbes_modaux.pptx` | M12 |
+| `2020-11-26_AJ_neerlandais1_negation.pdf` | M13 |
+| `2021-07-05_AJ_Neerlandais1_ppt_formation_des_mots.pptx` | M14 |
+| `2020-11-26_AJ_neerlandais1_passe_compose.pptx` | M15 |
 
 ## Comment lire un gabarit
 
 - Les **schémas** sont désignés par leur code (par ex. « Schéma **S2** » = grille de phrase à 6 cases). Leur dessin exact est décrit une seule fois, dans la charte (§ 5.8).
 - Les **exercices** suivent un gabarit E1–E9 (charte, § 5.9). Chaque exercice comprend une diapo question puis une diapo « ✓ CORRECTIE ». Le corrigé est donné dans la rubrique « Contenu textuel ».
-- Le **code couleur** (vert = son long, framboise = son court, rouge = verbe, orange = terminaison et HET, bleu nuit = DE) est constant dans les 10 modules (charte, § 5.3). Au M9, le bleu marque le « pont » (coordination) et l'orange le « wagon » (subordination).
-- Le **fil rouge** relie les 10 modules : Karim, comptable namurois, et sa collègue Sofie, dans une entreprise bilingue à Bruxelles.
+- Le **code couleur** (vert = son long, framboise = son court, rouge = verbe, orange = terminaison et HET, bleu nuit = DE) est constant dans les 15 modules (charte, § 5.3). Au M9, le bleu marque le « pont » (coordination) et l'orange le « wagon » (subordination). Aux M11 et M15, l'orange marque la particule et le bleu nuit le préfixe inséparable ; au M15, *ge-* est en framboise, *-t* en orange et *-d* en bleu.
+- Le **fil rouge** relie les 15 modules : Karim, comptable namurois, et sa collègue Sofie, dans une entreprise bilingue à Bruxelles.
 
 ## À vérifier avant les cours
 
@@ -81,7 +97,7 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 10 fichiers dans ../powerpoints
+npm run build        # réécrit les 15 fichiers dans ../powerpoints
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
 ```
