@@ -147,12 +147,12 @@
 - 3 colonnes, avec une syllabe-porte (**S6**) en tête de chaque colonne :
   - voyelle longue : on enlève une voyelle ;
   - voyelle courte : on double la consonne ;
-  - *f / s* → *v / z*.
+  - *f / s* → *v / z* (souvent ; mais *Franse, Engelse*).
 
 **Contenu textuel**
 > voyelle longue : *groot → grote · duur → dure · rood → rode · breed → brede*
 > voyelle courte : *wit → witte · dik → dikke · snel → snelle*
-> *f / s* → *v / z* : *lief → lieve · grijs → grijze · boos → boze*
+> *f / s* → *v / z* (souvent) : *lief → lieve · grijs → grijze · boos → boze* — mais *Frans → Franse, Engels → Engelse, Chinees → Chinese*
 
 **Notes pour l'animateur** — C'est exactement la règle du pluriel (M1 : *boom → bomen*, *kat → katten*) et le *z / v* du M4 à l'envers. Les adjectifs en *-ig, -lijk* ne bougent pas : *vriendelijke, rustige*.
 
@@ -168,7 +168,7 @@
 
 **Contenu textuel**
 > *dit grot**e** huis · mijn nieuw**e** laptop · ons oud**e** kantoor · dat mooi**e** gebouw · uw volgend**e** afspraak*
-> Seuls *een, geen* et l'absence d'article créent la case sans *-e*.
+> Surtout *een, geen* et l'absence d'article créent la case sans *-e* (aussi *zo'n, elk, welk* : *zo'n groot huis* — Néerlandais 2).
 
 **Notes pour l'animateur** — Après un déterminant défini ou un possessif, c'est toujours *-e*, même avec un mot *het* (*mijn nieuwe huis*). Lien M20 : *ons oude kantoor* (*ons* + *het*, mais l'adjectif prend *-e*).
 
@@ -199,10 +199,10 @@
 **Contenu textuel**
 > matières en *-en* : *een houten tafel · een gouden ring · een wollen trui*
 > couleurs en *-e* ou *-a* : *een oranje jas · een roze trui · een lila tas*
-> mots étrangers : *een plastic tas*
+> mots étrangers : *een plastic tas* (BE : *een plastieken zak*)
 > ✗ ~~*een houtene tafel*~~ → ✓ *een houten tafel*
 
-**Notes pour l'animateur** — Ces adjectifs finissent déjà par *-en* ou par une voyelle : on n'ajoute rien. *de oranje auto, het houten huis* : invariables dans tous les cas.
+**Notes pour l'animateur** — Ces adjectifs finissent déjà par *-en* (matière) ou par *-e / -a* (*oranje, roze, lila*) : on n'ajoute rien. Mais *mooi → mooie, blij → blije*. *de oranje auto, het houten huis* : invariables dans tous les cas.
 
 ---
 
@@ -215,7 +215,7 @@
 
 **Contenu textuel**
 > *een Belgisch**e** collega · het Belgisch**e** bier · een **Belgisch** bedrijf · Belgisch**e** frietjes*
-> *Hij is **Belgisch**.* (attribut : pas de *-e*)
+> *Het bier is **Belgisch**.* (attribut : pas de *-e*)
 
 **Notes pour l'animateur** — Au M7, *Belgische* était appris « en bloc » ; maintenant, la règle l'explique. *een Belgisch bedrijf* = la case sans *-e* (*een* + *het*). Majuscule : comme au M7.
 
@@ -346,11 +346,11 @@
 
 **Contenu textuel**
 > 1. A choisit un personnage en secret.
-> 2. B pose des questions oui / non : *Heeft hij kort haar? · Draagt ze een rode trui? · Is hij jong?*
-> 3. B trouve en moins de 6 questions : *Het is de oude man met de grijze baard!*
-> Banque : *lang / kort haar · een bril · een baard · jong / oud · een rode / blauwe trui*
+> 2. B pose des questions oui / non : *Heeft hij kort haar? · Is ze jong? · Heeft hij een baard?*
+> 3. B trouve en moins de 6 questions : *Het is de oude man met het witte haar!*
+> Banque : *lang / kort haar · wit / rood / krullend haar · een baard · jong / oud*
 
-**Notes pour l'animateur** — *kort haar* : *het haar*, sans article → pas de *-e*. *dragen* = porter (un vêtement). Variante : un apprenant décrit un camarade, la classe devine.
+**Notes pour l'animateur** — *kort haar* : *het haar*, sans article → pas de *-e*. *het witte haar* : mot *het* avec *het* → *-e* ; *krullend* = bouclé. Variante : un apprenant décrit un camarade, la classe devine.
 
 ---
 

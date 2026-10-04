@@ -337,7 +337,7 @@
 >
 > **✓ CORRECTIE** — 1 *Sofie en haar man* · 2 *Karim en zijn zus* · 3 *Dit huis is groot.* · 4 *Dit zijn mijn collega's.* · 5 *Meneer, uw koffie!* · 6 *Ze zoeken hun auto.* · 7 *Deze pen is van mij.* · 8 *Dit is ons bedrijf.*
 
-**Notes pour l'animateur** — N° 4 et 8 : *Dat* est aussi correct (plus loin). N° 8 : *het bedrijf* → *ons*.
+**Notes pour l'animateur** — N° 3, 4, 7 et 8 : *dat / die* (plus loin) est aussi correct : *Dat huis…, Dat zijn…, Die pen…, Dat is…* (« ce, cette » ne dit pas si c'est proche ou loin). N° 8 : *het bedrijf* → *ons*.
 
 ---
 

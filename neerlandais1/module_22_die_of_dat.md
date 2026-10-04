@@ -182,7 +182,7 @@
 > *Alles **wat** je zegt, is waar.* · *Ik heb iets **wat** je zal helpen.* · *Er is niets **wat** ik niet begrijp.*
 > « Je fais **ce que** je veux. » → *Ik doe **wat** ik wil.*
 
-**Notes pour l'animateur** — Après *alles, iets, niets*, la norme est *wat* ; à l'oral, on entend aussi *iets dat*. « ce qui / ce que » = *wat*. À reconnaître ; production libre en Néerlandais 2.
+**Notes pour l'animateur** — Après *alles* : *wat*. Après *iets, niets* : *wat* ou *dat* (les deux sont corrects, *wat* est plus fréquent). « ce qui / ce que » = *wat*. À reconnaître ; production libre en Néerlandais 2.
 
 ---
 
@@ -210,7 +210,7 @@
 - 3 cartes-modèles (personne, chose, lieu), chacune avec une illustration et un exemple de définition.
 
 **Contenu textuel**
-> **une personne** : *Het is iemand **die** haar knipt.* → *een kapper*
+> **une personne** : *Het is iemand **die** je haar knipt.* → *een kapper*
 > **une chose** : *Het is een machine **die** documenten kopieert.* → *een kopieerapparaat*
 > **un lieu** : *Het is een plek **waar** je boeken leent.* → *een bibliotheek*
 > *Hoe heet een ding **dat**…?*
@@ -281,7 +281,7 @@
 > 1 *de klant …… belt* · 2 *het boek …… ik lees* · 3 *de collega's …… hier werken* · 4 *het meisje …… lacht* · 5 *alles …… je zegt*
 > 6 *de vergadering …… om 10 uur begint* · 7 *het kantoor …… ik huur* · 8 *de documenten …… op tafel liggen* · 9 *iets …… ik niet begrijp* · 10 *het team …… wint*
 >
-> **✓ CORRECTIE** — 1 *die* · 2 *dat* · 3 *die* · 4 *dat* · 5 *wat* · 6 *die* · 7 *dat* · 8 *die* · 9 *wat* · 10 *dat*
+> **✓ CORRECTIE** — 1 *die* · 2 *dat* · 3 *die* · 4 *dat* · 5 *wat* · 6 *die* · 7 *dat* · 8 *die* · 9 *wat* (ou *dat*) · 10 *dat*
 
 **Notes pour l'animateur** — Faites dire l'article du nom avant chaque réponse : *de klant → die*. N° 4 et 10 : noms *het* de personnes ou de groupes (diapo 12).
 
@@ -312,11 +312,11 @@
 - Gabarit **E3** : 6 phrases françaises → carte vide ; l'article du nom néerlandais est donné en indice.
 
 **Contenu textuel**
-> 1 *le client qui appelle (de klant)* · 2 *le client que j'appelle* · 3 *le bureau qui est libre (het bureau)* · 4 *le bureau que je réserve* · 5 *les collègues qui arrivent* · 6 *l'enfant que je garde (het kind)*
+> 1 *le client qui appelle (de klant)* · 2 *le client que j'appelle* · 3 *le bureau qui est libre (het bureau)* · 4 *le bureau que je réserve* · 5 *les collègues qui arrivent* · 6 *l'enfant que j'aide (het kind)*
 >
-> **✓ CORRECTIE** — 1 *de klant die belt* · 2 *de klant die ik bel* · 3 *het bureau dat vrij is* · 4 *het bureau dat ik reserveer* · 5 *de collega's die aankomen* · 6 *het kind dat ik oppas*
+> **✓ CORRECTIE** — 1 *de klant die belt* · 2 *de klant die ik bel* · 3 *het bureau dat vrij is* · 4 *het bureau dat ik reserveer* · 5 *de collega's die aankomen* · 6 *het kind dat ik help*
 
-**Notes pour l'animateur** — Montrez les paires 1-2 et 3-4 : *qui* et *que* donnent le même mot. N° 5 : particule recollée à la fin (*aankomen*, M11). N° 6 : *oppassen* = garder (un enfant).
+**Notes pour l'animateur** — Montrez les paires 1-2 et 3-4 : *qui* et *que* donnent le même mot. N° 5 : particule recollée à la fin (*aankomen*, M11). N° 6 : *het kind* → *dat*, même pour une personne (diapo 12).
 
 ---
 
@@ -345,11 +345,11 @@
 - Gabarit **E6** : le message de Sofie présentant Lotte à l'équipe, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Beste collega's, dit is Lotte, de nieuwe stagiaire die bij ons komt werken. Lotte is een meisje die drie talen spreekt. Ze werkt in het bureau die naast de keuken ligt. Het project dat ze gaat doen, is erg belangrijk. De collega die helpt haar, is Karim. Ze zoekt nog iets dat ze voor haar kamer kan gebruiken. Heb je een lamp die je niet gebruikt meer? Groetjes, Sofie* »
+> « *Beste collega's, dit is Lotte, de nieuwe stagiaire die bij ons komt werken. Lotte is een meisje die drie talen spreekt. Ze werkt in het bureau die naast de keuken ligt. Het project dat ze gaat doen, is erg belangrijk. De collega die helpt haar, is Karim. Ze zoekt nog iets die ze voor haar kamer kan gebruiken. Heb je een lamp die je niet gebruikt meer? Groetjes, Sofie* »
 >
-> **✓ CORRECTIE** — ~~*een meisje die*~~ **een meisje dat** · ~~*het bureau die*~~ **het bureau dat** · ~~*die helpt haar*~~ **die haar helpt** · ~~*iets dat*~~ **iets wat** · ~~*die je niet gebruikt meer*~~ **die je niet meer gebruikt**
+> **✓ CORRECTIE** — ~~*een meisje die*~~ **een meisje dat** · ~~*het bureau die*~~ **het bureau dat** · ~~*die helpt haar*~~ **die haar helpt** · ~~*iets die*~~ **iets wat** (ou *iets dat*) · ~~*die je niet gebruikt meer*~~ **die je niet meer gebruikt**
 
-**Notes pour l'animateur** — Leurres : *de nieuwe stagiaire die bij ons komt werken* et *Het project dat ze gaat doen, is…* sont corrects. N° 3 : le verbe va à la fin de la relative (diapo 6). N° 4 : *iets dat* s'entend à l'oral, mais la norme est *wat* (diapo 9).
+**Notes pour l'animateur** — Leurres : *de nieuwe stagiaire die bij ons komt werken* et *Het project dat ze gaat doen, is…* sont corrects. N° 3 : le verbe va à la fin de la relative (diapo 6). N° 4 : après *iets*, jamais *die* : *wat* (ou *dat*, correct aussi) (diapo 9).
 
 ---
 
@@ -364,9 +364,9 @@
 > 1. Par équipes : tirez une carte, faites deviner le mot **sans** dire les mots interdits.
 > 2. Utilisez : *Het is iemand die… / een ding dat… / een plek waar…*
 > 3. Un point par mot trouvé en 1 minute.
-> Cartes : *de leraar · de printer · het ziekenhuis · de paraplu · de kok · het vliegveld*
+> Cartes : *de leraar · de printer · het ziekenhuis · de paraplu · de kok · de luchthaven*
 
-**Notes pour l'animateur** — Mots interdits (au dos des cartes) : *leraar* → school, les ; *printer* → papier, afdrukken ; *ziekenhuis* → dokter, ziek ; *paraplu* → regen, nat ; *kok* → keuken, eten ; *vliegveld* → vliegtuig, reizen.
+**Notes pour l'animateur** — Mots interdits (au dos des cartes) : *leraar* → school, les ; *printer* → papier, afdrukken ; *ziekenhuis* → dokter, ziek ; *paraplu* → regen, nat ; *kok* → keuken, eten ; *luchthaven* → vliegtuig, reizen. (NL : aussi *het vliegveld*)
 
 ---
 

@@ -265,6 +265,8 @@ function build(d) {
       d.line(s, 5.75, y + rh / 2 - 0.02, 6.3, y + rh / 2 - 0.02, { color: 'accent1', lw: 2.5 });
       d.rect(s, 6.35, y + 0.04, 6.38, rh - 0.1, { fill: mode === 'a' ? 'EDF6F0' : 'bg1', line: mode === 'a' ? 'accent3' : BORDER, lw: 1.25 });
       if (mode === 'a') d.t(s, `//**${nl}**//`, 6.5, y + 0.04, 6.1, rh - 0.1, { size: 18, color: 'accent3', valign: 'middle' });
+      const alt = { 2: 'Dat', 3: 'Dat', 6: 'Die', 7: 'Dat' }[i];
+      if (mode === 'a' && alt) d.t(s, `ou //${alt}…// (plus loin)`, 10.2, y + 0.04, 2.4, rh - 0.1, { size: 13, color: 'accent5', valign: 'middle', align: 'right' });
     });
   });
 

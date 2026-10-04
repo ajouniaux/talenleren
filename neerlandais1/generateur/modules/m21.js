@@ -134,7 +134,7 @@ function build(d) {
   // ---------------------------------------------------------------- 7 orthographe
   {
     const s = d.page({ g: 7, tag: 'GRAMMAIRE', title: 'L’orthographe du -e' });
-    const C3 = [['voyelle longue', 'on enlève une voyelle', 'accent3', [['groot', 'grote'], ['duur', 'dure'], ['rood', 'rode'], ['breed', 'brede']]], ['voyelle courte', 'on double la consonne', 'accent4', [['wit', 'witte'], ['dik', 'dikke'], ['snel', 'snelle']]], ['f / s → v / z', 'comme au M4, à l’envers', 'accent2', [['lief', 'lieve'], ['grijs', 'grijze'], ['boos', 'boze']]]];
+    const C3 = [['voyelle longue', 'on enlève une voyelle', 'accent3', [['groot', 'grote'], ['duur', 'dure'], ['rood', 'rode'], ['breed', 'brede']]], ['voyelle courte', 'on double la consonne', 'accent4', [['wit', 'witte'], ['dik', 'dikke'], ['snel', 'snelle']]], ['f / s → v / z', 'souvent ; mais Franse, Engelse', 'accent2', [['lief', 'lieve'], ['grijs', 'grijze'], ['boos', 'boze']]]];
     const w = (12.13 - 2 * 0.25) / 3;
     C3.forEach(([h, sub, c, rows], i) => {
       const x = 0.6 + i * (w + 0.25);
@@ -165,7 +165,7 @@ function build(d) {
     d.t(s, '-e', 10.2, 1.8, 1.25, 1.25, { size: 34, bold: true, color: 'bg1', align: 'center', valign: 'middle', head: true });
     d.t(s, ['//dit grot**%%e%%** huis · mijn nieuw**%%e%%** laptop//', '//ons oud**%%e%%** kantoor · dat mooi**%%e%%** gebouw//', '//uw volgend**%%e%%** afspraak//'], 0.6, 3.4, 12.13, 1.6, { size: 22, gap: 8, align: 'center', valign: 'middle' });
     d.rect(s, 0.6, 5.2, 12.13, 1.6, { fill: 'accent6', tr: 92, line: 'accent6', lw: 1 });
-    d.t(s, ['Seuls //**een**, **geen**// et l’**absence d’article** ouvrent la case sans //-e// (avec un mot //het//).', 'Même //ons// (+ //het//) donne //ons **oude** kantoor// : après un possessif, toujours //-e// !'], 0.85, 5.2, 11.7, 1.6, { size: 18, gap: 6, valign: 'middle' });
+    d.t(s, ['Surtout //**een**, **geen**// et l’**absence d’article** ouvrent la case sans //-e// (avec un mot //het//). Aussi //zo’n, elk, welk// : //zo’n groot huis//.', 'Même //ons// (+ //het//) donne //ons **oude** kantoor// : après un possessif, toujours //-e// !'], 0.85, 5.2, 11.7, 1.6, { size: 18, gap: 6, valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 9 contraires
@@ -193,14 +193,14 @@ function build(d) {
     const s = d.page({ g: 10, tag: 'PIÈGE FR ≠ NL', title: 'PIÈGE : les adjectifs qui ne bougent pas' });
     d.rect(s, 0.6, 1.7, 12.13, 4.35, { fill: 'accent6', tr: 94, line: 'accent6', lw: 1, ltr: 40 });
     d.chip(s, '⚠ PIÈGE', 0.8, 1.85, 'accent6', 0.32, 12);
-    const F = [['wood', 'matières en //-en//', '//een **houten** tafel · een **gouden** ring · een **wollen** trui//'], ['t-shirt', 'couleurs en //-e// ou //-a//', '//een **oranje** jas · een **roze** trui · een **lila** tas//'], ['handbag', 'mots étrangers', '//een **plastic** tas//']];
+    const F = [['wood', 'matières en //-en//', '//een **houten** tafel · een **gouden** ring · een **wollen** trui//'], ['t-shirt', 'couleurs en //-e// ou //-a//', '//een **oranje** jas · een **roze** trui · een **lila** tas//'], ['handbag', 'mots étrangers', '//een **plastic** tas// (BE : //een **plastieken** zak//)']];
     F.forEach(([il, h, ex], i) => {
       const y = 2.35 + i * 1.05;
       d.ill(s, il, 0.85, y + 0.1, 0.75, 0.75);
       d.t(s, h, 1.8, y, 3.2, 0.95, { size: 17, bold: true, color: 'accent6', valign: 'middle' });
       d.t(s, ex, 5.0, y, 7.5, 0.95, { size: 19, valign: 'middle' });
     });
-    d.t(s, '✗ //{{een houtene tafel}}// → ✓ //**een houten tafel**// — ils finissent déjà par //-en// ou une voyelle', 0.85, 5.45, 11.7, 0.5, { size: 17, valign: 'middle' });
+    d.t(s, '✗ //{{een houtene tafel}}// → ✓ //**een houten tafel**// — ils finissent déjà par //-en// (matière) ou //-e / -a//', 0.85, 5.45, 11.7, 0.5, { size: 17, valign: 'middle' });
     band(s, 'Invariables partout : //de oranje auto · het houten huis · houten stoelen//.', 6.25, 0.62, 'tx2', 18);
   }
 
@@ -217,7 +217,7 @@ function build(d) {
       d.t(s, sub, x + 1.45, y + 0.95, w - 1.6, 0.45, { size: 14, italic: true, color: c, valign: 'middle' });
     });
     d.rect(s, 0.6, 5.3, 12.13, 0.75, { fill: 'bg2', line: BORDER });
-    d.t(s, 'Attribut : //Hij is **Belgisch**.// (pas de //-e//) · majuscule comme au M7', 0.85, 5.3, 11.7, 0.75, { size: 18, valign: 'middle' });
+    d.t(s, 'Attribut : //Het bier is **Belgisch**.// (pas de //-e//) · majuscule comme au M7', 0.85, 5.3, 11.7, 0.75, { size: 18, valign: 'middle' });
     d.t(s, 'Au M7, //Belgische// était appris « en bloc » : maintenant, la règle l’explique.', 0.6, 6.25, 12.13, 0.5, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
   }
 
@@ -331,9 +331,9 @@ function build(d) {
       d.t(s, String(i + 1), x, y + 1.5, 1.8, 0.45, { size: 16, bold: true, color: 'accent4', align: 'center', valign: 'middle' });
     });
     d.t(s, ['**1.** A choisit un personnage en secret.', '**2.** B pose des questions oui / non.', '**3.** B trouve en moins de 6 questions.'], 8.55, 1.75, 4.18, 1.6, { size: 15, gap: 6 });
-    d.bubble(s, '//Heeft hij **kort** haar? · Is ze **jong**? · Heeft hij een **grijze** baard?//', 8.55, 3.45, 4.18, 1.3, 'accent2', { size: 16 });
-    d.bubble(s, '//Het is de **oude** man met de **witte** baard!//', 8.55, 4.9, 4.18, 0.9, 'accent3', { size: 16 });
-    d.t(s, 'Banque : //lang / kort haar · een bril · een baard · jong / oud · krullend haar//', 0.6, 6.25, 12.13, 0.5, { size: 15, italic: true, color: 'accent5', valign: 'middle' });
+    d.bubble(s, '//Heeft hij **kort** haar? · Is ze **jong**? · Heeft hij een **baard**?//', 8.55, 3.45, 4.18, 1.3, 'accent2', { size: 16 });
+    d.bubble(s, '//Het is de **oude** man met het **witte** haar!//', 8.55, 4.9, 4.18, 0.9, 'accent3', { size: 16 });
+    d.t(s, 'Banque : //lang / kort haar · wit / rood / krullend haar · een baard · jong / oud//', 0.6, 6.25, 12.13, 0.5, { size: 15, italic: true, color: 'accent5', valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 20 ex6 comparez

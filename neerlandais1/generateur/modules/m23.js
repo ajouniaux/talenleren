@@ -119,7 +119,7 @@ function build(d) {
   {
     const s = d.page({ g: 5, tag: 'GRAMMAIRE', title: 'met → mee, tot → toe' });
     const B = [
-      ['met', 'mee', ['//**er<<mee>>** · daar**<<mee>>** · waar**<<mee>>**//', '//Waarmee betaal je? — Ik betaal **ermee**.//', '//Wat doe je **ermee**? · Ik ben **ermee** bezig.//'], 'très fréquent', ER],
+      ['met', 'mee', ['//**er<<mee>>** · daar**<<mee>>** · waar**<<mee>>**//', '//Heb je je kaart? — Ja, ik betaal **ermee**.//', '//Wat doe je **ermee**? · Ik ben **ermee** bezig.//'], 'très fréquent', ER],
       ['tot', 'toe', ['//**er<<toe>>** · waar**<<toe>>**//', 'surtout à l’écrit', 'à reconnaître'], 'plus rare', 'accent5'],
     ];
     B.forEach(([a, b, ex, tag, c], i) => {
@@ -154,7 +154,7 @@ function build(d) {
       d.t(s, `**${rule}**`, x + 1.15, 3.0, w - 1.3, 0.8, { size: 18, color: c, valign: 'middle' });
       d.t(s, lines, x + 0.25, 3.9, w - 0.45, 1.9, { size: 16, gap: 3, valign: 'middle' });
     });
-    band(s, 'Question-réflexe : « une **personne** ou une **chose** ? » — pour une personne, jamais //er// !', 6.25, 0.62, 'tx2', 18);
+    band(s, 'Question-réflexe : « une **personne** ou une **chose** ? » — personne : préposition + pronom', 6.25, 0.62, 'tx2', 18);
   }
 
   // ---------------------------------------------------------------- 7 séparation
@@ -173,7 +173,7 @@ function build(d) {
       d.curve(s, x1, y - 0.02, x2, y - 0.02, { h: 0.3, color: ER, lw: 2 });
       d.t(s, lab, 6.7, y, 6.0, 0.62, { size: 17, italic: true, color: i === 3 ? 'accent6' : 'accent5', valign: 'middle' });
     });
-    band(s, 'Comme la particule (M11). Collé, plus formel : //Ik denk eraan. · Waarop wacht je?//', 6.1, 0.7, 'tx2', 17);
+    band(s, 'Rien entre les deux → collé : //Ik denk eraan.// · //Waarop wacht je?// = plus formel', 6.1, 0.7, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 8 verbes à préposition
@@ -234,7 +234,7 @@ function build(d) {
         d.t(s, `//${a}//`, x + 3.45, y, w - 3.75, 0.75, { size: 16, color: 'accent5', valign: 'middle' });
       });
     });
-    band(s, 'La réponse courte reprend la préposition : //Op de bus. · Met Sofie.// Collé aussi : //Waarop wacht je?//', 6.2, 0.65, 'tx2', 17);
+    band(s, 'La réponse courte reprend la préposition : //Op de bus. · Met Sofie.// Collé, plus formel : //Waarop wacht je?//', 6.2, 0.65, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 11 relatif waarmee
@@ -355,7 +355,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 18 ex4 chose ou personne
-  const ex4 = [['face-with-thermometer', 'Mijn moeder is ziek. Ik denk vaak [[aan haar]].'], ['spiral-calendar', 'De deadline is morgen. Denk je [[eraan]]?'], ['laptop', 'Dit is mijn nieuwe laptop. Ik werk graag [[ermee]].'], ['man-office-worker', 'Dit is mijn nieuwe collega. Ik werk graag [[met hem]].'], ['bus', 'De bus is laat. We wachten al lang [[erop]].'], ['woman', 'Sofie is laat. We wachten al lang [[op haar]].']];
+  const ex4 = [['face-with-thermometer', 'Mijn moeder is ziek. Ik denk vaak [[aan haar]].'], ['spiral-calendar', 'De deadline is morgen. Denk je [[eraan]]?'], ['laptop', 'Dit is mijn nieuwe laptop. Ik werk [[er]] graag [[mee]].'], ['man-office-worker', 'Dit is mijn nieuwe collega. Ik werk graag [[met hem]].'], ['bus', 'De bus is laat. We wachten [[er]] al lang [[op]].'], ['woman', 'Sofie is laat. We wachten al lang [[op haar]].']];
   d.ex({ g: 18, title: 'Exercice 4 — Chose ou personne ?', stars: '★★', instr: 'Complétez : er + préposition (chose) ou préposition + pronom (personne) ?' }, (s, mode, top) => {
     const rh = (6.88 - top) / 6;
     ex4.forEach(([il, t], i) => {

@@ -183,7 +183,7 @@ function build(d) {
     });
     d.rect(s, 0.6, 4.95, 12.13, 0.9, { fill: 'bg2', line: BORDER });
     d.t(s, '« Je fais **ce que** je veux. » → //Ik doe **wat** ik wil.// — « ce qui / ce que » = //wat//', 0.85, 4.95, 11.7, 0.9, { size: 19, valign: 'middle' });
-    d.t(s, 'À l’oral, on entend aussi //iets dat// ; la norme est //wat//. À reconnaître ; production libre en Néerlandais 2.', 0.6, 6.1, 12.13, 0.7, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+    d.t(s, 'Après //iets, niets// : //wat// ou //dat// (les deux sont corrects, //wat// plus fréquent). Après //alles// : //wat//.', 0.6, 6.1, 12.13, 0.7, { size: 15, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 10 préposition
@@ -205,7 +205,7 @@ function build(d) {
   // ---------------------------------------------------------------- 11 définir
   {
     const s = d.page({ g: 11, tag: 'VOCABULAIRE', title: 'Définir un mot inconnu' });
-    const C3 = [['une personne', 'person-getting-haircut', 'Het is iemand **@@die@@** haar knipt.', 'een kapper', 'accent2'], ['une chose', 'printer', 'Het is een machine **@@die@@** documenten kopieert.', 'een kopieerapparaat', 'accent1'], ['un lieu', 'books', 'Het is een plek **%%waar%%** je boeken leent.', 'een bibliotheek', 'purple']];
+    const C3 = [['une personne', 'person-getting-haircut', 'Het is iemand **@@die@@** je haar knipt.', 'een kapper', 'accent2'], ['une chose', 'printer', 'Het is een machine **@@die@@** documenten kopieert.', 'een kopieerapparaat', 'accent1'], ['un lieu', 'books', 'Het is een plek **%%waar%%** je boeken leent.', 'een bibliotheek', 'purple']];
     const w = (12.13 - 2 * 0.25) / 3;
     C3.forEach(([h, il, ex, word, c], i) => {
       const x = 0.6 + i * (w + 0.25);
@@ -262,7 +262,7 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 15 ex1 die / dat / wat
-  const ex1 = ['de klant [[die]] belt', 'het boek [[dat]] ik lees', 'de collega’s [[die]] hier werken', 'het meisje [[dat]] lacht', 'alles [[wat]] je zegt', 'de vergadering [[die]] om 10 uur begint', 'het kantoor [[dat]] ik huur', 'de documenten [[die]] op tafel liggen', 'iets [[wat]] ik niet begrijp', 'het team [[dat]] wint'];
+  const ex1 = ['de klant [[die]] belt', 'het boek [[dat]] ik lees', 'de collega’s [[die]] hier werken', 'het meisje [[dat]] lacht', 'alles [[wat]] je zegt', 'de vergadering [[die]] om 10 uur begint', 'het kantoor [[dat]] ik huur', 'de documenten [[die]] op tafel liggen', 'iets [[wat]]++ (of dat)++ ik niet begrijp', 'het team [[dat]] wint'];
   d.ex({ g: 15, title: 'Exercice 1 — die, dat ou wat ?', stars: '★', instr: 'Complétez. Dites d’abord l’article du nom.' }, (s, mode, top) => {
     d.list(s, ex1.map((e) => `//${e}//`), mode, { y: top + 0.2, w: 12.13, h: 4.7, cols: 2, size: 22, gap: 18 });
   });
@@ -283,7 +283,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 17 ex3 qui ou que
-  const ex3 = [['le client qui appelle', 'de klant', 'de klant die belt'], ['le client que j’appelle', 'de klant', 'de klant die ik bel'], ['le bureau qui est libre', 'het bureau', 'het bureau dat vrij is'], ['le bureau que je réserve', 'het bureau', 'het bureau dat ik reserveer'], ['les collègues qui arrivent', 'de collega’s', 'de collega’s die aankomen'], ['l’enfant que je garde', 'het kind', 'het kind dat ik oppas']];
+  const ex3 = [['le client qui appelle', 'de klant', 'de klant die belt'], ['le client que j’appelle', 'de klant', 'de klant die ik bel'], ['le bureau qui est libre', 'het bureau', 'het bureau dat vrij is'], ['le bureau que je réserve', 'het bureau', 'het bureau dat ik reserveer'], ['les collègues qui arrivent', 'de collega’s', 'de collega’s die aankomen'], ['l’enfant que j’aide', 'het kind', 'het kind dat ik help']];
   d.ex({ g: 17, title: 'Exercice 3 — qui ou que ?', stars: '★★', instr: 'Traduisez. Regardez l’article du nom néerlandais, pas « qui / que » !' }, (s, mode, top) => {
     const rh = (6.88 - top) / 6;
     ex3.forEach(([fr, hint, nl], i) => {
@@ -324,18 +324,18 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Sofie Peeters · Aan: team · Onderwerp: onze nieuwe stagiaire', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = '//Beste collega’s, dit is Lotte, de nieuwe stagiaire die bij ons komt werken. Lotte is een meisje {{die}}++ dat++ drie talen spreekt. Ze werkt in het bureau {{die}}++ dat++ naast de keuken ligt. Het project dat ze gaat doen, is erg belangrijk. De collega {{die helpt haar}}++ die haar helpt++, is Karim. Ze zoekt nog iets {{dat}}++ wat++ ze voor haar kamer kan gebruiken. Heb je een lamp die je {{niet gebruikt meer}}++ niet meer gebruikt++? Groetjes, Sofie//';
+    const txt = '//Beste collega’s, dit is Lotte, de nieuwe stagiaire die bij ons komt werken. Lotte is een meisje {{die}}++ dat++ drie talen spreekt. Ze werkt in het bureau {{die}}++ dat++ naast de keuken ligt. Het project dat ze gaat doen, is erg belangrijk. De collega {{die helpt haar}}++ die haar helpt++, is Karim. Ze zoekt nog iets {{die}}++ wat++ ze voor haar kamer kan gebruiken. Heb je een lamp die je {{niet gebruikt meer}}++ niet meer gebruikt++? Groetjes, Sofie//';
     d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, mode, ls: 1.2, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    if (mode === 'a') d.t(s, 'Leurres : //de nieuwe stagiaire die bij ons komt werken · Het project dat ze gaat doen, is…//', 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
+    if (mode === 'a') d.t(s, 'Leurres : //de nieuwe stagiaire die bij ons komt werken · Het project dat ze gaat doen, is…// · //iets dat// : correct aussi', 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
   });
 
   // ---------------------------------------------------------------- 20 ex6 taboe
   {
     const s = d.page({ g: 20, tag: 'JIJ NU !', title: 'Exercice 6 — Taboe !', stars: '★' });
-    const T = [['de leraar', 'school · les', 'man-teacher'], ['de printer', 'papier · afdrukken', 'printer'], ['het ziekenhuis', 'dokter · ziek', 'hospital'], ['de paraplu', 'regen · nat', 'umbrella'], ['de kok', 'keuken · eten', 'man-cook'], ['het vliegveld', 'vliegtuig · reizen', 'airplane']];
+    const T = [['de leraar', 'school · les', 'man-teacher'], ['de printer', 'papier · afdrukken', 'printer'], ['het ziekenhuis', 'dokter · ziek', 'hospital'], ['de paraplu', 'regen · nat', 'umbrella'], ['de kok', 'keuken · eten', 'man-cook'], ['de luchthaven', 'vliegtuig · reizen', 'airplane']];
     T.forEach(([w, ban, il], i) => {
       const x = 0.6 + (i % 3) * 2.6; const y = 1.75 + Math.floor(i / 3) * 2.5;
       d.rect(s, x, y, 2.45, 2.3, { fill: 'FFFFFF', line: 'accent4', lw: 2, radius: 0.12, shadow: true });

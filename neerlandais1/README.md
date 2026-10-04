@@ -110,7 +110,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 
 ## À vérifier avant les cours
 
-- **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*, *dikwijls*, *trager*, *de bestemmeling*, *wachtzaal*, *Kan ik…?*) sont signalés dans les notes. Une dernière lecture avant les cours reste conseillée.
+- **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*, *dikwijls*, *trager*, *de bestemmeling*, *wachtzaal*, *Kan ik…?*, *luchthaven / vliegveld*, *plastieken zak*, *nu / nou*, *iets wat / iets dat*) sont signalés dans les notes. Une dernière lecture avant les cours reste conseillée.
 - **Formulaires et enseignes** : les enseignes et adresses sont fictives (Sportclub Vitaal, Brasserie De Lepel, Peeters & Co, Maesbouw, webshop Bolero). Les formulaires et adresses réels des archives renvoyaient à des marques existantes.
 
 ## Régénérer les PowerPoint

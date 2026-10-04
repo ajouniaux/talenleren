@@ -111,7 +111,7 @@
 - Deux briques « transformation » : *met → mee*, *tot → toe*, avec 3 exemples chacune.
 
 **Contenu textuel**
-> **met → mee** : *ermee · daarmee · waarmee* — *Waarmee betaal je? — Ik betaal ermee.*
+> **met → mee** : *ermee · daarmee · waarmee* — *Heb je je kaart? — Ja, ik betaal ermee.*
 > **tot → toe** : *ertoe · waartoe* (plus rare)
 > Les autres ne changent pas : *eraan, erop, erover, ervan, erin, ernaar, ervoor*
 
@@ -131,7 +131,7 @@
 > « J'**y** pense » (le rendez-vous) → ✗ ~~*Ik denk aan het.*~~ → ✓ *Ik denk **eraan**.*
 > « Je travaille avec **lui** » → *Ik werk **met hem**.* · « Je travaille **avec** (l'ordinateur) » → *Ik werk **ermee**.*
 
-**Notes pour l'animateur** — Question-réflexe : « une personne ou une chose ? » Personne → préposition + *hem, haar, hen…* ; chose → *er* + préposition. À l'oral, on entend parfois *ermee* pour un animal ; pour une personne, jamais.
+**Notes pour l'animateur** — Question-réflexe : « une personne ou une chose ? » Personne → préposition + *hem, haar, hen…* ; chose → *er* + préposition. Pour une personne, la norme est préposition + pronom ; à l'oral, on entend aussi *waar / daar* + préposition (*de collega waar ik mee werk*), à éviter à l'écrit.
 
 ---
 
@@ -146,7 +146,7 @@
 **Contenu textuel**
 > *Ik denk **er** vaak **aan**.* · ***Daar** heb ik geen zin **in**.* · ***Waar** wacht je **op**?*
 > Avec *niet* : *Ik denk **er** niet **aan**.* (= je n'y pense pas / pas question !)
-> Collés aussi possible : *Ik denk eraan. · Waarop wacht je?* (plus formel)
+> Rien entre les deux → collé : *Ik denk eraan.* · Question : *Waar wacht je op?* (courant) / *Waarop wacht je?* (plus formel)
 
 **Notes pour l'animateur** — À l'oral, la séparation est la règle : *Waar wacht je op?* La préposition va au bout, comme la particule (M11). *Ik denk er niet aan!* signifie aussi « il n'en est pas question ».
 
@@ -323,12 +323,12 @@
 - Gabarit **E1** : 6 mini-contextes de deux phrases, avec une illustration (personne ou objet).
 
 **Contenu textuel**
-> 1 *Mijn moeder is ziek. Ik denk vaak …… .* · 2 *De deadline is morgen. Denk je …… ?* · 3 *Dit is mijn nieuwe laptop. Ik werk graag …… .*
-> 4 *Dit is mijn nieuwe collega. Ik werk graag …… .* · 5 *De bus is laat. We wachten al lang …… .* · 6 *Sofie is laat. We wachten al lang …… .*
+> 1 *Mijn moeder is ziek. Ik denk vaak …… .* · 2 *De deadline is morgen. Denk je …… ?* · 3 *Dit is mijn nieuwe laptop. Ik werk …… graag …… .*
+> 4 *Dit is mijn nieuwe collega. Ik werk graag …… .* · 5 *De bus is laat. We wachten …… al lang …… .* · 6 *Sofie is laat. We wachten al lang …… .*
 >
-> **✓ CORRECTIE** — 1 *aan haar* · 2 *eraan* · 3 *ermee* · 4 *met hem* (ou *met haar*) · 5 *erop* · 6 *op haar*
+> **✓ CORRECTIE** — 1 *aan haar* · 2 *eraan* · 3 *er … mee* (*Ik werk er graag mee.*) · 4 *met hem* (ou *met haar*) · 5 *er … op* (*We wachten er al lang op.*) · 6 *op haar*
 
-**Notes pour l'animateur** — Les paires 3-4 et 5-6 sont construites en miroir : même verbe, même préposition, mais une chose / une personne.
+**Notes pour l'animateur** — Les paires 3-4 et 5-6 sont construites en miroir : même verbe, même préposition, mais une chose / une personne. N° 3 et 5 : *er* avant l'adverbe, la préposition au bout (diapo 7) ; pour la personne, le groupe reste entier (*graag met hem*, *al lang op haar*).
 
 ---
 

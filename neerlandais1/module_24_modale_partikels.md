@@ -78,12 +78,12 @@
 - *En bas* : la question-guide.
 
 **Contenu textuel**
-> *Geef me je pen.* ⇄ *Geef me je pen **eens**, alsjeblieft.*
+> *Geef me je pen.* ⇄ *Geef me **even** je pen, alsjeblieft.*
 > *Heb je een pen?* ⇄ *Heb je **soms** een pen?*
 > *Het is goed.* ⇄ *Het is goed, **hoor**!*
 > Quelle version préférez-vous entendre ? Qu'ajoute le petit mot ?
 
-**Notes pour l'animateur** — Faites lire les deux versions par deux apprenants, avec l'intonation. Faites deviner la nuance : *eens* adoucit, *soms* = « par hasard », *hoor* rassure.
+**Notes pour l'animateur** — Faites lire les deux versions par deux apprenants, avec l'intonation. Faites deviner la nuance : *even* adoucit, *soms* = « par hasard », *hoor* rassure.
 
 ---
 
@@ -150,8 +150,9 @@
 **Contenu textuel**
 > *nou* : *Wat doe je **nou**?* (surprise) · *Kom **nou**!* (impatience) · ***Nou**, ik ga naar huis.* (bon, eh bien…)
 > Flandre : ***Allez**, kom!* (allez, viens !) · ***Zeg**, heb je even tijd?* (dis, tu as un moment ?) · ***Allez**, tot morgen!*
+> En Flandre, *nu* remplace *nou* dans la phrase : *Wat doe je **nu**? · Kom **nu**!* (sans valeur de « maintenant »)
 
-**Notes pour l'animateur** — *nou* est très néerlandais ; en Flandre, on dit plutôt *nu* (« maintenant ») et on utilise *allez* et *zeg* comme particules. À reconnaître selon l'interlocuteur. *Nou, en?* = « et alors ? ».
+**Notes pour l'animateur** — *nou* est très néerlandais. En Flandre, *nu* le remplace dans la phrase (*Wat doe je nu? Kom nu!*), sans valeur de « maintenant » ; en début de phrase, on dit *Allez, …* ou *Bon, …* (*Allez, ik ga naar huis*), et *En dan?* pour *Nou, en?* (« et alors ? »). *zeg* s'entend aussi aux Pays-Bas. À reconnaître selon l'interlocuteur.
 
 ---
 
@@ -164,7 +165,7 @@
 
 **Contenu textuel**
 > **soms** (par hasard) : *Heb je **soms** een pen?*
-> **dan** (alors, donc) : *Wat wil je **dan**? · Hoe laat **dan**?*
+> **dan** (alors, donc) : *Geen koffie? Wat wil je **dan**? · Hoe laat **dan**?*
 > **ook alweer** (déjà) : *Hoe heet die klant **ook alweer**?*
 > **eigenlijk** (au fait, en fait) : *Waar woon je **eigenlijk**?*
 
@@ -177,11 +178,11 @@
 **Objectif pédagogique** — Utiliser *wel* et *hoor* pour affirmer et rassurer.
 
 **Visuel / Schéma / Agencement**
-- 2 colonnes vertes : *wel* (3 emplois) / *hoor* (en fin de phrase), avec une illustration de pouce levé.
+- 2 colonnes vertes : *wel* (3 emplois) / *hoor* (à la fin, ou après *ja / nee*), avec une illustration de pouce levé.
 
 **Contenu textuel**
 > **wel** — contraste : *Ik heb geen auto, maar **wel** een fiets.* · nuance : *Het is **wel** duur.* (quand même) · confiance : *Dat lukt **wel**.* (ça va aller)
-> **hoor** (en fin de phrase) — rassurer, confirmer : *Geen probleem, **hoor**! · Ja **hoor**! · Nee **hoor**!*
+> **hoor** (à la fin de la phrase, ou juste après *ja / nee*) — rassurer, confirmer : *Geen probleem, **hoor**! · Ja **hoor**! · Nee **hoor**!*
 
 **Notes pour l'animateur** — *wel* répond à une négation (M13 : *Ik werk niet. — Ik wel!*). *hoor* est très fréquent et amical, surtout aux Pays-Bas ; en Flandre aussi, dans *Ja hoor!*. *Dat lukt wel* : le *wel* rassure.
 
@@ -218,7 +219,7 @@
 > Combinaisons fixes : *maar even · eens even · toch even · nou eens*
 > ✗ ~~*Kun je even me helpen?*~~ → ✓ *Kun je me even helpen?*
 
-**Notes pour l'animateur** — La particule vient après le verbe et les petits pronoms (*me, je, het*), avant le complément et le 2e verbe. Comme *niet* (M13), elle se glisse dans la pince.
+**Notes pour l'animateur** — La particule vient après le verbe, les petits pronoms (*me, je, het*) et les éléments déjà connus (*morgen, je pen*) ; avant l'information nouvelle (*een pen*) et le 2e verbe. Comme *niet* (M13), elle se glisse dans la pince.
 
 ---
 
@@ -233,11 +234,11 @@
 > **soms** : *Ik ga **soms** naar Gent.* (parfois) / *Heb je **soms** een pen?* (par hasard)
 > **even** : *Ze zijn **even** groot.* (aussi grand) / *Wacht **even**!* (un instant)
 > **maar** : *Klein **maar** fijn.* (mais) / *Kom **maar**!* (vas-y)
-> **eens** : *Ik was **eens** in Japan.* (une fois) / *Kijk **eens**!* (donc)
+> **eens** : *Ik ben al **eens** in Japan geweest.* (une fois) / *Kijk **eens**!* (donc)
 > **toch** : *Hij is moe en **toch** werkt hij.* (pourtant) / *Je komt **toch**?* (hein)
-> **wel** : *Het gaat **wel**.* (ça va, bof) / *Ik **wel**!* (moi, si !)
+> **wel** : *Ik werk niet, maar zij **wel**.* (≠ *niet*) / *Dat lukt **wel**.* (ça va aller)
 
-**Notes pour l'animateur** — Le contexte et l'intonation tranchent. Astuce : si on peut enlever le mot sans changer l'information, c'est une particule. *Het gaat wel* = « ça va (sans plus) ».
+**Notes pour l'animateur** — Le contexte et l'intonation tranchent. Astuce : si on peut enlever le mot sans changer l'information, c'est une particule. *wel* opposé à *niet* (*maar zij wel*) est le sens plein : on ne peut pas l'enlever.
 
 ---
 
@@ -297,12 +298,12 @@
 
 **Contenu textuel**
 > 1 *Kom …… binnen, de deur is open.* · 2 *Heb je …… een oplader? Mijn gsm is bijna leeg.* · 3 *Je komt …… morgen? We rekenen op je!* · 4 *Hoe heet die klant …… ?*
-> 5 *Kun je me …… helpen?* · 6 *Ik heb geen auto, maar …… een fiets.* · 7 *Nee, dat is geen probleem, …… !* · 8 *Koffie of thee? Wat wil je …… ?*
+> 5 *Kun je me …… helpen?* · 6 *Ik heb geen auto, maar …… een fiets.* · 7 *Nee, dat is geen probleem, …… !* · 8 *Geen koffie? Wat wil je …… ?*
 > Banque : *hoor · even · dan · soms · wel · maar · ook alweer · toch*
 >
 > **✓ CORRECTIE** — 1 *maar* · 2 *soms* · 3 *toch* · 4 *ook alweer* · 5 *even* · 6 *wel* · 7 *hoor* · 8 *dan*
 
-**Notes pour l'animateur** — Une particule par phrase. N° 5 : *eens* est aussi possible (*Kun je me eens helpen?*), mais *even* est plus courant.
+**Notes pour l'animateur** — Une particule par phrase. N° 1 : *even / toch* aussi possibles ; n° 5 : *soms* aussi. La banque rend chaque réponse unique.
 
 ---
 
@@ -355,7 +356,7 @@
 >
 > **✓ CORRECTIE** — ~~*kun je even me helpen*~~ **kun je me even helpen** · ~~*kom binnen maar*~~ **kom maar binnen** · ~~*Heb je een A4-papier soms*~~ **Heb je soms A4-papier** · ~~*Kijk soms*~~ **Kijk eens** · ~~*Geen probleem, nou*~~ **Geen probleem, hoor**
 
-**Notes pour l'animateur** — Leurres : *Ja hoor* et *Je komt morgen wel naar de vergadering, toch?* sont corrects (*toch* en fin de phrase = « hein ? »). *papier* est indénombrable : *A4-papier* sans *een*.
+**Notes pour l'animateur** — Leurres : *Ja hoor* et *Je komt morgen wel naar de vergadering, toch?* sont corrects (*toch* en fin de phrase = « hein ? »). *papier* est indénombrable : *A4-papier* sans *een*. N° 4 : *Kijk even* et *Kijk maar* sont aussi corrects.
 
 ---
 

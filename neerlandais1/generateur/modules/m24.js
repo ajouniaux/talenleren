@@ -80,7 +80,7 @@ function build(d) {
   // ---------------------------------------------------------------- 3 échauffement
   {
     const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Échauffement — sec ou aimable ?' });
-    const P = [['Geef me je pen.', 'Geef me je pen **^^eens^^**, alsjeblieft.'], ['Heb je een pen?', 'Heb je **%%soms%%** een pen?'], ['Het is goed.', 'Het is goed, **<<hoor>>**!']];
+    const P = [['Geef me je pen.', 'Geef me **^^even^^** je pen, alsjeblieft.'], ['Heb je een pen?', 'Heb je **%%soms%%** een pen?'], ['Het is goed.', 'Het is goed, **<<hoor>>**!']];
     P.forEach(([a, b], i) => {
       const y = 1.75 + i * 1.2;
       d.ill(s, 'neutral-face', 0.6, y + 0.12, 0.75, 0.75);
@@ -168,13 +168,13 @@ function build(d) {
       });
     });
     d.line(s, 6.66, 1.8, 6.66, 5.7, { color: BORDER, lw: 1.5, arrow: false });
-    band(s, 'En Flandre, //nou// se dit plutôt //nu// (« maintenant »). //Nou, en?// = « et alors ? »', 6.05, 0.7, 'tx2', 18);
+    band(s, 'En Flandre : //Wat doe je **nu**? · Kom **nu**!// (//nu// sans valeur de « maintenant ») · //Allez, ik ga naar huis.//', 6.05, 0.7, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 8 questions
   {
     const s = d.page({ g: 8, tag: 'GRAMMAIRE', title: 'Questions : soms, dan, ook alweer…' });
-    const C = [['soms', 'par hasard', '//Heb je **%%soms%%** een pen?//', 'pen'], ['dan', 'alors, donc', '//Koffie of thee? Wat wil je **%%dan%%**?//', 'teacup-without-handle'], ['ook alweer', 'déjà', '//Hoe heet die klant **%%ook alweer%%**?//', 'thinking-face'], ['eigenlijk', 'au fait, en fait', '//Waar woon je **%%eigenlijk%%**?//', 'house']];
+    const C = [['soms', 'par hasard', '//Heb je **%%soms%%** een pen?//', 'pen'], ['dan', 'alors, donc', '//Geen koffie? Wat wil je **%%dan%%**?//', 'teacup-without-handle'], ['ook alweer', 'déjà', '//Hoe heet die klant **%%ook alweer%%**?//', 'thinking-face'], ['eigenlijk', 'au fait, en fait', '//Waar woon je **%%eigenlijk%%**?//', 'house']];
     const w = 5.92; const h = 1.95;
     C.forEach(([p, gl, ex, il], i) => {
       const x = 0.6 + (i % 2) * (w + 0.29); const y = 1.7 + Math.floor(i / 2) * (h + 0.2);
@@ -195,12 +195,12 @@ function build(d) {
       '**nuance** : //Het is **<<wel>>** duur.// (quand même)',
       '**confiance** : //Dat lukt **<<wel>>**.// (ça va aller)',
     ], { size: 18, gap: 14, valign: 'middle', foot: 'Rappel M13 : //Ik werk niet. — Ik **wel**!//' });
-    famCard(s, 7.45, 1.7, 5.28, 4.1, OK, 'hoor — en fin de phrase', [
+    famCard(s, 7.45, 1.7, 5.28, 4.1, OK, 'hoor — à la fin, ou après ja / nee', [
       'rassurer, confirmer :',
       '//Geen probleem, **<<hoor>>**!//',
       '//Ja **<<hoor>>**! · Nee **<<hoor>>**!//',
     ], { size: 18, gap: 14, valign: 'middle', ill: 'thumbs-up', foot: 'très amical, surtout aux Pays-Bas' });
-    band(s, '//hoor// est toujours **à la fin** : il rend la phrase plus chaleureuse.', 6.05, 0.7, 'tx2', 18);
+    band(s, '//hoor// : **à la fin**, ou juste après //ja / nee// (//Ja hoor, kom maar!//). Il rend la phrase chaleureuse.', 6.05, 0.7, 'tx2', 18);
   }
 
   // ---------------------------------------------------------------- 10 piège traduction
@@ -228,7 +228,7 @@ function build(d) {
       [['Heb', 'v'], ['je', 'pr'], ['soms', 'ask'], ['een pen?', 'n']],
     ];
     R.forEach((r, i) => strip(s, 0.6, 1.75 + i * 0.92, r, { size: 22, h: 0.72 }));
-    d.card(s, 7.6, 1.75, 5.13, 2.0, { head: 'La règle', color: 'tx2', icon: 'FaMapSigns', body: 'après le verbe et les petits pronoms (//me, je, het//), avant le complément et le 2ᵉ verbe — comme //niet// (M13)', size: 16 });
+    d.card(s, 7.6, 1.75, 5.13, 2.0, { head: 'La règle', color: 'tx2', icon: 'FaMapSigns', body: 'après le verbe, les petits pronoms (//me, je//) et ce qui est connu (//morgen, je pen//) ; avant l’info nouvelle (//een pen//) et le 2ᵉ verbe', size: 16 });
     d.t(s, 'COMBINAISONS FIXES', 7.6, 3.95, 5.1, 0.32, { size: 12, bold: true, color: 'accent5', cs: 2 });
     ['maar even', 'eens even', 'toch even', 'nou eens'].forEach((c, i) => {
       const x = 7.6 + (i % 2) * 2.6; const y = 4.35 + Math.floor(i / 2) * 0.62;
@@ -245,9 +245,9 @@ function build(d) {
       ['soms', ['Ik ga soms naar Gent.', 'parfois'], ['Heb je **%%soms%%** een pen?', 'par hasard']],
       ['even', ['Ze zijn even groot.', 'aussi'], ['Wacht **^^even^^**!', 'un instant']],
       ['maar', ['Klein maar fijn.', 'mais'], ['Kom **^^maar^^**!', 'vas-y']],
-      ['eens', ['Ik was eens in Japan.', 'une fois'], ['Kijk **^^eens^^**!', 'donc']],
+      ['eens', ['Ik ben al eens in Japan geweest.', 'une fois'], ['Kijk **^^eens^^**!', 'donc']],
       ['toch', ['Hij is moe en toch werkt hij.', 'pourtant'], ['Je komt **##toch##**?', 'hein ?']],
-      ['wel', ['Het gaat wel.', 'ça va, sans plus'], ['Ik **<<wel>>**!', 'moi, si !']],
+      ['wel', ['Ik werk niet, maar zij wel.', '≠ niet'], ['Dat lukt **<<wel>>**.', 'ça va aller']],
     ];
     const w = 5.92; const h = 1.22;
     C.forEach(([word, full, part], i) => {
@@ -283,7 +283,7 @@ function build(d) {
       d.t(s, role, x + 1.62, y + 0.05, 1.9, rh - 0.1, { size: 13, italic: true, color: 'accent5', valign: 'middle' });
       d.t(s, `//${ex}//`, x + 3.55, y + 0.05, w - 3.6, rh - 0.1, { size: 15, valign: 'middle' });
     });
-    band(s, 'Place : après le verbe et les petits pronoms · //hoor// à la fin · l’intonation fait la moitié du travail !', 6.0, 0.7, 'accent6', 17);
+    band(s, 'Place : après le verbe et les pronoms · //hoor// : à la fin ou après //ja / nee// · l’intonation compte !', 6.0, 0.7, 'accent6', 17);
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
@@ -312,9 +312,10 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 16 ex2 la bonne particule
-  const ex2 = ['Kom [[maar]] binnen, de deur is open.', 'Heb je [[soms]] een oplader? Mijn gsm is bijna leeg.', 'Je komt [[toch]] morgen? We rekenen op je!', 'Hoe heet die klant [[ook alweer]]?', 'Kun je me [[even]] helpen?', 'Ik heb geen auto, maar [[wel]] een fiets.', 'Nee, dat is geen probleem, [[hoor]]!', 'Koffie of thee? Wat wil je [[dan]]?'];
+  const ex2 = ['Kom [[maar]] binnen, de deur is open.', 'Heb je [[soms]] een oplader? Mijn gsm is bijna leeg.', 'Je komt [[toch]] morgen? We rekenen op je!', 'Hoe heet die klant [[ook alweer]]?', 'Kun je me [[even]] helpen?', 'Ik heb geen auto, maar [[wel]] een fiets.', 'Nee, dat is geen probleem, [[hoor]]!', 'Geen koffie? Wat wil je [[dan]]?'];
   d.ex({ g: 16, title: 'Exercice 2 — La bonne particule', stars: '★★', instr: 'Complétez avec une particule de la banque. Chaque particule sert une fois.' }, (s, mode, top) => {
     d.list(s, ex2.map((e) => `//${e}//`), mode, { y: top + 0.1, w: 12.13, h: 4.15, cols: 1, size: 19, gap: 9 });
+    if (mode === 'a') d.t(s, ['**Aussi possibles :**', 'n° 1 : //even, toch//', 'n° 5 : //soms//'], 9.6, top + 2.2, 3.13, 1.3, { size: 14, color: 'accent5', gap: 2 });
     const by = 6.0;
     d.rect(s, 0.6, by, 12.13, 0.85, { fill: 'bg2', line: BORDER });
     d.t(s, 'BANQUE', 0.8, by, 1.3, 0.85, { size: 12, bold: true, color: 'accent5', cs: 2, valign: 'middle' });
@@ -394,7 +395,7 @@ function build(d) {
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    if (mode === 'a') d.t(s, 'Leurres : //Ja hoor · …, toch?// (//toch// en fin de phrase = « hein ? ») · //papier// : sans //een//', 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
+    if (mode === 'a') d.t(s, ['Leurres : //Ja hoor · …, toch?// (//toch// en fin de phrase = « hein ? ») · //papier// : sans //een//', 'Aussi correct : //Kijk even / Kijk maar//'], 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
   });
 
   // ---------------------------------------------------------------- 20 ex6 théâtre des émotions
