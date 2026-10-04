@@ -6,9 +6,9 @@ const { Deck, renderIcons } = require('./lib');
   const only = process.argv.slice(2).map(Number);
   const outDir = process.env.OUT || path.join(__dirname, '..', 'powerpoints');
   fs.mkdirSync(outDir, { recursive: true });
-  const files = fs.readdirSync(path.join(__dirname, 'modules')).filter((f) => /^m\d\.js$/.test(f)).sort();
+  const files = fs.readdirSync(path.join(__dirname, 'modules')).filter((f) => /^m\d+\.js$/.test(f)).sort((a, b) => parseInt(a.slice(1), 10) - parseInt(b.slice(1), 10));
   for (const f of files) {
-    if (only.length && !only.includes(Number(f.slice(1, 2)))) continue;
+    if (only.length && !only.includes(parseInt(f.slice(1), 10))) continue;
     const mod = require('./modules/' + f);
     // pass 1 records the icons the module needs; pass 2 builds with rendered icons
     mod.build(new Deck(mod.meta));

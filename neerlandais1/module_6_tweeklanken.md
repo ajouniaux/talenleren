@@ -82,7 +82,7 @@
 **Visuel / Schéma / Agencement**
 - Pastille `ÉCHAUFFEMENT`.
 - Trois colonnes : **COURT** (framboise), **LONG** (vert), **DOUBLE** (orange, avec un cadenas).
-- En haut, 9 cartes-mots en vrac, que la classe classe à l'oral. La correction est affichée sur la même diapo (révélation par colonne).
+- En haut, 9 cartes-mots en vrac, que la classe classe à l'oral. Une seconde diapo révèle la correction, colonne par colonne.
 
 **Contenu textuel**
 > *kat · maan · huis · bus · vuur · tijd · pen · boom · vrouw*

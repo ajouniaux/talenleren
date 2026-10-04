@@ -152,6 +152,8 @@ function flow(paras) {
   paras.forEach((p, i) => {
     p.runs.forEach((r, j) => {
       const o = j === 0 ? { ...(p.opts || {}), ...r.options } : { ...r.options };
+      // pptxgenjs starts a new paragraph whenever align changes between runs: repeat it on every run
+      if (j > 0 && p.opts && p.opts.align) o.align = p.opts.align;
       if (j === p.runs.length - 1 && i < paras.length - 1) o.breakLine = true;
       out.push({ text: r.text, options: o });
     });
@@ -391,6 +393,77 @@ class Deck {
       this.t(s, lines, x + 0.22, top, w - 0.44, y + h - top - 0.12, { size: o.size || 17, fit: true, max: o.size || 18, min: 12, gap: o.gap ?? 6, align: o.align, valign: o.valign || 'top', bullet: o.bullet, mode: o.mode, fitLabel: 'card' });
     }
   }
+  // free polygon from absolute points [[x, y], …] (inches)
+  poly(s, pts, o = {}) {
+    const xs = pts.map((p) => p[0]); const ys = pts.map((p) => p[1]);
+    const x = Math.min(...xs); const y = Math.min(...ys);
+    const points = pts.map(([px, py]) => ({ x: px - x, y: py - y }));
+    points.push({ close: true });
+    s.addShape(this.S.CUSTOM_GEOMETRY, {
+      x, y, w: Math.max(0.01, Math.max(...xs) - x), h: Math.max(0.01, Math.max(...ys) - y), points,
+      fill: o.fill === null ? undefined : { color: col(o.fill || 'bg2'), transparency: o.tr || 0 },
+      line: o.line === null ? { color: 'FFFFFF', width: 0, transparency: 100 } : { color: hx(o.line || 'FFFFFF'), width: o.lw ?? 1.5 },
+    });
+  }
+  // schematic map of Belgium (regions); returns P(lon, lat) → [x, y] to place pins
+  belgium(s, x, y, w, o = {}) {
+    const k = w / 2.51;
+    const P = (lon, lat) => [x + (lon - 2.5) * 0.635 * k, y + (51.52 - lat) * k];
+    const north = [[2.54, 51.09], [2.8, 51.17], [3.1, 51.31], [3.37, 51.37], [3.52, 51.29], [3.8, 51.21], [4.05, 51.25], [4.24, 51.37], [4.42, 51.36], [4.55, 51.48], [4.75, 51.42], [4.92, 51.46], [5.1, 51.43], [5.24, 51.31], [5.5, 51.29], [5.85, 51.15], [5.75, 50.95], [5.7, 50.76]];
+    const lang = [[5.7, 50.76], [5.45, 50.73], [5.1, 50.72], [4.85, 50.74], [4.6, 50.72], [4.4, 50.74], [4.15, 50.72], [3.9, 50.73], [3.55, 50.73], [3.25, 50.75], [2.9, 50.78]];
+    const westFl = [[2.75, 50.82], [2.6, 50.95]];
+    const south = [[6.02, 50.75], [6.27, 50.62], [6.4, 50.33], [6.14, 50.13], [5.98, 50.17], [5.75, 49.95], [5.82, 49.55], [5.47, 49.5], [5.2, 49.69], [4.85, 49.8], [4.86, 49.95], [4.88, 50.15], [4.82, 50.16], [4.7, 49.98], [4.45, 49.94], [4.2, 49.96], [4.14, 50.05], [4.2, 50.27], [3.95, 50.34], [3.7, 50.32], [3.6, 50.5], [3.28, 50.53], [3.0, 50.7]];
+    const ger = [[6.02, 50.75], [6.27, 50.62], [6.4, 50.33], [6.14, 50.2], [6.05, 50.32], [6.1, 50.5], [5.98, 50.62]];
+    const lw = o.lw ?? 1.5;
+    this.poly(s, [...north, ...lang.slice(1), ...westFl].map((p) => P(...p)), { fill: o.fl || 'F6D44C', line: o.line || 'FFFFFF', lw });
+    this.poly(s, [...lang.slice().reverse(), ...south].map((p) => P(...p)), { fill: o.wa || 'E2725B', line: o.line || 'FFFFFF', lw });
+    if (o.de !== false) this.poly(s, ger.map((p) => P(...p)), { fill: o.de || '7A9CC6', line: o.line || 'FFFFFF', lw });
+    const [bx, by] = P(4.36, 50.84); const r = (o.bxr || 0.11) * k;
+    if (o.bx !== false) this.oval(s, bx - r * 0.64, by - r * 0.5, r * 1.28, r, { fill: o.bx || 'tx2', line: o.line || 'FFFFFF', lw: 1.25 });
+    return P;
+  }
+  // simplified national flags (drawn, not pictures)
+  flag(s, code, x, y, w, h = w * 0.66) {
+    const V = (cs) => cs.forEach((c, i) => this.rect(s, x + (i * w) / cs.length, y, w / cs.length, h, { fill: c, line: null, radius: 0 }));
+    const Hh = (cs, r) => { const tot = (r || cs.map(() => 1)).reduce((a, b) => a + b, 0); let yy = y; cs.forEach((c, i) => { const hh = (h * (r ? r[i] : 1)) / tot; this.rect(s, x, yy, w, hh, { fill: c, line: null, radius: 0 }); yy += hh; }); };
+    const sym = (t, c, size, dx = 0) => this.t(s, t, x + dx, y, w, h, { size, color: c, align: 'center', valign: 'middle', bold: true });
+    switch (code) {
+      case 'be': V(['1B1B1B', 'F7D117', 'E2232A']); break;
+      case 'fr': V(['1F4FA3', 'FFFFFF', 'E2232A']); break;
+      case 'it': V(['1E8C45', 'FFFFFF', 'D7262D']); break;
+      case 'ro': V(['1F4FA3', 'F7D117', 'D7262D']); break;
+      case 'nl': Hh(['B32033', 'FFFFFF', '22408C']); break;
+      case 'de': Hh(['1B1B1B', 'DD1F26', 'F7C600']); break;
+      case 'lu': Hh(['E2343F', 'FFFFFF', '24A3DD']); break;
+      case 'pl': Hh(['FFFFFF', 'DC143C']); break;
+      case 'es': Hh(['C60B1E', 'F7C600', 'C60B1E'], [1, 2, 1]); break;
+      case 'ma': this.rect(s, x, y, w, h, { fill: 'C1272D', line: null, radius: 0 }); sym('☆', '1E7B3A', Math.round(h * 46)); break;
+      case 'tr': this.rect(s, x, y, w, h, { fill: 'E30A17', line: null, radius: 0 }); sym('☾★', 'FFFFFF', Math.round(h * 30)); break;
+      case 'cd': {
+        this.rect(s, x, y, w, h, { fill: '3D8FD1', line: null, radius: 0 });
+        const b = h * 0.2;
+        this.poly(s, [[x, y + h - b * 1.4], [x + w - b * 1.6, y], [x + w, y], [x + w, y + b * 1.4], [x + b * 1.6, y + h], [x, y + h]], { fill: 'F7D117', line: null });
+        this.poly(s, [[x, y + h - b * 0.8], [x + w - b * 2.4, y], [x + w, y], [x + w, y + b * 0.8], [x + b * 2.4, y + h], [x, y + h]], { fill: 'CE1021', line: null });
+        this.t(s, '★', x + 0.02, y, w * 0.4, h * 0.45, { size: Math.round(h * 26), color: 'F7D117', align: 'center', valign: 'middle' });
+        break;
+      }
+      case 'gb': {
+        this.rect(s, x, y, w, h, { fill: '1F3B87', line: null, radius: 0 });
+        const t = h * 0.12;
+        this.poly(s, [[x, y], [x + t * 1.4, y], [x + w, y + h - t], [x + w, y + h], [x + w - t * 1.4, y + h], [x, y + t]], { fill: 'FFFFFF', line: null });
+        this.poly(s, [[x + w, y], [x + w, y + t], [x + t * 1.4, y + h], [x, y + h], [x, y + h - t], [x + w - t * 1.4, y]], { fill: 'FFFFFF', line: null });
+        this.rect(s, x + w / 2 - t * 1.4, y, t * 2.8, h, { fill: 'FFFFFF', line: null, radius: 0 });
+        this.rect(s, x, y + h / 2 - t * 1.4, w, t * 2.8, { fill: 'FFFFFF', line: null, radius: 0 });
+        this.rect(s, x + w / 2 - t * 0.8, y, t * 1.6, h, { fill: 'C8102E', line: null, radius: 0 });
+        this.rect(s, x, y + h / 2 - t * 0.8, w, t * 1.6, { fill: 'C8102E', line: null, radius: 0 });
+        break;
+      }
+      default: throw new Error('unknown flag ' + code);
+    }
+    this.rect(s, x, y, w, h, { fill: null, line: 'B8C2CF', lw: 0.75, radius: 0 });
+  }
+  pin(s, x, y, color = 'accent6', size = 0.32) { this.icon(s, 'FaMapMarkerAlt', color, x - size / 2, y - size, size); }
+
   // S10 trap panel
   trap(s, x, y, w, h, fr, nl, o = {}) {
     this.rect(s, x, y, w, h, { fill: 'accent6', tr: 93, line: 'accent6', lw: 1, ltr: 40 });
@@ -424,7 +497,7 @@ class Deck {
   cover(o) {
     this.section('Ouverture');
     const s = this.slide('N1_COVER');
-    this.chip(s, `MODULE ${this.m.n} / 5`, 0.6, 0.7, 'accent1', 0.42, 14);
+    this.chip(s, `MODULE ${this.m.n} / 10`, 0.6, 0.7, 'accent1', 0.42, 14);
     s.addText(o.title, { placeholder: 'title' });
     s.addText(flow([
       { runs: parse(o.sub || '', 'a', { italic: true }), opts: { paraSpaceAfter: 12 } },

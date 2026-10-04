@@ -196,7 +196,7 @@
 
 **Visuel / Schéma / Agencement**
 - Tableau à 5 colonnes (même code couleur que la diapo 5), 6 lignes.
-- Une petite carte de l'Europe de l'Ouest en illustration à gauche.
+- Un petit drapeau (dessiné) devant chaque pays.
 
 **Contenu textuel**
 > | Land | Adjectief | Taal | Inwoner | Inwoonster |
@@ -217,7 +217,7 @@
 **Objectif pédagogique** — Donner aux apprenants les mots de leur propre origine.
 
 **Visuel / Schéma / Agencement**
-- Tableau identique (5 colonnes).
+- Tableau identique (5 colonnes), avec un drapeau devant chaque pays.
 - À droite, un encadré vide « Nos pays » à compléter au tableau avec la classe.
 
 **Contenu textuel**
