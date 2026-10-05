@@ -470,7 +470,7 @@ function build(d) {
     d.t(s, '**INSÉPARABLE**', x2 + 1.15, 1.75, 4, 0.8, { size: 22, color: 'tx2', valign: 'middle' });
     d.rect(s, x2 + 0.25, 3.05, 2.95, 0.75, { fill: 'tx2', line: null, radius: 0.12 });
     d.t(s, '**verTAlen**', x2 + 0.25, 3.05, 2.95, 0.75, { size: 26, color: 'bg1', align: 'center', valign: 'middle' });
-    d.oval(s, x2 + 1.95, 2.8, 0.22, 0.22, { fill: 'tx2' });
+    d.oval(s, x2 + 1.66, 2.8, 0.22, 0.22, { fill: 'tx2' });
     d.t(s, ['accent sur le **verbe**', '//Ik **vertaal** de tekst.//', '//Ik heb hem **vertaald**.// (pas de //ge-//)'], x2 + 3.4, 2.7, W - 3.5, 2.0, { size: 15, gap: 6, valign: 'middle' });
     // les préfixes toujours collés
     d.t(s, '**TOUJOURS COLLÉS** : jamais de séparation, jamais de //ge-//', 0.6, 5.0, 12.13, 0.4, { size: 14, color: 'accent6' });
