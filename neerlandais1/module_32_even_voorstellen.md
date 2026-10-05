@@ -292,7 +292,7 @@
 - Intercalaire sombre, avec 7 tuiles.
 
 **Contenu textuel**
-> 1 · bij, op, als, in, voor ? ★ — 2 · sinds, al ou geleden ? ★ — 3 · Le pitch en désordre ★★ — 4 · Le détective ★★ — 5 · Retrouvez la question ★★ — 6 · Speednetworking ★ — 7 · Het sollicitatiegesprek ★★★
+> 1 · bij, op, als, in, voor ? ★ — 2 · sinds, al ou geleden ? ★ — 3 · Le pitch en désordre ★★ — 4 · Le détective ★★ — 5 · Retrouvez la question ★★ — 6 · Speed-networking ★ — 7 · L'entretien d'embauche ★★★
 
 **Notes pour l'animateur** — Exercices 1 et 2 en séance 1, les autres en séance 2. L'exercice 7 est la tâche finale du parcours.
 
@@ -416,7 +416,7 @@
 
 **Contenu textuel**
 > **Situation** : Maesbouw cherche un·e collaborateur·rice administratif·ve. Entretien de 5 minutes, en *u*.
-> **Document** : *Vacature · administratief medewerker (m/v/x) · voltijds · contract van onbepaalde duur · Brussel · Je spreekt Nederlands en Frans · Je werkt graag in team.*
+> **Document** : *Vacature · administratief medewerker (m/v/x) · voltijds · contract van onbepaalde duur · Brussel · 2 dagen thuiswerk · Je spreekt Nederlands en Frans · Je werkt graag in team · maaltijdcheques · Solliciteer vóór 30 juni!*
 > **A** (le recruteur) : accueillez, demandez une présentation, posez 3 questions, concluez.
 > **B** (le candidat) : présentez-vous (les 5 étapes), répondez, posez une question sur le poste.
 > Banque : *Vertelt u eens iets over uzelf. · Waarom solliciteert u bij ons? · Wat zijn uw sterke punten? · Ik ben… · Ik heb … gestudeerd. · Daarvoor werkte ik… · Ik werk graag in team. · Ik zou graag… · Hoeveel dagen thuiswerk zijn er?*

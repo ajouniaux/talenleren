@@ -185,10 +185,10 @@
 
 **Contenu textuel**
 > *de laptop · **het** scherm · **het** toetsenbord · de muis · de printer · de map*
-> ***het** dossier · de agenda · de balpen · de gsm · de badge · **het** bureau* (le meuble)
+> ***het** dossier · de agenda · de balpen · de gsm · de badge · de stoel*
 > *Mag ik je balpen even lenen? · De printer werkt niet!*
 
-**Notes pour l'animateur** — Les mots *het* sont minoritaires : faites-les souligner. *de gsm* (Belgique) = le téléphone portable (NL : *de mobiel*) ; *de bic* est aussi très courant en Belgique pour *de balpen*. *het bureau* = le meuble ; en Belgique aussi la pièce.
+**Notes pour l'animateur** — Les mots *het* sont minoritaires : faites-les souligner. *de gsm* (Belgique) = le téléphone portable (NL : *de mobiel*) ; *de bic* est aussi très courant en Belgique pour *de balpen*. *het bureau* = le meuble (la table de travail) ; en Belgique aussi la pièce.
 
 ---
 
