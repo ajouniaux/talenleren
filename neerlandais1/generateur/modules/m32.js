@@ -18,7 +18,7 @@ function build(d) {
     d.chip(s, '⚠ PIÈGE', 0.8, 1.85, 'accent6', 0.32, 12);
   };
   // les 5 étapes du pitch (S29)
-  const STEPS = [['Wie ben ik?', 'présent', PR, 'Ik ben Karim Benali. Ik kom uit Namen.'], ['Wat doe ik?', 'présent', PR, 'Ik werk als boekhouder bij Peeters & Co.'], ['Wat heb ik gedaan?', 'passé', PA, 'Ik heb economie gestudeerd. Daarvoor werkte ik bij Maesbouw.'], ['Wat wil ik?', 'futur, souhait', FU, 'Volgend jaar ga ik een opleiding volgen. Later zou ik graag een team leiden.'], ['En privé?', 'loisirs', 'accent5', 'In mijn vrije tijd kook ik graag.']];
+  const STEPS = [['Wie ben ik?', 'présent', PR, 'Ik ben Karim Benali. Ik kom uit Namen.'], ['Wat doe ik?', 'présent', PR, 'Ik werk als boekhouder bij Peeters & Co.'], ['Wat heb ik gedaan?', 'passé', PA, 'Ik heb economie gestudeerd. Daarna werkte ik bij Maesbouw.'], ['Wat wil ik?', 'futur, souhait', FU, 'Volgend jaar ga ik een opleiding volgen. Later zou ik graag een team leiden.'], ['En privé?', 'loisirs', 'accent5', 'In mijn vrije tijd kook ik graag.']];
   const stones = (s, x, y, w, h, o = {}) => {
     const n = STEPS.length; const gap = 0.14; const sw = (w - (n - 1) * gap) / n;
     d.line(s, x + 0.2, y + 0.42, x + w - 0.2, y + 0.42, { color: 'accent5', lw: 2, dash: 'dash' });
@@ -99,7 +99,7 @@ function build(d) {
   {
     const s = d.page({ g: 5, tag: 'GRAMMAIRE', title: 'Le pitch en 5 étapes' });
     stones(s, 0.6, 1.65, 12.13, 4.2);
-    band(s, '+ une formule finale : //**Aangenaam!** · Leuk je te ontmoeten!// — un bon pitch dure de 30 secondes à 1 minute', 6.05, 0.75, 'tx2', 17);
+    band(s, 'En serrant la main : //**Aangenaam!**// · pour finir : //Leuk je te leren kennen!// — un bon pitch dure de 30 secondes à 1 minute', 6.05, 0.75, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 6 carte de visite
@@ -226,7 +226,7 @@ function build(d) {
       d.bubble(s, `//${b2}//`, x + 0.15, 3.85, w - 1.05, 1.15, 'accent5', { size: 15 });
       if (i === 2) d.ill(s, 'handshake', x + w / 2 - 0.3, 5.1, 0.6, 0.6);
     });
-    band(s, '//**Aangenaam**// (enchanté·e) : très courant en Belgique · //Prettig kennis te maken. · Leuk je te ontmoeten.//', 6.05, 0.75, 'tx2', 17);
+    band(s, '//**Aangenaam**// (enchanté·e) : très courant en Belgique · //Prettig kennis te maken. · Leuk je te leren kennen.//', 6.05, 0.75, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 13 questions et réactions
@@ -287,6 +287,7 @@ function build(d) {
   const ex1 = ['Ik werk [[bij]] Maesbouw.', 'Tom werkt [[op]] de afdeling verkoop.', 'Lotte werkt [[als]] stagiaire.', 'Ons kantoor is [[in]] Gent.', 'Ik ben verantwoordelijk [[voor]] de planning.', 'Eva werkt al tien jaar [[in]] de bouwsector.', 'Ik werk vooral [[voor]] Franstalige klanten.', 'Nadia werkt [[als]] coach [[bij]] Sportclub Vitaal.'];
   d.ex({ g: 17, title: 'Exercice 1 — bij, op, als, in, voor ?', stars: '★', instr: 'Complétez avec la préposition de la carte de visite.' }, (s, mode, top) => {
     d.list(s, ex1.map((e) => `//${e}//`), mode, { y: top + 0.2, w: 12.13, h: 4.3, cols: 2, size: 21, gap: 26 });
+    if (mode === 'a') d.t(s, 'N° 2 : //bij// est aussi accepté (//bij de afdeling verkoop//) · n° 8 : deux trous', 0.6, 6.3, 12.13, 0.45, { size: 15, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 18 ex2 sinds al geleden
@@ -296,9 +297,10 @@ function build(d) {
     d.line(s, 0.8, y0 + 0.3, 12.5, y0 + 0.3, { color: 'accent5', lw: 2 });
     [['geleden', 1.5, PA], ['sinds', 5.6, PR], ['al', 9.4, FU]].forEach(([w, x, c]) => {
       d.oval(s, x, y0 + 0.18, 0.24, 0.24, { fill: c });
-      d.t(s, `//**${w}**//`, x + 0.32, y0, 1.6, 0.6, { size: 16, color: c, valign: 'middle' });
+      d.t(s, `//**${w}**//`, x + 0.32, y0 + 0.38, 1.6, 0.4, { size: 16, color: c, valign: 'middle' });
     });
-    d.list(s, ex2.map((e) => `//${e}//`), mode, { y: top + 0.95, w: 12.13, h: 4.6, cols: 1, size: 22, gap: 18 });
+    d.list(s, ex2.map((e) => `//${e}//`), mode, { y: top + 1.0, w: 12.13, h: 4.0, cols: 1, size: 21, gap: 10 });
+    if (mode === 'a') d.t(s, 'N° 2 et 5 : //sinds// + durée est aussi accepté, surtout en Belgique (//sinds jaren//)', 0.6, 6.45, 12.13, 0.4, { size: 15, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 19 ex3 le pitch en désordre
@@ -352,7 +354,7 @@ function build(d) {
   // ---------------------------------------------------------------- 22 ex6 speednetworking
   {
     const s = d.page({ g: 22, tag: 'JIJ NU !', title: 'Exercice 6 — Speednetworking', stars: '★' });
-    const P = [['woman', 'Eva Wouters', 'projectleider · Maesbouw', 'Brussel · sinds 2019', 'zingen'], ['man-office-worker', 'Tom De Smet', 'verkoper · Bolero', 'Leuven · sinds 2022', 'voetbal'], ['woman-office-worker', 'Nadia El Amrani', 'coach · Sportclub Vitaal', 'Gent · sinds 2020', 'reizen'], ['man-technologist', 'Pieter Claes', 'webdesigner (freelance)', 'Mechelen · sinds 2018', 'koken'], ['woman-red-hair', 'Ines Dubois', 'onthaalmedewerkster · Brasserie De Lepel', 'Namen · sinds 2023', 'lezen'], ['technologist', 'Jonas Peeters', 'IT’er · Peeters & Co', 'Antwerpen · sinds 2021', 'gamen'], ['woman-student', 'Sarah Vermeulen', 'boekhoudster · Maesbouw', 'Brugge · sinds 2017', 'zwemmen'], ['man', 'Youssef Haddad', 'magazijnier · Bolero', 'Mechelen · sinds 2024', 'fietsen']];
+    const P = [['woman', 'Eva Wouters', 'projectleider · Maesbouw', 'Brussel · sinds 2019', 'zingen'], ['man-office-worker', 'Tom De Smet', 'verkoper · Koopzo', 'Leuven · sinds 2022', 'voetbal'], ['woman-office-worker', 'Nadia El Amrani', 'coach · Sportclub Vitaal', 'Gent · sinds 2020', 'reizen'], ['man-technologist', 'Pieter Claes', 'webdesigner (freelance)', 'Mechelen · sinds 2018', 'koken'], ['woman-red-hair', 'Ines Dubois', 'onthaalmedewerkster · Brasserie De Lepel', 'Namen · sinds 2023', 'lezen'], ['technologist', 'Jonas Peeters', 'IT’er · Peeters & Co', 'Antwerpen · sinds 2021', 'gamen'], ['woman-student', 'Sarah Vermeulen', 'boekhoudster · Maesbouw', 'Brugge · sinds 2017', 'zwemmen'], ['man', 'Youssef Haddad', 'magazijnier · Koopzo', 'Mechelen · sinds 2024', 'fietsen']];
     const cw = 2.0; const ch = 2.4;
     P.forEach(([il, name, job, where, hobby], i) => {
       const x = 0.6 + (i % 4) * (cw + 0.12); const y = 1.65 + Math.floor(i / 4) * (ch + 0.12);

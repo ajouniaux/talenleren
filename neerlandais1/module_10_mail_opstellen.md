@@ -85,11 +85,11 @@
 **Contenu textuel**
 > 1 **Sofie Peeters** — *Lunch morgen?* — 9.12
 > 2 **Directie Peeters & Co** — *Vergadering donderdag 10 uur* — 9.40
-> 3 **Webshop Bolero** — *Uw bestelling 4521* — 10.05
+> 3 **Webshop Koopzo** — *Uw bestelling 4521* — 10.05
 > 4 **Mama** — *Zondag eten bij ons?* — 11.30
 > 5 **Jan Maes (klant)** — *Vraag over factuur 2026-118* — 14.02
 
-**Notes pour l'animateur** — Demandez : « Formel (F) ou informel (I) ? Comment le savez-vous déjà, sans ouvrir le mail ? » Réponses : 1 I · 2 F · 3 F · 4 I · 5 F. Les indices : le prénom, le point d'interrogation familier, *uw*, le numéro de dossier. *Bolero* est une enseigne fictive.
+**Notes pour l'animateur** — Demandez : « Formel (F) ou informel (I) ? Comment le savez-vous déjà, sans ouvrir le mail ? » Réponses : 1 I · 2 F · 3 F · 4 I · 5 F. Les indices : le prénom, le point d'interrogation familier, *uw*, le numéro de dossier. *Koopzo* est une enseigne fictive.
 
 ---
 

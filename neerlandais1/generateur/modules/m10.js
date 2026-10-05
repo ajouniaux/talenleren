@@ -71,7 +71,7 @@ function build(d) {
   {
     const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Échauffement — la boîte de réception' });
     const by = win(s, 0.6, 1.65, 10.2, 5.2, { title: 'Postvak IN — karim.benali@peetersco.be' });
-    const rows = [['Sofie Peeters', 'Lunch morgen?', '9.12', 'woman-office-worker'], ['Directie Peeters & Co', 'Vergadering donderdag 10 uur', '9.40', 'office-building'], ['Webshop Bolero', 'Uw bestelling 4521', '10.05', 'shopping-cart'], ['Mama', 'Zondag eten bij ons?', '11.30', 'old-woman'], ['Jan Maes (klant)', 'Vraag over factuur 2026-118', '14.02', 'man-office-worker']];
+    const rows = [['Sofie Peeters', 'Lunch morgen?', '9.12', 'woman-office-worker'], ['Directie Peeters & Co', 'Vergadering donderdag 10 uur', '9.40', 'office-building'], ['Webshop Koopzo', 'Uw bestelling 4521', '10.05', 'shopping-cart'], ['Mama', 'Zondag eten bij ons?', '11.30', 'old-woman'], ['Jan Maes (klant)', 'Vraag over factuur 2026-118', '14.02', 'man-office-worker']];
     const rh = (6.8 - by) / 5;
     rows.forEach(([who, subj, t, il], i) => {
       const y = by + i * rh;

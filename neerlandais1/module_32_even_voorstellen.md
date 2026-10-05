@@ -110,10 +110,10 @@
 **Contenu textuel**
 > ① ***Wie ben ik?*** (présent) — *Ik ben Karim Benali. Ik kom uit Namen.*
 > ② ***Wat doe ik?*** (présent) — *Ik werk als boekhouder bij Peeters & Co.*
-> ③ ***Wat heb ik gedaan?*** (passé) — *Ik heb economie gestudeerd. Daarvoor werkte ik bij Maesbouw.*
+> ③ ***Wat heb ik gedaan?*** (passé) — *Ik heb economie gestudeerd. Daarna werkte ik bij Maesbouw.*
 > ④ ***Wat wil ik?*** (futur, souhait) — *Volgend jaar ga ik een opleiding volgen. Later zou ik graag een team leiden.*
 > ⑤ ***En privé?*** — *In mijn vrije tijd kook ik graag.*
-> + une formule finale : *Aangenaam! · Leuk je te ontmoeten!*
+> + en serrant la main : *Aangenaam!* · pour finir : *Leuk je te leren kennen!*
 
 **Notes pour l'animateur** — Ce schéma est la colonne vertébrale du module et de la tâche finale. L'ordre peut varier, mais ① et ② viennent toujours en premier. En entretien, l'étape ⑤ est très courte.
 
@@ -185,7 +185,7 @@
 > « Je travaille ici depuis 2021 » → ✓ *Ik werk hier **sinds** 2021*
 > « … depuis quatre ans » → ✓ *Ik werk hier **al** vier jaar* · « il y a quatre ans » → *vier jaar **geleden***
 
-**Notes pour l'animateur** — *sinds* + un point de départ (une date, un mois) ; *al* + une durée. En Belgique, on entend aussi *sinds vier jaar*, mais *al vier jaar* est la forme standard. Comme en français, « depuis » se construit avec le présent.
+**Notes pour l'animateur** — *sinds* + un point de départ (une date, un mois) ; *al* + une durée. *sinds* + une durée est aussi correct, surtout en Belgique (*sinds vier jaar, sinds jaren, sinds lang*) ; *al vier jaar* est la forme la plus courante. Comme en français, « depuis » se construit avec le présent.
 
 ---
 
@@ -234,7 +234,7 @@
 > **Un entretien** (*u*) : *Vertelt u eens iets over uzelf. — Graag. Ik ben Karim Benali en ik werk sinds…*
 > **Le réseau** (*u*, puis vite *je*) : *Aangenaam, Karim Benali. — Aangenaam! Eva Wouters, van Maesbouw.*
 
-**Notes pour l'animateur** — *Aangenaam* (enchanté·e) est très courant en Belgique, en se serrant la main. Autres formules : *Prettig kennis te maken. · Leuk je te ontmoeten.* Rappel M8 : on garde le même registre dans toute la conversation, jusqu'à ce que l'autre propose *je*.
+**Notes pour l'animateur** — *Aangenaam* (enchanté·e) est très courant en Belgique, en se serrant la main. Autres formules : *Prettig kennis te maken. · Leuk je te leren kennen.* (*Leuk je te ontmoeten* est un calque de l'anglais.) Rappel M8 : on garde le même registre dans toute la conversation, jusqu'à ce que l'autre propose *je*.
 
 ---
 
@@ -309,7 +309,7 @@
 > 1 *Ik werk …… Maesbouw.* · 2 *Tom werkt …… de afdeling verkoop.* · 3 *Lotte werkt …… stagiaire.* · 4 *Ons kantoor is …… Gent.*
 > 5 *Ik ben verantwoordelijk …… de planning.* · 6 *Eva werkt al tien jaar …… de bouwsector.* · 7 *Ik werk vooral …… Franstalige klanten.* · 8 *Nadia werkt …… coach …… Sportclub Vitaal.*
 >
-> **✓ CORRECTIE** — 1 *bij* · 2 *op* · 3 *als* · 4 *in* · 5 *voor* · 6 *in* · 7 *voor* · 8 *als … bij*
+> **✓ CORRECTIE** — 1 *bij* · 2 *op* (*bij* accepté) · 3 *als* · 4 *in* · 5 *voor* · 6 *in* · 7 *voor* · 8 *als … bij*
 
 **Notes pour l'animateur** — Faites justifier avec la carte de visite (diapo 6). N° 8 : deux trous.
 
@@ -326,7 +326,7 @@
 > 1 *Ik werk hier …… 2021.* · 2 *Ik woon …… vijf jaar in Brussel.* · 3 *Ik ben drie jaar …… afgestudeerd.*
 > 4 *Lotte is hier …… maart stagiaire.* · 5 *We kennen elkaar …… lang.* · 6 *Twee maanden …… ben ik van werkgever veranderd.*
 >
-> **✓ CORRECTIE** — 1 *sinds* · 2 *al* · 3 *geleden* · 4 *sinds* · 5 *al* · 6 *geleden*
+> **✓ CORRECTIE** — 1 *sinds* · 2 *al* (*sinds* accepté) · 3 *geleden* · 4 *sinds* · 5 *al* (*sinds* accepté) · 6 *geleden*
 
 **Notes pour l'animateur** — *sinds* + point de départ ; *al* + durée (avec le présent) ; *geleden* + durée (avec le passé), placé après la durée.
 
@@ -394,13 +394,13 @@
 
 **Contenu textuel**
 > *Eva Wouters* · projectleider · Maesbouw · Brussel · sinds 2019 · zingen
-> *Tom De Smet* · verkoper · Bolero · Leuven · sinds 2022 · voetbal
+> *Tom De Smet* · verkoper · Koopzo · Leuven · sinds 2022 · voetbal
 > *Nadia El Amrani* · coach · Sportclub Vitaal · Gent · sinds 2020 · reizen
 > *Pieter Claes* · webdesigner (freelance) · Mechelen · sinds 2018 · koken
 > *Ines Dubois* · onthaalmedewerkster · Brasserie De Lepel · Namen · sinds 2023 · lezen
 > *Jonas Peeters* · IT'er · Peeters & Co · Antwerpen · sinds 2021 · gamen
 > *Sarah Vermeulen* · boekhoudster · Maesbouw · Brugge · sinds 2017 · zwemmen
-> *Youssef Haddad* · magazijnier · Bolero · Mechelen · sinds 2024 · fietsen
+> *Youssef Haddad* · magazijnier · Koopzo · Mechelen · sinds 2024 · fietsen
 > 1. Tirez une carte : vous êtes cette personne. 2. Présentez-vous en 30 secondes (les 5 étapes). 3. Votre partenaire pose 2 questions, puis on change de partenaire au signal.
 
 **Notes pour l'animateur** — Toutes les entreprises sont fictives. Disposez la classe en deux rangées face à face ; une rangée se décale d'une place toutes les 2 minutes. *de magazijnier* (Belgique) = le magasinier.

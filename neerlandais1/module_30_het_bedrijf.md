@@ -130,7 +130,7 @@
 
 **Contenu textuel**
 > *de directeur / de directrice* · *de boekhouder / de boekhoudster* (comptable) · *de verkoper / de verkoopster* · *de medewerker / de medewerkster* (collaborateur·rice)
-> *de onthaalmedewerker* (réceptionniste) · *de informaticus / de IT'er* · *de stagiair / de stagiaire* · *het afdelingshoofd* (chef·fe de service)
+> *de onthaalmedewerker* (réceptionniste) · *de informaticus* (= *de IT'er*) · *de stagiair / de stagiaire* · *het afdelingshoofd* (chef·fe de service)
 > *Wat doe je? — Ik ben boekhouder.* (sans *een*, M2)
 
 **Notes pour l'animateur** — Suffixes féminins (M7) : *-ster* (*boekhoudster*), *-e* (*stagiaire*), *-rice* (*directrice*). *het afdelingshoofd* : le dernier mot est *het hoofd* (la tête), donc *het* (M14). *de medewerker* est le mot passe-partout : *een medewerker van de verkoop*.
@@ -235,8 +235,8 @@
 
 **Contenu textuel**
 > « prendre une décision » → *een beslissing **nemen*** · « prendre une pause » → *een pauze **nemen*** · « prendre congé » → *verlof **nemen***
-> ⚠ « faire une réunion » → *een vergadering **houden*** · « faire une erreur » → *een fout **maken***
-> ⚠ « poser une question » → *een vraag **stellen*** · « donner une présentation » → *een presentatie **geven***
+> ⚠ « faire une réunion » → *een vergadering **houden*** · « faire une erreur » → *een fout **maken*** (pas de piège)
+> ⚠ « poser une question » → *een vraag **stellen*** · ⚠ « faire une présentation » → *een presentatie **geven***
 > ⚠ « suivre une formation » → *een opleiding **volgen*** · « remplir un formulaire » → *een formulier **invullen*** · « prendre contact » → *contact **opnemen***
 
 **Notes pour l'animateur** — On n'apprend pas un verbe seul, mais une expression complète : *een vraag stellen*, pas « poser = *stellen* ». Faites fabriquer des cartes « expression » à réviser. *een vergadering hebben* est aussi correct (*We hebben om tien uur een vergadering*).
@@ -271,11 +271,11 @@
 **Contenu textuel**
 > « solliciter (demander) » → ✗ ~~*solliciteren*~~ → ✓ *vragen* · *solliciteren* = **postuler**
 > « la formation » → ✗ ~~*de formatie*~~ → ✓ *de opleiding*
-> « le patron » → ✗ ~~*het patroon*~~ → ✓ *de baas*
+> « le patron » → ✗ ~~*het patroon*~~ → ✓ *de baas* · Belgique : ***de** patroon*
 > « la société » (l'entreprise) → ✗ ~~*de samenleving*~~ → ✓ *het bedrijf*
 > « l'ordre du jour » → ✓ *de agenda* (comme « l'agenda »)
 
-**Notes pour l'animateur** — *de formatie* = la composition (d'un gouvernement, d'une équipe). *het patroon* = le modèle, le motif. *de samenleving* = la société au sens de « la communauté des gens ». *de agenda* a deux sens : l'agenda et l'ordre du jour (*Wat staat er op de agenda?*).
+**Notes pour l'animateur** — *de formatie* = la composition (d'un gouvernement, d'une équipe). *het patroon* = le modèle, le motif ; mais en Belgique, ***de** patroon* (masculin) est le mot courant pour le patron, l'employeur : attention à l'article. *de samenleving* = la société au sens de « la communauté des gens ». *de agenda* a deux sens : l'agenda et l'ordre du jour (*Wat staat er op de agenda?*).
 
 ---
 
@@ -384,7 +384,7 @@
 - Gabarit **E6** : l'e-mail de Sofie à Lotte, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Beste Lotte,* ↵ *Welkom bij Peeters & Co! Maandag om negen uur wacht ik je aan het onthaal. Eerst ga je naar de personeel dienst: daar teken je de contract. Als nieuwe werkgever krijg je een badge en een laptop. We maken elke maandag een vergadering met het hele team. Volgende week volg je een formatie over ons nieuwe programma.* ↵ *Tot maandag!* ↵ *Sofie* »
+> « *Beste Lotte,* ↵ *Welkom bij Peeters & Co! Maandag om negen uur wacht ik op je aan het onthaal. Eerst ga je naar de personeel dienst: daar teken je de contract. Als nieuwe werkgever krijg je een badge en een laptop. We maken elke maandag een vergadering met het hele team. Volgende week volg je een formatie over ons nieuwe programma.* ↵ *Tot maandag!* ↵ *Sofie* »
 >
 > **✓ CORRECTIE** — ~~*personeel dienst*~~ **personeelsdienst** · ~~*de contract*~~ **het contract** · ~~*werkgever*~~ **werknemer** · ~~*maken*~~ **houden** (ou **hebben**) · ~~*formatie*~~ **opleiding**
 
@@ -437,7 +437,7 @@
 > **Situation** : premier jour de Lotte chez Peeters & Co. Sofie lui fait visiter le rez-de-chaussée et présente les services.
 > **A** (Sofie) : montrez les pièces et expliquez qui fait quoi.
 > **B** (Lotte) : posez des questions sur les pièces, les collègues, les horaires.
-> Banque : *Dit is de vergaderzaal. · Hier is… · De boekhouding is op de eerste verdieping. · Wie werkt op…? · Waar kan ik…? · Hoe laat is de pauze? · Waar kan ik iets afdrukken?*
+> Banque : *Dit is de vergaderzaal. · Hier is… · De boekhouding is op de eerste verdieping. · Wie werkt op…? · Waar kan ik iets afdrukken? · Om hoe laat is de pauze? · Waar is de refter?*
 
 **Notes pour l'animateur** — Exigez au moins 4 pièces et 2 services. Réemploi du M25 pour les horaires (*Om hoe laat begint de vergadering?*).
 

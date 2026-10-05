@@ -542,7 +542,7 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 
 **S29 — Le pitch en 5 étapes** (M32)
 - Cinq pierres de gué numérotées, de gauche à droite : ① *Wie ben ik?* ② *Wat doe ik?* ③ *Wat heb ik gedaan?* ④ *Wat wil ik?* ⑤ *En privé?*
-- Chaque étape porte son temps et sa couleur (présent bleu, passé framboise, futur vert) et un exemple ; une formule finale : *Aangenaam!*
+- Chaque étape porte son temps et sa couleur (présent bleu, passé framboise, futur vert) et un exemple ; en serrant la main : *Aangenaam!* ; pour finir : *Leuk je te leren kennen!*
 
 ### 5.9 Gabarits d'exercices
 

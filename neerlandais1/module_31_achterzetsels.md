@@ -72,7 +72,7 @@
 > ➡️ **Décrire** — Je décris un trajet : *de trap op, de gang door, de hoek om.*
 > 🧭 **Guider** — Je guide un visiteur dans le bâtiment.
 
-**Notes pour l'animateur** — Au travail, on guide souvent un visiteur : *U loopt de gang door en de tweede deur links in.* C'est la tâche finale du module.
+**Notes pour l'animateur** — Au travail, on guide souvent un visiteur : *U loopt de gang door en u gaat de tweede deur links binnen.* C'est la tâche finale du module.
 
 ---
 
@@ -106,8 +106,8 @@
 - Sous chaque pièce, le nom du procédé.
 
 **Contenu textuel**
-> ***het voorzetsel*** (la préposition) : **devant** le nom → le **lieu** : *Ik stap **in** de keuken.* (je suis dans la cuisine et je marche)
-> ***het achterzetsel*** (la postposition) : **après** le nom → la **direction** : *Ik stap de keuken **in**.* (j'entre dans la cuisine)
+> ***het voorzetsel*** (la préposition) : **devant** le nom → le **lieu** : *Ik loop **in** de keuken.* (je suis dans la cuisine et je marche)
+> ***het achterzetsel*** (la postposition) : **après** le nom → la **direction** : *Ik loop de keuken **in**.* (j'entre dans la cuisine)
 > Un *achterzetsel* = on **franchit une limite** ou on **suit un trajet**.
 
 **Notes pour l'animateur** — *achter* = derrière, *zetten* = poser : *het achterzetsel* est « ce qu'on pose derrière ». Les mots de la grammaire néerlandaise sont transparents : *het voorzetsel* (posé devant), *het achterzetsel* (posé derrière). Faites dessiner le schéma dans les cahiers : point = lieu, flèche = direction.
@@ -150,7 +150,7 @@
 > « Il **sort** du garage *en voiture*. » → *Hij **rijdt** de garage **uit**.*
 > **FR** : verbe = direction · **NL** : verbe = manière + *achterzetsel* = direction
 
-**Notes pour l'animateur** — C'est la diapo clé pour des francophones. Le néerlandais (comme l'anglais : *he runs into the kitchen*) a peu de verbes de direction et beaucoup de verbes de manière : *lopen, rennen, fietsen, rijden, zwemmen, kruipen, springen*. Le français dit « entrer », le néerlandais dit « courir + dedans ». Faites retraduire mot à mot : *Hij rent de keuken in* = « il court la cuisine dedans ».
+**Notes pour l'animateur** — C'est la diapo clé pour des francophones. Le néerlandais (comme l'anglais : *he runs into the kitchen*) a peu de verbes de direction et beaucoup de verbes de manière : *lopen, rennen, fietsen, rijden, zwemmen, kruipen, springen*. Le français dit « entrer », le néerlandais dit « courir + dedans ». Faites retraduire mot à mot : *Hij rent de keuken in* = « il court la cuisine dedans ». En Flandre, attention : *lopen* veut souvent dire « courir » et *stappen* « marcher » ; aux Pays-Bas, *lopen* = marcher, *rennen* = courir.
 
 ---
 
@@ -197,7 +197,7 @@
 > **voorbij** = dépasser : *Ze rijdt het station **voorbij**.*
 > **binnen** = entrer (un peu plus soutenu) : *Hij stapt het kantoor **binnen**.*
 
-**Notes pour l'animateur** — *de hoek om* (tourner au coin) ≠ *om de hoek* (au coin, là où l'on est) : même contraste lieu / direction ! *binnen* comme *achterzetsel* est fréquent à l'écrit et dans les annonces : *Kom gerust binnen* (M16). Variante : *rond* (faire le tour) : *Ze reist de wereld **rond**.*
+**Notes pour l'animateur** — *de hoek om* (tourner au coin) ≠ *om de hoek* (au coin, là où l'on est) : même contraste lieu / direction ! *binnen* comme *achterzetsel* est fréquent à l'écrit et dans les annonces : *Stap gerust de winkel binnen.* (Dans *Kom gerust binnen*, M16, il n'y a pas de nom : *binnen* est la particule de *binnenkomen*.) Variante : *rond* (faire le tour) : *Ze reist de wereld **rond**.*
 
 ---
 
@@ -216,7 +216,7 @@
 > *We wandelen **op** de dijk.* (nous marchons sur la digue) · *We wandelen de dijk **op**.* (nous montons sur la digue)
 > *Hij rijdt **in** de tunnel.* (il roule dans le tunnel) · *Hij rijdt de tunnel **door**.* (il traverse le tunnel)
 > *De kinderen rennen **in** de gang.* (ils courent dans le couloir) · *De kinderen rennen de gang **uit**.* (ils sortent du couloir en courant)
-> *De kat loopt **op** de tafel.* (le chat marche sur la table) · *De kat springt de tafel **op**.* (le chat saute sur la table)
+> *We lopen **op** de brug.* (nous marchons sur le pont) · *We lopen de brug **over**.* (nous traversons le pont)
 
 **Notes pour l'animateur** — Faites lire chaque paire à voix haute en dessinant dans l'air un point puis une flèche. Variante en binôme : l'un lit une phrase, l'autre montre « point » ou « flèche ».
 
@@ -267,9 +267,9 @@
 > *Ik **heb** in het park gelopen.* (j'ai marché dans le parc) · *Ik **ben** het park in gelopen.* (je suis entré dans le parc)
 > *We **hebben** op de dijk gefietst.* · *We **zijn** de dijk op gefietst.*
 > *Ze **heeft** in de zee gezwommen.* · *Ze **is** de zee in gezwommen.*
-> **Achterzetsel → toujours *zijn***
+> **Verbe de mouvement (sans complément d'objet) + *achterzetsel* → *zijn***
 
-**Notes pour l'animateur** — Rappel du M15 : *lopen, fietsen, zwemmen* prennent *hebben* pour l'activité et *zijn* pour un déplacement vers un but. L'*achterzetsel* marque toujours un déplacement : donc toujours *zijn*. C'est une aide précieuse à l'écrit.
+**Notes pour l'animateur** — Rappel du M15 : *lopen, fietsen, zwemmen* prennent *hebben* pour l'activité et *zijn* pour un déplacement vers un but. L'*achterzetsel* marque un déplacement : avec un verbe de mouvement, c'est *zijn*. Mais avec un complément d'objet, on garde *hebben* : *Ik **heb** de doos de trap op gedragen.* Et certains verbes s'emploient comme verbes à particule : *Ze **heeft** de wereld rondgereisd.*
 
 ---
 
@@ -404,7 +404,7 @@
 > 1 *Il entre dans la cuisine.* · 2 *Je monte l'escalier en courant.* · 3 *Elle traverse le parc à vélo.*
 > 4 *Nous sortons du bâtiment.* · 5 *Le chat saute sur la table.* · 6 *Ils sont descendus de la montagne à pied.*
 >
-> **✓ CORRECTIE** — 1 *Hij loopt de keuken in.* (ou *Hij gaat de keuken binnen.*) · 2 *Ik ren de trap op.* · 3 *Ze fietst het park door.* · 4 *We lopen het gebouw uit.* (ou *We gaan naar buiten.*) · 5 *De kat springt de tafel op.* (ou *op de tafel*) · 6 *Ze zijn de berg af gelopen.*
+> **✓ CORRECTIE** — 1 *Hij loopt de keuken in.* (ou *Hij gaat de keuken binnen.*) · 2 *Ik ren de trap op.* (en Belgique aussi *Ik loop de trap op*, diapo 6) · 3 *Ze fietst het park door.* (ou *Ze fietst door het park.*) · 4 *We lopen het gebouw uit.* (ou *We gaan naar buiten.*) · 5 *De kat springt de tafel op.* (ou *op de tafel*) · 6 *Ze zijn de berg af gelopen.*
 
 **Notes pour l'animateur** — N° 2 : « en courant » devient le verbe (*rennen*). N° 6 : *zijn* (déplacement) ; on accepte *afgelopen*. N° 5 : avec *springen*, la préposition est aussi possible (diapo 5).
 
@@ -418,11 +418,11 @@
 - Gabarit **E6** : l'e-mail de Karim à mevrouw Wouters, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Geachte mevrouw Wouters,* ↵ *Zo vindt u de vergaderzaal: u stapt het gebouw binnen en u loopt op de trap naar de eerste verdieping. Daar kruist u de gang tot aan de koffieautomaat. Dan gaat u de hoek om en u loopt in de vergaderzaal in. Ik wacht naar binnen op u. Vorige keer heeft een bezoeker de verkeerde zaal in gelopen!* ↵ *Met vriendelijke groeten* ↵ *Karim Benali* »
+> « *Geachte mevrouw Wouters,* ↵ *Zo vindt u de vergaderzaal van de directie: u stapt het gebouw binnen en u stijgt de trap naar de eerste verdieping. Daar kruist u de gang tot aan de koffieautomaat. Dan gaat u de hoek om en u loopt in de vergaderzaal in. Ik wacht naar binnen op u. Vorige keer heeft een bezoeker de verkeerde zaal in gelopen!* ↵ *Met vriendelijke groeten* ↵ *Karim Benali* »
 >
-> **✓ CORRECTIE** — ~~*u loopt op de trap*~~ **u loopt de trap op** · ~~*kruist u de gang*~~ **loopt u de gang door** · ~~*in de vergaderzaal in*~~ **de vergaderzaal in** · ~~*naar binnen*~~ **binnen** (lieu) · ~~*heeft … in gelopen*~~ **is … in gelopen**
+> **✓ CORRECTIE** — ~~*u stijgt de trap*~~ **u loopt de trap op** · ~~*kruist u de gang*~~ **loopt u de gang door** · ~~*in de vergaderzaal in*~~ **de vergaderzaal in** · ~~*naar binnen*~~ **binnen** (lieu) · ~~*heeft … in gelopen*~~ **is … in gelopen**
 
-**Notes pour l'animateur** — Leurres : *u stapt het gebouw binnen* et *de hoek om* sont corrects. N° 4 : *binnen* = lieu (où j'attends) ; *naar binnen* = direction (diapo 13).
+**Notes pour l'animateur** — Leurres : *u stapt het gebouw binnen* et *de hoek om* sont corrects. N° 1 : *stijgen* s'emploie pour les prix et les avions (diapo 15). La vergaderzaal de la directie est à l'étage (le plan **S27** montre le rez-de-chaussée). N° 4 : *binnen* = lieu (où j'attends) ; *naar binnen* = direction (diapo 13).
 
 ---
 
@@ -435,9 +435,9 @@
 - 4 itinéraires numérotés ; l'apprenant suit au doigt et nomme la pièce d'arrivée.
 
 **Contenu textuel**
-> 1 *U loopt het onthaal voorbij en de gang in. U loopt de eerste deur links in.*
-> 2 *U loopt de gang in en u loopt de tweede deur rechts in.*
-> 3 *U loopt de gang in, het kopieerlokaal voorbij, en u loopt de laatste deur links in.*
+> 1 *U loopt het onthaal voorbij en de gang in. U gaat de eerste deur links binnen.*
+> 2 *U loopt de gang in en u gaat de tweede deur rechts binnen.*
+> 3 *U loopt de gang in, het kopieerlokaal voorbij, en u gaat de laatste deur links binnen.*
 > 4 *U loopt de gang door tot het einde en u loopt de trap op.*
 >
 > **✓ CORRECTIE** — 1 *de vergaderzaal* · 2 *de keuken* · 3 *de toiletten* · 4 *de eerste verdieping* (de directie en de boekhouding)

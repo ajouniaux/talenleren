@@ -132,7 +132,7 @@ function build(d) {
   // ---------------------------------------------------------------- 6 fonctions
   {
     const s = d.page({ g: 6, tag: 'VOCABULAIRE', title: 'Les fonctions' });
-    const F = [['man-office-worker', 'de directeur', 'de directrice', 'directeur·rice'], ['woman-office-worker', 'de boekhouder', 'de boekhoudster', 'comptable'], ['handshake', 'de verkoper', 'de verkoopster', 'vendeur·euse'], ['busts-in-silhouette', 'de medewerker', 'de medewerkster', 'collaborateur·rice'], ['person-tipping-hand', 'de onthaalmedewerker', '(-ster)', 'réceptionniste'], ['technologist', 'de informaticus', 'de IT’er', 'informaticien·ne'], ['student', 'de stagiair', 'de stagiaire', 'stagiaire'], ['bust-in-silhouette', 'het afdelingshoofd', '', 'chef·fe de service']];
+    const F = [['man-office-worker', 'de directeur', 'de directrice', 'directeur·rice'], ['woman-office-worker', 'de boekhouder', 'de boekhoudster', 'comptable'], ['handshake', 'de verkoper', 'de verkoopster', 'vendeur·euse'], ['busts-in-silhouette', 'de medewerker', 'de medewerkster', 'collaborateur·rice'], ['person-tipping-hand', 'de onthaalmedewerker', '(-ster)', 'réceptionniste'], ['technologist', 'de informaticus', '(= de IT’er)', 'informaticien·ne'], ['student', 'de stagiair', 'de stagiaire', 'stagiaire'], ['bust-in-silhouette', 'het afdelingshoofd', '', 'chef·fe de service']];
     const cw = (12.13 - 3 * 0.18) / 4; const ch = 1.95;
     F.forEach(([il, m, f, fr], i) => {
       const x = 0.6 + (i % 4) * (cw + 0.18); const y = 1.7 + Math.floor(i / 4) * (ch + 0.15);
@@ -231,7 +231,7 @@ function build(d) {
   // ---------------------------------------------------------------- 12 piège collocations
   {
     const s = d.page({ g: 12, tag: 'PIÈGE FR ≠ NL', title: 'PIÈGE : prendre, faire, poser…' });
-    const R = [[false, '« prendre une décision »', 'een beslissing **!!nemen!!**'], [false, '« prendre une pause »', 'een pauze **!!nemen!!**'], [false, '« prendre congé »', 'verlof **!!nemen!!**'], [true, '« faire une réunion »', 'een vergadering **!!houden!!**'], [true, '« faire une erreur »', 'een fout **!!maken!!**'], [true, '« poser une question »', 'een vraag **!!stellen!!**'], [false, '« donner une présentation »', 'een presentatie **!!geven!!**'], [true, '« suivre une formation »', 'een opleiding **!!volgen!!**'], [true, '« remplir un formulaire »', 'een formulier **!!invullen!!**'], [true, '« prendre contact »', 'contact **!!opnemen!!**']];
+    const R = [[false, '« prendre une décision »', 'een beslissing **!!nemen!!**'], [false, '« prendre une pause »', 'een pauze **!!nemen!!**'], [false, '« prendre congé »', 'verlof **!!nemen!!**'], [true, '« faire une réunion »', 'een vergadering **!!houden!!**'], [false, '« faire une erreur »', 'een fout **!!maken!!**'], [true, '« poser une question »', 'een vraag **!!stellen!!**'], [true, '« faire une présentation »', 'een presentatie **!!geven!!**'], [true, '« suivre une formation »', 'een opleiding **!!volgen!!**'], [true, '« remplir un formulaire »', 'een formulier **!!invullen!!**'], [true, '« prendre contact »', 'contact **!!opnemen!!**']];
     const cw = (12.13 - 0.3) / 2; const rh = 0.78;
     R.forEach(([warn, fr, nl], i) => {
       const c = Math.floor(i / 5); const r = i % 5;
@@ -262,7 +262,7 @@ function build(d) {
   {
     const s = d.page({ g: 14, tag: 'PIÈGE FR ≠ NL', title: 'PIÈGE : les faux amis' });
     trapFrame(s, 4.4);
-    const R = [['« solliciter » (demander)', 'solliciteren', '**vragen** · //solliciteren// = **postuler**'], ['« la formation »', 'de formatie', 'de **opleiding**'], ['« le patron »', 'het patroon', 'de **baas**'], ['« la société » (l’entreprise)', 'de samenleving', 'het **bedrijf**'], ['« l’ordre du jour »', null, 'de **agenda** (comme « l’agenda »)']];
+    const R = [['« solliciter » (demander)', 'solliciteren', '**vragen** · //solliciteren// = **postuler**'], ['« la formation »', 'de formatie', 'de **opleiding**'], ['« le patron »', 'het patroon', 'de **baas** · BE : **de** patroon'], ['« la société » (l’entreprise)', 'de samenleving', 'het **bedrijf**'], ['« l’ordre du jour »', null, 'de **agenda** (comme « l’agenda »)']];
     R.forEach(([fr, ko, ok], i) => {
       const y = 2.3 + i * 0.75;
       d.t(s, fr, 0.95, y, 3.6, 0.66, { size: 17, valign: 'middle' });
@@ -271,7 +271,7 @@ function build(d) {
       d.rect(s, 7.7, y + 0.04, 4.85, 0.58, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.5, radius: 0.1 });
       d.t(s, `✓ //${ok}//`, 7.85, y + 0.04, 4.65, 0.58, { size: 17, valign: 'middle' });
     });
-    band(s, '//de formatie// = la composition (d’un gouvernement) · //het patroon// = le modèle · //de samenleving// = la société (les gens)', 6.25, 0.62, 'tx2', 16);
+    band(s, '//de formatie// = la composition · //**het** patroon// = le modèle, mais BE : //**de** patroon// = le patron · //de samenleving// = la société (les gens)', 6.25, 0.62, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 15 BE ou NL
@@ -386,7 +386,7 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Sofie Peeters · Aan: Lotte Claes · Onderwerp: welkom!', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = ['//Beste Lotte,//', '//Welkom bij Peeters & Co! Maandag om negen uur wacht ik je aan het onthaal. Eerst ga je naar de {{personeel dienst}}++ personeelsdienst++: daar teken je {{de}}++ het++ contract. Als nieuwe {{werkgever}}++ werknemer++ krijg je een badge en een laptop. We {{maken}}++ houden++ elke maandag een vergadering met het hele team. Volgende week volg je een {{formatie}}++ opleiding++ over ons nieuwe programma.//', '//Tot maandag!//', '//Sofie//'];
+    const txt = ['//Beste Lotte,//', '//Welkom bij Peeters & Co! Maandag om negen uur wacht ik op je aan het onthaal. Eerst ga je naar de {{personeel dienst}}++ personeelsdienst++: daar teken je {{de}}++ het++ contract. Als nieuwe {{werkgever}}++ werknemer++ krijg je een badge en een laptop. We {{maken}}++ houden++ elke maandag een vergadering met het hele team. Volgende week volg je een {{formatie}}++ opleiding++ over ons nieuwe programma.//', '//Tot maandag!//', '//Sofie//'];
     d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 18, gap: 6, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
@@ -431,7 +431,7 @@ function build(d) {
       d.rect(s, x, y, w, 0.5, { fill: 'tx2', line: null, radius: 0.04 });
       d.t(s, 'PEETERS & CO', x + 0.15, y, w - 0.3, 0.5, { size: 12, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
       floorPlan(d, s, x + 0.1, y + 0.65, w - 0.2, 2.5, { size: 7, icons: false, label: (k) => ALL[k].replace(/^(de|het) /, '') });
-      d.t(s, 'Eerste verdieping : de directie · de boekhouding', x + 0.15, y + 3.2, w - 0.3, 0.4, { size: 11, italic: true, color: 'accent5' });
+      d.t(s, 'Eerste verdieping: de directie · de boekhouding', x + 0.15, y + 3.2, w - 0.3, 0.4, { size: 11, italic: true, color: 'accent5' });
       d.t(s, ['**Diensten**', 'boekhouding · personeelsdienst · verkoop · aankoop · marketing · IT-dienst'], x + 0.15, y + 3.65, w - 0.3, h - 3.75, { size: 12, gap: 2 });
     },
   });

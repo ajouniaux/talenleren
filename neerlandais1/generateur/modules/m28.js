@@ -355,7 +355,7 @@ function build(d) {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.5, { fill: 'tx2', line: null, radius: 0.04 });
       d.t(s, 'DEELNEMERS · NETWERKAVOND', x + 0.15, y, w - 0.3, 0.5, { size: 11, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
-      const P = [['woman-office-worker', 'Eva Wouters', 'Maesbouw · Brussel'], ['man-office-worker', 'Tom De Smet', 'Bolero · Leuven'], ['woman', 'Nadia El Amrani', 'Sportclub Vitaal · Gent'], ['man-beard', 'Pieter Claes', 'freelance · Mechelen']];
+      const P = [['woman-office-worker', 'Eva Wouters', 'Maesbouw · Brussel'], ['man-office-worker', 'Tom De Smet', 'Koopzo · Leuven'], ['woman', 'Nadia El Amrani', 'Sportclub Vitaal · Gent'], ['man-beard', 'Pieter Claes', 'freelance · Mechelen']];
       const ch = (h - 0.7) / 4;
       P.forEach(([il, n, org], i) => {
         const yy = y + 0.6 + i * ch;

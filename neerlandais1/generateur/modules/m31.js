@@ -145,7 +145,7 @@ function build(d) {
   d.cover({
     g: 1, title: 'De keuken in!', sub: 'La postposition de direction (het achterzetsel)', line: 'Ik stap in de keuken · Ik stap de keuken in',
     visual: (s) => {
-      [['lieu', 'Ik stap **^^in^^** de keuken.', 1.0, 'waar?'], ['dir', 'Ik stap de keuken **##in##**.', 3.05, 'waarheen?']].forEach(([m, t, y, q]) => {
+      [['lieu', 'Ik stap **^^in^^** de keuken.', 1.0, 'waar? … of waarheen?'], ['dir', 'Ik stap de keuken **##in##**.', 3.05, 'waarheen?']].forEach(([m, t, y, q]) => {
         d.rect(s, 7.0, y, 5.7, 1.8, { fill: 'FFFFFF', line: null, radius: 0.2, shadow: true });
         scene(s, 7.15, y + 0.15, 2.1, 1.5, m, { room: 'cooking' });
         d.t(s, `//${t}//`, 9.4, y + 0.15, 3.2, 1.1, { size: 22, valign: 'middle', head: true });
@@ -163,7 +163,7 @@ function build(d) {
       { icon: 'FaLongArrowAltRight', h: 'Décrire', t: 'Je décris un trajet : //de trap op, de gang door, de hoek om.//', color: DI },
       { icon: 'FaCompass', h: 'Guider', t: 'Je guide un visiteur dans le bâtiment.', color: 'accent3' },
     ],
-    band: 'Au travail : //U loopt de gang door en de tweede deur links in.//',
+    band: 'Au travail : //U loopt de gang door en u gaat de tweede deur links binnen.//',
   });
 
   // ---------------------------------------------------------------- 3 échauffement
@@ -189,7 +189,7 @@ function build(d) {
   d.section('Comprendre');
   {
     const s = d.page({ g: 4, tag: 'GRAMMAIRE', title: 'Le procédé : voorzetsel ou achterzetsel ?' });
-    [['lieu', LI, 'HET VOORZETSEL', 'la préposition · **devant** le nom', 'Ik stap **^^in^^** de keuken.', '**Waar?** — où ? le **lieu**'], ['dir', DI, 'HET ACHTERZETSEL', 'la postposition · **après** le nom', 'Ik stap de keuken **##in##**.', '**Waarheen?** — vers où ? la **direction**']].forEach(([m, c, h, sub, ex, q], i) => {
+    [['lieu', LI, 'HET VOORZETSEL', 'la préposition · **devant** le nom', 'Ik loop **^^in^^** de keuken.', '**Waar?** — où ? le **lieu**'], ['dir', DI, 'HET ACHTERZETSEL', 'la postposition · **après** le nom', 'Ik loop de keuken **##in##**.', '**Waarheen?** — vers où ? la **direction**']].forEach(([m, c, h, sub, ex, q], i) => {
       const x = 0.6 + i * 6.21; const w = 5.92;
       d.rect(s, x, 1.7, w, 3.95, { fill: 'bg1', line: c, lw: 2.5, radius: 0.12, shadow: true });
       d.rect(s, x, 1.7, w, 0.85, { fill: c, line: null, radius: 0.12 });
@@ -285,7 +285,7 @@ function build(d) {
     d.t(s, '**WAAR?** · le lieu', 1.1, 1.6, 5.0, 0.42, { size: 15, color: LI, valign: 'middle', cs: 1 });
     d.line(s, 6.95, 1.81, 7.35, 1.81, { color: DI, lw: 3.5 });
     d.t(s, '**WAARHEEN?** · la direction', 7.45, 1.6, 5.2, 0.42, { size: 15, color: DI, valign: 'middle', cs: 1 });
-    const P = [['Hij loopt **^^in^^** het park.', 'il se promène dans le parc', 'Hij loopt het park **##in##**.', 'il entre dans le parc'], ['Ik zwem **^^in^^** de rivier.', 'je nage dans la rivière', 'Ik zwem de rivier **##over##**.', 'je traverse la rivière à la nage'], ['Ze fietst **^^in^^** de stad.', 'elle roule en ville', 'Ze fietst de stad **##uit##**.', 'elle sort de la ville à vélo'], ['We wandelen **^^op^^** de dijk.', 'nous marchons sur la digue', 'We wandelen de dijk **##op##**.', 'nous montons sur la digue'], ['Hij rijdt **^^in^^** de tunnel.', 'il roule dans le tunnel', 'Hij rijdt de tunnel **##door##**.', 'il traverse le tunnel'], ['De kinderen rennen **^^in^^** de gang.', 'ils courent dans le couloir', 'De kinderen rennen de gang **##uit##**.', 'ils sortent du couloir en courant'], ['De kat loopt **^^op^^** de tafel.', 'le chat marche sur la table', 'De kat springt de tafel **##op##**.', 'le chat saute sur la table']];
+    const P = [['Hij loopt **^^in^^** het park.', 'il se promène dans le parc', 'Hij loopt het park **##in##**.', 'il entre dans le parc'], ['Ik zwem **^^in^^** de rivier.', 'je nage dans la rivière', 'Ik zwem de rivier **##over##**.', 'je traverse la rivière à la nage'], ['Ze fietst **^^in^^** de stad.', 'elle roule en ville', 'Ze fietst de stad **##uit##**.', 'elle sort de la ville à vélo'], ['We wandelen **^^op^^** de dijk.', 'nous marchons sur la digue', 'We wandelen de dijk **##op##**.', 'nous montons sur la digue'], ['Hij rijdt **^^in^^** de tunnel.', 'il roule dans le tunnel', 'Hij rijdt de tunnel **##door##**.', 'il traverse le tunnel'], ['De kinderen rennen **^^in^^** de gang.', 'ils courent dans le couloir', 'De kinderen rennen de gang **##uit##**.', 'ils sortent du couloir en courant'], ['We lopen **^^op^^** de brug.', 'nous marchons sur le pont', 'We lopen de brug **##over##**.', 'nous traversons le pont']];
     const rh = 0.6;
     P.forEach(([a, af, b, bf], i) => {
       const y = 2.1 + i * (rh + 0.04);
@@ -342,7 +342,7 @@ function build(d) {
         d.t(s, [`//${t}//`, f], x + 0.25, 2.5 + k * 1.0, w - 0.5, 0.9, { size: 18, gap: 1, valign: 'middle' });
       });
     });
-    band(s, '**##achterzetsel##** → toujours **zijn** · rappel M15 : //lopen, fietsen, zwemmen// + //hebben// pour l’activité', 5.9, 0.85, 'tx2', 18);
+    band(s, 'verbe de mouvement (sans complément d’objet) + **##achterzetsel##** → **zijn** · rappel M15 : + //hebben// pour l’activité', 5.9, 0.85, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 13 sans nom
@@ -419,7 +419,7 @@ function build(d) {
   // ---------------------------------------------------------------- 16 à retenir
   {
     const s = d.page({ g: 16, tag: 'À RETENIR', title: 'À retenir : la porte et la flèche' });
-    [['lieu', LI, '**avant** le nom = **où ?**', 'Ik stap **^^in^^** de keuken.'], ['dir', DI, '**après** le nom = **vers où ?**', 'Ik stap de keuken **##in##**.']].forEach(([m, c, h, ex], i) => {
+    [['lieu', LI, '**avant** le nom = **où ?**', 'Ik loop **^^in^^** de keuken.'], ['dir', DI, '**après** le nom = **vers où ?**', 'Ik loop de keuken **##in##**.']].forEach(([m, c, h, ex], i) => {
       const x = 0.6 + i * 6.21; const w = 5.92;
       d.rect(s, x, 1.7, w, 2.05, { fill: 'bg1', line: c, lw: 2, radius: 0.1 });
       scene(s, x + 0.15, 1.85, 2.6, 1.75, m, { room: 'cooking' });
@@ -434,7 +434,7 @@ function build(d) {
       d.t(s, `**${k}**`, x, 4.85, kw, 0.4, { size: 14, color: DI, align: 'center', valign: 'middle' });
     });
     d.rect(s, 0.6, 5.5, 12.13, 0.85, { fill: 'bg2', line: BORDER, radius: 0.1 });
-    d.t(s, 'Le verbe dit **la manière** · l’//achterzetsel// va **au bout** · passé composé avec **zijn**', 0.85, 5.5, 11.7, 0.85, { size: 19, valign: 'middle', align: 'center' });
+    d.t(s, 'Le verbe dit **la manière** · l’//achterzetsel// va **au bout** · verbe de mouvement : passé composé avec **zijn**', 0.85, 5.5, 11.7, 0.85, { size: 19, valign: 'middle', align: 'center' });
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
@@ -479,7 +479,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 20 ex3 traduisez
-  const ex3 = [['Il entre dans la cuisine.', 'Hij loopt de keuken in.', 'ou : Hij gaat de keuken binnen.'], ['Je monte l’escalier en courant.', 'Ik ren de trap op.', ''], ['Elle traverse le parc à vélo.', 'Ze fietst het park door.', ''], ['Nous sortons du bâtiment.', 'We lopen het gebouw uit.', 'ou : We gaan naar buiten.'], ['Le chat saute sur la table.', 'De kat springt de tafel op.', 'ou : op de tafel'], ['Ils sont descendus de la montagne à pied.', 'Ze zijn de berg af gelopen.', 'zijn ! (afgelopen accepté)']];
+  const ex3 = [['Il entre dans la cuisine.', 'Hij loopt de keuken in.', 'ou : Hij gaat de keuken binnen.'], ['Je monte l’escalier en courant.', 'Ik ren de trap op.', 'BE aussi : Ik loop de trap op.'], ['Elle traverse le parc à vélo.', 'Ze fietst het park door.', 'ou : Ze fietst door het park.'], ['Nous sortons du bâtiment.', 'We lopen het gebouw uit.', 'ou : We gaan naar buiten.'], ['Le chat saute sur la table.', 'De kat springt de tafel op.', 'ou : op de tafel'], ['Ils sont descendus de la montagne à pied.', 'Ze zijn de berg af gelopen.', 'zijn ! (afgelopen accepté)']];
   d.ex({ g: 20, title: 'Exercice 3 — Traduisez', stars: '★★', instr: 'Verbe de direction en français → verbe de manière + //achterzetsel//.' }, (s, mode, top) => {
     const rh = (6.88 - top) / 6;
     ex3.forEach(([fr, nl, alt], i) => {
@@ -498,8 +498,8 @@ function build(d) {
     const h = 6.88 - top;
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
-    d.t(s, 'Van: Karim Benali · Aan: Eva Wouters · Onderwerp: de weg naar de vergaderzaal', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = ['//Geachte mevrouw Wouters,//', '//Zo vindt u de vergaderzaal: u stapt het gebouw binnen en u loopt {{op de trap}}++ de trap op++ naar de eerste verdieping. Daar {{kruist u de gang}}++ loopt u de gang door++ tot aan de koffieautomaat. Dan gaat u de hoek om en u loopt {{in de vergaderzaal in}}++ de vergaderzaal in++. Ik wacht {{naar binnen}}++ binnen++ op u. Vorige keer {{heeft}}++ is++ een bezoeker de verkeerde zaal in gelopen!//', '//Met vriendelijke groeten//', '//Karim Benali//'];
+    d.t(s, 'Van: Karim Benali · Aan: Eva Wouters · Onderwerp: de weg naar de vergaderzaal van de directie', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
+    const txt = ['//Geachte mevrouw Wouters,//', '//Zo vindt u de vergaderzaal van de directie: u stapt het gebouw binnen en u {{stijgt de trap}}++ loopt de trap op++ naar de eerste verdieping. Daar {{kruist u de gang}}++ loopt u de gang door++ tot aan de koffieautomaat. Dan gaat u de hoek om en u loopt {{in de vergaderzaal in}}++ de vergaderzaal in++. Ik wacht {{naar binnen}}++ binnen++ op u. Vorige keer {{heeft}}++ is++ een bezoeker de verkeerde zaal in gelopen!//', '//Met vriendelijke groeten//', '//Karim Benali//'];
     d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 18, gap: 6, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
@@ -508,11 +508,11 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 22 ex5 waar ben ik
-  const ex5 = [['U loopt het onthaal voorbij en de gang in. U loopt de eerste deur links in.', 'de vergaderzaal'], ['U loopt de gang in en u loopt de tweede deur rechts in.', 'de keuken'], ['U loopt de gang in, het kopieerlokaal voorbij, en u loopt de laatste deur links in.', 'de toiletten'], ['U loopt de gang door tot het einde en u loopt de trap op.', 'de eerste verdieping']];
+  const ex5 = [['U loopt het onthaal voorbij en de gang in. U gaat de eerste deur links binnen.', 'de vergaderzaal'], ['U loopt de gang in en u gaat de tweede deur rechts binnen.', 'de keuken'], ['U loopt de gang in, het kopieerlokaal voorbij, en u gaat de laatste deur links binnen.', 'de toiletten'], ['U loopt de gang door tot het einde en u loopt de trap op.', 'de eerste verdieping']];
   d.ex({ g: 22, title: 'Exercice 5 — Waar ben ik?', stars: '★★', instr: 'Suivez l’itinéraire sur le plan. Dans quelle pièce arrivez-vous ?' }, (s, mode, top) => {
     const A = floorPlan(d, s, 0.6, top + 0.1, 6.3, 3.9, { size: 10, label: (k) => (mode === 'a' || ['onthaal', 'parking', 'trap', 'lift', 'gang', 'kopieerlokaal'].includes(k) ? ALL[k] : null) });
     d.chip(s, 'U bent hier', A.ingang[0] - 0.55, A.ingang[1] + 0.32, 'accent6', 0.3, 10);
-    d.t(s, '↑ links · ↓ rechts (en marchant dans la gang)', 0.6, top + 4.1, 6.3, 0.35, { size: 12, italic: true, color: 'accent5', align: 'center' });
+    d.t(s, '↑ links · ↓ rechts (en marchant dans le couloir)', 0.6, top + 4.1, 6.3, 0.35, { size: 12, italic: true, color: 'accent5', align: 'center' });
     const rh = (6.88 - top) / 4;
     ex5.forEach(([t, a], i) => {
       const y = top + i * rh;
