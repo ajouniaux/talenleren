@@ -85,7 +85,7 @@ function build(d) {
   {
     const s = d.page({ g: 4, tag: 'MÉTHODE', title: 'Un chunk, c’est quoi ?' });
     d.t(s, 'MOT PAR MOT', 0.7, 1.65, 4.6, 0.4, { size: 13, bold: true, color: MW, cs: 2 });
-    [['hoe', 'comment', 1.0, 2.35, -8], ['gaat', 'va', 2.75, 2.15, 6], ['het', 'il', 1.75, 3.55, 4]].forEach(([w, fr, x, y, r]) => {
+    [['hoe', 'comment', 1.0, 2.35, -8], ['gaat', 'va', 2.75, 2.15, 6], ['het', 'ça', 1.75, 3.55, 4]].forEach(([w, fr, x, y, r]) => {
       brick(s, x, y, 1.45, 0.75, `//${w}//`, 'D98A4A', { size: 22, rotate: r });
       d.t(s, fr, x, y + 0.82, 1.45, 0.35, { size: 13, italic: true, color: MW, align: 'center' });
     });
@@ -108,7 +108,7 @@ function build(d) {
     d.t(s, 'LE MOT À MOT', 4.75, 1.6, 4.0, 0.38, { size: 13, bold: true, color: MW, cs: 2 });
     d.ill(s, 'confused-face', 6.85, 1.52, 0.48, 0.48);
     d.t(s, 'LE VRAI SENS', 8.95, 1.6, 3.8, 0.38, { size: 13, bold: true, color: BO, cs: 2 });
-    const R = [['Hoe gaat het?', 'Comment va ça ?', 'Ça va ?'], ['Hoe oud ben je?', 'Comment vieux es-tu ?', 'Quel âge as-tu ?'], ['Tot ziens!', 'Jusqu’à voir !', 'Au revoir !'], ['Dank je wel!', 'Te remercie bien !', 'Merci beaucoup !'], ['Graag gedaan!', 'Volontiers fait !', 'De rien !'], ['Alsjeblieft!', 'Si cela te plaît !', 'S’il te plaît ! / Voilà !']];
+    const R = [['Hoe gaat het?', 'Comment va ça ?', 'Ça va ?'], ['Hoe oud ben je?', 'Comment vieux es-tu ?', 'Quel âge as-tu ?'], ['Tot ziens!', 'Jusqu’au revoir !', 'Au revoir !'], ['Dank je wel!', 'Te remercie bien !', 'Merci beaucoup !'], ['Graag gedaan!', 'Volontiers fait !', 'De rien !'], ['Ik ben 25 jaar.', 'Je suis 25 ans.', 'J’ai 25 ans.']];
     R.forEach(([nl, lit, fr], i) => {
       const y = 2.15 + i * 0.66;
       brick(s, 0.7, y + 0.06, 3.7, 0.5, `//${nl}//`, BL, { size: 18 });
@@ -145,13 +145,14 @@ function build(d) {
       brick(s, x + 0.3, 2.68, 3.33, 0.42, `//${t}//`, BL, { size: 17 });
     });
     d.line(s, 0.7, 3.38, 12.6, 3.38, { color: BL, lw: 2, dash: 'dash' });
-    [['J’ARRIVE', [['Hallo! · Hoi!', 'entre amis, collègues'], ['Dag!', 'bonjour (BE)']]], ['JE PARS', [['Dag!', 'au revoir (BE)'], ['Tot straks!', 'à tout à l’heure'], ['Tot morgen!', 'à demain'], ['Tot ziens!', 'au revoir'], ['Fijne dag!', 'bonne journée']]]].forEach(([h, L], i) => {
+    [['J’ARRIVE', [['Hallo!', 'neutre'], ['Hoi!', 'familier'], ['Dag!', 'bonjour (BE)']]], ['JE PARS', [['Dag!', 'au revoir (BE)'], ['Tot straks!', 'à tout à l’heure'], ['Tot morgen!', 'à demain'], ['Tot ziens!', 'au revoir'], ['Nog een fijne dag!', 'bonne journée']]]].forEach(([h, L], i) => {
       const x = i === 0 ? 0.6 : 4.7; const w = i === 0 ? 3.93 : 8.03;
       d.t(s, h, x, 3.55, w, 0.38, { size: 13, bold: true, color: 'accent5', cs: 2 });
       L.forEach(([t, fr], k) => {
         const cx = i === 0 ? x : x + (k % 2) * 4.05; const cy = 4.05 + (i === 0 ? k : Math.floor(k / 2)) * 0.78;
-        brick(s, cx, cy, 1.95, 0.5, `//${t}//`, BL, { size: 15 });
-        d.t(s, fr, cx + 2.05, cy, 1.95, 0.5, { size: 13, italic: true, color: MW, valign: 'middle' });
+        const bw = i === 0 ? 1.95 : 2.45;
+        brick(s, cx, cy, bw, 0.5, `//${t}//`, BL, { size: 15 });
+        d.t(s, fr, cx + bw + 0.1, cy, 3.9 - bw, 0.5, { size: 13, italic: true, color: MW, valign: 'middle' });
       });
     });
     band(s, 'En Belgique, //**Dag!**// sert à dire bonjour **et** au revoir.', 6.3, 0.55, 'tx2', 17);
@@ -194,7 +195,7 @@ function build(d) {
   // ---------------------------------------------------------------- 10 questions
   {
     const s = d.page({ g: 10, tag: 'BLOCS', title: 'Les blocs-questions' });
-    const R = [['Hoe heet je?', 'Ik heet', ''], ['Waar kom je vandaan?', 'Ik kom uit', ''], ['Waar woon je?', 'Ik woon in', ''], ['Hoe oud ben je?', 'Ik ben', 'jaar.'], ['Welke talen spreek je?', 'Ik spreek', ''], ['Wat doe je?', 'Ik ben', '']];
+    const R = [['Hoe heet je?', 'Ik heet', ''], ['Waar kom je vandaan?', 'Ik kom uit', ''], ['Waar woon je?', 'Ik woon in', ''], ['Hoe oud ben je?', 'Ik ben', 'jaar.'], ['Welke talen spreek je?', 'Ik spreek', ''], ['Wat doe je van beroep?', 'Ik ben', '']];
     R.forEach(([q, b, a], i) => {
       const y = 1.72 + i * 0.73;
       d.bubble(s, `//**${q}**//`, 0.6, y, 4.9, 0.6, SL, { size: 18 });
@@ -216,7 +217,7 @@ function build(d) {
       d.t(s, fr, 4.45, y, 2.4, 0.6, { size: 14, italic: true, color: MW, valign: 'middle', align: 'center' });
     });
     d.t(s, 'POUR TOUT LE MONDE', 0.7, 4.2, 6, 0.38, { size: 13, bold: true, color: 'accent5', cs: 2 });
-    [['Graag gedaan!', 'de rien'], ['Sorry!', 'pardon'], ['Pardon?', 'pardon ?'], ['Geen probleem!', 'pas de problème'], ['Aangenaam!', 'enchanté·e'], ['Welkom!', 'bienvenue']].forEach(([t, fr], i) => {
+    [['Graag gedaan!', 'de rien'], ['Sorry!', 'désolé·e'], ['Pardon?', 'pardon ?'], ['Geen probleem!', 'pas de problème'], ['Aangenaam!', 'enchanté·e'], ['Welkom!', 'bienvenue']].forEach(([t, fr], i) => {
       const x = 0.7 + (i % 3) * 4.05; const y = 4.75 + Math.floor(i / 3) * 0.78;
       brick(s, x, y, 2.35, 0.5, `//${t}//`, BL, { size: 16 });
       d.t(s, fr, x + 2.45, y, 1.55, 0.5, { size: 13, italic: true, color: MW, valign: 'middle' });
@@ -242,16 +243,16 @@ function build(d) {
   // ---------------------------------------------------------------- 13 épeler
   {
     const s = d.page({ g: 13, tag: 'BLOCS BOUÉES', tagColor: BO, title: 'Épeler : les lettres pièges' });
-    const L = [['a', '« â »'], ['e', '« é »'], ['i', '« i »'], ['u', '« u »'], ['g', '« ghé »'], ['h', '« hâ »'], ['j', '« yé »'], ['w', '« wé »'], ['ij', 'lange ij']];
-    const tw = (12.13 - 8 * 0.15) / 9;
+    const L = [['a', '« â »'], ['e', '« é »'], ['i', '« i »'], ['u', '« u »'], ['g', '« ghé »'], ['h', '« hâ »'], ['j', '« yé »'], ['w', '« wé »'], ['y', '« i-grec »'], ['ij', 'lange ij']];
+    const tw = (12.13 - 9 * 0.15) / 10;
     L.forEach(([l, p], i) => {
       const x = 0.6 + i * (tw + 0.15);
       d.rect(s, x, 1.75, tw, 1.7, { fill: 'FFF6E0', line: 'C9A86A', lw: 1.5, radius: 0.1, shadow: true });
       d.t(s, l, x, 1.8, tw, 1.0, { size: 44, bold: true, color: 'tx2', align: 'center', valign: 'middle', head: true });
-      d.t(s, p, x, 2.8, tw, 0.5, { size: 15, bold: true, color: BL, align: 'center', valign: 'middle' });
+      d.t(s, p, x, 2.8, tw, 0.5, { size: 13, bold: true, color: BL, align: 'center', valign: 'middle' });
     });
     d.rect(s, 0.6, 3.7, 12.13, 0.75, { fill: 'FBEDEB', line: 'accent6', lw: 1.25, radius: 0.1 });
-    d.t(s, 'Pièges : //e// se dit « **é** », //i// se dit « **i** » (pas l’inverse !) · //u// comme en français · //j// se dit « **yé** »', 0.85, 3.7, 11.7, 0.75, { size: 18, valign: 'middle' });
+    d.t(s, 'Pièges : //e// « **é** » (pas « eu ») · //g// « **ghé** » raclé (pas « jé ») · //j// « **yé** » (pas « ji ») · //u// comme en français', 0.85, 3.7, 11.7, 0.75, { size: 18, valign: 'middle' });
     d.t(s, 'BLOC UTILE', 0.6, 4.65, 6, 0.38, { size: 13, bold: true, color: 'accent5', cs: 2 });
     brick(s, 0.7, 5.2, 3.6, 0.6, '//met dubbele e//', BO, { size: 20 });
     d.t(s, '//Peeters, **met dubbele e**. · Hassan, **met dubbele s**.//', 4.5, 5.1, 8.2, 0.8, { size: 19, valign: 'middle' });
@@ -261,7 +262,7 @@ function build(d) {
   // ---------------------------------------------------------------- 14 dialogue
   {
     const s = d.page({ g: 14, tag: 'MISE EN SITUATION', title: 'Un dialogue avec des bouées' });
-    const D = [['S', 'Hoi! Ik ben Sofie. Hoe heet jij?'], ['K', 'Sorry, **kan je even herhalen?**', 1], ['S', 'Hoe heet jij?'], ['K', 'Ik heet Karim. En jij?'], ['S', 'Sofie Peeters.'], ['K', '**Kan je het laatste woord spellen?**', 1], ['S', 'P-E-E-T-E-R-S. **Met dubbele e.**'], ['K', 'Dank je wel! Aangenaam!']];
+    const D = [['S', 'Hoi! Hoe heet jij?'], ['K', 'Sorry, **kan je even herhalen?**', 1], ['S', 'Hoe heet jij?'], ['K', 'Ik heet Karim. En jij?'], ['S', 'Ik ben Sofie Peeters.'], ['K', '**Kan je het laatste woord spellen?**', 1], ['S', 'P-E-E-T-E-R-S. **Met dubbele e.**'], ['K', 'Dank je wel! Aangenaam!']];
     D.forEach(([who, t, buoy], i) => {
       const y = 1.62 + i * 0.6;
       if (who === 'S') {
@@ -293,7 +294,7 @@ function build(d) {
     const cols = [['le bloc', 0.4, 2.0], ['le sens', 2.45, 1.75], ['ma phrase', 4.25, 1.95]];
     cols.forEach(([c, cx, cw]) => d.t(s, `**${c}**`, x + cx, y + 0.6, cw, 0.4, { size: 14, color: BL }));
     d.line(s, x + 0.35, y + 1.02, x + w - 0.15, y + 1.02, { color: BL, lw: 1.5, arrow: false });
-    const rows = [['Hoe gaat het?', 'Ça va ?', 'au bureau, le matin'], ['Ik woon in …', 'J’habite à…', 'Ik woon in Luik.'], ['Kan je even herhalen?', 'Tu peux répéter ?', 'au téléphone']];
+    const rows = [['Hoe gaat het?', 'Ça va ?', 'Hoe gaat het, Sofie?'], ['Ik woon in …', 'J’habite à…', 'Ik woon in Luik.'], ['Kan je even herhalen?', 'Tu peux répéter ?', 'Sorry, kan je even herhalen?']];
     for (let k = 0; k < 6; k++) {
       const ry = y + 1.1 + k * 0.52;
       d.line(s, x + 0.35, ry + 0.5, x + w - 0.15, ry + 0.5, { color: 'D9D2BF', lw: 0.75, arrow: false });
@@ -349,7 +350,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 19 ex2 le bon bloc
-  const S2 = [['alarm-clock', 'Vous arrivez au cours à 9 h.', 'Goedemorgen!'], ['waving-hand', 'Vous partez, vous revoyez la personne cet après-midi.', 'Tot straks!'], ['folded-hands', 'On vous dit //Dank je wel!//', 'Graag gedaan!'], ['confused-face', 'Vous n’avez pas compris la phrase.', 'Kan je even herhalen?'], ['pencil', 'Vous ne savez pas écrire le nom.', 'Kan je het laatste woord spellen?'], ['handshake', 'On vous présente quelqu’un.', 'Aangenaam!'], ['slightly-smiling-face', 'On vous demande //Hoe gaat het?//', 'Goed, en met jou?'], ['turtle', 'La personne parle trop vite.', 'Kan je wat trager spreken?']];
+  const S2 = [['alarm-clock', 'Vous arrivez au cours à 9 h.', 'Goedemorgen!'], ['waving-hand', 'Vous partez, vous revoyez la personne cet après-midi.', 'Tot straks!'], ['folded-hands', 'On vous dit //Dank je wel!//', 'Graag gedaan!'], ['confused-face', 'Vous n’avez pas compris la phrase.', 'Kan je even herhalen?'], ['pencil', 'Vous ne savez pas écrire le dernier mot (un nom de famille).', 'Kan je het laatste woord spellen?'], ['handshake', 'On vous présente quelqu’un.', 'Aangenaam!'], ['slightly-smiling-face', 'On vous demande //Hoe gaat het?//', 'Goed, en met jou?'], ['turtle', 'La personne parle trop vite.', 'Kan je wat trager spreken?']];
   d.ex({ g: 19, title: 'Exercice 2 — Le bon bloc au bon moment', stars: '★', instr: 'Quel bloc dites-vous ? Choisissez dans la banque.' }, (s, mode, top) => {
     let y0 = top;
     if (mode === 'q') {
@@ -441,7 +442,7 @@ function build(d) {
       d.t(s, '↓', x, 2.75, cw, 0.3, { size: 16, bold: true, color: BO, align: 'center', valign: 'middle' });
       brick(s, x + 0.1, 3.15, cw - 0.2, 0.58, `//${t}//`, BO, { size: 13 });
     });
-    const R = [['TOUR 1', 'en chœur', 'L’enseignant·e dit une phrase (trop vite, à voix basse, avec un mot inconnu) et montre un signal → **toute la classe** répond.'], ['TOUR 2', 'seul·e', 'Même jeu : **un·e apprenant·e** répond seul·e.'], ['TOUR 3', 'sans signal', 'Plus de signal : **chacun choisit** la bonne bouée. Objectif : 2 secondes !']];
+    const R = [['TOUR 1', 'en chœur', 'L’enseignant·e dit une phrase (trop vite, à voix basse, avec un mot inconnu) et montre un signal → **toute la classe** répond.'], ['TOUR 2', 'seul·e', 'Même jeu : **un·e apprenant·e** répond seul·e.'], ['TOUR 3', 'sans signal', 'Plus de signal : **chacun choisit** la bonne bouée. Objectif : 2 à 3 secondes !']];
     R.forEach(([h, sub, t], i) => {
       const y = 4.1 + i * 0.88;
       d.rect(s, 0.6, y, 2.3, 0.76, { fill: BO, tr: i * 25, line: null, radius: 0.1 });
@@ -457,9 +458,9 @@ function build(d) {
     scenario: 'Premier cours de néerlandais : faites connaissance avec votre voisin·e. Règle d’or : **pas sûr·e à 100 % ? → une bouée !**',
     a: '**A** : présentez-vous avec vos blocs (ou avec une carte-identité), à vitesse normale.',
     b: '**B** : remplissez la fiche ; utilisez **au moins 3 bouées différentes** ; vérifiez l’orthographe.',
-    bank: '//Hoe heet je? · Waar woon je? · Hoe oud ben je? · Welke talen spreek je? · **Kan je even herhalen? · Kan je wat trager spreken? · Kan je het laatste woord spellen?** · Met dubbele…? · Dank je wel! · Aangenaam!//',
+    bank: '//Hoe heet je? · Waar woon je? · Hoe oud ben je? · Welke talen spreek je? · **Kan je even herhalen? · Kan je wat trager spreken? · Kan je het laatste woord spellen?** · Hoe schrijf je dat? · Met dubbele…? · Dank je wel! · Aangenaam!//',
     doc: (s, x, y, w, h) => {
-      d.form(s, x, y, w, 2.35, 'FICHE · KENNISMAKING', ['Naam', 'Woonplaats', 'Leeftijd', 'Talen'], { color: BO });
+      d.form(s, x, y, w, 2.35, 'FICHE · KENNISMAKING', ['Voornaam', 'Familienaam', 'Woonplaats', 'Leeftijd', 'Talen'], { color: BO });
       d.t(s, 'CARTES-IDENTITÉS (A)', x, y + 2.5, w, 0.3, { size: 11, bold: true, color: 'accent5', cs: 1 });
       [['Jeroen Wuyts', 'Ieper · 28 jaar', 'Nederlands en Engels'], ['Lieve Huysmans', 'Kortrijk · 35 jaar', 'Nederlands en Frans'], ['Bram Uyttendaele', 'Gent · 41 jaar', 'Nederlands en Duits']].forEach(([n, l, t], i) => {
         const cy = y + 2.85 + i * 0.8;

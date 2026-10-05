@@ -31,6 +31,7 @@
 - Code couleur : les blocs en **orange** (briques), les cases à compléter en **bleu**, les **blocs bouées** (stratégies de dépannage) en **vert**, le mot à mot en **gris**.
 - Les blocs sont donnés d'abord avec *je* (entre apprenants), puis avec *u* quand c'est utile (*Kunt u even herhalen?*). *Kan je* et *Kun je* s'entendent tous les deux ; *kan je* est très courant en Belgique.
 - La mise en situation finale impose l'usage **systématique** des blocs bouées : chaque doute = une bouée.
+- Le module présente une quarantaine de blocs. **Les 10 indispensables** : *Goedemorgen! · Dag! · Tot ziens! · Hoe gaat het? — Goed, en met jou? · Ik heet… · Ik woon in… · Ik spreek… · Kan je even herhalen? · Kan je wat trager spreken? · Kan je het laatste woord spellen?* Les autres sont à reconnaître et s'ajoutent au carnet peu à peu.
 
 ## Déroulé
 
@@ -88,7 +89,7 @@
 > « Ça va ? » · « S'il vous plaît » · « Il y a » · « À plus ! » · « Enchanté·e » · « Je ne sais pas »
 > Vous analysez « s'il vous plaît » mot par mot ? Non ! Vous l'utilisez **en bloc**. En néerlandais, c'est pareil.
 
-**Notes pour l'animateur** — Faites traduire « s'il vous plaît » mot à mot (« si il vous plaît ») : ça sonne bizarre, et pourtant personne n'y pense. Dans « je ne sais pas », on prononce souvent « chais pas » : un bloc, un souffle.
+**Notes pour l'animateur** — Faites traduire « s'il vous plaît » mot à mot (« si il vous plaît ») : ça sonne bizarre, et pourtant personne n'y pense. Dans « je ne sais pas », on prononce souvent « chais pas » : un bloc, un souffle. En néerlandais, « je ne sais pas » est aussi un bloc : *Ik weet het niet.*
 
 ---
 
@@ -105,10 +106,10 @@
 
 **Contenu textuel**
 > **Un chunk** = un groupe de mots qu'on apprend, qu'on retient et qu'on dit **d'un seul bloc**.
-> *hoe* (comment) + *gaat* (va) + *het* (il) → ***Hoe gaat het?*** = « Ça va ? »
+> *hoe* (comment) + *gaat* (va) + *het* (ça) → ***Hoe gaat het?*** = « Ça va ? »
 > 1 bloc = 1 sens = 1 souffle
 
-**Notes pour l'animateur** — Dites *Hoe gaat het?* d'un souffle, sans pause : « hoegaathet ». Faites répéter en chœur. Insistez : on n'a pas besoin de savoir que *het* veut dire « il » pour utiliser le bloc.
+**Notes pour l'animateur** — Dites *Hoe gaat het?* d'un souffle, sans pause : « hoegaathet ». Faites répéter en chœur. Insistez : on n'a pas besoin de savoir que *het* veut dire « ça » pour utiliser le bloc.
 
 ---
 
@@ -123,13 +124,13 @@
 **Contenu textuel**
 > *Hoe gaat het?* · « Comment va ça ? » · **Ça va ?**
 > *Hoe oud ben je?* · « Comment vieux es-tu ? » · **Quel âge as-tu ?**
-> *Tot ziens!* · « Jusqu'à voir ! » · **Au revoir !**
+> *Tot ziens!* · « Jusqu'au revoir ! » · **Au revoir !**
 > *Dank je wel!* · « Te remercie bien ! » · **Merci beaucoup !**
 > *Graag gedaan!* · « Volontiers fait ! » · **De rien !**
-> *Alsjeblieft!* · « Si cela te plaît ! » · **S'il te plaît ! / Voilà !**
+> *Ik ben 25 jaar.* · « Je suis 25 ans. » · **J'ai 25 ans.**
 > Mot à mot : bizarre. En bloc : simple.
 
-**Notes pour l'animateur** — Lisez la colonne du milieu avec un ton théâtral : les apprenants rient, et retiennent. *Alsjeblieft* vient de *als het je belieft* (« si cela te plaît ») : un bloc devenu un seul mot. Il sert aussi à donner quelque chose (« voilà »).
+**Notes pour l'animateur** — Lisez la colonne du milieu avec un ton théâtral : les apprenants rient, et retiennent. Exception amusante : *alsjeblieft* vient de *als het je belieft* (« si cela te plaît »), exactement comme « s'il te plaît » : un bloc devenu un seul mot, dans les deux langues. *Ik ben 25 jaar* montre le piège inverse : le français dit « avoir », le néerlandais « être ».
 
 ---
 
@@ -159,10 +160,10 @@
 - 2 colonnes de briques : « j'arrive » / « je pars ».
 
 **Contenu textuel**
-> **J'arrive** : *Goedemorgen!* (le matin) · *Goedemiddag!* (l'après-midi) · *Goedenavond!* (le soir) · *Hallo! / Hoi!* (entre amis) · *Dag!*
-> **Je pars** : *Dag!* · *Tot straks!* (à tout à l'heure) · *Tot morgen!* (à demain) · *Tot ziens!* (au revoir) · *Fijne dag!* (bonne journée)
+> **J'arrive** : *Goedemorgen!* (le matin) · *Goedemiddag!* (l'après-midi) · *Goedenavond!* (le soir) · *Hallo!* (neutre) · *Hoi!* (familier) · *Dag!*
+> **Je pars** : *Dag!* · *Tot straks!* (à tout à l'heure) · *Tot morgen!* (à demain) · *Tot ziens!* (au revoir) · *Nog een fijne dag!* (bonne journée)
 
-**Notes pour l'animateur** — En Belgique, *Dag!* sert à dire bonjour **et** au revoir. *Hoi* et *Hallo* sont familiers : entre collègues, entre apprenants. Faites saluer la personne à côté, puis prendre congé, en changeant de moment de la journée.
+**Notes pour l'animateur** — En Belgique, *Dag!* sert à dire bonjour **et** au revoir. *Hallo* est neutre ; *Hoi* est familier (entre collègues, entre apprenants). À l'oral, on entend souvent *Goeiemorgen, Goeiemiddag, Goeienavond*. Faites saluer la personne à côté, puis prendre congé, en changeant de moment de la journée.
 
 ---
 
@@ -217,7 +218,7 @@
 > *Waar woon je?* → *Ik woon in…*
 > *Hoe oud ben je?* → *Ik ben … jaar.*
 > *Welke talen spreek je?* → *Ik spreek…*
-> *Wat doe je?* → *Ik ben…*
+> *Wat doe je van beroep?* → *Ik ben…*
 
 **Notes pour l'animateur** — Une question = une réponse-bloc. Faites tourner la balle : A pose une question, B répond et pose la suivante. Avec *u* : *Hoe heet u? · Waar woont u?* (M8).
 
@@ -233,10 +234,10 @@
 **Contenu textuel**
 > *Alsjeblieft* / *Alstublieft* (s'il te plaît / s'il vous plaît, voilà)
 > *Dank je (wel)* / *Dank u (wel)* (merci)
-> *Graag gedaan!* (de rien) · *Sorry!* · *Pardon?* · *Geen probleem!*
+> *Graag gedaan!* (de rien) · *Sorry!* (désolé·e) · *Pardon?* · *Geen probleem!*
 > *Aangenaam!* (enchanté·e) · *Welkom!*
 
-**Notes pour l'animateur** — *Alsjeblieft* / *Alstublieft* servent pour demander **et** pour donner (« voilà »). *Aangenaam* se dit en se serrant la main, très courant en Belgique.
+**Notes pour l'animateur** — *Alsjeblieft* / *Alstublieft* servent pour demander **et** pour donner (« voilà »). *Aangenaam* se dit en se serrant la main, très courant en Belgique. En Flandre, on entend aussi *Wablieft?* (= *Pardon?*) et *Merci!* (même entre amis).
 
 ---
 
@@ -245,7 +246,7 @@
 **Objectif pédagogique** — Apprendre les stratégies de dépannage comme des blocs à sortir immédiatement.
 
 **Visuel / Schéma / Agencement**
-- Une bouée au centre ; autour, 7 briques vertes avec un pictogramme.
+- Une bouée au centre ; autour, 8 briques vertes avec un pictogramme.
 - *En bas* : les versions avec *u*.
 
 **Contenu textuel**
@@ -258,7 +259,7 @@
 > 🙋 ***Sorry, ik begrijp het niet.*** · ***Ik spreek nog maar een beetje Nederlands.***
 > Avec *u* : *Kunt u even herhalen? · Kunt u wat trager spreken?*
 
-**Notes pour l'animateur** — Ces blocs sont les plus importants du module : un débutant qui les connaît ne reste jamais bloqué. Règle de la classe à partir d'aujourd'hui : on ne dit plus « quoi ? » en français, on sort une bouée. *trager* (Belgique) = *langzamer* (Pays-Bas). *Kan je* ou *Kun je* : les deux s'entendent.
+**Notes pour l'animateur** — Ces blocs sont les plus importants du module : un débutant qui les connaît ne reste jamais bloqué. Règle de la classe à partir d'aujourd'hui : on ne dit plus « quoi ? » en français, on sort une bouée. *trager* (Belgique) = *langzamer* (Pays-Bas). *Kan je* ou *Kun je* : les deux s'entendent. *even* adoucit la demande (« un instant »), il ne veut pas dire « même ». Dans la vraie vie, on entend aussi *Kan je **dat** even herhalen?* et *Kan je dat even spellen?* En Flandre, *Kan u…?* est aussi courant que *Kunt u…?*
 
 ---
 
@@ -267,15 +268,15 @@
 **Objectif pédagogique** — Pouvoir épeler et comprendre une épellation (pour le bloc *Kan je het laatste woord spellen?*).
 
 **Visuel / Schéma / Agencement**
-- 8 tuiles-lettres avec la prononciation approchée en français.
+- 10 tuiles-lettres avec la prononciation approchée en français.
 - *En bas* : le bloc *met dubbele…* avec un exemple.
 
 **Contenu textuel**
 > **a** « â » · **e** « é » · **i** « i » · **u** « u » (comme en français !)
-> **g** « ghé » (raclé) · **h** « hâ » · **j** « yé » · **w** « wé » · **ij** « lange ij » (èï)
+> **g** « ghé » (raclé) · **h** « hâ » · **j** « yé » · **w** « wé » · **y** « i-grec » · **ij** « lange ij » (èï)
 > Bloc utile : *Peeters, **met dubbele e**.* · *Hassan, **met dubbele s**.*
 
-**Notes pour l'animateur** — Les pièges pour les francophones : *e* se dit « é » et *i* se dit « i » (et non l'inverse), *j* se dit « yé ». Faites épeler son prénom à son voisin, qui l'écrit. L'alphabet complet est au M2.
+**Notes pour l'animateur** — Les pièges pour les francophones : *e* se dit « é » (pas « eu »), *g* se dit « ghé » raclé (pas « jé »), *j* se dit « yé » (pas « ji »). *y* se dit « i-grec » en Flandre (aux Pays-Bas : *Griekse y* ou *ypsilon*) : indispensable pour *Wuyts, Huysmans, Uyttendaele* (ex. 6 et 7). Faites épeler son prénom à son voisin, qui l'écrit. L'alphabet complet est au M2.
 
 ---
 
@@ -287,16 +288,16 @@
 - Un dialogue en bulles entre Sofie et Karim ; les blocs bouées surlignés en vert, avec la bouée en marge.
 
 **Contenu textuel**
-> **Sofie** : *Hoi! Ik ben Sofie. Hoe heet jij?*
+> **Sofie** : *Hoi! Hoe heet jij?*
 > **Karim** : *Sorry, kan je even herhalen?*
 > **Sofie** : *Hoe heet jij?*
 > **Karim** : *Ik heet Karim. En jij?*
-> **Sofie** : *Sofie Peeters.*
+> **Sofie** : *Ik ben Sofie Peeters.*
 > **Karim** : *Kan je het laatste woord spellen?*
 > **Sofie** : *P-E-E-T-E-R-S. Met dubbele e.*
 > **Karim** : *Dank je wel! Aangenaam!*
 
-**Notes pour l'animateur** — Faites lire le dialogue en binômes, deux fois, en changeant de rôle. Puis remplacez les prénoms par les vrais prénoms des apprenants. Montrez que les bouées rendent la conversation **plus** naturelle, pas moins.
+**Notes pour l'animateur** — Faites lire le dialogue en binômes, deux fois, en changeant de rôle. Puis remplacez les prénoms par les vrais prénoms des apprenants. *jij* est la forme accentuée de *je* (diapo 10) : on l'utilise quand on insiste. Montrez que les bouées rendent la conversation **plus** naturelle, pas moins.
 
 ---
 
@@ -306,11 +307,11 @@
 
 **Visuel / Schéma / Agencement**
 - 4 étapes numérotées avec icône : oreille · perroquet · carnet · flèche.
-- *À droite* : une page de « carnet de blocs » à 3 colonnes, avec 2 exemples.
+- *À droite* : une page de « carnet de blocs » à 3 colonnes, avec 3 exemples.
 
 **Contenu textuel**
 > ① **J'écoute** le bloc en entier. ② **Je répète** d'un souffle, 3 fois, à voix haute. ③ **Je note** le bloc entier dans mon carnet. ④ **Je réutilise** le bloc aujourd'hui.
-> Carnet : **le bloc** · **le sens** · **ma phrase** — *Ik woon in…* · J'habite à… · *Ik woon in Luik.*
+> Carnet : **le bloc** · **le sens** · **ma phrase** — *Hoe gaat het?* · Ça va ? · *Hoe gaat het, Sofie?* — *Ik woon in…* · J'habite à… · *Ik woon in Luik.* — *Kan je even herhalen?* · Tu peux répéter ? · *Sorry, kan je even herhalen?*
 
 **Notes pour l'animateur** — Le carnet note le **sens** du bloc, jamais le mot à mot. Conseil : 3 nouveaux blocs par jour, répétés à voix haute (dans la voiture, sous la douche…). Les apprenants commencent leur carnet en fin de séance (ticket de sortie).
 
@@ -373,7 +374,7 @@
 
 **Contenu textuel**
 > 1 Vous arrivez au cours à 9 h. · 2 Vous partez, vous revoyez la personne cet après-midi. · 3 On vous dit *Dank je wel!* · 4 Vous n'avez pas compris la phrase.
-> 5 Vous ne savez pas écrire le nom. · 6 On vous présente quelqu'un. · 7 On vous demande *Hoe gaat het?* · 8 La personne parle trop vite.
+> 5 Vous ne savez pas écrire le dernier mot (un nom de famille). · 6 On vous présente quelqu'un. · 7 On vous demande *Hoe gaat het?* · 8 La personne parle trop vite.
 > Banque : *Goedemorgen! · Tot straks! · Graag gedaan! · Kan je even herhalen? · Kan je het laatste woord spellen? · Aangenaam! · Goed, en met jou? · Kan je wat trager spreken?*
 >
 > **✓ CORRECTIE** — 1 *Goedemorgen!* · 2 *Tot straks!* · 3 *Graag gedaan!* · 4 *Kan je even herhalen?* · 5 *Kan je het laatste woord spellen?* · 6 *Aangenaam!* · 7 *Goed, en met jou?* · 8 *Kan je wat trager spreken?*
@@ -394,7 +395,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik ben 25 jaar.* · 2 *Hoe gaat het (met jou)?* · 3 *Ik heet Karim.* · 4 *Tot ziens!* · 5 *Dank je wel.* · 6 *Kan je even herhalen?*
 
-**Notes pour l'animateur** — Faites retrouver d'où vient chaque erreur : « j'ai 25 ans », « comment vas-tu », « je m'appelle », « merci beaucoup », « peux-tu répéter encore une fois ». Morale : le français ne se traduit pas, il se remplace par un bloc.
+**Notes pour l'animateur** — Faites retrouver d'où vient chaque erreur : « j'ai 25 ans », « comment vas-tu », « je m'appelle », « merci beaucoup », « peux-tu répéter encore une fois ». Morale : le français ne se traduit pas, il se remplace par un bloc. N° 6 : l'erreur est surtout l'ordre des mots ; *Kan je dat nog een keer herhalen?* est correct et accepté.
 
 ---
 
@@ -443,7 +444,7 @@
 > **Tour 2** : même jeu, un·e apprenant·e répond **seul·e**.
 > **Tour 3** : plus de signal → chacun **choisit** la bonne bouée.
 
-**Notes pour l'animateur** — Phrases à utiliser : *Ik woon in Sint-Pieters-Woluwe* (très vite → 🔁 ou 🐢) · *Mijn naam is Vandenbroucke* (→ 🔤) · *Het is hier heel gezellig* (→ *Wat betekent gezellig?*) · *Ik heet Wuyts* (→ 🔤 / ✏️) · *Ik kom uit Ieper* (→ 🔤). Répondez toujours à la bouée : épelez, répétez lentement, expliquez. Le but est le réflexe : 2 à 3 secondes maximum entre la phrase et la bouée.
+**Notes pour l'animateur** — Phrases à utiliser : *Ik woon in Sint-Pieters-Woluwe* (très vite → 🔁 ou 🐢) · *Mijn naam is Vandenbroucke* (→ 🔤) · *Het is hier heel gezellig* (→ *Wat betekent gezellig?*) · *Ik heet Jeroen Wuyts* (→ 🔤 / ✏️) · *Ik kom uit Ieper* (→ 🔤). Répondez toujours à la bouée : épelez, répétez lentement, expliquez. Le but est le réflexe : 2 à 3 secondes maximum entre la phrase et la bouée.
 
 ---
 
@@ -457,9 +458,9 @@
 **Contenu textuel**
 > **Situation** : premier cours de néerlandais. Vous faites connaissance avec votre voisin·e. Règle d'or : **pas sûr·e à 100 % ? → une bouée !**
 > **A** : présentez-vous avec vos blocs (ou avec une carte-identité), à vitesse normale.
-> **B** : remplissez la fiche (*naam, woonplaats, leeftijd, talen*) ; utilisez **au moins 3 bouées différentes** ; vérifiez l'orthographe avant de rendre la fiche.
+> **B** : remplissez la fiche (*voornaam, familienaam, woonplaats, leeftijd, talen*) ; utilisez **au moins 3 bouées différentes** ; vérifiez l'orthographe avant de rendre la fiche.
 > Cartes-identités : *Jeroen Wuyts · Ieper · 28 jaar · Nederlands en Engels* · *Lieve Huysmans · Kortrijk · 35 jaar · Nederlands en Frans* · *Bram Uyttendaele · Gent · 41 jaar · Nederlands en Duits*
-> Banque : *Hoe heet je? · Waar woon je? · Hoe oud ben je? · Welke talen spreek je? · Kan je even herhalen? · Kan je wat trager spreken? · Kan je het laatste woord spellen? · Met dubbele…? · Dank je wel! · Aangenaam!*
+> Banque : *Hoe heet je? · Waar woon je? · Hoe oud ben je? · Welke talen spreek je? · Kan je even herhalen? · Kan je wat trager spreken? · Kan je het laatste woord spellen? · Hoe schrijf je dat? · Met dubbele…? · Dank je wel! · Aangenaam!*
 
 **Notes pour l'animateur** — Changez de rôle après 4 minutes. A comptabilise les bouées utilisées par B (une coche par bouée) : objectif, 3 bouées différentes. À la fin, A vérifie la fiche de B : orthographe juste = 1 point par case. Les noms flamands (*Wuyts, Huysmans, Uyttendaele, Ieper*) sont choisis exprès : ils obligent à faire épeler.
 
