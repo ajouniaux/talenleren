@@ -40,6 +40,10 @@
 
 > **Complément *Ik heb moeten werken* (double infinitif, A2–B1).** Création. Le procédé est nommé (*de dubbele infinitief*, IPP : « l'infinitif à la place du participe ») et part de l'erreur naturelle des francophones (*j'ai dû travailler* → ~~*ik heb gemoeten werken*~~). Quatre schémas propres au complément : **D1** « l'échange » (le participe barré remplacé par l'infinitif) ; **D2** « le train des verbes » (locomotive bleu marine = verbe conjugué, wagon 1 orange = verbe pilote, wagon 2 rouge = action ; roues et rails sous la bande-phrase ; dans la subordonnée, le train entier au bout) ; **D3** « les cinq familles » ; **D4** « le premier wagon choisit la locomotive » (*moeten* → *hebben*, *gaan* → *zijn*).
 
+> **Complément *Ik bel om een afspraak te maken* (*te* et *om … te*, A2–B1).** Création. Point de départ : le français « de, à, pour » → néerlandais *te*, *om … te* ou rien. Trois schémas : **T1** « deux familles » (sans *te* = les verbes pilotes du double infinitif ; avec *te* = presque tous les autres) ; **T2** « la pince *om … te* » (*om* violet, *te* orange, infinitif rouge, crochet violet sous la bande-phrase) ; **T3** « dans la pince » (compléments, *niet* devant *te*, *op te bellen*). Piège n° 1 : « pour » + verbe ≠ *voor*.
+
+> **Complément *Er zijn er vijf* (les emplois de *er*, B1).** Création. Cinq emplois, cinq couleurs et cinq images : ① *er* présentatif (bleu, il y a) · ② *er* de lieu (vert, y) · ③ *er* + nombre (orange, en) · ④ *er* + préposition (violet, M23) · ⑤ *er wordt* + participe (bleu-vert, on). Schémas : **E1** « la carte des cinq emplois », **E2** « le miroir » (*Er zijn er drie* = *Il y en a trois*), **E3** « l'aiguillage » (cinq questions dans l'ordre).
+
 ---
 
 ## 2. Diagnostic transversal

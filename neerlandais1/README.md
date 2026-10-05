@@ -19,7 +19,7 @@ Le parcours compte sept blocs :
 
 Les blocs 4 à 7 (M16 à M32) ont été créés sans archive.
 
-En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6). ***Chunks!*** montre aux vrais débutants, dès la première semaine, comment **apprendre par blocs de mots** (*Hoe gaat het? · Ik woon in… · Kan je even herhalen?*), avec les « blocs bouées » pour se dépanner (à utiliser avec M2 et M8). Pour aller plus loin (B1–B2), ***Aan, af, op, uit…*** explique **les significations des particules séparables** en images : 14 particules, un schéma chacune, trois sens illustrés, les verbes séparables et inséparables (à utiliser après M11). ***Ik heb moeten werken*** présente **le double infinitif** (A2–B1) avec un schéma de train : la locomotive (le verbe conjugué) et deux wagons (les infinitifs) ; cinq familles de verbes, *hebben* ou *zijn*, les pièges et les regrets (*Ik had moeten bellen*) (à utiliser après M15 et M17).
+En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6). ***Chunks!*** montre aux vrais débutants, dès la première semaine, comment **apprendre par blocs de mots** (*Hoe gaat het? · Ik woon in… · Kan je even herhalen?*), avec les « blocs bouées » pour se dépanner (à utiliser avec M2 et M8). Pour aller plus loin (B1–B2), ***Aan, af, op, uit…*** explique **les significations des particules séparables** en images : 14 particules, un schéma chacune, trois sens illustrés, les verbes séparables et inséparables (à utiliser après M11). ***Ik heb moeten werken*** présente **le double infinitif** (A2–B1) avec un schéma de train : la locomotive (le verbe conjugué) et deux wagons (les infinitifs) ; cinq familles de verbes, *hebben* ou *zijn*, les pièges et les regrets (*Ik had moeten bellen*) (à utiliser après M15 et M17). ***Ik bel om een afspraak te maken*** trie **l'infinitif avec ou sans *te*** et construit la **pince *om … te*** (A2–B1), et ***Er zijn er vijf*** présente **les cinq emplois de *er*** (il y a · y · en · y / en + préposition · on, B1).
 
 ## Contenu du dossier
 
@@ -63,6 +63,8 @@ En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la pron
 | Complément | [`powerpoints/Chunks_Apprendre_par_blocs.pptx`](powerpoints/Chunks_Apprendre_par_blocs.pptx) — apprendre par blocs de mots (A1, vrais débutants) | 29 |
 | Complément | [`powerpoints/Partikels_Les_particules_separables.pptx`](powerpoints/Partikels_Les_particules_separables.pptx) — les significations des particules séparables (B1–B2), une particule = une image | 44 |
 | Complément | [`powerpoints/Dubbele_infinitief_Le_double_infinitif.pptx`](powerpoints/Dubbele_infinitief_Le_double_infinitif.pptx) — le double infinitif (A2–B1) : *Ik heb moeten werken* | 31 |
+| Complément | [`powerpoints/Om_te_L_infinitif_avec_te.pptx`](powerpoints/Om_te_L_infinitif_avec_te.pptx) — l'infinitif avec *te* et *om … te* (A2–B1) | 26 |
+| Complément | [`powerpoints/Er_Les_cinq_emplois_de_er.pptx`](powerpoints/Er_Les_cinq_emplois_de_er.pptx) — les cinq emplois de *er* (B1) | 27 |
 
 Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT). La carte de la Belgique et les drapeaux sont dessinés directement dans PowerPoint.
 
@@ -107,6 +109,8 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | [`chunks_blokjes.md`](chunks_blokjes.md) | ***Chunks!*** — apprendre par blocs de mots (A1, vrais débutants) : la brique et le bloc, le mot à mot qui ne marche pas, 4 raisons d'apprendre en blocs, saluer et prendre congé, *Hoe gaat het? — En met jou?*, le bloc à trou (*Ik woon in ▢*), blocs-questions, politesse *je / u*, **blocs bouées** (*Kan je even herhalen? · Kan je het laatste woord spellen?*), épeler, carnet de blocs, réflexe bouée et mise en situation · 25 diapos, 7 exercices |
 | [`partikels_b1_b2.md`](partikels_b1_b2.md) | ***Aan, af, op, uit…*** — les significations des particules séparables (B1–B2), à partir du tableau source, corrigé et enrichi, en version **très visuelle** : chaque particule a un schéma dessiné (boîte, flèche, mur, cible, personnages) et une couleur ; échauffement *aan/bij/af + leren* (et le piège *ver-*), la particule saute à la fin, les 14 images à deviner, les trois étages (direction → résultat → figuré), **une diapo par particule** (*in, uit, op, af, aan, toe, bij, mee, tegen, door, over, om, voor, na* : un schéma, trois images, un verbe et une phrase par sens), *terug, weg, samen, vast, los*, les interrupteurs (contraires), l'étoile de *nemen*, un verbe / trois sens, particule + préposition (*Ik kijk ernaar uit*), ciseaux ou cadenas (séparable / inséparable), doublets (*VOORkomen / voorKOmen*), groupes verbaux, deviner un verbe inconnu · 39 diapos, 7 exercices |
 | [`dubbele_infinitief.md`](dubbele_infinitief.md) | ***Ik heb moeten werken*** — le double infinitif (A2–B1) : *vandaag… gisteren ?*, l'infinitif remplace le participe (*~~gemoeten~~ → moeten* ; le procédé nommé : *dubbele infinitief*, IPP), le train des verbes (locomotive = verbe conjugué, wagons = infinitifs, principale et subordonnée), les cinq familles (modaux · *laten* · *gaan, komen, blijven* + *zijn* · *zitten, staan, liggen, lopen* sans *te* · *zien, horen, voelen*), *hebben* ou *zijn* (le premier wagon choisit), seul → participe, avec *te* → participe, séparables et subordonnée, les regrets (*had moeten / had kunnen*) · 26 diapos, 7 exercices |
+| [`te_om_te.md`](te_om_te.md) | ***Ik bel om een afspraak te maken*** — l'infinitif avec *te* et *om … te* (A2–B1) : avec ou sans *te* ?, deux familles (sans *te* = les verbes du double infinitif ; avec *te* = *proberen, beginnen, vergeten…*), *zitten te* et *niet hoeven te*, *om … te* = pour (le but), après un nom ou un adjectif, **la pince *om … te*** (compléments, *niet*, *op te bellen*), *zonder / in plaats van / door … te*, piège « pour » = *voor* ou *om … te*, au passé · 22 diapos, 6 exercices |
+| [`er_emplois.md`](er_emplois.md) | ***Er zijn er vijf*** — les cinq emplois de *er* (B1) : un mot / cinq traductions, la carte des cinq emplois (① il y a · ② y, là · ③ en · ④ *er* + préposition · ⑤ *er wordt* = on), piège du sujet défini, la place de *er*, *er* ou *daar*, *Er zijn er drie* = il y en a trois, l'aiguillage · 23 diapos, 6 exercices |
 
 ## Correspondance avec les archives
 
@@ -150,11 +154,13 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 36 fichiers dans ../powerpoints
+npm run build        # réécrit les 38 fichiers dans ../powerpoints
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
 node build.js uitspraak   # le complément de prononciation
 node build.js chunks      # le complément « apprendre par blocs »
 node build.js partikels   # le complément B1–B2 sur les particules séparables
 node build.js dubbel      # le complément A2–B1 sur le double infinitif
+node build.js omte        # le complément A2–B1 sur te et om … te
+node build.js er          # le complément B1 sur les emplois de er
 ```
