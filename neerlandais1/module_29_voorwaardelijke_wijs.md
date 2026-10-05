@@ -81,7 +81,7 @@
 **Contenu textuel**
 > *Karim: Als ik de lotto won, **zou** ik een huis aan zee **kopen**.*
 > *Sofie: Als ik meer tijd had, **zou** ik Italiaans **leren**.*
-> *Lotte: Als ik directeur was, **zou** ik elke vrijdag vrij **geven**.*
+> *Lotte: Als ik directeur was, **zou** ik iedereen elke vrijdag vrijaf **geven**.*
 > Où est le 2e verbe ? Quel temps suit *als* ?
 
 **Notes pour l'animateur** — Faites repérer *zou* (2e position) et l'infinitif au bout : c'est la pince du M12. Après *als* : *won, had, was* (imperfectum, M19). Puis : « Et vous ? *Als ik de lotto won, zou ik…* »
@@ -228,7 +228,7 @@
 > *Ik **zou** graag **willen komen**.* · *Ik **zou** graag **komen**.*
 > Subordonnée : *…, omdat ik graag **zou komen**.* · Question : ***Zou** je dat **kunnen** doen?*
 
-**Notes pour l'animateur** — Avec deux infinitifs, l'ordre *willen komen* est le plus courant. Dans la subordonnée, *zou* rejoint l'infinitif à la fin. *Zou je dat kunnen doen?* : *kunnen doen* au bout (aussi *doen kunnen*, plus rare).
+**Notes pour l'animateur** — Avec deux infinitifs, l'ordre *willen komen* est le plus courant. Dans la subordonnée, *zou* rejoint l'infinitif à la fin. *Zou je dat kunnen doen?* : *kunnen doen* au bout.
 
 ---
 
@@ -321,11 +321,11 @@
 - Gabarit **E6** : l'e-mail de Karim à meneer Maes, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Geachte meneer Maes, zou u mij de factuur kunnen sturen? Ik zou willen ook de offerte zien. Als ik meer tijd zou had, zou ik u zelf komen bezoeken. Zouden u volgende week kunnen bellen? Als u wilt, ik zou de vergadering verplaatsen. Ik weet niet als An zou komen. Met vriendelijke groeten, Karim Benali* »
+> « *Geachte heer Maes,* ↵ *Zou u mij de factuur kunnen sturen? Ik zou willen ook de offerte zien. Als ik meer tijd zou had, zou ik u zelf komen bezoeken. Zouden u volgende week kunnen bellen? Als u wilt, ik zou de vergadering kunnen verplaatsen. Ik weet niet als An zou komen.* ↵ *Met vriendelijke groeten* ↵ *Karim Benali* »
 >
-> **✓ CORRECTIE** — ~~*Ik zou willen ook de offerte zien*~~ **Ik zou ook graag de offerte willen zien** · ~~*zou had*~~ **had** · ~~*Zouden u*~~ **Zou u** · ~~*ik zou de vergadering verplaatsen*~~ **zou ik de vergadering verplaatsen** · ~~*als An zou komen*~~ **of An zou komen**
+> **✓ CORRECTIE** — ~~*Ik zou willen ook de offerte zien*~~ **Ik zou ook graag de offerte willen zien** · ~~*zou had*~~ **had** · ~~*Zouden u*~~ **Zou u** · ~~*ik zou de vergadering kunnen verplaatsen*~~ **zou ik de vergadering kunnen verplaatsen** · ~~*als An zou komen*~~ **of An zou komen**
 
-**Notes pour l'animateur** — Leurre : *zou u mij de factuur kunnen sturen?* est correct. N° 4 : après la subordonnée, inversion (« verbe, verbe », M9). N° 5 : question indirecte → *of* (M9).
+**Notes pour l'animateur** — Leurre : *Zou u mij de factuur kunnen sturen?* est correct. N° 1 : *Ik zou ook de offerte willen zien* est aussi correct (*graag* n'est pas obligatoire). N° 4 : après la subordonnée, inversion (« verbe, verbe », M9). N° 5 : question indirecte → *of* (M9).
 
 ---
 
@@ -354,7 +354,7 @@
 - Gabarit **E7** : 8 cartes-situations illustrées ; règles en 3 puces.
 
 **Contenu textuel**
-> *… als je de lotto won? · … als je een dag onzichtbaar was? · … als je minister was? · … als je vier weken vakantie had? · … als je een superkracht had? · … als je in een ander land woonde? · … als je baas was? · … als je tien jaar jonger was?*
+> *… als je de lotto won? · … als je een dag onzichtbaar was? · … als je minister was? · … als je vier weken vakantie had? · … als je een superkracht had? · … als je in een ander land woonde? · … als je de baas was? · … als je tien jaar jonger was?*
 > 1. Tirez une carte, posez la question à votre voisin·e. 2. Réponse avec *zou* + une raison (*omdat…*). 3. Le voisin pose la carte suivante à quelqu'un d'autre.
 
 **Notes pour l'animateur** — Exigez la structure complète : *Als ik de lotto won, zou ik… omdat…* *onzichtbaar* = invisible, *een superkracht* = un super-pouvoir.

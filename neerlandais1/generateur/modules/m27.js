@@ -225,7 +225,7 @@ function build(d) {
     const R = [[['Ik', 'n'], ['wil', 'v'], ['graag', 'g'], ['een koffie', 'n'], ['bestellen.', 'v2']], [['Ik', 'n'], ['heb', 'v'], ['dat', 'n'], ['graag', 'g'], ['gedaan.', 'v2']], [['Ik', 'n'], ['ga', 'v'], ['graag', 'g'], ['naar de film.', 'n']], [['In het weekend', 'n'], ['fiets', 'v'], ['ik', 'n'], ['graag.', 'g']], [['…, omdat', 'n'], ['ik', 'n'], ['graag', 'g'], ['fiets.', 'v']]];
     R.forEach((r, i) => strip(s, 0.6, 1.75 + i * 0.82, r, { size: 21, h: 0.66 }));
     d.rect(s, 9.3, 1.75, 3.43, 3.94, { fill: 'EDF6F0', line: GR, lw: 1.5, radius: 0.1 });
-    d.t(s, ['**Comme //niet//** (M13)', 'après le verbe conjugué (et le sujet inversé)', 'avant le complément et le 2ᵉ verbe', '', '//Ik heb dat graag gedaan// = je l’ai fait avec plaisir'], 9.45, 1.85, 3.15, 3.75, { size: 15, gap: 4, valign: 'middle' });
+    d.t(s, ['**Comme //niet//** (M13)', 'après le verbe conjugué (et le sujet inversé)', 'après les pronoms (//dat, het, me//), avant les autres compléments et le 2ᵉ verbe', '', '//Ik heb dat graag gedaan// = je l’ai fait avec plaisir'], 9.45, 1.85, 3.15, 3.75, { size: 15, gap: 4, valign: 'middle' });
     band(s, 'Subordonnée : //graag// reste devant le verbe, qui part à la fin (M9) : //…, omdat ik graag fiets.//', 6.05, 0.75, 'tx2', 17);
   }
 
@@ -312,7 +312,7 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Intranet Peeters & Co · Over mij · Lotte Claes', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = '//Hallo! Ik ben Lotte, de nieuwe stagiaire. {{Ik graag lees}}++ Ik lees graag++ detectives. {{Ik houd muziek}}++ Ik houd van muziek++, vooral jazz. Ik drink {{meer graag}}++ liever++ thee dan koffie. Ik vind de soep van de kantine heel {{leuk}}++ lekker++! {{Ik heb niet graag sport.}}++ Ik sport niet graag.++ Ik hou van mijn katten Pip en Pluis. Tot snel!//';
+    const txt = '//Hallo! Ik ben Lotte, de nieuwe stagiaire. {{Ik graag lees}}++ Ik lees graag++ detectives. {{Ik houd muziek}}++ Ik houd van muziek++, vooral jazz. Ik drink {{meer graag}}++ liever++ thee dan koffie. Ik vind de soep van de kantine heel {{leuk}}++ lekker++! {{Ik sport graag niet.}}++ Ik sport niet graag.++ Ik hou van mijn katten Pip en Pluis. Tot snel!//';
     d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, mode, ls: 1.2, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
@@ -370,7 +370,7 @@ function build(d) {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.5, { fill: 'accent3', line: null, radius: 0.04 });
       d.t(s, 'TEAMUITSTAP · STEM!', x + 0.15, y, w - 0.3, 0.5, { size: 12, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
-      const A = [['bowling', 'bowling', '€ 15 · 2 uur'], ['cooking', 'kookworkshop', '€ 45 · 3 uur'], ['locked', 'escape room', '€ 25 · 1 uur'], ['evergreen-tree', 'wandeling in het Zoniënwoud', 'gratis · 3 uur']];
+      const A = [['bowling', 'bowling', '€ 15 · 2 uur'], ['cooking', 'kookworkshop', '€ 45 · 3 uur'], ['locked', 'escaperoom', '€ 25 · 1 uur'], ['evergreen-tree', 'wandeling in het Zoniënwoud', 'gratis · 3 uur']];
       const ch = (h - 0.7) / 4;
       A.forEach(([il, t, info], i) => {
         const yy = y + 0.6 + i * ch;

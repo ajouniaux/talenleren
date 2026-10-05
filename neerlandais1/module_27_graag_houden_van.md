@@ -16,7 +16,7 @@
 - *liever, het liefst* sont le comparatif et le superlatif irréguliers de *graag* (M21).
 
 **Pièges FR ≠ NL ciblés**
-- Le français a un seul verbe, « aimer » ; le néerlandais en a quatre selon ce qu'on aime : une activité (*graag*), une personne ou une chose en général (*houden van*), un goût ou une impression (*lekker / leuk vinden*).
+- Le français a un seul verbe, « aimer » ; le néerlandais choisit selon ce qu'on aime, en trois voies : une activité (*graag*), une personne ou une chose en général (*houden van*), un goût ou une impression (*lekker / leuk vinden*).
 - ✗ *Ik graag zwem* : *graag* ne remplace pas le verbe, il le suit.
 - « je t'aime » = *ik hou van je* ; « je t'aime bien » = *ik vind je leuk / aardig*.
 - *graag* sert aussi à la politesse : *Graag!* (volontiers), *Graag gedaan* (de rien), *Ik wil graag een koffie* (je voudrais).
@@ -205,7 +205,7 @@
 > « Je t'aime bien » → ✗ ~~*Ik hou van je*~~ → ✓ *Ik vind je leuk / aardig*
 > « J'aimerais un café » → ✓ *Ik wil graag een koffie* (M29 : *Ik zou graag…*)
 
-**Notes pour l'animateur** — *Ik hou van je* est fort : on le dit à son ou sa partenaire, à ses enfants. Au bureau, *Ik vind mijn collega's leuk / aardig*. Pour le café, les trois phrases sont justes, avec une nuance : l'habitude, le goût en général, le goût de ce café-là.
+**Notes pour l'animateur** — *Ik hou van je* est fort : on le dit à son ou sa partenaire, à ses enfants. Au bureau, *Ik vind mijn collega's leuk / aardig*. Pour le café, les trois phrases sont justes, avec une nuance : l'habitude, le goût en général, le goût de ce café-là. En Flandre, *Ik zie je graag* veut dire « je t'aime » (très courant).
 
 ---
 
@@ -236,7 +236,7 @@
 > *Ik **wil** graag een koffie **bestellen**.* · *Ik **heb** dat graag **gedaan**.* · *Ik **ga** graag naar de film.*
 > Inversion : *In het weekend **fiets** ik graag.* · Subordonnée : *…, omdat ik graag **fiets**.*
 
-**Notes pour l'animateur** — *graag* se comporte comme *niet* : après le verbe conjugué et le sujet inversé, avant le complément et le 2e verbe. *Ik heb dat graag gedaan* = je l'ai fait avec plaisir.
+**Notes pour l'animateur** — *graag* se comporte comme *niet* : après le verbe conjugué et le sujet inversé, après les pronoms (*dat, het, me…*), avant les autres compléments et le 2e verbe. *Ik heb dat graag gedaan* = je l'ai fait avec plaisir.
 
 ---
 
@@ -328,11 +328,11 @@
 - Gabarit **E6** : la fiche « *Over mij* » de Lotte sur l'intranet, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Hallo! Ik ben Lotte, de nieuwe stagiaire. Ik graag lees detectives. Ik houd muziek, vooral jazz. Ik drink meer graag thee dan koffie. Ik vind de soep van de kantine heel leuk! Ik heb niet graag sport. Ik hou van mijn katten Pip en Pluis. Tot snel!* »
+> « *Hallo! Ik ben Lotte, de nieuwe stagiaire. Ik graag lees detectives. Ik houd muziek, vooral jazz. Ik drink meer graag thee dan koffie. Ik vind de soep van de kantine heel leuk! Ik sport graag niet. Ik hou van mijn katten Pip en Pluis. Tot snel!* »
 >
-> **✓ CORRECTIE** — ~~*Ik graag lees*~~ **Ik lees graag** · ~~*Ik houd muziek*~~ **Ik houd van muziek** · ~~*meer graag*~~ **liever** · ~~*leuk*~~ **lekker** · ~~*Ik heb niet graag sport*~~ **Ik sport niet graag**
+> **✓ CORRECTIE** — ~~*Ik graag lees*~~ **Ik lees graag** · ~~*Ik houd muziek*~~ **Ik houd van muziek** · ~~*meer graag*~~ **liever** · ~~*leuk*~~ **lekker** · ~~*Ik sport graag niet*~~ **Ik sport niet graag** (*niet* avant *graag*)
 
-**Notes pour l'animateur** — Leurre : *Ik hou van mijn katten* est correct. N° 5 : *sporten* est le verbe ; on peut dire aussi *Ik doe niet graag aan sport*.
+**Notes pour l'animateur** — Leurre : *Ik hou van mijn katten* est correct. N° 5 : *niet* se place avant *graag* (diapo 8) ; on peut dire aussi *Ik doe niet graag aan sport*. En Flandre, on entend souvent *Ik heb dat niet graag* (= je n'aime pas ça) : courant à l'oral, mais en néerlandais standard on dit *Ik sport niet graag*.
 
 ---
 
@@ -348,7 +348,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik ga graag naar de film.* · 2 *Karim heeft dat graag gedaan.* · 3 *Wij eten liever vis.* · 4 *Sofie wil graag een koffie.* · 5 *Hou jij van jazz?*
 
-**Notes pour l'animateur** — Faites colorer le verbe conjugué en rouge et *graag* en vert, comme sur la diapo 12. N° 5 : la question commence par le verbe (M3).
+**Notes pour l'animateur** — Faites colorer le verbe conjugué en rouge et *graag* en vert, comme sur la diapo 12. N° 5 : la question commence par le verbe (M3). Acceptez aussi les inversions correctes : *Dat heeft Karim graag gedaan.* · *Liever eten wij vis.*
 
 ---
 
@@ -376,7 +376,7 @@
 
 **Contenu textuel**
 > **Situation** : An organise une sortie d'équipe. Chacun dit ce qu'il aime, ce qu'il préfère et ce qu'il n'aime pas.
-> Activités : *bowling · kookworkshop · escape room · wandeling in het Zoniënwoud*
+> Activités : *bowling · kookworkshop · escaperoom · wandeling in het Zoniënwoud*
 > Banque : *Wat doe je graag? · Ik hou van… · Ik … liever … · Ik vind … leuk. · Ik … niet graag … · Het liefst …*
 
 **Notes pour l'animateur** — *het Zoniënwoud* = la forêt de Soignes. À la fin, le groupe vote et justifie : *We kiezen de kookworkshop, want we koken allemaal graag.*
@@ -400,6 +400,6 @@
 **Notes pour l'animateur** — Réponses :
 1. *Ik lees graag.*
 2. *Ik hou van muziek.*
-3. *Liever thee!* (ou *Graag thee!*)
+3. *Liever thee!* (*Graag thee!* se comprend, mais on dit plutôt *Thee, graag!*)
 
 Teaser M28 : *Hij wast zich · Ze helpen elkaar.*

@@ -163,7 +163,7 @@
 **Contenu textuel**
 > **Montant** : *€ 1.200* = *duizend tweehonderd euro* ou *twaalfhonderd euro*
 > **Année** : *1995* = *negentienhonderdvijfennegentig* · *2026* = *tweeduizend zesentwintig*
-> *in 1995* · ✗ ~~*in het jaar 1995*~~ (possible, mais lourd)
+> *in 1995* (pas besoin de *in het jaar*)
 
 **Notes pour l'animateur** — Les deux lectures du montant sont correctes ; *twaalfhonderd* est très courant à l'oral pour les prix. Pour les années avant 2000, on lit toujours en centaines (*negentienhonderd…*), comme « dix-neuf cent » en français.
 
@@ -180,7 +180,7 @@
 > *€ 12,50* = *twaalf euro vijftig* · *€ 0,99* = *negenennegentig cent* · *€ 1.499,99* = *duizend vierhonderdnegenennegentig euro negenennegentig* · *€ 25,–* = *vijfentwintig euro*
 > point = milliers · virgule = centimes · *euro* sans *-s* après un nombre
 
-**Notes pour l'animateur** — On ne dit pas *en* entre les euros et les centimes : *twaalf euro vijftig*. *euro* se prononce « eu-ro ». Pluriel sans nombre : *Het kost duizenden euro's.*
+**Notes pour l'animateur** — Forme courte, sans *en* : *twaalf euro vijftig* (forme longue : *twaalf euro en vijftig cent*). *euro* se prononce « eu-ro ». Pluriel sans nombre : *Het kost duizenden euro's.*
 
 ---
 
@@ -319,7 +319,7 @@
 - Gabarit **E6** : le devis de Peeters & Co, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Geachte klant, de nieuwe computers kosten een duizend tweehonderd euros per stuk. Voor tien computers is dat twaalfduizend euro. De installatie kost twee honderd euro en de levering drieentwintig euro. Totaal: € 12,223 (exclusief btw). Met vriendelijke groeten, Sofie Peeters* »
+> « *Geachte klant,* ↵ *De nieuwe computers kosten een duizend tweehonderd euros per stuk. Voor tien computers is dat twaalfduizend euro. De installatie kost twee honderd euro en de levering drieentwintig euro. Totaal: € 12,223 (exclusief btw).* ↵ *Met vriendelijke groeten* ↵ *Sofie Peeters* »
 >
 > **✓ CORRECTIE** — ~~*een duizend*~~ **duizend** · ~~*euros*~~ **euro** · ~~*twee honderd*~~ **tweehonderd** · ~~*drieentwintig*~~ **drieëntwintig** · ~~*€ 12,223*~~ **€ 12.223**
 

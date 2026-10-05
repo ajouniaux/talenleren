@@ -177,7 +177,7 @@ function build(d) {
     d.rect(s, 0.6, 5.3, 6.0, 0.75, { fill: 'EAF1F8', line: THO, lw: 1.25, radius: 0.1 });
     d.t(s, '**point** = milliers · **virgule** = centimes', 0.8, 5.3, 5.7, 0.75, { size: 18, valign: 'middle' });
     d.rect(s, 6.81, 5.3, 5.92, 0.75, { fill: 'FDF1E6', line: 'accent1', lw: 1.25, radius: 0.1 });
-    d.t(s, '//euro// sans //-s// · pas de //en// : //twaalf euro vijftig//', 7.0, 5.3, 5.6, 0.75, { size: 18, valign: 'middle' });
+    d.t(s, '//euro// sans //-s// · forme courte : //twaalf euro vijftig//', 7.0, 5.3, 5.6, 0.75, { size: 18, valign: 'middle' });
     band(s, '//euro// se prononce « eu-ro » · sans nombre : //Het kost duizenden euro’s.//', 6.2, 0.62, 'tx2', 17);
   }
 
@@ -330,8 +330,8 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Sofie Peeters · Aan: klant · Onderwerp: offerte computers', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = '//Geachte klant, de nieuwe computers kosten {{een duizend}}++ duizend++ tweehonderd {{euros}}++ euro++ per stuk. Voor tien computers is dat twaalfduizend euro. De installatie kost {{twee honderd}}++ tweehonderd++ euro en de levering {{drieentwintig}}++ drieëntwintig++ euro. Totaal: {{€ 12,223}}++ € 12.223++ (exclusief btw). Met vriendelijke groeten, Sofie Peeters//';
-    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, mode, ls: 1.2, valign: 'top' });
+    const txt = ['//Geachte klant,//', '//De nieuwe computers kosten {{een duizend}}++ duizend++ tweehonderd {{euros}}++ euro++ per stuk. Voor tien computers is dat twaalfduizend euro. De installatie kost {{twee honderd}}++ tweehonderd++ euro en de levering {{drieentwintig}}++ drieëntwintig++ euro. Totaal: {{€ 12,223}}++ € 12.223++ (exclusief btw).//', '//Met vriendelijke groeten//', '//Sofie Peeters//'];
+    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, gap: 8, mode, ls: 1.2, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });

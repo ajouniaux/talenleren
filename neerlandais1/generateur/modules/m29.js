@@ -67,7 +67,7 @@ function build(d) {
   // ---------------------------------------------------------------- 3 échauffement
   {
     const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Échauffement — Als ik de lotto won…' });
-    const P = [['man-office-worker', 'Karim', 'Als ik de lotto **won**, **!!zou!!** ik een huis aan zee **!!kopen!!**.', 'beach-with-umbrella'], ['woman', 'Sofie', 'Als ik meer tijd **had**, **!!zou!!** ik Italiaans **!!leren!!**.', 'pizza'], ['woman-red-hair', 'Lotte', 'Als ik directeur **was**, **!!zou!!** ik elke vrijdag vrij **!!geven!!**.', 'party-popper']];
+    const P = [['man-office-worker', 'Karim', 'Als ik de lotto **won**, **!!zou!!** ik een huis aan zee **!!kopen!!**.', 'beach-with-umbrella'], ['woman', 'Sofie', 'Als ik meer tijd **had**, **!!zou!!** ik Italiaans **!!leren!!**.', 'pizza'], ['woman-red-hair', 'Lotte', 'Als ik directeur **was**, **!!zou!!** ik iedereen elke vrijdag vrijaf **!!geven!!**.', 'party-popper']];
     const w = (12.13 - 2 * 0.25) / 3;
     P.forEach(([il, name, t, dream], i) => {
       const x = 0.6 + i * (w + 0.25);
@@ -290,12 +290,12 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Karim Benali · Aan: meneer Maes · Onderwerp: factuur en offerte', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = '//Geachte meneer Maes, zou u mij de factuur kunnen sturen? {{Ik zou willen ook de offerte zien.}}++ Ik zou ook graag de offerte willen zien.++ Als ik meer tijd {{zou had}}++ had++, zou ik u zelf komen bezoeken. {{Zouden u}}++ Zou u++ volgende week kunnen bellen? Als u wilt, {{ik zou}}++ zou ik++ de vergadering verplaatsen. Ik weet niet {{als}}++ of++ An zou komen. Met vriendelijke groeten, Karim Benali//';
-    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 18, mode, ls: 1.15, valign: 'top' });
+    const txt = ['//Geachte heer Maes,//', '//Zou u mij de factuur kunnen sturen? {{Ik zou willen ook de offerte zien.}}++ Ik zou ook graag de offerte willen zien.++ Als ik meer tijd {{zou had}}++ had++, zou ik u zelf komen bezoeken. {{Zouden u}}++ Zou u++ volgende week kunnen bellen? Als u wilt, {{ik zou}}++ zou ik++ de vergadering kunnen verplaatsen. Ik weet niet {{als}}++ of++ An zou komen.//', '//Met vriendelijke groeten//', '//Karim Benali//'];
+    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 18, gap: 8, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    if (mode === 'a') d.t(s, 'Leurre : //zou u mij de factuur kunnen sturen?// est correct. Après //als u wilt,// : inversion (M9). Question indirecte : //of//.', 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
+    if (mode === 'a') d.t(s, 'Leurre : //Zou u mij de factuur kunnen sturen?// est correct. N° 1 : //Ik zou ook de offerte willen zien// est juste aussi. Après //als u wilt,// : inversion (M9).', 9.9, top + 3.05, 2.83, 1.9, { size: 14, italic: true, color: 'accent5' });
   });
 
   // ---------------------------------------------------------------- 19 ex5 le bon conseil
@@ -326,7 +326,7 @@ function build(d) {
   // ---------------------------------------------------------------- 20 ex6 wat zou je doen als
   {
     const s = d.page({ g: 20, tag: 'JIJ NU !', title: 'Exercice 6 — Wat zou je doen als…?', stars: '★' });
-    const C = [['money-bag', '… als je de lotto won?'], ['ghost', '… als je een dag onzichtbaar was?'], ['crown', '… als je minister was?'], ['beach-with-umbrella', '… als je vier weken vakantie had?'], ['woman-superhero', '… als je een superkracht had?'], ['globe-showing-europe-africa', '… als je in een ander land woonde?'], ['man-office-worker', '… als je baas was?'], ['baby', '… als je tien jaar jonger was?']];
+    const C = [['money-bag', '… als je de lotto won?'], ['ghost', '… als je een dag onzichtbaar was?'], ['crown', '… als je minister was?'], ['beach-with-umbrella', '… als je vier weken vakantie had?'], ['woman-superhero', '… als je een superkracht had?'], ['globe-showing-europe-africa', '… als je in een ander land woonde?'], ['man-office-worker', '… als je de baas was?'], ['baby', '… als je tien jaar jonger was?']];
     const cw = 1.95; const chh = 2.2;
     C.forEach(([il, t], i) => {
       const x = 0.6 + (i % 4) * (cw + 0.12); const y = 1.75 + Math.floor(i / 4) * (chh + 0.15);

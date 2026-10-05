@@ -117,7 +117,7 @@
 > *uur* reste au singulier : ✗ ~~*drie uren*~~
 > *Het is twaalf uur 's middags* (midi) · *Het is middernacht* (minuit)
 
-**Notes pour l'animateur** — *één uur* (avec accents) = 1 h ; *een uur* = une heure (durée). En heure courante, on compte de 1 à 12 : 15 h = *drie uur ('s middags)*.
+**Notes pour l'animateur** — *één uur* (avec accents) = 1 h ; *een uur* = une heure (durée). En heure courante, on compte de 1 à 12 : 15 h = *drie uur 's namiddags* (aux Pays-Bas : *'s middags*, voir diapo 10).
 
 ---
 
@@ -203,7 +203,7 @@
 > Belgique : *'s voormiddags* (le matin) · *'s namiddags* (l'après-midi)
 > Aujourd'hui : *vanochtend · vanmiddag · vanavond · vannacht*
 
-**Notes pour l'animateur** — L'apostrophe remplace un ancien *de* : *'s* se prononce « s ». En Belgique, *'s middags* désigne plutôt le temps de midi, et *'s namiddags* l'après-midi ; aux Pays-Bas, *'s middags* = l'après-midi. Exemple : *Om drie uur 's namiddags.*
+**Notes pour l'animateur** — L'apostrophe remplace un ancien *des* : *'s* se prononce « s ». En Belgique, *'s middags* désigne plutôt le temps de midi, et *'s namiddags* l'après-midi ; aux Pays-Bas, *'s middags* = l'après-midi. Exemple : *Om drie uur 's namiddags.*
 
 ---
 
@@ -221,7 +221,7 @@
 > « un quart d'heure » → ✓ *een **kwartier*** · « une demi-heure » → ✓ *een **halfuur***
 > « À quelle heure ? » → ✓ *Hoe laat? · Om hoe laat?* (BE)
 
-**Notes pour l'animateur** — *om* + heure, *op* + jour (*op maandag*, M18). *anderhalf* (une et demie) se dit aussi pour d'autres quantités : *anderhalve liter*. *een halfuur* s'écrit aussi *een half uur*.
+**Notes pour l'animateur** — *om* + heure, *op* + jour (*op maandag*, M18). *anderhalf* (une et demie) se dit aussi pour d'autres quantités : *anderhalve liter*. *een halfuur* s'écrit aussi *een half uur*. En Belgique, on entend souvent *een kwartuur* et *Op welk uur?* : ce n'est pas faux à l'oral, mais *een kwartier* et *Hoe laat? / Om hoe laat?* sont la norme (≈ gris sur la diapo).
 
 ---
 
@@ -330,11 +330,11 @@
 - Gabarit **E6** : l'e-mail de Karim à meneer Maes, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Geachte meneer Maes, de vergadering is op dinsdag op drie uur. Ze duurt twee uren. Daarna is er een pauze van een uur en half. Om half vier (16.30 uur) begint de presentatie. U kunt ook om kwart na vijf komen. Met vriendelijke groeten, Karim Benali* »
+> « *Geachte heer Maes,* ↵ *De vergadering is op dinsdag op drie uur. Ze duurt twee uren. Daarna is er een pauze van een uur en half. Om half vier (16.30 uur) begint de presentatie. U kunt ook om kwart na vijf komen.* ↵ *Met vriendelijke groeten* ↵ *Karim Benali* »
 >
 > **✓ CORRECTIE** — ~~*op drie uur*~~ **om drie uur** · ~~*twee uren*~~ **twee uur** · ~~*een uur en half*~~ **anderhalf uur** · ~~*16.30 uur*~~ **15.30 uur** (*half vier* = 15 h 30) · ~~*kwart na vijf*~~ **kwart over vijf**
 
-**Notes pour l'animateur** — Leurre : *op dinsdag* est correct (*op* + jour, *om* + heure). L'erreur *half vier (16.30 uur)* est celle que font la plupart des francophones : faites-la expliquer avec la jauge de la diapo 6.
+**Notes pour l'animateur** — Leurre : *op dinsdag* est correct (*op* + jour, *om* + heure). L'erreur *half vier (16.30 uur)* est celle que font la plupart des francophones : faites-la expliquer avec la jauge de la diapo 6. *kwart na vijf* s'entend en Belgique, mais *kwart over vijf* est la norme. La présentation de l'e-mail suit le M10 : *Geachte heer*, virgule, puis majuscule à la ligne.
 
 ---
 

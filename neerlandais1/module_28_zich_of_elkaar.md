@@ -98,7 +98,7 @@
 > *wij wassen **ons** · jullie wassen **je** · zij wassen **zich***
 > *zich* = 3e personne seulement (*hij, zij, het, zij*).
 
-**Notes pour l'animateur** — Seul *zich* est un mot nouveau : *me, je, ons* sont les pronoms connus. Avec *u* : *u vergist zich* et *u vergist u* sont corrects ; en Belgique, *u … u* est fréquent. Formes accentuées (*mij, jou*) : rares avec les verbes réfléchis.
+**Notes pour l'animateur** — Seul *zich* est un mot nouveau : *me, je, ons* sont les pronoms connus. Avec *u* : *u vergist zich* et *u vergist u* sont corrects ; en Belgique, *u … u* est fréquent. *mij* est possible, surtout à l'écrit et en Belgique (*Ik vergis mij*) ; *jou* n'est jamais réfléchi (✗ *Jij wast jou*).
 
 ---
 
@@ -148,7 +148,7 @@
 > « se marier » → ✓ *trouwen* · « s'asseoir » → ✓ *gaan zitten* (M17)
 > « se promener » → ✓ *wandelen* · « se passer » → ✓ *gebeuren* (*Wat is er gebeurd?*)
 
-**Notes pour l'animateur** — Réflexe : on ne met *zich* que si le verbe néerlandais est réfléchi (diapo 8). Erreur très fréquente : ✗ *Ik noem me Lotte* (calque de « je m'appelle ») → *Ik heet Lotte*.
+**Notes pour l'animateur** — Réflexe : on ne met *zich* que si le verbe néerlandais est réfléchi (diapo 8). Erreur très fréquente : ✗ *Ik noem me Lotte* (calque de « je m'appelle ») → *Ik heet Lotte*. En Flandre, *Zet u! / Zet je!* (= asseyez-vous) est très courant : la règle « se ≠ *zich* » a quelques exceptions régionales.
 
 ---
 
@@ -340,7 +340,7 @@
 >
 > **✓ CORRECTIE** — 1 *Ik heb me gisteren vergist.* · 2 *Herinner je je dat nog?* · 3 *De nieuwe collega stelt zich voor.* · 4 *We zien elkaar morgen.* · 5 *We moeten ons haasten.*
 
-**Notes pour l'animateur** — Faites colorer le verbe conjugué (rouge) et le pronom (bleu), comme sur la diapo 9.
+**Notes pour l'animateur** — Faites colorer le verbe conjugué (rouge) et le pronom (bleu), comme sur la diapo 9. Acceptez aussi les inversions correctes : *Gisteren heb ik me vergist.* · *Morgen zien we elkaar.*
 
 ---
 

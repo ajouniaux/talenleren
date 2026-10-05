@@ -122,7 +122,7 @@ function build(d) {
     d.t(s, ['**Hoe laat is het?**', 'Quelle heure est-il ?', '', '**Om hoe laat…?**', 'À quelle heure… ? (BE)'], 9.15, 1.9, 3.4, 2.55, { size: 17, gap: 2, valign: 'middle' });
     d.rect(s, 0.6, 4.8, 12.13, 0.95, { fill: 'bg2', line: BORDER });
     d.t(s, ['//uur// reste au singulier : ✗ //{{drie uren}}// · //twaalf uur ’s middags// (midi) · //middernacht// (minuit)', '//één uur// (1 h, avec accents) ≠ //een uur// (une heure, durée)'], 0.85, 4.8, 11.7, 0.95, { size: 16, gap: 2, valign: 'middle' });
-    band(s, 'En heure courante, on compte de 1 à 12 : 15 h = //drie uur (’s middags)//', 6.05, 0.7, 'tx2', 18);
+    band(s, 'En heure courante, on compte de 1 à 12 : 15 h = //drie uur ’s namiddags// (NL : //’s middags//)', 6.05, 0.7, 'tx2', 18);
   }
 
   // ---------------------------------------------------------------- 6 piège half
@@ -215,11 +215,12 @@ function build(d) {
   {
     const s = d.page({ g: 11, tag: 'PIÈGE FR ≠ NL', title: 'PIÈGE : à, pendant, et demie' });
     trapFrame(s, 4.4);
-    const R = [['« **à** trois heures »', 'op drie uur', '**om** drie uur'], ['« deux heures » (durée)', 'twee uren', 'twee uur'], ['« une heure et demie » (durée)', 'een uur en half', '**anderhalf** uur'], ['« un quart d’heure »', 'een kwart uur', 'een **kwartier**'], ['« À quelle heure ? »', 'Op welk uur?', 'Hoe laat? · Om hoe laat?']];
-    R.forEach(([fr, ko, ok], i) => {
+    const R = [['« **à** trois heures »', 'op drie uur', '**om** drie uur'], ['« deux heures » (durée)', 'twee uren', 'twee uur'], ['« une heure et demie » (durée)', 'een uur en half', '**anderhalf** uur'], ['« un quart d’heure »', 'een kwartuur', 'een **kwartier**', 'be'], ['« À quelle heure ? »', 'Op welk uur?', 'Hoe laat? · Om hoe laat?', 'be']];
+    R.forEach(([fr, ko, ok, be], i) => {
       const y = 2.3 + i * 0.75;
       d.t(s, fr, 0.95, y, 4.1, 0.66, { size: 17, valign: 'middle' });
-      d.t(s, `✗ //{{${ko}}}//`, 5.1, y, 2.9, 0.66, { size: 15, color: 'accent6', valign: 'middle' });
+      if (be) d.t(s, `≈ //${ko}// (BE, oral)`, 5.1, y, 2.9, 0.66, { size: 15, color: 'accent5', valign: 'middle' });
+      else d.t(s, `✗ //{{${ko}}}//`, 5.1, y, 2.9, 0.66, { size: 15, color: 'accent6', valign: 'middle' });
       d.line(s, 8.05, y + 0.33, 8.45, y + 0.33, { color: 'accent3', lw: 2 });
       d.rect(s, 8.5, y + 0.04, 4.05, 0.58, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.5, radius: 0.1 });
       d.t(s, `✓ //${ok}//`, 8.65, y + 0.04, 3.85, 0.58, { size: 18, valign: 'middle' });
@@ -277,7 +278,7 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 15 ex1 horloges
-  const ex1 = [[3, 0, 'drie uur'], [2, 30, 'half drie'], [4, 15, 'kwart over vier'], [6, 45, 'kwart voor zeven'], [9, 10, 'tien over negen'], [11, 25, 'vijf voor half twaalf'], [7, 40, 'tien over half acht'], [12, 50, 'tien voor één']];
+  const ex1 = [[3, 0, 'drie uur'], [2, 30, 'half drie'], [4, 15, 'kwart over vier'], [6, 45, 'kwart voor zeven'], [9, 10, 'tien over negen'], [11, 25, 'vijf voor half twaalf'], [7, 40, 'tien over half acht / twintig voor acht'], [12, 50, 'tien voor één']];
   d.ex({ g: 15, title: 'Exercice 1 — Hoe laat is het?', stars: '★', instr: 'Écrivez l’heure de tous les jours. Pensez aux quatre zones !' }, (s, mode, top) => {
     const w = (12.13 - 3 * 0.2) / 4; const ch = (6.88 - top - 0.2) / 2;
     ex1.forEach(([h, m, a], i) => {
@@ -326,8 +327,8 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Karim Benali · Aan: meneer Maes · Onderwerp: vergadering dinsdag', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = '//Geachte meneer Maes, de vergadering is op dinsdag {{op drie uur}}++ om drie uur++. Ze duurt {{twee uren}}++ twee uur++. Daarna is er een pauze van {{een uur en half}}++ anderhalf uur++. Om half vier ({{16.30 uur}}++ 15.30 uur++) begint de presentatie. U kunt ook om {{kwart na vijf}}++ kwart over vijf++ komen. Met vriendelijke groeten, Karim Benali//';
-    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, mode, ls: 1.2, valign: 'top' });
+    const txt = ['//Geachte heer Maes,//', '//De vergadering is op dinsdag {{op drie uur}}++ om drie uur++. Ze duurt {{twee uren}}++ twee uur++. Daarna is er een pauze van {{een uur en half}}++ anderhalf uur++. Om half vier ({{16.30 uur}}++ 15.30 uur++) begint de presentatie. U kunt ook om {{kwart na vijf}}++ kwart over vijf++ komen.//', '//Met vriendelijke groeten//', '//Karim Benali//'];
+    d.t(s, txt, 0.95, top + 0.7, 8.3, h - 0.9, { size: 19, gap: 8, mode, ls: 1.2, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
