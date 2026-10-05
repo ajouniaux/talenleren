@@ -1,4 +1,4 @@
-// Module 29 — Als ik tijd had… · Le conditionnel (bilan du parcours)
+// Module 29 — Als ik tijd had… · Le conditionnel (bilan du bloc 6)
 const { BORDER, plain } = require('../lib');
 
 const meta = { n: 29, slug: 'Als_ik_tijd_had', title: 'Als ik tijd had… — Le conditionnel', short: 'Als ik tijd had…', template: 'module_29_voorwaardelijke_wijs.md' };
@@ -361,15 +361,15 @@ function build(d) {
     },
   });
 
-  // ---------------------------------------------------------------- 22 ticket + bilan du parcours
+  // ---------------------------------------------------------------- 22 ticket + bilan du bloc 6
   {
     const s = d.ticket({
-      g: 22, title: 'Ticket de sortie et bilan du parcours',
+      g: 22, title: 'Ticket de sortie et bilan du bloc 6',
       q: ['Plus poli : //Help me!//', 'Conseil : //Ik ben moe.// → //Je zou…//', 'Hypothèse : //Ik heb geen tijd. Ik ga niet mee.//'],
       self: ['Demander', 'Conseiller', 'Imaginer'],
-      teaser: { icon: 'FaTrophy', text: '**Proficiat! Néerlandais 1 is klaar.** — Volgende stap : Néerlandais 2' },
+      teaser: { icon: 'FaTrophy', text: '**Proficiat! Bloc 6 is klaar.** — Volgende stap : bloc 7, M30 //Het bedrijf//' },
     });
-    d.t(s, 'NÉERLANDAIS 1 · 29 MODULES', 7.6, 5.03, 4.6, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, 'BLOCS 1 À 6 · 29 MODULES', 7.6, 5.03, 4.6, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     const B = [['1–5', 5, 'accent2'], ['6–10', 5, 'accent1'], ['11–15', 5, 'accent3'], ['16–19', 4, 'purple'], ['20–24', 5, 'accent4'], ['25–29', 5, 'tx2']];
     const unit = (4.55 - 5 * 0.04) / 29; let x = 7.6;
     B.forEach(([lab, n, c]) => {

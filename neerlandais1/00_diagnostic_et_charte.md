@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 29 modules. Chaque gabarit de module (`module_1_…` à `module_29_…`) renvoie aux **schémas standardisés S1–S25**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 32 modules. Chaque gabarit de module (`module_1_…` à `module_32_…`) renvoie aux **schémas standardisés S1–S29**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -29,6 +29,8 @@
 > **Bloc 5 (M20–M24) : modules créés sans archive.** Les possessifs et démonstratifs, l'accord de l'adjectif, les pronoms relatifs, les adverbes pronominaux (*er, daar, waar* + préposition) et les particules modales sont conçus de la même façon. Ils amènent le parcours vers le niveau A2 et s'appuient sur M2, M5, M7, M9, M11, M13 et M16.
 
 > **Bloc 6 (M25–M29) : modules créés sans archive.** L'heure, les montants au-delà de 1 000 €, *graag / houden van*, *zich / elkaar* et le conditionnel répondent aux besoins concrets du travail : fixer un rendez-vous, lire une facture, dire ses préférences, se présenter, demander poliment. Ils s'appuient sur M2, M9, M12, M16, M19 et M20 ; M29 clôt le parcours.
+
+> **Bloc 7 (M30–M32) : modules créés sans archive.** Le vocabulaire de l'entreprise, la postposition de direction (*het achterzetsel* : *Ik stap de keuken in*) et la présentation personnelle et professionnelle préparent la vie au bureau. Ils partagent le plan du bâtiment de Peeters & Co (**S27**) et s'appuient sur M2, M5, M11, M14, M15 et M28 ; M32 clôt le parcours.
 
 > **Complément *Uitspraak!* (prononciation, 5 séances).** Construit à partir des *Uitspraakoefeningen* 1 à 6 (2026) et d'une fiche « Prononciation » (Assimil) : 3 diapos par séance (écouter, s'entraîner, jouer) et une annexe de corrigés. Il reprend la syllabe-porte (M1), les repères des sons doubles (M6) et le code couleur vert / framboise ; la séance 4 ajoute l'accent tonique à la méthode de lecture du M1.
 
@@ -112,7 +114,17 @@
  half drie, kwart over,   honderd, duizend,         ik fiets graag /          ik vergis me /         zou + infinitif :
  om, van … tot            miljoen, € 12,50,          ik hou van muziek,        we zien elkaar         politesse, conseil,
  (← M2, M3, M18)          facture (← M2, M14)        liever (← M12, M13, M21)  (← M11, M15, M20)      hypothèse (← M9, M12,
-                                                                                                  M19, M27 : bilan final)
+                                                                                                  M19, M27 : synthèse
+                                                                                                  du bloc 6)
+                                                                                                           │
+ ┌──────────────────────────────── BLOC 7 : travailler en néerlandais ─────────────────────────────────────┘
+ ▼
+ M30 HET BEDRIJF ──────────► M31 DE KEUKEN IN! ─────────────► M32 EVEN VOORSTELLEN
+ services, fonctions,         in de keuken / de keuken in,     le pitch en 5 étapes,
+ bâtiment, documents,         de trap op, de gang door,        bij / op / als / in / voor,
+ nemen / houden / stellen     hebben / zijn                    sinds / al / geleden
+ (← M5, M7, M14, M22)         (← M11, M15, M17, M23, M30)      (← M2, M9, M15, M19, M27, M28, M29 :
+                                                                bilan final)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -146,6 +158,9 @@
 | **M27** | *Graag of houden van?* · Dire ce qu'on aime | « *Ik zwem graag* mais *Ik hou van de zee* : pourquoi ? » | 2 séances | Création |
 | **M28** | *Zich of elkaar?* · Les verbes réfléchis et réciproques | « *Ils se lavent* ou *ils s'aident* : quel « se » ? » | 2 séances | Création |
 | **M29** | *Als ik tijd had…* · Le conditionnel | « Comment demander poliment, conseiller, imaginer ? » | 2 séances | Création |
+| **M30** | *Het bedrijf* · L'entreprise et son vocabulaire | « Le premier jour, quels mots faut-il connaître ? » | 2 séances | Création |
+| **M31** | *De keuken in!* · La postposition de direction | « *Ik stap in de keuken* ou *Ik stap de keuken in* ? » | 2 séances | Création |
+| **M32** | *Even voorstellen* · Se présenter au travail | « Comment présenter son parcours en une minute ? » | 2 séances | Création |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -170,11 +185,14 @@
 - **Le bloc 6 commence par les nombres.** M25 (l'heure) réutilise les nombres de 1 à 59 (M2) et l'inversion (*Om negen uur begint de les*, M3). M26 (les montants) prolonge les nombres du M2 au-delà de 100 et écrit les grands nombres en un seul mot, comme les composés du M14.
 - **M27 (graag / houden van)** reprend la place de *niet* (M13), le comparatif (M21) et *houden van* (M23). Il prépare *Ik zou graag…* (M29).
 - **M28 (zich / elkaar)** réutilise les pronoms objets du M20 (*me, je, ons*), les particules du M11 (*zich aankleden*) et *hebben* au passé composé (M15).
-- **M29 (le conditionnel) vient en dernier** : *zou* est l'imperfectum de *zullen* (M18, M19), se place comme un modal (M12), ajoute une marche à l'échelle de politesse du M16 et reprend la subordonnée en *als* (M9). Sa mise en situation finale réutilise les montants (M26) et les préférences (M27). C'est la synthèse du parcours, avec le bilan final (M1–M29).
+- **M29 (le conditionnel) clôt le bloc 6** : *zou* est l'imperfectum de *zullen* (M18, M19), se place comme un modal (M12), ajoute une marche à l'échelle de politesse du M16 et reprend la subordonnée en *als* (M9). Sa mise en situation finale réutilise les montants (M26) et les préférences (M27). C'est la synthèse du bloc 6, avec le bilan des blocs 1 à 6 (M1–M29).
+- **Le bloc 7 commence par le vocabulaire.** M30 (l'entreprise) donne les services, les fonctions, les pièces du bâtiment et les documents. Il réutilise *de / het* (M5), les formes féminines (M7) et les composés (M14 : *personeelsdienst, vergaderzaal*).
+- **M31 (l'*achterzetsel*)** fait circuler dans ce bâtiment : *de gang door, de trap op, de vergaderzaal in*. Il s'appuie sur la particule au bout (M11), *hebben / zijn* (M15), les prépositions de lieu (M17) et *erin / eruit* (M23).
+- **M32 (se présenter au travail) vient en dernier** : la présentation reprend le M2 et le relie à tout le parcours : les liens (M9), le passé (M15, M19), le futur (M18), *graag* (M27), *zich voorstellen* (M28), *zou* (M29) et le vocabulaire de l'entreprise (M30). Sa tâche finale est un entretien d'embauche. C'est la synthèse du parcours, avec le bilan final (M1–M32).
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 29 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire, qui accueille ses premiers jours au bloc 5 (M22). Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 32 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire, qui accueille ses premiers jours au bloc 5 (M22). Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -278,7 +296,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 29 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 32 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -302,7 +320,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 29 modules)
+### 5.3 Code couleur grammatical (constant dans les 32 modules)
 
 | Élément | Code visuel |
 |---|---|
@@ -321,6 +339,8 @@
 > Au bloc 5, la logique DE / HET s'étend : *deze, die* (démonstratifs et relatif) en bleu nuit, *dit, dat* en orange (M20, M22) ; le *-e* de l'adjectif en framboise (M21) ; *er / daar* en vert et la préposition en orange (M23) ; les particules modales en 4 familles : adoucir bleu, insister orange, questionner framboise, rassurer vert (M24, **S20**).
 
 > Au bloc 6 : les quatre zones de l'horloge (*over* vert, *voor half* orange, *over half* violet, *voor* bleu, M25, **S21**) ; les tranches des grands nombres (millions violet, milliers bleu, centaines orange, M26, **S22**) ; *graag* vert, *houden van* framboise, *lekker / leuk vinden* orange (M27, **S23**) ; *zich* bleu (miroir) et *elkaar* orange (ping-pong) (M28, **S24**) ; *zou* reste rouge comme tout verbe conjugué, et les trois portes du conditionnel sont bleue (politesse), verte (conseil) et violette (hypothèse) (M29, **S25**).
+
+> Au bloc 7 : le vocabulaire garde le code *de* bleu nuit / *het* orange (M30, **S26**, **S27**) ; au M31, le lieu (*voorzetsel*) est en bleu, la direction (*achterzetsel*) en orange comme les particules du M11, les *omzetsels* en framboise et le verbe de manière en rouge (**S28**) ; au M32, les étapes du pitch suivent les temps : présent bleu, passé framboise, futur vert, et les prépositions de la carte de visite sont en orange (**S29**).
 
 > Les apprenants reçoivent en M1 un **carton bicolore** (vert/framboise), puis en M5 deux **palettes** (DE bleue / HET orange). Ces objets réapparaissent dans les jeux.
 
@@ -507,6 +527,23 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - Trois portes : **politesse** (bleu : *Zou u … willen? Ik zou graag … willen*) · **conseil, souhait** (vert : *Je zou … moeten*) · **hypothèse** (violet : *Als ik tijd had, zou ik …*).
 - Sous les portes, la forme unique : *zou / zouden* + infinitif au bout ; pour l'hypothèse, le wagon *als* (M9) avec l'imperfectum (M19).
 
+**S26 — L'organigramme** (M30)
+- En haut, *de directie* (*de zaakvoerder*) ; en dessous, six services reliés par des traits : *de boekhouding, de personeelsdienst, de verkoop, de aankoop, de marketing, de IT-dienst*.
+- Dans chaque case : une icône, le nom avec son article et la traduction ; sous trois services, un personnage du fil rouge (Karim, Sofie, Lotte).
+
+**S27 — Le plan du rez-de-chaussée** (M30, M31)
+- À gauche, *de parking* et *de ingang* ; juste après, *het onthaal* ; au centre, *de gang*.
+- En haut (à gauche en marchant depuis l'entrée) : *de vergaderzaal, het kopieerlokaal, de toiletten* ; en bas (à droite) : *het kantoor, de keuken, de refter* ; au fond, *de trap* et *de lift*.
+- Le même plan sert au vocabulaire (M30), aux trajets et aux itinéraires (M31) ; il est dessiné par `generateur/plan.js`.
+
+**S28 — La porte et la flèche** (M31)
+- Deux fois la même pièce vue du dessus, porte à gauche : un personnage dedans avec un point bleu (*in de keuken* = où ?) / un personnage dehors et une flèche orange qui franchit la porte (*de keuken in* = vers où ?).
+- Les *achterzetsels* ont chacun un pictogramme : une flèche orange qui entre (*in*), sort (*uit*), monte un escalier (*op*), le descend (*af*), traverse une rivière (*over*) ou un tunnel (*door*), tourne au coin (*om*), longe des portes (*langs*), dépasse un bâtiment (*voorbij*) ou passe une porte (*binnen*).
+
+**S29 — Le pitch en 5 étapes** (M32)
+- Cinq pierres de gué numérotées, de gauche à droite : ① *Wie ben ik?* ② *Wat doe ik?* ③ *Wat heb ik gedaan?* ④ *Wat wil ik?* ⑤ *En privé?*
+- Chaque étape porte son temps et sa couleur (présent bleu, passé framboise, futur vert) et un exemple ; une formule finale : *Aangenaam!*
+
 ### 5.9 Gabarits d'exercices
 
 | Code | Type | Agencement standard |
@@ -563,3 +600,9 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | verbe réfléchi | het wederkerend werkwoord | *zich vergissen : ik vergis **me*** |
 | pronom réciproque | het wederkerig voornaamwoord | *We helpen **elkaar**.* |
 | conditionnel | de voorwaardelijke wijs | *Ik **zou** graag komen.* |
+| l'entreprise | het bedrijf | *Ik werk bij een **bedrijf** in Brussel.* |
+| le service | de afdeling (BE aussi : de dienst) | *de **afdeling** verkoop · de personeels**dienst*** |
+| la fonction | de functie | *Wat is je **functie**? — Ik ben boekhouder.* |
+| l'employeur / l'employé·e | de werkgever / de werknemer | ***werk** + **geven** / **werk** + **nemen*** |
+| préposition / postposition | het voorzetsel / het achterzetsel | ***in** de keuken / de keuken **in*** |
+| circumposition | het omzetsel | ***naar** de deur **toe*** |

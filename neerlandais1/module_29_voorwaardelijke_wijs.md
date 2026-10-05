@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Niveau** | A2 · UE1 · bloc 6 (module de synthèse du parcours) |
+| **Niveau** | A2 · UE1 · bloc 6 (module de synthèse du bloc 6) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14, ex. 1 à 3 · séance 2 : diapos 15–22, ex. 4 à 7) |
 | **Source** | Création (aucune archive) |
 | **Prérequis** | M9 (*als*, verbe à la fin, « verbe, verbe »), M12 (modaux et pince), M16 (échelle de politesse), M18 (*zullen*), M19 (imperfectum : *had, was, kon*), M27 (*graag*) |
@@ -24,7 +24,7 @@
 **Décisions**
 - Schéma **S25** « les trois portes du conditionnel » : politesse · conseil et souhait · hypothèse.
 - Le conditionnel passé (*ik zou gekomen zijn, ik had het gedaan*) est donné en aperçu.
-- Le module se termine par le **bilan du parcours complet** (M1–M29) ; la mise en situation finale réutilise les montants (M26) et les préférences (M27).
+- Le module se termine par le **bilan des blocs 1 à 6** (M1–M29), le bilan final du parcours est au M32 ; la mise en situation finale réutilise les montants (M26) et les préférences (M27).
 
 ## Déroulé
 
@@ -373,17 +373,17 @@
 > Idées : *een koffiemachine (€ 1.200) · nieuwe stoelen (€ 3.500) · een teamuitstap (€ 2.000) · planten (€ 400) · een cursus Nederlands (€ 1.800)*
 > Banque : *Wat zouden we kunnen doen? · Ik zou graag … · Als we … kochten, zouden we … · Ik zou liever … · Zou dat niet te duur zijn? · Dat zou ik niet doen.*
 
-**Notes pour l'animateur** — Synthèse du parcours : conditionnel, montants (M26), préférences (M27), *elkaar* (M28 : *We zouden elkaar vaker kunnen zien*). Le budget total ne doit pas dépasser 5 000 € : faites additionner à voix haute.
+**Notes pour l'animateur** — Synthèse du bloc 6 : conditionnel, montants (M26), préférences (M27), *elkaar* (M28 : *We zouden elkaar vaker kunnen zien*). Le budget total ne doit pas dépasser 5 000 € : faites additionner à voix haute.
 
 ---
 
-### [DIAPOSITIVE 22 : Ticket de sortie et bilan du parcours]
+### [DIAPOSITIVE 22 : Ticket de sortie et bilan du bloc 6]
 
-**Objectif pédagogique** — Vérifier les 3 objectifs et clore le parcours *Néerlandais 1*.
+**Objectif pédagogique** — Vérifier les 3 objectifs et clore le bloc 6.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** à gauche.
-- *À droite* : la frise des 29 modules en 6 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : Néerlandais 2 ».
+- *À droite* : la frise des 29 modules en 6 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : bloc 7 ».
 
 **Contenu textuel**
 > 1. Plus poli : *Help me!*
@@ -391,11 +391,11 @@
 > 3. Hypothèse : *Ik heb geen tijd. Ik ga niet mee.*
 >
 > Demander 😟 😐 🙂 · Conseiller 😟 😐 🙂 · Imaginer 😟 😐 🙂
-> **Proficiat! Néerlandais 1 is klaar.** 🏆
+> **Proficiat! Bloc 6 is klaar.** 🏆 — Volgende stap : bloc 7, M30 *Het bedrijf*
 
 **Notes pour l'animateur** — Réponses :
 1. *Zou je me kunnen helpen?*
 2. *Je zou meer moeten slapen.* (ou une autre idée)
 3. *Als ik tijd had, zou ik meegaan.*
 
-Bilan : faites relire la frise des 29 modules et choisir un module à retravailler. En Néerlandais 2 : *om … te*, les autres conjonctions, *hoeven te*, le passif, le conditionnel passé.
+Bilan : faites relire la frise des 29 modules et choisir un module à retravailler. Bloc 7 : le vocabulaire de l'entreprise (M30), les *achterzetsels* (M31) et la présentation personnelle et professionnelle (M32, bilan final du parcours).

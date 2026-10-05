@@ -23,7 +23,7 @@
 **Décisions**
 - Schéma **S20** « la palette des nuances » : 4 familles de couleurs (adoucir, insister, questionner, rassurer).
 - 10 particules au programme : *even, maar, eens, toch, nou, wel, hoor, soms, dan, ook alweer* (+ *eigenlijk* en question).
-- Le module se termine par le **bilan des blocs 1 à 5** (M1–M24) ; le bilan final du parcours est au M29.
+- Le module se termine par le **bilan des blocs 1 à 5** (M1–M24) ; le bilan final du parcours est au M32.
 
 ## Déroulé
 
@@ -414,4 +414,4 @@
 2. *Je komt toch morgen?*
 3. *Kun je me even helpen?*
 
-Bilan : faites relire la frise des 24 modules et choisir un module à retravailler. Bloc 6 : l'heure (M25), les montants (M26), *graag / houden van* (M27), *zich / elkaar* (M28) et le conditionnel (M29, bilan final du parcours).
+Bilan : faites relire la frise des 24 modules et choisir un module à retravailler. Bloc 6 : l'heure (M25), les montants (M26), *graag / houden van* (M27), *zich / elkaar* (M28) et le conditionnel (M29). Bloc 7 : l'entreprise (M30), les *achterzetsels* (M31) et la présentation professionnelle (M32, bilan final du parcours).
