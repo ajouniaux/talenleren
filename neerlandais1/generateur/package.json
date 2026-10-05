@@ -1,7 +1,7 @@
 {
   "name": "neerlandais1-powerpoints",
   "private": true,
-  "description": "Générateur des 32 présentations et du complément Uitspraak! — Néerlandais 1 (UE1 · A1)",
+  "description": "Générateur des 32 présentations et des compléments Uitspraak! et Chunks! — Néerlandais 1 (UE1 · A1)",
   "scripts": {
     "build": "OUT=../powerpoints node build.js"
   },

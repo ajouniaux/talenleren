@@ -34,6 +34,8 @@
 
 > **Complément *Uitspraak!* (prononciation, 5 séances).** Construit à partir des *Uitspraakoefeningen* 1 à 6 (2026) et d'une fiche « Prononciation » (Assimil) : 3 diapos par séance (écouter, s'entraîner, jouer) et une annexe de corrigés. Il reprend la syllabe-porte (M1), les repères des sons doubles (M6) et le code couleur vert / framboise ; la séance 4 ajoute l'accent tonique à la méthode de lecture du M1.
 
+> **Complément *Chunks!* (apprendre par blocs de mots, A1).** Création pour les vrais débutants, à utiliser dès la première semaine avec M2 et M8 : un *chunk* est un bloc de mots appris, retenu et dit d'un seul souffle (*Hoe gaat het?*). Deux schémas propres au complément : **CH1** « la brique et le bloc » (des mots isolés → un bloc assemblé) et **CH2** « le bloc à trou » (*Ik woon in ▢*). Code couleur : blocs orange, cases à compléter bleues, « blocs bouées » (stratégies de dépannage : *Kan je even herhalen?*) verts, mot à mot gris. La mise en situation impose l'usage systématique des blocs bouées.
+
 ---
 
 ## 2. Diagnostic transversal

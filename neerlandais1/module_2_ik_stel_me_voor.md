@@ -33,6 +33,7 @@
 - Ajouts : salutations, arbre « vous → u / jullie », nombres, épellation, formulaire, dialogue modèle.
 - Les scénarios passent de 6 à **3**, plus 2 variantes de différenciation.
 - Le jeu de synonymes devient un tri de nuage de mots.
+- Avec de vrais débutants, faites précéder ce module du complément ***Chunks!*** (`chunks_blokjes.md`) : les salutations et la présentation y sont apprises comme des blocs, avec les « blocs bouées » (*Kan je even herhalen?*).
 
 ## Déroulé
 
