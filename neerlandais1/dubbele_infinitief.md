@@ -65,7 +65,7 @@
 
 ---
 
-### [DIAPOSITIVE 3 : Vandaag… gisteren ?]
+### [DIAPOSITIVE 3 : Vandaag… gisteren?]
 
 **Objectif pédagogique** — Faire chercher la forme du passé et provoquer l'hypothèse *gemoeten*.
 
@@ -97,7 +97,7 @@
 > **Le nom du procédé** : *de dubbele infinitief*, le double infinitif ; en grammaire : *infinitivus pro participio* (IPP) = « l'infinitif à la place du participe ».
 > Au passé composé, quand un verbe comme *moeten* est suivi d'un infinitif, il ne prend **pas** la forme *ge-…* : il reste **à l'infinitif**.
 
-**Notes pour l'animateur** — Le français garde le participe (*dû, pu, voulu, fait réparer*) ; le néerlandais le remplace par l'infinitif. L'allemand fait pareil (*ich habe arbeiten müssen*), ce qui peut aider les germanophones de la classe.
+**Notes pour l'animateur** — Le français garde le participe (*dû, pu, voulu, fait réparer*) ; le néerlandais le remplace par l'infinitif. L'allemand fait pareil (*ich habe arbeiten müssen* — attention, ordre inverse : *arbeiten müssen / moeten werken*), ce qui peut aider les germanophones de la classe.
 
 ---
 
@@ -131,7 +131,7 @@
 > ③ 🚶 **gaan · komen · blijven** — *Ik ben gaan zwemmen.*
 > ④ 🪑 **zitten · staan · liggen · lopen** — *Ik heb zitten lezen.*
 > ⑤ 👀👂 **zien · horen · voelen** — *Ik heb hem zien vertrekken.*
-> Tous ces verbes se construisent **sans te** au présent : *ik moet werken · ik ga zwemmen · ik laat repareren*.
+> Au présent, ces verbes se construisent **sans te** : *ik moet werken · ik ga zwemmen · ik laat mijn auto repareren* (sauf *zitten · staan · liggen · lopen* : *ik zit **te** lezen*, et ce *te* disparaît au passé).
 
 **Notes pour l'animateur** — Pour ④, le *te* du présent (*ik zit te lezen*, M17) disparaît au passé : voir diapo 10. *helpen* et *leren* peuvent aussi prendre le double infinitif (*Ik heb hem helpen verhuizen*), mais ce n'est pas obligatoire.
 
@@ -150,9 +150,9 @@
 > ⛔ *Ik kan niet komen.* → *Ik heb niet **kunnen komen**.* (je n'ai pas pu venir)
 > 🤝 *Ik wil helpen.* → *Ik heb **willen helpen**.* (j'ai voulu aider)
 > 🚪 *Ik mag vroeg vertrekken.* → *Ik heb vroeg **mogen vertrekken**.* (j'ai pu partir tôt)
-> Auxiliaire : toujours **hebben**, même avec un verbe de mouvement : *Ik **heb** naar huis moeten gaan.*
+> Auxiliaire : **hebben**, même avec un verbe de mouvement : *Ik **heb** naar huis moeten gaan.* (En Belgique, aussi : *Ik **ben** naar huis moeten gaan.*)
 
-**Notes pour l'animateur** — *niet* et les compléments se placent devant le train : *Ik heb het niet kunnen vinden.* En Belgique, on entend *Ik ben naar huis moeten gaan* : c'est régional ; la forme standard est *Ik heb … moeten gaan*. *mogen* + infinitif = avoir le droit, pouvoir (permission).
+**Notes pour l'animateur** — *niet* et les compléments se placent devant le train : *Ik heb het niet kunnen vinden.* *Ik ben naar huis moeten gaan* est correct aussi (standard en Belgique, plus rare aux Pays-Bas) : enseignez *hebben* comme règle générale, acceptez *zijn* quand le dernier verbe se conjugue avec *zijn*. *mogen* + infinitif = avoir le droit, pouvoir (permission).
 
 ---
 
@@ -168,7 +168,7 @@
 > 🚗 *Ik laat mijn auto repareren.* → *Ik heb mijn auto **laten repareren**.* (j'ai fait réparer ma voiture)
 > 💇 *Ze laat haar haar knippen.* → *Ze heeft haar haar **laten knippen**.* (elle s'est fait couper les cheveux)
 > ⏳ *Ik laat de klant wachten.* → *Ik heb de klant **laten wachten**.* (j'ai fait attendre le client)
-> 📱 *Ik laat mijn gsm vallen.* → *Ik heb mijn gsm **laten vallen**.* (j'ai laissé tomber mon gsm)
+> 📱 *Ik laat mijn gsm vallen.* → *Ik heb mijn gsm **laten vallen**.* (j'ai laissé tomber mon GSM)
 > *laten* + infinitif = **faire faire** ou **laisser faire**. Au passé : *laten*, jamais *gelaten* devant un infinitif.
 
 **Notes pour l'animateur** — Très utile au travail et dans la vie quotidienne : *Ik heb het laten nakijken* (je l'ai fait vérifier), *Ik heb een offerte laten maken*. *laten* seul garde son participe : *Ik heb het zo gelaten* (diapo 13).
@@ -190,7 +190,7 @@
 > 🛒 *We gaan winkelen.* → *We zijn **gaan winkelen**.* (nous sommes allé·es faire du shopping)
 > Auxiliaire : **zijn**, comme pour *gaan, komen, blijven* seuls : *ik ben gegaan → ik ben gaan zwemmen*.
 
-**Notes pour l'animateur** — Rappel M18 : *Ik ga zwemmen* (futur proche ou activité). Au passé : *Ik ben gaan zwemmen*, jamais ~~*Ik ben gegaan zwemmen*~~. *blijven slapen* = passer la nuit chez quelqu'un ; *blijven eten* = rester manger.
+**Notes pour l'animateur** — Rappel M18 : *Ik ga zwemmen* (futur proche ou activité). Au passé : *Ik ben gaan zwemmen*, jamais ~~*Ik ben gegaan zwemmen*~~. Attention : *We zijn uit eten gegaan* (expression figée) est correct. *blijven slapen* = passer la nuit chez quelqu'un ; *blijven eten* = rester manger.
 
 ---
 
@@ -203,10 +203,10 @@
 - *À droite* : 4 cartes (livres, cuisine, dormeur, loupe).
 
 **Contenu textuel**
-> 📚 *Ik zit te lezen.* → *Ik heb **zitten lezen**.* (j'étais assis·e en train de lire)
-> 🍳 *Ze staat te koken.* → *Ze heeft **staan koken**.* (elle était en train de cuisiner)
+> 📚 *Ik zit te lezen.* → *Ik heb **zitten lezen**.* (j'étais (assis·e) en train de lire)
+> 🍳 *Ze staat te koken.* → *Ze heeft **staan koken**.* (elle était (debout) en train de cuisiner)
 > 😴 *Hij ligt te slapen.* → *Hij heeft **liggen slapen**.* (il était couché en train de dormir)
-> 🔍 *Ik loop te zoeken.* → *Ik heb **lopen zoeken**.* (j'ai passé mon temps à chercher)
+> 🔍 *Ik loop te zoeken.* → *Ik heb de hele dag **lopen zoeken**.* (j'ai passé la journée à chercher)
 > Au présent : *zitten **te** lezen* (M17). Au passé : *heb zitten lezen*, **sans te**. Auxiliaire : **hebben**.
 
 **Notes pour l'animateur** — Ces verbes donnent l'idée de durée, « être en train de » : *Ik heb de hele avond zitten studeren.* La forme avec *te* au passé (~~*heb zitten te lezen*~~) est une faute fréquente, même chez les néerlandophones ; l'exercice 4 la reprend.
@@ -225,10 +225,10 @@
 > 👀 *Ik zie hem vertrekken.* → *Ik heb hem **zien vertrekken**.* (je l'ai vu partir)
 > 🎤 *Ik hoor haar zingen.* → *Ik heb haar **horen zingen**.* (je l'ai entendue chanter)
 > 📳 *Ik voel de grond trillen.* → *Ik heb de grond **voelen trillen**.* (j'ai senti le sol trembler)
-> Comme en français : *je l'ai **vu** partir* → *ik heb hem **zien** vertrekken* (et pas *gezien*).
+> Même construction qu'en français, mais au passé : *je l'ai **vu** partir* → *ik heb hem **zien** vertrekken* (et pas *gezien*).
 > Plus rare, mais possible aussi avec *helpen* et *leren* : *Ik heb hem **helpen** verhuizen.*
 
-**Notes pour l'animateur** — Sans infinitif, le participe revient : *Ik heb hem gezien. · Ik heb het gehoord.* Avec *helpen* et *leren*, les deux formes existent : *Ik heb hem helpen verhuizen* / *Ik heb hem geholpen met verhuizen* ; *Ik heb leren zwemmen* / *Ik heb geleerd te zwemmen*.
+**Notes pour l'animateur** — Sans infinitif, le participe revient : *Ik heb hem gezien. · Ik heb het gehoord.* Avec *helpen* et *leren*, les deux formes existent : *Ik heb hem helpen verhuizen* / *Ik heb hem geholpen met verhuizen* ; *Ik heb leren zwemmen* / *Ik heb zwemmen geleerd* / *Ik heb geleerd te zwemmen*.
 
 ---
 
@@ -245,9 +245,9 @@
 > *Ik **heb** naar huis moeten gaan.* — *moeten* → **hebben**
 > *Ik **ben** gaan zwemmen.* — *gaan* → **zijn**
 > **HEBBEN** : *moeten · kunnen · willen · mogen · laten · zitten · staan · liggen · lopen · zien · horen · voelen* · **ZIJN** : *gaan · komen · blijven*
-> Ce n'est pas l'action (*gaan*) qui décide, mais le **premier verbe** après l'auxiliaire : *moeten* → *hebben*.
+> Ce n'est pas l'action (*gaan*) qui décide, mais le **premier verbe** après l'auxiliaire : *moeten* → *hebben*. (En Belgique, *ben* est aussi admis : *Ik ben naar huis moeten gaan.*)
 
-**Notes pour l'animateur** — Moyen mnémotechnique : « le premier wagon choisit sa locomotive ». Piège classique : *moeten gaan* → *heb*, *gaan zwemmen* → *ben*.
+**Notes pour l'animateur** — Moyen mnémotechnique : « le premier wagon choisit sa locomotive ». Piège classique : *moeten gaan* → *heb*, *gaan zwemmen* → *ben*. Nuance : quand le dernier verbe se conjugue avec *zijn* (*gaan, komen*), *zijn* est aussi correct après un modal (*Ik ben naar huis moeten gaan*), surtout en Belgique.
 
 ---
 
@@ -272,15 +272,15 @@
 **Objectif pédagogique** — Ne pas étendre le double infinitif aux verbes construits avec *te*.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : « VERBE + *te* + INFINITIF → PARTICIPE » : 4 exemples avec image (*beloven, proberen, vergeten, weigeren*).
+- *À gauche* : « VERBE + *te* + INFINITIF → PARTICIPE » : 4 exemples avec image (*beloven, proberen, beslissen, weigeren*).
 - *À droite* : « EXCEPTION : *zitten · staan · liggen · lopen* » : *Ik | zit | te | wachten.* ⬇ *Ik | heb | zitten | wachten.*
 
 **Contenu textuel**
-> 🤝 *Ik heb **beloofd** te komen.* · 📞 *Ik heb **geprobeerd** je te bellen.* · 😬 *Ik ben **vergeten** te bellen.* · ⛔ *Hij heeft **geweigerd** te betalen.*
+> 🤝 *Ik heb **beloofd** te komen.* · 📞 *Ik heb **geprobeerd** je te bellen.* · 🤔 *We hebben **besloten** te verhuizen.* · ⛔ *Hij heeft **geweigerd** te betalen.*
 > Exception : *Ik zit te wachten.* → *Ik heb een uur **zitten wachten**.* (le *te* disparaît, double infinitif)
 > Règle simple : un *te* au présent → **participe** au passé (sauf *zitten, staan, liggen, lopen*).
 
-**Notes pour l'animateur** — À l'oral, on entend aussi *Ik heb proberen te bellen* ou *Het is beginnen te regenen* : ces formes sont acceptées, mais le participe est la forme sûre à l'écrit. *vergeten* prend *zijn* : *Ik ben het vergeten.* Cas particulier (B2) : *hoeven* : *Dat had je niet hoeven (te) doen.*
+**Notes pour l'animateur** — On entend aussi *Ik heb je proberen te bellen* ou *Het is beginnen te regenen* : ces formes sont correctes (aussi à l'écrit), à condition que l'objet soit devant (*je proberen te bellen*) ; *Het is beginnen regenen* (sans *te*) n'est pas standard. Quelques verbes avec *te* prennent le double infinitif : *weten te* (obligatoire : *Hij heeft weten te ontsnappen*), *durven*, *hoeven* (*Dat had je niet hoeven te doen*), et facultativement *beginnen*, *proberen*. Pour la classe, la règle simple suffit.
 
 ---
 
@@ -296,7 +296,7 @@
 > Verbe séparable, deux ordres corrects : *Ik heb hem moeten **opbellen**.* = *Ik heb hem **op** moeten bellen.*
 > Subordonnée : le verbe conjugué se place en tête du train : *…, omdat ik niet **heb kunnen komen**.* · *…, dat ze **is blijven slapen**.*
 > *niet*, l'objet et les compléments restent **devant** le train.
-> Au M11, on a vu : *…, dat ik je **op zal bellen** = **zal opbellen*** : même logique.
+> Même logique qu'avec *zal* : *…, dat ik je **zal opbellen*** (M11) = *…, dat ik je **op zal bellen***.
 
 **Notes pour l'animateur** — Lien avec M11 et le complément sur les particules (diapo 28). Les deux ordres de la particule sont courants en Belgique comme aux Pays-Bas.
 
@@ -315,7 +315,7 @@
 > ⏰ *We hadden eerder **moeten vertrekken**.* (nous aurions dû partir plus tôt) · ⛔ *Dat had je niet **moeten doen**.* (tu n'aurais pas dû faire ça)
 > Ne pas confondre : *Je **zou** meer moeten slapen* = tu **devrais** · *Je **had** meer moeten slapen* = tu **aurais dû**.
 
-**Notes pour l'animateur** — *had* est le plus-que-parfait de *hebben* ; avec le double infinitif, il donne le conditionnel passé français. Lien avec M29 (*Als ik tijd had…*). Formules utiles : *Ik had het kunnen weten. · Dat had ik moeten zeggen. · Je had me kunnen bellen!*
+**Notes pour l'animateur** — *had* est le prétérit de *hebben* ; *had* + double infinitif est un plus-que-parfait, qui a ici le sens du conditionnel passé français (*aurais dû*). Lien avec M29 (*Als ik tijd had…*). Formules utiles : *Ik had het kunnen weten. · Dat had ik moeten zeggen. · Je had me kunnen bellen!*
 
 ---
 
@@ -346,7 +346,7 @@
 - Intercalaire sombre, avec 7 tuiles.
 
 **Contenu textuel**
-> 1 · Au passé ! ★ — 2 · *Hebben of zijn ?* ★★ — 3 · Participe ou infinitif ? ★★ — 4 · Le détective ★★ — 5 · Les regrets ★★ — 6 · Le jeu des excuses ★★ — 7 · Lundi matin ★★★
+> 1 · Au passé ! ★ — 2 · *Hebben of zijn?* ★★ — 3 · Participe ou infinitif ? ★★ — 4 · Le détective ★★ — 5 · Les regrets ★★ — 6 · Le jeu des excuses ★★ — 7 · Lundi matin ★★★
 
 **Notes pour l'animateur** — Exercices 1 et 2 en séance 1, les autres en séance 2.
 
@@ -369,7 +369,7 @@
 
 ---
 
-### [DIAPOSITIVE 20 : Exercice 2 — Hebben of zijn ? ★★]
+### [DIAPOSITIVE 20 : Exercice 2 — Hebben of zijn? ★★]
 
 **Objectif pédagogique** — Choisir l'auxiliaire d'après le premier verbe du train.
 
@@ -382,7 +382,7 @@
 >
 > **✓ CORRECTIE** — 1 *ben* · 2 *hebben* · 3 *is* · 4 *heeft* · 5 *zijn* · 6 *heb* · 7 *heeft* · 8 *heb*
 
-**Notes pour l'animateur** — N° 8 : *moeten* décide → *hebben* (et pas *zijn*, même avec *gaan*). N° 7 : *ze* peut être singulier (*heeft*) ou pluriel (*hebben*) : acceptez les deux.
+**Notes pour l'animateur** — N° 8 : *moeten* décide → *heb* ; *ben* est aussi correct en Belgique. N° 7 : *ze* peut être singulier (*heeft*) ou pluriel (*hebben*) : acceptez les deux.
 
 ---
 
@@ -399,7 +399,7 @@
 >
 > **✓ CORRECTIE** — 1 *gekund* · 2 *kunnen* · 3 *gewild* · 4 *geprobeerd* · 5 *zitten* · 6 *laten* · 7 *zien* · 8 *beloofd*
 
-**Notes pour l'animateur** — Faites justifier : seul (1, 3) → participe ; avec *te* (4, 8) → participe ; avec un infinitif (2, 5, 6, 7) → double infinitif. N° 4 : à l'oral, on entend aussi *Ik heb proberen te bellen*, mais *geprobeerd* est la forme standard.
+**Notes pour l'animateur** — Faites justifier : seul (1, 3) → participe ; avec *te* (4, 8) → participe ; avec un infinitif (2, 5, 6, 7) → double infinitif. N° 4 : *Ik heb je **proberen** te bellen* (*je* devant) est aussi correct, mais pas *Ik heb proberen je te bellen*.
 
 ---
 
@@ -427,12 +427,12 @@
 - 6 cartes : une image, une situation, un indice (infinitif), la phrase à compléter.
 
 **Contenu textuel**
-> 1 ⏰ *Je bent te laat.* (vroeger vertrekken) · 2 ☂️ *Je bent helemaal nat.* (een paraplu meenemen) · 3 📞 *Ik wist het niet!* (me bellen)
+> 1 ⏰ *Je bent te laat.* (eerder vertrekken) · 2 ☂️ *Je bent helemaal nat.* (een paraplu meenemen) · 3 📞 *Ik wist het niet!* (me bellen)
 > 4 🏆 *We hebben net niet gewonnen.* (winnen) · 5 🤒 *Hij is nog altijd ziek.* (thuisblijven) · 6 💰 *Je hebt te veel betaald.* (de prijzen vergelijken)
 >
-> **✓ CORRECTIE** — 1 *Je had vroeger moeten vertrekken.* · 2 *Je had een paraplu moeten meenemen.* · 3 *Je had me kunnen bellen.* · 4 *We hadden kunnen winnen.* · 5 *Hij had thuis moeten blijven.* · 6 *Je had de prijzen moeten vergelijken.*
+> **✓ CORRECTIE** — 1 *Je had eerder moeten vertrekken.* · 2 *Je had een paraplu moeten meenemen.* · 3 *Je had me kunnen bellen.* · 4 *We hadden kunnen winnen.* · 5 *Hij had thuis moeten blijven.* · 6 *Je had de prijzen moeten vergelijken.*
 
-**Notes pour l'animateur** — N° 2 : aussi *een paraplu mee moeten nemen*. N° 5 : aussi *had moeten thuisblijven*. Faites jouer chaque réplique avec le ton du reproche ou du regret.
+**Notes pour l'animateur** — N° 2 : aussi *een paraplu mee moeten nemen*. N° 5 : aussi *had moeten thuisblijven*. Selon le sens, acceptez l'autre modal : n° 2 *kunnen meenemen*, n° 3 *had me moeten bellen*, n° 4 *hadden moeten winnen*, n° 6 *had … kunnen vergelijken*. Faites jouer chaque réplique avec le ton du reproche ou du regret.
 
 ---
 
@@ -463,7 +463,7 @@
 **Contenu textuel**
 > **Situation** : lundi matin chez Peeters & Co. Le rapport n'est pas prêt. Objectif : 5 doubles infinitifs.
 > **A** : demandez pourquoi le rapport n'est pas prêt et comment s'est passé le week-end. Réagissez. **B** : expliquez et excusez-vous avec les notes du week-end. Proposez une solution.
-> Post-it : *za: auto laten repareren · za: met de kinderen gaan zwemmen · zo: 3 uur in de file moeten wachten · zo: niet kunnen werken (wifi!) · ma: bij mijn zus blijven slapen*
+> Post-it : *za: auto laten repareren · za: met de kinderen gaan zwemmen · zo: 3 uur in de file moeten staan · zo: niet kunnen werken (wifi!) · zo: bij mijn zus blijven slapen*
 > Banque : *Ik heb … moeten / kunnen / willen … · Ik heb … laten … · Ik ben … gaan / komen / blijven … · Ik heb … zitten … · Ik had … moeten … · Je had me kunnen bellen. · Geen probleem. · Kan het tegen woensdag?*
 
 **Notes pour l'animateur** — Comptez les doubles infinitifs de B (objectif : 5) et vérifiez l'auxiliaire. Puis inversez les rôles avec un week-end inventé. *tegen woensdag* = d'ici mercredi (BE).

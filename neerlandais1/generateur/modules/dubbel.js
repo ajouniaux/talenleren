@@ -102,7 +102,7 @@ function build(d) {
 
   // ---------------------------------------------------------------- 3 échauffement
   {
-    const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Vandaag… gisteren ?' });
+    const s = d.page({ g: 3, tag: 'ÉCHAUFFEMENT', title: 'Vandaag… gisteren?' });
     const P = [['briefcase', 'Vandaag **moet** ik werken.', 'Gisteren **heb** ik ook…'], ['no-entry', 'Vandaag **kan** ik niet komen.', 'Gisteren **heb** ik ook niet…'], ['person-swimming', 'Vandaag **ga** ik zwemmen.', 'Gisteren **ben** ik ook…']];
     const w = (12.13 - 2 * 0.25) / 3;
     P.forEach(([il, a, b], i) => {
@@ -169,26 +169,26 @@ function build(d) {
       d.t(s, `**${F.name}**`, x + 0.1, 3.35, tw - 0.2, 0.75, { size: 17, color: F.c, align: 'center', valign: 'middle' });
       d.t(s, `//${ex}//`, x + 0.12, 4.2, tw - 0.24, 1.3, { size: 15, align: 'center', valign: 'middle' });
     });
-    band(s, 'Tous ces verbes se construisent **sans te** au présent : //ik moet werken · ik ga zwemmen · ik laat repareren//.', 6.0, 0.75, 'tx2', 17);
+    band(s, 'Au présent, ces verbes se construisent **sans te** : //ik moet werken · ik ga zwemmen · ik laat mijn auto repareren// (sauf //zitten · staan · liggen · lopen// : //ik zit **te** lezen//, et ce //te// disparaît au passé).', 5.95, 0.85, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 7–11 une famille par diapo
   const FAMS = [
     ['MOD', 'Les modaux : moeten, kunnen, willen, mogen', [['Ik', 'n'], ['moet', 'c'], ['werken.', 'a']], [['Ik', 'n'], ['heb', 'c'], ['moeten', 'p'], ['werken.', 'a']], 'gemoeten',
       [['briefcase', 'Ik moet lang werken.', 'Ik heb lang {moeten werken}.', 'j’ai dû travailler longtemps'], ['no-entry', 'Ik kan niet komen.', 'Ik heb niet {kunnen komen}.', 'je n’ai pas pu venir'], ['handshake', 'Ik wil helpen.', 'Ik heb {willen helpen}.', 'j’ai voulu aider'], ['door', 'Ik mag vroeg vertrekken.', 'Ik heb vroeg {mogen vertrekken}.', 'j’ai pu partir tôt']],
-      'Auxiliaire : toujours **hebben**, même avec un verbe de mouvement : //Ik **heb** naar huis moeten gaan.//'],
+      'Auxiliaire : **hebben**, même avec un verbe de mouvement : //Ik **heb** naar huis moeten gaan.// (En Belgique, aussi : //Ik **ben** naar huis moeten gaan.//)'],
     ['LAT', 'laten : faire faire', [['Ik', 'n'], ['laat', 'c'], ['het', 'n'], ['repareren.', 'a']], [['Ik', 'n'], ['heb', 'c'], ['het', 'n'], ['laten', 'p'], ['repareren.', 'a']], 'gelaten',
-      [['automobile', 'Ik laat mijn auto repareren.', 'Ik heb mijn auto {laten repareren}.', 'j’ai fait réparer ma voiture'], ['person-getting-haircut', 'Ze laat haar haar knippen.', 'Ze heeft haar haar {laten knippen}.', 'elle s’est fait couper les cheveux'], ['hourglass-not-done', 'Ik laat de klant wachten.', 'Ik heb de klant {laten wachten}.', 'j’ai fait attendre le client'], ['mobile-phone', 'Ik laat mijn gsm vallen.', 'Ik heb mijn gsm {laten vallen}.', 'j’ai laissé tomber mon gsm']],
+      [['automobile', 'Ik laat mijn auto repareren.', 'Ik heb mijn auto {laten repareren}.', 'j’ai fait réparer ma voiture'], ['person-getting-haircut', 'Ze laat haar haar knippen.', 'Ze heeft haar haar {laten knippen}.', 'elle s’est fait couper les cheveux'], ['hourglass-not-done', 'Ik laat de klant wachten.', 'Ik heb de klant {laten wachten}.', 'j’ai fait attendre le client'], ['mobile-phone', 'Ik laat mijn gsm vallen.', 'Ik heb mijn gsm {laten vallen}.', 'j’ai laissé tomber mon GSM']],
       '//laten// + infinitif = **faire faire** ou **laisser faire**. Au passé : //laten//, jamais //gelaten// devant un infinitif.'],
     ['GKB', 'gaan, komen, blijven : avec zijn !', [['Ik', 'n'], ['ga', 'c'], ['zwemmen.', 'a']], [['Ik', 'n'], ['ben', 'c'], ['gaan', 'p'], ['zwemmen.', 'a']], 'gegaan',
       [['person-swimming', 'Ik ga zwemmen.', 'Ik ben {gaan zwemmen}.', 'je suis allé·e nager'], ['fork-and-knife-with-plate', 'Ze komen eten.', 'Ze zijn {komen eten}.', 'ils / elles sont venu·es manger'], ['bed', 'Hij blijft slapen.', 'Hij is {blijven slapen}.', 'il est resté dormir'], ['shopping-cart', 'We gaan winkelen.', 'We zijn {gaan winkelen}.', 'nous sommes allé·es faire du shopping']],
       'Auxiliaire : **zijn**, comme pour //gaan, komen, blijven// seuls : //ik ben gegaan → ik ben gaan zwemmen//.'],
     ['ZSL', 'zitten, staan, liggen, lopen : le te disparaît', [['Ik', 'n'], ['zit', 'c'], ['te', 'e'], ['lezen.', 'a']], [['Ik', 'n'], ['heb', 'c'], ['zitten', 'p'], ['lezen.', 'a']], 'gezeten',
-      [['books', 'Ik zit te lezen.', 'Ik heb {zitten lezen}.', 'j’étais (assis·e) en train de lire'], ['cooking', 'Ze staat te koken.', 'Ze heeft {staan koken}.', 'elle était en train de cuisiner'], ['sleeping-face', 'Hij ligt te slapen.', 'Hij heeft {liggen slapen}.', 'il était (couché) en train de dormir'], ['magnifying-glass-tilted-left', 'Ik loop te zoeken.', 'Ik heb {lopen zoeken}.', 'j’ai passé mon temps à chercher']],
+      [['books', 'Ik zit te lezen.', 'Ik heb {zitten lezen}.', 'j’étais (assis·e) en train de lire'], ['cooking', 'Ze staat te koken.', 'Ze heeft {staan koken}.', 'elle était (debout) en train de cuisiner'], ['sleeping-face', 'Hij ligt te slapen.', 'Hij heeft {liggen slapen}.', 'il était (couché) en train de dormir'], ['magnifying-glass-tilted-left', 'Ik loop te zoeken.', 'Ik heb de hele dag {lopen zoeken}.', 'j’ai passé la journée à chercher']],
       'Au présent : //zitten **te** lezen// (M17). Au passé : //heb zitten lezen//, **sans te**. Auxiliaire : **hebben**.'],
     ['ZHV', 'zien, horen, voelen : la perception', [['Ik', 'n'], ['zie', 'c'], ['hem', 'n'], ['vertrekken.', 'a']], [['Ik', 'n'], ['heb', 'c'], ['hem', 'n'], ['zien', 'p'], ['vertrekken.', 'a']], 'gezien',
-      [['eyes', 'Ik zie hem vertrekken.', 'Ik heb hem {zien vertrekken}.', 'je l’ai vu partir'], ['man-singer', 'Ik hoor haar zingen.', 'Ik heb haar {horen zingen}.', 'je l’ai entendue chanter'], ['vibration-mode', 'Ik voel de grond trillen.', 'Ik heb de grond {voelen trillen}.', 'j’ai senti le sol trembler']],
-      'Comme en français : //je l’ai **vu** partir// → //ik heb hem **zien** vertrekken// (et pas //gezien//).'],
+      [['eyes', 'Ik zie hem vertrekken.', 'Ik heb hem {zien vertrekken}.', 'je l’ai vu partir'], ['woman-singer', 'Ik hoor haar zingen.', 'Ik heb haar {horen zingen}.', 'je l’ai entendue chanter'], ['vibration-mode', 'Ik voel de grond trillen.', 'Ik heb de grond {voelen trillen}.', 'j’ai senti le sol trembler']],
+      'Même construction qu’en français, mais au passé : //je l’ai **vu** partir// → //ik heb hem **zien** vertrekken// (et pas //gezien//).'],
   ];
   d.section('Les cinq familles');
   FAMS.forEach(([k, title, pres, perf, ghost, rows, note], i) => {
@@ -231,7 +231,7 @@ function build(d) {
     d.t(s, '//gaan// → **zijn**', 0.6, 5.0, 6, 0.42, { size: 18, color: 'tx2' });
     d.rect(s, 9.0, 1.6, 3.73, 3.4, { fill: 'bg2', line: BORDER, radius: 0.12 });
     d.t(s, ['**HEBBEN**', '//moeten · kunnen · willen · mogen · laten · zitten · staan · liggen · lopen · zien · horen · voelen//', '', '**ZIJN**', '//gaan · komen · blijven//'], 9.15, 1.7, 3.45, 3.2, { size: 15, gap: 3, valign: 'middle' });
-    band(s, 'Ce n’est pas l’action (//gaan//) qui décide, mais le **premier verbe** après l’auxiliaire : //moeten// → //hebben//.', 5.75, 0.8, 'tx2', 17);
+    band(s, ['Ce n’est pas l’action (//gaan//) qui décide, mais le **premier verbe** après l’auxiliaire : //moeten// → //hebben//.', '(En Belgique, //ben// est aussi admis : //Ik ben naar huis moeten gaan.//)'], 5.75, 0.95, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 13 seul ou accompagné
@@ -260,11 +260,11 @@ function build(d) {
     const W = (12.13 - 0.3) / 2;
     d.rect(s, 0.6, 1.6, W, 4.55, { fill: 'E6EBF2', line: 'accent5', lw: 2, radius: 0.12 });
     d.t(s, '**VERBE + te + INFINITIF → PARTICIPE**', 0.8, 1.7, W - 0.4, 0.5, { size: 17, color: 'tx2', valign: 'middle' });
-    [['handshake', 'Ik heb {beloofd} te komen.', 'beloven'], ['telephone-receiver', 'Ik heb {geprobeerd} je te bellen.', 'proberen'], ['grimacing-face', 'Ik ben {vergeten} te bellen.', 'vergeten'], ['no-entry', 'Hij heeft {geweigerd} te betalen.', 'weigeren']].forEach(([ic, ex, v], i) => {
+    [['handshake', 'Ik heb {beloofd} te komen.', 'beloven'], ['telephone-receiver', 'Ik heb {geprobeerd} je te bellen.', 'proberen'], ['thinking-face', 'We hebben {besloten} te verhuizen.', 'beslissen'], ['no-entry', 'Hij heeft {geweigerd} te betalen.', 'weigeren']].forEach(([ic, ex, v], i) => {
       const y = 2.35 + i * 0.93;
       d.rect(s, 0.8, y, W - 0.4, 0.82, { fill: 'FFFFFF', line: null, radius: 0.08 });
       d.ill(s, ic, 0.92, y + 0.08, 0.66, 0.66);
-      rich(s, pc(ex, 18, 'tx2'), 1.75, y + 0.02, W - 1.6, 0.48);
+      rich(s, pc(ex, 17, 'tx2'), 1.75, y + 0.02, W - 1.6, 0.48);
       d.t(s, `//${v}//`, 1.75, y + 0.48, W - 1.6, 0.3, { size: 12, color: 'accent5', valign: 'middle' });
     });
     const x2 = 0.6 + W + 0.3;
@@ -291,7 +291,7 @@ function build(d) {
     train(s, 0.6, 5.05, [['…, dat ze', 'n'], ['is', 'c'], ['blijven', 'p'], ['slapen.', 'a']], { size: 21, h: 0.62 });
     e = strip.pos[3][0] + strip.pos[3][1];
     d.t(s, '//niet//, l’objet et les compléments restent **devant** le train.', 0.6, 5.95, 12.13, 0.4, { size: 15, color: 'tx2' });
-    d.t(s, 'Au M11, on a vu : //…, dat ik je **op zal bellen** = **zal opbellen**// : même logique.', 0.6, 6.38, 12.13, 0.4, { size: 15, color: 'accent5' });
+    d.t(s, 'Même logique qu’avec //zal// : //…, dat ik je **zal opbellen**// (M11) = //…, dat ik je **op zal bellen**//.', 0.6, 6.38, 12.13, 0.4, { size: 15, color: 'accent5' });
   }
 
   // ---------------------------------------------------------------- 16 les regrets (B1)
@@ -331,13 +331,13 @@ function build(d) {
 
   // ---------------------------------------------------------------- 18 divider
   d.divider({ g: 18, tiles: [
-    ['Au passé !', '★', 'FaHistory'], ['Hebben of zijn ?', '★★', 'FaBalanceScale'], ['Participe ou infinitif ?', '★★', 'FaExchangeAlt'], ['Le détective', '★★', 'FaSearch'],
+    ['Au passé !', '★', 'FaHistory'], ['Hebben of zijn?', '★★', 'FaBalanceScale'], ['Participe ou infinitif ?', '★★', 'FaExchangeAlt'], ['Le détective', '★★', 'FaSearch'],
     ['Les regrets', '★★', 'FaRegSadTear'], ['Le jeu des excuses', '★★', 'FaDice'], ['Lundi matin', '★★★', 'FaUsers'],
   ] });
 
   // ---------------------------------------------------------------- 19 ex1 au passé
-  const ex1 = [['briefcase', 'Ik moet lang werken.', 'Ik heb lang [[moeten werken]].'], ['no-entry', 'We kunnen niet komen.', 'We hebben niet [[kunnen komen]].'], ['person-swimming', 'Ze gaat zwemmen.', 'Ze [[is gaan zwemmen]].'], ['bicycle', 'Ik laat mijn fiets repareren.', 'Ik heb mijn fiets [[laten repareren]].'],
-    ['telephone-receiver', 'Hij zit te bellen.', 'Hij heeft [[zitten bellen]].'], ['ear', 'Ik hoor de kinderen lachen.', 'Ik heb de kinderen [[horen lachen]].'], ['fork-and-knife-with-plate', 'Ze komen eten.', 'Ze [[zijn komen eten]].'], ['door', 'Je mag vroeg vertrekken.', 'Je hebt vroeg [[mogen vertrekken]].']];
+  const ex1 = [['briefcase', 'Ik moet lang werken.', 'Ik [[heb]] lang [[moeten werken]].'], ['no-entry', 'We kunnen niet komen.', 'We [[hebben]] niet [[kunnen komen]].'], ['person-swimming', 'Ze gaat zwemmen.', 'Ze [[is gaan zwemmen]].'], ['bicycle', 'Ik laat mijn fiets repareren.', 'Ik [[heb]] mijn fiets [[laten repareren]].'],
+    ['telephone-receiver', 'Hij zit te bellen.', 'Hij [[heeft zitten bellen]].'], ['ear', 'Ik hoor de kinderen lachen.', 'Ik [[heb]] de kinderen [[horen lachen]].'], ['fork-and-knife-with-plate', 'Ze komen eten.', 'Ze [[zijn komen eten]].'], ['door', 'Je mag vroeg vertrekken.', 'Je [[hebt]] vroeg [[mogen vertrekken]].']];
   d.ex({ g: 19, title: 'Exercice 1 — Au passé !', stars: '★', instr: 'Mettez la phrase au passé composé.' }, (s, mode, top) => {
     const rh = (6.45 - top) / 4; const cw = (12.13 - 0.3) / 2;
     ex1.forEach(([ic, q, a], i) => {
@@ -345,22 +345,22 @@ function build(d) {
       d.rect(s, x, y + 0.04, cw, rh - 0.1, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: BORDER, lw: 0.75, radius: 0.1 });
       d.ill(s, ic, x + 0.1, y + 0.1, rh - 0.22, rh - 0.22);
       d.t(s, `**${i + 1}**  //${q}//`, x + rh, y + 0.06, cw - rh - 0.1, (rh - 0.1) * 0.45, { size: 15, color: 'accent5', valign: 'middle' });
-      d.t(s, `//${a}//`, x + rh, y + 0.06 + (rh - 0.1) * 0.45, cw - rh - 0.1, (rh - 0.1) * 0.55, { size: 18, valign: 'middle', mode });
+      d.t(s, `//${a}//`, x + rh, y + 0.06 + (rh - 0.1) * 0.45, cw - rh - 0.1, (rh - 0.1) * 0.55, { size: 17, valign: 'middle', mode });
     });
   });
 
   // ---------------------------------------------------------------- 20 ex2 hebben of zijn
   const ex2 = ['Ik [[ben]] gaan wandelen.', 'We [[hebben]] lang moeten wachten.', 'Hij [[is]] blijven slapen.', 'Ze [[heeft]] haar haar laten knippen.', 'Jullie [[zijn]] komen helpen.', 'Ik [[heb]] een uur zitten wachten.', 'Ze [[heeft]] niet kunnen slapen.', 'Ik [[heb]] naar huis moeten gaan.'];
-  d.ex({ g: 20, title: 'Exercice 2 — Hebben of zijn ?', stars: '★★', instr: 'Complétez avec la bonne forme de //hebben// ou //zijn//. Regardez le premier verbe du train !' }, (s, mode, top) => {
+  d.ex({ g: 20, title: 'Exercice 2 — Hebben of zijn?', stars: '★★', instr: 'Complétez avec la bonne forme de //hebben// ou //zijn//. Regardez le premier verbe du train !' }, (s, mode, top) => {
     d.list(s, ex2.map((e) => `//${e}//`), mode, { y: top + 0.15, w: 12.13, h: 4.3, cols: 2, size: 21, gap: 22 });
-    if (mode === 'a') d.t(s, 'N° 8 : //moeten// décide → //hebben// (et pas //zijn//, même avec //gaan//).', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 7 : //ze// pluriel → //hebben//. N° 8 : //moeten// décide → //heb// (//ben// est aussi correct en Belgique).', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 21 ex3 participe ou infinitif
   const ex3 = ['Ik heb het niet <<gekund>> / {{kunnen}}.', 'Ik heb het niet {{gekund}} / <<kunnen>> doen.', 'Dat heb ik altijd <<gewild>> / {{willen}}.', 'Ik heb <<geprobeerd>> / {{proberen}} je te bellen.', 'Ze heeft de hele dag {{gezeten}} / <<zitten>> studeren.', 'Ik heb mijn tas {{gelaten}} / <<laten>> vallen.', 'We hebben hem {{gezien}} / <<zien>> vertrekken.', 'Hij heeft <<beloofd>> / {{beloven}} te komen.'];
   d.ex({ g: 21, title: 'Exercice 3 — Participe ou infinitif ?', stars: '★★', instr: 'Choisissez la bonne forme. Seul ? Avec te ? Avec un infinitif ?' }, (s, mode, top) => {
     d.list(s, ex3.map((e) => `//${e}//`), mode, { y: top + 0.15, w: 12.13, h: 4.3, cols: 2, size: 19, gap: 22 });
-    if (mode === 'a') d.t(s, 'N° 4 : à l’oral, on entend aussi //Ik heb proberen te bellen//, mais //geprobeerd// est la forme standard.', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 4 : //Ik heb je **proberen** te bellen// (//je// devant) est aussi correct, mais pas //Ik heb proberen je te bellen//.', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 22 ex4 détective
@@ -378,7 +378,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 23 ex5 les regrets
-  const ex5 = [['alarm-clock', 'Je bent te laat.', 'vroeger vertrekken', 'Je had vroeger [[moeten vertrekken]].'], ['umbrella', 'Je bent helemaal nat.', 'een paraplu meenemen', 'Je had een paraplu [[moeten meenemen]].'], ['telephone-receiver', 'Ik wist het niet!', 'me bellen', 'Je had me [[kunnen bellen]].'],
+  const ex5 = [['alarm-clock', 'Je bent te laat.', 'eerder vertrekken', 'Je had eerder [[moeten vertrekken]].'], ['umbrella', 'Je bent helemaal nat.', 'een paraplu meenemen', 'Je had een paraplu [[moeten meenemen]].'], ['telephone-receiver', 'Ik wist het niet!', 'me bellen', 'Je had me [[kunnen bellen]].'],
     ['trophy', 'We hebben net niet gewonnen.', 'winnen', 'We hadden [[kunnen winnen]].'], ['face-with-thermometer', 'Hij is nog altijd ziek.', 'thuisblijven', 'Hij had thuis [[moeten blijven]].'], ['money-bag', 'Je hebt te veel betaald.', 'de prijzen vergelijken', 'Je had de prijzen [[moeten vergelijken]].']];
   d.ex({ g: 23, title: 'Exercice 5 — Les regrets', stars: '★★', instr: 'Réagissez avec //had moeten// (aurais dû) ou //had kunnen// (aurais pu).' }, (s, mode, top) => {
     const rh = (6.5 - top) / 3; const cw = (12.13 - 0.3) / 2;
@@ -390,7 +390,7 @@ function build(d) {
       d.t(s, `**${i + 1}**  //${q}//  (${hint})`, tx, y + 0.12, cw - (tx - x) - 0.1, (rh - 0.2) * 0.42, { size: 15, valign: 'middle', color: 'tx2' });
       d.t(s, `//${a}//`, tx, y + 0.12 + (rh - 0.2) * 0.42, cw - (tx - x) - 0.1, (rh - 0.2) * 0.55, { size: 18, valign: 'middle', mode });
     });
-    if (mode === 'a') d.t(s, 'N° 2 : aussi //een paraplu mee moeten nemen//. N° 5 : aussi //had moeten thuisblijven//.', 0.6, 6.5, 12.13, 0.36, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'Aussi : n° 2 //mee moeten nemen// / //kunnen meenemen// · n° 3 //moeten bellen// · n° 4 //moeten winnen// · n° 5 //moeten thuisblijven// · n° 6 //kunnen vergelijken//', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 24 ex6 le jeu des excuses
@@ -426,7 +426,7 @@ function build(d) {
     doc: (s, x, y, w, h) => {
       d.rect(s, x, y, w, h, { fill: 'FFF6C9', line: 'F4B400', lw: 1, radius: 0.04, shadow: true, rotate: 1 });
       d.t(s, '**Mijn weekend**', x + 0.2, y + 0.15, w - 0.4, 0.5, { size: 18, color: 'tx2' });
-      const L = [['automobile', 'za: auto **laten** repareren'], ['person-swimming', 'za: met de kinderen **gaan** zwemmen'], ['hourglass-not-done', 'zo: 3 uur in de file **moeten** wachten'], ['laptop', 'zo: niet **kunnen** werken (wifi!)'], ['bed', 'ma: bij mijn zus **blijven** slapen']];
+      const L = [['automobile', 'za: auto **laten** repareren'], ['person-swimming', 'za: met de kinderen **gaan** zwemmen'], ['hourglass-not-done', 'zo: 3 uur in de file **moeten** staan'], ['laptop', 'zo: niet **kunnen** werken (wifi!)'], ['bed', 'zo: bij mijn zus **blijven** slapen']];
       L.forEach(([ic, t], i) => {
         const yy = y + 0.8 + i * 0.85;
         d.ill(s, ic, x + 0.2, yy, 0.55, 0.55);
