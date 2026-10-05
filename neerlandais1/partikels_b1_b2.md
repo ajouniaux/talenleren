@@ -94,7 +94,7 @@
 **Contenu textuel**
 > 🎓 **aan** + leren — *Kinderen leren snel een taal aan.* = ?
 > 📚 **bij** + leren — *Ik heb veel bijgeleerd.* = ?
-> 🚭 **af** + leren — *Ik wil roken afleren.* = ?
+> 🚭 **af** + leren — *Ik wil het roken afleren.* = ?
 > 🤔 **ver** + talen — *Ik vertaal de tekst.* séparable ?
 
 **Notes pour l'animateur** — Réponses : *aanleren* = apprendre, acquérir ; *bijleren* = apprendre (en plus) ; *afleren* = se défaire de (une habitude). *ver-* **ne se sépare pas** : *ik vertaal, ik heb vertaald* (diapo 26).
@@ -112,7 +112,7 @@
 
 **Contenu textuel**
 > *opbellen* → *Ik bel je morgen **op**.* — la particule va au bout.
-> *ge-* et *te* se glissent au milieu : *Ik heb je **opgebeld**.* · *Vergeet niet me **op te bellen**.*
+> *ge-* et *te* se glissent au milieu : *Ik heb je **opgebeld**.* · *Vergeet niet om me **op te bellen**.*
 > Le test de l'accent : ***OP**bellen* — l'accent tombe sur la particule : elle se détache.
 
 **Notes pour l'animateur** — Deux minutes suffisent. Si besoin, renvoyez à M11 (subordonnée : *…, omdat ik je morgen opbel*).
@@ -138,7 +138,7 @@
 **Objectif pédagogique** — Comprendre le principe : la particule part d'une direction, puis prend un sens de résultat, puis un sens figuré (schéma **P1**).
 
 **Visuel / Schéma / Agencement**
-- Trois marches qui montent, chacune avec une carte : image + verbe + traduction. Une flèche grise monte le long de l'escalier.
+- Trois marches qui montent, chacune avec une carte : image + verbe + traduction.
 
 **Contenu textuel**
 > ① LA DIRECTION — 🚪 *uitgaan* : sortir
@@ -159,13 +159,13 @@
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① VERS L’INTÉRIEUR — ***instappen*** : monter (bus, train) · *Stap snel in!*
+> ① VERS L'INTÉRIEUR — ***instappen*** : monter (bus, train) · *Stap snel in!*
 > ② REMETTRE, REMPLIR — ***inleveren*** : remettre, rendre · *Lever je verslag vrijdag in.*
-> ③ S’APPROPRIER — ***instuderen*** : répéter (un rôle) · *We studeren een nieuw stuk in.*
-> vers l’intérieur · remettre · contraire : *instappen ≠ uitstappen*
+> ③ S'APPROPRIER — ***instuderen*** : étudier (un rôle, un morceau) · *We studeren een nieuw stuk in.*
+> vers l'intérieur · remettre · contraire : *instappen ≠ uitstappen*
 > + aussi : *inloggen · invullen · inademen*
 
-**Notes pour l'animateur** — L’image : on entre dans la boîte. Faites mimer *instappen* (monter) et *inademen* (inspirer). Au bureau : *inleveren, invullen, inloggen, invoeren* (BE : encoder). Attention : dans *Ik stap in de bus*, *in* est une préposition ; dans *Stap snel in!*, c’est la particule.
+**Notes pour l'animateur** — L'image : on entre dans la boîte. Faites mimer *instappen* (monter) et *inademen* (inspirer). *instuderen* = étudier, travailler (un rôle, un morceau) ; « répéter » se dit *repeteren*. Au bureau : *inleveren, invullen, inloggen, invoeren* (BE : encoder). Attention : dans *Ik stap in de bus*, *in* est une préposition ; dans *Stap snel in!*, c'est la particule.
 
 ---
 
@@ -178,13 +178,13 @@
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① VERS L’EXTÉRIEUR — ***uitgaan*** : sortir · *We gaan vanavond uit.*
-> ② JUSQU’AU BOUT, ARRÊT — ***uitlezen*** : finir (un livre) · *Ik heb het boek uitgelezen.*
+> ① VERS L'EXTÉRIEUR — ***uitgaan*** : sortir · *We gaan vanavond uit.*
+> ② JUSQU'AU BOUT, ARRÊT — ***uitlezen*** : finir (un livre) · *Ik heb het boek uitgelezen.*
 > ③ FIGURÉ — ***uitleggen*** : expliquer · *Kun je dat even uitleggen?*
-> vers l’extérieur · jusqu’au bout · contraire : *uitademen ≠ inademen*
+> vers l'extérieur · jusqu'au bout · contraire : *uitademen ≠ inademen*
 > + aussi : *uitstappen · uitzetten · uitnodigen*
 
-**Notes pour l'animateur** — On sort de la boîte. Du concret (*uitgaan, uitstappen*) au résultat (*uitlezen* : lire jusqu’au bout ; *uitzetten* : éteindre), puis au figuré (*uitleggen* : « étaler dehors » → expliquer ; *uitnodigen, uitstellen*). *Laat me uitspreken!* = laisse-moi finir.
+**Notes pour l'animateur** — On sort de la boîte. Du concret (*uitgaan, uitstappen*) au résultat (*uitlezen* : lire jusqu'au bout ; *uitzetten* : éteindre), puis au figuré (*uitleggen* : « étaler dehors » → expliquer ; *uitnodigen, uitstellen*). *Laat me uitspreken!* = laisse-moi finir.
 
 ---
 
@@ -203,7 +203,7 @@
 > en haut · complètement
 > + aussi : *optillen · opruimen · opbellen*
 
-**Notes pour l'animateur** — La flèche monte : *opstaan, optillen*. Le deuxième sens, « complètement, jusqu’au bout », est très productif : *opeten, opdrinken, opruimen*. Troisième famille : noter, contacter, chercher (*opschrijven, opbellen, opzoeken*). *opbouwen* = construire ; « reconstruire » = *heropbouwen*. Le sens « de nouveau » (*opfrissen*) est rare.
+**Notes pour l'animateur** — La flèche monte : *opstaan, optillen*. Le deuxième sens, « complètement, jusqu'au bout », est très productif : *opeten, opdrinken, opruimen*. Troisième famille : noter, contacter, chercher (*opschrijven, opbellen, opzoeken*). *opbouwen* = construire ; « reconstruire » = *heropbouwen*. Le sens « de nouveau » (*opfrissen*) est rare.
 
 ---
 
@@ -212,14 +212,14 @@
 **Objectif pédagogique** — Associer *af-* à son image et à trois sens, chacun avec un verbe et une phrase.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : le schéma — une étagère grise ; un bloc rouge s’en détache et descend en diagonale (sa place vide en pointillé). En dessous, **af** en grand, le sous-titre et une pastille « contraire ».
+- *À gauche* : le schéma — une étagère grise ; un bloc rouge s'en détache et descend en diagonale (sa place vide en pointillé). En dessous, **af** en grand, le sous-titre et une pastille « contraire ».
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① VERS LE BAS, S’ÉLOIGNER — ***afstappen*** : descendre (du vélo) · *Ik stap van de fiets af.*
+> ① VERS LE BAS, S'ÉLOIGNER — ***afstappen*** : descendre (du vélo) · *Ik stap van de fiets af.*
 > ② ENLEVER, DIMINUER — ***afnemen*** : diminuer · *De werkloosheid neemt af.*
 > ③ FINIR — ***afmaken*** : terminer · *Ik maak mijn werk af.*
-> ça se détache · c’est fini · contraire : *afvallen ≠ aankomen*
+> ça se détache · c'est fini · contraire : *afvallen ≠ aankomen*
 > + aussi : *afdalen · afleren · afronden*
 
 **Notes pour l'animateur** — Quelque chose se détache et descend : *afstappen, afdalen*. Puis enlever, diminuer (*afnemen, afvallen, afleren*) et finir (*afmaken, afronden*). En Belgique, *afzetten* = éteindre (= *uitzetten*). À apprendre en bloc : *afspreken* (convenir), *afhangen van* (dépendre de, diapo 25).
@@ -241,7 +241,7 @@
 > toucher · démarrer · acquérir · contraire : *aanzetten ≠ uitzetten*
 > + aussi : *aankomen · aanspreken · aanpassen*
 
-**Notes pour l'animateur** — La flèche touche le mur : le contact. *aanraken, aanspreken, aankomen* (arriver). Mise en marche : *aanzetten* (allumer), *aangaan* (s’allumer). Acquérir, ajuster : *aanleren, aanpassen*. *aankomen* a trois sens : arriver, toucher, grossir ! Contraire de *aanzetten* : *uitzetten* (BE : aussi *afzetten*).
+**Notes pour l'animateur** — La flèche touche le mur : le contact. *aanraken, aanspreken, aankomen* (arriver). Mise en marche : *aanzetten* (allumer), *aangaan* (s'allumer). Acquérir, ajuster : *aanleren, aanpassen*. *aankomen* a trois sens : arriver, toucher, grossir ! Contraire de *aanzetten* : *uitzetten* (BE : aussi *afzetten*).
 
 ---
 
@@ -250,17 +250,17 @@
 **Objectif pédagogique** — Associer *toe-* à son image et à trois sens, chacun avec un verbe et une phrase.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : le schéma — une flèche bleu-vert vise le centre d’une cible. En dessous, **toe** en grand, le sous-titre et une pastille « contraire ».
+- *À gauche* : le schéma — une flèche bleu-vert vise le centre d'une cible. En dessous, **toe** en grand, le sous-titre et une pastille « contraire ».
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
 > ① VERS — ***toekijken*** : regarder (sans agir) · *Hij kijkt alleen maar toe.*
 > ② EN PLUS — ***toenemen*** : augmenter · *Het aantal klanten neemt toe.*
-> ③ FERMÉ (BE) — ***toedoen*** : fermer · *Doe de deur toe.*
-> vers · en plus · fermé (BE) · contraire : *toenemen ≠ afnemen*
+> ③ FERMÉ (SURTOUT BE) — ***toedoen*** : fermer · *Doe de deur toe.*
+> vers · en plus · fermé · contraire : *toenemen ≠ afnemen*
 > + aussi : *toevoegen · toelichten · toestaan*
 
-**Notes pour l'animateur** — La flèche vise la cible : vers (*toekijken, toespreken*). Puis « en plus » : *toevoegen, toenemen, toegeven*. En Belgique, *toe* = fermé : *Doe de deur toe* ; le mot standard, en Belgique comme aux Pays-Bas, est *dichtdoen*. *toelichten* = commenter, expliquer (en réunion).
+**Notes pour l'animateur** — La flèche vise la cible : vers (*toekijken, toespreken*). Puis « en plus » : *toevoegen, toenemen* (*toegeven* = admettre, céder). *toe* = fermé existe partout (*de winkel is toe*), mais *Doe de deur toe* est surtout belge ; le verbe standard est *dichtdoen*. Le cadenas illustre « fermé » : si quelqu'un propose *op slot doen*, précisez que cela veut dire « fermer à clé ». *toelichten* = commenter, expliquer (en réunion).
 
 ---
 
@@ -269,17 +269,17 @@
 **Objectif pédagogique** — Associer *bij-* à son image et à trois sens, chacun avec un verbe et une phrase.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : le schéma — deux blocs gris ; un bloc framboise vient se poser dessus, avec un grand « + ». En dessous, **bij** en grand, le sous-titre et une pastille « contraire ».
+- *À gauche* : le schéma — deux blocs gris ; un bloc framboise vient se poser dessus, avec un grand « + ». En dessous, **bij** en grand, le sous-titre.
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
 > ① EN PLUS — ***bijleren*** : apprendre (en plus) · *Ik heb veel bijgeleerd.*
 > ② ÊTRE PRÉSENT — ***bijwonen*** : assister à · *Ik woon de vergadering bij.*
 > ③ À JOUR — ***bijhouden*** : tenir à jour · *Ik hou de agenda bij.*
-> en plus · présent · à jour · contraire : *bijleren ≠ afleren*
+> en plus · présent · à jour
 > + aussi : *bijverdienen · bijdragen · bijsturen*
 
-**Notes pour l'animateur** — On ajoute un bloc à la pile : en plus (*bijleren, bijverdienen, bijbestellen*). Être présent, aider : *bijwonen, bijstaan, bijdragen*. Mettre à jour : *bijhouden, bijwerken, bijsturen*. *bijleggen* = ajouter (de l’argent) ; régler (un conflit). *Ik heb veel bijgeleerd* est très courant en Belgique.
+**Notes pour l'animateur** — On ajoute un bloc à la pile : en plus (*bijleren, bijverdienen, bijbestellen*). Être présent, aider : *bijwonen, bijstaan, bijdragen*. Mettre à jour : *bijhouden, bijwerken, bijsturen*. *bijleggen* = ajouter (de l'argent) ; régler (un conflit). *Ik heb veel bijgeleerd* est très courant en Belgique.
 
 ---
 
@@ -330,13 +330,13 @@
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① À TRAVERS — ***doorsnijden*** : couper en deux · *Snijd het brood door.*
+> ① À TRAVERS — ***doorsnijden*** : couper en deux · *Snijd het broodje door.*
 > ② CONTINUER — ***doorgaan*** : continuer ; avoir lieu · *Ga gerust door!*
 > ③ TRANSMETTRE — ***doorsturen*** : transférer · *Ik stuur je de mail door.*
 > à travers · continuer · transmettre
 > + aussi : *doorlezen · doorgeven · doorwerken*
 
-**Notes pour l'animateur** — La flèche traverse le mur : à travers (*doorsnijden*). Puis continuer (*doorgaan, doorwerken, doorlezen*) et transmettre (*doorsturen, doorgeven, doorverbinden*). Piège : *De vergadering gaat niet door* = n’a pas lieu. *doorLOpen* (parcourir) est inséparable (diapo 27).
+**Notes pour l'animateur** — La flèche traverse le mur : à travers (*doorsnijden*). Puis continuer (*doorgaan, doorwerken, doorlezen*) et transmettre (*doorsturen, doorgeven, doorverbinden*). Piège : *De vergadering gaat niet door* = n'a pas lieu. *doorLOpen* (suivre une formation) est inséparable (diapo 27).
 
 ---
 
@@ -349,13 +349,13 @@
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① D’UN CÔTÉ À L’AUTRE — ***oversteken*** : traverser · *Steek hier over.*
+> ① D'UN CÔTÉ À L'AUTRE — ***oversteken*** : traverser · *Steek hier over.*
 > ② DE NOUVEAU — ***overdoen*** : refaire · *Ik moet de test overdoen.*
 > ③ PASSER À QN — ***overnemen*** : reprendre · *Lotte neemt het project over.*
-> de l’autre côté · de nouveau
+> de l'autre côté · de nouveau
 > + aussi : *overstappen · overlezen · overschrijven (BE : virer)*
 
-**Notes pour l'animateur** — La flèche passe par-dessus le mur : d’un côté à l’autre (*oversteken, overstappen*), de nouveau (*overdoen, overlezen*), passer à quelqu’un (*overnemen, overdragen*). BE : *overschrijven* = virer de l’argent (NL : *overmaken*) ; *de agenda overlopen* = passer en revue l’ordre du jour. Doublets inséparables : *overKOmen, overLEGgen* (diapo 27).
+**Notes pour l'animateur** — La flèche passe par-dessus le mur : d'un côté à l'autre (*oversteken, overstappen*), de nouveau (*overdoen, overlezen*), passer à quelqu'un (*overnemen, overdragen*). BE : *overschrijven* = virer de l'argent (NL : *overmaken*) ; *de agenda overlopen* = passer en revue l'ordre du jour. Doublets inséparables : *overKOmen, overLEGgen* (diapo 27).
 
 ---
 
@@ -364,13 +364,13 @@
 **Objectif pédagogique** — Associer *om-* à son image et à trois sens, chacun avec un verbe et une phrase.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : le schéma — une flèche circulaire bleu-gris tourne autour d’un disque gris. En dessous, **om** en grand, le sous-titre.
+- *À gauche* : le schéma — une flèche circulaire bleu-gris tourne autour d'un disque gris. En dessous, **om** en grand, le sous-titre.
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
-> ① AUTOUR, DÉTOUR — ***omrijden*** : faire un détour · *We rijden om via Gent.*
+> ① AUTOUR, DÉTOUR — ***omrijden*** : faire un détour · *We rijden via Gent om.*
 > ② RETOURNER — ***omdraaien*** : retourner · *Draai het blad om.*
-> ③ FIGURÉ — ***omgaan met*** : gérer · *Hoe ga je om met stress?*
+> ③ FIGURÉ — ***omgaan met*** : gérer · *Hoe ga je met stress om?*
 > autour · retourner · changer
 > + aussi : *omkijken · omzetten · zich omkleden*
 
@@ -383,7 +383,7 @@
 **Objectif pédagogique** — Associer *voor-* à son image et à trois sens, chacun avec un verbe et une phrase.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : le schéma — trois personnages gris ; un personnage doré passe devant eux, flèche vers l’avant. En dessous, **voor** en grand, le sous-titre et une pastille « contraire ».
+- *À gauche* : le schéma — trois personnages gris ; un personnage doré passe devant eux, flèche vers l'avant. En dessous, **voor** en grand, le sous-titre et une pastille « contraire ».
 - *À droite* : 3 cartes, chacune avec une image, le verbe (particule en couleur), la traduction et une phrase.
 
 **Contenu textuel**
@@ -393,7 +393,7 @@
 > devant · avant · montrer · contraire : *voorzeggen ≠ nazeggen*
 > + aussi : *voorlezen · voordoen · voorzeggen*
 
-**Notes pour l'animateur** — Le personnage passe devant le groupe : avant (*voorbereiden*), devant, montrer (*voorstellen, voordoen, voorlezen*). *Mag ik me even voorstellen?* (M32). Figuré : *voorkomen* = se produire ; mais *voorKOmen* (éviter) est inséparable (diapo 27). *voorzeggen* = souffler la réponse ; contraire : *nazeggen*.
+**Notes pour l'animateur** — Le personnage passe devant le groupe : avant (*voorbereiden*), devant, montrer (*voorstellen, voordoen, voorlezen*). *Mag ik me even voorstellen?* (M32). Figuré : *voorkomen* = se produire ; mais *voorKOmen* (éviter) est inséparable (diapo 27). *voorzeggen* = dire d'abord (pour faire répéter) ; à l'école : souffler la réponse. Contraire : *nazeggen* (répéter). Participe de *voorbereiden* : *voorbereid* (pas de *ge-* : *be-*), à relier à l'exercice 3.
 
 ---
 
@@ -441,10 +441,10 @@
 
 **Contenu textuel**
 > 💡 *aanzetten* ⇄ *uitzetten* (allumer / éteindre) · 🚌 *instappen* ⇄ 🚶 *uitstappen* (monter / descendre) · 📈 *toenemen* ⇄ 📉 *afnemen* (augmenter / diminuer)
-> 😀 *meevallen* ⇄ 😞 *tegenvallen* (mieux / moins bien que prévu) · 🍔 *aankomen* ⇄ 🥗 *afvallen* (grossir / maigrir) · 📚 *bijleren* ⇄ 🚭 *afleren* (apprendre en plus / se défaire de)
-> *aandoen / uitdoen* = mettre / enlever (un vêtement) ; en Belgique, familier : allumer / éteindre.
+> 😀 *meevallen* ⇄ 😞 *tegenvallen* (mieux / moins bien que prévu) · 🍔 *aankomen* ⇄ 🥗 *afvallen* (grossir / maigrir) · 🎓 *aanleren* ⇄ 🚭 *afleren* (acquérir / perdre une habitude)
+> *aandoen / uitdoen* = mettre / enlever (un vêtement) ; familier (BE et NL) : allumer / éteindre (la lumière, la télé).
 
-**Notes pour l'animateur** — Apprendre par paires aide à mémoriser. Jeu rapide : l'enseignant·e dit un verbe, la classe répond le contraire. *bijleren / afleren* vient directement du tableau source.
+**Notes pour l'animateur** — Apprendre par paires aide à mémoriser. Jeu rapide : l'enseignant·e dit un verbe, la classe répond le contraire. *aanleren / afleren* reprend l'échauffement (diapo 3).
 
 ---
 
@@ -523,13 +523,13 @@
 - 4 lignes, chacune avec une image, le sens et une phrase.
 
 **Contenu textuel**
-> ⚠️ *VOORkomen* (se produire) — *Het komt vaak voor.* ≠ 🛡️ *voorKOmen* (éviter) — *Zo voorkom je fouten.*
-> 🚶 *DOORlopen* (continuer à marcher) — *Loop maar door!* ≠ 🎓 *doorLOpen* (parcourir : une formation) — *Ze heeft de opleiding doorlopen.*
-> 🛬 *OVERkomen* (venir ; paraître) — *Hij komt arrogant over.* ≠ 💥 *overKOmen* (arriver à qn) — *Wat is hem overkomen?*
-> 📄 *OVERleggen* (présenter : un document) — *Ik leg een attest over.* ≠ 👥 *overLEGgen* (se concerter) — *We overleggen morgen.*
+> 📊 *VOORkomen* (se produire) — *Het komt vaak voor.* ≠ 🛡️ *voorKOmen* (éviter) — *Zo voorkom je fouten.*
+> 🚶 *DOORlopen* (continuer à marcher) — *Loop maar door!* ≠ 🎓 *doorLOpen* (suivre : une formation) — *Ze heeft de opleiding doorlopen.*
+> 🛬 *OVERkomen* (venir de loin) — *Mijn zus komt uit Canada over.* ≠ 💥 *overKOmen* (arriver à qn) — *Wat is hem overkomen?*
+> 📄 *OVERleggen* (présenter : un document) — *Hij legde een attest over.* ≠ 👥 *overLEGgen* (se concerter) — *We overleggen morgen.*
 > Passé composé : *het is voor**ge**komen* ✂ · *ik heb het voorkomen* 🔒
 
-**Notes pour l'animateur** — Faites lire chaque paire à voix haute en exagérant l'accent. Autres doublets : *ONDERgaan* (se coucher : le soleil) / *onderGAAN* (subir) ; *OMblazen* / *omBLAzen*. Au B2, on retient surtout *voorkomen* et *overleggen*.
+**Notes pour l'animateur** — Faites lire chaque paire à voix haute en exagérant l'accent. *OVERkomen* veut aussi dire « paraître » : *Hij komt arrogant over.* Autres doublets : *ONDERgaan* (se coucher : le soleil) / *onderGAAN* (subir) ; *ONDERhouden* (tenir sous l'eau) / *onderHOUden* (entretenir). Au B2, on retient surtout *voorkomen* et *overleggen*.
 
 ---
 
@@ -547,7 +547,7 @@
 > Avec *te* : particule + *te* + verbe : *Ik probeer het **af te maken**.* · *… zonder **op te letten**.*
 > Avec un modal, deux ordres : *om het af te kunnen maken = om het te kunnen afmaken*
 
-**Notes pour l'animateur** — Les deux ordres sont corrects ; à l'oral, la particule collée est la plus fréquente en Belgique. Avec *te*, la particule ne se recolle jamais derrière *te* : ~~*te afmaken*~~ → *af te maken*.
+**Notes pour l'animateur** — Les deux ordres sont corrects et courants, en Belgique comme aux Pays-Bas. Avec *te*, la particule ne se recolle jamais derrière *te* : ~~*te afmaken*~~ → *af te maken*.
 
 ---
 
@@ -562,10 +562,10 @@
 > **uit** + *printen* 🖨️ = ? — *Kun je dat even uitprinten?*
 > **bij** + *bestellen* 🛒 = ? — *We moeten papier bijbestellen.*
 > **na** + *bellen* 📞 = ? — *Wil je de klant nabellen?*
-> **op** + *frissen* 💧 = ? — *Ik wil mijn Nederlands opfrissen.*
+> **op** + *laden* 🔋 = ? — *Ik moet mijn gsm nog opladen.*
 > ① l'image de la particule ② le sens du verbe ③ le contexte confirme. En cas de doute : le dictionnaire.
 
-**Notes pour l'animateur** — Réponses : *uitprinten* = imprimer (en entier) ; *bijbestellen* = commander en plus ; *nabellen* = rappeler (pour faire le suivi) ; *opfrissen* = rafraîchir (ses connaissances). Faites d'abord deviner, puis vérifiez avec le contexte.
+**Notes pour l'animateur** — Réponses : *uitprinten* = imprimer (en entier) ; *bijbestellen* = commander en plus ; *nabellen* = rappeler (pour faire le suivi) ; *opladen* = recharger. Faites d'abord deviner, puis vérifiez avec le contexte.
 
 ---
 
@@ -610,7 +610,7 @@
 >
 > **✓ CORRECTIE** — 1 *uit* · 2 *toe* · 3 *op* · 4 *na* · 5 *door* · 6 *over* · 7 *in* · 8 *mee*
 
-**Notes pour l'animateur** — Faites justifier par l'image de la particule. À accepter aussi : n° 1 *af* (BE) · n° 7 *af* (*afleveren*).
+**Notes pour l'animateur** — Faites justifier par l'image de la particule. À accepter aussi : n° 1 *af* (BE) · n° 4 *door* (*doorkijken*) · n° 6 *aan* (*aannemen* = accepter) · n° 7 *af* (*afleveren*).
 
 ---
 
@@ -628,7 +628,7 @@
 >
 > **✓ CORRECTIE** — A *opnemen* (*Neem de telefoon op!*) · B *meenemen* (*Neem een paraplu mee.*) · C *aannemen* (*Het bedrijf neemt mensen aan.*) · D *deelnemen* (*Tien collega's nemen deel.*) · E *afnemen* (*De werkloosheid neemt af.*) · F *innemen* (*Neem dit medicijn in.*) · G *overnemen* (*Lotte neemt het project over.*) · H *toenemen* (*Het aantal klanten neemt toe.*)
 
-**Notes pour l'animateur** — Après l'association, chaque binôme invente une phrase par verbe, en séparant la particule. F : *nemen* seul est aussi correct (*Neem dit medicijn drie keer per dag*), très courant en Belgique.
+**Notes pour l'animateur** — Après l'association, chaque binôme invente une phrase par verbe, en séparant la particule. F : *nemen* seul est aussi correct (*Neem dit medicijn drie keer per dag*), très courant en Belgique. C et G (💼, 🤝) peuvent s'échanger (*aannemen / overnemen*) si la phrase correspond.
 
 ---
 
@@ -659,7 +659,7 @@
 **Contenu textuel**
 > « *Beste collega's,* ↵ *De vergadering van vrijdag gaat niet door. Ik heb de offerte gisteren gevertaald. Ik stuur jullie de tekst door morgen, met de vraag om de cijfers nog eens te nakijken. Lotte heeft de taak van Sofie overgenomt. Goed nieuws: het aantal klanten neemt af! We overleggen maandag verder.* ↵ *Groeten* ↵ *Karim* »
 >
-> **✓ CORRECTIE** — ~~*gevertaald*~~ **vertaald** · ~~*stuur … door morgen*~~ **stuur jullie de tekst morgen door** · ~~*te nakijken*~~ **na te kijken** · ~~*overgenomt*~~ **overgenomen** · ~~*neemt af*~~ **neemt toe** (une bonne nouvelle = une augmentation)
+> **✓ CORRECTIE** — ~~*gevertaald*~~ **vertaald** · ~~*stuur … door morgen*~~ **stuur jullie de tekst morgen door** (ou : *stuur jullie morgen de tekst door*) · ~~*te nakijken*~~ **na te kijken** · ~~*overgenomt*~~ **overgenomen** · ~~*neemt af*~~ **neemt toe** (une bonne nouvelle = une augmentation)
 
 **Notes pour l'animateur** — Leurres : *gaat niet door* (n'a pas lieu) et *We overleggen* (inséparable : se concerter) sont corrects. N° 5 est une erreur de **sens** : la phrase est grammaticale, mais contredit *goed nieuws!*
 
@@ -674,11 +674,11 @@
 
 **Contenu textuel**
 > 1 💡 *Zet de computer aan.* · 2 🚌 *We stappen in.* · 3 📈 *De prijzen nemen toe.* · 4 😞 *Het examen viel tegen.*
-> 5 🍔 *Ik ben 3 kilo aangekomen.* · 6 💻 *Ik log in.* · 7 🌬️ *Adem diep in.* · 8 🚪 *Doe de deur open.*
+> 5 🍔 *Ik ben 3 kilo aangekomen.* · 6 💻 *Ik log in.* · 7 👃 *Adem diep in.* · 8 🚪 *Doe de deur open.*
 >
 > **✓ CORRECTIE** — 1 *Zet de computer uit.* · 2 *We stappen uit.* · 3 *De prijzen nemen af.* · 4 *Het examen viel mee.* · 5 *Ik ben 3 kilo afgevallen.* · 6 *Ik log uit.* · 7 *Adem diep uit.* · 8 *Doe de deur dicht.*
 
-**Notes pour l'animateur** — En Belgique, on entend aussi n° 1 *af* (*Zet de computer af*) et n° 8 *toe* (*Doe de deur toe*). N° 8 : *dicht* est un adjectif, pas une particule, mais il se sépare de la même façon.
+**Notes pour l'animateur** — En Belgique, on entend aussi n° 1 *af* (*Zet de computer af*), n° 2 *af* (*We stappen af*) et n° 8 *toe* (*Doe de deur toe*). N° 8 : *dicht* est un adjectif, pas une particule, mais il se sépare de la même façon.
 
 ---
 
