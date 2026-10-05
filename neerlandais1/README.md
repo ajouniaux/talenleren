@@ -19,7 +19,7 @@ Le parcours compte sept blocs :
 
 Les blocs 4 à 7 (M16 à M32) ont été créés sans archive.
 
-En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6). ***Chunks!*** montre aux vrais débutants, dès la première semaine, comment **apprendre par blocs de mots** (*Hoe gaat het? · Ik woon in… · Kan je even herhalen?*), avec les « blocs bouées » pour se dépanner (à utiliser avec M2 et M8).
+En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6). ***Chunks!*** montre aux vrais débutants, dès la première semaine, comment **apprendre par blocs de mots** (*Hoe gaat het? · Ik woon in… · Kan je even herhalen?*), avec les « blocs bouées » pour se dépanner (à utiliser avec M2 et M8). Pour aller plus loin (B1–B2), ***Aan, af, op, uit…*** explique **les significations des particules séparables** : 14 particules et leurs sens, le principe des trois étages du sens, les verbes séparables et inséparables (à utiliser après M11).
 
 ## Contenu du dossier
 
@@ -61,6 +61,7 @@ En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la pron
 | 7 | [`powerpoints/Module_32_Even_voorstellen.pptx`](powerpoints/Module_32_Even_voorstellen.pptx) | 29 |
 | Complément | [`powerpoints/Uitspraak_5_seances.pptx`](powerpoints/Uitspraak_5_seances.pptx) — prononciation en 5 séances | 22 |
 | Complément | [`powerpoints/Chunks_Apprendre_par_blocs.pptx`](powerpoints/Chunks_Apprendre_par_blocs.pptx) — apprendre par blocs de mots (A1, vrais débutants) | 29 |
+| Complément | [`powerpoints/Partikels_Les_particules_separables.pptx`](powerpoints/Partikels_Les_particules_separables.pptx) — les significations des particules séparables (B1–B2) | 35 |
 
 Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT). La carte de la Belgique et les drapeaux sont dessinés directement dans PowerPoint.
 
@@ -103,6 +104,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | [`module_32_even_voorstellen.md`](module_32_even_voorstellen.md) | **M32 · Even voorstellen** — du M2 au pitch, le pitch en 5 étapes, la carte de visite (*bij, op, als, in, voor*), les tâches, la ligne du temps, *sinds / al / geleden*, projets, vie privée au travail, registres, questions et réactions, e-mail de présentation, entretien d'embauche, bilan du parcours · 24 diapos, 7 exercices |
 | [`uitspraak_5_seances.md`](uitspraak_5_seances.md) | ***Uitspraak!*** — 5 séances de prononciation : voyelles courtes / longues (paires minimales, paniers, duel de phrases), sons doubles (loto, toboggan *u · uu · ui*, chasse), consonnes-pièges (*h, g / ch*, lettres caméléons, jeu de l'oie), mots courts et mots longs (rappel « lire un mot en 4 gestes », escaliers de syllabes, mots-monstres), phrase (accent de phrase, formes réduites, *tongbrekers*, morpion) · 22 diapos dont 5 de corrigés |
 | [`chunks_blokjes.md`](chunks_blokjes.md) | ***Chunks!*** — apprendre par blocs de mots (A1, vrais débutants) : la brique et le bloc, le mot à mot qui ne marche pas, 4 raisons d'apprendre en blocs, saluer et prendre congé, *Hoe gaat het? — En met jou?*, le bloc à trou (*Ik woon in ▢*), blocs-questions, politesse *je / u*, **blocs bouées** (*Kan je even herhalen? · Kan je het laatste woord spellen?*), épeler, carnet de blocs, réflexe bouée et mise en situation · 25 diapos, 7 exercices |
+| [`partikels_b1_b2.md`](partikels_b1_b2.md) | ***Aan, af, op, uit…*** — les significations des particules séparables (B1–B2), à partir du tableau source, corrigé et enrichi : rappel de la place (M11), les trois étages du sens (direction → résultat → figuré), fiches *aan/af, op/uit, in/bij, toe/na, door/over, mee/tegen, om/voor*, *terug, weg, samen, vast, los*, paires de contraires, l'étoile du verbe (*nemen, gaan*), polysémie (*opnemen, afnemen, aannemen, uitvallen*), particule + préposition (*Ik kijk ernaar uit*), **piège séparable / inséparable** (*be-, ge-, her-, ont-, er-, ver-* ; *doorlopen, voorkomen, overleggen*), place dans les groupes verbaux, stratégie pour deviner un verbe inconnu · 30 diapos, 7 exercices |
 
 ## Correspondance avec les archives
 
@@ -146,9 +148,10 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 34 fichiers dans ../powerpoints
+npm run build        # réécrit les 35 fichiers dans ../powerpoints
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
 node build.js uitspraak   # le complément de prononciation
 node build.js chunks      # le complément « apprendre par blocs »
+node build.js partikels   # le complément B1–B2 sur les particules séparables
 ```

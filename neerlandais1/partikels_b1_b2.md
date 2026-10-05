@@ -4,7 +4,7 @@
 |---|---|
 | **Niveau** | B1–B2 · complément (suite de M11 *Scheidbare werkwoorden*) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14, ex. 1 · séance 2 : diapos 15–30, ex. 2 à 7) |
-| **Source** | Tableau « Partikel · Betekenis · Werkwoord · Andere werkwoorden » de l'enseignante (11 particules) · enrichissements : ANS (*Algemene Nederlandse Spraakkunst*), Taaladvies, usage belge |
+| **Source** | Tableau « Partikel · Betekenis · Werkwoord · Andere werkwoorden » fourni par l'enseignant·e (11 particules) · enrichissements : ANS (*Algemene Nederlandse Spraakkunst*), Taaladvies, usage belge |
 | **Prérequis** | M11 (place de la particule, test de l'accent, préfixes inséparables), M15 (participe passé), M23 (*er* + préposition) |
 | **Savoir-faire visés** | ① Reconnaître les sens récurrents de 14 particules (direction, résultat, sens figuré) · ② Deviner le sens d'un verbe à particule inconnu · ③ Utiliser les verbes à particule à B1–B2 : polysémie, contraires, préposition fixe, doublets séparable / inséparable, place dans les groupes verbaux |
 
@@ -26,13 +26,13 @@
 
 **Enrichissements B1–B2**
 - 4 particules de plus : *mee-, tegen-, om-, voor-* (+ *terug-, weg-, samen-, vast-, los-* et les particules-adjectifs ou noms : *schoonmaken, deelnemen*).
-- Les paires de contraires, l'« étoile » d'un verbe (*nemen, gaan*), la polysémie (*opnemen*), les verbes à particule + préposition fixe (*afhangen van → Het hangt ervan af*), les doublets séparable / inséparable que M11 réservait au niveau supérieur (*´voorkomen / voor´komen*), et la place de la particule dans les groupes verbaux.
+- Les paires de contraires, l'« étoile » d'un verbe (*nemen, gaan*), la polysémie (*opnemen*), les verbes à particule + préposition fixe (*afhangen van → Het hangt ervan af*), les doublets séparable / inséparable que M11 réservait au niveau supérieur (*VOORkomen / voorKOmen*), et la place de la particule dans les groupes verbaux.
 
 ## Choix didactiques
 
 - Schéma **P1** « les trois étages du sens » : ① la direction (sens propre, spatial) → ② le résultat (commencer, finir, continuer) → ③ le sens figuré (à apprendre comme un bloc). Exemple : *uitgaan* (sortir) → *uitlezen* (lire jusqu'au bout) → *uitleggen* (expliquer).
 - Schéma **P2** « l'étoile du verbe » : le verbe de base au centre, les particules en rayons (*nemen* : *aannemen, afnemen, opnemen…*).
-- Schéma **P3** « l'accent qui décide » : accent sur la particule = séparable, *ge-* au participe (*´doorlopen → doorgelopen*) ; accent sur le verbe = inséparable, sans *ge-* (*door´lopen → doorlopen*).
+- Schéma **P3** « l'accent qui décide » : accent sur la particule = séparable, *ge-* au participe (*DOORlopen → doorgelopen*) ; accent sur le verbe = inséparable, sans *ge-* (*doorLOpen → doorlopen*).
 - Chaque particule a un pictogramme (une flèche) et une couleur, repris dans tous les exercices.
 - Les exemples sont pris dans la vie professionnelle (B1–B2) : *uitstellen, doorsturen, nakijken, overnemen, afspreken*.
 
@@ -236,7 +236,7 @@
 > **OM-** ① autour, détour : *omrijden* (faire un détour), *omkijken* (se retourner) ② retourner, changer : *omdraaien* (retourner), *omzetten* (convertir, transformer), *omrekenen* (convertir un montant), *zich omkleden* (se changer) ③ figuré : *omgaan met* (gérer ; fréquenter)
 > **VOOR-** ① devant, avant : *voorbereiden* (préparer), *voorlezen* (lire à voix haute) ② montrer, proposer : *voorstellen* (proposer ; présenter), *voordoen* (montrer comment faire), *voorzeggen* (souffler la réponse) ③ figuré : *voorkomen* (se produire)
 
-**Notes pour l'animateur** — *Hoe ga je om met stress?* = comment gères-tu le stress ? *voorstellen* : *Ik stel voor dat…* (je propose que…) · *Mag ik me even voorstellen?* (M28). *om-* et *voor-* ont aussi des doublets inséparables (*voor´komen* = éviter, diapo 18).
+**Notes pour l'animateur** — *Hoe ga je om met stress?* = comment gères-tu le stress ? *voorstellen* : *Ik stel voor dat…* (je propose que…) · *Mag ik me even voorstellen?* (M28). *om-* et *voor-* ont aussi des doublets inséparables (*voorKOmen* = éviter, diapo 18).
 
 ---
 
@@ -334,7 +334,7 @@
 **Contenu textuel**
 > **Jamais séparables** : *be-, ge-, her-, ont-, er-, ver-* → *ik ver**taal**, ik heb **vertaald*** (pas de *ge-*)
 > *ver-* = changement (*verbeteren*), erreur (*zich verspreken*), éloignement, perte (*verdwijnen, verliezen*)
-> **Doublets** : *´doorlopen* (continuer à marcher) / *door´lopen* (parcourir, suivre une formation) · *´voorkomen* (se produire) / *voor´komen* (éviter) · *´overkomen* (venir ; faire impression) / *over´komen* (arriver à qn) · *´ondergaan* (se coucher : le soleil) / *onder´gaan* (subir) · *´overleggen* (présenter un document) / *over´leggen* (se concerter)
+> **Doublets** : *DOORlopen* (continuer à marcher) / *doorLOpen* (parcourir, suivre une formation) · *VOORkomen* (se produire) / *voorKOmen* (éviter) · *OVERkomen* (venir ; faire impression) / *overKOmen* (arriver à qn) · *ONDERgaan* (se coucher : le soleil) / *onderGAAN* (subir) · *OVERleggen* (présenter un document) / *overLEGgen* (se concerter)
 > Accent sur la particule → séparable, *ge-* : *Het is vaak **voorgekomen**.* · Accent sur le verbe → inséparable, sans *ge-* : *We hebben een ongeluk **voorkomen**.*
 
 **Notes pour l'animateur** — Dans le tableau de départ, *ver-* figurait parmi les particules : c'est un piège fréquent, puisque *ver-* a bien un sens. Mais il ne se détache jamais. Test rapide : faites dire le verbe à voix haute ; si l'accent tombe sur le préfixe (***VOOR**komen*), il est séparable.

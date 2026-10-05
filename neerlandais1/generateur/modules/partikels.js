@@ -29,7 +29,7 @@ const FICHES = {
   11: [['MEE', [['avec, participer', [['meegaan', 'accompagner'], ['meenemen', 'emporter'], ['meedoen', 'participer'], ['meewerken', 'collaborer'], ['meedenken', 'réfléchir avec']]]], ''],
     ['TEGEN', [['contre, à l’encontre', [['tegenkomen', 'rencontrer par hasard'], ['tegenhouden', 'retenir, arrêter'], ['tegenspreken', 'contredire']]]], '']],
   12: [['OM', [['autour, détour', [['omrijden', 'faire un détour'], ['omkijken', 'se retourner']]], ['retourner, changer', [['omdraaien', 'retourner'], ['omzetten', 'convertir'], ['omrekenen', 'convertir (un montant)'], ['zich omkleden', 'se changer']]], ['figuré', [['omgaan met', 'gérer ; fréquenter']]]], '//Hoe ga je om met stress?//'],
-    ['VOOR', [['devant, avant', [['voorbereiden', 'préparer'], ['voorlezen', 'lire à voix haute']]], ['montrer, proposer', [['voorstellen', 'proposer ; présenter'], ['voordoen', 'montrer comment faire'], ['voorzeggen', 'souffler (la réponse)']]], ['figuré', [['voorkomen', 'se produire']]]], 'doublet : //voor´komen// = éviter (diapo 18)']],
+    ['VOOR', [['devant, avant', [['voorbereiden', 'préparer'], ['voorlezen', 'lire à voix haute']]], ['montrer, proposer', [['voorstellen', 'proposer ; présenter'], ['voordoen', 'montrer comment faire'], ['voorzeggen', 'souffler (la réponse)']]], ['figuré', [['voorkomen', 'se produire']]]], 'doublet : //voorKOmen// = éviter (diapo 18)']],
 };
 const TITLES = { 6: 'AAN- et AF-', 7: 'OP- et UIT-', 8: 'IN- et BIJ-', 9: 'TOE- et NA-', 10: 'DOOR- et OVER-', 11: 'MEE- et TEGEN-', 12: 'OM- et VOOR-' };
 
@@ -204,10 +204,10 @@ function build(d) {
     R.forEach(([lab, parts], i) => {
       const y = 1.72 + i * 0.72;
       d.t(s, lab, 0.6, y, 2.0, 0.6, { size: 13, italic: true, color: 'accent5', valign: 'middle' });
-      strip(s, 2.65, y, parts, { size: 19, h: 0.58 });
+      strip(s, 2.5, y, parts, { size: 17, h: 0.58 });
     });
     d.rect(s, 9.2, 1.72, 3.53, 4.2, { fill: 'FDF1E6', line: PA, lw: 1.5, radius: 0.1 });
-    d.t(s, ['**Le test de l’accent**', 'L’accent tombe sur la particule :', '//**NA**lezen · **OP**bellen · **UIT**leggen//', '', '//ge-// et //te// se glissent **entre** la particule et le verbe : //na**ge**lezen · na **te** lezen//'], 9.35, 1.8, 3.25, 4.05, { size: 15, gap: 4, valign: 'middle' });
+    d.t(s, ['**Le test de l’accent**', 'Il tombe sur la particule :', '//**NA**lezen · **OP**bellen · **UIT**leggen//', '', '//ge-// et //te// se glissent **entre** la particule et le verbe : //na**ge**lezen · na **te** lezen//'], 9.35, 1.8, 3.25, 4.05, { size: 15, gap: 4, valign: 'middle' });
     band(s, 'Au M11, on a appris **où** placer la particule. Aujourd’hui : **ce qu’elle veut dire**.', 6.15, 0.7, 'tx2', 18);
   }
 
@@ -266,7 +266,7 @@ function build(d) {
       d.rect(s, x, y, 2.95, 0.6, { fill: 'bg2', line: BORDER, radius: 0.1 });
       d.t(s, `//**${v}**// ${f}`, x + 0.1, y, 2.8, 0.6, { size: 14, valign: 'middle' });
     });
-    band(s, '//We vatten de tekst **samen**. · De vergadering vindt in zaal 2 **plaats**. · Ik ben mijn sleutels **kwijt**geraakt.//', 6.2, 0.62, 'tx2', 17);
+    band(s, '//We vatten de tekst **samen**. · De vergadering vindt in zaal 2 **plaats**. · Ik ben mijn sleutels **kwijt**geraakt.//', 6.2, 0.62, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 14 contraires
@@ -338,13 +338,14 @@ function build(d) {
       d.rect(s, x, y, 1.25, 0.5, { fill: 'accent6', line: null, radius: 0.12 });
       d.t(s, `**${p}**`, x, y, 1.25, 0.5, { size: 17, color: 'bg1', align: 'center', valign: 'middle' });
     });
-    d.t(s, ['//ik ver**taal** · ik heb **vertaald**// (pas de //ge-//)', '', '**ver-** = changement (//verbeteren//), erreur (//zich verspreken//), perte (//verdwijnen, verliezen//)'], 0.8, 3.55, 4.25, 2.5, { size: 14, gap: 3, valign: 'middle' });
+    d.t(s, ['//ik ver**taal** · ik heb **vertaald**// (pas de //ge-//)', '', '**ver-** = changement (//verbeteren//), erreur (//zich verspreken//), perte (//verdwijnen, verliezen//)'], 0.8, 3.6, 4.25, 1.75, { size: 14, gap: 3, valign: 'top' });
+    d.ill(s, 'locked', 4.25, 5.2, 0.75, 0.75);
     d.t(s, 'L’ACCENT QUI DÉCIDE (P3)', 5.45, 1.65, 7.3, 0.4, { size: 14, bold: true, color: 'tx2', cs: 1 });
     d.rect(s, 5.45, 2.05, 3.6, 0.45, { fill: PA, line: null, radius: 0.08 });
     d.t(s, 'accent sur la particule → séparable', 5.45, 2.05, 3.6, 0.45, { size: 12, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
     d.rect(s, 9.13, 2.05, 3.6, 0.45, { fill: 'tx2', line: null, radius: 0.08 });
     d.t(s, 'accent sur le verbe → inséparable', 9.13, 2.05, 3.6, 0.45, { size: 12, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    const D = [['´doorlopen', 'continuer à marcher', 'door´lopen', 'parcourir, suivre (formation)'], ['´voorkomen', 'se produire', 'voor´komen', 'éviter'], ['´overkomen', 'venir ; faire impression', 'over´komen', 'arriver à qn'], ['´ondergaan', 'se coucher (soleil)', 'onder´gaan', 'subir'], ['´overleggen', 'présenter (un document)', 'over´leggen', 'se concerter']];
+    const D = [['DOORlopen', 'continuer à marcher', 'doorLOpen', 'parcourir, suivre (formation)'], ['VOORkomen', 'se produire', 'voorKOmen', 'éviter'], ['OVERkomen', 'venir ; faire impression', 'overKOmen', 'arriver à qn'], ['ONDERgaan', 'se coucher (soleil)', 'onderGAAN', 'subir'], ['OVERleggen', 'présenter (un document)', 'overLEGgen', 'se concerter']];
     D.forEach(([a, af, b, bf], i) => {
       const y = 2.6 + i * 0.7;
       d.rect(s, 5.45, y, 3.6, 0.62, { fill: i % 2 ? 'FFFFFF' : 'FDF1E6', line: null, radius: 0.06 });
@@ -352,7 +353,7 @@ function build(d) {
       d.rect(s, 9.13, y, 3.6, 0.62, { fill: i % 2 ? 'FFFFFF' : 'E6EBF2', line: null, radius: 0.06 });
       d.t(s, [`//**${b}**//`, bf], 9.23, y, 3.45, 0.62, { size: 13, gap: 0, valign: 'middle' });
     });
-    band(s, '//Het is vaak **voorgekomen**.// (se produire : //ge-//) · //We hebben een ongeluk **voorkomen**.// (éviter : pas de //ge-//)', 6.3, 0.58, 'tx2', 16);
+    band(s, '//Het is vaak **voorgekomen**.// (se produire : //ge-//) · //We hebben een ongeluk **voorkomen**.// (éviter : sans //ge-//)', 6.3, 0.58, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 19 place B2

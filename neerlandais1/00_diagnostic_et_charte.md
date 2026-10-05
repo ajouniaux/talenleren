@@ -36,6 +36,8 @@
 
 > **Complément *Chunks!* (apprendre par blocs de mots, A1).** Création pour les vrais débutants, à utiliser dès la première semaine avec M2 et M8 : un *chunk* est un bloc de mots appris, retenu et dit d'un seul souffle (*Hoe gaat het?*). Deux schémas propres au complément : **CH1** « la brique et le bloc » (des mots isolés → un bloc assemblé) et **CH2** « le bloc à trou » (*Ik woon in ▢*). Code couleur : blocs orange, cases à compléter bleues, « blocs bouées » (stratégies de dépannage : *Kan je even herhalen?*) verts, mot à mot gris. La mise en situation impose l'usage systématique des blocs bouées.
 
+> **Complément *Aan, af, op, uit…* (particules séparables, B1–B2).** Construit à partir du tableau source (11 particules), corrigé et enrichi (14 particules + *terug, weg, samen, vast, los*). Corrections : *ver-* est un préfixe **inséparable** (*vertalen → ik heb vertaald*) et passe sur la diapo « piège » ; *opbouwen* = construire (*heropbouwen* = reconstruire) ; *uitkijken* = faire attention / *uitkijken naar* = attendre avec impatience ; *bijleggen* = ajouter de l'argent, régler un conflit ; *toedoen* = fermer (BE ; NL *dichtdoen*) ; le sens « de nouveau » de *op-* est marginal. Trois schémas propres au complément : **P1** « les trois étages du sens » (direction → résultat → figuré, *uitgaan → uitlezen → uitleggen*), **P2** « l'étoile du verbe » (un verbe de base, une particule par rayon) et **P3** « l'accent qui décide » (*DOORlopen* séparable / *doorLOpen* inséparable). Chaque particule a sa couleur et son pictogramme-flèche, repris dans le tableau récapitulatif.
+
 ---
 
 ## 2. Diagnostic transversal
