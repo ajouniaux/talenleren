@@ -13,7 +13,6 @@ function build(d) {
     const size = o.size || 22; const h = o.h || 0.72; const gap = o.gap ?? 0.1;
     let cx = x;
     parts.forEach(([t, ty, wf]) => {
-      const w = wf || wOf(t, size);
       const st = {
         n: { fill: 'bg1', line: BORDER, lw: 1.25, color: 'tx1', bold: false },
         v: { fill: 'FBEDEB', line: 'accent6', lw: 2.5, color: 'accent6', bold: true },
@@ -22,6 +21,7 @@ function build(d) {
         w: { fill: 'F1EBF8', line: HYP, lw: 1.5, color: 'tx1', bold: false },
         wv: { fill: 'F1EBF8', line: 'accent6', lw: 2.5, color: 'accent6', bold: true },
       }[ty || 'n'];
+      const w = wf || wOf(t, size) * (st.bold ? 1.12 : 1) + (st.bold ? 0.08 : 0);
       d.rect(s, cx, y, w, h, { fill: st.fill, line: st.line, lw: st.lw, dash: st.dash, radius: 0.08 });
       d.t(s, t, cx, y, w, h, { size, bold: st.bold, color: st.color, align: 'center', valign: 'middle' });
       cx += w + gap;
@@ -122,7 +122,7 @@ function build(d) {
 
   // ---------------------------------------------------------------- 6 je voudrais
   {
-    const s = d.page({ g: 6, tag: 'MISE EN SITUATION', title: 'Je voudrais… : ik wil graag, ik zou graag, ik had graag' });
+    const s = d.page({ g: 6, tag: 'MISE EN SITUATION', title: 'Je voudrais… : wil graag, zou graag, had graag' });
     d.ill(s, 'bread', 0.75, 1.85, 1.3, 1.3);
     d.ill(s, 'croissant', 0.75, 3.3, 1.1, 1.1);
     [['Ik wil **graag** een brood.', 'je voudrais', POL, null], ['Ik **zou** graag een brood **willen**.', 'je voudrais bien', CON, null], ['Ik **had** graag een brood.', 'BE, très courant', HYP, 'be']].forEach(([t, gl, c, fl], i) => {
@@ -157,7 +157,7 @@ function build(d) {
     d.t(s, 'LE WAGON //ALS// (M9)', 0.6, 1.7, 6, 0.35, { size: 12, bold: true, color: HYP, cs: 2 });
     strip(s, 0.6, 2.1, [['Als ik tijd', 'w'], ['had,', 'wv'], ['zou', 'v'], ['ik', 'n'], ['meegaan.', 'v2']], { size: 24, h: 0.8 });
     d.t(s, '« verbe, verbe » autour de la virgule', 3.0, 2.95, 5, 0.4, { size: 13, italic: true, color: 'accent6' });
-    strip(s, 0.6, 3.55, [['Ik', 'n'], ['zou', 'v'], ['meegaan', 'v2'], ['als ik tijd', 'w'], ['had.', 'wv']], { size: 24, h: 0.8 });
+    strip(s, 0.6, 3.55, [['Ik', 'n'], ['zou', 'v'], ['meegaan', 'v2', 2.05], ['als ik tijd', 'w'], ['had.', 'wv']], { size: 24, h: 0.8 });
     d.rect(s, 9.0, 1.7, 3.73, 2.75, { fill: 'F1EBF8', line: HYP, lw: 1.5, radius: 0.1 });
     d.t(s, ['**Après //als//** : imperfectum (M19)', '//had · was · kon · wist · won//'], 9.15, 1.75, 3.45, 2.65, { size: 17, gap: 8, valign: 'middle' });
     d.rect(s, 0.6, 4.75, 12.13, 1.0, { fill: 'bg2', line: BORDER, radius: 0.1 });
@@ -226,7 +226,7 @@ function build(d) {
   // ---------------------------------------------------------------- 13 à retenir
   {
     const s = d.page({ g: 13, tag: 'À RETENIR', title: 'À retenir : les trois portes du conditionnel' });
-    const D = [['Politesse', POL, 'folded-hands', ['//Zou u … willen?//', '//Ik zou graag … willen//', '//Ik had graag …// (BE)']], ['Conseil, souhait', CON, 'light-bulb', ['//Je zou … moeten//', '//Als ik jou was, zou ik …//']], ['Hypothèse', HYP, 'thought-balloon', ['//Als ik tijd had,//', '//zou ik …//', 'als + imperfectum · zou + inf.']]];
+    const D = [['Politesse', POL, 'folded-hands', ['//Zou u … willen?//', '//Ik zou graag … willen//', '//Ik had graag …// (BE)']], ['Conseil, souhait', CON, 'light-bulb', ['//Je zou … moeten//', '//Als ik jou was, zou ik …//']], ['Hypothèse', HYP, 'thought-balloon', ['//Als ik tijd had,//', '//zou ik …//', 'als + imperf. · zou + inf.']]];
     const w = (12.13 - 2 * 0.3) / 3;
     D.forEach(([h, c, il, lines], i) => {
       const x = 0.6 + i * (w + 0.3);

@@ -12,7 +12,6 @@ function build(d) {
     const size = o.size || 22; const h = o.h || 0.72; const gap = o.gap ?? 0.1;
     let cx = x;
     parts.forEach(([t, ty, wf]) => {
-      const w = wf || wOf(t, size);
       const st = {
         n: { fill: 'bg1', line: BORDER, lw: 1.25, color: 'tx1', bold: false },
         v: { fill: 'FBEDEB', line: 'accent6', lw: 2.5, color: 'accent6', bold: true },
@@ -20,6 +19,7 @@ function build(d) {
         z: { fill: ZI, line: null, color: 'bg1', bold: true },
         e: { fill: EL, line: null, color: 'bg1', bold: true },
       }[ty || 'n'];
+      const w = wf || wOf(t, size) * (st.bold ? 1.12 : 1) + (st.bold ? 0.08 : 0);
       d.rect(s, cx, y, w, h, { fill: st.fill, line: st.line, lw: st.lw, dash: st.dash, radius: 0.08 });
       d.t(s, t, cx, y, w, h, { size, bold: st.bold, color: st.color, align: 'center', valign: 'middle' });
       cx += w + gap;
@@ -210,9 +210,9 @@ function build(d) {
       const y = 2.3 + i * 0.75;
       d.t(s, fr, 0.95, y, 5.2, 0.66, { size: 17, valign: 'middle' });
       d.line(s, 6.2, y + 0.33, 6.6, y + 0.33, { color: 'accent3', lw: 2 });
-      d.rect(s, 6.65, y + 0.04, 4.75, 0.58, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.5, radius: 0.1 });
-      d.t(s, `✓ //${nl}//`, 6.8, y + 0.04, 4.55, 0.58, { size: 18, valign: 'middle' });
-      d.chip(s, k === 'z' ? 'miroir' : 'ping-pong', 11.5, y + 0.17, k === 'z' ? ZI : EL, 0.32, 10);
+      d.rect(s, 6.65, y + 0.04, 4.6, 0.58, { fill: 'accent3', tr: 88, line: 'accent3', lw: 1.5, radius: 0.1 });
+      d.t(s, `✓ //${nl}//`, 6.8, y + 0.04, 4.4, 0.58, { size: 18, valign: 'middle' });
+      d.chip(s, k === 'z' ? 'miroir' : 'ping-pong', 11.36, y + 0.17, k === 'z' ? ZI : EL, 0.32, 10);
     });
     band(s, 'Le français laisse le contexte trancher ; le néerlandais oblige à choisir.', 6.25, 0.62, 'tx2', 18);
   }
@@ -271,8 +271,8 @@ function build(d) {
       const x = 0.6 + c * (cw + 0.3); const y = top + r * rh;
       d.rect(s, x, y + 0.06, cw, rh - 0.12, { fill: r % 2 ? 'bg1' : 'bg2', line: BORDER, lw: 0.75, radius: 0.08 });
       d.t(s, `**${i + 1}**`, x + 0.12, y + 0.06, 0.4, rh - 0.12, { size: 17, color: 'accent5', valign: 'middle' });
-      d.t(s, `//${t}//`, x + 0.55, y + 0.06, cw - 1.8, rh - 0.12, { size: 19, mode, valign: 'middle' });
-      if (mode === 'a') d.chip(s, k === 'z' ? 'miroir' : 'ping-pong', x + cw - 1.2, y + rh / 2 - 0.16, k === 'z' ? ZI : EL, 0.32, 10);
+      d.t(s, `//${t}//`, x + 0.55, y + 0.06, cw - 2.1, rh - 0.12, { size: 19, mode, valign: 'middle' });
+      if (mode === 'a') d.chip(s, k === 'z' ? 'miroir' : 'ping-pong', x + cw - 1.38, y + rh / 2 - 0.16, k === 'z' ? ZI : EL, 0.32, 10);
     });
   });
 

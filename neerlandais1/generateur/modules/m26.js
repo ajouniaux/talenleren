@@ -226,13 +226,13 @@ function build(d) {
     d.t(s, 'FACTUUR · PEETERS & CO', 0.8, 1.7, 5.2, 0.55, { size: 13, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
     const L = [['10 laptops', '€ 12.000,00'], ['installatie', '€ 200,00'], ['subtotaal', '€ 12.200,00'], ['btw 21 %', '€ 2.562,00'], ['totaal', '€ 14.762,00']];
     L.forEach(([a, b], i) => {
-      const y = 2.45 + i * 0.66; const tot = i === 4;
+      const y = 2.4 + i * 0.58; const tot = i === 4;
       if (i === 2 || i === 4) d.line(s, 0.85, y - 0.04, 5.95, y - 0.04, { color: 'accent5', lw: tot ? 2 : 0.75, arrow: false });
       d.t(s, a, 0.9, y, 2.8, 0.55, { size: 16, bold: tot, color: tot ? 'accent6' : 'tx1', valign: 'middle' });
       d.t(s, b, 3.4, y, 2.6, 0.55, { size: 16, bold: tot, color: tot ? 'accent6' : 'tx1', align: 'right', valign: 'middle' });
     });
-    d.ill(s, 'receipt', 0.85, 5.35, 0.55, 0.55);
-    d.t(s, '//btw// = la TVA (21 % en Belgique)', 1.5, 5.35, 4.6, 0.55, { size: 13, italic: true, color: 'accent5', valign: 'middle' });
+    d.ill(s, 'receipt', 0.9, 5.45, 0.45, 0.45);
+    d.t(s, '//btw// = la TVA (21 % en Belgique)', 1.45, 5.4, 4.6, 0.55, { size: 13, italic: true, color: 'accent5', valign: 'middle' });
     [['house', 'De huur is € 1.150 per maand.', 'le loyer', 'accent3'], ['money-bag', 'Het brutoloon is € 3.200, netto ongeveer € 2.100.', 'le salaire brut / net', 'accent1']].forEach(([il, t, fr, c], i) => {
       const y = 1.7 + i * 1.3;
       d.rect(s, 6.45, y, 6.28, 1.15, { fill: c, tr: 88, line: c, lw: 1.5, radius: 0.1 });

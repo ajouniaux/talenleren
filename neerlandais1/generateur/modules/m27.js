@@ -13,7 +13,6 @@ function build(d) {
     const size = o.size || 22; const h = o.h || 0.72; const gap = o.gap ?? 0.1;
     let cx = x;
     parts.forEach(([t, ty, wf]) => {
-      const w = wf || wOf(t, size);
       const st = {
         n: { fill: 'bg1', line: BORDER, lw: 1.25, color: 'tx1', bold: false },
         v: { fill: 'FBEDEB', line: 'accent6', lw: 2.5, color: 'accent6', bold: true },
@@ -22,6 +21,7 @@ function build(d) {
         h: { fill: HV, line: null, color: 'bg1', bold: true },
         neg: { fill: 'bg1', line: 'accent6', lw: 2, color: 'accent6', bold: true },
       }[ty || 'n'];
+      const w = wf || wOf(t, size) * (st.bold ? 1.12 : 1) + (st.bold ? 0.08 : 0);
       d.rect(s, cx, y, w, h, { fill: st.fill, line: st.line, lw: st.lw, dash: st.dash, radius: 0.08 });
       d.t(s, t, cx, y, w, h, { size, bold: st.bold, color: st.color, align: 'center', valign: 'middle' });
       cx += w + gap;
