@@ -124,7 +124,7 @@ function build(d) {
   {
     const s = d.page({ g: 4, tag: 'LE PRINCIPE', title: 'Te ou pas te ? Deux familles de verbes' });
     const W = (12.13 - 0.3) / 2;
-    [['SANS te', 'no-entry', 'E6EBF2', 'tx2', ['kunnen', 'moeten', 'willen', 'mogen', 'zullen', 'gaan', 'komen', 'blijven', 'laten', 'zien', 'horen'], [['Ik', 'n'], ['wil', 'c'], ['komen.', 'i']], 'les modaux et les verbes « pilotes » du double infinitif'],
+    [['SANS te', 'no-entry', 'E6EBF2', 'tx2', ['kunnen', 'moeten', 'willen', 'mogen', 'zullen', 'gaan', 'komen', 'blijven', 'laten', 'zien', 'horen'], [['Ik', 'n'], ['wil', 'c'], ['komen.', 'i']], 'les modaux, //gaan, komen, blijven, laten, zien, horen//'],
       ['AVEC te', 'check-mark-button', 'FDF1E6', TE, ['proberen', 'beginnen', 'vergeten', 'beloven', 'besluiten', 'hopen', 'hoeven', 'zitten', 'staan', 'liggen', 'lopen'], [['Ik', 'n'], ['probeer', 'c'], ['te', 't'], ['komen.', 'i']], 'presque tous les autres verbes']].forEach(([h, ic, bg, c, V, ex, sub], j) => {
       const x = 0.6 + j * (W + 0.3);
       d.rect(s, x, 1.6, W, 4.35, { fill: bg, line: c, lw: 2, radius: 0.12 });
@@ -138,15 +138,15 @@ function build(d) {
       });
       strip(s, x + 0.3, 4.95, ex, { size: 18, h: 0.64 });
     });
-    band(s, 'Truc : les verbes « sans te » sont ceux du **double infinitif** (//Ik heb moeten werken//). Presque tous les autres prennent //te//.', 6.15, 0.68, 'tx2', 16);
+    band(s, 'Truc : au passé, ces verbes (sauf //zullen//) donnent un **double infinitif** (//Ik heb moeten werken//). Presque tous les autres prennent //te//.', 6.15, 0.68, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 5–6 sans te / avec te
   const FAMS = [
-    [5, 'Sans te : les modaux et les verbes pilotes', 'tx2', [['Ik', 'n'], ['kan', 'c'], ['komen.', 'i']], 'Comme en français : //je **peux** venir// (pas de « de »).',
+    [5, 'Sans te : les modaux, gaan, laten, zien…', 'tx2', [['Ik', 'n'], ['kan', 'c'], ['komen.', 'i']], 'Comme en français : //je **peux** venir// (pas de « de »).',
       [['flexed-biceps', 'Ik kan morgen komen.', 'je peux venir demain'], ['briefcase', 'Ik moet vandaag lang werken.', 'je dois travailler longtemps aujourd’hui'], ['person-swimming', 'We gaan vanavond zwemmen.', 'nous allons nager ce soir'], ['automobile', 'Ik laat mijn auto wassen.', 'je fais laver ma voiture'], ['eyes', 'Ik zie de bus komen.', 'je vois le bus arriver']]],
     [6, 'Avec te : essayer de, commencer à…', TE, [['Ik', 'n'], ['probeer', 'c'], ['te', 't'], ['komen.', 'i']], 'Souvent, le français dit **de** ou **à** : //essayer **de**, commencer **à**// → //te//.',
-      [['crossed-fingers', 'Ik probeer morgen {te} komen.', 'j’essaie DE venir demain'], ['rocket', 'Het begint {te} regenen.', 'il commence À pleuvoir'], ['thinking-face', 'Vergeet niet {te} bellen!', 'n’oublie pas D’appeler'], ['handshake', 'Ik beloof je {te} helpen.', 'je te promets DE t’aider'], ['four-leaf-clover', 'Ik hoop je snel {te} zien.', 'j’espère te voir bientôt']]],
+      [['crossed-fingers', 'Ik probeer morgen {te} komen.', 'j’essaie DE venir demain'], ['cloud-with-rain', 'Het begint {te} regenen.', 'il commence À pleuvoir'], ['thinking-face', 'Vergeet niet {te} bellen!', 'n’oublie pas D’appeler'], ['handshake', 'Ik beloof je {te} helpen.', 'je te promets DE t’aider'], ['four-leaf-clover', 'Ik hoop je snel {te} zien.', 'j’espère te voir bientôt']]],
   ];
   d.section('Te ou pas te ?');
   FAMS.forEach(([g, title, c, sch, note, rows]) => {
@@ -172,8 +172,8 @@ function build(d) {
     const x2 = 0.6 + W + 0.3;
     d.rect(s, x2, 1.6, W, 4.5, { fill: 'EAF2FB', line: 'accent2', lw: 2, radius: 0.12 });
     d.t(s, '**niet hoeven te**', x2 + 0.2, 1.7, W - 0.4, 0.45, { size: 17, color: 'accent2', valign: 'middle' });
-    d.t(s, '= ne pas devoir, ne pas être obligé·e de', x2 + 0.2, 2.12, W - 0.4, 0.35, { size: 14, italic: true, color: 'accent5' });
-    [['relieved-face', 'Je hoeft niet {te} komen.', 'tu n’es pas obligé·e de venir'], ['telephone-receiver', 'Je hoeft alleen maar {te} bellen.', 'tu dois juste appeler'], ['money-bag', 'U hoeft niets {te} betalen.', 'vous ne devez rien payer']].forEach(([ic, ex, fr], i) => card(s, x2 + 0.2, 2.6 + i * 1.12, W - 0.4, 1.0, ic, ex, fr, 'accent2', { size: 18 }));
+    d.t(s, '= ne pas être obligé·e de, ne pas avoir besoin de', x2 + 0.2, 2.12, W - 0.4, 0.35, { size: 14, italic: true, color: 'accent5' });
+    [['relieved-face', 'Je hoeft niet {te} komen.', 'tu n’es pas obligé·e de venir'], ['telephone-receiver', 'Je hoeft alleen maar {te} bellen.', 'tu n’as qu’à appeler'], ['money-bag', 'U hoeft niets {te} betalen.', 'vous n’avez rien à payer']].forEach(([ic, ex, fr], i) => card(s, x2 + 0.2, 2.6 + i * 1.12, W - 0.4, 1.0, ic, ex, fr, 'accent2', { size: 18 }));
     band(s, '//hoeven// s’emploie avec une négation ou une restriction (//niet, geen, niets, alleen maar//). En Belgique, on dit aussi : //Je moet niet komen.//', 6.2, 0.62, 'tx2', 15);
   }
 
@@ -200,7 +200,7 @@ function build(d) {
       d.t(s, `//${sub}//`, x + 0.2, 2.12, W - 0.4, 0.35, { size: 14, color: 'accent5' });
       L.forEach(([ic, ex, fr], i) => card(s, x + 0.2, 2.6 + i * 1.12, W - 0.4, 1.0, ic, ex, fr, OM, { size: 17 }));
     });
-    band(s, 'Aussi avec un verbe : //Ik ben van plan **om** te verhuizen. · Ik heb besloten (**om**) te stoppen.// (//om// est souvent possible, rarement obligatoire)', 6.2, 0.62, 'tx2', 15);
+    band(s, 'Après certains verbes, //om// est facultatif : //Ik heb besloten (**om**) te stoppen. · Ik ben vergeten (**om**) te bellen.// Jamais avec //hoeven, zitten te…//', 6.2, 0.62, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 10 dans la pince (T3)
@@ -212,7 +212,7 @@ function build(d) {
     const e2 = pince(s, 0.6, 3.6, [['…', 'n'], ['om', 'o'], ['de klant', 'n'], ['op', 'p'], ['te', 't'], ['bellen.', 'i']], { size: 22, h: 0.7 });
     const e3 = strip(s, e2 + 0.6, 3.6, [['te opbellen', 'x']], { size: 22, h: 0.7 });
     d.t(s, '✗', e3 + 0.1, 3.6, 0.5, 0.7, { size: 26, bold: true, color: 'accent6', valign: 'middle' });
-    d.t(s, '**③ //niet// se place devant //te//**', 0.6, 4.75, 12, 0.4, { size: 16, color: 'tx2' });
+    d.t(s, '**③ //niet// entre dans la pince, devant le groupe verbal** (//om de klant **niet** op te bellen//)', 0.6, 4.75, 12, 0.4, { size: 16, color: 'tx2' });
     pince(s, 0.6, 5.2, [['Het is belangrijk', 'n'], ['om', 'o'], ['niet', 'n'], ['te laat', 'n'], ['te', 't'], ['komen.', 'i']], { size: 22, h: 0.7 });
     d.t(s, '//te// est toujours **collé** devant l’infinitif.', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'tx2' });
   }
@@ -220,7 +220,7 @@ function build(d) {
   // ---------------------------------------------------------------- 11 zonder, in plaats van, door
   {
     const s = d.page({ g: 11, tag: 'B1', tagColor: 'purple', title: 'zonder … te, in plaats van … te, door … te' });
-    const R = [['zipper-mouth-face', 'zonder … te', 'sans + infinitif', 'Hij vertrekt {zonder} iets {te zeggen}.', 'il part sans rien dire'], ['mobile-phone', 'in plaats van … te', 'au lieu de + infinitif', '{In plaats van te werken}, zit hij op zijn gsm.', 'au lieu de travailler, il est sur son GSM'], ['books', 'door … te', 'en + participe présent', '{Door} veel {te lezen}, leer je snel.', 'en lisant beaucoup, on apprend vite']];
+    const R = [['zipper-mouth-face', 'zonder … te', 'sans + infinitif', 'Hij vertrekt {zonder} iets {te zeggen}.', 'il part sans rien dire'], ['mobile-phone', 'in plaats van … te', 'au lieu de + infinitif', '{In plaats van te werken}, zit hij op zijn gsm.', 'au lieu de travailler, il est sur son GSM'], ['books', 'door … te', 'en + participe présent (le moyen)', '{Door} veel {te lezen}, leer je snel.', 'en lisant beaucoup, on apprend vite']];
     R.forEach(([ic, h, frh, ex, fr], i) => {
       const y = 1.65 + i * 1.5;
       d.rect(s, 0.6, y, 12.13, 1.35, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
@@ -238,7 +238,7 @@ function build(d) {
     const s = d.page({ g: 12, tag: 'PIÈGE', title: '« Pour » : voor ou om … te ?' });
     const W = (12.13 - 0.3) / 2;
     [['pour + NOM → voor', 'accent2', 'EAF2FB', [['wrapped-gift', 'Dit cadeau is {voor} jou.', 'ce cadeau est pour toi'], ['spiral-calendar', 'Ik ben hier {voor} de vergadering.', 'je suis ici pour la réunion']]],
-      ['pour + VERBE → om … te', OM, 'F1ECF7', [['handshake', 'Ik kom {om} je {te helpen}.', 'je viens pour t’aider'], ['busts-in-silhouette', 'Ik ben hier {om te vergaderen}.', 'je suis ici pour la réunion (pour me réunir)']]]].forEach(([h, c, bg, L], j) => {
+      ['pour + VERBE → om … te', OM, 'F1ECF7', [['handshake', 'Ik kom {om} je {te helpen}.', 'je viens pour t’aider'], ['busts-in-silhouette', 'Ik ben hier {om te vergaderen}.', 'je suis ici pour être en réunion']]]].forEach(([h, c, bg, L], j) => {
       const x = 0.6 + j * (W + 0.3);
       d.rect(s, x, 1.6, W, 3.55, { fill: bg, line: c, lw: 2, radius: 0.12 });
       d.t(s, `**${h}**`, x + 0.2, 1.7, W - 0.4, 0.55, { size: 20, color: c, valign: 'middle' });
@@ -246,7 +246,7 @@ function build(d) {
     });
     const e = strip(s, 0.6, 5.45, [['Ik kom', 'n'], ['voor', 'x'], ['je', 'n'], ['te helpen', 'x']], { size: 22, h: 0.66 });
     d.t(s, '✗', e + 0.1, 5.45, 0.5, 0.66, { size: 26, bold: true, color: 'accent6', valign: 'middle' });
-    d.t(s, '//voor// + infinitif n’existe pas ! « pour que » + phrase = //zodat// (aperçu).', e + 0.7, 5.45, 12.73 - e - 0.7, 0.66, { size: 15, color: 'tx2', valign: 'middle' });
+    d.t(s, '//voor … te// s’entend en Flandre, mais n’est pas standard : dites //om … te//. « pour que » + phrase = //zodat// (aperçu).', e + 0.7, 5.45, 12.73 - e - 0.7, 0.66, { size: 15, color: 'tx2', valign: 'middle' });
     d.t(s, 'Le calque du français (« pour » = //voor//) est l’erreur n° 1 : vérifiez s’il y a un **verbe** après « pour ».', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent6', align: 'center' });
   }
 
@@ -262,7 +262,7 @@ function build(d) {
       const e = strip(s, 0.6, y + 0.45, perf, { size: 21, h: 0.66 });
       d.t(s, note, e + 0.3, y + 0.45, 12.73 - e - 0.3, 0.66, { size: 15, color: 'tx2', valign: 'middle' });
     });
-    band(s, 'Au passé composé, le verbe principal se conjugue ; l’infinitif avec //te// reste **au bout**.', 6.15, 0.62, 'tx2', 16);
+    band(s, 'Au passé composé, le premier verbe passe au participe (//geprobeerd, gebeld//) ; l’infinitif avec //te// reste **au bout**.', 6.15, 0.62, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 14 à retenir
@@ -368,7 +368,7 @@ function build(d) {
     scenario: 'Entretien chez Maesbouw pour un poste d’assistant·e administratif·ve. Objectif : 6 infinitifs avec te ou om … te.',
     a: ['**A — recruteur·euse**', 'Demandez pourquoi B postule, ce qu’il·elle veut apprendre, ses projets.'],
     b: ['**B — candidat·e**', 'Répondez avec te et om … te. Posez une question à la fin.'],
-    bank: '//Waarom solliciteert u? · Ik solliciteer om … te … · Ik ben van plan om … · Ik probeer … te … · Ik hoop … te … · Het is voor mij belangrijk om … · Ik heb zin om … · Ik ben klaar om te beginnen. · Ik hoef niet … te …//',
+    bank: '//Waarom solliciteert u? · Ik solliciteer om … te … · Ik ben van plan om … te … · Ik probeer … te … · Ik hoop … te … · Het is voor mij belangrijk om … te … · Ik heb zin om … te … · Ik ben klaar om te beginnen. · Ik hoef niet … te …//',
     doc: (s, x, y, w, h) => {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.6, { fill: 'tx2', line: null, radius: 0.04 });

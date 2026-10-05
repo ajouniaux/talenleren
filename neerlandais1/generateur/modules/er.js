@@ -145,7 +145,7 @@ function build(d) {
     const s = d.page({ g: 5, tag: 'EMPLOI 1 / 5', tagColor: U[0].c, title: 'Er is, er zijn… : il y a' });
     head(s, 0);
     d.t(s, '//er// + verbe + sujet **indéfini** (//een, geen, veel, twee, niemand…//)', 0.8, 5.0, 4.2, 0.95, { size: 14, color: 'tx2', valign: 'middle' });
-    const R = [['warning', '{Er} is een probleem met de printer.', 'il y a un problème avec l’imprimante'], ['automobile', '{Er} zijn veel files vandaag.', 'il y a beaucoup d’embouteillages'], ['door', '{Er} staat een man voor de deur.', 'il y a un homme devant la porte (debout)'], ['envelope', '{Er} ligt een brief op je bureau.', 'il y a une lettre sur ton bureau'], ['busts-in-silhouette', '{Er} werkt hier niemand.', 'personne ne travaille ici']];
+    const R = [['warning', '{Er} is een probleem met de printer.', 'il y a un problème avec l’imprimante'], ['automobile', '{Er} staan vandaag veel files.', 'il y a beaucoup d’embouteillages aujourd’hui'], ['door', '{Er} staat een man voor de deur.', 'il y a un homme devant la porte (debout)'], ['envelope', '{Er} ligt een brief op je bureau.', 'il y a une lettre sur ton bureau'], ['busts-in-silhouette', '{Er} werkt hier niemand.', 'personne ne travaille ici']];
     const rh = (4.5 - 0.1 * 4) / 5;
     R.forEach(([ic, ex, fr], j) => card(s, 5.45, 1.6 + j * (rh + 0.1), 7.28, rh, ic, ex, fr, U[0].c, { size: 18 }));
     d.t(s, 'Comme au M17 : //er staat, er ligt, er zit, er hangt// = il y a (avec la position).', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent5', align: 'center' });
@@ -153,7 +153,7 @@ function build(d) {
 
   // ---------------------------------------------------------------- 6 piège : sujet défini
   {
-    const s = d.page({ g: 6, tag: 'PIÈGE', title: 'Un sujet défini ? Pas de er !' });
+    const s = d.page({ g: 6, tag: 'PIÈGE', title: 'Un sujet défini ? Pas de « er = il y a » !' });
     const W = (12.13 - 0.3) / 2;
     [['SUJET INDÉFINI → er', U[0].c, 'EAF2FB', [[[['Er', '1'], ['ligt', 'c'], ['een brief', 'n'], ['op je bureau.', 'n']], 'il y a une lettre sur ton bureau'], [[['Is', 'c'], ['er', '1'], ['nog', 'n'], ['koffie?', 'n']], 'il y a encore du café ?']]],
       ['SUJET DÉFINI → pas de er', 'accent5', 'E6EBF2', [[[['De brief', 'n'], ['ligt', 'c'], ['op je bureau.', 'n']], 'la lettre est sur ton bureau'], [[['De koffie', 'n'], ['staat', 'c'], ['in de keuken.', 'n']], 'le café est dans la cuisine']]]].forEach(([h, c, bg, L], j) => {
@@ -191,7 +191,7 @@ function build(d) {
     const R = [['teddy-bear', 'Hoeveel kinderen heb je? — Ik heb {er} twee.', 'j’en ai deux'], ['pen', 'Heb je een pen voor mij? — Nee, ik heb {er} geen.', 'non, je n’en ai pas'], ['busts-in-silhouette', 'Heb je veel collega’s? — Ja, ik heb {er} veel.', 'oui, j’en ai beaucoup'], ['laptop', 'Hoeveel laptops hebben we nog? — We hebben {er} nog drie.', 'il nous en reste trois']];
     const rh = (4.5 - 0.1 * 3) / 4;
     R.forEach(([ic, ex, fr], j) => card(s, 5.45, 1.6 + j * (rh + 0.1), 7.28, rh, ic, ex, fr, U[2].c, { size: 16 }));
-    d.t(s, 'Piège : //Heb je **de** pen? — Ja, ik heb **hem**.// (le) ≠ //Heb je **een** pen? — Ja, ik heb **er** een.// (en)', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent6', align: 'center' });
+    d.t(s, 'Piège : //Heb je **de** sleutel? — Ja, ik heb **hem**.// (la) ≠ //Heb je **een** sleutel? — Ja, ik heb **er** één.// (en)', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent6', align: 'center' });
   }
 
   // ---------------------------------------------------------------- 9 ④ + préposition
@@ -199,7 +199,7 @@ function build(d) {
     const s = d.page({ g: 9, tag: 'EMPLOI 4 / 5', tagColor: U[3].c, title: 'Er + préposition : Ik denk eraan' });
     head(s, 3);
     d.t(s, 'une chose + préposition → //er// + préposition (M23)', 0.8, 5.0, 4.2, 0.95, { size: 14, color: 'tx2', valign: 'middle' });
-    const R = [['thinking-face', 'Denk je aan de vergadering? — Ja, ik denk {er}aan.', 'oui, j’y pense'], ['speech-balloon', 'Wat vind je {er}van?', 'qu’en penses-tu ?'], ['face-with-tears-of-joy', 'Uit eten gaan? Ik heb {er} echt zin in!', 'j’en ai vraiment envie'], ['calendar', 'De vakantie? Ik kijk {er}naar uit.', 'je l’attends avec impatience']];
+    const R = [['thinking-face', 'Denk je aan de vergadering? — Ja, ik denk {er}aan.', 'oui, j’y pense'], ['speech-balloon', 'Wat vind je {er}van?', 'qu’en penses-tu ?'], ['face-savoring-food', 'Uit eten gaan? Ik heb {er} echt zin in!', 'j’en ai vraiment envie'], ['calendar', 'De vakantie? Ik kijk {er}naar uit.', 'je l’attends avec impatience']];
     const rh = (4.5 - 0.1 * 3) / 4;
     R.forEach(([ic, ex, fr], j) => card(s, 5.45, 1.6 + j * (rh + 0.1), 7.28, rh, ic, ex, fr, U[3].c, { size: 17 }));
     d.t(s, '//er// et la préposition se séparent souvent : //Ik heb **er** echt zin **in**. · Ik denk **er** niet **aan**.//', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent5', align: 'center' });
@@ -210,7 +210,7 @@ function build(d) {
     const s = d.page({ g: 10, tag: 'EMPLOI 5 / 5', tagColor: U[4].c, title: 'Er wordt… : on' });
     head(s, 4);
     d.t(s, '//er wordt// + participe passé, sans sujet : une action sans acteur précis', 0.8, 5.0, 4.2, 0.95, { size: 14, color: 'tx2', valign: 'middle' });
-    const R = [['bell', '{Er} wordt gebeld.', 'on sonne'], ['no-smoking', '{Er} wordt hier niet gerookt.', 'on ne fume pas ici'], ['face-with-tears-of-joy', '{Er} wordt veel gelachen in ons team.', 'on rit beaucoup dans notre équipe'], ['building-construction', '{Er} wordt nog gewerkt aan de lift.', 'on travaille encore à l’ascenseur']];
+    const R = [['bell', '{Er} wordt gebeld.', 'on sonne'], ['no-smoking', '{Er} wordt hier niet gerookt.', 'on ne fume pas ici'], ['face-with-tears-of-joy', '{Er} wordt veel gelachen in ons team.', 'on rit beaucoup dans notre équipe'], ['building-construction', '{Er} wordt nog gewerkt aan de lift.', 'on travaille encore sur l’ascenseur']];
     const rh = (4.5 - 0.1 * 3) / 4;
     R.forEach(([ic, ex, fr], j) => card(s, 5.45, 1.6 + j * (rh + 0.1), 7.28, rh, ic, ex, fr, U[4].c, { size: 18 }));
     d.t(s, 'C’est une forme du **passif** (//worden// + participe) : à reconnaître d’abord, à utiliser dans des formules.', 0.6, 6.3, 12.13, 0.45, { size: 15, color: 'accent5', align: 'center' });
@@ -226,7 +226,7 @@ function build(d) {
       d.t(s, `**${lab}**`, 0.6, y, 3.6, 0.7, { size: 15, color: 'tx2', valign: 'middle' });
       strip(s, 4.3, y, parts, { size: 22, h: 0.7 });
     });
-    band(s, '//er// se place **tôt** dans la phrase : juste après le verbe conjugué, ou après le sujet s’il vient derrière le verbe. Les compléments (//al tien jaar, gisteren//) suivent.', 6.0, 0.8, 'tx2', 16);
+    band(s, '//er// se place **tôt** dans la phrase : juste après le verbe conjugué, ou après le sujet s’il vient derrière le verbe. Les compléments (//al tien jaar, vorig jaar//) suivent : //Ik ben er gisteren geweest.//', 6.0, 0.8, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 12 er ou daar
@@ -259,14 +259,14 @@ function build(d) {
     d.line(s, N[0][0] + N[0][1] / 2, 3.35, F[1][0] + F[1][1] / 2, 4.3, { color: hexOf(U[0].c), lw: 3, arrow: false });
     d.line(s, N[2][0] + N[2][1] / 2, 3.35, F[2][0] + F[2][1] / 2, 4.3, { color: hexOf(U[2].c), lw: 3, arrow: false });
     d.rect(s, 7.6, 2.3, 5.13, 3.0, { fill: 'bg2', line: BORDER, radius: 0.12 });
-    d.t(s, ['**① //Er// zijn…** = il y a', '**③ …//er// drie** = en … trois', '', '//Is er een lift? — Ja, er is er een.//', '//Zijn er nog stoelen? — Nee, er zijn er geen meer.//'], 7.8, 2.4, 4.8, 2.8, { size: 16, gap: 4, valign: 'middle' });
+    d.t(s, ['**① //Er// zijn…** = il y a', '**③ …//er// drie** = en … trois', '', '//Is er een lift? — Ja, er is er één.//', '//Zijn er nog stoelen? — Nee, er zijn er geen meer.//'], 7.8, 2.4, 4.8, 2.8, { size: 16, gap: 4, valign: 'middle' });
     band(s, 'Le français a deux petits mots (//y// + //en//) ; le néerlandais en a deux aussi : //er// + //er// !', 5.75, 0.7, 'tx2', 17);
   }
 
   // ---------------------------------------------------------------- 14 l'aiguillage (E3)
   {
     const s = d.page({ g: 14, tag: 'MÉTHODE', title: 'Quel er ? L’aiguillage' });
-    const Q = [['Un nombre ou une quantité près de er ?', 2, 'Ik heb er **twee**.'], ['Une préposition collée ou au bout ?', 3, 'Ik denk er**aan**. · Ik heb er zin **in**.'], ['//er wordt// + participe ?', 4, 'Er **wordt** gebeld.'], ['Un sujet indéfini (//een, geen, veel…//) ?', 0, 'Er is **een** probleem.'], ['Il remplace un lieu ?', 1, 'Brussel? Ik woon **er**.']];
+    const Q = [['Un nombre ou une quantité **seul·e**, sans nom après ?', 2, 'Ik heb er **twee**.'], ['Une préposition collée ou au bout (sauf //naartoe// → lieu) ?', 3, 'Ik denk er**aan**. · Ik heb er zin **in**.'], ['//er wordt// + participe ?', 4, 'Er **wordt** gebeld.'], ['Un sujet indéfini (//een, geen, veel…//) ?', 0, 'Er is **een** probleem.'], ['Il remplace un lieu ?', 1, 'Brussel? Ik woon **er**.']];
     Q.forEach(([q, i, ex], k) => {
       const y = 1.6 + k * 0.98;
       d.rect(s, 0.6, y, 6.0, 0.82, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
@@ -336,9 +336,9 @@ function build(d) {
 
   // ---------------------------------------------------------------- 19 ex3 er of daar
   const ex3 = ['Ken je Gent? — Ja, ik woon [[er]].', '[[Daar]] woon ik! (en montrant la maison)', 'Hoeveel boeken heb je? — Ik heb [[er]] tien.', '[[Er]] is niemand thuis.', 'Is [[er]] nog koffie?', 'Ik heb [[er]] geen zin in.', '[[Daar]] heb ik echt geen zin in!', '[[Er]] wordt gebeld.'];
-  d.ex({ g: 19, title: 'Exercice 3 — Er of daar?', stars: '★★', instr: 'Complétez avec //er// ou //daar// (en tête de phrase ou pour insister : //daar//).' }, (s, mode, top) => {
+  d.ex({ g: 19, title: 'Exercice 3 — Er of daar?', stars: '★★', instr: 'Complétez avec //er// ou //daar// (//daar// : pour insister ou montrer).' }, (s, mode, top) => {
     d.list(s, ex3.map((e) => `//${e}//`), mode, { y: top + 0.15, w: 12.13, h: 4.4, cols: 2, size: 20, gap: 20 });
-    if (mode === 'a') d.t(s, 'N° 4 et 8 : //er// en tête, mais seulement pour « il y a » (①) et le passif (⑤).', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 4 et 8 : //er// en tête pour « il y a » (①) et le passif (⑤). N° 1 et 6 : //daar// est aussi possible.', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 20 ex4 détective
@@ -369,7 +369,7 @@ function build(d) {
       d.t(s, `**${n}**`, x, y + 1.45, 1.6, 0.5, { size: 20, color: 'accent1', align: 'center', valign: 'middle' });
     });
     d.rect(s, 8.05, 2.1, 4.68, 4.65, { fill: 'bg2', line: BORDER, radius: 0.12 });
-    d.t(s, ['**A** demande :', '//Is er een printer?//', '//Hoeveel stoelen zijn er?//', '//Staan er planten?//', '//Is er een koffiemachine?//', '', '**B** répond :', '//Ja, er is er een.//', '//Er zijn er vier.//', '//Ja, er staan er twee.//', '//Nee, er is er geen.//'], 8.25, 2.2, 4.3, 4.45, { size: 16, gap: 2, valign: 'middle' });
+    d.t(s, ['**A** demande :', '//Is er een printer?//', '//Hoeveel stoelen zijn er?//', '//Staan er planten?//', '//Is er een lamp?//', '', '**B** répond :', '//Ja, er is er één.//', '//Er zijn er vier.//', '//Ja, er staan er twee.//', '//Nee, er is er geen.//'], 8.25, 2.2, 4.3, 4.45, { size: 16, gap: 2, valign: 'middle' });
   }
 
   // ---------------------------------------------------------------- 22 ex6 visite du nouveau bureau

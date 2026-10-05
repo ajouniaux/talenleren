@@ -10,7 +10,7 @@
 
 ## Choix didactiques
 
-- **Partir du français** : « je veux venir » (rien), « j'essaie **de** venir » (*te*), « j'appelle **pour** prendre rendez-vous » (*om … te*). Le français a plusieurs prépositions ; le néerlandais en a trois solutions : rien, *te*, *om … te*.
+- **Partir du français** : « je veux venir » (rien), « j'essaie **de** venir » (*te*), « j'appelle **pour** prendre rendez-vous » (*om … te*). Le français a plusieurs prépositions ; le néerlandais a trois solutions : rien, *te*, *om … te*.
 - Schéma **T1** « deux familles » : **sans *te*** = les modaux et les verbes pilotes du double infinitif (*kunnen, moeten, willen, mogen, zullen, gaan, komen, blijven, laten, zien, horen*) ; **avec *te*** = presque tous les autres (*proberen, beginnen, vergeten, beloven, hopen, hoeven, zitten / staan / liggen / lopen*…). Lien direct avec le complément *Le double infinitif*.
 - Schéma **T2** « la pince *om … te* » : *om* (violet) ouvre, *te* (orange) + l'infinitif (rouge) ferment ; un crochet violet sous la bande-phrase montre tout ce qui est « pincé ». Même logique que la pince verbale de M3.
 - Schéma **T3** « dans la pince » : tout entre *om* et *te* ; *te* toujours collé à l'infinitif ; *te* au milieu d'un verbe séparable (*op te bellen*, comme *opgebeld*) ; *niet* devant *te*.
@@ -88,15 +88,15 @@
 - Deux colonnes : ⛔ **SANS te** (bleu marine) et ✅ **AVEC te** (orange), chacune avec 11 étiquettes-verbes et une bande-phrase.
 
 **Contenu textuel**
-> **SANS te** — les modaux et les verbes « pilotes » du double infinitif : *kunnen · moeten · willen · mogen · zullen · gaan · komen · blijven · laten · zien · horen* — *Ik wil komen.*
+> **SANS te** — les modaux, *gaan, komen, blijven, laten, zien, horen* : *kunnen · moeten · willen · mogen · zullen · gaan · komen · blijven · laten · zien · horen* — *Ik wil komen.*
 > **AVEC te** — presque tous les autres verbes : *proberen · beginnen · vergeten · beloven · besluiten · hopen · hoeven · zitten · staan · liggen · lopen* — *Ik probeer te komen.*
-> Truc : les verbes « sans te » sont ceux du **double infinitif** (*Ik heb moeten werken*). Presque tous les autres prennent *te*.
+> Truc : au passé, ces verbes (sauf *zullen*) donnent un **double infinitif** (*Ik heb moeten werken*). Presque tous les autres prennent *te*.
 
 **Notes pour l'animateur** — Cas limites (à ne pas présenter d'emblée) : *durven* (avec ou sans *te* : *Ik durf het niet (te) zeggen*), *helpen* et *leren* (souvent sans *te* : *Ik help je verhuizen · Ik leer zwemmen*), *hoeven* (avec *te*, dans une phrase négative).
 
 ---
 
-### [DIAPOSITIVE 5 : Sans te : les modaux et les verbes pilotes]
+### [DIAPOSITIVE 5 : Sans te : les modaux, gaan, laten, zien…]
 
 **Objectif pédagogique** — Fixer la famille « sans *te* ».
 
@@ -121,7 +121,7 @@
 - *À droite* : 5 cartes ; la traduction met en capitales la préposition française (DE, À).
 
 **Contenu textuel**
-> 🤞 *Ik probeer morgen te komen.* (j'essaie DE venir) · 🚀 *Het begint te regenen.* (il commence À pleuvoir) · 🤔 *Vergeet niet te bellen!* (n'oublie pas D'appeler) · 🤝 *Ik beloof je te helpen.* (je te promets DE t'aider) · 🍀 *Ik hoop je snel te zien.* (j'espère te voir bientôt)
+> 🤞 *Ik probeer morgen te komen.* (j'essaie DE venir) · 🌧 *Het begint te regenen.* (il commence À pleuvoir) · 🤔 *Vergeet niet te bellen!* (n'oublie pas D'appeler) · 🤝 *Ik beloof je te helpen.* (je te promets DE t'aider) · 🍀 *Ik hoop je snel te zien.* (j'espère te voir bientôt)
 > Souvent, le français dit **de** ou **à** : *essayer **de**, commencer **à*** → *te*. L'infinitif avec *te* va **au bout** de la phrase.
 
 **Notes pour l'animateur** — Le parallèle « de / à » → *te* aide, mais n'est pas une règle absolue (*j'espère venir* → *Ik hoop te komen*). Autres verbes fréquents avec *te* : *besluiten* (décider de), *weigeren* (refuser de), *proberen*, *vragen* (demander de : *Hij vraagt me te wachten*), *van plan zijn om … te*.
@@ -138,7 +138,7 @@
 
 **Contenu textuel**
 > **zitten · staan · liggen · lopen + te** = être en train de : 🪑 *Ik zit te lezen.* · 🍳 *Ze staat te koken.* · 😴 *Hij ligt te slapen.*
-> **niet hoeven te** = ne pas devoir, ne pas être obligé·e de : 😌 *Je hoeft niet te komen.* · 📞 *Je hoeft alleen maar te bellen.* (tu dois juste appeler) · 💰 *U hoeft niets te betalen.*
+> **niet hoeven te** = ne pas être obligé·e de, ne pas avoir besoin de : 😌 *Je hoeft niet te komen.* · 📞 *Je hoeft alleen maar te bellen.* (tu n'as qu'à appeler) · 💰 *U hoeft niets te betalen.*
 > *hoeven* s'emploie avec une négation ou une restriction (*niet, geen, niets, alleen maar*). En Belgique, on dit aussi : *Je moet niet komen.*
 
 **Notes pour l'animateur** — Rappel du complément *Le double infinitif* : au passé, *zitten te lezen* devient *heb zitten lezen* (sans *te*). Aux Pays-Bas, *Je moet niet komen* peut sonner comme une interdiction ; *Je hoeft niet te komen* est clair partout.
@@ -171,9 +171,9 @@
 **Contenu textuel**
 > **Après un nom** (*zin · tijd · plan · kans*) : 😋 *Ik heb zin om uit eten te gaan.* · ⏳ *Ik heb geen tijd om te lezen.* · ⏰ *Het is tijd om te vertrekken.*
 > **Après un adjectif** (*leuk · moeilijk · belangrijk · klaar*) : 😊 *Het is leuk om Nederlands te leren.* · 😬 *Het is moeilijk om vroeg op te staan.* · 🏁 *Ik ben klaar om te beginnen.*
-> Aussi avec un verbe : *Ik ben van plan **om** te verhuizen. · Ik heb besloten (**om**) te stoppen.* (*om* est souvent possible, rarement obligatoire)
+> Après certains verbes, *om* est facultatif : *Ik heb besloten (**om**) te stoppen. · Ik ben vergeten (**om**) te bellen.* Jamais avec *hoeven, zitten te…*
 
-**Notes pour l'animateur** — Après un nom ou un adjectif, *om* est la règle ; après un verbe comme *proberen, beginnen*, on dit simplement *te*. Avec *besluiten, vergeten, vragen*, *om* est facultatif.
+**Notes pour l'animateur** — Après un nom ou un adjectif, *om* est la règle ; après *beginnen, hoeven, zitten te…*, seulement *te* ; avec *proberen, besluiten, vergeten, beloven, vragen*, *om* est facultatif. Avec *besluiten, vergeten, vragen*, *om* est facultatif.
 
 ---
 
@@ -189,7 +189,7 @@
 **Contenu textuel**
 > ① Tout le reste va entre *om* et *te* : *om morgen in Gent een klant te bezoeken*.
 > ② Verbe séparable : *te* se glisse au milieu, comme *ge-* (*opgebeld*) : *om de klant **op te bellen*** (pas ~~*te opbellen*~~).
-> ③ *niet* se place devant *te* : *om **niet** te laat te komen*. *te* est toujours **collé** devant l'infinitif.
+> ③ *niet* entre dans la pince, devant le groupe verbal : *om **niet** te laat te komen · om de klant **niet** op te bellen*. *te* est toujours **collé** devant l'infinitif.
 
 **Notes pour l'animateur** — Lien avec M11 et le complément sur les particules : *op te bellen, af te maken, in te vullen*. Faites dicter des pinces de plus en plus longues (« le jeu de l'accordéon ») : *om te bellen → om de klant te bellen → om morgen de klant op te bellen*.
 
@@ -208,7 +208,7 @@
 > 📚 **door … te** (en + participe présent) : *Door veel te lezen, leer je snel.* (en lisant beaucoup, on apprend vite)
 > Même pince : la préposition (*zonder, in plaats van, door*) ouvre, *te* + infinitif ferme.
 
-**Notes pour l'animateur** — Quand la pince est en tête de phrase, le verbe principal suit immédiatement (inversion) : *In plaats van te werken, **zit** hij…* · *Door veel te lezen, **leer** je…* Le gérondif français (« en lisant ») n'a pas d'équivalent direct : *door … te*.
+**Notes pour l'animateur** — Quand la pince est en tête de phrase, le verbe principal suit immédiatement (inversion) : *In plaats van te werken, **zit** hij…* · *Door veel te lezen, **leer** je…* *door … te* traduit « en + participe » seulement pour le moyen ; pour la simultanéité : *Terwijl hij wandelt, belt hij.* (en marchant, il téléphone)
 
 ---
 
@@ -223,10 +223,10 @@
 **Contenu textuel**
 > **pour + nom → voor** : 🎁 *Dit cadeau is voor jou.* · 📅 *Ik ben hier voor de vergadering.*
 > **pour + verbe → om … te** : 🤝 *Ik kom om je te helpen.* · 👥 *Ik ben hier om te vergaderen.*
-> *voor* + infinitif n'existe pas ! « pour que » + phrase = *zodat* (aperçu).
+> *voor … te* s'entend en Flandre, mais n'est pas standard : dites *om … te*. « pour que » + phrase = *zodat* (aperçu).
 > Le calque du français (« pour » = *voor*) est l'erreur n° 1 : vérifiez s'il y a un **verbe** après « pour ».
 
-**Notes pour l'animateur** — Test rapide : « pour » + un verbe → *om … te*. *Wat moet ik doen om …?* (que dois-je faire pour… ?) est une formule très utile au guichet.
+**Notes pour l'animateur** — Test rapide : « pour » + un verbe → *om … te*. *Wat moet ik doen om …?* (que dois-je faire pour… ?) est une formule très utile au guichet. *Ik kom je helpen* (avec *komen*, sans *te*) = je viens t'aider.
 
 ---
 
@@ -358,7 +358,7 @@
 > Exemple : *Ik ben van plan om elke dag Nederlands te spreken. · Ik wil meer lezen.*
 > **1 point** par phrase correcte (*te* ou pas *te*, la pince) · le groupe réagit : *Goed idee! · Dat is moeilijk om vol te houden!*
 
-**Notes pour l'animateur** — Attention aux séparables : *vroeger op te staan*, *minder op mijn gsm te zitten*. Avec *Ik wil…*, pas de *te* : c'est le piège du jeu.
+**Notes pour l'animateur** — Attention au séparable : *vroeger op te staan* (mais *minder op mijn gsm te zitten* : ici *op* est une préposition). Avec *Ik wil…*, pas de *te* : c'est le piège du jeu.
 
 ---
 
@@ -395,5 +395,5 @@
 
 **Notes pour l'animateur** — Réponses :
 1. *Ik probeer te komen. · Ik wil komen.*
-2. *Ik ga naar de bank om geld af te halen.*
+2. *Ik ga naar de bank om geld af te halen.* (aussi : *om geld te halen* ; NL : *om geld op te nemen*)
 3. *om je morgen op te bellen*

@@ -4,7 +4,7 @@
 |---|---|
 | **Niveau** | B1 · complément (après M17 *Zitten, staan, liggen* et M23 *Waar denk je aan?*) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–10, ex. 1 · séance 2 : diapos 11–15, ex. 2 à 6) |
-| **Source** | Création · références : ANS (*er* : vijf functies), Taaladvies, usage belge |
+| **Source** | Création · références : ANS (*er*), Taaladvies, usage belge |
 | **Prérequis** | M17 (*er staat, er ligt*), M23 (*er* + préposition), M15 (participe passé) |
 | **Savoir-faire visés** | ① Reconnaître les cinq emplois de *er* · ② Faire le lien avec « il y a, y, en, on » · ③ Utiliser *er* pour décrire un lieu, compter et répondre sans répéter |
 
@@ -114,7 +114,7 @@
 - *À droite* : 5 cartes (image, phrase, traduction).
 
 **Contenu textuel**
-> ⚠️ *Er is een probleem met de printer.* · 🚗 *Er zijn veel files vandaag.* · 🚪 *Er staat een man voor de deur.* · ✉️ *Er ligt een brief op je bureau.* · 👥 *Er werkt hier niemand.*
+> ⚠️ *Er is een probleem met de printer.* · 🚗 *Er staan vandaag veel files.* · 🚪 *Er staat een man voor de deur.* · ✉️ *Er ligt een brief op je bureau.* · 👥 *Er werkt hier niemand.*
 > *er* + verbe + sujet **indéfini** (*een, geen, veel, twee, niemand…*)
 > Comme au M17 : *er staat, er ligt, er zit, er hangt* = il y a (avec la position).
 
@@ -122,7 +122,7 @@
 
 ---
 
-### [DIAPOSITIVE 6 : Un sujet défini ? Pas de er !]
+### [DIAPOSITIVE 6 : Un sujet défini ? Pas de « er = il y a » !]
 
 **Objectif pédagogique** — Éviter *er* avec un sujet défini.
 
@@ -135,7 +135,7 @@
 > « il y a » + *le, la* ne se traduit pas avec *er* : le sujet passe en tête.
 > Questions : *Is er nog koffie? · Zijn er vragen?* — *er* après le verbe.
 
-**Notes pour l'animateur** — Le français dit parfois « il y a le directeur qui t'attend » ; en néerlandais : *De directeur wacht op je.* Test : peut-on mettre *een, geen, veel* devant le nom ? Oui → *er*.
+**Notes pour l'animateur** — Le français dit parfois « il y a le directeur qui t'attend » ; en néerlandais : *De directeur wacht op je.* Test : le nom est-il précédé de *een, geen, veel, twee…* ? Oui → *er*. (*De brief ligt er nog* est correct : c'est le *er* de lieu.)
 
 ---
 
@@ -152,7 +152,7 @@
 > *er* remplace un lieu déjà nommé (= *daar*, sans accent).
 > Insister ? ***Daar** woon ik!* — *daar* est accentué et peut commencer la phrase (diapo 12).
 
-**Notes pour l'animateur** — Avec un mouvement : *er … naartoe* (*Ik ga er morgen naartoe*), comme *waar … naartoe* (M31). Le français « y » est très proche : *j'y habite, j'y vais*.
+**Notes pour l'animateur** — Avec un mouvement : *er … naartoe* (*Ik ga er morgen naartoe*), comme *naar … toe* (M31). Le français « y » est très proche : *j'y habite, j'y vais*.
 
 ---
 
@@ -167,7 +167,7 @@
 **Contenu textuel**
 > 🧸 *Hoeveel kinderen heb je? — Ik heb er twee.* · 🖊 *Heb je een pen voor mij? — Nee, ik heb er geen.* · 👥 *Heb je veel collega's? — Ja, ik heb er veel.* · 💻 *Hoeveel laptops hebben we nog? — We hebben er nog drie.*
 > *er* + nombre ou quantité (*twee, veel, weinig, een paar, geen…*)
-> Piège : *Heb je **de** pen? — Ja, ik heb **hem**.* (le) ≠ *Heb je **een** pen? — Ja, ik heb **er** een.* (en)
+> Piège : *Heb je **de** sleutel? — Ja, ik heb **hem**.* (la) ≠ *Heb je **een** sleutel? — Ja, ik heb **er** één.* (en)
 
 **Notes pour l'animateur** — L'oubli de *er* est l'erreur la plus fréquente : ~~*Ik heb twee*~~. Faites des « interviews rapides » en chaîne : *Hoeveel broers / zussen / talen / fietsen heb je?*
 
@@ -182,7 +182,7 @@
 - *À droite* : 4 cartes.
 
 **Contenu textuel**
-> 🤔 *Denk je aan de vergadering? — Ja, ik denk eraan.* · 💬 *Wat vind je ervan?* · 😂 *Uit eten gaan? Ik heb er echt zin in!* · 📅 *De vakantie? Ik kijk ernaar uit.*
+> 🤔 *Denk je aan de vergadering? — Ja, ik denk eraan.* · 💬 *Wat vind je ervan?* · 😋 *Uit eten gaan? Ik heb er echt zin in!* · 📅 *De vakantie? Ik kijk ernaar uit.*
 > une chose + préposition → *er* + préposition (M23)
 > *er* et la préposition se séparent souvent : *Ik heb **er** echt zin **in**. · Ik denk **er** niet **aan**.*
 
@@ -252,10 +252,10 @@
 **Contenu textuel**
 > *Hoeveel vergaderzalen zijn er? — Er zijn er drie.* = il y en a trois.
 > ① *Er zijn…* = il y a · ③ *…er drie* = en … trois
-> *Is er een lift? — Ja, er is er een.* · *Zijn er nog stoelen? — Nee, er zijn er geen meer.*
+> *Is er een lift? — Ja, er is er één.* · *Zijn er nog stoelen? — Nee, er zijn er geen meer.*
 > Le français a deux petits mots (*y* + *en*) ; le néerlandais en a deux aussi : *er* + *er* !
 
-**Notes pour l'animateur** — Le parallèle est presque parfait : c'est l'occasion de montrer que la logique existe aussi en français. *Er is er een* = il y en a un.
+**Notes pour l'animateur** — Le parallèle est presque parfait : c'est l'occasion de montrer que la logique existe aussi en français. *Er is er één* = il y en a un (*één* accentué : le chiffre).
 
 ---
 
@@ -267,8 +267,8 @@
 - 5 questions dans l'ordre ; pour chaque « oui » : la pastille, l'équivalent français et un exemple.
 
 **Contenu textuel**
-> 1. Un nombre ou une quantité près de *er* ? → ③ en — *Ik heb er twee.*
-> 2. Une préposition collée ou au bout ? → ④ y / en — *Ik denk eraan. · Ik heb er zin in.*
+> 1. Un nombre ou une quantité **seul·e**, sans nom après ? → ③ en — *Ik heb er twee.*
+> 2. Une préposition collée ou au bout (sauf *naartoe* → lieu) ? → ④ y / en — *Ik denk eraan. · Ik heb er zin in.*
 > 3. *er wordt* + participe ? → ⑤ on — *Er wordt gebeld.*
 > 4. Un sujet indéfini (*een, geen, veel…*) ? → ① il y a — *Er is een probleem.*
 > 5. Il remplace un lieu ? → ② y — *Brussel? Ik woon er.*
@@ -358,13 +358,13 @@
 >
 > **✓ CORRECTIE** — 1 *er* · 2 *Daar* · 3 *er* · 4 *Er* · 5 *er* · 6 *er* · 7 *Daar* · 8 *Er*
 
-**Notes pour l'animateur** — N° 4 et 8 : *er* en tête, mais seulement pour « il y a » (①) et le passif (⑤). N° 2 et 7 : en tête et accentué → *daar*.
+**Notes pour l'animateur** — N° 4 et 8 : *er* en tête, mais seulement pour « il y a » (①) et le passif (⑤). N° 2 et 7 : en tête et accentué → *daar*. N° 1 et 6 : *daar* est aussi possible (*Ja, ik woon daar · Ik heb daar geen zin in*).
 
 ---
 
 ### [DIAPOSITIVE 20 : Exercice 4 — Le détective ★★]
 
-**Objectif pédagogique** — Corriger les erreurs dans un message authentique.
+**Objectif pédagogique** — Corriger les erreurs dans un message réaliste.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E6** : un message (bulle verte) de Tom à Sofie, la loupe et le compteur « 5 erreurs ».
@@ -387,8 +387,8 @@
 - *À droite* : modèles de questions (A) et de réponses (B).
 
 **Contenu textuel**
-> **A** demande : *Is er een printer? · Hoeveel stoelen zijn er? · Staan er planten? · Is er een koffiemachine?*
-> **B** répond : *Ja, er is er een. · Er zijn er vier. · Ja, er staan er twee. · Nee, er is er geen.*
+> **A** demande : *Is er een printer? · Hoeveel stoelen zijn er? · Staan er planten? · Is er een lamp?*
+> **B** répond : *Ja, er is er één. · Er zijn er vier. · Ja, er staan er twee. · Nee, er is er geen.*
 
 **Notes pour l'animateur** — Par deux : A ne regarde pas l'image et pose 8 questions ; B regarde et répond avec deux *er*. Ensuite, A dessine le bureau d'après les réponses de B, puis on compare. Variante : décrire son propre bureau ou sa cuisine.
 
