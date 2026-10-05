@@ -1,7 +1,7 @@
 {
   "name": "neerlandais1-powerpoints",
   "private": true,
-  "description": "Générateur des 32 présentations et des compléments Uitspraak!, Chunks! et Aan, af, op, uit… (particules séparables, B1–B2) — Néerlandais 1 (UE1 · A1)",
+  "description": "Générateur des 32 présentations et des compléments Uitspraak!, Chunks!, Aan, af, op, uit… (particules séparables, B1–B2) et Ik heb moeten werken (double infinitif, A2–B1) — Néerlandais 1 (UE1 · A1)",
   "scripts": {
     "build": "OUT=../powerpoints node build.js"
   },
