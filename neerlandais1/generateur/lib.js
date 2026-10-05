@@ -497,7 +497,7 @@ class Deck {
   cover(o) {
     this.section('Ouverture');
     const s = this.slide('N1_COVER');
-    this.chip(s, o.chip || `MODULE ${this.m.n} / 24`, 0.6, 0.7, 'accent1', 0.42, 14);
+    this.chip(s, o.chip || `MODULE ${this.m.n} / 29`, 0.6, 0.7, 'accent1', 0.42, 14);
     s.addText(o.title, { placeholder: 'title' });
     s.addText(flow([
       { runs: parse(o.sub || '', 'a', { italic: true }), opts: { paraSpaceAfter: 12 } },
