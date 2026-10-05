@@ -1,6 +1,6 @@
 # Néerlandais 1 (UE1 · A1) — Diagnostic des archives, nouveau parcours et charte
 
-> Document de référence commun aux 24 modules. Chaque gabarit de module (`module_1_…` à `module_24_…`) renvoie aux **schémas standardisés S1–S20**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
+> Document de référence commun aux 29 modules. Chaque gabarit de module (`module_1_…` à `module_29_…`) renvoie aux **schémas standardisés S1–S25**, aux **gabarits d'exercices E1–E9** et au **code couleur** définis ici.
 
 ---
 
@@ -27,6 +27,8 @@
 > **Bloc 4 (M16–M19) : modules créés sans archive.** L'impératif, les verbes de position, le futur et l'imparfait n'avaient pas de présentation d'origine. Ils sont conçus directement selon la charte ci-dessous et prennent appui sur les modules précédents (M3, M4, M11, M12, M15).
 
 > **Bloc 5 (M20–M24) : modules créés sans archive.** Les possessifs et démonstratifs, l'accord de l'adjectif, les pronoms relatifs, les adverbes pronominaux (*er, daar, waar* + préposition) et les particules modales sont conçus de la même façon. Ils amènent le parcours vers le niveau A2 et s'appuient sur M2, M5, M7, M9, M11, M13 et M16.
+
+> **Bloc 6 (M25–M29) : modules créés sans archive.** L'heure, les montants au-delà de 1 000 €, *graag / houden van*, *zich / elkaar* et le conditionnel répondent aux besoins concrets du travail : fixer un rendez-vous, lire une facture, dire ses préférences, se présenter, demander poliment. Ils s'appuient sur M2, M9, M12, M16, M19 et M20 ; M29 clôt le parcours.
 
 > **Complément *Uitspraak!* (prononciation, 5 séances).** Construit à partir des *Uitspraakoefeningen* 1 à 6 (2026) et d'une fiche « Prononciation » (Assimil) : 3 diapos par séance (écouter, s'entraîner, jouer) et une annexe de corrigés. Il reprend la syllabe-porte (M1), les repères des sons doubles (M6) et le code couleur vert / framboise ; la séance 4 ajoute l'accent tonique à la méthode de lecture du M1.
 
@@ -102,7 +104,15 @@
  mijn, zijn, haar,       een groot huis,          die / dat / wat,     er / daar / waar +       particules modales :
  deze / dit / die / dat  de grote auto            verbe à la fin       préposition, verbes      adoucir, insister,
  (← M2, M5)              (← M5, M7, M20)          (← M9, M20)          à préposition (← M11)    rassurer (← M13, M16 :
-                                                                                                  synthèse et bilan final)
+                                                                                                  synthèse du bloc 5)
+                                                                                                           │
+ ┌──────────────────────────────── BLOC 6 : se repérer, échanger, demander poliment ──────────────────────┘
+ ▼
+ M25 HOE LAAT IS HET? ──► M26 HOEVEEL KOST HET? ──► M27 GRAAG OF HOUDEN VAN? ──► M28 ZICH OF ELKAAR? ──► M29 ALS IK TIJD HAD…
+ half drie, kwart over,   honderd, duizend,         ik fiets graag /          ik vergis me /         zou + infinitif :
+ om, van … tot            miljoen, € 12,50,          ik hou van muziek,        we zien elkaar         politesse, conseil,
+ (← M2, M3, M18)          facture (← M2, M14)        liever (← M12, M13, M21)  (← M11, M15, M20)      hypothèse (← M9, M12,
+                                                                                                  M19, M27 : bilan final)
 ```
 
 | Module | Titre (NL · FR) | Question-guide | Durée indicative | Sources |
@@ -131,6 +141,11 @@
 | **M22** | *Die of dat?* · Les pronoms relatifs | « Comment dire *la collègue qui…*, *le rapport que…* ? » | 2 séances | Création |
 | **M23** | *Waar denk je aan?* · Les adverbes pronominaux | « Comment dire *J'y pense* ou *avec lequel* ? » | 2 séances | Création |
 | **M24** | *Nou, toch, maar…* · Les particules modales | « Comment parler moins sec, plus naturellement ? » | 2 séances | Création |
+| **M25** | *Hoe laat is het?* · L'heure | « Pourquoi *half drie* veut-il dire 2 h 30 ? » | 2 séances | Création |
+| **M26** | *Hoeveel kost het?* · Les montants au-delà de 1 000 € | « Comment lire *€ 14.762* sans hésiter ? » | 2 séances | Création |
+| **M27** | *Graag of houden van?* · Dire ce qu'on aime | « *Ik zwem graag* mais *Ik hou van de zee* : pourquoi ? » | 2 séances | Création |
+| **M28** | *Zich of elkaar?* · Les verbes réfléchis et réciproques | « *Ils se lavent* ou *ils s'aident* : quel « se » ? » | 2 séances | Création |
+| **M29** | *Als ik tijd had…* · Le conditionnel | « Comment demander poliment, conseiller, imaginer ? » | 2 séances | Création |
 
 ### 3.2 Pourquoi cet ordre ?
 
@@ -151,11 +166,15 @@
 - **M19 (l'imparfait) clôt le bloc 4** : il réutilise le test *SoFT KetCHuP* du M15, les familles d'irréguliers du M15 et les positions du M17 (*zat, stond, lag, hing*). Il contient le bilan des blocs 1 à 4 (M1–M19).
 - **Le bloc 5 affine la phrase et le ton.** M20 (possessifs et démonstratifs) prolonge les articles du M5 : *deze / dit* suivent *de / het*. M21 (l'adjectif) en a besoin : la seule case sans *-e* est *een* + mot *het* (*een groot huis*), et *dit grote huis* prend un *-e*. M22 (les relatifs) applique la même logique *de / het* (*die / dat*) et réutilise le verbe à la fin du M9.
 - **M23 (er / daar / waar)** prolonge le *waarmee* du M22 ; la préposition va au bout comme la particule du M11 (*Ik denk er vaak aan*).
-- **M24 (les particules modales) vient en dernier** : il élargit les petits mots du M16 (*even, maar, eens*) et le *wel / toch* du M13. C'est la synthèse orale du parcours, avec le bilan final (M1–M24).
+- **M24 (les particules modales) clôt le bloc 5** : il élargit les petits mots du M16 (*even, maar, eens*) et le *wel / toch* du M13. C'est la synthèse orale du bloc 5, avec le bilan des blocs 1 à 5 (M1–M24).
+- **Le bloc 6 commence par les nombres.** M25 (l'heure) réutilise les nombres de 1 à 59 (M2) et l'inversion (*Om negen uur begint de les*, M3). M26 (les montants) prolonge les nombres du M2 au-delà de 100 et écrit les grands nombres en un seul mot, comme les composés du M14.
+- **M27 (graag / houden van)** reprend la place de *niet* (M13), le comparatif (M21) et *houden van* (M23). Il prépare *Ik zou graag…* (M29).
+- **M28 (zich / elkaar)** réutilise les pronoms objets du M20 (*me, je, ons*), les particules du M11 (*zich aankleden*) et *hebben* au passé composé (M15).
+- **M29 (le conditionnel) vient en dernier** : *zou* est l'imperfectum de *zullen* (M18, M19), se place comme un modal (M12), ajoute une marche à l'échelle de politesse du M16 et reprend la subordonnée en *als* (M9). Sa mise en situation finale réutilise les montants (M26) et les préférences (M27). C'est la synthèse du parcours, avec le bilan final (M1–M29).
 
 ### 3.3 Fil rouge narratif
 
-**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 24 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire, qui accueille ses premiers jours au bloc 5 (M22). Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
+**Karim Benali** (32 ans, Namurois, comptable) commence un emploi dans une entreprise bilingue à Bruxelles. Sa collègue **Sofie Peeters** (34 ans, Gantoise, service RH) l'accompagne. Ces deux personnages réapparaissent dans les exemples, les dialogues et les exercices des 29 modules. Le bloc 2 ajoute **An Janssens**, la cheffe de Karim, et **meneer Maes**, un client ; le bloc 4 ajoute **Lotte Claes**, une stagiaire, qui accueille ses premiers jours au bloc 5 (M22). Ils incarnent le sous-titre historique du cours : « Langue en situation — en milieu professionnel ».
 
 ---
 
@@ -259,7 +278,7 @@
 
 ### 5.1 Format et zones
 
-- **16:9 large (13,33 × 7,5 po)** pour les 24 modules, comme *Néerlandais 2* et *3*.
+- **16:9 large (13,33 × 7,5 po)** pour les 29 modules, comme *Néerlandais 2* et *3*.
 - **Fond blanc** sur les diapos de contenu, **bleu nuit** sur la couverture, les intercalaires et la clôture (structure « sandwich »). Les fonds photo « bokeh » sont abandonnés.
 - **Zones fixes** :
   - **Z1 Titre** : en haut à gauche (x 0,6 / y 0,7), Cambria 32 pt gras bleu nuit, sans point final ;
@@ -283,7 +302,7 @@
 | Accent 6 | Rouge | `B83227` |
 | Mises en situation | Violet | `6E4A9E` |
 
-### 5.3 Code couleur grammatical (constant dans les 24 modules)
+### 5.3 Code couleur grammatical (constant dans les 29 modules)
 
 | Élément | Code visuel |
 |---|---|
@@ -300,6 +319,8 @@
 | **Correction** | Réponse juste en **vert gras** ; erreur ~~barrée en rouge~~ |
 
 > Au bloc 5, la logique DE / HET s'étend : *deze, die* (démonstratifs et relatif) en bleu nuit, *dit, dat* en orange (M20, M22) ; le *-e* de l'adjectif en framboise (M21) ; *er / daar* en vert et la préposition en orange (M23) ; les particules modales en 4 familles : adoucir bleu, insister orange, questionner framboise, rassurer vert (M24, **S20**).
+
+> Au bloc 6 : les quatre zones de l'horloge (*over* vert, *voor half* orange, *over half* violet, *voor* bleu, M25, **S21**) ; les tranches des grands nombres (millions violet, milliers bleu, centaines orange, M26, **S22**) ; *graag* vert, *houden van* framboise, *lekker / leuk vinden* orange (M27, **S23**) ; *zich* bleu (miroir) et *elkaar* orange (ping-pong) (M28, **S24**) ; *zou* reste rouge comme tout verbe conjugué, et les trois portes du conditionnel sont bleue (politesse), verte (conseil) et violette (hypothèse) (M29, **S25**).
 
 > Les apprenants reçoivent en M1 un **carton bicolore** (vert/framboise), puis en M5 deux **palettes** (DE bleue / HET orange). Ces objets réapparaissent dans les jeux.
 
@@ -463,6 +484,29 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 - 4 blocs de couleur : **adoucir** (bleu : *even, maar, eens*) · **insister** (orange : *toch, nou, wel*) · **questionner** (framboise : *soms, dan, ook alweer*) · **rassurer** (vert : *hoor, wel*).
 - Dans chaque bloc, les particules en grand et un exemple ; la même couleur revient dans tous les exercices du module.
 
+**S21 — L'horloge en quatre zones** (M25)
+- Un cadran divisé en 4 quarts colorés : 0–15 *over* [heure] (vert) · 15–30 *voor half* [heure suivante] (orange) · 30–45 *over half* [heure suivante] (violet) · 45–60 *voor* [heure suivante] (bleu).
+- À droite, un exemple par zone (une petite horloge, l'heure en français, la phrase néerlandaise, la pastille « 0–15 min ») ; repères : l'heure pleine, *kwart*, *half*.
+- *half drie* regarde vers l'heure suivante (= 2 h 30). L'heure officielle (*14.30 uur*) s'affiche en horloge numérique.
+
+**S22 — Le découpage** (M26)
+- Le nombre est coupé au point en tranches colorées : millions (violet) · milliers (bleu) · centaines-dizaines-unités (orange).
+- Sous chaque tranche, sa lecture (*twee miljoen · vijfhonderdzesendertigduizend · vierhonderdeenentachtig*) ; on lit chaque tranche puis on colle.
+- Trois rappels : pas de *een* devant *honderd / duizend* ; un seul mot jusqu'à *duizend*, puis une espace ; *euro* sans *-s*.
+
+**S23 — L'aiguillage du verbe *aimer*** (M27)
+- Au départ, une carte « J'aime… » ; trois voies : une **activité** → verbe + *graag* (vert) · une **personne, une chose en général** → *houden van* (framboise) · un **goût, une impression** → *lekker / leuk vinden* (orange).
+- Un exemple illustré par voie ; l'échelle *helemaal niet graag → niet graag → graag → liever → het liefst* l'accompagne.
+
+**S24 — Le miroir et le ping-pong** (M28)
+- *À gauche* : un personnage et une flèche qui revient vers lui (miroir, bleu) → *zich* (*me, je, ons…*).
+- *À droite* : deux personnages et deux flèches croisées (ping-pong, orange) → *elkaar*, invariable.
+- La question-test au centre : « Qui reçoit l'action ? »
+
+**S25 — Les trois portes du conditionnel** (M29)
+- Trois portes : **politesse** (bleu : *Zou u … willen? Ik zou graag … willen*) · **conseil, souhait** (vert : *Je zou … moeten*) · **hypothèse** (violet : *Als ik tijd had, zou ik …*).
+- Sous les portes, la forme unique : *zou / zouden* + infinitif au bout ; pour l'hypothèse, le wagon *als* (M9) avec l'imperfectum (M19).
+
 ### 5.9 Gabarits d'exercices
 
 | Code | Type | Agencement standard |
@@ -514,3 +558,8 @@ Niveau de difficulté des exercices : **★ / ★★ / ★★★**.
 | pronom relatif | het betrekkelijk voornaamwoord | *de klant **die** belt* |
 | adverbe pronominal | het voornaamwoordelijk bijwoord | ***er**mee, **daar**op, **waar**aan* |
 | particule modale | het modaal partikel | *even, maar, toch, hoor* |
+| l'heure | de tijd / het uur | *Hoe laat is het? Het is half drie.* |
+| le montant | het bedrag | *een bedrag van € 1.250* |
+| verbe réfléchi | het wederkerend werkwoord | *zich vergissen : ik vergis **me*** |
+| pronom réciproque | het wederkerig voornaamwoord | *We helpen **elkaar**.* |
+| conditionnel | de voorwaardelijke wijs | *Ik **zou** graag komen.* |

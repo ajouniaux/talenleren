@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Niveau** | A2 · UE1 · bloc 5 (module de synthèse du parcours) |
+| **Niveau** | A2 · UE1 · bloc 5 (module de synthèse du bloc 5) |
 | **Durée** | 2 séances de 90 min (séance 1 : diapos 1–14, ex. 1 à 3 · séance 2 : diapos 15–22, ex. 4 à 7) |
 | **Source** | Création (aucune archive). Approfondit les « petits mots » du M16 (*even, maar, eens, gerust*) |
 | **Prérequis** | M3 (questions, inversion), M13 (*wel / niet*, *jawel, toch wel*), M16 (impératif et petits mots), M18 (*wel* : *Hij zal wel ziek zijn*) |
@@ -23,7 +23,7 @@
 **Décisions**
 - Schéma **S20** « la palette des nuances » : 4 familles de couleurs (adoucir, insister, questionner, rassurer).
 - 10 particules au programme : *even, maar, eens, toch, nou, wel, hoor, soms, dan, ook alweer* (+ *eigenlijk* en question).
-- Le module se termine par le **bilan du parcours complet** (M1–M24).
+- Le module se termine par le **bilan des blocs 1 à 5** (M1–M24) ; le bilan final du parcours est au M29.
 
 ## Déroulé
 
@@ -389,17 +389,17 @@
 > Services : *een oplader lenen · de telefoon opnemen · een document printen · een vergadering verzetten · de naam van een klant · een lift naar huis*
 > Banque : *Zeg, heb je even tijd? · Heb je soms een oplader? · Kun je me even helpen? · Ja hoor, geen probleem! · Dat lukt wel. · Hoe heet hij ook alweer? · Je komt toch ook?*
 
-**Notes pour l'animateur** — Chaque demande doit contenir au moins une particule, chaque réponse aussi. *verzetten* = déplacer (un rendez-vous). *een lift* = un trajet en voiture (*Kan ik met je meerijden?*). C'est la tâche finale orale du parcours.
+**Notes pour l'animateur** — Chaque demande doit contenir au moins une particule, chaque réponse aussi. *verzetten* = déplacer (un rendez-vous). *een lift* = un trajet en voiture (*Kan ik met je meerijden?*). C'est la tâche finale orale du bloc 5.
 
 ---
 
-### [DIAPOSITIVE 22 : Ticket de sortie et bilan du parcours]
+### [DIAPOSITIVE 22 : Ticket de sortie et bilan du bloc 5]
 
-**Objectif pédagogique** — Vérifier les 3 objectifs et clore le parcours *Néerlandais 1*.
+**Objectif pédagogique** — Vérifier les 3 objectifs et clore le bloc 5.
 
 **Visuel / Schéma / Agencement**
 - Gabarit **E9** à gauche.
-- *À droite* : la frise des 24 modules en 5 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : Néerlandais 2 ».
+- *À droite* : la frise des 24 modules en 5 blocs colorés, tous cochés, avec un trophée et le bandeau « Volgende stap : bloc 6 ».
 
 **Contenu textuel**
 > 1. Plus aimable : *Wacht!* · *Heb je een pen?*
@@ -407,11 +407,11 @@
 > 3. Placez *even* : *Kun je me helpen?*
 >
 > Reconnaître 😟 😐 🙂 · Nuancer 😟 😐 🙂 · Le ton juste 😟 😐 🙂
-> **Proficiat! Néerlandais 1 is klaar.** 🏆
+> **Proficiat! Bloc 5 is klaar.** 🏆 — Volgende stap : bloc 6, M25 *Hoe laat is het?*
 
 **Notes pour l'animateur** — Réponses :
 1. *Wacht even!* · *Heb je soms een pen?*
 2. *Je komt toch morgen?*
 3. *Kun je me even helpen?*
 
-Bilan : faites relire la frise des 24 modules et choisir un module à retravailler. En Néerlandais 2 : *om … te*, les autres conjonctions, *hoeven te*, le conditionnel (*zou*), le passif.
+Bilan : faites relire la frise des 24 modules et choisir un module à retravailler. Bloc 6 : l'heure (M25), les montants (M26), *graag / houden van* (M27), *zich / elkaar* (M28) et le conditionnel (M29, bilan final du parcours).

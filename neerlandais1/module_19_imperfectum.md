@@ -24,7 +24,7 @@
 **Décisions**
 - Règle d'usage simplifiée en trois cas : décor / description, habitude, récit ; *zijn, hebben* et les modaux presque toujours à l'imperfectum.
 - Code couleur : *-te* orange, *-de* bleu (comme *-t / -d* au M15) ; verbes irréguliers par familles de couleurs.
-- Le module se termine par le **bilan des blocs 1 à 4** (M1–M19) ; le bilan final du parcours est au M24.
+- Le module se termine par le **bilan des blocs 1 à 4** (M1–M19) ; le bilan final du parcours est au M29.
 
 ## Déroulé
 

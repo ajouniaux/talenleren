@@ -1,4 +1,4 @@
-# Néerlandais 1 (UE1 · A1) — Parcours de référence en 24 modules
+# Néerlandais 1 (UE1 · A1) — Parcours de référence en 29 modules
 
 Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en milieu professionnel*. Public : adultes francophones (Belgique). Chaque module est livré sous forme de **gabarit diapositive par diapositive**, prêt à être monté dans PowerPoint. Pour chaque diapositive, le gabarit donne :
 
@@ -7,15 +7,16 @@ Refonte des archives PowerPoint de *Néerlandais 1 — Langue en situation, en m
 - le contenu textuel ;
 - les notes pour l'animateur.
 
-Le parcours compte cinq blocs :
+Le parcours compte six blocs :
 
 - le **bloc 1** (M1–M5) pose les bases ;
 - le **bloc 2** (M6–M10) les reprend en spirale et se termine par une tâche complète : écrire un e-mail professionnel ;
 - le **bloc 3** (M11–M15) construit le verbe et la phrase (particules, modaux, négation, formation des mots) et se termine par le passé composé ;
 - le **bloc 4** (M16–M19) ajoute l'impératif, les verbes de position, le futur et l'imparfait ;
-- le **bloc 5** (M20–M24) affine la phrase et le ton : possessifs et démonstratifs, accord de l'adjectif, pronoms relatifs, *er / daar / waar* + préposition, particules modales. Il se termine par le bilan du parcours.
+- le **bloc 5** (M20–M24) affine la phrase et le ton : possessifs et démonstratifs, accord de l'adjectif, pronoms relatifs, *er / daar / waar* + préposition, particules modales ;
+- le **bloc 6** (M25–M29) outille les échanges concrets du travail : l'heure, les montants au-delà de 1 000 €, *graag / houden van*, *zich / elkaar* et le conditionnel. Il se termine par le bilan du parcours.
 
-Les blocs 4 et 5 (M16 à M24) ont été créés sans archive.
+Les blocs 4 à 6 (M16 à M29) ont été créés sans archive.
 
 En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la prononciation** (3 diapos par séance : écouter, s'entraîner, jouer), du son à la phrase, à utiliser en parallèle du parcours (après M1 et M6).
 
@@ -49,6 +50,11 @@ En complément, ***Uitspraak!*** propose **5 séances d'entraînement à la pron
 | 5 | [`powerpoints/Module_22_Die_of_dat.pptx`](powerpoints/Module_22_Die_of_dat.pptx) | 27 |
 | 5 | [`powerpoints/Module_23_Waar_denk_je_aan.pptx`](powerpoints/Module_23_Waar_denk_je_aan.pptx) | 27 |
 | 5 | [`powerpoints/Module_24_Nou_toch_maar.pptx`](powerpoints/Module_24_Nou_toch_maar.pptx) | 27 |
+| 6 | [`powerpoints/Module_25_Hoe_laat_is_het.pptx`](powerpoints/Module_25_Hoe_laat_is_het.pptx) | 27 |
+| 6 | [`powerpoints/Module_26_Hoeveel_kost_het.pptx`](powerpoints/Module_26_Hoeveel_kost_het.pptx) | 27 |
+| 6 | [`powerpoints/Module_27_Graag_of_houden_van.pptx`](powerpoints/Module_27_Graag_of_houden_van.pptx) | 27 |
+| 6 | [`powerpoints/Module_28_Zich_of_elkaar.pptx`](powerpoints/Module_28_Zich_of_elkaar.pptx) | 27 |
+| 6 | [`powerpoints/Module_29_Als_ik_tijd_had.pptx`](powerpoints/Module_29_Als_ik_tijd_had.pptx) | 27 |
 | Complément | [`powerpoints/Uitspraak_5_seances.pptx`](powerpoints/Uitspraak_5_seances.pptx) — prononciation en 5 séances | 22 |
 
 Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question suivie d'une diapo « ✓ CORRECTIE ». Les **notes du présentateur** reprennent, pour chaque diapo, l'objectif pédagogique et les notes pour l'animateur des gabarits. Illustrations : *Fluent Emoji* (Microsoft, licence MIT). La carte de la Belgique et les drapeaux sont dessinés directement dans PowerPoint.
@@ -57,7 +63,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 
 | Fichier | Contenu |
 |---|---|
-| [`00_diagnostic_et_charte.md`](00_diagnostic_et_charte.md) | Analyse critique des 15 archives, parcours en 5 blocs (24 modules) et justification de l'ordre, **errata** (erreurs relevées et corrigées), **charte graphique** (palette alignée sur Néerlandais 2 et 3, code couleur grammatical), **bibliothèque de schémas S1–S20**, **gabarits d'exercices E1–E9**, glossaire FR ↔ NL |
+| [`00_diagnostic_et_charte.md`](00_diagnostic_et_charte.md) | Analyse critique des 15 archives, parcours en 6 blocs (29 modules) et justification de l'ordre, **errata** (erreurs relevées et corrigées), **charte graphique** (palette alignée sur Néerlandais 2 et 3, code couleur grammatical), **bibliothèque de schémas S1–S25**, **gabarits d'exercices E1–E9**, glossaire FR ↔ NL |
 | [`module_1_klanken.md`](module_1_klanken.md) | **M1 · Klanken** — sons longs / courts, syllabe ouverte / fermée, sons invariables, pièges de prononciation · 21 diapos, 6 exercices |
 | [`module_2_ik_stel_me_voor.md`](module_2_ik_stel_me_voor.md) | **M2 · Ik stel me voor** — saluer, pronoms, *je / u / jullie*, *zijn*, *hebben*, nombres, 5 verbes de présentation, prépositions, formulaire, épellation · 31 diapos, 8 exercices (dont 3 mises en situation) |
 | [`module_3_presens_en_zinsbouw.md`](module_3_presens_en_zinsbouw.md) | **M3 · Het presens** — radical, formule du présent, questions, grille de phrase à 6 cases, verbe en 2e position, inversion, pince verbale · 28 diapos, 7 exercices |
@@ -81,7 +87,12 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | [`module_21_bijvoeglijk_naamwoord.md`](module_21_bijvoeglijk_naamwoord.md) | **M21 · Groot of grote?** — avant le nom ou après *zijn*, la case sans *-e* (*een groot huis*), orthographe du *-e*, adjectifs contraires, invariables (*houten, oranje*), nationalités, bonus comparatif · 22 diapos, 7 exercices |
 | [`module_22_die_of_dat.md`](module_22_die_of_dat.md) | **M22 · Die of dat?** — l'aiguillage *die / dat*, piège qui / que, verbe à la fin, relative au milieu, *dat ≠ dat*, *wat* après *alles, iets, niets*, *met wie / waarmee*, définir un mot inconnu · 22 diapos, 7 exercices |
 | [`module_23_er_daar_waar.md`](module_23_er_daar_waar.md) | **M23 · Waar denk je aan?** — le tableau de conversion (*er, daar, waar, hier* + préposition), *met → mee*, personne ou chose, séparation, 12 verbes à préposition fixe, questions, relatif *waarmee*, aperçu des emplois de *er* · 22 diapos, 7 exercices |
-| [`module_24_modale_partikels.md`](module_24_modale_partikels.md) | **M24 · Nou, toch, maar…** — la palette des nuances, *even, maar, eens*, *toch*, *nou* et en Flandre *allez, zeg*, *soms, dan, ook alweer, eigenlijk*, *wel, hoor*, place des particules, même mot / deux sens, bilan du parcours · 22 diapos, 7 exercices |
+| [`module_24_modale_partikels.md`](module_24_modale_partikels.md) | **M24 · Nou, toch, maar…** — la palette des nuances, *even, maar, eens*, *toch*, *nou* et en Flandre *allez, zeg*, *soms, dan, ook alweer, eigenlijk*, *wel, hoor*, place des particules, même mot / deux sens, bilan du bloc 5 · 22 diapos, 7 exercices |
+| [`module_25_hoe_laat.md`](module_25_hoe_laat.md) | **M25 · Hoe laat is het?** — heure officielle (*14.30 uur*) et courante, piège *half drie* = 2 h 30, l'horloge en quatre zones, *om, van … tot, rond*, moments de la journée (BE : *'s voormiddags, 's namiddags*), durées (*een kwartier, anderhalf uur*), horaires de train, agenda · 22 diapos, 7 exercices |
+| [`module_26_bedragen.md`](module_26_bedragen.md) | **M26 · Hoeveel kost het?** — rappel 21–99, centaines, le découpage des milliers, écriture (un mot jusqu'à *duizend*), *twaalfhonderd*, années, euros et cents, piège *miljard / biljoen*, arrondir (*bijna, ongeveer, ruim*), facture, loyer, salaire · 22 diapos, 7 exercices |
+| [`module_27_graag_houden_van.md`](module_27_graag_houden_van.md) | **M27 · Graag of houden van?** — verbe + *graag*, *houden van* + nom, l'aiguillage du verbe *aimer*, *graag, liever, het liefst*, *niet graag*, *lekker / leuk vinden, dol zijn op*, *graag* dans la politesse, place de *graag* · 22 diapos, 7 exercices |
+| [`module_28_zich_of_elkaar.md`](module_28_zich_of_elkaar.md) | **M28 · Zich of elkaar?** — le miroir (*me, je, zich, ons*) et le ping-pong (*elkaar*, invariable), faux « se » (*opstaan, heten, trouwen*), 12 verbes réfléchis du quotidien, place du pronom, *elkaar* + préposition, aperçu de *zichzelf* · 22 diapos, 7 exercices |
+| [`module_29_voorwaardelijke_wijs.md`](module_29_voorwaardelijke_wijs.md) | **M29 · Als ik tijd had…** — *zou / zouden* + infinitif, demander poliment, *Ik wil graag / Ik zou graag … willen / Ik had graag* (BE), conseiller, hypothèse (*als* + imperfectum), piège « si », *zou* = il paraît, aperçu du conditionnel passé, les trois portes, bilan du parcours · 22 diapos, 7 exercices |
 | [`uitspraak_5_seances.md`](uitspraak_5_seances.md) | ***Uitspraak!*** — 5 séances de prononciation : voyelles courtes / longues (paires minimales, paniers, duel de phrases), sons doubles (loto, toboggan *u · uu · ui*, chasse), consonnes-pièges (*h, g / ch*, lettres caméléons, jeu de l'oie), mots courts et mots longs (rappel « lire un mot en 4 gestes », escaliers de syllabes, mots-monstres), phrase (accent de phrase, formes réduites, *tongbrekers*, morpion) · 22 diapos dont 5 de corrigés |
 
 ## Correspondance avec les archives
@@ -103,7 +114,7 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 | `2020-11-26_AJ_neerlandais1_negation.pdf` | M13 |
 | `2021-07-05_AJ_Neerlandais1_ppt_formation_des_mots.pptx` | M14 |
 | `2020-11-26_AJ_neerlandais1_passe_compose.pptx` | M15 |
-| *(aucune archive : création)* | M16 à M24 |
+| *(aucune archive : création)* | M16 à M29 |
 | `2026-02-27_AJ_neerlandais_debutants_exercices_prononciation` (*Uitspraakoefeningen* 1 à 6) | *Uitspraak!* (séances 1 à 4) |
 | `2026-03-15_AJ_neerlandais_debutants_uitspraak_assimil.pdf` (fiche « Prononciation ») | *Uitspraak!* (repères, *e* atone, accent tonique) |
 
@@ -111,12 +122,12 @@ Format 16:9, thème de Néerlandais 2 et 3. Chaque exercice a une diapo question
 
 - Les **schémas** sont désignés par leur code (par ex. « Schéma **S2** » = grille de phrase à 6 cases). Leur dessin exact est décrit une seule fois, dans la charte (§ 5.8).
 - Les **exercices** suivent un gabarit E1–E9 (charte, § 5.9). Chaque exercice comprend une diapo question puis une diapo « ✓ CORRECTIE ». Le corrigé est donné dans la rubrique « Contenu textuel ».
-- Le **code couleur** (vert = son long, framboise = son court, rouge = verbe, orange = terminaison et HET, bleu nuit = DE) est constant dans les 24 modules (charte, § 5.3). Au M9, le bleu marque le « pont » (coordination) et l'orange le « wagon » (subordination). Aux M11 et M15, l'orange marque la particule et le bleu nuit le préfixe inséparable ; au M15, *ge-* est en framboise, *-t* en orange et *-d* en bleu (de même *-te / -de* au M19). Au M17, chaque position a sa couleur : *staan* bleu, *liggen* vert, *zitten* orange, *hangen* framboise. Au bloc 5, *deze / die* suivent le bleu nuit de DE et *dit / dat* l'orange de HET (M20, M22), le *-e* de l'adjectif est en framboise (M21), *er* en vert et la préposition en orange (M23) ; au M24, les particules ont 4 couleurs (adoucir, insister, questionner, rassurer).
-- Le **fil rouge** relie les 24 modules : Karim, comptable namurois, et sa collègue Sofie, dans une entreprise bilingue à Bruxelles.
+- Le **code couleur** (vert = son long, framboise = son court, rouge = verbe, orange = terminaison et HET, bleu nuit = DE) est constant dans les 29 modules (charte, § 5.3). Au M9, le bleu marque le « pont » (coordination) et l'orange le « wagon » (subordination). Aux M11 et M15, l'orange marque la particule et le bleu nuit le préfixe inséparable ; au M15, *ge-* est en framboise, *-t* en orange et *-d* en bleu (de même *-te / -de* au M19). Au M17, chaque position a sa couleur : *staan* bleu, *liggen* vert, *zitten* orange, *hangen* framboise. Au bloc 5, *deze / die* suivent le bleu nuit de DE et *dit / dat* l'orange de HET (M20, M22), le *-e* de l'adjectif est en framboise (M21), *er* en vert et la préposition en orange (M23) ; au M24, les particules ont 4 couleurs (adoucir, insister, questionner, rassurer). Au bloc 6, l'horloge a 4 zones colorées (M25), les grands nombres sont découpés en tranches colorées (M26), *graag* est en vert et *houden van* en framboise (M27), *zich* en bleu et *elkaar* en orange (M28), et les trois emplois du conditionnel ont chacun leur couleur (M29).
+- Le **fil rouge** relie les 29 modules : Karim, comptable namurois, et sa collègue Sofie, dans une entreprise bilingue à Bruxelles.
 
 ## À vérifier avant les cours
 
-- **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*, *dikwijls*, *trager*, *de bestemmeling*, *wachtzaal*, *Kan ik…?*, *luchthaven / vliegveld*, *plastieken zak*, *nu / nou*, *iets wat / iets dat*) sont signalés dans les notes. Une dernière lecture avant les cours reste conseillée.
+- **Relecture du néerlandais** : tous les exemples, corrigés et règles ont fait l'objet d'une seconde relecture indépendante, et ses corrections ont été appliquées. Les points d'usage discutables (Belgique / Pays-Bas : *jullie werkt*, *op dinsdag*, *peen / wortel*, *gsm*, *verlof*, *dikwijls*, *trager*, *de bestemmeling*, *wachtzaal*, *Kan ik…?*, *luchthaven / vliegveld*, *plastieken zak*, *nu / nou*, *iets wat / iets dat*, *twintig over twee*, *'s namiddags*, *Om hoe laat?*, *Ik had graag…*, *Ik heb dat niet graag*, *u vergist zich / u*, *de huurwaarborg*) sont signalés dans les notes. Une dernière lecture avant les cours reste conseillée.
 - **Formulaires et enseignes** : les enseignes et adresses sont fictives (Sportclub Vitaal, Brasserie De Lepel, Peeters & Co, Maesbouw, webshop Bolero). Les formulaires et adresses réels des archives renvoyaient à des marques existantes.
 
 ## Régénérer les PowerPoint
@@ -126,7 +137,7 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 25 fichiers dans ../powerpoints
+npm run build        # réécrit les 30 fichiers dans ../powerpoints
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
 node build.js uitspraak   # le complément de prononciation

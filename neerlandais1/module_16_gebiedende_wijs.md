@@ -177,7 +177,7 @@
 **Contenu textuel**
 > ① *Ga zitten!* (direct) → ② *Ga maar zitten.* (invitation) → ③ *Gaat u zitten, alstublieft.* (poli) → ④ *Kunt u even gaan zitten?* (demande, M12) → ⑤ *Zou u even willen gaan zitten?* (très poli)
 
-**Notes pour l'animateur** — L'impératif n'est pas impoli en soi : avec *maar*, *even* ou *alstublieft*, c'est une invitation. La marche ⑤ utilise *zou* (le conditionnel, Néerlandais 2) : à reconnaître seulement. À l'accueil ou au téléphone, la marche ③ suffit.
+**Notes pour l'animateur** — L'impératif n'est pas impoli en soi : avec *maar*, *even* ou *alstublieft*, c'est une invitation. La marche ⑤ utilise *zou* (le conditionnel, travaillé au M29) : à reconnaître seulement. À l'accueil ou au téléphone, la marche ③ suffit.
 
 ---
 

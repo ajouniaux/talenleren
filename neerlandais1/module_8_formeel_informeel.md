@@ -216,7 +216,7 @@
 > *Mag ik iets vragen?* · *Kunt u me helpen, alstublieft?* · *Kun je me helpen?* · *Ik wil **graag** een afspraak maken.*
 > ⚠ « Je veux un café » → *Ik wil een koffie* (brusque) → ✓ *Ik wil **graag** een koffie.* / *Een koffie, alstublieft.*
 
-**Notes pour l'animateur** — *graag* adoucit *willen* (« je voudrais bien »). *Ik zou graag … willen* (conditionnel) est à reconnaître seulement : il est travaillé en Néerlandais 2. *alstublieft* (poli) / *alsjeblieft* (familier).
+**Notes pour l'animateur** — *graag* adoucit *willen* (« je voudrais bien »). *Ik zou graag … willen* (conditionnel) est à reconnaître seulement : il est travaillé au M29. *alstublieft* (poli) / *alsjeblieft* (familier).
 
 ---
 

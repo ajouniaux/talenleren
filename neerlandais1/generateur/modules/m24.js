@@ -1,4 +1,4 @@
-// Module 24 — Nou, toch, maar… · Les particules modales (bilan du parcours)
+// Module 24 — Nou, toch, maar… · Les particules modales (bilan du bloc 5)
 const { BORDER, plain } = require('../lib');
 
 const meta = { n: 24, slug: 'Nou_toch_maar', title: 'Nou, toch, maar… — Les particules modales', short: 'Nou, toch, maar…', template: 'module_24_modale_partikels.md' };
@@ -441,15 +441,15 @@ function build(d) {
     },
   });
 
-  // ---------------------------------------------------------------- 22 ticket + bilan du parcours
+  // ---------------------------------------------------------------- 22 ticket + bilan du bloc 5
   {
     const s = d.ticket({
-      g: 22, title: 'Ticket de sortie et bilan du parcours',
+      g: 22, title: 'Ticket de sortie et bilan du bloc 5',
       q: ['Plus aimable : //Wacht!// · //Heb je een pen?//', '« Tu viens demain, **hein** ? »', 'Placez //even// : //Kun je me helpen?//'],
       self: ['Reconnaître', 'Nuancer', 'Le ton juste'],
-      teaser: { icon: 'FaTrophy', text: '**Proficiat! Néerlandais 1 is klaar.** — Volgende stap : Néerlandais 2' },
+      teaser: { icon: 'FaTrophy', text: '**Proficiat! Bloc 5 is klaar.** — Volgende stap : bloc 6, M25 //Hoe laat is het?//' },
     });
-    d.t(s, 'NÉERLANDAIS 1 · 24 MODULES', 7.6, 5.03, 4.6, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, 'BLOCS 1 À 5 · 24 MODULES', 7.6, 5.03, 4.6, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
     const B = [['M1–5', 5, 'accent2'], ['M6–10', 5, 'accent1'], ['M11–15', 5, 'accent3'], ['M16–19', 4, 'purple'], ['M20–24', 5, 'accent4']];
     const unit = (4.55 - 4 * 0.05) / 24; let x = 7.6;
     B.forEach(([lab, n, c]) => {

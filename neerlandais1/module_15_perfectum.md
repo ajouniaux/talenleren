@@ -35,7 +35,7 @@
 - Le participe est une **chaîne de montage** (schéma S5) : *ge* + radical + *t / d*.
 - *hebben / zijn* : deux portes, la grande (*hebben*, 90 %) et la petite (*zijn* : déplacement, changement, *blijven, zijn*).
 - Dix-sept irréguliers fréquents, regroupés par familles de voyelles.
-- Le module se termine par le **bilan des blocs 1 à 3** (M1–M15) ; le bilan final du parcours est au M24.
+- Le module se termine par le **bilan des blocs 1 à 3** (M1–M15) ; le bilan final du parcours est au M29.
 
 ## Déroulé
 
