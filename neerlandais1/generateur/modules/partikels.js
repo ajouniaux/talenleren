@@ -9,23 +9,23 @@ const meta = {
 };
 
 // une couleur par particule
-const C = { AAN: 'accent2', AF: 'accent6', OP: 'accent3', UIT: 'accent1', IN: 'purple', BIJ: 'accent4', TOE: '0E7C86', NA: 'tx2', DOOR: '7A5230', OVER: 'accent2', MEE: 'accent3', TEGEN: 'accent6', OM: 'purple', VOOR: 'accent1' };
+const C = { AAN: 'accent2', AF: 'accent6', OP: 'accent3', UIT: 'accent1', IN: 'purple', BIJ: 'accent4', TOE: '0E7C86', NA: 'tx2', DOOR: '7A5230', OVER: '4352C9', MEE: '7C9A1E', TEGEN: '8B1E3F', OM: '546E7A', VOOR: 'B8860B' };
 const PA = 'accent1'; // particule = orange (comme au M11)
 const VB = 'accent6'; // verbe = rouge
 const hexOf = (c) => (c === 'purple' ? PURPLE : HEX[c] || c);
 
 // les fiches (diapos 6 à 12) : [particule, [[sens, [[verbe, traduction], …]], …], complément]
 const FICHES = {
-  6: [['AAN', [['contact, vers', [['aanraken', 'toucher'], ['aanspreken', 'adresser la parole'], ['aankomen', 'arriver']]], ['début, mise en marche', [['aanzetten', 'allumer'], ['aangaan', 's’allumer ; conclure (un contrat)']]], ['acquérir, ajuster', [['aanleren', 'apprendre, acquérir'], ['aanpassen', 'adapter']]]], '//aankomen// : arriver · toucher · grossir !'],
-    ['AF', [['vers le bas, s’éloigner', [['afdalen', 'descendre'], ['afstappen', 'descendre (du vélo)']]], ['enlever, diminuer', [['afnemen', 'enlever ; diminuer'], ['afleren', 'perdre (une habitude)'], ['afvallen', 'maigrir']]], ['finir', [['afmaken', 'terminer'], ['afronden', 'finaliser ; arrondir'], ['afsluiten', 'clôturer']]]], 'à apprendre en bloc : //afspreken// (convenir)']],
-  7: [['OP', [['vers le haut', [['opstaan', 'se lever'], ['optillen', 'soulever']]], ['entièrement, jusqu’à épuisement', [['opeten', 'manger tout'], ['opruimen', 'ranger']]], ['noter, contacter, chercher', [['opschrijven', 'noter'], ['opbellen', 'téléphoner'], ['opzoeken', 'chercher ; rendre visite']]]], 'et : //opvallen// (se remarquer), //opbouwen// (construire)'],
-    ['UIT', [['vers l’extérieur', [['uitgaan', 'sortir'], ['uitstappen', 'descendre (d’un véhicule)']]], ['jusqu’au bout, arrêt', [['uitlezen', 'finir de lire'], ['uitspreken', 'prononcer ; finir de parler'], ['uitzetten', 'éteindre']]], ['montrer, répandre', [['uitleggen', 'expliquer'], ['uitnodigen', 'inviter'], ['uitstellen', 'reporter']]]], '//Laat me uitspreken!// = laisse-moi finir']],
-  8: [['IN', [['vers l’intérieur', [['instappen', 'monter (véhicule)'], ['inademen', 'inspirer'], ['inloggen', 'se connecter']]], ['remettre, remplir', [['inleveren', 'remettre, rendre'], ['indienen', 'introduire (une demande)'], ['invullen', 'remplir']]], ['à fond', [['instuderen', 'étudier à fond'], ['inwerken', 'former (un·e nouveau·elle)']]]], '//invoeren// : introduire ; importer ; encoder'],
+  6: [['AAN', [['contact, vers', [['aanraken', 'toucher'], ['aanspreken', 'adresser la parole'], ['aankomen', 'arriver']]], ['début, mise en marche', [['aanzetten', 'allumer'], ['aangaan', 's’allumer ; conclure (un contrat)']]], ['acquérir, ajuster', [['aanleren', 'apprendre (à qn) ; acquérir'], ['aanpassen', 'adapter']]]], '//aankomen// : arriver · toucher · grossir !'],
+    ['AF', [['vers le bas, s’éloigner', [['afdalen', 'descendre'], ['afstappen', 'descendre (du vélo ; BE : du bus)']]], ['enlever, diminuer', [['afnemen', 'enlever ; diminuer'], ['afleren', 'perdre (une habitude)'], ['afvallen', 'maigrir']]], ['finir', [['afmaken', 'terminer'], ['afronden', 'finaliser ; arrondir'], ['afsluiten', 'clôturer']]]], 'à apprendre en bloc : //afspreken// (convenir)']],
+  7: [['OP', [['vers le haut', [['opstaan', 'se lever'], ['optillen', 'soulever']]], ['entièrement, jusqu’à épuisement', [['opeten', 'tout manger'], ['opruimen', 'ranger']]], ['noter, contacter, chercher', [['opschrijven', 'noter'], ['opbellen', 'téléphoner'], ['opzoeken', 'chercher ; rendre visite']]]], 'et : //opvallen// (attirer l’attention), //opbouwen// (construire)'],
+    ['UIT', [['vers l’extérieur', [['uitgaan', 'sortir'], ['uitstappen', 'descendre (d’un véhicule)']]], ['jusqu’au bout, arrêt', [['uitlezen', 'finir de lire'], ['uitspreken', 'prononcer ; finir de parler'], ['uitzetten', 'éteindre']]], ['figuré', [['uitleggen', 'expliquer'], ['uitnodigen', 'inviter'], ['uitstellen', 'reporter']]]], '//Laat me uitspreken!// = laisse-moi finir']],
+  8: [['IN', [['vers l’intérieur', [['instappen', 'monter (véhicule)'], ['inademen', 'inspirer'], ['inloggen', 'se connecter']]], ['remettre, remplir', [['inleveren', 'remettre, rendre'], ['indienen', 'introduire (une demande)'], ['invullen', 'remplir']]], ['s’approprier, se familiariser', [['instuderen', 'apprendre, répéter (un rôle)'], ['inwerken', 'former (un·e nouveau·elle)'], ['zich inlezen', 'se documenter']]]], '//invoeren// : introduire ; importer ; encoder'],
     ['BIJ', [['en plus', [['bijleren', 'apprendre en plus'], ['bijverdienen', 'gagner en plus'], ['bijleggen', 'ajouter (de l’argent) ; régler (un conflit)']]], ['être présent, aider', [['bijwonen', 'assister à'], ['bijdragen', 'contribuer'], ['bijstaan', 'assister qn']]], ['mettre à jour', [['bijhouden', 'tenir à jour'], ['bijwerken', 'mettre à jour'], ['bijsturen', 'corriger le tir']]]], '//Ik heb veel bijgeleerd.// (très courant en BE)']],
-  9: [['TOE', [['vers', [['toekijken', 'regarder sans agir'], ['toespreken', 's’adresser à (un public)'], ['toelichten', 'commenter, expliquer']]], ['en plus, permettre', [['toevoegen', 'ajouter'], ['toenemen', 'augmenter'], ['toegeven', 'avouer ; céder'], ['toestaan', 'permettre']]], ['fermé (surtout BE)', [['toedoen', 'fermer'], ['toeknopen', 'boutonner']]]], 'NL : //dichtdoen// (fermer) · //toepassen// : appliquer'],
-    ['NA', [['après', [['nadenken', 'réfléchir'], ['nakomen', 'respecter (une promesse)'], ['nasturen', 'faire suivre']]], ['imiter', [['nadoen', 'imiter'], ['nazeggen', 'répéter après qn'], ['nabootsen', 'imiter']]], ['vérifier', [['nakijken', 'vérifier, corriger'], ['nalezen', 'relire'], ['nagaan', 'vérifier'], ['navragen', 'se renseigner']]]], '//Kun je de cijfers nog even nakijken?//']],
+  9: [['TOE', [['vers', [['toekijken', 'regarder sans agir'], ['toespreken', 's’adresser à (un public)'], ['toelichten', 'commenter, expliquer']]], ['en plus, permettre', [['toevoegen', 'ajouter'], ['toenemen', 'augmenter'], ['toegeven', 'avouer ; céder'], ['toestaan', 'permettre']]], ['fermé (surtout BE)', [['toedoen', 'fermer'], ['toeknopen', 'boutonner']]]], 'standard (BE + NL) : //dichtdoen// · //toepassen// : appliquer'],
+    ['NA', [['après', [['nadenken', 'réfléchir'], ['nakomen', 'rejoindre plus tard ; tenir (une promesse)'], ['nasturen', 'faire suivre']]], ['imiter', [['nadoen', 'imiter'], ['nazeggen', 'répéter après qn'], ['nabootsen', 'imiter']]], ['vérifier', [['nakijken', 'vérifier, corriger'], ['nalezen', 'relire'], ['nagaan', 'vérifier'], ['navragen', 'se renseigner']]]], '//Kun je de cijfers nog even nakijken?//']],
   10: [['DOOR', [['à travers', [['doorsnijden', 'couper en deux']]], ['continuer', [['doorgaan', 'continuer ; avoir lieu'], ['doorwerken', 'continuer à travailler'], ['doorlezen', 'lire jusqu’au bout']]], ['transmettre', [['doorsturen', 'transférer'], ['doorgeven', 'transmettre'], ['doorverbinden', 'transférer (un appel)']]]], '//De vergadering gaat niet door.// = n’a pas lieu !'],
-    ['OVER', [['d’un côté à l’autre', [['oversteken', 'traverser'], ['overstappen', 'changer (de train)'], ['overmaken', 'virer (de l’argent)']]], ['de nouveau', [['overdoen', 'refaire'], ['overschrijven', 'recopier ; BE : virer']]], ['passer à qn', [['overnemen', 'reprendre'], ['overdragen', 'transmettre (un dossier)']]]], 'et : //overlopen// (déborder) · doublets : diapo 18']],
+    ['OVER', [['d’un côté à l’autre', [['oversteken', 'traverser'], ['overstappen', 'changer (de train)'], ['overschrijven', 'virer (BE ; NL : overmaken)']]], ['de nouveau', [['overdoen', 'refaire'], ['overlezen', 'relire']]], ['passer à qn', [['overnemen', 'reprendre'], ['overdragen', 'transmettre (un dossier)']]]], 'BE : //de agenda overlopen// (passer en revue)']],
   11: [['MEE', [['avec, participer', [['meegaan', 'accompagner'], ['meenemen', 'emporter'], ['meedoen', 'participer'], ['meewerken', 'collaborer'], ['meedenken', 'réfléchir avec']]]], ''],
     ['TEGEN', [['contre, à l’encontre', [['tegenkomen', 'rencontrer par hasard'], ['tegenhouden', 'retenir, arrêter'], ['tegenspreken', 'contredire']]]], '']],
   12: [['OM', [['autour, détour', [['omrijden', 'faire un détour'], ['omkijken', 'se retourner']]], ['retourner, changer', [['omdraaien', 'retourner'], ['omzetten', 'convertir'], ['omrekenen', 'convertir (un montant)'], ['zich omkleden', 'se changer']]], ['figuré', [['omgaan met', 'gérer ; fréquenter']]]], '//Hoe ga je om met stress?//'],
@@ -176,7 +176,7 @@ function build(d) {
       { icon: 'FaSearch', h: 'Deviner', t: 'Je devine le sens d’un verbe à particule inconnu.', color: 'accent1' },
       { icon: 'FaCogs', h: 'Utiliser', t: 'J’utilise les verbes à particule avec le bon sens, à la bonne place.', color: 'accent3' },
     ],
-    band: 'Un verbe à particule sur deux se devine. Les autres s’apprennent comme des blocs, avec leur contexte.',
+    band: 'Beaucoup de verbes à particule se devinent. Les autres s’apprennent comme des blocs, avec leur contexte.',
   });
 
   // ---------------------------------------------------------------- 3 échauffement
@@ -272,26 +272,26 @@ function build(d) {
   // ---------------------------------------------------------------- 14 contraires
   {
     const s = d.page({ g: 14, tag: 'LES PARTICULES', title: 'Les paires de contraires' });
-    const R = [['aanzetten', 'uitzetten', 'allumer / éteindre', 'AAN', 'UIT'], ['inloggen', 'uitloggen', 'se connecter / se déconnecter', 'IN', 'UIT'], ['instappen', 'uitstappen', 'monter / descendre', 'IN', 'UIT'], ['inademen', 'uitademen', 'inspirer / expirer', 'IN', 'UIT'], ['toenemen', 'afnemen', 'augmenter / diminuer', 'TOE', 'AF'], ['meevallen', 'tegenvallen', 'mieux / moins bien que prévu', 'MEE', 'TEGEN'], ['aankomen', 'afvallen', 'grossir / maigrir', 'AAN', 'AF'], ['opendoen', 'dichtdoen', 'ouvrir / fermer (BE : toedoen)', 'OP', 'TOE']];
+    const R = [['aanzetten', 'uitzetten', 'allumer / éteindre', 'AAN', 'UIT'], ['inloggen', 'uitloggen', 'se connecter / se déconnecter', 'IN', 'UIT'], ['instappen', 'uitstappen', 'monter / descendre', 'IN', 'UIT'], ['inademen', 'uitademen', 'inspirer / expirer', 'IN', 'UIT'], ['toenemen', 'afnemen', 'augmenter / diminuer', 'TOE', 'AF'], ['meevallen', 'tegenvallen', 'mieux / moins bien que prévu', 'MEE', 'TEGEN'], ['aankomen', 'afvallen', 'grossir / maigrir', 'AAN', 'AF'], ['opendoen', 'dichtdoen', 'ouvrir / fermer (BE : toedoen)', 'accent5', 'accent5']];
     const cw = (12.13 - 0.3) / 2; const rh = 1.08;
     R.forEach(([a, b, fr, ka, kb], i) => {
       const x = 0.6 + Math.floor(i / 4) * (cw + 0.3); const y = 1.7 + (i % 4) * rh;
       d.rect(s, x, y, cw, rh - 0.12, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: BORDER, lw: 0.75, radius: 0.1 });
-      d.rect(s, x + 0.15, y + 0.12, 2.3, 0.5, { fill: C[ka], line: null, radius: 0.12 });
+      d.rect(s, x + 0.15, y + 0.12, 2.3, 0.5, { fill: C[ka] || ka, line: null, radius: 0.12 });
       d.t(s, `//**${a}**//`, x + 0.15, y + 0.12, 2.3, 0.5, { size: 16, color: 'bg1', align: 'center', valign: 'middle' });
       d.t(s, '⇄', x + 2.5, y + 0.12, 0.5, 0.5, { size: 20, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-      d.rect(s, x + 3.05, y + 0.12, 2.3, 0.5, { fill: C[kb], line: null, radius: 0.12 });
+      d.rect(s, x + 3.05, y + 0.12, 2.3, 0.5, { fill: C[kb] || kb, line: null, radius: 0.12 });
       d.t(s, `//**${b}**//`, x + 3.05, y + 0.12, 2.3, 0.5, { size: 16, color: 'bg1', align: 'center', valign: 'middle' });
       d.t(s, fr, x + 0.15, y + 0.62, cw - 0.3, 0.32, { size: 12, italic: true, color: 'accent5', align: 'center' });
     });
-    band(s, 'Apprendre par paires double la mémoire. BE : //aandoen / uitdoen// = allumer / éteindre ; mettre / enlever (un vêtement).', 6.15, 0.68, 'tx2', 16);
+    band(s, 'Apprendre par paires aide à mémoriser. //aandoen / uitdoen// = mettre / enlever (un vêtement) ; BE (familier) : allumer / éteindre.', 6.15, 0.68, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 15 étoile
   d.section('Aller plus loin');
   {
     const s = d.page({ g: 15, tag: 'MÉTHODE', title: 'L’étoile du verbe : nemen et gaan' });
-    star(s, 3.58, 4.22, 'NEMEN', [['aannemen', 'accepter ; embaucher'], ['afnemen', 'diminuer ; enlever'], ['opnemen', 'enregistrer ; décrocher'], ['overnemen', 'reprendre'], ['toenemen', 'augmenter'], ['meenemen', 'emporter'], ['deelnemen', 'participer']], { keys: ['AAN', 'AF', 'OP', 'OVER', 'TOE', 'MEE', 'NA'] });
+    star(s, 3.58, 4.22, 'NEMEN', [['aannemen', 'accepter ; embaucher'], ['afnemen', 'diminuer ; enlever'], ['opnemen', 'enregistrer ; décrocher'], ['overnemen', 'reprendre'], ['toenemen', 'augmenter'], ['meenemen', 'emporter'], ['innemen', 'prendre (un médicament)']], { keys: ['AAN', 'AF', 'OP', 'OVER', 'TOE', 'MEE', 'IN'] });
     star(s, 9.75, 4.22, 'GAAN', [['doorgaan', 'continuer ; avoir lieu'], ['nagaan', 'vérifier'], ['uitgaan', 'sortir'], ['meegaan', 'accompagner'], ['ingaan op', 'répondre à'], ['tegengaan', 'combattre'], ['omgaan met', 'gérer']], { keys: ['DOOR', 'NA', 'UIT', 'MEE', 'IN', 'TEGEN', 'OM'] });
     d.t(s, 'À vous : l’étoile de //komen// ou de //zetten// !', 0.6, 6.62, 12.13, 0.4, { size: 15, italic: true, color: 'accent5', align: 'center' });
   }
@@ -299,7 +299,7 @@ function build(d) {
   // ---------------------------------------------------------------- 16 polysémie
   {
     const s = d.page({ g: 16, tag: 'MÉTHODE', title: 'Un verbe, plusieurs sens' });
-    const P = [['opnemen', 'OP', [['Neem de telefoon op!', 'décroche'], ['We nemen het gesprek op.', 'enregistrer'], ['Ik neem morgen verlof op.', 'prendre (un congé)']]], ['afnemen', 'AF', [['De werkloosheid neemt af.', 'diminue'], ['Hij neemt een examen af.', 'fait passer'], ['Neem de tafel even af.', 'essuie']]], ['aannemen', 'AAN', [['Ik neem het voorstel aan.', 'accepte'], ['Het bedrijf neemt twee mensen aan.', 'embauche'], ['Ik neem aan dat je komt.', 'suppose']]], ['uitvallen', 'UIT', [['De stroom valt uit.', 'panne'], ['De les valt uit.', 'est annulée'], ['Hij valt uit.', 'abandonne']]]];
+    const P = [['opnemen', 'OP', [['Neem de telefoon op!', 'décroche'], ['We nemen het gesprek op.', 'enregistrons'], ['Ik neem morgen verlof op.', 'prends (un congé)']]], ['afnemen', 'AF', [['De werkloosheid neemt af.', 'diminue'], ['Hij neemt een examen af.', 'fait passer'], ['Neem de tafel even af.', 'essuie']]], ['aannemen', 'AAN', [['Ik neem het voorstel aan.', 'accepte'], ['Het bedrijf neemt twee mensen aan.', 'embauche'], ['Ik neem aan dat je komt.', 'suppose']]], ['uitvallen', 'UIT', [['De stroom valt uit.', 'tombe en panne'], ['De les valt uit.', 'est annulée'], ['Hij valt uit.', 'abandonne']]]];
     const cw = (12.13 - 0.25) / 2; const ch = 2.15;
     P.forEach(([v, k, L], i) => {
       const x = 0.6 + (i % 2) * (cw + 0.25); const y = 1.65 + Math.floor(i / 2) * (ch + 0.15);
@@ -325,7 +325,7 @@ function build(d) {
       d.t(s, `//${ex}//`, 7.0, y, 5.6, 0.58, { size: 17, valign: 'middle' });
     });
     d.t(s, 'Aussi : //opkomen voor// (défendre) · //omgaan met// (gérer) · //meedoen aan// (participer à)', 0.6, 5.98, 12.13, 0.4, { size: 15, color: 'tx1', align: 'center' });
-    band(s, '//er// + préposition = un bloc ; la particule va **au bout** : //Ik kijk ernaar **uit**.// · //…, omdat ik ernaar **uit**kijk.//', 6.45, 0.48, 'tx2', 16);
+    band(s, 'La particule va **au bout** : //Ik kijk ernaar **uit**.// · //er// et la préposition peuvent se séparer : //Ik kijk er **echt** naar uit.//', 6.42, 0.52, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 18 piège séparable / inséparable
@@ -345,7 +345,7 @@ function build(d) {
     d.t(s, 'accent sur la particule → séparable', 5.45, 2.05, 3.6, 0.45, { size: 12, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
     d.rect(s, 9.13, 2.05, 3.6, 0.45, { fill: 'tx2', line: null, radius: 0.08 });
     d.t(s, 'accent sur le verbe → inséparable', 9.13, 2.05, 3.6, 0.45, { size: 12, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    const D = [['DOORlopen', 'continuer à marcher', 'doorLOpen', 'parcourir, suivre (formation)'], ['VOORkomen', 'se produire', 'voorKOmen', 'éviter'], ['OVERkomen', 'venir ; faire impression', 'overKOmen', 'arriver à qn'], ['ONDERgaan', 'se coucher (soleil)', 'onderGAAN', 'subir'], ['OVERleggen', 'présenter (un document)', 'overLEGgen', 'se concerter']];
+    const D = [['DOORlopen', 'continuer à marcher', 'doorLOpen', 'parcourir, suivre (une formation)'], ['VOORkomen', 'se produire', 'voorKOmen', 'éviter'], ['OVERkomen', 'venir ; paraître, sembler', 'overKOmen', 'arriver à qn'], ['ONDERgaan', 'se coucher (le soleil)', 'onderGAAN', 'subir'], ['OVERleggen', 'présenter (un document)', 'overLEGgen', 'se concerter']];
     D.forEach(([a, af, b, bf], i) => {
       const y = 2.6 + i * 0.7;
       d.rect(s, 5.45, y, 3.6, 0.62, { fill: i % 2 ? 'FFFFFF' : 'FDF1E6', line: null, radius: 0.06 });
@@ -367,11 +367,11 @@ function build(d) {
       strip(s, e + 0.6, y, b, { size: 18, h: 0.56 });
     });
     d.t(s, 'Dans le groupe verbal final, la particule peut rester collée ou passer devant : **les deux ordres sont corrects**.', 0.6, 3.75, 12.13, 0.45, { size: 16, color: 'tx1' });
-    d.t(s, 'OM … TE + INFINITIF', 0.6, 4.35, 6, 0.38, { size: 13, bold: true, color: 'accent5', cs: 2 });
+    d.t(s, '(OM / ZONDER) … TE + INFINITIF', 0.6, 4.35, 6, 0.38, { size: 13, bold: true, color: 'accent5', cs: 2 });
     strip(s, 0.6, 4.8, [['Ik heb tijd nodig', 'n'], ['om', 'n'], ['de tekst', 'n'], ['na', 'p'], ['te', 'e'], ['lezen.', 'v2']], { size: 17, h: 0.52 });
     strip(s, 0.6, 5.48, [['Ik probeer het', 'n'], ['af', 'p'], ['te', 'e'], ['maken.', 'v2']], { size: 17, h: 0.52 });
     strip(s, 6.9, 5.48, [['… zonder', 'n'], ['op', 'p'], ['te', 'e'], ['letten.', 'v2']], { size: 17, h: 0.52 });
-    band(s, 'Avec //te// : toujours **particule + te + verbe**, en trois mots : //na te lezen · af te maken · op te letten//', 6.25, 0.6, 'tx2', 17);
+    band(s, 'Avec //te// : **particule + te + verbe** (//na te lezen · af te maken//). Avec un modal, deux ordres : //om het af te kunnen maken = om het te kunnen afmaken//.', 6.12, 0.72, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 20 stratégie
@@ -399,7 +399,7 @@ function build(d) {
   // ---------------------------------------------------------------- 21 à retenir : le tableau
   {
     const s = d.page({ g: 21, tag: 'À RETENIR', title: 'À retenir : le tableau des particules' });
-    const T = [['AAN', 'contact, début, acquérir', 'aanzetten · aanleren'], ['AF', 'enlever, finir, diminuer', 'afmaken · afnemen'], ['OP', 'haut, entièrement, noter', 'opstaan · opschrijven'], ['UIT', 'dehors, jusqu’au bout, montrer', 'uitgaan · uitleggen'], ['IN', 'dedans, remettre', 'inloggen · inleveren'], ['BIJ', 'en plus, mettre à jour', 'bijleren · bijhouden'], ['TOE', 'vers, en plus, fermé (BE)', 'toevoegen · toenemen'], ['NA', 'après, imiter, vérifier', 'nadenken · nakijken'], ['DOOR', 'à travers, continuer, transmettre', 'doorgaan · doorsturen'], ['OVER', 'd’un côté à l’autre, de nouveau, à qn', 'overstappen · overnemen'], ['MEE', 'avec, participer', 'meenemen · meedoen'], ['TEGEN', 'contre', 'tegenkomen · tegenhouden'], ['OM', 'autour, changer', 'omrijden · omzetten'], ['VOOR', 'devant, proposer', 'voorbereiden · voorstellen']];
+    const T = [['AAN', 'contact, début, acquérir', 'aanzetten · aanleren'], ['AF', 'enlever, finir, diminuer', 'afmaken · afnemen'], ['OP', 'haut, entièrement, noter', 'opstaan · opschrijven'], ['UIT', 'dehors, jusqu’au bout, arrêt', 'uitgaan · uitleggen'], ['IN', 'dedans, remettre', 'inloggen · inleveren'], ['BIJ', 'en plus, mettre à jour', 'bijleren · bijhouden'], ['TOE', 'vers, en plus, fermé (BE)', 'toevoegen · toenemen'], ['NA', 'après, imiter, vérifier', 'nadenken · nakijken'], ['DOOR', 'à travers, continuer, transmettre', 'doorgaan · doorsturen'], ['OVER', 'd’un côté à l’autre, de nouveau, passer à qn', 'overstappen · overnemen'], ['MEE', 'avec, participer', 'meenemen · meedoen'], ['TEGEN', 'contre', 'tegenkomen · tegenhouden'], ['OM', 'autour, changer', 'omrijden · omzetten'], ['VOOR', 'devant, proposer', 'voorbereiden · voorstellen']];
     const cw = (12.13 - 0.25) / 2; const rh = 0.6;
     T.forEach(([k, sens, v], i) => {
       const x = 0.6 + Math.floor(i / 7) * (cw + 0.25); const y = 1.6 + (i % 7) * rh;
@@ -421,17 +421,17 @@ function build(d) {
   ] });
 
   // ---------------------------------------------------------------- 23 ex1 quelle particule
-  const ex1 = ['Kun je de radio [[uit]]zetten? (éteindre)', 'De prijzen nemen elk jaar [[toe]]. (augmenter)', 'Ik moet dit woord even [[op]]zoeken. (chercher)', 'Lees je tekst nog eens [[na]] voor je hem verstuurt. (relire)', 'Wil je deze mail naar Sofie [[door]]sturen? (transférer)', 'Lotte heeft de taak van An [[over]]genomen. (reprendre)', 'Je moet je rapport vrijdag [[in]]leveren. (remettre)', 'In die cursus heb ik veel [[bij]]geleerd. (apprendre en plus)'];
+  const ex1 = ['Kun je de radio [[uit]]zetten? (éteindre)', 'De prijzen nemen elk jaar [[toe]]. (augmenter)', 'Ik moet dit woord even [[op]]zoeken. (chercher dans le dictionnaire)', 'Lees je tekst nog eens [[na]] voor je hem verstuurt. (relire)', 'Wil je deze mail naar Sofie [[door]]sturen? (transférer)', 'Lotte heeft de taak van An [[over]]genomen. (reprendre)', 'Je moet je rapport vrijdag [[in]]leveren. (remettre)', 'Ik wil nog wat Nederlands [[bij]]leren. (apprendre en plus)'];
   d.ex({ g: 23, title: 'Exercice 1 — Quelle particule ?', stars: '★', instr: 'Complétez avec la particule qui donne le sens entre parenthèses.' }, (s, mode, top) => {
     d.list(s, ex1.map((e) => { const m = e.match(/^(.*) \((.*)\)$/); return `//${m[1]}// (${m[2]})`; }), mode, { y: top + 0.2, w: 12.13, h: 4.5, cols: 2, size: 19, gap: 22 });
-    if (mode === 'a') d.t(s, 'N° 1 : //af// est aussi possible en Belgique (//afzetten//).', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'Aussi acceptés : n° 1 //af// (BE : //afzetten//) · n° 4 //over// ou //door// (//overlezen, doorlezen//) · n° 7 //af// (//afleveren//)', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 24 ex2 nemen
-  const ex2 = ['Het bedrijf wil drie nieuwe medewerkers [[aannemen]]. (embaucher)', 'Vergeet niet een paraplu [[mee te nemen]]. (emporter)', 'Het aantal klanten [[neemt]] elk jaar [[toe]]. (augmenter)', 'De werkloosheid [[neemt af]]. (diminuer)', 'Kun je even de telefoon [[opnemen]]? (décrocher)', 'Wie [[neemt]] het project van An [[over]]? (reprendre)', 'Tien collega’s [[nemen]] aan de opleiding [[deel]]. (participer)', 'Je moet dit medicijn drie keer per dag [[innemen]]. (prendre)'];
+  const ex2 = ['Het bedrijf wil drie nieuwe medewerkers [[aannemen]]. (embaucher)', 'Vergeet niet een paraplu [[mee te nemen]]. (emporter)', 'Het aantal klanten [[neemt]] elk jaar [[toe]]. (augmenter)', 'De werkloosheid [[neemt af]]. (diminuer)', 'Kun je even de telefoon [[opnemen]]? (décrocher)', 'Wie [[neemt]] het project van An [[over]]? (reprendre)', 'Tien collega’s [[nemen deel]] aan de opleiding. (participer)', 'Je moet dit medicijn drie keer per dag [[innemen]]. (prendre)'];
   d.ex({ g: 24, title: 'Exercice 2 — L’étoile de nemen', stars: '★★', instr: 'Complétez avec le bon verbe de la famille //nemen//, à la bonne place.' }, (s, mode, top) => {
     d.list(s, ex2.map((e) => { const m = e.match(/^(.*) \((.*)\)$/); return `//${m[1]}// (${m[2]})`; }), mode, { y: top + 0.15, w: 12.13, h: 4.6, cols: 2, size: 18, gap: 20 });
-    if (mode === 'a') d.t(s, 'N° 2 : //vergeten// + //te// + infinitif · n° 7 : //deel// va au bout, après le complément', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 2 : //vergeten// + //te// + infinitif · n° 7 : aussi //nemen aan de opleiding deel// · n° 8 : //nemen// seul est aussi correct', 0.6, 6.35, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 25 ex3 séparable ou inséparable
@@ -456,16 +456,16 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Karim Benali · Aan: team verkoop · Onderwerp: stand van zaken', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = ['//Beste collega’s,//', '//De vergadering van vrijdag gaat niet door. Ik heb de offerte gisteren {{gevertaald}}++ vertaald++. Ik stuur jullie de tekst {{door morgen}}++ morgen door++, om de cijfers nog eens {{te nalezen}}++ na te lezen++. Lotte heeft de taak van Sofie {{overgenomt}}++ overgenomen++. Goed nieuws: het aantal klanten {{neemt af}}++ neemt toe++! We overleggen maandag verder.//', '//Groeten//', '//Karim//'];
+    const txt = ['//Beste collega’s,//', '//De vergadering van vrijdag gaat niet door. Ik heb de offerte gisteren {{gevertaald}}++ vertaald++. Ik stuur jullie de tekst {{door morgen}}++ morgen door++, met de vraag om de cijfers nog eens {{te nakijken}}++ na te kijken++. Lotte heeft de taak van Sofie {{overgenomt}}++ overgenomen++. Goed nieuws: het aantal klanten {{neemt af}}++ neemt toe++! We overleggen maandag verder.//', '//Groeten//', '//Karim//'];
     d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 18, gap: 6, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    if (mode === 'a') d.t(s, 'Leurres : //gaat niet door// (n’a pas lieu) et //We overleggen// (inséparable) sont corrects. N° 5 : erreur de **sens** (goed nieuws !).', 9.9, top + 3.05, 2.83, 2.2, { size: 14, italic: true, color: 'accent5' });
+    if (mode === 'a') d.t(s, 'Leurres : //gaat niet door// (n’a pas lieu) et //We overleggen// (inséparable) sont corrects. N° 5 : erreur de **sens** (//goed nieuws!//).', 9.9, top + 3.05, 2.83, 2.2, { size: 14, italic: true, color: 'accent5' });
   });
 
   // ---------------------------------------------------------------- 27 ex5 contraires
-  const ex5 = [['Zet de computer aan.', 'Zet de computer uit.'], ['Ik log in.', 'Ik log uit.'], ['De prijzen nemen toe.', 'De prijzen nemen af.'], ['Het examen viel tegen.', 'Het examen viel mee.'], ['We stappen in.', 'We stappen uit.'], ['Doe de deur open.', 'Doe de deur dicht. (BE : toe)'], ['Ik ben drie kilo aangekomen.', 'Ik ben drie kilo afgevallen.'], ['Adem diep in.', 'Adem diep uit.']];
+  const ex5 = [['Zet de computer aan.', 'Zet de computer uit. (BE : af)'], ['Ik log in.', 'Ik log uit.'], ['De prijzen nemen toe.', 'De prijzen nemen af.'], ['Het examen viel tegen.', 'Het examen viel mee.'], ['We stappen in.', 'We stappen uit.'], ['Doe de deur open.', 'Doe de deur dicht. (BE : toe)'], ['Ik ben drie kilo aangekomen.', 'Ik ben drie kilo afgevallen.'], ['Adem diep in.', 'Adem diep uit.']];
   d.ex({ g: 27, title: 'Exercice 5 — Le bon contraire', stars: '★', instr: 'Écrivez la phrase contraire en changeant la particule (ou le verbe).' }, (s, mode, top) => {
     const rh = (6.88 - top) / 4; const cw = (12.13 - 0.3) / 2;
     ex5.forEach(([q, a], i) => {
@@ -481,12 +481,12 @@ function build(d) {
   // ---------------------------------------------------------------- 28 ex6 roulette
   {
     const s = d.page({ g: 28, tag: 'JIJ NU !', title: 'Exercice 6 — La roulette des particules', stars: '★★' });
-    const P = ['AAN', 'AF', 'OP', 'UIT', 'IN', 'NA', 'DOOR', 'OVER', 'MEE', 'TOE'];
+    const P = ['AAN', 'AF', 'OP', 'UIT', 'IN', 'BIJ', 'TOE', 'NA', 'DOOR', 'OVER', 'MEE', 'VOOR'];
     const cx = 2.95; const cy = 4.15; const R = 2.25;
     P.forEach((k, i) => {
-      const a1 = i * 36 - 90; const a2 = a1 + 36;
+      const a1 = i * 30 - 90; const a2 = a1 + 30;
       s.addShape(d.S.PIE, { x: cx - R, y: cy - R, w: 2 * R, h: 2 * R, angleRange: [((a1 % 360) + 360) % 360, ((a2 % 360) + 360) % 360], fill: { color: hexOf(C[k]) }, line: { color: 'FFFFFF', width: 2 } });
-      const am = ((a1 + 18) * Math.PI) / 180;
+      const am = ((a1 + 15) * Math.PI) / 180;
       d.t(s, k.toLowerCase(), cx + R * 0.68 * Math.cos(am) - 0.5, cy + R * 0.68 * Math.sin(am) - 0.22, 1.0, 0.44, { size: 15, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
     });
     d.oval(s, cx - 0.4, cy - 0.4, 0.8, 0.8, { fill: 'FFFFFF' });

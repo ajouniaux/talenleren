@@ -40,10 +40,11 @@
 
 | Phase | Diapos | Durée |
 |---|---|---|
-| Découvrir | 1 – 4 | 15 min |
-| Les particules une à une | 5 – 14 | 65 min |
-| Aller plus loin (B2) | 15 – 21 | 50 min |
-| JIJ NU ! | 22 – 30 | 2 × 45 min |
+| **Séance 1** · Découvrir | 1 – 4 | 10 min |
+| Les particules une à une | 5 – 14 | 60 min |
+| Exercice 1 | 22 – 23 | 20 min |
+| **Séance 2** · Aller plus loin (B2) | 15 – 21 | 35 min |
+| JIJ NU ! (exercices 2 à 7, ticket) | 24 – 30 | 55 min |
 
 ---
 
@@ -77,7 +78,7 @@
 > 🔍 **Deviner** — Je devine le sens d'un verbe à particule inconnu.
 > ⚙️ **Utiliser** — J'utilise les verbes à particule avec le bon sens, à la bonne place.
 
-**Notes pour l'animateur** — Un verbe à particule sur deux peut se deviner à partir de la particule et du verbe de base. Les autres s'apprennent comme des blocs, avec leur contexte.
+**Notes pour l'animateur** — Beaucoup de verbes à particule se devinent à partir de la particule et du verbe de base. Les autres s'apprennent comme des blocs, avec leur contexte.
 
 ---
 
@@ -141,7 +142,7 @@
 - Pour chaque sens : 2 verbes et leur traduction.
 
 **Contenu textuel**
-> **AAN-** ① contact, vers : *aanraken* (toucher), *aanspreken* (adresser la parole), *aankomen* (arriver) ② début, mise en marche : *aanzetten* (allumer), *aangaan* (s'allumer ; conclure un contrat) ③ acquérir, ajuster : *aanleren* (apprendre, acquérir), *aanpassen* (adapter)
+> **AAN-** ① contact, vers : *aanraken* (toucher), *aanspreken* (adresser la parole), *aankomen* (arriver) ② début, mise en marche : *aanzetten* (allumer), *aangaan* (s'allumer ; conclure un contrat) ③ acquérir, ajuster : *aanleren* (apprendre à qn ; acquérir : *zich een gewoonte aanleren*), *aanpassen* (adapter)
 > **AF-** ① vers le bas, s'éloigner : *afdalen* (descendre), *afstappen* (descendre de vélo) ② enlever, diminuer : *afnemen* (enlever ; diminuer), *afleren* (perdre une habitude), *afvallen* (maigrir) ③ finir : *afmaken* (terminer), *afronden* (finaliser ; arrondir), *afsluiten* (clôturer)
 
 **Notes pour l'animateur** — *aankomen* a trois sens : arriver, toucher (*Niet aankomen!*) et grossir (*Ik ben twee kilo aangekomen*). *afspreken* (convenir, prendre rendez-vous) est à apprendre en bloc (étage ③).
@@ -156,8 +157,8 @@
 - 2 fiches : *op-* (flèche vers le haut) / *uit-* (flèche qui sort d'une boîte).
 
 **Contenu textuel**
-> **OP-** ① vers le haut : *opstaan* (se lever), *optillen* (soulever) ② entièrement, jusqu'à épuisement : *opeten* (manger tout), *opruimen* (ranger) ③ noter, contacter, chercher : *opschrijven* (noter), *opbellen* (téléphoner), *opzoeken* (chercher ; rendre visite) — et : *opvallen* (se remarquer), *opbouwen* (construire)
-> **UIT-** ① vers l'extérieur : *uitgaan* (sortir), *uitstappen* (descendre d'un véhicule) ② jusqu'au bout, arrêt : *uitlezen* (finir de lire), *uitspreken* (prononcer ; finir de parler), *uitzetten* (éteindre) ③ montrer, répandre : *uitleggen* (expliquer), *uitnodigen* (inviter), *uitstellen* (reporter)
+> **OP-** ① vers le haut : *opstaan* (se lever), *optillen* (soulever) ② entièrement, jusqu'à épuisement : *opeten* (tout manger), *opruimen* (ranger) ③ noter, contacter, chercher : *opschrijven* (noter), *opbellen* (téléphoner), *opzoeken* (chercher ; rendre visite) — et : *opvallen* (attirer l'attention), *opbouwen* (construire)
+> **UIT-** ① vers l'extérieur : *uitgaan* (sortir), *uitstappen* (descendre d'un véhicule) ② jusqu'au bout, arrêt : *uitlezen* (finir de lire), *uitspreken* (prononcer ; finir de parler), *uitzetten* (éteindre) ③ figuré : *uitleggen* (expliquer), *uitnodigen* (inviter), *uitstellen* (reporter)
 
 **Notes pour l'animateur** — *Laat me uitspreken!* = laisse-moi finir (ma phrase). *opbouwen* = construire, développer (« reconstruire » = *heropbouwen*). *uitkijken* = faire attention ; *uitkijken naar* = attendre avec impatience (diapo 17).
 
@@ -171,7 +172,7 @@
 - 2 fiches : *in-* (flèche qui entre dans une boîte) / *bij-* (un signe « + »).
 
 **Contenu textuel**
-> **IN-** ① vers l'intérieur : *instappen* (monter dans un véhicule), *inademen* (inspirer), *inloggen* (se connecter) ② remettre, déposer, remplir : *inleveren* (remettre, rendre), *indienen* (introduire une demande), *invullen* (remplir), *invoeren* (introduire ; encoder) ③ à fond : *instuderen* (étudier à fond, répéter), *inwerken* (former un·e nouveau·elle collègue)
+> **IN-** ① vers l'intérieur : *instappen* (monter dans un véhicule), *inademen* (inspirer), *inloggen* (se connecter) ② remettre, déposer, remplir : *inleveren* (remettre, rendre), *indienen* (introduire une demande), *invullen* (remplir), *invoeren* (introduire ; encoder) ③ s'approprier, se familiariser : *instuderen* (apprendre, répéter : un rôle, un morceau), *inwerken* (former un·e nouveau·elle collègue), *zich inlezen* (se documenter)
 > **BIJ-** ① en plus : *bijleren* (apprendre en plus), *bijverdienen* (gagner en plus), *bijleggen* (ajouter de l'argent ; régler un conflit) ② être présent, aider : *bijwonen* (assister à), *bijdragen* (contribuer), *bijstaan* (assister qn) ③ mettre à jour : *bijhouden* (tenir à jour ; suivre le rythme), *bijwerken* (mettre à jour), *bijsturen* (corriger le tir)
 
 **Notes pour l'animateur** — *bijleren* est très courant en Belgique (*Ik heb veel bijgeleerd*). *bijkomen* = reprendre ses esprits, ou s'ajouter (*Er komt nog een kost bij*).
@@ -187,9 +188,9 @@
 
 **Contenu textuel**
 > **TOE-** ① vers : *toekijken* (regarder sans intervenir), *toespreken* (s'adresser à un public), *toelichten* (commenter, expliquer) ② en plus, permettre : *toevoegen* (ajouter), *toenemen* (augmenter), *toegeven* (avouer ; céder), *toestaan* (permettre), *toepassen* (appliquer) ③ fermé (surtout BE) : *toedoen* (fermer), *toeknopen* (boutonner)
-> **NA-** ① après : *nadenken* (réfléchir), *nakomen* (respecter une promesse), *nasturen* (faire suivre) ② imiter : *nadoen* (imiter), *nazeggen* (répéter après qn), *nabootsen* (imiter) ③ vérifier : *nakijken* (vérifier, corriger), *nalezen* (relire), *nagaan* (vérifier), *navragen* (se renseigner)
+> **NA-** ① après : *nadenken* (réfléchir), *nakomen* (rejoindre plus tard ; tenir une promesse), *nasturen* (faire suivre) ② imiter : *nadoen* (imiter), *nazeggen* (répéter après qn), *nabootsen* (imiter) ③ vérifier : *nakijken* (vérifier, corriger), *nalezen* (relire), *nagaan* (vérifier), *navragen* (se renseigner)
 
-**Notes pour l'animateur** — *toedoen* et *toe* = fermé sont surtout belges ; aux Pays-Bas : *dichtdoen*. *na-* « vérifier » est très utile au bureau : *Kun je de cijfers nog even nakijken?*
+**Notes pour l'animateur** — *toedoen* et *toe* = fermé sont surtout belges ; *dichtdoen* est le mot standard, en Belgique comme aux Pays-Bas. *na-* « vérifier » est très utile au bureau : *Kun je de cijfers nog even nakijken?*
 
 ---
 
@@ -202,7 +203,7 @@
 
 **Contenu textuel**
 > **DOOR-** ① à travers : *doorsnijden* (couper en deux) ② continuer : *doorgaan* (continuer ; avoir lieu), *doorwerken* (continuer à travailler), *doorlezen* (lire jusqu'au bout) ③ transmettre : *doorsturen* (transférer), *doorgeven* (transmettre), *doorverbinden* (transférer un appel) — et : *doorhebben* (comprendre, piger)
-> **OVER-** ① d'un côté à l'autre : *oversteken* (traverser), *overstappen* (changer de train), *overmaken* (virer de l'argent) ② de nouveau : *overdoen* (refaire), *overschrijven* (recopier ; BE : virer) ③ passer à qn : *overnemen* (reprendre), *overdragen* (transmettre un dossier) — et : *overlopen* (déborder)
+> **OVER-** ① d'un côté à l'autre : *oversteken* (traverser), *overstappen* (changer de train), *overschrijven* (virer de l'argent, BE ; NL : *overmaken*) ② de nouveau : *overdoen* (refaire), *overlezen* (relire) ③ passer à qn : *overnemen* (reprendre), *overdragen* (transmettre un dossier) — BE : *de agenda overlopen* (passer en revue l'ordre du jour)
 
 **Notes pour l'animateur** — *De vergadering gaat niet door* = la réunion n'a pas lieu (piège fréquent : ce n'est pas « ne continue pas »). Au téléphone : *Ik verbind u door.* Attention : *door-* et *over-* ont des doublets inséparables (diapo 18).
 
@@ -267,7 +268,7 @@
 > *aanzetten ↔ uitzetten* (allumer / éteindre) · *inloggen ↔ uitloggen* · *instappen ↔ uitstappen* · *inademen ↔ uitademen*
 > *toenemen ↔ afnemen* (augmenter / diminuer) · *meevallen ↔ tegenvallen* · *aankomen ↔ afvallen* (grossir / maigrir) · *opendoen ↔ dichtdoen* (BE : *toedoen*)
 
-**Notes pour l'animateur** — Apprendre par paires double la mémoire. Jeu rapide : l'enseignant·e dit un verbe, la classe répond le contraire. *aandoen / uitdoen* (allumer / éteindre ; mettre / enlever un vêtement) est très courant en Belgique.
+**Notes pour l'animateur** — Apprendre par paires aide à mémoriser. Jeu rapide : l'enseignant·e dit un verbe, la classe répond le contraire. *aandoen / uitdoen* = mettre / enlever (un vêtement) ; au sens d'allumer / éteindre, c'est surtout belge et familier.
 
 ---
 
@@ -279,7 +280,7 @@
 - Schéma **P2** « l'étoile du verbe », deux fois : *nemen* et *gaan* au centre, 7 rayons colorés chacun.
 
 **Contenu textuel**
-> **NEMEN** : *aannemen* (accepter ; embaucher ; supposer) · *afnemen* (diminuer ; enlever) · *opnemen* (enregistrer ; décrocher) · *overnemen* (reprendre) · *toenemen* (augmenter) · *meenemen* (emporter) · *deelnemen* (participer)
+> **NEMEN** : *aannemen* (accepter ; embaucher ; supposer) · *afnemen* (diminuer ; enlever) · *opnemen* (enregistrer ; décrocher) · *overnemen* (reprendre) · *toenemen* (augmenter) · *meenemen* (emporter) · *innemen* (prendre un médicament)
 > **GAAN** : *doorgaan* (continuer ; avoir lieu) · *nagaan* (vérifier) · *uitgaan* (sortir) · *meegaan* (accompagner) · *ingaan op* (répondre à) · *tegengaan* (combattre) · *omgaan met* (gérer)
 
 **Notes pour l'animateur** — Faites construire en groupe l'étoile de *komen* (*aankomen, meekomen, terugkomen, voorkomen, uitkomen, overkomen, tegenkomen*) ou de *zetten* (*aanzetten, uitzetten, afzetten, opzetten, omzetten, voortzetten*).
@@ -294,10 +295,10 @@
 - 4 cartes (*opnemen, afnemen, aannemen, uitvallen*), chacune avec 3 phrases et leur traduction.
 
 **Contenu textuel**
-> **opnemen** : *Neem de telefoon op!* (décroche) · *We nemen het gesprek op.* (enregistrer) · *Ik neem morgen verlof op.* (prendre un congé)
+> **opnemen** : *Neem de telefoon op!* (décroche) · *We nemen het gesprek op.* (enregistrons) · *Ik neem morgen verlof op.* (prends un congé)
 > **afnemen** : *De werkloosheid neemt af.* (diminue) · *Hij neemt een examen af.* (fait passer) · *Neem de tafel even af.* (essuie)
 > **aannemen** : *Ik neem het voorstel aan.* (accepte) · *Het bedrijf neemt twee mensen aan.* (embauche) · *Ik neem aan dat je komt.* (suppose)
-> **uitvallen** : *De stroom valt uit.* (panne) · *De les valt uit.* (est annulée) · *Hij valt uit.* (abandonne)
+> **uitvallen** : *De stroom valt uit.* (tombe en panne) · *De les valt uit.* (est annulée) · *Hij valt uit.* (abandonne)
 
 **Notes pour l'animateur** — Stratégie : ne pas chercher « le » sens, mais le sens qui va avec le complément (*verlof opnemen*, *de telefoon opnemen*). Faites noter les verbes avec leur complément typique.
 
@@ -308,7 +309,7 @@
 **Objectif pédagogique** — Utiliser les verbes à particule qui demandent une préposition, avec *er* (M23).
 
 **Visuel / Schéma / Agencement**
-- Tableau : le verbe + préposition · un exemple · la forme avec *er* (préposition au bout, particule collée au verbe).
+- Tableau : le verbe + préposition · un exemple · la forme avec *er* (*er* + préposition ensemble, particule au bout).
 
 **Contenu textuel**
 > *afhangen van* (dépendre de) → *Het hangt **ervan af**.*
@@ -319,7 +320,7 @@
 > *ingaan op* (répondre à, réagir à) → *Ik ga **erop in**.*
 > *opkomen voor* (défendre) · *omgaan met* (gérer) · *meedoen aan* (participer à)
 
-**Notes pour l'animateur** — Ordre à retenir : *er* + préposition forment un bloc, la particule va au bout : *Ik kijk ernaar uit.* Dans la subordonnée : *…, omdat ik ernaar uitkijk.* Ces formules sont typiques du B2 écrit (e-mails, réunions).
+**Notes pour l'animateur** — Ordre à retenir : la particule va au bout : *Ik kijk ernaar uit.* Dans la subordonnée : *…, omdat ik ernaar uitkijk.* *er* et la préposition se séparent dès qu'un adverbe s'intercale : *Het hangt er nog van af · Ik kijk er echt naar uit · Ik heb er lang over nagedacht.* Ces formules sont typiques du B2 écrit (e-mails, réunions).
 
 ---
 
@@ -334,7 +335,7 @@
 **Contenu textuel**
 > **Jamais séparables** : *be-, ge-, her-, ont-, er-, ver-* → *ik ver**taal**, ik heb **vertaald*** (pas de *ge-*)
 > *ver-* = changement (*verbeteren*), erreur (*zich verspreken*), éloignement, perte (*verdwijnen, verliezen*)
-> **Doublets** : *DOORlopen* (continuer à marcher) / *doorLOpen* (parcourir, suivre une formation) · *VOORkomen* (se produire) / *voorKOmen* (éviter) · *OVERkomen* (venir ; faire impression) / *overKOmen* (arriver à qn) · *ONDERgaan* (se coucher : le soleil) / *onderGAAN* (subir) · *OVERleggen* (présenter un document) / *overLEGgen* (se concerter)
+> **Doublets** : *DOORlopen* (continuer à marcher) / *doorLOpen* (parcourir, suivre une formation) · *VOORkomen* (se produire) / *voorKOmen* (éviter) · *OVERkomen* (venir ; paraître : *Hij komt arrogant over*) / *overKOmen* (arriver à qn) · *ONDERgaan* (se coucher : le soleil) / *onderGAAN* (subir) · *OVERleggen* (présenter un document) / *overLEGgen* (se concerter)
 > Accent sur la particule → séparable, *ge-* : *Het is vaak **voorgekomen**.* · Accent sur le verbe → inséparable, sans *ge-* : *We hebben een ongeluk **voorkomen**.*
 
 **Notes pour l'animateur** — Dans le tableau de départ, *ver-* figurait parmi les particules : c'est un piège fréquent, puisque *ver-* a bien un sens. Mais il ne se détache jamais. Test rapide : faites dire le verbe à voix haute ; si l'accent tombe sur le préfixe (***VOOR**komen*), il est séparable.
@@ -383,7 +384,7 @@
 
 **Contenu textuel**
 > **AAN** contact, début, acquérir — *aanzetten, aanleren* · **AF** enlever, finir, diminuer — *afmaken, afnemen* · **OP** haut, entièrement, noter — *opstaan, opschrijven* · **UIT** dehors, jusqu'au bout, montrer — *uitgaan, uitleggen* · **IN** dedans, remettre — *inloggen, inleveren* · **BIJ** en plus, mettre à jour — *bijleren, bijhouden* · **TOE** vers, en plus, fermé (BE) — *toevoegen, toenemen*
-> **NA** après, imiter, vérifier — *nadenken, nakijken* · **DOOR** à travers, continuer, transmettre — *doorgaan, doorsturen* · **OVER** d'un côté à l'autre, de nouveau, transférer — *overstappen, overnemen* · **MEE** avec — *meenemen, meedoen* · **TEGEN** contre — *tegenkomen, tegenhouden* · **OM** autour, changer — *omrijden, omzetten* · **VOOR** devant, proposer — *voorbereiden, voorstellen*
+> **NA** après, imiter, vérifier — *nadenken, nakijken* · **DOOR** à travers, continuer, transmettre — *doorgaan, doorsturen* · **OVER** d'un côté à l'autre, de nouveau, passer à qn — *overstappen, overnemen* · **MEE** avec, participer — *meenemen, meedoen* · **TEGEN** contre — *tegenkomen, tegenhouden* · **OM** autour, changer — *omrijden, omzetten* · **VOOR** devant, proposer — *voorbereiden, voorstellen*
 > *ver-, be-, ont-, her-, ge-, er-* : jamais séparables.
 
 **Notes pour l'animateur** — Ce tableau reprend celui de départ, corrigé (*ver-* sorti, sens unifiés) et complété (*mee-, tegen-, om-, voor-*). Il est la référence de tous les exercices.
@@ -412,12 +413,12 @@
 - Gabarit **E1** : 8 phrases à trous ; le sens attendu entre parenthèses.
 
 **Contenu textuel**
-> 1 *Kun je de radio ……zetten?* (éteindre) · 2 *De prijzen nemen elk jaar …… .* (augmenter) · 3 *Ik moet dit woord even ……zoeken.* (chercher) · 4 *Lees je tekst nog eens …… voor je hem verstuurt.* (relire)
-> 5 *Wil je deze mail naar Sofie ……sturen?* (transférer) · 6 *Lotte heeft de taak van An ……genomen.* (reprendre) · 7 *Je moet je rapport vrijdag ……leveren.* (remettre) · 8 *In die cursus heb ik veel ……geleerd.* (apprendre en plus)
+> 1 *Kun je de radio ……zetten?* (éteindre) · 2 *De prijzen nemen elk jaar …… .* (augmenter) · 3 *Ik moet dit woord even ……zoeken.* (chercher dans le dictionnaire) · 4 *Lees je tekst nog eens …… voor je hem verstuurt.* (relire)
+> 5 *Wil je deze mail naar Sofie ……sturen?* (transférer) · 6 *Lotte heeft de taak van An ……genomen.* (reprendre) · 7 *Je moet je rapport vrijdag ……leveren.* (remettre) · 8 *Ik wil nog wat Nederlands ……leren.* (apprendre en plus)
 >
 > **✓ CORRECTIE** — 1 *uit* · 2 *toe* · 3 *op* · 4 *na* · 5 *door* · 6 *over* · 7 *in* · 8 *bij*
 
-**Notes pour l'animateur** — Faites justifier par le sens de la particule (diapo 21). N° 1 : *af* est aussi possible en Belgique (*afzetten*).
+**Notes pour l'animateur** — Faites justifier par le sens de la particule (diapo 21). À accepter aussi : n° 1 *af* (BE : *afzetten*) · n° 4 *over* ou *door* (*overlezen, doorlezen*) · n° 7 *af* (*afleveren*).
 
 ---
 
@@ -430,11 +431,11 @@
 
 **Contenu textuel**
 > 1 *Het bedrijf wil drie nieuwe medewerkers …… .* (embaucher) · 2 *Vergeet niet een paraplu …… .* (emporter) · 3 *Het aantal klanten …… elk jaar …… .* (augmenter) · 4 *De werkloosheid …… .* (diminuer)
-> 5 *Kun je even de telefoon ……?* (décrocher) · 6 *Wie …… het project van An ……?* (reprendre) · 7 *Tien collega's …… aan de opleiding …… .* (participer) · 8 *Je moet dit medicijn drie keer per dag …… .* (prendre)
+> 5 *Kun je even de telefoon ……?* (décrocher) · 6 *Wie …… het project van An ……?* (reprendre) · 7 *Tien collega's …… aan de opleiding.* (participer) · 8 *Je moet dit medicijn drie keer per dag …… .* (prendre)
 >
-> **✓ CORRECTIE** — 1 *aannemen* · 2 *mee te nemen* · 3 *neemt … toe* · 4 *neemt af* · 5 *opnemen* · 6 *neemt … over* · 7 *nemen … deel* · 8 *innemen*
+> **✓ CORRECTIE** — 1 *aannemen* · 2 *mee te nemen* · 3 *neemt … toe* · 4 *neemt af* · 5 *opnemen* · 6 *neemt … over* · 7 *nemen deel* · 8 *innemen*
 
-**Notes pour l'animateur** — N° 2 : après *vergeten*, *te* + infinitif : *mee te nemen* (diapo 19). N° 7 : *deelnemen aan* : la particule *deel* va au bout, après le complément (*nemen aan de opleiding deel*).
+**Notes pour l'animateur** — N° 2 : après *vergeten*, *te* + infinitif : *mee te nemen* (diapo 19). N° 7 : ordre le plus courant *nemen deel aan de opleiding* (le groupe prépositionnel suit la particule) ; *nemen aan de opleiding deel* est aussi correct. N° 8 : *nemen* seul est aussi correct (très courant en Belgique) ; *innemen* figure sur l'étoile (diapo 15).
 
 ---
 
@@ -462,11 +463,11 @@
 - Gabarit **E6** : l'e-mail de Karim à son équipe, avec la loupe et le compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Beste collega's,* ↵ *De vergadering van vrijdag gaat niet door. Ik heb de offerte gisteren gevertaald. Ik stuur jullie de tekst door morgen, om de cijfers nog eens te nalezen. Lotte heeft de taak van Sofie overgenomt. Goed nieuws: het aantal klanten neemt af! We overleggen maandag verder.* ↵ *Groeten* ↵ *Karim* »
+> « *Beste collega's,* ↵ *De vergadering van vrijdag gaat niet door. Ik heb de offerte gisteren gevertaald. Ik stuur jullie de tekst door morgen, met de vraag om de cijfers nog eens te nakijken. Lotte heeft de taak van Sofie overgenomt. Goed nieuws: het aantal klanten neemt af! We overleggen maandag verder.* ↵ *Groeten* ↵ *Karim* »
 >
-> **✓ CORRECTIE** — ~~*gevertaald*~~ **vertaald** · ~~*stuur … door morgen*~~ **stuur jullie de tekst morgen door** · ~~*te nalezen*~~ **na te lezen** · ~~*overgenomt*~~ **overgenomen** · ~~*neemt af*~~ **neemt toe** (une bonne nouvelle = une augmentation)
+> **✓ CORRECTIE** — ~~*gevertaald*~~ **vertaald** · ~~*stuur … door morgen*~~ **stuur jullie de tekst morgen door** · ~~*te nakijken*~~ **na te kijken** · ~~*overgenomt*~~ **overgenomen** · ~~*neemt af*~~ **neemt toe** (une bonne nouvelle = une augmentation)
 
-**Notes pour l'animateur** — Leurres : *gaat niet door* (n'a pas lieu) et *We overleggen* (inséparable : se concerter) sont corrects. N° 5 est une erreur de **sens** : la phrase est grammaticale, mais contredit « goed nieuws ».
+**Notes pour l'animateur** — Leurres : *gaat niet door* (n'a pas lieu) et *We overleggen* (inséparable : se concerter) sont corrects. N° 5 est une erreur de **sens** : la phrase est grammaticale, mais contredit *goed nieuws!*
 
 ---
 
@@ -480,7 +481,7 @@
 **Contenu textuel**
 > 1 *Zet de computer aan.* · 2 *Ik log in.* · 3 *De prijzen nemen toe.* · 4 *Het examen viel tegen.* · 5 *We stappen in.* · 6 *Doe de deur open.* · 7 *Ik ben drie kilo aangekomen.* · 8 *Adem diep in.*
 >
-> **✓ CORRECTIE** — 1 *Zet de computer uit.* · 2 *Ik log uit.* · 3 *De prijzen nemen af.* · 4 *Het examen viel mee.* · 5 *We stappen uit.* · 6 *Doe de deur dicht.* (BE : *toe*) · 7 *Ik ben drie kilo afgevallen.* · 8 *Adem diep uit.*
+> **✓ CORRECTIE** — 1 *Zet de computer uit.* (BE : *af*) · 2 *Ik log uit.* · 3 *De prijzen nemen af.* · 4 *Het examen viel mee.* · 5 *We stappen uit.* · 6 *Doe de deur dicht.* (BE : *toe*) · 7 *Ik ben drie kilo afgevallen.* · 8 *Adem diep uit.*
 
 **Notes pour l'animateur** — N° 7 : *afvallen* prend *zijn* comme *aankomen*. Variante orale : en binômes, l'un dit la phrase, l'autre répond immédiatement le contraire.
 
@@ -491,12 +492,12 @@
 **Objectif pédagogique** — Combiner particules et verbes de base, vérifier qu'un verbe existe et l'employer.
 
 **Visuel / Schéma / Agencement**
-- Gabarit **E7** : une roue de 10 particules et 8 cartes-verbes (*gaan, nemen, komen, zetten, leggen, vallen, houden, kijken*), règles en 3 puces.
+- Gabarit **E7** : une roue de 12 particules (*aan, af, op, uit, in, bij, toe, na, door, over, mee, voor*) et 8 cartes-verbes (*gaan, nemen, komen, zetten, leggen, vallen, houden, kijken*), règles en 3 puces.
 
 **Contenu textuel**
 > 1. Tournez la roue (une particule) et tirez une carte-verbe. 2. Le verbe existe ? Donnez son sens et une phrase. 3. 1 point par verbe juste, 2 points si vous donnez deux sens. Le verbe n'existe pas ? Dites-le : 1 point aussi !
 
-**Notes pour l'animateur** — Exemples de combinaisons valables : *aangaan, afgaan* (sonner : alarme), *doorgaan, meegaan, nagaan, uitgaan, opgaan* ; *afnemen, opnemen, toenemen, meenemen* ; *aankomen, meekomen, uitkomen* (se réaliser ; sortir : livre), *tegenkomen, voorkomen* ; *aanzetten, afzetten, opzetten* (monter : projet), *uitzetten, omzetten* ; *aanleggen* (aménager), *afleggen* (passer : examen ; parcourir), *uitleggen, opleggen* (imposer), *voorleggen* (soumettre) ; *meevallen, tegenvallen, uitvallen, opvallen, afvallen, invallen* (remplacer qn) ; *bijhouden, ophouden* (arrêter), *volhouden* (persévérer), *tegenhouden, aanhouden* (arrêter qn ; persister) ; *opkijken, uitkijken, nakijken, toekijken, omkijken*. Gardez un dictionnaire (ou *Van Dale*) comme arbitre.
+**Notes pour l'animateur** — Exemples de combinaisons valables : *aangaan, afgaan* (sonner : alarme), *doorgaan, meegaan, nagaan, uitgaan, opgaan* ; *afnemen, opnemen, toenemen, meenemen* ; *aankomen, meekomen, uitkomen* (se réaliser ; sortir : livre), *voorkomen* ; *aanzetten, afzetten, opzetten* (monter : projet), *uitzetten* ; *aanleggen* (aménager), *afleggen* (passer : examen ; parcourir), *uitleggen, opleggen* (imposer), *voorleggen* (soumettre) ; *meevallen, uitvallen, opvallen, afvallen, invallen* (remplacer qn) ; *bijhouden, ophouden* (arrêter), *aanhouden* (arrêter qn ; persister) ; *opkijken, uitkijken, nakijken, toekijken, inkijken* (jeter un œil) ; *bijleggen, bijkomen, voorgaan* (passer devant). Gardez un dictionnaire (ou *Van Dale*) comme arbitre.
 
 ---
 
