@@ -208,7 +208,7 @@ function build(d) {
     });
     [0, 1, 2, 3].forEach((j) => d.line(s, X(j) + cw / 2, 3.72, X(j) + cw / 2, 4.22, { color: 'accent5', lw: 2 }));
     d.t(s, 'une ligne plus bas', 0.6, 3.72, 2.05, 0.5, { size: 12, italic: true, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-    band(s, 'Une ligne plus bas = l’auxiliaire passe au passé : //**heb → had · ben → was · zal → zou · werk → werkte**//', 6.0, 0.7, 'tx2', 15);
+    band(s, 'Une ligne plus bas = le verbe conjugué (souvent l’auxiliaire) passe au passé : //**heb → had · ben → was · zal → zou · werk → werkte**//', 6.0, 0.7, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 6 les formes
@@ -305,7 +305,7 @@ function build(d) {
       d.t(s, fr, x + 0.1, cy + 0.55, cw - 0.2, 0.35, { size: 13, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
       rich(s, pc(ex, 16), x + 0.15, cy + 0.95, cw - 0.3, 1.05, { align: 'center' });
     });
-    band(s, '⚠ « Je viens de manger » : ✗ //ik kom te eten//  ✓ //Ik **heb net gegeten**.//', 6.15, 0.62, VB, 16);
+    band(s, '⚠ « Je viens de manger » : ✗ //ik kom van te eten// (gallicisme)  ✓ //Ik **heb net gegeten**.//', 6.15, 0.62, VB, 16);
   }
 
   // ---------------------------------------------------------------- 10 photo ou film
@@ -337,7 +337,7 @@ function build(d) {
     d.t(s, ['radical en **s, f, t, k, ch, p** → //-te · ge…t//', '//werk → werk**te** · ge**werkt**//', 'sinon → //-de · ge…d//', '//woon → woon**de** · ge**woond**//'], 0.8, 2.15, cw - 0.4, 1.45, { size: 15, gap: 2, valign: 'top' });
     d.rect(s, 0.6, 3.8, cw, 2.2, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
     d.t(s, '**hebben ou zijn ?**', 0.8, 3.88, cw - 0.4, 0.45, { size: 16, color: PA, valign: 'middle' });
-    d.t(s, ['**zijn** : un changement de lieu (vers un but) ou d’état', '//gaan, komen, vertrekken, worden, blijven, zijn, beginnen//', '**hebben** : tout le reste', '//werken, eten, bellen, hebben, doen…//'], 0.8, 4.35, cw - 0.4, 1.6, { size: 15, gap: 2, valign: 'top' });
+    d.t(s, ['**zijn** : un changement de lieu (vers un but) ou d’état', '//gaan, komen, vertrekken, worden, beginnen// + //zijn, blijven//', '**hebben** : tout le reste', '//werken, eten, bellen, hebben, doen…//'], 0.8, 4.35, cw - 0.4, 1.6, { size: 15, gap: 2, valign: 'top' });
     const I = [['zijn', 'was · waren', '(ben) geweest'], ['hebben', 'had · hadden', 'gehad'], ['gaan', 'ging · gingen', '(ben) gegaan'], ['komen', 'kwam · kwamen', '(ben) gekomen'], ['doen', 'deed · deden', 'gedaan'],
       ['zien', 'zag · zagen', 'gezien'], ['nemen', 'nam · namen', 'genomen'], ['krijgen', 'kreeg · kregen', 'gekregen'], ['schrijven', 'schreef · schreven', 'geschreven'], ['blijven', 'bleef · bleven', '(ben) gebleven']];
     const x = 6.75; const W = [1.6, 2.25, 2.13];
@@ -434,7 +434,7 @@ function build(d) {
     d.rect(s, 8.97, y - 0.3, 0.06, 0.6, { fill: MK, line: null, radius: 0 });
     d.t(s, ['**vrijdag 17 uur**', '//tegen vrijdag//'], 9.5, y - 1.1, 2.8, 0.85, { size: 15, color: MK, valign: 'middle', gap: 0 });
     d.ill(s, 'check-mark-button', 7.7, y - 0.85, 0.5, 0.5);
-    const R = [['{Tegen vrijdag} <zal> ik het rapport <geschreven hebben>.', 'd’ici vendredi, j’aurai écrit le rapport'], ['{Volgend jaar} <zal> ik hier tien jaar <gewerkt hebben>.', 'l’an prochain, j’aurai travaillé ici dix ans'], ['Hij is er nog niet: hij <zal> de trein <gemist hebben>.', 'supposition : il aura raté le train']];
+    const R = [['{Tegen vrijdag} <zal> ik het rapport <geschreven hebben>.', 'd’ici vendredi, j’aurai écrit le rapport'], ['{Volgend jaar} <zal> ik hier tien jaar <gewerkt hebben>.', 'l’an prochain, j’aurai travaillé ici dix ans'], ['Hij is er nog niet: hij <zal> de trein {wel} <gemist hebben>.', 'supposition : il aura raté le train']];
     R.forEach(([t, fr], i) => {
       const yy = 3.55 + i * 0.75;
       d.rect(s, 0.6, yy, 12.13, 0.68, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: null, radius: 0.08 });
@@ -534,8 +534,8 @@ function build(d) {
     const y = 3.35; const nu = 7.0;
     tl(s, 0.7, 12.75, y, { nu, nuLab: false, zones: [[0.8, 6.8, PA], [7.2, 12.4, FU]] });
     d.rect(s, 2.6, y - 0.12, nu - 2.6, 0.24, { fill: PR, line: 'FFFFFF', lw: 1, radius: 0.06 });
-    const M = [['eergisteren', 1.35, 0, PA], ['vorige week', 3.4, 0, PA], ['toen', 5.0, 0, PA], ['nu · vandaag', nu, 0, PR], ['straks', 8.8, 0, FU], ['volgende week', 10.6, 0, FU],
-      ['vroeger', 1.2, 1, PA], ['gisteren', 2.75, 1, PA], ['net', 6.2, 1, PA], ['zo meteen', 7.85, 1, FU], ['morgen', 9.4, 1, FU], ['tegen vrijdag', 11.6, 1, FU]];
+    const M = [['vroeger', 1.25, 0, PA], ['eergisteren', 3.55, 0, PA], ['toen', 5.55, 0, PA], ['nu · vandaag', nu, 0, PR], ['straks', 8.8, 0, FU], ['volgende week', 10.6, 0, FU],
+      ['vorige week', 2.4, 1, PA], ['gisteren', 4.65, 1, PA], ['net', 6.3, 1, PA], ['zo meteen', 7.85, 1, FU], ['morgen', 9.4, 1, FU], ['tegen vrijdag', 11.6, 1, FU]];
     M.forEach(([t, x, below, c]) => {
       const w = wOf(t, 14) * 1.12 + 0.1; const yy = below ? y + 0.42 : y - 0.95;
       d.line(s, x, below ? y + 0.12 : y - 0.12, x, below ? yy : yy + 0.5, { color: hexOf(c), lw: 1, arrow: false });
@@ -584,7 +584,7 @@ function build(d) {
       d.t(s, `//**${ex}**//`, 3.4, y, 2.75, 0.52, { size: 13, valign: 'middle' });
     });
     const R = [['hourglass-not-done', '**depuis** = presens + //al / sinds// : //Ik woon hier al 3 jaar.//'], ['camera-with-flash', '**perfectum** = le fait, le bilan · **imperfectum** = décor, habitude, récit'],
-      ['hourglass-done', '**avant le passé** = //had / was// + participe : //Toen ik aankwam, was hij al weg.//'], ['crystal-ball', '**futur** = presens + marqueur (souvent), //gaan//, //zullen//'],
+      ['hourglass-done', '**avant le passé** = //had / was// + participe : //Toen ik aankwam, was hij al vertrokken.//'], ['crystal-ball', '**futur** = presens + marqueur (souvent), //gaan//, //zullen//'],
       ['thought-balloon', '**imaginaire** = //zou// · **si** = //als// + imperfectum · **regret** = //had moeten//']];
     R.forEach(([ic, t], i) => {
       const y = 1.6 + i * 0.97;
@@ -636,7 +636,8 @@ function build(d) {
       d.rect(s, X[j], top, W[j] - 0.05, 0.4, { fill: 'tx2', line: null, radius: 0.06 });
       d.t(s, `**${h}**`, X[j], top, W[j] - 0.05, 0.4, { size: 14, color: 'bg1', align: 'center', valign: 'middle' });
     });
-    const y0 = top + 0.45; const rh = (6.85 - y0) / 8;
+    const y0 = top + 0.45; const rh = ((mode === 'a' ? 6.45 : 6.85) - y0) / 8;
+    if (mode === 'a') d.t(s, 'L’ordre à la fin est libre : aussi //zal hebben gebeld · zullen zijn vertrokken · zou hebben gebeld · zouden zijn vertrokken//.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
     T.forEach(([, nl, , fr, c], i) => {
       const y = y0 + i * rh;
       d.rect(s, 0.6, y + 0.02, 12.08, rh - 0.04, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: null, radius: 0.06 });
@@ -648,11 +649,11 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 26 ex3 photo ou film
-  d.ex({ g: 26, title: 'Exercice 3 — Photo ou film ?', stars: '★★', instr: 'Conjuguez les verbes : perfectum (photo) ou imperfectum (film) ?' }, (s, mode, top) => {
+  d.ex({ g: 26, title: 'Exercice 3 — Photo ou film ?', stars: '★★', instr: 'Photo ou film ? 1re case : le verbe conjugué · 2e case : le participe (ou rien).' }, (s, mode, top) => {
     const h = 6.85 - top;
     d.rect(s, 0.6, top, 8.6, h, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
-    const txt = 'Vorige zaterdag [[ben]] ik naar de markt [[gegaan]] //(gaan)//. Het [[was]] //(zijn)// mooi weer en de zon [[scheen]] //(schijnen)//. Overal [[stonden]] //(staan)// mensen. Ik [[kocht]] //(kopen)// groenten en [[dronk]] //(drinken)// een koffie. Plots [[zag]] //(zien)// ik mijn oude collega Karim! We [[hebben]] een uur [[gepraat]] //(praten)//. Het [[is]] een fijne dag [[geweest]] //(zijn)//.';
-    d.t(s, txt, 0.85, top + 0.15, 8.1, h - 0.3, { size: 18, mode, ls: 1.35, valign: 'top' });
+    const txt = 'Vorige zaterdag [[ben]] //(gaan)// ik naar de markt [[gegaan]]. Het [[was]] //(zijn)// mooi weer [[—]] en de zon [[scheen]] //(schijnen)// [[—]]. Overal [[stonden]] //(staan)// mensen [[—]]. Ik [[kocht]] //(kopen)// groenten [[—]] en [[dronk]] //(drinken)// een koffie [[—]]. Plots [[zag]] //(zien)// ik mijn oude collega Karim [[—]]! We [[hebben]] //(praten)// een uur [[gepraat]]. Het [[is]] //(zijn)// een fijne dag [[geweest]].';
+    d.t(s, txt, 0.85, top + 0.15, 8.1, h - 0.3, { size: 17, mode, ls: 1.4, valign: 'top' });
     d.rect(s, 9.45, top, 3.28, h, { fill: TINT[PA], line: PA, lw: 1.5, radius: 0.12 });
     d.ill(s, 'camera-with-flash', 9.6, top + 0.15, 0.6, 0.6);
     d.t(s, '**photo** : perfectum', 10.3, top + 0.15, 2.35, 0.6, { size: 14, color: PA, valign: 'middle' });
@@ -719,7 +720,8 @@ function build(d) {
       d.rect(s, X(j), top, cw, 0.45, { fill: c, line: null, radius: 0.08 });
       d.t(s, `**${h}**`, X(j), top, cw, 0.45, { size: 14, color: 'bg1', align: 'center', valign: 'middle' });
     });
-    const rh = (6.85 - top - 0.55) / 2;
+    const rh = ((mode === 'a' ? 6.45 : 6.85) - top - 0.55) / 2;
+    if (mode === 'a') d.t(s, 'Aussi : ② //Als ik geld zou hebben, …// · ③ //…, zou ik een huis gekocht hebben · had gehad, had geweten// (ordre libre).', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
     ex7.forEach(([ic, sit, L], i) => {
       const y = top + 0.55 + i * rh;
       d.rect(s, 0.6, y, lw, rh - 0.12, { fill: 'bg2', line: BORDER, lw: 1, radius: 0.1 });
@@ -753,12 +755,12 @@ function build(d) {
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
     d.t(s, 'Van: Sofie Claes · Aan: Lotte Maes · Onderwerp: Groot nieuws!', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
-    const txt = ['//Hoi Lotte,//', '//Hoe gaat het? Ik {{heb hier al vijf jaar gewerkt}}++ werk hier al vijf jaar++, maar volgende maand verander ik van job! Vorige week {{heb}}++ had++ ik een sollicitatiegesprek bij Koopzo. Ik {{kom net te bellen met de HR-dienst}}++ heb net met de HR-dienst gebeld++: ze nemen me aan! Toen ik het hoorde, {{ben}}++ was++ ik zo blij. Ik had dat echt niet verwacht. Als ik meer tijd {{heb}}++ had++, zou ik een feestje geven.//', '//Groetjes,//', '//Sofie//'];
-    d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 17, gap: 6, mode, ls: 1.15, valign: 'top' });
+    const txt = ['//Hoi Lotte,//', '//Hoe gaat het? Ik {{heb sinds september Nederlandse les gevolgd}}++ volg sinds september Nederlandse les++ en ik vind het nog altijd super! En ik heb groot nieuws: volgende maand verander ik van job! Vorige week {{heb}}++ had++ ik een sollicitatiegesprek bij Koopzo. Ik {{kom van te bellen met de HR-dienst}}++ heb net met de HR-dienst gebeld++: ze nemen me aan! Toen ik het hoorde, {{ben}}++ was++ ik zo blij. Ik had dat echt niet verwacht. Als ik meer tijd {{heb}}++ had++, zou ik een feestje geven.//', '//Groetjes,//', '//Sofie//'];
+    d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 16, gap: 6, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
     d.rect(s, 9.9, top + 1.95, 2.83, 0.9, { fill: 'accent6', line: null });
     d.t(s, mode === 'q' ? '5 erreurs ?' : '5 erreurs ✓', 9.9, top + 1.95, 2.83, 0.9, { size: 22, bold: true, color: 'bg1', align: 'center', valign: 'middle' });
-    if (mode === 'a') d.t(s, 'Corrects : //volgende maand verander ik// (présent + marqueur = futur), //Ik had dat niet verwacht// (passé du passé), //zou ik … geven//.', 9.9, top + 3.05, 2.83, 2.6, { size: 13, italic: true, color: 'accent5' });
+    if (mode === 'a') d.t(s, ['Aussi : //heb ik … gehad// · //Als ik meer tijd heb, geef ik…//', 'Corrects : //volgende maand verander ik// (présent + marqueur = futur), //Ik had dat niet verwacht// (passé du passé).'], 9.9, top + 3.05, 2.83, 2.7, { size: 12.5, italic: true, color: 'accent5', gap: 6 });
   });
 
   // ---------------------------------------------------------------- 33 ex10 la roue du temps

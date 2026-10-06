@@ -157,7 +157,7 @@ function build(d) {
     R.forEach(([w, fr, ex], i) => card(s, 0.6, 1.6 + i * (rh + 0.1), 8.4, rh, w, fr, ex, TR, { cw: 1.7, ws: 17, size: 16 }));
     d.rect(s, 9.25, 1.6, 3.48, 4.4, { fill: 'F1ECF7', line: TR, lw: 1.5, radius: 0.12 });
     d.ill(s, 'person-cartwheeling', 10.45, 1.75, 1.1, 1.1);
-    d.t(s, ['Le mot **saute** dans la case ① : le verbe reste ②, le sujet passe **derrière**.', '', 'Aussi : //dan, eerst, vervolgens, tenslotte, echter, dus//.'], 9.4, 2.95, 3.2, 3.0, { size: 14, gap: 4, valign: 'top' });
+    d.t(s, ['Le mot **saute** dans la case ① : le verbe reste ②, le sujet passe **derrière**.', '', 'Aussi : //dan, eerst, vervolgens, ten slotte, dus//.'], 9.4, 2.95, 3.2, 3.0, { size: 14, gap: 4, valign: 'top' });
     band(s, 'Le tremplin peut aussi aller au milieu : //Ik blijf **daarom** thuis.// (après le verbe, sans inversion)', 6.15, 0.62, 'tx2', 16);
   }
   {
@@ -183,7 +183,7 @@ function build(d) {
       d.t(s, [`**${h}**`, sub], CX[j], 1.55, CW[j], 0.55, { size: 12, color: 'bg1', align: 'center', valign: 'middle', gap: 0 });
     });
     const R = [['plus', 'ajout', 'en', 'bovendien · ook', '—'], ['hourglass-done', 'temps', '—', 'eerst · dan · daarna · toen (puis)', 'toen · als · wanneer · terwijl · voordat · nadat · zodra · sinds · totdat'], ['red-question-mark', 'cause', 'want', '—', 'omdat · doordat · aangezien'],
-      ['fast-forward-button', 'conséquence · but', 'dus', 'daarom · dus', 'zodat'], ['balance-scale', 'opposition', 'maar', 'toch · echter', 'hoewel · terwijl · ook al'], ['link', 'condition', 'of (ou bien)', 'anders', 'als · tenzij · indien'], ['left-right-arrow', 'comparaison', '—', '—', 'zoals · alsof · dan']];
+      ['fast-forward-button', 'conséquence · but', 'dus', 'daarom · dus', 'zodat'], ['balance-scale', 'opposition', 'maar', 'toch', 'hoewel · terwijl · ook al'], ['link', 'condition', '—', 'anders', 'als · tenzij · indien'], ['left-right-arrow', 'comparaison', '—', '—', 'zoals · alsof · dan']];
     const rh = (4.75 - 0.08 * 6) / 7;
     R.forEach(([ic, sens, a, b, c], i) => {
       const y = 2.2 + i * (rh + 0.08);
@@ -215,7 +215,7 @@ function build(d) {
     d.t(s, '**als / wanneer**', 3.9, y0 + 0.3, 2.6, 0.4, { size: 16, color: TR, align: 'center' });
     [8.4, 9.4, 10.4].forEach((x) => d.oval(s, x, y0 - 0.14, 0.28, 0.28, { fill: PO }));
     d.t(s, '**als / wanneer**', 8.2, y0 + 0.3, 2.6, 0.4, { size: 16, color: PO, align: 'center' });
-    const C = [[WA, 'TOEN', 'une fois, dans le passé', 'Toen ik in Gent woonde, fietste ik veel. · Toen ik thuiskwam, was iedereen weg.'], [TR, 'ALS / WANNEER', 'chaque fois, dans le passé', 'Als het regende, bleven we binnen.'], [PO, 'ALS / WANNEER', 'présent et futur', 'Als ik thuiskom, eet ik. · Wanneer je klaar bent, bel me.'], ['accent6', 'WANNEER?', 'la question', 'Wanneer kom je? · Weet je wanneer hij komt?']];
+    const C = [[WA, 'TOEN', 'une seule fois : un moment, une période', 'Toen ik in Gent woonde, fietste ik veel. · Toen ik thuiskwam, was iedereen weg.'], [TR, 'ALS / WANNEER', 'chaque fois, dans le passé', 'Als het regende, bleven we binnen.'], [PO, 'ALS / WANNEER', 'présent et futur', 'Als ik thuiskom, eet ik. · Wanneer je klaar bent, bel me.'], ['accent6', 'WANNEER?', 'la question', 'Wanneer kom je? · Weet je wanneer hij komt?']];
     const cw = (12.13 - 3 * 0.15) / 4;
     C.forEach(([c, h, sub, ex], i) => {
       const x = 0.6 + i * (cw + 0.15);
@@ -224,13 +224,13 @@ function build(d) {
       d.t(s, sub, x + 0.1, 4.05, cw - 0.2, 0.38, { size: 13, italic: true, color: 'tx2', align: 'center' });
       d.t(s, `//${ex}//`, x + 0.15, 4.45, cw - 0.3, 1.55, { size: 14, valign: 'middle' });
     });
-    band(s, '//als// = « quand » (habitude, futur) **et** « si » : le contexte décide. //wanneer// = seulement « quand ».', 6.2, 0.6, 'tx2', 16);
+    band(s, '//als// = « quand » (habitude, futur) **et** « si ». //wanneer// = « quand », jamais le « si » des questions (//of//).', 6.2, 0.6, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 11 avant, pendant, après
   {
     const s = d.page({ g: 11, tag: 'LE TEMPS', tagColor: WA, title: 'Avant, pendant, après : voordat, terwijl, nadat…' });
-    // mini-ligne du temps : M = action principale (orange), S = action du wagon (violet)
+    // mini-ligne du temps : M = action principale (violet, TR), S = action du wagon (orange, WA)
     const mini = (x, y, w, k) => {
       d.line(s, x, y + 0.42, x + w, y + 0.42, { color: '8A96A8', lw: 1.5 });
       const bar = (fx, fw, c, lab) => { d.rect(s, x + fx * w, y + (lab === 'S' ? 0.08 : 0.5), fw * w, 0.24, { fill: c, line: null, radius: 0.06 }); };
@@ -266,7 +266,7 @@ function build(d) {
     d.ill(s, 'bus', 4.8, 1.68, 1.0, 1.0);
     d.t(s, '**Ik neem de bus.**', 4.0, 2.65, 2.6, 0.45, { size: 16, align: 'center' });
     d.t(s, 'cause → conséquence', 0.6, 3.25, 6.0, 0.35, { size: 13, italic: true, color: 'accent5', align: 'center' });
-    const R = [['P', 'want', 'Ik neem de bus, [want] het <regent>.'], ['W', 'omdat', 'Ik neem de bus, [omdat] het <regent>.'], ['P', 'dus', 'Het regent, [dus] ik <neem> de bus.'], ['T', 'daarom', 'Het regent. [Daarom] <neem> ik de bus.'], ['W', 'zodat', 'Ik neem de bus, [zodat] ik droog <blijf>.'], ['W', 'doordat', '[Doordat] het <regende>, <was> er veel file.']];
+    const R = [['P', 'want', 'Ik neem de bus, [want] het <regent>.'], ['W', 'omdat', 'Ik neem de bus, [omdat] het <regent>.'], ['P', 'dus', 'Het regent, [dus] ik <neem> de bus.'], ['T', 'daarom', 'Het regent. [Daarom] <neem> ik de bus.'], ['W', 'zodat', 'Het regent, [zodat] ik de bus <neem>.'], ['W', 'Omdat …,', '[Omdat] het <regent>, <neem> ik de bus.']];
     R.forEach(([k, w, ex], i) => {
       const c = KIND[k][2];
       const y = 1.6 + i * 0.72;
@@ -275,7 +275,7 @@ function build(d) {
       d.t(s, `**${w}**`, 6.9, y, 1.25, 0.64, { size: 14, color: 'bg1', align: 'center', valign: 'middle' });
       rich(s, pc(ex, 14, c), 8.25, y, 4.4, 0.64);
     });
-    d.t(s, ['//want// et //omdat// = même sens (car, parce que), **ordre différent**.', '//zodat// = si bien que, pour que (le résultat, le but).', '//doordat// (B2) = du fait que : une cause non voulue.'], 0.6, 3.75, 6.0, 2.2, { size: 15, gap: 8, valign: 'top' });
+    d.t(s, ['//want// et //omdat// = même sens (car, parce que), **ordre différent**.', '//zodat// = si bien que, pour que (le résultat, le but).', '//doordat// (B2) = du fait que, une cause non voulue : //Doordat het regende, was er file.//'], 0.6, 3.75, 6.0, 2.2, { size: 15, gap: 8, valign: 'top' });
     band(s, 'Réponse à //Waarom?// : //**Omdat** het regent.// (jamais //Want…// seul en réponse)', 6.15, 0.62, 'tx2', 16);
   }
 
@@ -283,7 +283,7 @@ function build(d) {
   {
     const s = d.page({ g: 13, tag: 'OPPOSITION', tagColor: WA, title: 'L’opposition : maar, toch, hoewel…' });
     d.ill(s, 'balance-scale', 0.75, 1.6, 1.0, 1.0);
-    d.t(s, '//Het regent… we gaan wandelen !// — trois syntaxes, un même sens', 1.95, 1.6, 10.8, 1.0, { size: 18, color: 'tx2', valign: 'middle' });
+    d.t(s, '//Het regent… we gaan wandelen!// — trois syntaxes, un même sens', 1.95, 1.6, 10.8, 1.0, { size: 18, color: 'tx2', valign: 'middle' });
     const R = [['P', 'maar', 'mais', [['Het regent,', 'n'], ['maar', 'P'], ['we', 'n'], ['gaan', 'v'], ['wandelen.', 'i']]], ['T', 'toch', 'pourtant, quand même', [['Het regent.', 'n'], ['Toch', 'T'], ['gaan', 'v'], ['we', 'n'], ['wandelen.', 'i']]], ['W', 'hoewel', 'bien que', [['Hoewel', 'W'], ['het', 'n'], ['regent', 'v'], [',', 'e'], ['gaan', 'v'], ['we', 'n'], ['wandelen.', 'i']]]];
     R.forEach(([k, w, fr, parts], i) => {
       const c = KIND[k][2]; const y = 2.85 + i * 0.95;
@@ -327,7 +327,7 @@ function build(d) {
   d.section('Composer');
   {
     const s = d.page({ g: 16, tag: 'VERBE, VERBE', title: 'Le wagon en tête : verbe, verbe !' });
-    const R = [[['Omdat', 'W'], ['het', 'n'], ['regent', 'v'], [',', 'e'], ['blijf', 'v'], ['ik', 'n'], ['thuis.', 'n']], [['Als', 'W'], ['je tijd', 'n'], ['hebt', 'v'], [',', 'e'], ['bel', 'v'], ['me', 'n'], ['dan.', 'n']], [['Toen', 'W'], ['ik', 'n'], ['thuiskwam', 'v'], [',', 'e'], ['was', 'v'], ['iedereen weg.', 'n']], [['Hoewel', 'W'], ['hij moe', 'n'], ['is', 'v'], [',', 'e'], ['werkt', 'v'], ['hij door.', 'n']]];
+    const R = [[['Omdat', 'W'], ['het', 'n'], ['regent', 'v'], [',', 'e'], ['blijf', 'v'], ['ik', 'n'], ['thuis.', 'n']], [['Als', 'W'], ['je tijd', 'n'], ['hebt', 'v'], [',', 'e'], ['bel', 'v'], ['ik', 'n'], ['je.', 'n']], [['Toen', 'W'], ['ik', 'n'], ['thuiskwam', 'v'], [',', 'e'], ['was', 'v'], ['iedereen weg.', 'n']], [['Hoewel', 'W'], ['hij moe', 'n'], ['is', 'v'], [',', 'e'], ['werkt', 'v'], ['hij door.', 'n']]];
     R.forEach((parts, i) => {
       const y = 1.7 + i * 0.95;
       const e = strip(s, 0.6, y, parts, { size: 22, h: 0.68 });
@@ -396,7 +396,7 @@ function build(d) {
       d.t(s, `//${ex}//`, 9.1, y + 0.08, 3.5, 1.0, { size: 14, valign: 'middle' });
     });
     d.rect(s, 0.6, 5.55, 12.13, 1.2, { fill: 'bg2', line: BORDER, radius: 0.12 });
-    d.t(s, ['**Wagon en tête → verbe, verbe** : //Omdat het regent, blijf ik thuis.// · **si** : condition = //als//, question = //of//', '**quand** : une fois dans le passé = //toen// · habitude, futur = //als / wanneer// · question = //wanneer//'], 0.85, 5.58, 11.7, 1.15, { size: 15, gap: 5, valign: 'middle' });
+    d.t(s, ['**Wagon en tête → verbe, verbe** : //Omdat het regent, blijf ik thuis.// · **si** : condition = //als//, question = //of//', '**quand** : un moment ou une période unique du passé = //toen// · habitude, futur = //als / wanneer// · question = //wanneer//'], 0.85, 5.58, 11.7, 1.15, { size: 15, gap: 5, valign: 'middle' });
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
@@ -427,11 +427,11 @@ function build(d) {
       d.t(s, [`**${name}**`, how], x + 0.85, by + 0.08, W - 1.0, 0.65, { size: 13, color: c, valign: 'middle', gap: 0 });
       if (mode === 'a') {
         const L = ex1.filter(([, kk]) => kk === k).map(([w]) => w);
-        if (k === 'P') L.push('(dus)');
+        if (k === 'W') L.push('(of)');
         d.t(s, `//**${L.join(' · ')}**//`, x + 0.2, by + 0.85, W - 0.4, bh - 1.0, { size: 19, color: c, align: 'center', valign: 'middle' });
       }
     });
-    if (mode === 'a') d.t(s, '//dus// : pont ou tremplin. //toen// : wagon (quand) ou tremplin (puis). //of// : pont (ou) ou wagon (si).', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, '//of// : pont (ou) ou wagon (si). Hors liste : //dus// = pont ou tremplin, //toen// = wagon (quand) ou tremplin (puis).', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 23 ex2 reliez les phrases
@@ -471,17 +471,17 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 25 ex4 toen, als of wanneer
-  const ex4 = ['[[Toen]] ik klein was, woonde ik in Namen.', '[[Als]] het regent, neem ik de bus.', '[[Wanneer]] begint de cursus?', '[[Toen]] ik thuiskwam, was iedereen al weg.', '[[Als]] ik tijd heb, bel ik je.', 'Vroeger, [[als]] we op vakantie gingen, namen we de trein.', 'Weet je [[wanneer]] de trein vertrekt?', '[[Toen]] hij de brief las, begon hij te lachen.'];
+  const ex4 = ['[[Toen]] ik klein was, woonde ik in Namen.', '[[Als]] het regent, neem ik de bus.', '[[Wanneer]] begint de cursus?', '[[Toen]] ik thuiskwam, was iedereen al weg.', '[[Als]] ik tijd heb, bel ik je.', '[[Als]] we vroeger op vakantie gingen, namen we de trein.', 'Weet je [[wanneer]] de trein vertrekt?', '[[Toen]] hij de brief las, begon hij te lachen.'];
   d.ex({ g: 25, title: 'Exercice 4 — Toen, als of wanneer?', stars: '★★', instr: 'Complétez avec //toen//, //als// ou //wanneer//.' }, (s, mode, top) => {
     d.list(s, ex4.map((e) => `//${e}//`), mode, { y: top + 0.15, w: 12.13, h: 4.4, cols: 2, size: 19, gap: 18 });
-    if (mode === 'a') d.t(s, 'N° 5 et 6 : //wanneer// est aussi possible. //toen// = une fois, dans le passé.', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 2, 5 et 6 : //wanneer// est aussi possible. //toen// = un moment ou une période unique du passé.', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 26 ex5 quel mot de liaison
   const ex5 = ['Ik bel je [[zodra]] ik iets weet.', '[[Hoewel]] het duur is, koop ik het.', 'We vertrekken om 8 uur, [[tenzij]] het sneeuwt.', 'Lees de tekst [[voordat]] je de vragen beantwoordt.', '[[Nadat]] hij gegeten had, ging hij slapen.', 'Ik spreek langzaam, [[zodat]] iedereen me begrijpt.', '[[Terwijl]] ik kook, luister ik naar podcasts.', 'Ik kom niet, [[omdat]] ik ziek ben.'];
-  d.ex({ g: 26, title: 'Exercice 5 — Quel mot de liaison ?', stars: '★★', instr: 'Choisissez dans la banque : //voordat · nadat · terwijl · zodra · zodat · hoewel · tenzij · omdat//.' }, (s, mode, top) => {
+  d.ex({ g: 26, title: 'Exercice 5 — Quel mot de liaison ?', stars: '★★', instr: 'Choisissez dans la banque (chaque mot une fois) : //voordat · nadat · terwijl · zodra · zodat · hoewel · tenzij · omdat//.' }, (s, mode, top) => {
     d.list(s, ex5.map((e) => `//${e}//`), mode, { y: top + 0.15, w: 12.13, h: 4.4, cols: 2, size: 19, gap: 18 });
-    if (mode === 'a') d.t(s, 'N° 1 : aussi //als//. N° 7 : aussi //als//, //wanneer// (habitude).', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 1 : aussi //als//. N° 5 : aussi //Zodra//. N° 7 : aussi //als//, //wanneer// (habitude).', 0.6, 6.4, 12.13, 0.4, { size: 14, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 27 ex6 questions indirectes
@@ -502,7 +502,7 @@ function build(d) {
   const ex7 = [[[['blijf', 'v'], ['Omdat', 'W'], ['thuis.', 'n'], ['het', 'n'], ['regent,', 'v'], ['ik', 'n']], [['Omdat', 'W'], ['het', 'n'], ['regent', 'v'], [',', 'e'], ['blijf', 'v'], ['ik', 'n'], ['thuis.', 'n']]],
     [[['ga', 'v'], ['Ik ben moe.', 'n'], ['slapen.', 'i'], ['Daarom', 'T'], ['ik', 'n']], [['Ik ben moe.', 'n'], ['Daarom', 'T'], ['ga', 'v'], ['ik', 'n'], ['slapen.', 'i']]],
     [[['komt.', 'v'], ['of', 'W'], ['Ik weet niet', 'n'], ['hij', 'n'], ['morgen', 'n']], [['Ik weet niet', 'n'], ['of', 'W'], ['hij', 'n'], ['morgen', 'n'], ['komt.', 'v']]],
-    [[['dan.', 'n'], ['hebt,', 'v'], ['me', 'n'], ['Als', 'W'], ['bel', 'v'], ['je tijd', 'n']], [['Als', 'W'], ['je tijd', 'n'], ['hebt', 'v'], [',', 'e'], ['bel', 'v'], ['me', 'n'], ['dan.', 'n']]]];
+    [[['je.', 'n'], ['hebt,', 'v'], ['ik', 'n'], ['Als', 'W'], ['bel', 'v'], ['je tijd', 'n']], [['Als', 'W'], ['je tijd', 'n'], ['hebt', 'v'], [',', 'e'], ['bel', 'v'], ['ik', 'n'], ['je.', 'n']]]];
   d.ex({ g: 28, title: 'Exercice 7 — Le puzzle', stars: '★★', instr: 'Remettez les pièces dans l’ordre.' }, (s, mode, top) => {
     const rh = (6.6 - top) / 4;
     ex7.forEach(([shuf, ok], i) => {
@@ -514,7 +514,7 @@ function build(d) {
 
   // ---------------------------------------------------------------- 29 ex8 les paires
   const ex8 = ['Ik spreek [[zowel]] Frans [[als]] Nederlands.', 'Ze is [[niet alleen]] slim, [[maar ook]] grappig.', '[[Hoe]] meer je leest, [[hoe]] beter je schrijft.', 'Ik drink [[noch]] koffie, [[noch]] thee.', 'We gaan [[ofwel]] naar zee, [[ofwel]] naar de Ardennen.', '[[Enerzijds]] is het duur, [[anderzijds]] is het heel praktisch.'];
-  d.ex({ g: 29, title: 'Exercice 8 — Les paires', stars: '★★★', instr: 'Complétez avec la paire qui convient : //zowel … als · niet alleen … maar ook · hoe … hoe · noch … noch · ofwel … ofwel · enerzijds … anderzijds//.' }, (s, mode, top) => {
+  d.ex({ g: 29, title: 'Exercice 8 — Les paires', stars: '★★★', instr: 'Complétez avec la paire qui convient (chaque paire une fois) : //zowel … als · niet alleen … maar ook · hoe … hoe · noch … noch · ofwel … ofwel · enerzijds … anderzijds//.' }, (s, mode, top) => {
     d.list(s, ex8.map((e) => `//${e}//`), mode, { y: top + 0.2, w: 12.13, h: 4.3, cols: 1, size: 20, gap: 14 });
   });
 

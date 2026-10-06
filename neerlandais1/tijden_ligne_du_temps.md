@@ -122,7 +122,7 @@
 **Contenu textuel**
 > **NU** (point de vue : maintenant) — *ik heb gewerkt* (perfectum) · *ik werk* (presens) · *ik zal werken* (futurum) · *ik zal gewerkt hebben* (futurum exactum)
 > **TOEN** (point de vue : un moment passé) — *ik had gewerkt* (plusquamperfectum) · *ik werkte* (imperfectum) · *ik zou werken* (conditionalis) · *ik zou gewerkt hebben* (conditionalis perfectum)
-> *Une ligne plus bas = l'auxiliaire passe au passé : heb → had · ben → was · zal → zou · werk → werkte*
+> *Une ligne plus bas = le verbe conjugué (souvent l'auxiliaire) passe au passé : heb → had · ben → was · zal → zou · werk → werkte*
 
 **Notes pour l'animateur** — Les abréviations (*o.t.t.* = *onvoltooid tegenwoordige tijd*, etc.) sont celles des écoles néerlandophones et des grammaires : les apprenant·es les rencontreront. Inutile de les mémoriser ; retenir la logique « deux lignes, quatre cases » suffit. Le conditionnel apparaît ici comme un « futur vu du passé » (*Hij zei dat hij zou komen*) : c'est son sens d'origine.
 
@@ -201,7 +201,7 @@
 > **zijn aan het + inf.** « être en train de » — *Ik ben aan het koken. · Ik zit te lezen.*
 > **op het punt staan te** « être sur le point de » — *Ik sta op het punt te vertrekken.*
 > **gaan + infinitif** « aller + infinitif » — *Ik ga zo meteen eten.*
-> ⚠ « Je viens de manger » : ✗ *ik kom te eten* ✓ *Ik heb net gegeten.*
+> ⚠ « Je viens de manger » : ✗ *ik kom van te eten* (gallicisme) ✓ *Ik heb net gegeten.*
 
 **Notes pour l'animateur** — *zitten / staan / liggen te* + infinitif (M17) précisent la position : *Ik zit te lezen, hij staat te koken*. *aan het* existe aussi au passé : *Ik was aan het koken toen de telefoon ging* (voir diapo 21). *net* se place après le verbe conjugué (*Ik heb net…*), ou après le sujet en cas d'inversion (*Daarom heb ik net…*).
 
@@ -233,7 +233,7 @@
 
 **Contenu textuel**
 > **t ou d ? « SoFT KetCHuP »** — radical en *s, f, t, k, ch, p* → *-te · ge…t* : *werk → werkte · gewerkt* ; sinon → *-de · ge…d* : *woon → woonde · gewoond*
-> **hebben ou zijn ?** — **zijn** : un changement de lieu (vers un but) ou d'état : *gaan, komen, vertrekken, worden, blijven, zijn, beginnen* ; **hebben** : tout le reste : *werken, eten, bellen, hebben, doen…*
+> **hebben ou zijn ?** — **zijn** : un changement de lieu (vers un but) ou d'état : *gaan, komen, vertrekken, worden, beginnen* + *zijn, blijven* ; **hebben** : tout le reste : *werken, eten, bellen, hebben, doen…*
 > *zijn* was · waren (ben) geweest · *hebben* had · hadden gehad · *gaan* ging · gingen (ben) gegaan · *komen* kwam · kwamen (ben) gekomen · *doen* deed · deden gedaan · *zien* zag · zagen gezien · *nemen* nam · namen genomen · *krijgen* kreeg · kregen gekregen · *schrijven* schreef · schreven geschreven · *blijven* bleef · bleven (ben) gebleven
 > Pluriel de l'imperfectum : *-ten / -den* (*werkten, woonden*) ou *-en* (*kwamen*).
 
@@ -308,7 +308,7 @@
 **Contenu textuel**
 > *Tegen vrijdag zal ik het rapport geschreven hebben.* « d'ici vendredi, j'aurai écrit le rapport »
 > *Volgend jaar zal ik hier tien jaar gewerkt hebben.* « l'an prochain, j'aurai travaillé ici dix ans »
-> *Hij is er nog niet: hij zal de trein gemist hebben.* « supposition : il aura raté le train »
+> *Hij is er nog niet: hij zal de trein wel gemist hebben.* « supposition : il aura raté le train »
 > *À l'oral, plus simple : Tegen vrijdag heb ik het rapport geschreven. (perfectum + marqueur)*
 
 **Notes pour l'animateur** — Comme en français, le futur antérieur sert aussi à faire une supposition sur le passé (*il aura raté le train*). À l'oral, le perfectum + marqueur futur est la solution la plus simple ; le futurum exactum est surtout écrit.
@@ -399,7 +399,7 @@
 - Trois encadrés : PASSÉ · NU · FUTUR, avec les temps à utiliser.
 
 **Contenu textuel**
-> passé : *eergisteren · vroeger · gisteren · vorige week · toen · net* — NU : *nu · vandaag* — futur : *zo meteen · straks · morgen · volgende week · tegen vrijdag* — depuis : *al … · sinds …*
+> passé : *vroeger · vorige week · eergisteren · gisteren · toen · net* — NU : *nu · vandaag* — futur : *zo meteen · straks · morgen · volgende week · tegen vrijdag* — depuis : *al … · sinds …*
 > **PASSÉ** : *perfectum · imperfectum* · avant un autre passé : *had / was* + participe
 > **NU** : *presens* · depuis : *al, sinds* + presens · *aan het*
 > **FUTUR** : *presens* + marqueur · *gaan* · *zullen*
@@ -427,7 +427,7 @@
 > si + imparfait → als + imperfectum, zou : « Si j'avais le temps, je viendrais. » → *Als ik tijd had, zou ik komen.*
 > j'aurais dû → had moeten : « J'aurais dû appeler. » → *Ik had moeten bellen.*
 
-**Notes pour l'animateur** — Faites classer les cartes : « 1 = 1 » (présent, plus-que-parfait, si + imparfait) et « pièges » (depuis, j'ai été, venir de, futur). Le passé simple n'existe qu'à l'écrit en français ; en néerlandais, l'imperfectum sert aussi à l'oral.
+**Notes pour l'animateur** — Faites classer les cartes : « presque 1 = 1 » (présent, passé composé → perfectum, passé simple → imperfectum, si + imparfait) et « pièges » (depuis, j'ai été, imparfait → *aan het*, venir de, futur → présent, j'aurais dû → *had moeten*). Le plus-que-parfait, lui, se traduit presque toujours 1 = 1 (diapo 13). Le passé simple n'existe qu'à l'écrit en français ; en néerlandais, l'imperfectum sert aussi à l'oral.
 
 ---
 
@@ -443,7 +443,7 @@
 > presens *ik werk* · perfectum *ik heb gewerkt* · imperfectum *ik werkte* · plusquamperfectum *ik had gewerkt* · futurum *ik zal werken* · futurum exactum *ik zal gewerkt hebben* · conditionalis *ik zou werken* · conditionalis perfectum *ik zou gewerkt hebben*
 > **depuis** = presens + *al / sinds* : *Ik woon hier al 3 jaar.*
 > **perfectum** = le fait, le bilan · **imperfectum** = décor, habitude, récit
-> **avant le passé** = *had / was* + participe : *Toen ik aankwam, was hij al weg.*
+> **avant le passé** = *had / was* + participe : *Toen ik aankwam, was hij al vertrokken.*
 > **futur** = presens + marqueur (souvent), *gaan*, *zullen*
 > **imaginaire** = *zou* · **si** = *als* + imperfectum · **regret** = *had moeten*
 
@@ -495,6 +495,7 @@
 >
 > **✓ CORRECTIE** — *ik bel · ik heb gebeld · ik belde · ik had gebeld · ik zal bellen · ik zal gebeld hebben · ik zou bellen · ik zou gebeld hebben*
 > *we vertrekken · we zijn vertrokken · we vertrokken · we waren vertrokken · we zullen vertrekken · we zullen vertrokken zijn · we zouden vertrekken · we zouden vertrokken zijn*
+> L'ordre à la fin est libre : aussi *zal hebben gebeld · zullen zijn vertrokken · zou hebben gebeld · zouden zijn vertrokken*.
 
 **Notes pour l'animateur** — Faites remarquer : *we vertrokken* (imperfectum) = la même forme que le participe *vertrokken*. Variante : la classe choisit un troisième verbe (*gaan, schrijven*) et le conjugue en chaîne, un temps par personne.
 
@@ -505,16 +506,17 @@
 **Objectif pédagogique** — Choisir entre perfectum et imperfectum dans un récit.
 
 **Visuel / Schéma / Agencement**
-- Un récit à trous avec l'infinitif entre parenthèses ; *à droite*, 📸 et 🎬, puis au corrigé le classement des formes.
+- Un récit à trous : pour chaque verbe, deux cases (1re case : le verbe conjugué, avec l'infinitif entre parenthèses ; 2e case : le participe, ou rien) ; *à droite*, 📸 et 🎬, puis au corrigé le classement des formes.
 
 **Contenu textuel**
-> *Vorige zaterdag …… ik naar de markt …… (gaan). Het …… (zijn) mooi weer en de zon …… (schijnen). Overal …… (staan) mensen. Ik …… (kopen) groenten en …… (drinken) een koffie. Plots …… (zien) ik mijn oude collega Karim! We …… een uur …… (praten). Het …… een fijne dag …… (zijn).*
+> Photo ou film ? 1re case : le verbe conjugué · 2e case : le participe (ou rien).
+> *Vorige zaterdag …… (gaan) ik naar de markt …… . Het …… (zijn) mooi weer …… en de zon …… (schijnen) …… . Overal …… (staan) mensen …… . Ik …… (kopen) groenten …… en …… (drinken) een koffie …… . Plots …… (zien) ik mijn oude collega Karim …… ! We …… (praten) een uur …… . Het …… (zijn) een fijne dag …… .*
 >
-> **✓ CORRECTIE** — *ben … gegaan · was · scheen · stonden · kocht · dronk · zag · hebben … gepraat · is … geweest*
+> **✓ CORRECTIE** — *ben … gegaan · was — · scheen — · stonden — · kocht — · dronk — · zag — · hebben … gepraat · is … geweest*
 > 📸 *ben gegaan · hebben gepraat · is geweest* (ouvrir, conclure) · 🎬 *was · scheen · stonden · kocht · dronk · zag* (décor, récit)
 > Aussi possible : *ging ik · praatten we · was*.
 
-**Notes pour l'animateur** — Acceptez les variantes justifiées : le choix dépend du regard. Exigez en revanche la forme correcte (irréguliers : *scheen, stonden, kocht, dronk, zag*).
+**Notes pour l'animateur** — Les deux cases par verbe évitent de « donner » le temps : chacun·e décide s'il faut un participe. Acceptez les variantes justifiées : le choix dépend du regard. Exigez en revanche la forme correcte (irréguliers : *scheen, stonden, kocht, dronk, zag*).
 
 ---
 
@@ -587,8 +589,9 @@
 >
 > **✓ CORRECTIE** — 💰 ① *Als ik geld heb, koop ik een huis.* ② *Als ik geld had, zou ik een huis kopen.* ③ *Als ik geld gehad had, had ik een huis gekocht.*
 > 💡 ① *Als ik het weet, help ik je.* ② *Als ik het wist, zou ik je helpen.* ③ *Als ik het geweten had, had ik je geholpen.*
+> Aussi : ② *Als ik geld zou hebben, …* · ③ *…, zou ik een huis gekocht hebben · had gehad, had geweten* (ordre libre).
 
-**Notes pour l'animateur** — ③ aussi : *zou ik een huis gekocht hebben · zou ik je geholpen hebben* ; *had gehad / had geweten* (ordre libre). Prolongement oral : *Wat zou je doen als je de lotto won?* (M29).
+**Notes pour l'animateur** — ② *Als ik … zou hebben* est fréquent à l'oral ; acceptez-le. Prolongement oral : *Wat zou je doen als je de lotto won?* (M29).
 
 ---
 
@@ -618,12 +621,12 @@
 - Gabarit e-mail (Sofie Claes à Lotte Maes, « Groot nieuws! ») ; loupe ; compteur « 5 erreurs ».
 
 **Contenu textuel**
-> « *Hoi Lotte, Hoe gaat het? Ik heb hier al vijf jaar gewerkt, maar volgende maand verander ik van job! Vorige week heb ik een sollicitatiegesprek bij Koopzo. Ik kom net te bellen met de HR-dienst: ze nemen me aan! Toen ik het hoorde, ben ik zo blij. Ik had dat echt niet verwacht. Als ik meer tijd heb, zou ik een feestje geven. Groetjes, Sofie* »
+> « *Hoi Lotte, Hoe gaat het? Ik heb sinds september Nederlandse les gevolgd en ik vind het nog altijd super! En ik heb groot nieuws: volgende maand verander ik van job! Vorige week heb ik een sollicitatiegesprek bij Koopzo. Ik kom van te bellen met de HR-dienst: ze nemen me aan! Toen ik het hoorde, ben ik zo blij. Ik had dat echt niet verwacht. Als ik meer tijd heb, zou ik een feestje geven. Groetjes, Sofie* »
 >
-> **✓ CORRECTIE** — ~~*heb hier al vijf jaar gewerkt*~~ **werk hier al vijf jaar** (depuis → presens) · ~~*heb*~~ **had** (passé) · ~~*kom net te bellen met de HR-dienst*~~ **heb net met de HR-dienst gebeld** (venir de) · ~~*ben*~~ **was** (passé) · ~~*heb*~~ **had** (hypothèse ②)
-> Corrects : *volgende maand verander ik* (présent + marqueur = futur), *Ik had dat niet verwacht* (passé du passé), *zou ik … geven*.
+> **✓ CORRECTIE** — ~~*heb sinds september Nederlandse les gevolgd*~~ **volg sinds september Nederlandse les** (depuis → presens) · ~~*heb*~~ **had** (passé) · ~~*kom van te bellen met de HR-dienst*~~ **heb net met de HR-dienst gebeld** (venir de) · ~~*ben*~~ **was** (passé) · ~~*heb*~~ **had** (hypothèse ②)
+> Aussi : *heb ik … gehad* · *Als ik meer tijd heb, geef ik…* Corrects : *volgende maand verander ik* (présent + marqueur = futur), *Ik had dat niet verwacht* (passé du passé).
 
-**Notes pour l'animateur** — Faites nommer la règle pour chaque erreur (diapos 8, 10, 9, 10, 18). *van job veranderen* est courant en Belgique (NL : *van baan veranderen*).
+**Notes pour l'animateur** — Faites nommer la règle pour chaque erreur (diapos 8, 10, 9, 10, 18). *Ik kom van te…* est un gallicisme belge fréquent (« je viens de… ») : à éviter. *van job veranderen* est courant en Belgique (NL : *van baan veranderen*).
 
 ---
 
@@ -658,7 +661,7 @@
 > Fiche : *2012 diploma in Namen · 2013–2019 werken bij Maesbouw · 2020 verhuizen naar Gent · sinds 2021 projectleider bij Peeters & Co · volgend jaar een team leiden · droom: een jaar in Canada wonen*
 > Banque : *Wat deed je vroeger? · Hoe lang werk je hier al? · Wat is er toen gebeurd? · Wat ga je volgend jaar doen? · Wat zou je doen als …? · Wat zou je anders gedaan hebben? — Ik werkte … · Ik werk hier al … · Ik had nog nooit … · Ik ga … · Ik zou graag … · Ik had …*
 
-**Notes pour l'animateur** — A coche les temps entendus sur une grille (huit cases aux couleurs de la ligne). Puis B écrit l'article de la newsletter (8 à 10 phrases). Lien avec le M32 (le pitch et la ligne du temps).
+**Notes pour l'animateur** — A coche les temps entendus sur une grille (huit cases aux couleurs de la ligne). Puis A écrit l'article de la newsletter (8 à 10 phrases). Lien avec le M32 (le pitch et la ligne du temps).
 
 ---
 
@@ -679,5 +682,5 @@
 
 **Notes pour l'animateur** — Réponses :
 1. *Ik woon hier al drie jaar.*
-2. *Gisteren regende het en ik ben thuisgebleven.* (le décor : imperfectum · le fait : perfectum ; *bleef ik thuis* est aussi possible)
+2. *Gisteren regende het en ik ben thuisgebleven.* (le décor : imperfectum · le fait : perfectum ; *… en ik bleef thuis* est aussi possible)
 3. *Als ik tijd had, zou ik komen.*

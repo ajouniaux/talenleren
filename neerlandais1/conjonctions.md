@@ -159,10 +159,10 @@
 > **daarna** ensuite — *Eerst werk ik, daarna ga ik sporten.*
 > **anders** sinon — *Neem een jas mee, anders heb je het koud.*
 > **bovendien** de plus — *Het is goedkoop. Bovendien ligt het centraal.*
-> Le mot **saute** dans la case ① : le verbe reste ②, le sujet passe **derrière**. Aussi : *dan, eerst, vervolgens, tenslotte, echter, dus*.
+> Le mot **saute** dans la case ① : le verbe reste ②, le sujet passe **derrière**. Aussi : *dan, eerst, vervolgens, ten slotte, dus*.
 > *Le tremplin peut aussi aller au milieu : Ik blijf daarom thuis. (après le verbe, sans inversion)*
 
-**Notes pour l'animateur** — Geste : bras qui « sautent » en tête de phrase, le sujet recule d'un pas. *echter* est écrit et soutenu (B2).
+**Notes pour l'animateur** — Geste : bras qui « sautent » en tête de phrase, le sujet recule d'un pas. *ten slotte* (en deux mots) = enfin ; *tenslotte* (un mot) = après tout. *echter* (« cependant », écrit, B2) se place plutôt après le verbe : *Het is echter duur.*
 
 ---
 
@@ -197,8 +197,8 @@
 > ⏳ temps — — · *eerst, dan, daarna, toen (puis)* · *toen, als, wanneer, terwijl, voordat, nadat, zodra, sinds, totdat*
 > ❓ cause — *want* · — · *omdat, doordat, aangezien*
 > ⏩ conséquence · but — *dus* · *daarom, dus* · *zodat*
-> ⚖️ opposition — *maar* · *toch, echter* · *hoewel, terwijl, ook al*
-> 🔗 condition — *of (ou bien)* · *anders* · *als, tenzij, indien*
+> ⚖️ opposition — *maar* · *toch* · *hoewel, terwijl, ook al*
+> 🔗 condition — — · *anders* · *als, tenzij, indien*
 > ↔️ comparaison — — · — · *zoals, alsof, dan*
 
 **Notes pour l'animateur** — Invitez à photographier la carte. Faites remarquer que la cause a un pont (*want*) et un wagon (*omdat*), mais pas de tremplin ; la conséquence a les trois.
@@ -214,13 +214,13 @@
 - Quatre cartes : TOEN · ALS / WANNEER (passé) · ALS / WANNEER (présent, futur) · WANNEER? (question).
 
 **Contenu textuel**
-> **TOEN** — une fois, dans le passé — *Toen ik in Gent woonde, fietste ik veel. · Toen ik thuiskwam, was iedereen weg.*
+> **TOEN** — une seule fois : un moment, une période — *Toen ik in Gent woonde, fietste ik veel. · Toen ik thuiskwam, was iedereen weg.*
 > **ALS / WANNEER** — chaque fois, dans le passé — *Als het regende, bleven we binnen.*
 > **ALS / WANNEER** — présent et futur — *Als ik thuiskom, eet ik. · Wanneer je klaar bent, bel me.*
 > **WANNEER?** — la question — *Wanneer kom je? · Weet je wanneer hij komt?*
-> *als = « quand » (habitude, futur) et « si » : le contexte décide. wanneer = seulement « quand ».*
+> *als = « quand » (habitude, futur) et « si ». wanneer = « quand », jamais le « si » des questions (of).*
 
-**Notes pour l'animateur** — Le piège francophone : « quand » + passé ponctuel = *toen*, jamais *als*. *Toen* en tête suivi du verbe (*Toen ging ik…*) = « puis » (tremplin) : voir diapo 19.
+**Notes pour l'animateur** — Le piège francophone : « quand » + un moment ou une période unique du passé = *toen*, jamais *als*. En langue soignée, *wanneer* peut aussi exprimer une condition (*Wanneer u vragen heeft…*), mais jamais le « si » d'une question indirecte (*of*). *Toen* en tête suivi du verbe (*Toen ging ik…*) = « puis » (tremplin) : voir diapo 19.
 
 ---
 
@@ -257,12 +257,12 @@
 > **omdat** — *Ik neem de bus, omdat het regent.*
 > **dus** — *Het regent, dus ik neem de bus.*
 > **daarom** — *Het regent. Daarom neem ik de bus.*
-> **zodat** — *Ik neem de bus, zodat ik droog blijf.*
-> **doordat** — *Doordat het regende, was er veel file.*
-> *want et omdat = même sens (car, parce que), ordre différent. zodat = si bien que, pour que (le résultat, le but). doordat (B2) = du fait que : une cause non voulue.*
+> **zodat** — *Het regent, zodat ik de bus neem.*
+> **Omdat …,** — *Omdat het regent, neem ik de bus.*
+> *want et omdat = même sens (car, parce que), ordre différent. zodat = si bien que, pour que (le résultat, le but). doordat (B2) = du fait que, une cause non voulue : Doordat het regende, was er file.*
 > *Réponse à Waarom? : Omdat het regent. (jamais Want… seul en réponse)*
 
-**Notes pour l'animateur** — *want* ne peut pas commencer la phrase ni répondre seul à *Waarom?* : c'est un pont, il lui faut une rive de chaque côté. *om … te* (le but avec un infinitif) : voir le module *te / om … te*.
+**Notes pour l'animateur** — Une proposition avec *want* ne se place jamais avant la principale (✗ *Want het regent, ik neem de bus*) et ne répond pas seule à *Waarom?* : c'est un pont, il lui faut une rive de chaque côté. *doordat* ne convient pas à un choix volontaire (prendre le bus) : d'où un exemple à part. *om … te* (le but avec un infinitif) : voir le module *te / om … te*.
 
 ---
 
@@ -274,7 +274,7 @@
 - ⚖️ et la situation ; trois bandes (pont, tremplin, wagon) ; encadré *terwijl, ook al*.
 
 **Contenu textuel**
-> *Het regent… we gaan wandelen ! — trois syntaxes, un même sens*
+> *Het regent… we gaan wandelen! — trois syntaxes, un même sens*
 > **maar** mais — *Het regent, maar we gaan wandelen.*
 > **toch** pourtant, quand même — *Het regent. Toch gaan we wandelen.*
 > **hoewel** bien que — *Hoewel het regent, gaan we wandelen.*
@@ -320,7 +320,7 @@
 > *Wanneer begint het?* ➜ *Weet u wanneer het begint?*
 > *C'est la façon polie de poser une question : Weet u misschien waar het station is? Sans mot interrogatif → of (si).*
 
-**Notes pour l'animateur** — Tous les mots en *w-* (*wie, wat, waar, wanneer, waarom, hoe, hoeveel*) deviennent des wagons. Le point d'interrogation dépend de la première partie (*Weet je…?* / *Ik vraag me af….*).
+**Notes pour l'animateur** — Tous les mots interrogatifs (*wie, wat, waar, wanneer, waarom, hoe, hoeveel*) deviennent des wagons. Le point d'interrogation dépend de la première partie (*Weet je…?* / *Ik vraag me af…*).
 
 ---
 
@@ -333,7 +333,7 @@
 
 **Contenu textuel**
 > *Omdat het regent, blijf ik thuis.*
-> *Als je tijd hebt, bel me dan.*
+> *Als je tijd hebt, bel ik je.*
 > *Toen ik thuiskwam, was iedereen weg.*
 > *Hoewel hij moe is, werkt hij door.*
 > Le wagon entier occupe la **case ①** : le verbe principal vient **juste après** (case ②), puis le sujet.
@@ -413,7 +413,7 @@
 > 🤸 **LE TREMPLIN** — inversion — *daarom · toch · daarna · dan · anders · bovendien* — *Ik ben ziek. Daarom blijf ik thuis.*
 > 🚃 **LE WAGON** — verbe à la fin — *omdat · dat · als · of · toen · wanneer · terwijl · voordat · nadat · zodra · hoewel · tenzij · zodat + waar, wie, hoe…* — *Ik blijf thuis, omdat ik ziek ben.*
 > **Wagon en tête → verbe, verbe** : *Omdat het regent, blijf ik thuis.* · **si** : condition = *als*, question = *of*
-> **quand** : une fois dans le passé = *toen* · habitude, futur = *als / wanneer* · question = *wanneer*
+> **quand** : un moment ou une période unique du passé = *toen* · habitude, futur = *als / wanneer* · question = *wanneer*
 
 **Notes pour l'animateur** — Invitez à photographier la diapo.
 
@@ -427,7 +427,7 @@
 - Intercalaire sombre, avec 11 tuiles.
 
 **Contenu textuel**
-> 1 · Pont, tremplin ou wagon ? ★ — 2 · Reliez les phrases ★★ — 3 · Une idée, plusieurs phrases ★★ — 4 · *Toen, als of wanneer?* ★★ — 5 · Quel mot de liaison ? ★★ — 6 · Questions indirectes ★★ — 7 · Le puzzle ★★ — 8 · Les paires ★★★ — 9 · Le détective ★★ — 10 · L'histoire en chaîne ★★ — 11 · Pour ou contre ? ★★★
+> 1 · Le grand tri ★ — 2 · Reliez les phrases ★★ — 3 · Une idée ×4 ★★ — 4 · *Toen of als?* ★★ — 5 · Quel mot ? ★★ — 6 · *Weet je …?* ★★ — 7 · Le puzzle ★★ — 8 · Les paires ★★★ — 9 · Le détective ★★ — 10 · L'histoire en chaîne ★★ — 11 · Pour ou contre ? ★★★
 
 **Notes pour l'animateur** — Ex. 1 à 3 en séance 1, ex. 4 à 6 en séance 2, ex. 7 à 11 en séance 3.
 
@@ -443,8 +443,8 @@
 **Contenu textuel**
 > *en · omdat · daarom · maar · als · toch · want · hoewel · daarna · of · terwijl · bovendien · dat · anders · zodat*
 >
-> **✓ CORRECTIE** — Pont : *en, maar, want, of (dus)* · Tremplin : *daarom, toch, daarna, bovendien, anders* · Wagon : *omdat, als, hoewel, terwijl, dat, zodat*
-> *dus : pont ou tremplin. toen : wagon (quand) ou tremplin (puis). of : pont (ou) ou wagon (si).*
+> **✓ CORRECTIE** — Pont : *en, maar, want, of* · Tremplin : *daarom, toch, daarna, bovendien, anders* · Wagon : *omdat, als, hoewel, terwijl, dat, zodat (of)*
+> *of : pont (ou) ou wagon (si). Hors liste : dus = pont ou tremplin, toen = wagon (quand) ou tremplin (puis).*
 
 **Notes pour l'animateur** — Version kinesthésique : imprimez les étiquettes et faites-les déposer dans trois boîtes. Pour chaque mot, demandez une phrase-exemple à l'oral.
 
@@ -495,12 +495,12 @@
 
 **Contenu textuel**
 > 1 *…… ik klein was, woonde ik in Namen.* · 2 *…… het regent, neem ik de bus.* · 3 *…… begint de cursus?* · 4 *…… ik thuiskwam, was iedereen al weg.*
-> 5 *…… ik tijd heb, bel ik je.* · 6 *Vroeger, …… we op vakantie gingen, namen we de trein.* · 7 *Weet je …… de trein vertrekt?* · 8 *…… hij de brief las, begon hij te lachen.*
+> 5 *…… ik tijd heb, bel ik je.* · 6 *…… we vroeger op vakantie gingen, namen we de trein.* · 7 *Weet je …… de trein vertrekt?* · 8 *…… hij de brief las, begon hij te lachen.*
 >
-> **✓ CORRECTIE** — 1 *Toen* · 2 *Als* · 3 *Wanneer* · 4 *Toen* · 5 *Als* · 6 *als* · 7 *wanneer* · 8 *Toen*
-> *N° 5 et 6 : wanneer est aussi possible. toen = une fois, dans le passé.*
+> **✓ CORRECTIE** — 1 *Toen* · 2 *Als* · 3 *Wanneer* · 4 *Toen* · 5 *Als* · 6 *Als* · 7 *wanneer* · 8 *Toen*
+> *N° 2, 5 et 6 : wanneer est aussi possible. toen = un moment ou une période unique du passé.*
 
-**Notes pour l'animateur** — N° 2 : *wanneer* possible aussi (habitude). N° 6 : *vroeger* + habitude → *als / wanneer*, pas *toen*. Faites justifier avec la ligne du temps (diapo 10).
+**Notes pour l'animateur** — N° 6 : *vroeger* + habitude → *als / wanneer*, pas *toen*. Faites justifier avec la ligne du temps (diapo 10).
 
 ---
 
@@ -512,12 +512,12 @@
 - Banque de mots dans la consigne ; huit phrases à trous sur deux colonnes.
 
 **Contenu textuel**
-> Banque : *voordat · nadat · terwijl · zodra · zodat · hoewel · tenzij · omdat*
+> Banque (chaque mot une fois) : *voordat · nadat · terwijl · zodra · zodat · hoewel · tenzij · omdat*
 > 1 *Ik bel je …… ik iets weet.* · 2 *…… het duur is, koop ik het.* · 3 *We vertrekken om 8 uur, …… het sneeuwt.* · 4 *Lees de tekst …… je de vragen beantwoordt.*
 > 5 *…… hij gegeten had, ging hij slapen.* · 6 *Ik spreek langzaam, …… iedereen me begrijpt.* · 7 *…… ik kook, luister ik naar podcasts.* · 8 *Ik kom niet, …… ik ziek ben.*
 >
 > **✓ CORRECTIE** — 1 *zodra* · 2 *Hoewel* · 3 *tenzij* · 4 *voordat* · 5 *Nadat* · 6 *zodat* · 7 *Terwijl* · 8 *omdat*
-> *N° 1 : aussi als. N° 7 : aussi als, wanneer (habitude).*
+> *N° 1 : aussi als. N° 5 : aussi Zodra. N° 7 : aussi als, wanneer (habitude).*
 
 **Notes pour l'animateur** — Faites repérer le « verbe, verbe » dans les n° 2, 5 et 7.
 
@@ -552,9 +552,9 @@
 > 1 *blijf · Omdat · thuis. · het · regent, · ik*
 > 2 *ga · Ik ben moe. · slapen. · Daarom · ik*
 > 3 *komt. · of · Ik weet niet · hij · morgen*
-> 4 *dan. · hebt, · me · Als · bel · je tijd*
+> 4 *je. · hebt, · ik · Als · bel · je tijd*
 >
-> **✓ CORRECTIE** — 1 *Omdat het regent, blijf ik thuis.* · 2 *Ik ben moe. Daarom ga ik slapen.* · 3 *Ik weet niet of hij morgen komt.* · 4 *Als je tijd hebt, bel me dan.*
+> **✓ CORRECTIE** — 1 *Omdat het regent, blijf ik thuis.* · 2 *Ik ben moe. Daarom ga ik slapen.* · 3 *Ik weet niet of hij morgen komt.* · 4 *Als je tijd hebt, bel ik je.*
 
 **Notes pour l'animateur** — Version manipulable : imprimez les pièces (avec les couleurs) et faites-les assembler par deux. Défi : trouver une deuxième phrase correcte avec les mêmes pièces (n° 1 : *Ik blijf thuis, omdat het regent*).
 
@@ -565,7 +565,7 @@
 **Objectif pédagogique** — Employer les conjonctions en deux parties.
 
 **Visuel / Schéma / Agencement**
-- Six phrases à trous ; la banque de paires dans la consigne.
+- Six phrases à trous ; la banque de paires dans la consigne (chaque paire une fois).
 
 **Contenu textuel**
 > 1 *Ik spreek …… Frans …… Nederlands.* · 2 *Ze is …… slim, …… grappig.* · 3 *…… meer je leest, …… beter je schrijft.*
@@ -647,4 +647,4 @@
 **Notes pour l'animateur** — Réponses :
 1. *Ik blijf thuis, omdat ik ziek ben.*
 2. *Als ik tijd heb, bel ik je.*
-3. *Toen* (une fois, dans le passé).
+3. *Toen* (une période unique du passé).
