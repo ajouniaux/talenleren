@@ -50,6 +50,8 @@
 
 > **Complément *Werken, de werking, werkbaar* (la dérivation, A2–B1).** Création, dans le prolongement du M14 (partie « dériver »). Couleurs du M14 : nom bleu, verbe rouge, adjectif orange ; en plus, adverbe vert et affixes (suffixes, préfixes) violets. Trois schémas : **DV1** « le carrefour des catégories » (triangle NOM · VERBE · ADJECTIF + ADVERBE, les suffixes sur chaque flèche ; une miniature en haut à droite des diapos de règles indique le passage étudié) ; **DV2** « la machine à mots » (base + affixe → résultat) ; **DV3** « préfixe + racine + suffixe » (briques : le suffixe décide la catégorie et l'article, le préfixe change le sens). Chaque règle a deux encadrés : **✓ La norme** (vert) et **⚠ Exceptions** (rouge). Application finale : style verbal (oral) ↔ style nominal (avis, notes de service).
 
+> **Complément *Goedemorgen, collega!* (jeu de rôle, A1, après la 2e séance).** Création : une seule mise en situation (premier jour de Tom chez Peeters & Co, Sofie l'accueille à l'accueil). Le décor du hall (fenêtre, enseigne, horloge, comptoir *onthaal*) est dessiné dans PowerPoint. Quatre étapes affichées : saluer, épeler, compter, remercier. Couleurs : A (Sofie) bleu, B (Tom) violet, nombres orange, chunks vert. Les sons courts et longs servent l'épellation (*Tom / Toon, Dan / Daan*) ; deux rondes avec des fiches-badges différentes.
+
 ---
 
 ## 2. Diagnostic transversal
