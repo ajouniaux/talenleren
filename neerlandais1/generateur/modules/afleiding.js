@@ -192,10 +192,10 @@ function build(d) {
     lab(9.95, 5.8, 2.78, 'A', 'D', '= rien ne change !');
   }
 
-  // ---------------------------------------------------------------- 6 les briques (DV2)
+  // ---------------------------------------------------------------- 6 les briques (DV3)
   {
     const s = d.page({ g: 6, tag: 'LE PRINCIPE', title: 'Préfixe + racine + suffixe' });
-    const R = [[[['on-', 'X'], ['be-', 'X'], ['taal', 'V'], ['-baar', 'X']], 'onbetaalbaar', 'A', 'impayable', 'money-with-wings'], [[['ver-', 'X'], ['groot', 'A'], ['-en', 'X']], 'vergroten', 'V', 'agrandir', 'chart-increasing'], [[['werk', 'N'], ['-loos', 'X'], ['-heid', 'X']], 'de werkloosheid', 'N', 'le chômage', 'briefcase']];
+    const R = [[[['on-', 'X'], ['be-', 'X'], ['reik', 'V'], ['-baar', 'X']], 'onbereikbaar', 'A', 'injoignable, inaccessible', 'mobile-phone'], [[['ver-', 'X'], ['groot', 'A'], ['-en', 'X']], 'vergroten', 'V', 'agrandir', 'chart-increasing'], [[['werk', 'N'], ['-loos', 'X'], ['-heid', 'X']], 'de werkloosheid', 'N', 'le chômage', 'briefcase']];
     R.forEach(([parts, res, k, fr, ic], i) => {
       const y = 1.7 + i * 1.3;
       d.ill(s, ic, 0.6, y - 0.05, 0.85, 0.85);
@@ -211,7 +211,7 @@ function build(d) {
       const e = chip(s, res, k, x + 0.8, y + 0.04, { size: 20, h: 0.64, fill: true });
       d.t(s, [`**${CAT[k].lab.toLowerCase()}**`, `« ${fr} »`], e + 0.2, y, 12.73 - e - 0.2, 0.72, { size: 14, color: CAT[k].c, valign: 'middle', gap: 0 });
     });
-    const B = [['X', 'le **préfixe** (à gauche) change le **sens** : //on-// = le contraire, //ver-// = rendre…'], ['V', 'la **racine** porte l’idée : //taal// (betalen), //groot//, //werk//'], ['X', 'le **suffixe** (à droite) décide la **catégorie** et l’**article** : //-baar// → adjectif, //-heid// → //de//']];
+    const B = [['X', 'le **préfixe** (à gauche) change le **sens** : //on-// = le contraire, //ver-// = rendre…'], ['V', 'la **racine** porte l’idée : //reik// (bereiken), //groot//, //werk//'], ['X', 'le **suffixe** (à droite) décide la **catégorie** et l’**article** : //-baar// → adjectif, //-heid// → //de//']];
     B.forEach(([k, t], i) => {
       const y = 5.4 + i * 0.45;
       d.rect(s, 0.6, y + 0.1, 0.25, 0.25, { fill: CAT[k].c, line: null, radius: 0.04 });
@@ -231,8 +231,8 @@ function build(d) {
       d.t(s, `//${ex}//`, 5.95, y, 6.8, 0.6, { size: 17, valign: 'middle' });
     });
     rule(s, 0.6, 4.55, 5.9, 1.55, '✓ La norme', ['**toujours possible** · **toujours het** · pas de pluriel', '= « le fait de… » : //het roken// = le fait de fumer'], 'accent3');
-    rule(s, 6.75, 4.55, 5.98, 1.55, '+ het ge- + radical : le bruit qui dure', ['//praten → **het gepraat** · lachen → **het gelach**//', '//zeuren → **het gezeur**// · souvent agaçant'], AF, { size: 15 });
-    band(s, 'À l’écrit (panneaux, règlements) : //**Het** parkeren is verboden. · **Het** gebruik van de lift…//', 6.25, 0.55, 'tx2', 16);
+    rule(s, 6.75, 4.55, 5.98, 1.55, '+ het ge- + radical : l’action qui dure, se répète', ['//praten → **het gepraat** · lachen → **het gelach**//', '//zoeken → **het gezoek**// · souvent agaçant'], AF, { size: 15 });
+    band(s, 'À l’écrit (panneaux, règlements) : //**Het** parkeren is verboden. · **Het** betreden van het gras…//', 6.25, 0.55, 'tx2', 16);
   }
   // ---------------------------------------------------------------- 8 V → N : -ing
   {
@@ -241,7 +241,7 @@ function build(d) {
     const L = [['vergaderen', '-ing', 'de vergadering', 'spiral-calendar', 'la réunion'], ['betalen', '-ing', 'de betaling', 'credit-card', 'le paiement'], ['verwarmen', '-ing', 'de verwarming', 'thermometer', 'le chauffage'], ['uitnodigen', '-ing', 'de uitnodiging', 'envelope-with-arrow', 'l’invitation']];
     L.forEach(([b, a, r, ic, fr], i) => eq(s, 0.6, 1.62 + i * 0.82, b, 'V', a, r, 'N', { ill: ic, size: 17, h: 0.54, wb: 2.0, wa: 0.8, wr: 2.6, fr: `« ${fr} »`, frBelow: true }));
     rule(s, 8.3, 1.6, 4.43, 3.2, '⚠ Pas avec tous les verbes', ['✗ //de eting// → //het eten//', '✗ //de slaping// → //de slaap//', '//de werking// = le fonctionnement', '(le travail = //het werk//)', '→ en cas de doute : //het// + infinitif'], 'accent6', { size: 14.5, gap: 6 });
-    rule(s, 0.6, 4.95, 4.6, 1.4, '✓ La norme', ['radical + //-ing// · **toujours de** · pluriel //-en//', 'surtout avec un préfixe : //be-, ver-, uit-…//'], 'accent3', { size: 13.5 });
+    rule(s, 0.6, 4.95, 4.6, 1.4, '✓ La norme', ['radical + //-ing// · **toujours de** · pluriel //-en//', 'surtout avec un préfixe ou une particule : //be-, ver-, uit-, op-…//'], 'accent3', { size: 13.5 });
     rule(s, 5.4, 4.95, 7.33, 1.4, '⚠ Le sens glisse parfois vers le résultat', ['//de lezing// = la **conférence** (la lecture = //het lezen//) · //de woning// = le logement', '//de regering// = le gouvernement · //de opleiding// = la formation'], 'accent6', { size: 13.5 });
   }
   // ---------------------------------------------------------------- 9 V → N : le radical seul
@@ -250,7 +250,7 @@ function build(d) {
     mini(s, 'VN');
     const B = [['**DE** + radical', 'le cas fréquent', DE, [['starten', 'de start'], ['wensen', 'de wens'], ['vragen', 'de vraag'], ['groeien', 'de groei']]],
       ['**HET** + radical', 'avec //be-, ge-, ver-// (souvent)', HET, [['beginnen', 'het begin'], ['gebruiken', 'het gebruik'], ['vertrekken', 'het vertrek'], ['bezoeken', 'het bezoek']]],
-      ['**la voyelle change**', 'comme au passé', AF, [['springen', 'de sprong'], ['grijpen', 'de greep'], ['spreken', 'het gesprek'], ['verbieden', 'het verbod']]]];
+      ['**la voyelle change**', 'à apprendre', AF, [['springen', 'de sprong'], ['grijpen', 'de greep'], ['spreken', 'het gesprek'], ['verbieden', 'het verbod']]]];
     const cw = (12.73 - 3.3 - 0.3) / 4;
     B.forEach(([h, sub, c, L], i) => {
       const y = 1.6 + i * 1.12;
@@ -258,14 +258,14 @@ function build(d) {
       d.t(s, [h, `//${sub}//`], 0.75, y, 2.3, 1.02, { size: 14, color: 'bg1', valign: 'middle', gap: 2 });
       L.forEach(([b, r], j) => pcard(s, 3.3 + j * (cw + 0.1), y + 0.04, cw, 0.94, b, 'V', r, 'N', { bs: 14, rs: 15 }));
     });
-    rule(s, 0.6, 5.0, 12.13, 0.95, '⚠ Exceptions à retenir', ['//**de** verkoop// (verkopen) · //**de** verhuis// (BE, verhuizen) · //het slot// (sluiten) · //de dood// (doodgaan) : vérifiez au dictionnaire'], 'accent6', { size: 14 });
+    rule(s, 0.6, 5.0, 12.13, 0.95, '⚠ Exceptions à retenir', ['//**de** verkoop// (verkopen) · //**de** verhuis// (BE, verhuizen) · //het slot// (sluiten) · **het** sans préfixe : //het werk, het spel// : vérifiez au dictionnaire'], 'accent6', { size: 14 });
     band(s, 'Le radical seul = **l’acte** ou **le résultat** : //de start, het vertrek, de vraag//.', 6.15, 0.55, 'tx2', 16);
   }
   // ---------------------------------------------------------------- 10 V → N : la personne et l'objet
   {
     const s = d.page({ g: 10, tag: 'VERBE → NOM', tagColor: CAT.N.c, title: 'Qui fait l’action ? -er, -aar, -der' });
     mini(s, 'VN');
-    const C = [['-er', 'le cas normal', [['werken', 'de werker'], ['spelen', 'de speler'], ['bakken', 'de bakker'], ['schrijven', 'de schrijver']]], ['-aar', 'après //-el, -er, -en// · ⚠ //leraar//', [['wandelen', 'de wandelaar'], ['luisteren', 'de luisteraar'], ['tekenen', 'de tekenaar'], ['leren', 'de leraar']]], ['-der', 'radical en //-r//', [['besturen', 'de bestuurder'], ['huren', 'de huurder'], ['bewaren', 'de bewaarder']]]];
+    const C = [['-er', 'le cas normal', [['werken', 'de werker'], ['spelen', 'de speler'], ['bakken', 'de bakker'], ['schrijven', 'de schrijver']]], ['-aar', '//-el, -er, -en// non accentué · ⚠ //leraar//', [['wandelen', 'de wandelaar'], ['luisteren', 'de luisteraar'], ['tekenen', 'de tekenaar'], ['leren', 'de leraar']]], ['-der', 'radical en //-r//', [['besturen', 'de bestuurder'], ['huren', 'de huurder'], ['bewaren', 'de bewaarder']]]];
     const cw = (12.73 - 3.3 - 0.3) / 4;
     C.forEach(([sf, when, L], i) => {
       const y = 1.6 + i * 1.0;
@@ -277,8 +277,8 @@ function build(d) {
     });
     rule(s, 0.6, 4.7, 7.0, 1.75, 'Au féminin (si on le précise)', ['//-ster// : //de verkoopster, de schrijfster// · //-es// : //de lerares//', '//-in// : //de vriendin// · souvent **la même forme** : //de manager, de collega, de dokter//'], CAT.N.c, { size: 14 });
     d.rect(s, 7.85, 4.7, 4.88, 1.75, { fill: TINT.accent5, line: 'accent5', lw: 1.5, radius: 0.12 });
-    d.t(s, '**-er = aussi l’appareil**', 8.05, 4.75, 4.5, 0.42, { size: 15, color: 'accent5', valign: 'middle' });
-    [['printer', 'printen', 'de printer'], ['alarm-clock', 'wekken', 'de wekker'], ['bottle-with-popping-cork', 'openen', 'de opener']].forEach(([ic, b, r], i) => {
+    d.t(s, '**l’appareil : toujours -er**', 8.05, 4.75, 4.5, 0.42, { size: 15, color: 'accent5', valign: 'middle' });
+    [['printer', 'printen', 'de printer'], ['alarm-clock', 'wekken', 'de wekker'], ['fire', 'aansteken', 'de aansteker']].forEach(([ic, b, r], i) => {
       eq(s, 8.05, 5.2 + i * 0.4, b, 'V', null, r, 'N', { ill: ic, size: 12, h: 0.34, wb: 1.1, tight: true });
     });
   }
@@ -294,7 +294,7 @@ function build(d) {
       eq(s, x, y, b, 'V', null, r, 'N', { size: 16, h: 0.56, wb: 2.2, wr: 2.6, fr, frw: 1.0, frs: 1 });
       d.t(s, `« ${fr} »`, x + 0.0, y + 0.56, 5.9, 0.26, { size: 11, italic: true, color: 'accent5', align: 'right' });
     });
-    rule(s, 0.6, 4.88, 5.95, 1.38, '✓ La norme', ['//-eren// → //-atie// ou //-tie// · **toujours de**', 'l’accent tombe sur //-tie// : //informa**tie**//'], 'accent3', { size: 13.5 });
+    rule(s, 0.6, 4.88, 5.95, 1.38, '✓ La norme', ['//-eren// → //-atie// ou //-tie// · **toujours de**', 'l’accent tombe **avant** //-tie// : //infor**ma**tie//'], 'accent3', { size: 13.5 });
     rule(s, 6.78, 4.88, 5.95, 1.38, '⚠ Exceptions', ['//controleren → **de controle**// · //discussiëren → **de discussie**//', '//reserveren → de reservering// (NL)'], 'accent6', { size: 13.5 });
     band(s, 'Et dans l’autre sens (diapo 18) : //de organisatie → **organiseren**//.', 6.35, 0.5, 'tx2', 15);
   }
@@ -314,7 +314,7 @@ function build(d) {
       L.forEach(([b, r, ic], i) => eq(s, x + 0.2, 2.45 + i * 0.64, b, 'A', null, r, 'N', { size: 16, h: 0.5, wb: 1.6, ill: ic }));
     });
     rule(s, 0.6, 5.2, 5.95, 1.0, '✓ La norme', ['**toujours de** · pluriel : //-heden, -tes// (//de mogelijkheden//)'], 'accent3');
-    rule(s, 6.78, 5.2, 5.95, 1.0, '⚠ Exceptions', ['//lang → de l**e**ngte// · //ziek → de **ziekte**// · //lief → de **liefde**// · //koud → de **kou**//'], 'accent6');
+    rule(s, 6.78, 5.2, 5.95, 1.0, '⚠ Exceptions', ['//lang → de l**e**ngte// · //ziek → de **ziekte**// · //lief → de **liefde**// · //koud → de **kou(de)**//'], 'accent6');
     band(s, 'En cas de doute : //-heid// est le plus fréquent et le plus productif.', 6.35, 0.5, 'tx2', 15);
   }
   // ---------------------------------------------------------------- 13 A → N : -iteit et l'adjectif nom
@@ -327,9 +327,9 @@ function build(d) {
     [['actief', 'de activiteit'], ['creatief', 'de creativiteit'], ['flexibel', 'de flexibiliteit'], ['populair', 'de populariteit'], ['nationaal', 'de nationaliteit']].forEach(([b, r], i) => eq(s, 0.8, 2.35 + i * 0.7, b, 'A', null, r, 'N', { size: 16, h: 0.52, wb: 1.75 }));
     d.rect(s, 6.78, 1.6, 5.95, 4.5, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
     d.t(s, '**l’adjectif devient nom** : article + adjectif + //-e//', 6.98, 1.7, 5.6, 0.5, { size: 15, color: AF, valign: 'middle' });
-    rule(s, 6.98, 2.3, 5.55, 1.75, 'het + adj. + -e = « ce qui est… »', ['//**Het leuke** is dat we thuis werken.//', '//**Het moeilijke** is de uitspraak.//'], CAT.N.c, { size: 15, hs: 14 });
+    rule(s, 6.98, 2.3, 5.55, 1.75, 'het + adj. + -e = « ce qui est… »', ['//**Het leuke** is dat we thuis werken.//', '//**Het moeilijke** is de uitspraak.// (ce qui est difficile)'], CAT.N.c, { size: 15, hs: 14 });
     rule(s, 6.98, 4.2, 5.55, 1.75, 'de + adj. + -e(n) = les personnes', ['//**de zieken** · **de ouderen** · **de werklozen**//', '//**De nieuwe** begint maandag.// (la nouvelle / le nouveau)'], CAT.N.c, { size: 15, hs: 14 });
-    band(s, 'Le français fait pareil : « //le plus difficile//, //les malades// ».', 6.3, 0.55, 'tx2', 16);
+    band(s, 'Le français fait pareil : « //le difficile, c’est…// », « //les malades// ».', 6.3, 0.55, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 14 N → A : -ig, -lijk, -isch
@@ -338,7 +338,7 @@ function build(d) {
     const s = d.page({ g: 14, tag: 'NOM → ADJECTIF', tagColor: CAT.A.c, title: 'Trois suffixes : -ig, -lijk, -isch' });
     mini(s, 'NA');
     const C = [['-ig', 'qui a…', 'sun', [['de zon', 'zonnig'], ['het geluk', 'gelukkig'], ['de moed', 'moedig'], ['de honger', 'hongerig']], '⚠ //de wind → wind**erig**// · //de nood → nodig//'],
-      ['-lijk', 'qui est comme…', 'warning', [['de vriend', 'vriendelijk'], ['het gevaar', 'gevaarlijk'], ['de natuur', 'natuurlijk'], ['de vrouw', 'vrouwelijk']], '⚠ + //e// : //vrouw**e**lijk// · + //s// : //dagelijk**s**// · se dit [lək]'],
+      ['-lijk', 'qui est comme…', 'warning', [['de vriend', 'vriendelijk'], ['het gevaar', 'gevaarlijk'], ['de natuur', 'natuurlijk'], ['de vrouw', 'vrouwelijk']], '⚠ + //e// : //vriend**e**lijk, vrouw**e**lijk// · + //s// : //dagelijk**s**// · //-lijk// se dit [lək] (le //e// de « le »)'],
       ['-isch', '= le français -ique', 'wrench', [['de techniek', 'technisch'], ['de logica', 'logisch'], ['de praktijk', 'praktisch'], ['de economie', 'economisch']], '⚠ //de politiek → politiek// (même mot)']];
     const cw = (12.13 - 0.3) / 3;
     C.forEach(([sf, use, ic, L, ex], j) => {
@@ -370,7 +370,7 @@ function build(d) {
       d.t(s, '→', 5.0, y, 0.4, 0.5, { size: 20, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
       chip(s, b, 'A', 5.45, y, { size: 16, h: 0.5, fill: true, w: 1.95 });
     });
-    d.t(s, ['//werkloos// = sans emploi · //draadloos// = sans fil', '⚠ //-e-// de liaison : //hop**e**loos, waard**e**loos//'], 0.85, 5.35, 6.9, 0.75, { size: 13, gap: 2, valign: 'middle' });
+    d.t(s, ['//werkloos// = sans emploi · //draadloos// = sans fil', '⚠ //-e-// de liaison : //hop**e**loos, nutt**e**loos//'], 0.85, 5.35, 6.9, 0.75, { size: 13, gap: 2, valign: 'middle' });
     d.rect(s, 8.15, 1.6, 4.58, 4.55, { fill: TINT[CAT.A.c], line: CAT.A.c, lw: 1.5, radius: 0.12 });
     d.t(s, '**-en : la matière**', 8.35, 1.68, 4.2, 0.5, { size: 16, color: CAT.A.c, valign: 'middle' });
     d.ill(s, 'wood', 11.75, 1.7, 0.75, 0.75);
@@ -384,11 +384,11 @@ function build(d) {
   {
     const s = d.page({ g: 16, tag: 'VERBE → ADJECTIF', tagColor: CAT.A.c, title: 'radical + -baar = « qu’on peut… »' });
     mini(s, 'VA');
-    const L = [['drinken', 'drinkbaar', 'potable-water', 'potable'], ['eten', 'eetbaar', 'fork-and-knife', 'mangeable'], ['betalen', 'betaalbaar', 'money-with-wings', 'abordable'], ['bereiken', 'bereikbaar', 'oncoming-bus', 'accessible'], ['lezen', 'leesbaar', 'open-book', 'lisible']];
+    const L = [['drinken', 'drinkbaar', 'potable-water', 'potable'], ['eten', 'eetbaar', 'fork-and-knife', 'comestible'], ['betalen', 'betaalbaar', 'money-with-wings', 'abordable'], ['bereiken', 'bereikbaar', 'oncoming-bus', 'accessible, joignable'], ['lezen', 'leesbaar', 'open-book', 'lisible']];
     L.forEach(([b, r, ic, fr], i) => eq(s, 0.6, 1.62 + i * 0.86, b, 'V', '-baar', r, 'A', { ill: ic, size: 18, h: 0.54, wb: 1.7, wa: 1.1, wr: 2.05, fr: `« ${fr} »`, frBelow: true }));
     rule(s, 8.4, 1.6, 4.33, 1.75, '✓ La norme', ['radical + //-baar// = //-able//', 'le contraire : **on-** : //**on**betaalbaar, **on**leesbaar//'], 'accent3', { size: 14 });
     rule(s, 8.4, 3.5, 4.33, 2.4, '⚠ Exceptions', ['//zien → **zicht**baar//', '//gebruiken → **bruik**baar//', 'mots français : //acceptabel, flexibel, rendabel//'], 'accent6', { size: 14 });
-    band(s, 'Le radical suit l’orthographe : //lez-en → **lees**baar · et-en → **eet**baar// (syllabe fermée = voyelle double).', 6.1, 0.65, 'tx2', 15);
+    band(s, 'Radical = la forme de //ik// : //lezen → ik **lees** → **lees**baar · eten → ik **eet** → **eet**baar//', 6.1, 0.65, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 17 participes adjectifs
@@ -396,7 +396,7 @@ function build(d) {
     const s = d.page({ g: 17, tag: 'VERBE → ADJECTIF', tagColor: CAT.A.c, title: 'Les participes deviennent adjectifs' });
     mini(s, 'VA');
     const C = [['-end', 'le participe présent = « -ant »', [['boeien', 'boeiend', 'passionnant'], ['spannen', 'spannend', 'palpitant'], ['opvallen', 'opvallend', 'frappant'], ['dringen', 'dringend', 'urgent']], 'popcorn', 'een **spannende** film'],
-      ['ge-…-t/-d/-en', 'le participe passé = « -é »', [['sluiten', 'gesloten', 'fermé'], ['trouwen', 'getrouwd', 'marié'], ['vermoeien', 'vermoeid', 'fatigué'], ['interesseren', 'geïnteresseerd', 'intéressé']], 'locked', 'de **gesloten** deur · een **getrouwde** collega']];
+      ['ge-…-t/-d/-en', 'le participe passé = « -é » (pas de //ge-// après //be-, ver-//)', [['sluiten', 'gesloten', 'fermé'], ['trouwen', 'getrouwd', 'marié'], ['vermoeien', 'vermoeid', 'fatigué'], ['interesseren', 'geïnteresseerd', 'intéressé']], 'locked', 'de **gesloten** deur · een **getrouwde** collega']];
     const cw = 5.95;
     C.forEach(([sf, use, L, ic, ex], j) => {
       const x = 0.6 + j * (cw + 0.23);
@@ -418,7 +418,7 @@ function build(d) {
     const L = [['de fiets', 'fietsen', 'bicycle'], ['de mail', 'mailen', 'e-mail'], ['de hamer', 'hameren', 'hammer'], ['het tennis', 'tennissen', 'tennis'], ['de ski', 'skiën', 'skier']];
     L.forEach(([b, r, ic], i) => eq(s, 0.6, 1.65 + i * 0.76, b, 'N', '-en', r, 'V', { ill: ic, size: 17, h: 0.54, wb: 1.75, wa: 0.85, wr: 1.75 }));
     rule(s, 7.05, 1.6, 5.68, 1.55, '✓ La norme : nom + -en', ['très productif, surtout avec les mots anglais :', '//appen, googelen, sms’en, filmen//'], 'accent3', { size: 14 });
-    rule(s, 7.05, 3.3, 5.68, 1.55, '⚠ Orthographe', ['voyelle courte → consonne double : //tenni**ss**en, a**pp**en//', 'tréma : //skiën// · apostrophe : //sms’en//'], 'accent6', { size: 14 });
+    rule(s, 7.05, 3.3, 5.68, 1.55, '⚠ Orthographe', ['voyelle courte → consonne double : //tenni**ss**en, cha**tt**en//', 'tréma : //skiën// · apostrophe : //sms’en//'], 'accent6', { size: 14 });
     rule(s, 7.05, 5.0, 5.68, 1.25, 'be- + nom : un complément direct', ['//het antwoord → **be**antwoorden// : //een vraag beantwoorden//'], AF, { size: 14 });
     band(s, 'Et //-eren// pour les mots français : //de organisatie → **organiseren** · de controle → **controleren**//', 6.35, 0.5, 'tx2', 15);
   }
@@ -440,7 +440,7 @@ function build(d) {
     });
     d.ill(s, 'chart-increasing', 0.6, 4.35, 0.8, 0.8);
     rule(s, 1.55, 4.3, 5.2, 1.85, '✓ La norme', ['//ver-// + adjectif + //-en// = **rendre plus…**', 'avec le comparatif : //verbeteren, verergeren, verminderen//'], 'accent3', { size: 14 });
-    rule(s, 6.95, 4.3, 5.78, 1.85, '⚠ Exceptions', ['la voyelle change : //lang → verl**e**ngen//', 'sans //ver-// : //open → openen · droog → drogen · leeg → legen//', 'avec //ge-// : //makkelijk → ver**ge**makkelijken//'], 'accent6', { size: 13.5 });
+    rule(s, 6.95, 4.3, 5.78, 1.85, '⚠ Exceptions', ['la voyelle change : //lang → verl**e**ngen//', 'sans //ver-// : //open → openen · droog → drogen · leeg → legen//', '//(ge)makkelijk → ver**ge**makkelijken//'], 'accent6', { size: 13.5 });
     band(s, 'Le contraire avec un autre adjectif : //vergroten ↔ verkleinen · verlengen ↔ verkorten//', 6.35, 0.5, 'tx2', 15);
   }
 
@@ -471,8 +471,8 @@ function build(d) {
   // ---------------------------------------------------------------- 21 les préfixes
   {
     const s = d.page({ g: 21, tag: 'LES PRÉFIXES', tagColor: AF, title: 'Les préfixes changent le sens' });
-    const C = [['on-', 'le contraire', 'cross-mark', [['mogelijk', 'onmogelijk'], ['gezond', 'ongezond'], ['tevreden', 'ontevreden']], 'A'], ['her-', 'à nouveau (re-)', 'repeat-button', [['openen', 'heropenen'], ['starten', 'herstarten'], ['gebruiken', 'hergebruiken']], 'V'],
-      ['mis-', 'mal, de travers', 'warning', [['verstaan', 'het misverstand'], ['gebruiken', 'misbruiken'], ['lopen', 'mislopen']], 'V'], ['ont-', 'enlever, défaire', 'unlocked', [['dooien', 'ontdooien'], ['koppelen', 'ontkoppelen'], ['smetten', 'ontsmetten']], 'V']];
+    const C = [['on-', 'le contraire', 'cross-mark', [['mogelijk', 'onmogelijk'], ['gezond', 'ongezond'], ['bekend', 'onbekend']], 'A'], ['her-', 'à nouveau (re-)', 'repeat-button', [['openen', 'heropenen'], ['starten', 'herstarten'], ['gebruiken', 'hergebruiken']], 'V'],
+      ['mis-', 'mal, de travers', 'warning', [['lukken', 'mislukken'], ['gebruiken', 'misbruiken'], ['lopen', 'mislopen']], 'V'], ['ont-', 'enlever, défaire', 'unlocked', [['dekken', 'ontdekken'], ['wikkelen', 'ontwikkelen'], ['dooien', 'ontdooien']], 'V']];
     const cw = (12.13 - 0.15) / 2; const ch = 2.15;
     C.forEach(([p, use, ic, L, k], i) => {
       const x = 0.6 + (i % 2) * (cw + 0.15); const y = 1.6 + Math.floor(i / 2) * (ch + 0.12);
@@ -490,8 +490,8 @@ function build(d) {
   {
     const s = d.page({ g: 22, tag: 'COMBINER', title: 'La boussole : le suffixe donne l’article' });
     d.ill(s, 'compass', 6.21, 1.55, 0.9, 0.9);
-    const C = [['DE', DE, 0.6, ['-ing · de vergadering', '-heid · de vrijheid', '-te · de lengte', '-iteit · de kwaliteit', '-(a)tie · de informatie', '-er, -aar, -ster · de leraar', '-ij, -erij · de bakkerij', '-schap · de vriendschap']],
-      ['HET', HET, 7.0, ['het + infinitif · het roken', 'ge- + radical · het gepraat', '-je · het huisje', '-isme · het toerisme', '-ment · het document', '-um · het museum', '-sel · het mengsel', 'be-, ver-, ont- + radical · het begin (souvent)']]];
+    const C = [['DE', DE, 0.6, ['-ing · de vergadering', '-heid · de vrijheid', '-te · de lengte', '-iteit · de kwaliteit', '-(a)tie · de informatie', '-er, -ster (personne) · de leraar', '-ij, -erij · de bakkerij', '-schap (relation) · de vriendschap']],
+      ['HET', HET, 7.0, ['het + infinitif · het roken', 'ge- + radical · het gepraat', '-je · het huisje', '-isme · het toerisme', '-ment, -um · het document', '-sel · het mengsel', '-schap (statut) · het lidmaatschap', 'be-, ver-, ont- + radical · het begin (souvent)']]];
     C.forEach(([h, c, x, L]) => {
       d.rect(s, x, 2.5, 5.73, 3.55, { fill: TINT[c] || 'FDF1E6', line: hexOf(c), lw: 2, radius: 0.12 });
       d.rect(s, x, 2.5, 5.73, 0.55, { fill: c, line: null, radius: 0.12 });
@@ -503,7 +503,7 @@ function build(d) {
       });
     });
     d.t(s, 'Comme au M14 : le **dernier** élément commande.', 0.6, 1.7, 5.4, 0.6, { size: 16, color: 'tx2', valign: 'middle' });
-    d.t(s, '⚠ //het lidmaatschap, het landschap · de verkoop//', 7.4, 1.7, 5.3, 0.6, { size: 15, color: 'accent6', valign: 'middle' });
+    d.t(s, '⚠ //het schilderij · de datum · het gebergte · de verkoop//', 7.4, 1.7, 5.3, 0.6, { size: 15, color: 'accent6', valign: 'middle' });
     band(s, 'Les mots en //-ing, -heid, -te, -iteit, -tie// sont **toujours de** : une bonne nouvelle !', 6.25, 0.55, 'tx2', 16);
   }
 
@@ -525,7 +525,7 @@ function build(d) {
     band(s, 'Avant d’écrire le mot dérivé : **coupez en syllabes** et appliquez la règle (M1, M4).', 6.2, 0.6, 'tx2', 16);
   }
 
-  // ---------------------------------------------------------------- 24 la famille en couleurs (DV3)
+  // ---------------------------------------------------------------- 24 la famille en couleurs
   {
     const s = d.page({ g: 24, tag: 'COMBINER', title: 'La famille werk, en couleurs' });
     const cx = 4.0; const cy = 3.75;
@@ -664,7 +664,8 @@ function build(d) {
   const ex2 = [['vergaderen', 'l’action', '[[de vergadering]]'], ['roken', 'l’action', '[[het roken]]'], ['besturen', 'la personne', '[[de bestuurder]]'], ['organiseren', 'l’action', '[[de organisatie]]'], ['beginnen', 'le moment', '[[het begin]]'],
     ['verkopen', 'personne (f.)', '[[de verkoopster]]'], ['betalen', 'l’action', '[[de betaling]]'], ['vertrekken', 'l’acte', '[[het vertrek]]'], ['wandelen', 'la personne', '[[de wandelaar]]'], ['printen', 'l’appareil', '[[de printer]]']];
   d.ex({ g: 31, title: 'Exercice 2 — Verbe → nom', stars: '★★', instr: 'Trouvez le nom demandé, avec son article.' }, (s, mode, top) => {
-    const cw = (12.13 - 0.2) / 2; const rh = (6.75 - top) / 5;
+    const cw = (12.13 - 0.2) / 2; const rh = ((mode === 'a' ? 6.45 : 6.75) - top) / 5;
+    if (mode === 'a') d.t(s, 'Pour l’action, //het// + infinitif marche toujours : aussi //het vergaderen, het organiseren, het betalen, het vertrekken//.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
     ex2.forEach(([v, what, ans], i) => {
       const x = 0.6 + Math.floor(i / 5) * (cw + 0.2); const y = top + (i % 5) * rh;
       d.rect(s, x, y + 0.04, cw, rh - 0.1, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: BORDER, lw: 0.75, radius: 0.1 });
@@ -690,7 +691,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 33 ex4 nom → adjectif
-  const ex4 = [['de zon', 'Het is vandaag [[zonnig]] weer.'], ['het gevaar', 'Die straat is [[gevaarlijk]].'], ['de techniek', 'We hebben een [[technisch]] probleem.'], ['het hout', 'Ik koop een [[houten]] tafel.'], ['het werk', 'Hij is al een jaar [[werkloos]].'], ['de vriend', 'De receptionist is heel [[vriendelijk]].'], ['de dag', 'De [[dagelijkse]] vergadering begint om 9 uur.'], ['de waarde', 'Dat is een [[waardevol]] advies.']];
+  const ex4 = [['de zon', 'Het is vandaag [[zonnig]] weer.'], ['het gevaar', 'Die straat is [[gevaarlijk]].'], ['de techniek', 'We hebben een [[technisch]] probleem.'], ['het hout', 'Ik koop een [[houten]] tafel.'], ['het werk', 'Hij is al een jaar [[werkloos]].'], ['de vriend', 'De receptionist is heel [[vriendelijk]].'], ['de dag', 'De [[dagelijkse]] vergadering begint om 9 uur.'], ['de waarde', 'Bedankt! Dat is een [[waardevol]] advies.']];
   d.ex({ g: 33, title: 'Exercice 4 — Nom → adjectif', stars: '★★', instr: 'Complétez avec l’adjectif formé sur le nom. Attention au //-e// devant le nom !' }, (s, mode, top) => {
     const rh = (6.5 - top) / 8;
     ex4.forEach(([n, t], i) => {
@@ -707,7 +708,8 @@ function build(d) {
   const ex5 = [['potable-water', 'Kun je dit water drinken?', 'Ja, het is [[drinkbaar]].'], ['open-book', 'Kun je zijn handschrift lezen?', 'Nee, het is [[onleesbaar]].'], ['money-with-wings', 'Kunnen we die prijs betalen?', 'Ja, hij is [[betaalbaar]].'],
     ['oncoming-bus', 'Kun je het kantoor met de bus bereiken?', 'Ja, het is goed [[bereikbaar]].'], ['fork-and-knife', 'Kun je die paddenstoelen eten?', 'Nee, ze zijn niet [[eetbaar]].'], ['eyes', 'Kun je het verschil zien?', 'Nee, het is niet [[zichtbaar]].']];
   d.ex({ g: 34, title: 'Exercice 5 — C’est …baar !', stars: '★', instr: 'Répondez avec un adjectif en //-baar// (ou //on-…-baar//).' }, (s, mode, top) => {
-    const cw = (12.13 - 0.2) / 2; const rh = (6.75 - top) / 3;
+    const cw = (12.13 - 0.2) / 2; const rh = ((mode === 'a' ? 6.45 : 6.75) - top) / 3;
+    if (mode === 'a') d.t(s, 'N° 2 : aussi //niet leesbaar//. N° 5 : aussi //oneetbaar//. N° 6 : aussi //onzichtbaar//.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
     ex5.forEach(([ic, q, a], i) => {
       const x = 0.6 + (i % 2) * (cw + 0.2); const y = top + Math.floor(i / 2) * rh;
       d.rect(s, x, y + 0.05, cw, rh - 0.13, { fill: 'FFFFFF', line: CAT.A.c, lw: 1.25, radius: 0.12, shadow: true });
@@ -733,7 +735,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 36 ex7 pas de -ment
-  const ex7 = [['Il travaille rapidement.', 'Hij werkt [[snel]].'], ['Elle parle clairement.', 'Ze spreekt [[duidelijk]].'], ['Conduis prudemment !', 'Rij [[voorzichtig]]!'], ['Tu parles bien néerlandais.', 'Je spreekt [[goed]] Nederlands.'], ['Heureusement, il est là.', '[[Gelukkig]] is hij er.'], ['Malheureusement, je ne peux pas venir.', '[[Helaas]] kan ik niet komen.']];
+  const ex7 = [['Il travaille rapidement.', 'Hij werkt [[snel]].'], ['Elle parle clairement.', 'Ze spreekt [[duidelijk]].'], ['Conduis prudemment !', 'Rijd [[voorzichtig]]!'], ['Tu parles bien néerlandais.', 'Je spreekt [[goed]] Nederlands.'], ['Heureusement, il est là.', '[[Gelukkig]] is hij er.'], ['Malheureusement, je ne peux pas venir.', '[[Helaas]] kan ik niet komen.']];
   d.ex({ g: 36, title: 'Exercice 7 — Pas de -ment !', stars: '★★', instr: 'Traduisez l’adverbe. Rappel : en néerlandais, l’adverbe = l’adjectif.' }, (s, mode, top) => {
     const rh = (6.5 - top) / 6;
     ex7.forEach(([fr, nl], i) => {
@@ -743,7 +745,7 @@ function build(d) {
       d.t(s, '➜', 6.35, y + 0.04, 0.5, rh - 0.1, { size: 18, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
       d.t(s, `//${nl}//`, 6.95, y + 0.04, 5.7, rh - 0.1, { size: 18, valign: 'middle', mode });
     });
-    if (mode === 'a') d.t(s, 'N° 6 : aussi //Jammer genoeg kan ik niet komen.// N° 5 et 6 : inversion après l’adverbe en tête.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'N° 6 : aussi //Jammer genoeg / Spijtig genoeg (BE)//. N° 5 et 6 : inversion après l’adverbe en tête.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 37 ex8 les familles
@@ -779,7 +781,7 @@ function build(d) {
       d.rect(s, 6.6, y + 0.04, 6.13, rh - 0.1, { fill: TINT[CAT.N.c], line: null, radius: 0.1 });
       d.t(s, `//${b}//`, 6.75, y + 0.04, 5.9, rh - 0.1, { size: 17, valign: 'middle', mode });
     });
-    if (mode === 'a') d.t(s, 'N° 2 : //openen → de opening//. N° 4 : //vertrekken → het vertrek// (radical, het). N° 6 : //snel// (adverbe) → //snelle// (adjectif + //-e//).', 0.6, 6.48, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'Titres aussi sans article : //Stijging van de prijzen · Prijsstijging//. N° 4 : //het vertrek// (radical). N° 5 : aussi //de klanttevredenheid//. N° 6 : //snel// → //snelle// (+ //-e//).', 0.6, 6.48, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 39 ex10 de of het
@@ -794,7 +796,7 @@ function build(d) {
       else { d.rect(s, x + 0.25, y + (rh - 0.6) / 2 + 0.02, 0.85, 0.5, { fill: c, line: null, radius: 0.08 }); d.t(s, `**${art}**`, x + 0.25, y + (rh - 0.6) / 2 + 0.02, 0.85, 0.5, { size: 17, color: 'bg1', align: 'center', valign: 'middle' }); }
       d.t(s, `//**${w}**//`, x + 1.2, y + 0.08, cw - 1.3, rh - 0.2, { size: 14.5, valign: 'middle' });
     });
-    if (mode === 'a') d.t(s, '⚠ //het lidmaatschap// : exception à //-schap = de//. //het vertrek, het begin// : radical à préfixe.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, '//het lidmaatschap// : //-schap// de statut = //het//. //het vertrek, het begin// : radical à préfixe.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 40 ex11 détective
@@ -840,7 +842,7 @@ function build(d) {
     scenario: 'Peeters & Co rénove ses bureaux. A explique les travaux à l’oral ; B écrit l’avis en style nominal.',
     a: ['**A — facility manager**', 'Expliquez les travaux avec des verbes : //We vergroten de refter…//'],
     b: ['**B — assistant·e**', 'Écrivez l’avis avec des noms : //Vergroting van de refter…// Puis A vérifie.'],
-    bank: '//de vergroting · de vernieuwing · de verbetering · de sluiting · de heropening · de verbouwing · tijdelijk · onbeschikbaar · bereikbaar · Wegens werken… · Gelieve… · Dank voor uw begrip!//',
+    bank: '//de vergroting · de vernieuwing · de verbetering · de sluiting · de heropening · de verbouwing · tijdelijk · niet beschikbaar · buiten gebruik · bereikbaar · Wegens werken… · Gelieve … te … · Dank voor uw begrip!//',
     doc: (s, x, y, w, h) => {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.6, { fill: 'tx2', line: null, radius: 0.04 });

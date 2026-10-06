@@ -127,14 +127,14 @@
 - Trois lignes de légende.
 
 **Contenu textuel**
-> *on- + be- + taal + -baar* → ***onbetaalbaar*** (adjectif, « impayable »)
+> *on- + be- + reik + -baar* → ***onbereikbaar*** (adjectif, « injoignable, inaccessible »)
 > *ver- + groot + -en* → ***vergroten*** (verbe, « agrandir »)
 > *werk + -loos + -heid* → ***de werkloosheid*** (nom, « le chômage »)
 > le **préfixe** (à gauche) change le **sens** : *on-* = le contraire, *ver-* = rendre…
-> la **racine** porte l'idée : *taal* (betalen), *groot*, *werk*
+> la **racine** porte l'idée : *reik* (bereiken), *groot*, *werk*
 > le **suffixe** (à droite) décide la **catégorie** et l'**article** : *-baar* → adjectif, *-heid* → *de*
 
-**Notes pour l'animateur** — Même logique qu'au M14 (« le dernier mot commande ») : ici, le dernier **morceau** commande. *ver- … -en* entoure l'adjectif : on parle de « circonfixe ».
+**Notes pour l'animateur** — Même logique qu'au M14 (« le dernier mot commande ») : ici, le dernier **morceau** commande. *ver-* s'ajoute devant l'adjectif et *-en* est la terminaison de l'infinitif (*ik vergroot*) : comme le français *a-grand-ir*.
 
 ---
 
@@ -151,10 +151,10 @@
 > *betalen → het betalen* — *Het betalen kan met de kaart.*
 > *leren → het leren* — *Het leren van een taal kost tijd.*
 > ✓ **toujours possible** · **toujours het** · pas de pluriel — = « le fait de… »
-> **+ het ge- + radical : le bruit qui dure** — *praten → het gepraat · lachen → het gelach · zeuren → het gezeur* · souvent agaçant
-> *À l'écrit (panneaux, règlements) : Het parkeren is verboden. · Het gebruik van de lift…*
+> **+ het ge- + radical : l'action qui dure, qui se répète** — *praten → het gepraat · lachen → het gelach · zoeken → het gezoek* · souvent agaçant
+> *À l'écrit (panneaux, règlements) : Het parkeren is verboden. · Het betreden van het gras…*
 
-**Notes pour l'animateur** — *het* + infinitif est la « roue de secours » : quand on ne connaît pas le nom, il marche toujours. *het ge-* (*het geblaf, het geroep*) se reconnaît facilement à l'oral.
+**Notes pour l'animateur** — *het* + infinitif est la « roue de secours » : quand on ne connaît pas le nom, il marche toujours. *het ge-* (*het geblaf, het geroep, het gedoe*) se reconnaît facilement à l'oral. ⚠ *het gebruik* (diapo 9) est un radical à préfixe, pas un *het* + infinitif.
 
 ---
 
@@ -167,11 +167,11 @@
 
 **Contenu textuel**
 > *vergaderen + -ing → de vergadering* (la réunion) · *betalen → de betaling* (le paiement) · *verwarmen → de verwarming* (le chauffage) · *uitnodigen → de uitnodiging* (l'invitation)
-> ✓ radical + *-ing* · **toujours de** · pluriel *-en* · surtout avec un préfixe : *be-, ver-, uit-, op-…*
+> ✓ radical + *-ing* · **toujours de** · pluriel *-en* · surtout avec un préfixe ou une particule : *be-, ver-, uit-, op-…*
 > ⚠ **Pas avec tous les verbes** : ✗ *de eting* → *het eten* · ✗ *de slaping* → *de slaap* · *de werking* = le fonctionnement (le travail = *het werk*) → en cas de doute : *het* + infinitif
 > ⚠ **Le sens glisse parfois vers le résultat** : *de lezing* = la **conférence** (la lecture = *het lezen*) · *de woning* = le logement (*wonen*) · *de regering* = le gouvernement · *de opleiding* = la formation (*opleiden*)
 
-**Notes pour l'animateur** — Lien M14. Astuce : *-ing* fonctionne très bien avec les verbes à préfixe ou à particule (*de bestelling, de opening, de uitnodiging*). Quand *-ing* n'existe pas, utilisez *het* + infinitif.
+**Notes pour l'animateur** — Lien M14. Astuce : *-ing* fonctionne très bien avec les verbes à préfixe ou à particule (*de opleiding, de aanmelding, de inschrijving, de bestelling*). Quand *-ing* n'existe pas, utilisez *het* + infinitif.
 
 ---
 
@@ -180,16 +180,16 @@
 **Objectif pédagogique** — Reconnaître les noms formés sur le radical seul et leur article.
 
 **Visuel / Schéma / Agencement**
-- Trois bandes : **DE** + radical (bleu nuit) · **HET** + radical à préfixe (orange) · **la voyelle change** (violet) ; quatre cartes « verbe ↓ nom » par bande ; encadré exceptions.
+- Trois bandes : **DE** + radical (bleu nuit) · **HET** + radical à préfixe (orange) · **la voyelle change** (violet, à apprendre) ; quatre cartes « verbe ↓ nom » par bande ; encadré exceptions.
 
 **Contenu textuel**
 > **DE** : *starten → de start · wensen → de wens · vragen → de vraag · groeien → de groei*
 > **HET** (*be-, ge-, ver-*) : *beginnen → het begin · gebruiken → het gebruik · vertrekken → het vertrek · bezoeken → het bezoek*
 > **la voyelle change** : *springen → de sprong · grijpen → de greep · spreken → het gesprek · verbieden → het verbod*
-> ⚠ *de verkoop* (verkopen) · *de verhuis* (BE, verhuizen) · *het slot* (sluiten) · *de dood* (doodgaan) : vérifiez au dictionnaire
+> ⚠ *de verkoop* (verkopen) · *de verhuis* (BE, verhuizen) · *het slot* (sluiten) · **het** sans préfixe : *het werk, het spel* : vérifiez au dictionnaire
 > *Le radical seul = l'acte ou le résultat : de start, het vertrek, de vraag.*
 
-**Notes pour l'animateur** — La règle « préfixe inséparable → souvent *het* » est une tendance, pas une loi. Les changements de voyelle rappellent les verbes irréguliers (*de sprong* ressemble à *sprong*, l'imperfectum de *springen*) : à apprendre comme du vocabulaire.
+**Notes pour l'animateur** — La règle « préfixe inséparable → souvent *het* » est une tendance, pas une loi. Les changements de voyelle sont à apprendre comme du vocabulaire ; certains rappellent l'imperfectum (*springen → sprong → de sprong*), d'autres non (*spreken → het gesprek*).
 
 ---
 
@@ -198,15 +198,15 @@
 **Objectif pédagogique** — Former le nom de la personne (et de l'appareil) à partir du verbe.
 
 **Visuel / Schéma / Agencement**
-- Trois bandes : *-er* (le cas normal) · *-aar* (après *-el, -er, -en*) · *-der* (radical en *-r*), avec des cartes « verbe ↓ nom ».
-- Encadré « au féminin » ; encadré « l'appareil » avec 🖨️ ⏰ 🍾.
+- Trois bandes : *-er* (le cas normal) · *-aar* (après *-el, -er, -en* non accentué) · *-der* (radical en *-r*), avec des cartes « verbe ↓ nom ».
+- Encadré « au féminin » ; encadré « l'appareil : toujours -er » avec 🖨️ ⏰ 🔥.
 
 **Contenu textuel**
 > **-er** : *werken → de werker · spelen → de speler · bakken → de bakker · schrijven → de schrijver*
-> **-aar** (après *-el, -er, -en*) : *wandelen → de wandelaar · luisteren → de luisteraar · tekenen → de tekenaar · leren → de leraar* (exception)
+> **-aar** (après *-el, -er, -en* non accentué) : *wandelen → de wandelaar · luisteren → de luisteraar · tekenen → de tekenaar · leren → de leraar* (exception)
 > **-der** (radical en *-r*) : *besturen → de bestuurder · huren → de huurder · bewaren → de bewaarder*
 > **Au féminin** : *-ster* : *de verkoopster, de schrijfster* · *-es* : *de lerares* · *-in* : *de vriendin* · souvent **la même forme** : *de manager, de collega, de dokter*
-> **-er = aussi l'appareil** : *printen → de printer · wekken → de wekker · openen → de opener*
+> **L'appareil : toujours -er** : *printen → de printer · wekken → de wekker · aansteken → de aansteker*
 
 **Notes pour l'animateur** — *leraar* est une exception (*leren* ne finit pas par *-el, -er, -en* non accentué). Aujourd'hui, la forme en *-er* s'emploie souvent pour tout le monde (*Ze is een goede werker*) ; les formes féminines restent courantes pour les métiers (*verkoopster, lerares*). Consonne double après voyelle courte : *bakken → bakker* (M1).
 
@@ -221,11 +221,11 @@
 
 **Contenu textuel**
 > *organiseren → de organisatie · informeren → de informatie · presenteren → de presentatie · communiceren → de communicatie · installeren → de installatie · reserveren → de reservatie (BE)*
-> ✓ *-eren* → *-atie* ou *-tie* · **toujours de** · l'accent tombe sur *-tie* : *informa**tie***
+> ✓ *-eren* → *-atie* ou *-tie* · **toujours de** · l'accent tombe **avant** *-tie* : *infor**ma**tie*
 > ⚠ *controleren → de controle* · *discussiëren → de discussie* · *reserveren → de reservering* (NL)
 > *Et dans l'autre sens (diapo 18) : de organisatie → organiseren.*
 
-**Notes pour l'animateur** — Prononciation : *-tie* se dit [tsi] ou [si] (*informatie* : « informa-tsie »). En Belgique, *de reservatie* est courant ; aux Pays-Bas, *de reservering*.
+**Notes pour l'animateur** — Prononciation : *-tie* se dit [tsi] ou [si], et l'accent tombe sur la syllabe d'avant (*infor**ma**tie, organi**sa**tie*). En Belgique, *de reservatie* est courant ; aux Pays-Bas, *de reservering*.
 
 ---
 
@@ -241,7 +241,7 @@
 > **-heid** : *vrij → de vrijheid · gezond → de gezondheid · snel → de snelheid · mogelijk → de mogelijkheid*
 > **-te** : *lang → de lengte · warm → de warmte · hoog → de hoogte · breed → de breedte*
 > ✓ **toujours de** · pluriel : *-heden, -tes* (*de mogelijkheden*)
-> ⚠ *lang → de lengte* · *ziek → de ziekte* · *lief → de liefde* · *koud → de kou*
+> ⚠ *lang → de lengte* · *ziek → de ziekte* · *lief → de liefde* · *koud → de kou(de)*
 > *En cas de doute : -heid est le plus fréquent et le plus productif.*
 
 **Notes pour l'animateur** — Les dimensions vont par paires : *lang / lengte, breed / breedte, hoog / hoogte, diep / diepte, groot / grootte, dik / dikte*. *Gezondheid!* = « À tes souhaits ! » (M14).
@@ -258,11 +258,11 @@
 
 **Contenu textuel**
 > **-iteit** = le français **-ité** (toujours *de*) : *actief → de activiteit · creatief → de creativiteit · flexibel → de flexibiliteit · populair → de populariteit · nationaal → de nationaliteit*
-> **het + adj. + -e = « ce qui est… »** : *Het leuke is dat we thuis werken. · Het moeilijke is de uitspraak.*
+> **het + adj. + -e = « ce qui est… »** : *Het leuke is dat we thuis werken. · Het moeilijke is de uitspraak.* (ce qui est difficile)
 > **de + adj. + -e(n) = les personnes** : *de zieken · de ouderen · de werklozen* · *De nieuwe begint maandag.* (la nouvelle / le nouveau)
-> *Le français fait pareil : « le plus difficile », « les malades ».*
+> *Le français fait pareil : « le difficile, c'est… », « les malades ».*
 
-**Notes pour l'animateur** — *-iteit* porte l'accent (*activi**teit***). *Het leuke is dat…* est très fréquent à l'oral pour donner un avis (lien M27).
+**Notes pour l'animateur** — « le plus difficile » = *het moeilijkste* (superlatif). *-iteit* porte l'accent (*activi**teit***). *Het leuke is dat…* est très fréquent à l'oral pour donner un avis (lien M27).
 
 ---
 
@@ -276,11 +276,11 @@
 
 **Contenu textuel**
 > **-ig** (qui a…) : *de zon → zonnig · het geluk → gelukkig · de moed → moedig · de honger → hongerig* — ⚠ *de wind → winderig · de nood → nodig*
-> **-lijk** ([lək] : qui est comme…) : *de vriend → vriendelijk · het gevaar → gevaarlijk · de natuur → natuurlijk · de vrouw → vrouwelijk* — ⚠ + *e* : *vrouwelijk* · + *s* : *dagelijks*
+> **-lijk** ([lək] : qui est comme…) : *de vriend → vriendelijk · het gevaar → gevaarlijk · de natuur → natuurlijk · de vrouw → vrouwelijk* — ⚠ + *e* : *vriendelijk, vrouwelijk* · + *s* : *dagelijks* · *-lijk* se dit [lək] (le *e* de « le »)
 > **-isch** (= le français *-ique*) : *de techniek → technisch · de logica → logisch · de praktijk → praktisch · de economie → economisch* — ⚠ *de politiek → politiek* (même mot)
 > *Orthographe : voyelle courte → consonne double : de zon → zonnig (diapo 23).*
 
-**Notes pour l'animateur** — Prononciation de *-lijk* : [lək] (« leuk » très bref), jamais « laïk ». *dagelijks, jaarlijks, wekelijks* : le *-s* est fixe ; devant un nom : *de dagelijkse vergadering*.
+**Notes pour l'animateur** — Prononciation de *-lijk* : [lək], avec le *e* de « le », jamais « laïk ». *dagelijks, jaarlijks, wekelijks* : le *-s* est fixe ; devant un nom : *de dagelijkse vergadering*.
 
 ---
 
@@ -294,7 +294,7 @@
 
 **Contenu textuel**
 > *hopeloos ← de hoop → hoopvol · zinloos ← de zin → zinvol · waardeloos ← de waarde → waardevol · kleurloos ← de kleur → kleurrijk*
-> *werkloos* = sans emploi · *draadloos* = sans fil · ⚠ *-e-* de liaison : *hopeloos, waardeloos*
+> *werkloos* = sans emploi · *draadloos* = sans fil · ⚠ *-e-* de liaison : *hopeloos, nutteloos*
 > **-en : la matière** : *het hout → houten · het goud → gouden · het glas → glazen · de wol → wollen* — **invariables** (M21) : *een houten tafel* · ⚠ *plastic* ne change pas
 > *Retenez les paires de contraires : hopeloos ↔ hoopvol.*
 
@@ -311,12 +311,12 @@
 - Cinq machines à mots avec image (🚰, 🍴, 💸, 🚍, 📖) et traduction ; encadrés norme et exceptions.
 
 **Contenu textuel**
-> *drinken + -baar → drinkbaar* (potable) · *eten → eetbaar* (mangeable) · *betalen → betaalbaar* (abordable) · *bereiken → bereikbaar* (accessible) · *lezen → leesbaar* (lisible)
+> *drinken + -baar → drinkbaar* (potable) · *eten → eetbaar* (comestible) · *betalen → betaalbaar* (abordable) · *bereiken → bereikbaar* (accessible, joignable) · *lezen → leesbaar* (lisible)
 > ✓ radical + *-baar* = *-able* · le contraire : **on-** : *onbetaalbaar, onleesbaar*
 > ⚠ *zien → zichtbaar* · *gebruiken → bruikbaar* · mots français : *acceptabel, flexibel, rendabel*
-> *Le radical suit l'orthographe : lez-en → leesbaar · et-en → eetbaar (syllabe fermée = voyelle double).*
+> *Radical = la forme de ik : lezen → ik lees → leesbaar · eten → ik eet → eetbaar*
 
-**Notes pour l'animateur** — *betaalbaar* = abordable (pas cher) ; *onbetaalbaar* = hors de prix… ou inestimable. L'accent reste sur la racine : ***be**taalbaar*.
+**Notes pour l'animateur** — *betaalbaar* = abordable (pas cher) ; *onbetaalbaar* = hors de prix… ou inestimable. L'accent reste sur la racine : *be**taal**baar*.
 
 ---
 
@@ -325,12 +325,12 @@
 **Objectif pédagogique** — Utiliser les participes présent et passé comme adjectifs.
 
 **Visuel / Schéma / Agencement**
-- Deux colonnes : *-end* (participe présent, « -ant », 🍿) · *ge-…-t/-d/-en* (participe passé, « -é », 🔒) ; encadré « le *-e* de l'adjectif ».
+- Deux colonnes : *-end* (participe présent, « -ant », 🍿) · *ge-…-t/-d/-en* (participe passé, « -é », pas de *ge-* après *be-, ver-*, 🔒) ; encadré « le *-e* de l'adjectif ».
 
 **Contenu textuel**
 > **-end** : *boeien → boeiend* (passionnant) · *spannen → spannend* (palpitant) · *opvallen → opvallend* (frappant) · *dringen → dringend* (urgent) — *een spannende film*
 > **participe passé** : *sluiten → gesloten* (fermé) · *trouwen → getrouwd* (marié) · *vermoeien → vermoeid* (fatigué) · *interesseren → geïnteresseerd* (intéressé) — *de gesloten deur · een getrouwde collega*
-> ⚠ participe en *-en* : pas de *-e* en plus → *de gesloten deur* · ✗ *interesseerd* : *interessant* = intéressant, *geïnteresseerd* = intéressé
+> ⚠ participe en *-en* : pas de *-e* en plus → *de gesloten deur* · *interessant* = intéressant, *geïnteresseerd* = intéressé
 
 **Notes pour l'animateur** — Lien M15 (formation du participe) et M21 (le *-e*). *dringend* est fréquent dans les e-mails (*Dringend: …*).
 
@@ -347,7 +347,7 @@
 **Contenu textuel**
 > *de fiets → fietsen · de mail → mailen · de hamer → hameren · het tennis → tennissen · de ski → skiën*
 > ✓ **nom + -en** : très productif, surtout avec les mots anglais : *appen, googelen, sms'en, filmen*
-> ⚠ voyelle courte → consonne double : *tennissen, appen* · tréma : *skiën* · apostrophe : *sms'en*
+> ⚠ voyelle courte → consonne double : *tennissen, chatten* · tréma : *skiën* · apostrophe : *sms'en*
 > **be- + nom** : un complément direct : *het antwoord → beantwoorden* : *een vraag beantwoorden*
 > *Et -eren pour les mots français : de organisatie → organiseren · de controle → controleren*
 
@@ -366,7 +366,7 @@
 **Contenu textuel**
 > *groot → vergroten* (agrandir) · *klein → verkleinen* (réduire) · *beter → verbeteren* (améliorer) · *warm → verwarmen* (chauffer) · *nieuw → vernieuwen* (renouveler) · *lang → verlengen* (prolonger)
 > ✓ *ver-* + adjectif + *-en* = **rendre plus…** · avec le comparatif : *verbeteren, verergeren, verminderen*
-> ⚠ la voyelle change : *lang → verlengen* · sans *ver-* : *open → openen · droog → drogen · leeg → legen* · avec *ge-* : *makkelijk → vergemakkelijken*
+> ⚠ la voyelle change : *lang → verlengen* · sans *ver-* : *open → openen · droog → drogen · leeg → legen* · *(ge)makkelijk → vergemakkelijken*
 > *Le contraire avec un autre adjectif : vergroten ↔ verkleinen · verlengen ↔ verkorten*
 
 **Notes pour l'animateur** — Le nom en *-ing* suit : *de vergroting, de verbetering, de verlenging* (diapo 25, ex. 13). Vocabulaire très utile au travail : *een contract verlengen, de service verbeteren*.
@@ -399,13 +399,13 @@
 - Quatre cartes : *on-* (❌ le contraire) · *her-* (🔁 à nouveau) · *mis-* (⚠️ mal, de travers) · *ont-* (🔓 enlever, défaire), trois exemples chacune.
 
 **Contenu textuel**
-> **on-** : *mogelijk → onmogelijk · gezond → ongezond · tevreden → ontevreden*
+> **on-** : *mogelijk → onmogelijk · gezond → ongezond · bekend → onbekend*
 > **her-** : *openen → heropenen · starten → herstarten · gebruiken → hergebruiken*
-> **mis-** : *verstaan → het misverstand · gebruiken → misbruiken · lopen → mislopen*
-> **ont-** : *dooien → ontdooien · koppelen → ontkoppelen · smetten → ontsmetten*
+> **mis-** : *lukken → mislukken · gebruiken → misbruiken · lopen → mislopen*
+> **ont-** : *dekken → ontdekken · wikkelen → ontwikkelen · dooien → ontdooien*
 > *Le préfixe garde la catégorie (sauf be-, ver-). ⚠ on- pas avec tous : ✗ onslecht → goed. herhalen = répéter (sens figé).*
 
-**Notes pour l'animateur** — *mislopen* = rater (*Ik ben de trein misgelopen*, BE). *ontsmetten* = désinfecter. *on-* s'utilise surtout avec des adjectifs « positifs » (*ongelukkig, onvriendelijk*) ; pour les autres, on prend l'antonyme (*slecht ↔ goed*).
+**Notes pour l'animateur** — *mislopen* = rater (*Ik ben de trein misgelopen*, BE). *ontdekken* = dé-couvrir, *ontwikkelen* = dé-velopper : un pont avec le français. ⚠ *ontevreden* = *on-* + *tevreden* (pas *ont-*). *on-* s'utilise surtout avec des adjectifs « positifs » (*ongelukkig, onvriendelijk*) ; pour les autres, on prend l'antonyme (*slecht ↔ goed*).
 
 ---
 
@@ -417,12 +417,12 @@
 - 🧭 ; deux colonnes : **DE** (bleu nuit) et **HET** (orange), avec suffixe et exemple ; une ligne d'exceptions.
 
 **Contenu textuel**
-> **DE** : *-ing* (de vergadering) · *-heid* (de vrijheid) · *-te* (de lengte) · *-iteit* (de kwaliteit) · *-(a)tie* (de informatie) · *-er, -aar, -ster* (de leraar) · *-ij, -erij* (de bakkerij) · *-schap* (de vriendschap)
-> **HET** : *het* + infinitif (het roken) · *ge-* + radical (het gepraat) · *-je* (het huisje) · *-isme* (het toerisme) · *-ment* (het document) · *-um* (het museum) · *-sel* (het mengsel) · *be-, ver-, ont-* + radical (het begin, souvent)
-> Comme au M14 : le **dernier** élément commande. ⚠ *het lidmaatschap, het landschap · de verkoop*
+> **DE** : *-ing* (de vergadering) · *-heid* (de vrijheid) · *-te* (de lengte) · *-iteit* (de kwaliteit) · *-(a)tie* (de informatie) · *-er, -ster* : personne (de leraar) · *-ij, -erij* (de bakkerij) · *-schap* : relation, qualité (de vriendschap)
+> **HET** : *het* + infinitif (het roken) · *ge-* + radical (het gepraat) · *-je* (het huisje) · *-isme* (het toerisme) · *-ment, -um* (het document) · *-sel* (het mengsel) · *-schap* : statut, fonction (het lidmaatschap) · *be-, ver-, ont-* + radical (het begin, souvent)
+> Comme au M14 : le **dernier** élément commande. ⚠ *het schilderij · de datum · het gebergte · de verkoop*
 > *Les mots en -ing, -heid, -te, -iteit, -tie sont toujours de : une bonne nouvelle !*
 
-**Notes pour l'animateur** — Lien M5 (les familles DE / HET). Couleurs du M5 : bleu nuit = DE, orange = HET.
+**Notes pour l'animateur** — Lien M5 (les familles DE / HET). Couleurs du M5 : bleu nuit = DE, orange = HET. *-schap* : *de vriendschap, de wetenschap* mais *het lidmaatschap, het voorzitterschap, het ouderschap* (statut) et *het landschap, het gezelschap, het gereedschap*. *-er* : seulement pour les personnes et les appareils (*het nummer, het water* ne sont pas dérivés).
 
 ---
 
@@ -583,7 +583,9 @@
 >
 > **✓ CORRECTIE** — 1 *de vergadering* · 2 *het roken* · 3 *de bestuurder* · 4 *de organisatie* · 5 *het begin* · 6 *de verkoopster* · 7 *de betaling* · 8 *het vertrek* · 9 *de wandelaar* · 10 *de printer*
 
-**Notes pour l'animateur** — Les cases incluent l'article : le trouver fait partie de l'exercice. N° 2 : ✗ *de roking*. N° 6 : au masculin, *de verkoper*. N° 7 : aussi *het betalen*. N° 3 : *-der* après *r* ; n° 9 : *-aar* après *-el*.
+> Pour l'action, *het* + infinitif marche toujours : aussi *het vergaderen, het organiseren, het betalen, het vertrekken*.
+
+**Notes pour l'animateur** — Les cases incluent l'article : le trouver fait partie de l'exercice. N° 2 : ✗ *de roking*. N° 6 : au masculin, *de verkoper*. N° 3 : *-der* après *r* ; n° 9 : *-aar* après *-el*.
 
 ---
 
@@ -613,7 +615,7 @@
 
 **Contenu textuel**
 > 1 (*de zon*) *Het is vandaag …… weer.* · 2 (*het gevaar*) *Die straat is …… .* · 3 (*de techniek*) *We hebben een …… probleem.* · 4 (*het hout*) *Ik koop een …… tafel.*
-> 5 (*het werk*) *Hij is al een jaar …… .* · 6 (*de vriend*) *De receptionist is heel …… .* · 7 (*de dag*) *De …… vergadering begint om 9 uur.* · 8 (*de waarde*) *Dat is een …… advies.*
+> 5 (*het werk*) *Hij is al een jaar …… .* · 6 (*de vriend*) *De receptionist is heel …… .* · 7 (*de dag*) *De …… vergadering begint om 9 uur.* · 8 (*de waarde*) *Bedankt! Dat is een …… advies.*
 >
 > **✓ CORRECTIE** — 1 *zonnig* · 2 *gevaarlijk* · 3 *technisch* · 4 *houten* · 5 *werkloos* · 6 *vriendelijk* · 7 *dagelijkse* · 8 *waardevol*
 > N° 7 : *dagelijks* + *-e* devant le nom. N° 8 : *het advies* → pas de *-e* après *een*.
@@ -635,7 +637,9 @@
 >
 > **✓ CORRECTIE** — 1 *Ja, het is drinkbaar.* · 2 *Nee, het is onleesbaar.* · 3 *Ja, hij is betaalbaar.* · 4 *Ja, het is goed bereikbaar.* · 5 *Nee, ze zijn niet eetbaar.* · 6 *Nee, het is niet zichtbaar.*
 
-**Notes pour l'animateur** — N° 2 : aussi *niet leesbaar*. N° 6 : *zichtbaar* (exception, diapo 16). Prolongement : chacun·e invente une question pour un·e voisin·e.
+> N° 2 : aussi *niet leesbaar*. N° 5 : aussi *oneetbaar*. N° 6 : aussi *onzichtbaar*.
+
+**Notes pour l'animateur** — N° 6 : *zichtbaar* (exception, diapo 16). Prolongement : chacun·e invente une question pour un·e voisin·e.
 
 ---
 
@@ -667,10 +671,10 @@
 **Contenu textuel**
 > 1 « Il travaille rapidement. » · 2 « Elle parle clairement. » · 3 « Conduis prudemment ! » · 4 « Tu parles bien néerlandais. » · 5 « Heureusement, il est là. » · 6 « Malheureusement, je ne peux pas venir. »
 >
-> **✓ CORRECTIE** — 1 *Hij werkt snel.* · 2 *Ze spreekt duidelijk.* · 3 *Rij voorzichtig!* · 4 *Je spreekt goed Nederlands.* · 5 *Gelukkig is hij er.* · 6 *Helaas kan ik niet komen.*
-> N° 6 : aussi *Jammer genoeg kan ik niet komen.* N° 5 et 6 : inversion après l'adverbe en tête.
+> **✓ CORRECTIE** — 1 *Hij werkt snel.* · 2 *Ze spreekt duidelijk.* · 3 *Rijd voorzichtig!* · 4 *Je spreekt goed Nederlands.* · 5 *Gelukkig is hij er.* · 6 *Helaas kan ik niet komen.*
+> N° 6 : aussi *Jammer genoeg / Spijtig genoeg (BE)*. N° 5 et 6 : inversion après l'adverbe en tête.
 
-**Notes pour l'animateur** — N° 5 et 6 : adverbes « à part » (diapo 20). Rappel M3 : l'adverbe en case ① entraîne l'inversion.
+**Notes pour l'animateur** — N° 3 : l'impératif = la forme de *ik* : *Rijd!* (*Rij!* à l'oral). N° 5 et 6 : adverbes « à part » (diapo 20). Rappel M3 : l'adverbe en case ① entraîne l'inversion.
 
 ---
 
@@ -703,9 +707,9 @@
 > 1 *De prijzen stijgen.* · 2 *Het kantoor opent maandag.* · 3 *We vergaderen om 10 uur.* · 4 *De trein vertrekt om 8 uur.* · 5 *De klanten zijn tevreden.* · 6 *Je moet snel betalen.*
 >
 > **✓ CORRECTIE** — 1 *De stijging van de prijzen* · 2 *De opening van het kantoor: maandag* · 3 *Vergadering om 10 uur* · 4 *Het vertrek van de trein: 8 uur* · 5 *De tevredenheid van de klanten* · 6 *Snelle betaling gevraagd*
-> N° 2 : *openen → de opening*. N° 4 : *vertrekken → het vertrek* (radical, het). N° 6 : *snel* (adverbe) → *snelle* (adjectif + *-e*).
+> Titres aussi sans article : *Stijging van de prijzen · Prijsstijging*. N° 4 : *het vertrek* (radical). N° 5 : aussi *de klanttevredenheid*. N° 6 : *snel* → *snelle* (+ *-e*).
 
-**Notes pour l'animateur** — N° 5 : *tevreden* (adjectif) → *de tevredenheid*. Variante : faire le chemin inverse avec des titres de journaux.
+**Notes pour l'animateur** — N° 5 : *tevreden* (adjectif) → *de tevredenheid*. N° 6 : dans un courrier formel, on lit souvent *Spoedige betaling gevraagd*. Variante : faire le chemin inverse avec des titres de journaux.
 
 ---
 
@@ -720,7 +724,7 @@
 > *betaling · lezen · vertrek · begin · gezondheid · toerisme · document · organisatie · mengsel · vriendschap · lidmaatschap · bakkerij*
 >
 > **✓ CORRECTIE** — *de betaling · het lezen · het vertrek · het begin · de gezondheid · het toerisme · het document · de organisatie · het mengsel · de vriendschap · het lidmaatschap · de bakkerij*
-> ⚠ *het lidmaatschap* : exception à *-schap = de*. *het vertrek, het begin* : radical à préfixe.
+> *het lidmaatschap* : *-schap* de statut = *het*. *het vertrek, het begin* : radical à préfixe.
 
 **Notes pour l'animateur** — Faites citer le suffixe-indice pour chaque mot (boussole, diapo 22).
 
@@ -772,9 +776,9 @@
 > **A — facility manager** : expliquez les travaux avec des verbes : *We vergroten de refter…*
 > **B — assistant·e** : écrivez l'avis avec des noms : *Vergroting van de refter…* Puis A vérifie.
 > Document : *we vergroten de refter · we vernieuwen de computers · we verbeteren de verwarming · de lift werkt niet tot 15 mei · de parking sluit op 3 mei · we openen het kantoor opnieuw op 1 juni*
-> Banque : *de vergroting · de vernieuwing · de verbetering · de sluiting · de heropening · de verbouwing · tijdelijk · onbeschikbaar · bereikbaar · Wegens werken… · Gelieve… · Dank voor uw begrip!*
+> Banque : *de vergroting · de vernieuwing · de verbetering · de sluiting · de heropening · de verbouwing · tijdelijk · niet beschikbaar · buiten gebruik · bereikbaar · Wegens werken… · Gelieve … te … · Dank voor uw begrip!*
 
-**Notes pour l'animateur** — *Wegens werken* (BE) = « pour cause de travaux » (*de werken* = les travaux en Belgique ; NL : *de werkzaamheden*). *Gelieve…* + infinitif = formule polie des avis (*Gelieve de trap te gebruiken*). Exemple d'avis : *Verbouwing – Vergroting van de refter · Vernieuwing van de computers · Lift buiten gebruik tot 15 mei · Sluiting van de parking op 3 mei · Heropening van het kantoor op 1 juni.*
+**Notes pour l'animateur** — *Wegens werken* (BE) = « pour cause de travaux » (*de werken* = les travaux en Belgique ; NL : *de werkzaamheden*). *Gelieve … te* + infinitif = formule polie des avis (*Gelieve de trap te gebruiken*). Exemple d'avis : *Verbouwing – Vergroting van de refter · Vernieuwing van de computers · Verbetering van de verwarming · Lift buiten gebruik tot 15 mei · Sluiting van de parking op 3 mei · Heropening van het kantoor op 1 juni.*
 
 ---
 
