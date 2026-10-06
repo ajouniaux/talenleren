@@ -2,21 +2,21 @@
 
 | | |
 |---|---|
-| **Niveau** | A2–B1 · complément (après M9 *Waarom? Omdat…* et M15 *Wat heb je gedaan?*) |
+| **Niveau** | A2–B1 · complément (après M9 *Zinnen verbinden* et M15 *Het perfectum*) : prolonge le M9 au-delà des mots A1 |
 | **Durée** | 2 à 3 séances de 90 min (séance 1 : diapos 1–9, ex. 1–3 · séance 2 : diapos 10–15, ex. 4–6 · séance 3 : diapos 16–20, ex. 7–11) |
 | **Source** | Création · références : ANS (nevenschikking, onderschikking), Taaladvies, usage belge |
-| **Prérequis** | M3 (le verbe en 2e position, l'inversion), M9 (*want / omdat*), M15 (participe passé), M16 (verbes séparables) |
+| **Prérequis** | M3 (le verbe en 2e position, l'inversion), M9 (le pont et le wagon : *en, maar, want, of, dus · omdat, dat, als*), M11 (verbes séparables), M15 (participe passé) |
 | **Savoir-faire visés** | ① Relier deux phrases avec un mot de coordination, un adverbe de liaison ou une conjonction de subordination · ② Exprimer le temps, la cause, la conséquence, l'opposition, la condition · ③ Composer des phrases longues en plaçant correctement chaque verbe |
 
 ## Choix didactiques
 
-- **Trois images, trois comportements**, repris sur toutes les diapos (schéma **K1**) :
+- **Trois images, trois comportements**, repris sur toutes les diapos (schéma **K1**). Le pont (bleu) et le wagon (orange) reprennent la métaphore et les couleurs du M9 ; le tremplin (violet) est nouveau :
 
   | | Image | Mots | Ordre | Exemple |
   |---|---|---|---|---|
   | 🌉 | **le pont** (bleu) · coordination | *en, maar, want, of, dus* | rien ne bouge | *Ik blijf thuis, want ik **ben** ziek.* |
-  | 🤸 | **le tremplin** (orange) · adverbe de liaison | *daarom, toch, daarna, dan, anders, bovendien…* | le mot prend la case ① → inversion | *Daarom **blijf** ik thuis.* |
-  | 🚃 | **le wagon** (violet) · subordination | *omdat, dat, als, of, toen, hoewel, terwijl…* | verbe à la fin | *…, omdat ik ziek **ben**.* |
+  | 🤸 | **le tremplin** (violet) · adverbe de liaison | *daarom, toch, daarna, dan, anders, bovendien…* | le mot prend la case ① → inversion | *Daarom **blijf** ik thuis.* |
+  | 🚃 | **le wagon** (orange) · subordination | *omdat, dat, als, of, toen, hoewel, terwijl…* | verbe à la fin | *…, omdat ik ziek **ben**.* |
 
 - Le **verbe conjugué est toujours en rouge** : l'apprenant·e suit des yeux sa place.
 - Schéma **K2** « verbe, verbe » : un wagon en tête occupe la case ① → le verbe principal suit immédiatement.
@@ -114,7 +114,7 @@
 **Objectif pédagogique** — Poser le principe (schéma **K1**) : pont, tremplin, wagon.
 
 **Visuel / Schéma / Agencement**
-- Trois bandeaux colorés : image, nom, effet, liste de mots, phrase-modèle.
+- Trois bandeaux colorés (pont bleu, tremplin violet, wagon orange) : image, nom, effet, liste de mots, phrase-modèle.
 
 **Contenu textuel**
 > 🌉 **LE PONT** — ordre normal — *en · maar · want · of · dus* — *Ik blijf thuis, want ik ben ziek.* — rien ne bouge
@@ -151,7 +151,7 @@
 **Objectif pédagogique** — Fixer les adverbes de liaison et l'inversion qu'ils provoquent.
 
 **Visuel / Schéma / Agencement**
-- Cinq cartes (mot orange, traduction, exemple) ; encadré 🤸.
+- Cinq cartes (mot violet, traduction, exemple) ; encadré 🤸.
 
 **Contenu textuel**
 > **daarom** c'est pourquoi — *Ik ben ziek. Daarom blijf ik thuis.*
@@ -210,7 +210,7 @@
 **Objectif pédagogique** — Distinguer *toen, als, wanneer* (schéma **K4**).
 
 **Visuel / Schéma / Agencement**
-- Ligne du temps avec NU : un point violet (*toen*), des points répétés orange (*als / wanneer* passé), des points bleus après NU (*als / wanneer* présent-futur).
+- Ligne du temps avec NU : un point orange (*toen*), des points répétés violets (*als / wanneer* passé), des points bleus après NU (*als / wanneer* présent-futur).
 - Quatre cartes : TOEN · ALS / WANNEER (passé) · ALS / WANNEER (présent, futur) · WANNEER? (question).
 
 **Contenu textuel**
@@ -229,7 +229,7 @@
 **Objectif pédagogique** — Situer deux actions dans le temps avec six wagons.
 
 **Visuel / Schéma / Agencement**
-- Six cartes : le mot (violet), la traduction, une mini-ligne du temps (barre orange = action principale, barre violette = action du wagon), un exemple.
+- Six cartes : le mot (orange), la traduction, une mini-ligne du temps (barre violette = action principale, barre orange = action du wagon), un exemple.
 
 **Contenu textuel**
 > **voordat** avant que — *Ik bel je voordat ik vertrek.*

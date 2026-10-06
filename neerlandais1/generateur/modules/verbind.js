@@ -8,8 +8,8 @@ const meta = {
   foot: 'Néerlandais · A2–B1 · Relier les phrases',
 };
 
-// le pont (coordination) bleu · le tremplin (adverbe + inversion) orange · le wagon (subordination) violet · verbe conjugué rouge
-const PO = 'accent2'; const TR = 'accent1'; const WA = 'purple'; const VB = 'accent6';
+// comme au M9 : le pont (coordination) bleu · le wagon (subordination) orange · ici en plus le tremplin (adverbe + inversion) violet · verbe conjugué rouge
+const PO = 'accent2'; const TR = 'purple'; const WA = 'accent1'; const VB = 'accent6';
 const INK = '17375E';
 const hexOf = (c) => (c === 'purple' ? PURPLE : c === 'tx2' ? INK : HEX[c] || c);
 
@@ -155,7 +155,7 @@ function build(d) {
     const R = [['daarom', 'c’est pourquoi', 'Ik ben ziek. [Daarom] <blijf> ik thuis.'], ['toch', 'quand même, pourtant', 'Het regent. [Toch] <gaan> we wandelen.'], ['daarna', 'ensuite', 'Eerst werk ik, [daarna] <ga> ik sporten.'], ['anders', 'sinon', 'Neem een jas mee, [anders] <heb> je het koud.'], ['bovendien', 'de plus', 'Het is goedkoop. [Bovendien] <ligt> het centraal.']];
     const rh = (4.4 - 0.1 * 4) / 5;
     R.forEach(([w, fr, ex], i) => card(s, 0.6, 1.6 + i * (rh + 0.1), 8.4, rh, w, fr, ex, TR, { cw: 1.7, ws: 17, size: 16 }));
-    d.rect(s, 9.25, 1.6, 3.48, 4.4, { fill: 'FDF1E6', line: TR, lw: 1.5, radius: 0.12 });
+    d.rect(s, 9.25, 1.6, 3.48, 4.4, { fill: 'F1ECF7', line: TR, lw: 1.5, radius: 0.12 });
     d.ill(s, 'person-cartwheeling', 10.45, 1.75, 1.1, 1.1);
     d.t(s, ['Le mot **saute** dans la case ① : le verbe reste ②, le sujet passe **derrière**.', '', 'Aussi : //dan, eerst, vervolgens, tenslotte, echter, dus//.'], 9.4, 2.95, 3.2, 3.0, { size: 14, gap: 4, valign: 'top' });
     band(s, 'Le tremplin peut aussi aller au milieu : //Ik blijf **daarom** thuis.// (après le verbe, sans inversion)', 6.15, 0.62, 'tx2', 16);
@@ -262,7 +262,7 @@ function build(d) {
     d.ill(s, 'cloud-with-rain', 1.4, 1.68, 1.0, 1.0);
     d.t(s, '**Het regent.**', 0.6, 2.65, 2.6, 0.45, { size: 16, align: 'center' });
     d.t(s, '➜', 3.25, 1.95, 0.7, 0.9, { size: 34, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
-    d.rect(s, 4.0, 1.6, 2.6, 1.6, { fill: 'FDF1E6', line: TR, lw: 1.5, radius: 0.12 });
+    d.rect(s, 4.0, 1.6, 2.6, 1.6, { fill: 'F1ECF7', line: TR, lw: 1.5, radius: 0.12 });
     d.ill(s, 'bus', 4.8, 1.68, 1.0, 1.0);
     d.t(s, '**Ik neem de bus.**', 4.0, 2.65, 2.6, 0.45, { size: 16, align: 'center' });
     d.t(s, 'cause → conséquence', 0.6, 3.25, 6.0, 0.35, { size: 13, italic: true, color: 'accent5', align: 'center' });
@@ -364,7 +364,7 @@ function build(d) {
       strip(s, 1.05, y, parts, { size: 19, h: 0.62 });
     });
     d.ill(s, 'building-construction', 11.4, 1.55, 1.2, 1.2);
-    d.rect(s, 0.6, 5.1, 12.13, 0.95, { fill: 'F1ECF7', line: WA, lw: 1.5, radius: 0.12 });
+    d.rect(s, 0.6, 5.1, 12.13, 0.95, { fill: 'FDF1E6', line: WA, lw: 1.5, radius: 0.12 });
     rich(s, [['Variante : ', { bold: true, fontSize: 16 }], ['Als', { bold: true, italic: true, color: hexOf(WA), fontSize: 16 }], [' ik thuis ', { italic: true, fontSize: 16 }], ['ben, bel', { bold: true, italic: true, color: hexOf(VB), fontSize: 16 }], [' ik je, ', { italic: true, fontSize: 16 }], ['maar', { bold: true, italic: true, color: hexOf(PO), fontSize: 16 }], [' ik weet niet ', { italic: true, fontSize: 16 }], ['of', { bold: true, italic: true, color: hexOf(WA), fontSize: 16 }], [' ik tijd ', { italic: true, fontSize: 16 }], ['heb', { bold: true, italic: true, color: hexOf(VB), fontSize: 16 }], ['.', { italic: true, fontSize: 16 }]], 0.85, 5.1, 11.7, 0.95);
     band(s, 'Chaque brique garde **son** ordre : le pont ne change rien, le wagon envoie son verbe au bout.', 6.2, 0.6, 'tx2', 16);
   }
