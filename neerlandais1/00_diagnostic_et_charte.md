@@ -44,6 +44,10 @@
 
 > **Complément *Er zijn er vijf* (les emplois de *er*, B1).** Création. Cinq emplois, cinq couleurs et cinq images : ① *er* présentatif (bleu, il y a) · ② *er* de lieu (vert, y) · ③ *er* + nombre (orange, en) · ④ *er* + préposition (violet, M23) · ⑤ *er wordt* + participe (bleu-vert, on). Schémas : **E1** « la carte des cinq emplois », **E2** « le miroir » (*Er zijn er drie* = *Il y en a trois*), **E3** « l'aiguillage » (cinq questions dans l'ordre).
 
+> **Complément *Want, daarom, omdat…* (coordination et subordination, A2–B1).** Création, dans le prolongement du M9. La métaphore du M9 (le **pont** bleu = coordination, rien ne bouge ; le **wagon** orange = subordination, verbe à la fin) est complétée par le **tremplin** violet (adverbe de liaison en case ① → inversion : *Daarom blijf ik thuis*). Le verbe conjugué reste rouge. Quatre schémas : **K1** « pont, tremplin, wagon » ; **K2** « verbe, verbe » (wagon en tête) ; **K3** « la carte des sens » (un sens, trois syntaxes) ; **K4** « *toen / als / wanneer* sur la ligne du temps ». Les conjonctions B2 (*doordat, ook al, aangezien*) sont signalées, pas exercées.
+
+> **Complément *Gisteren, vandaag, morgen* (les temps sur la ligne du temps, A2–B1).** Création, synthèse des M3, M15, M18, M19 et M29. Couleurs du M32 : passé framboise (foncé pour le passé du passé), présent bleu, futur vert (foncé pour le futur antérieur), imaginaire violet (le « nuage » au-dessus de la ligne). Trois schémas : **L1** « la ligne du temps » ; **L2** « deux lignes × quatre cases » (le schéma néerlandais des huit temps, *o.t.t. … v.v.t.t.*, qui sert aussi à la concordance) ; **L3** « la photo et le film » (perfectum / imperfectum). La morphologie est seulement rappelée (diapos « rappel ») ; les onze exercices sont croisés (forme × moment × français).
+
 ---
 
 ## 2. Diagnostic transversal

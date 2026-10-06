@@ -1,7 +1,7 @@
 {
   "name": "neerlandais1-powerpoints",
   "private": true,
-  "description": "Générateur des 32 présentations et des compléments Uitspraak!, Chunks!, Aan, af, op, uit… (particules séparables, B1–B2) Ik heb moeten werken (double infinitif, A2–B1), Ik bel om een afspraak te maken (te et om … te, A2–B1) et Er zijn er vijf (les emplois de er, B1) — Néerlandais 1 (UE1 · A1)",
+  "description": "Générateur des 32 présentations et des compléments Uitspraak!, Chunks!, Aan, af, op, uit… (particules séparables, B1–B2), Ik heb moeten werken (double infinitif, A2–B1), Ik bel om een afspraak te maken (te et om … te, A2–B1), Er zijn er vijf (les emplois de er, B1), Want, daarom, omdat… (coordination et subordination, A2–B1) et Gisteren, vandaag, morgen (les temps, A2–B1) — Néerlandais 1 (UE1 · A1)",
   "scripts": {
     "build": "OUT=../powerpoints node build.js"
   },
