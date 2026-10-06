@@ -48,6 +48,8 @@
 
 > **Complément *Gisteren, vandaag, morgen* (les temps sur la ligne du temps, A2–B1).** Création, synthèse des M3, M15, M18, M19 et M29. Couleurs du M32 : passé framboise (foncé pour le passé du passé), présent bleu, futur vert (foncé pour le futur antérieur), imaginaire violet (le « nuage » au-dessus de la ligne). Trois schémas : **L1** « la ligne du temps » ; **L2** « deux lignes × quatre cases » (le schéma néerlandais des huit temps, *o.t.t. … v.v.t.t.*, qui sert aussi à la concordance) ; **L3** « la photo et le film » (perfectum / imperfectum). La morphologie est seulement rappelée (diapos « rappel ») ; les onze exercices sont croisés (forme × moment × français).
 
+> **Complément *Werken, de werking, werkbaar* (la dérivation, A2–B1).** Création, dans le prolongement du M14 (partie « dériver »). Couleurs du M14 : nom bleu, verbe rouge, adjectif orange ; en plus, adverbe vert et affixes (suffixes, préfixes) violets. Trois schémas : **DV1** « le carrefour des catégories » (triangle NOM · VERBE · ADJECTIF + ADVERBE, les suffixes sur chaque flèche ; une miniature en haut à droite des diapos de règles indique le passage étudié) ; **DV2** « la machine à mots » (base + affixe → résultat) ; **DV3** « préfixe + racine + suffixe » (briques : le suffixe décide la catégorie et l'article, le préfixe change le sens). Chaque règle a deux encadrés : **✓ La norme** (vert) et **⚠ Exceptions** (rouge). Application finale : style verbal (oral) ↔ style nominal (avis, notes de service).
+
 ---
 
 ## 2. Diagnostic transversal
