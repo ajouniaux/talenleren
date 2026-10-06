@@ -544,8 +544,8 @@ class Deck {
     this.chip(s, 'JIJ NU !', 0.6, 0.26, 'accent1');
     s.addNotes(this.notesFor(o.g));
     this.t(s, 'JIJ NU !', 0.6, 1.55, 8, 1.0, { size: 54, bold: true, color: 'accent1', head: true, valign: 'middle' });
-    const n = o.tiles.length; const per = Math.ceil(n / 2); const gap = 0.25;
-    const w = (10.3 - gap * (per - 1)) / per; const h = 1.75;
+    const n = o.tiles.length; const per = Math.ceil(n / 2); const gap = o.wide ? 0.18 : 0.25;
+    const w = ((o.wide ? 12.13 : 10.3) - gap * (per - 1)) / per; const h = 1.75;
     o.tiles.forEach(([title, stars, icon], i) => {
       const r = Math.floor(i / per); const c = i % per;
       const x = 0.6 + c * (w + gap); const y = 2.85 + r * (h + gap);
@@ -555,7 +555,8 @@ class Deck {
       this.t(s, title, x + 0.15, y + 0.72, w - 0.3, 0.68, { size: 15, bold: true, color: 'bg1', fit: true, max: 16, min: 11, valign: 'top' });
       this.t(s, stars, x + 0.15, y + 1.35, w - 0.3, 0.32, { size: 14, color: 'accent1', bold: true });
     });
-    this.ill(s, 'man-teacher', 11.0, 4.0, 1.8, 1.8);
+    if (o.wide) this.ill(s, 'man-teacher', 11.2, 1.0, 1.5, 1.5);
+    else this.ill(s, 'man-teacher', 11.0, 4.0, 1.8, 1.8);
     return s;
   }
 
