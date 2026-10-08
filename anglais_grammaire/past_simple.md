@@ -90,7 +90,7 @@
 **Contenu textuel**
 > FINISHED TIME · le temps est fini, fermé
 > *I visited London in 2019. · She called me yesterday. · We went to Spain two years ago.*
-> **The rule** : an action **finished** · in a time **finished** · often with a **date** or a marker
+> **The rule** : a **finished** action · in a **finished** time · often with a **date** or a time marker
 > *Past simple = une action terminée, dans un temps terminé : on peut répondre à « When? ».*
 
 **Notes pour l'animateur** — Reprenez la question de la diapo 1 : *last year* est dans la boîte fermée → *I visited London last year*. Le test « When? » sera repris dans le deck *Present perfect* pour choisir entre les deux temps.
@@ -102,13 +102,13 @@
 **Objectif pédagogique** — Visualiser la structure de la phrase affirmative.
 
 **Visuel / Schéma / Agencement**
-- Une grande phrase découpée en cases étiquetées : SUBJECT · VERB + -ED · COMPLEMENT · WHEN.
+- Une grande phrase découpée en cases étiquetées : SUBJECT · VERB + -ED · OBJECT · WHEN.
 - *À gauche* : « Same form for everybody! » (7 pronoms → *worked*). *À droite* : piège 🇫🇷 ≠ 🇬🇧.
 
 **Contenu textuel**
 > *She | visit|ed | her grandmother | last Sunday.*
 > **Same form for everybody!** *I · You · He · She · It · We · They → worked* · pas de *-s* : *he worked* ✓ · *he workeds* ✗
-> 🇫🇷 ≠ 🇬🇧 « j'**ai travaillé** » · « je **travaillai** » → *I **worked*** : un seul mot ! L'anglais n'a **pas d'auxiliaire** à l'affirmatif du past simple.
+> 🇫🇷 ≠ 🇬🇧 « j'**ai travaillé** » · « je **travaillai** » → *I **worked*** : un seul mot ! L'anglais n'a **pas d'auxiliaire** à la forme affirmative du past simple.
 > *Régulier : base + -ed. Une seule forme, pour toutes les personnes.*
 
 **Notes pour l'animateur** — Faites remarquer la facilité : une seule forme pour toutes les personnes, alors qu'au présent on a *he works*. L'imparfait français se traduit souvent aussi par le past simple (*Je travaillais à Paris en 2019* → *I worked in Paris in 2019*).
@@ -126,9 +126,9 @@
 > ① most verbs : + ed — *work → worked · play → played · watch → watched*
 > ② ends in -e : + d — *live → lived · like → liked · arrive → arrived*
 > ③ consonant + y : y → ied — *study → studied · try → tried · cry → cried*
-> ④ short: 1 vowel + 1 consonant : double + ed — *stop → stopped · plan → planned · prefer → preferred*
+> ④ stressed: 1 vowel + 1 consonant : double + ed — *stop → stopped · plan → planned · prefer → preferred*
 > ⚠ **But: vowel + y = + ed** — *play → played · enjoy → enjoyed · stay → stayed*
-> ⚠ **No doubling if…** the stress is not at the end : ***vi**sit → visited* · ends in *w, x, y* : *fix → fixed* · *travel → travelled* (UK) / *traveled* (US)
+> ⚠ **No doubling if…** the stress is not at the end: ***vi**sit → visited* · it ends in *w, x* or *y*: *fix → fixed · show → showed* · UK: final *-l* doubles: *travel → travelled* (US *traveled*)
 
 **Notes pour l'animateur** — *prefer → preferred* : on double car l'accent est sur la dernière syllabe (*pre**fer***). *open → opened*, *happen → happened* : pas de doublement (accent au début).
 
@@ -214,7 +214,7 @@
 **Contenu textuel**
 > *She | visit|ed | her grandmother.* → *She | did | n't | visit | her grandmother.*
 > *He went.* → *He didn't go.*
-> ✓ *didn't* (= did not) + **base form** · the same for everybody : *I, you, he, we… didn't go*
+> ✓ *didn't* (= did not) + **base form** · the same for everybody: *I, you, he, we… didn't go*
 > 🇫🇷 ≠ 🇬🇧 **Une seule marque du passé !** Le passé est déjà dans *did* : ✗ *didn't visited* · ✗ *didn't went*
 > *À l'écrit soigné : did not. À l'oral : didn't.*
 
@@ -265,10 +265,10 @@
 
 **Contenu textuel**
 > *when I was a child · in 2019 · last summer · on Monday · two days ago · yesterday*
-> **in** + année, mois, saison : *in 2019 · in May · in the summer* · **on** + jour, date : *on Monday · on 3 May* · **at** + heure : *at 9 o'clock · at night*
+> **in** + année, mois, saison : *in 2019 · in May · in the summer* · **on** + jour, date : *on Monday · on 3 May* · **at** + heure (et *at night*) : *at 9 o'clock · at night*
 > 🇫🇷 ≠ 🇬🇧 « il y a deux jours » → *two days **ago*** : *ago* se place **après** ! · « la semaine dernière » → ***last** week* (sans *the*)
 
-**Notes pour l'animateur** — Erreurs fréquentes : ✗ *since two days* (= present perfect, voir l'autre deck), ✗ *the last week* (= les 7 derniers jours).
+**Notes pour l'animateur** — Erreurs fréquentes : ✗ *since two days* pour « il y a deux jours » → *two days ago* (« depuis deux jours » = *for two days* + present perfect, voir l'autre deck), ✗ *the last week* (= les 7 derniers jours).
 
 ---
 
@@ -281,7 +281,7 @@
 
 **Contenu textuel**
 > **First,** I got up late. → **Then,** I missed the bus. → **After that,** I ran to work. → **Finally,** I arrived at 9.30!
-> *À vous : racontez votre matin d'hier en 4 images : First, I… Then, I… After that, I… Finally, I…*
+> *À vous : racontez votre matinée d'hier en 4 images : First, I… Then, I… After that, I… Finally, I…*
 
 **Notes pour l'animateur** — Par deux : chacun·e dessine 4 petites cases (bonhommes bâtons) et raconte. Variante : un·e apprenant·e mime, la classe raconte au past simple.
 
@@ -300,7 +300,7 @@
 > 3 didn't + past — ~~*He didn't bought it.*~~ → *He didn't buy it.*
 > 4 the irregular — ~~*I goed to Paris.*~~ → *I went to Paris.*
 > 5 the spelling — ~~*She studyed.*~~ → *She studied.*
-> 6 « il y a » — ~~*There are two days.*~~ → *two days ago*
+> 6 « il y a » — ~~*I arrived there are two days.*~~ → *I arrived two days ago.*
 
 **Notes pour l'animateur** — Le piège n° 1 est le plus important : le passé composé français se traduit **souvent** par le past simple, surtout avec une date. Le deck *Present perfect* explique quand l'anglais utilise *have + participe*.
 
@@ -318,8 +318,8 @@
 > **−** didn't + base — *I didn't work. · I didn't go.*
 > **?** (Q) + did + subject + base — *Did you work? · Where did you go?*
 > **⏱** finished action, finished time — *yesterday · last… · …ago · in 2019*
-> **Spelling** : *lived · studied · stopped · played* — **Sounds** : /t/ *worked* · /d/ *played* · /ɪd/ *wanted*
-> **Exceptions** : irregular verbs (learn them!) · *was / were* (no *did*) · *Who called?* (no *did*)
+> **Spelling**: *lived · studied · stopped · played* — **Sounds**: /t/ *worked* · /d/ *played* · /ɪd/ *wanted*
+> **Exceptions**: irregular verbs (learn them!) · *was / were* (no *did*) · *Who called?* (no *did*)
 
 **Notes pour l'animateur** — Invitez à photographier la diapo.
 
@@ -350,7 +350,7 @@
 > *play · study · stop · live · plan · cry · visit · enjoy · travel · try*
 >
 > **✓ CORRECTION** — *played · studied · stopped · lived · planned · cried · visited · enjoyed · travelled · tried*
-> Règles : ① 1, 8 · ② 4 · ③ 2, 6, 10 · ④ 3, 5 · pas de doublement : 7 (*visit*) · 9 : *traveled* (US).
+> Règles : ① 1, 8 · ② 4 · ③ 2, 6, 10 · ④ 3, 5 · pas de doublement : 7 (*visit*) · 9 : *-l* doublé en anglais britannique → *travelled* (US *traveled*).
 
 **Notes pour l'animateur** — Faites nommer la règle (①–④) pour chaque verbe.
 
@@ -364,11 +364,11 @@
 - Douze étiquettes en vrac ; trois bacs /t/ · /d/ · /ɪd/.
 
 **Contenu textuel**
-> *worked · played · wanted · watched · lived · needed · stopped · cleaned · visited · laughed · opened · decided*
+> *looked · called · started · helped · tried · waited · missed · listened · ended · washed · enjoyed · hated*
 >
-> **✓ CORRECTION** — /t/ : *worked, watched, stopped, laughed* · /d/ : *played, lived, cleaned, opened* · /ɪd/ : *wanted, needed, visited, decided*
+> **✓ CORRECTION** — /t/ : *looked, helped, missed, washed* · /d/ : *called, tried, listened, enjoyed* · /ɪd/ : *started, waited, ended, hated*
 
-**Notes pour l'animateur** — Faites lire chaque mot à voix haute avant de le classer. *laughed* : /lɑːft/ (le *gh* se dit /f/).
+**Notes pour l'animateur** — Faites lire chaque mot à voix haute avant de le classer. Les verbes sont nouveaux (pas ceux de la diapo 7) : il faut appliquer la règle. *listened* : le *t* ne se prononce pas (/ˈlɪsnd/).
 
 ---
 
@@ -417,7 +417,7 @@
 > *She played tennis. · They went to Rome. · He bought a car. · You saw the film. · It was cold.*
 >
 > **✓ CORRECTION** — *She didn't play tennis. / Did she play tennis?* · *They didn't go to Rome. / Did they go to Rome?* · *He didn't buy a car. / Did he buy a car?* · *You didn't see the film. / Did you see the film?* · *It wasn't cold. / Was it cold?*
-> N° 5 : *be* → pas de *did* : *wasn't · Was it…?* (diapo 10).
+> N° 5 : *be* → pas de *did* : *wasn't · Was it…?* (diapo 10). Formes pleines acceptées : *did not · was not*.
 
 **Notes pour l'animateur** — Faites lire les phrases avec l'intonation montante des questions fermées.
 
@@ -450,7 +450,7 @@
 > 1 (Where) *I went to Spain.* · 2 (What time) *I arrived at nine.* · 3 (What) *I bought a new phone.* · 4 (Who) *I met Sam at the station.* · 5 (Why) *I went home early because I was tired.* · 6 (How) *I travelled by train.*
 >
 > **✓ CORRECTION** — 1 *Where did you go?* · 2 *What time did you arrive?* · 3 *What did you buy?* · 4 *Who did you meet?* · 5 *Why did you go home early?* · 6 *How did you travel?*
-> N° 6 : aussi *How did you go there?*. Toujours : question word + *did* + subject + base.
+> Aussi correct : n° 1 *Where did you go on holiday?* · n° 4 *Who did you meet at the station?* · n° 6 *How did you go there?*. Toujours : question word + *did* + subject + base.
 
 **Notes pour l'animateur** — Par deux : A lit la réponse, B pose la question, puis on échange.
 
@@ -467,7 +467,7 @@
 > « *Hi Emma! Last week we have visited Rome. It was amazing! On Monday we goed to the Colosseum and we eated a lot of pizza. On Tuesday it rained, so we stayed at the hotel. Did you received my message? I studyed Italian for this trip! Love, Lucas* »
 >
 > **✓ CORRECTION** — ~~*have visited*~~ **visited** · ~~*goed*~~ **went** · ~~*eated*~~ **ate** · ~~*Did you received*~~ **Did you receive** · ~~*studyed*~~ **studied**
-> Correct : *It was amazing · it rained · we stayed*.
+> Correct : *It was amazing · it rained · we stayed*. N° 4 : *Did you get my message?* est aussi correct.
 
 **Notes pour l'animateur** — Faites nommer la règle pour chaque erreur (diapos 4, 9, 9, 12, 6).
 
@@ -500,11 +500,11 @@
 **Contenu textuel**
 > **Situation** : Monday, 9 a.m., at the coffee machine. A asks about the weekend; B answers with the picture card. Then swap!
 > **A — the curious colleague** : Ask 6 questions about B's weekend. React: *Really? · Lucky you! · Sounds great!*
-> **B — back from the weekend** : Answer with the card: past simple, regular and irregular. Give one detail more each time.
-> B's weekend : SATURDAY *go to the beach · swim in the sea · eat fish* · SUNDAY *visit grandma · cook a cake · watch a series*
+> **B — back from the weekend** : Answer with the card: past simple, regular and irregular. Give one more detail each time.
+> B's weekend : SATURDAY *go to the beach · swim in the sea · eat fish* · SUNDAY *visit grandma · bake a cake · watch a series*
 > Useful phrases : *How was your weekend? · What did you do? · Where did you go? · Who did you go with? · Did you…? — Yes, I did. / No, I didn't. · It was great / boring / fun. · First… then… after that…*
 
-**Notes pour l'animateur** — Formes attendues : *went, swam, ate, visited, cooked (made), watched*. Au 2e tour, B raconte son vrai week-end.
+**Notes pour l'animateur** — Formes attendues : *went, swam, ate, visited, baked (made), watched*. Au 2e tour, B raconte son vrai week-end.
 
 ---
 
@@ -521,7 +521,7 @@
 > 3. Question: *They arrived yesterday.* (When…?)
 >
 > Build 😟 😐 🙂 · Use 😟 😐 🙂 · Tell 😟 😐 🙂
-> **Homework** : write 6 sentences about your last holiday (2 negatives, 2 questions).
+> **Homework**: write 6 sentences about your last holiday (2 negatives, 2 questions).
 
 **Notes pour l'animateur** — Réponses :
 1. *went · studied · stopped*

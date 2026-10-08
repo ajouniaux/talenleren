@@ -58,7 +58,7 @@
 > **Build** — I build the present perfect: have / has + past participle.
 > **Use** — I talk about experiences, results and situations that are still true.
 > **Choose** — I choose: present perfect or past simple?
-> *No date, but a link with NOW → present perfect. A date → past simple.*
+> *A link with NOW, no finished time → present perfect. A finished time → past simple.*
 
 **Notes pour l'animateur** — Lisez les objectifs ; vérifiez *build, use, choose*. La bande résume toute la séquence : revenez-y à la fin de chaque séance.
 
@@ -84,14 +84,14 @@
 **Objectif pédagogique** — Comprendre le sens du present perfect grâce au schéma du pont.
 
 **Visuel / Schéma / Agencement**
-- Frise grise jusqu'à NOW ; un point bleu (past action) relié à NOW par un grand arc (« + link with NOW : no date! »).
+- Frise grise jusqu'à NOW ; un point bleu (past action) relié à NOW par un grand arc (« + link with NOW: no finished time! »).
 - Trois cartes, chacune avec sa mini-frise : **1. EXPERIENCE** (plusieurs points dans une zone pointillée) · **2. RESULT NOW** (petit pont) · **3. STILL TRUE** (barre qui touche NOW) ; pastille de marqueurs et exemple.
 
 **Contenu textuel**
 > **1. EXPERIENCE** — ever · never — *Have you ever been to Japan?*
 > **2. RESULT NOW** — just · already · yet — *I have lost my keys!*
 > **3. STILL TRUE** — for · since — *I have lived here for 5 years.*
-> Present perfect = un passé **sans date précise**, qui a un **lien avec maintenant**.
+> Present perfect = **pas de temps fini** (*yesterday, in 2019…*) + un **lien avec maintenant**.
 
 **Notes pour l'animateur** — Insistez sur le mot *present* dans « present perfect » : l'auxiliaire *have* est au présent, on parle de **maintenant**. Les trois usages sont développés diapos 9 à 12 ; ici, il suffit de reconnaître le pont.
 
@@ -102,15 +102,15 @@
 **Objectif pédagogique** — Construire la forme affirmative et choisir entre *have* et *has*.
 
 **Visuel / Schéma / Agencement**
-- Phrase découpée : *She* (SUBJECT) | *has* (HAVE / HAS, bleu nuit) | *visit*+*ed* (PAST PARTICIPLE) | *London* (COMPLEMENT) | *three times.* (HOW OFTEN, orange).
+- Phrase découpée : *She* (SUBJECT) | *has* (HAVE / HAS, bleu nuit) | *visit*+*ed* (PAST PARTICIPLE) | *London* (OBJECT) | *three times.* (HOW OFTEN, orange).
 - Deux cartes : **have · 've** (I, you, we, they) et **has · 's** (he, she, it), avec exemples.
 - Encadré piège 🇫🇷 ≠ 🇬🇧 ; bande *'s = has ou is*.
 
 **Contenu textuel**
 > *I've finished. · They have left.* — *She's finished. · It has started.*
 > **Piège** : « elle **est** partie » → *She **has** left.* : en anglais, **toujours** *have* ! (✗ *She is left.*)
-> « j'ai visité » → *I've visited* **seulement** s'il n'y a pas de date précise.
-> *'s* = *has* ou *is* : *She's finished* (has) · *She's tired* (is).
+> « j'ai visité » → *I've visited* **seulement** s'il n'y a pas de **temps fini** (*yesterday, in 2019…*).
+> *'s* = *has* ou *is* : *She's finished* (has) · *She's happy* (is).
 
 **Notes pour l'animateur** — Le français hésite entre *avoir* et *être* ; l'anglais n'a qu'un auxiliaire : *have / has*. Faites transformer à l'oral : *I → she, we → he…* Pour *'s*, astuce : si un participe suit, c'est *has*.
 
@@ -162,10 +162,10 @@
 
 **Contenu textuel**
 > *She hasn't finished the report.* · *Has she finished the report? — Yes, she has. / No, she hasn't.*
-> **Wh- questions : QUASI again** — *How long have you lived here?*
+> **Wh- questions: Q · A · S · participle** — *How long have you lived here?*
 > Pas de *do / did* : c'est *have / has* qui fait la négation et la question.
 
-**Notes pour l'animateur** — Comparez avec le past simple (*Did she finish…?*) : ici, l'auxiliaire est déjà là, on n'a pas besoin de *did*. Erreur fréquente : ✗ *Did you have finished?* ✗ *Do you have seen…?* Faites répondre avec la réponse courte (*Yes, I have.* et non *Yes, I have finished.* seul).
+**Notes pour l'animateur** — Comparez avec le past simple (*Did she finish…?*) : ici, l'auxiliaire est déjà là, on n'a pas besoin de *did*. Erreur fréquente : ✗ *Did you have finished?* ✗ *Do you have seen…?* Faites répondre avec la réponse courte (✓ *Yes, I have.* ✗ *Yes, I did.*). L'ordre QUASI du past simple reste valable : seule la 4e case change (participe au lieu de la base).
 
 ---
 
@@ -180,8 +180,8 @@
 
 **Contenu textuel**
 > EVER = déjà (dans ta vie) · NEVER = jamais
-> *ever, never* : entre *have* et le participe · answer : *Yes, I have. · No, never.*
-> **Piège** : avec une date → past simple : ✗ *I have been to Japan in 2019.* → ✓ *I **went** to Japan in 2019.*
+> *ever, never* : entre *have* et le participe · answer: *Yes, I have. · No, never.*
+> **Piège** : avec un temps fini (une date) → past simple : ✗ *I have been to Japan in 2019.* → ✓ *I **went** to Japan in 2019.*
 
 **Notes pour l'animateur** — L'expérience compte, pas le moment. Faites un tour de classe : *Have you ever…?* (*been to London, eaten snails, met a famous person*). Dès qu'on demande **quand**, on passe au past simple : c'est l'objet de la diapo 16. *ever* ne s'emploie pas dans une phrase affirmative simple (✗ *I have ever been…*).
 
@@ -213,8 +213,8 @@
 - Bande « je viens de ».
 
 **Contenu textuel**
-> *I've **just** finished the report.* — between have + participle
-> *She has **already** left.* — between have + participle
+> *I've **just** finished the report.* — between *have* and the participle
+> *She has **already** left.* — between *have* and the participle
 > *Have you finished **yet**? — Not **yet**.* — at the end · ? and −
 > « Je viens de finir » → *I've **just** finished.* (✗ *I come to finish*)
 
@@ -229,15 +229,15 @@
 **Visuel / Schéma / Agencement**
 - Frise avec une barre bleue qui commence en 2021 (repère orange « since 2021 = le point de départ ») et touche NOW ; au-dessus, une flèche « for five years = la durée ».
 - Deux phrases découpées : *I have lived here for five years.* / *since 2021.*
-- Deux encadrés de règle (FOR + a length · SINCE + a starting point) ; piège « depuis ».
+- Deux encadrés de règle (FOR + a period of time · SINCE + a starting point) ; piège « depuis ».
 
 **Contenu textuel**
-> **FOR + a length** : *two hours · a week · ten years · ages*
+> **FOR + a period of time** : *two hours · a week · ten years · ages*
 > **SINCE + a starting point** : *9 o'clock · Monday · 2021 · I was a child*
 > **Piège « depuis 5 ans »** : ✗ *I live here since 5 years.* → ✓ *I've lived here for 5 years.*
 > Question : ***How long** have you lived here?*
 
-**Notes pour l'animateur** — Le français met le **présent** (« j'habite ») ; l'anglais met le **present perfect**, car la situation a commencé dans le passé. Deux erreurs à la fois dans ✗ *I live here since 5 years* : le temps et la préposition. Faites poser *How long have you…?* (*worked here, studied English, known your best friend*).
+**Notes pour l'animateur** — Le français met le **présent** (« j'habite ») ; l'anglais met le **present perfect**, car la situation a commencé dans le passé. Deux erreurs à la fois dans ✗ *I live here since 5 years* : le temps et la préposition. Faites poser *How long have you…?* (*worked here, studied English, known your best friend*). Attention : *since 2021 = for five years* n'est vrai qu'en 2026 ; adaptez l'année chaque rentrée.
 
 ---
 
@@ -263,11 +263,11 @@
 **Objectif pédagogique** — Comparer les deux temps sur des paires de phrases.
 
 **Visuel / Schéma / Agencement**
-- Deux colonnes : **PAST SIMPLE** (🔒, finished time · a date, la boîte du temps fini) · **PRESENT PERFECT** (🔓, no date · link with NOW, le pont vers NOW).
+- Deux colonnes : **PAST SIMPLE** (🔒, finished time · yesterday, in 2019 : la boîte du temps fini) · **PRESENT PERFECT** (🔓, link with NOW · no finished time : le pont vers NOW).
 - Quatre paires de phrases, chacune avec une note d'interprétation.
 
 **Contenu textuel**
-> *I lost my keys yesterday.* (I found them. — fini) ↔ *I've lost my keys!* (I can't get in. — résultat maintenant)
+> *I lost my keys yesterday.* (yesterday = finished time — now? we don't know) ↔ *I've lost my keys!* (I can't get in. — résultat maintenant)
 > *She lived in Paris for 3 years.* (She doesn't live there now.) ↔ *She has lived in Paris for 3 years.* (She still lives there.)
 > *Did you see the match last night?* (one occasion, finished) ↔ *Have you ever seen a live match?* (in your life — expérience)
 > *I wrote 2 emails this morning.* (It's 3 p.m.: the morning is over.) ↔ *I've written 2 emails this morning.* (It's 10 a.m.: still the morning!)
@@ -290,7 +290,7 @@
 > *I lost my keys yesterday.* — ① yes : *yesterday* · *I've lost my keys!* — ② yes : résultat (pas de clés !) · *I've worked here since 2021.* — ② yes : toujours vrai
 > Pour raconter les **détails** d'une histoire (quand, où, comment) : **past simple**.
 
-**Notes pour l'animateur** — Ordre important : on cherche **d'abord** un temps fini. Si on en trouve un, c'est réglé : past simple, même s'il y a un lien avec maintenant (✗ *I've lost my keys yesterday*). Gardez cet arbre affiché pendant les exercices 5 à 8.
+**Notes pour l'animateur** — Ordre important : on cherche **d'abord** un temps fini. Si on en trouve un, c'est réglé : past simple, même s'il y a un lien avec maintenant (✗ *I've lost my keys yesterday*). Si la réponse à ② est **non** (ni temps fini, ni lien avec maintenant), c'est aussi le past simple : le moment est clair par le contexte (*Who painted this picture?* — Picasso est mort). Gardez cet arbre affiché pendant les exercices 5 à 8.
 
 ---
 
@@ -303,7 +303,7 @@
 - Bande 📰 « News » : la même logique dans un article.
 
 **Contenu textuel**
-> A : *Have you ever been to Italy?* · B : *Yes, I have. I've been there twice.* · A : *When did you go?* · B : *I went there last summer.* · A : *Did you like it?* · B : *Yes! We ate pizza every day!*
+> A : *Have you ever been to Italy?* · B : *Yes, I have. I've been there twice.* · A : *When did you last go?* · B : *I went there last summer.* · A : *Did you like it?* · B : *Yes! We ate pizza every day!*
 > *News: A fire has destroyed a school in Leeds. — The fire started at 3 a.m. and firefighters arrived ten minutes later.*
 
 **Notes pour l'animateur** — Le present perfect ouvre le sujet (la nouvelle) ; dès qu'on précise **quand**, on bascule au past simple. Faites jouer le dialogue par deux en remplaçant *Italy* par un autre pays. Les journaux télévisés suivent exactement ce schéma : titre au present perfect, récit au past simple.
@@ -318,13 +318,13 @@
 - Tableau 🇫🇷 → 🇬🇧 en six lignes, avec une pastille qui nomme la raison (PP bleu = present perfect, PS framboise = past simple).
 
 **Contenu textuel**
-> « J'ai vu ce film hier. » → *I saw the film yesterday.* — date → PS
+> « J'ai vu ce film hier. » → *I saw that film yesterday.* — hier → PS
 > « Je suis allé·e à Londres trois fois. » → *I've been to London three times.* — expérience → PP
 > « J'habite ici depuis 2021. » → *I've lived here since 2021.* — depuis → PP
 > « Je viens de finir. » → *I've just finished.* — venir de → just
 > « Tu as déjà mangé des sushis ? » → *Have you ever eaten sushi?* — déjà ? → ever
 > « Il y a deux ans, j'ai changé de travail. » → *Two years ago, I changed jobs.* — ago → PS
-> Passé composé → **past simple** ou **present perfect** ? Cherchez la **date** et le **lien avec NOW**.
+> Passé composé → **past simple** ou **present perfect** ? Cherchez un **temps fini** et le **lien avec NOW**.
 
 **Notes pour l'animateur** — Masquez la colonne anglaise et faites traduire ligne par ligne, en justifiant avec l'arbre de la diapo 15. Ligne 3 : le français a un **présent**, l'anglais un present perfect. Ligne 6 : *ago* = « il y a », toujours avec le past simple.
 
@@ -338,8 +338,8 @@
 - Deux cartes côte à côte (bleu / framboise) : forme, quatre usages, deux exemples ; ligne des exceptions ; 📷 (à photographier).
 
 **Contenu textuel**
-> **PRESENT PERFECT** — have / has + past participle — experience : *ever · never* · result now : *just · already · yet* · still true : *for · since* · open time : *today · this week* — *I've lost my keys! · I've lived here since 2021.*
-> **PAST SIMPLE** — V-ed / irregular · did · didn't — finished time : *yesterday · last… · …ago* · a date : *in 2019 · on Monday* · story details : *when? where? how?* · closed time : *last night* — *I lost my keys yesterday. · I went to Rome in 2019.*
+> **PRESENT PERFECT** — have / has + past participle — experience: *ever · never* · result now: *just · already · yet* · still true: *for · since* · open time: *today · this week* — *I've lost my keys! · I've lived here since 2021.*
+> **PAST SIMPLE** — V-ed / irregular · did · didn't — finished time: *yesterday · last… · …ago* · a date: *in 2019 · on Monday* · story details: *when? where? how?* · closed time: *last night* — *I lost my keys yesterday. · I went to Rome in 2019.*
 > **Exceptions** : *been / gone* · participes irréguliers (*seen, gone, written…*) · *'s* = *has* ou *is*
 
 **Notes pour l'animateur** — Invitez les apprenant·es à photographier la diapo. Faites retrouver un exemple personnel pour chaque ligne.
@@ -373,7 +373,7 @@
 > **✓ CORRECTION** — *gone · seen · written · eaten · taken · been · done · broken · spoken · bought · worked · studied*
 > Réguliers : *worked, studied* (= past simple). Les 10 autres sont irréguliers : beaucoup finissent en *-n*.
 
-**Notes pour l'animateur** — Pour chaque verbe, faites dire les trois formes (*go – went – gone*). Prolongement : une phrase avec *I've never…* pour trois verbes.
+**Notes pour l'animateur** — Pour chaque verbe, faites dire les trois formes (*go – went – gone*). N° 1 : *been* est aussi accepté (*go → gone / been*, diapo 7). Prolongement : une phrase avec *I've never…* pour trois verbes.
 
 ---
 
@@ -390,7 +390,7 @@
 > **✓ CORRECTION** — 1 *I have just finished the report.* · 2 *Have you ever been to India?* · 3 *She hasn't called me yet.* · 4 *We have already seen this film.* · 5 *He has never eaten snails.* · 6 *Have they arrived yet?*
 > Entre *have* et le participe : *just, ever, already, never* · à la fin : *yet*.
 
-**Notes pour l'animateur** — N° 5 : *never* remplace la négation (✗ *He hasn't never eaten*). Faites lire les phrases à voix haute pour sentir le rythme.
+**Notes pour l'animateur** — N° 5 : *never* remplace la négation (✗ *He hasn't never eaten*). N° 4 : *We have seen this film already.* est aussi correct (fréquent à l'oral britannique). Faites lire les phrases à voix haute pour sentir le rythme.
 
 ---
 
@@ -399,7 +399,7 @@
 **Objectif pédagogique** — Distinguer la durée (*for*) et le point de départ (*since*).
 
 **Visuel / Schéma / Agencement**
-- Dix étiquettes en vrac ; deux bacs : FOR (⏳ a length) · SINCE (🚩 a starting point).
+- Dix étiquettes en vrac ; deux bacs : FOR (⏳ a period of time) · SINCE (🚩 a starting point).
 
 **Contenu textuel**
 > *two hours · Monday · 2020 · a week · 9 o'clock · ages · I was born · ten years · last summer · a long time*
@@ -455,7 +455,7 @@
 > **✓ CORRECTION** — 1 *have lost* · 2 *lost* · 3 *has worked* · 4 *worked* · 5 *Have you ever seen* · 6 *Did you see* · 7 *haven't finished* · 8 *arrived*
 > Indices : 1 résultat · 2 *yesterday* · 3 *since* · 4 *from… to…* (fini) · 5 *ever* · 6 *last night* · 7 *yet* · 8 *ago*.
 
-**Notes pour l'animateur** — Faites d'abord souligner l'indice, puis appliquer l'arbre de la diapo 15. Les phrases vont par paires (1-2, 3-4, 5-6) : faites comparer les sens.
+**Notes pour l'animateur** — Faites d'abord souligner l'indice, puis appliquer l'arbre de la diapo 15. Les phrases vont par paires (1-2, 3-4, 5-6) : faites comparer les sens. N° 3 : *has been working* (present perfect continu) est aussi correct. Formes contractées acceptées partout (*I've lost, haven't finished*).
 
 ---
 
@@ -483,12 +483,12 @@
 - Un e-mail (en-tête From / To / Subject) ; 🔍 ; pastille « 5 mistakes? ».
 
 **Contenu textuel**
-> *Hi everyone! My name is Sam. I work here since 2021. Before that, I have worked for a bank in Leeds from 2015 to 2020. Last month I have been to Dublin for a course. I have never visit our office in Madrid, but I already have met the team online. See you soon! Sam*
+> Sam writes to his new team in Madrid. *Hi everyone! My name is Sam. I work here since 2021. Before that, I have worked for a bank in Leeds from 2015 to 2020. Last month I have been to Dublin for a course. I have never visit our office in Madrid, but I already have met the team online. See you soon! Sam*
 >
 > **✓ CORRECTION** — *work → have worked* · *have worked → worked* · *have been → went* · *have never visit → have never visited* · *already have met → have already met*
 > Règles : *since* → PP · *from… to…* fini → PS · *last month* → PS · participe · place de *already*.
 
-**Notes pour l'animateur** — Par deux, 5 minutes. Faites justifier chaque correction avec l'arbre (diapo 15) ou la place des adverbes (diapo 11). Erreur 1 = le calque du « depuis » (diapo 12).
+**Notes pour l'animateur** — Par deux, 5 minutes. Faites justifier chaque correction avec l'arbre (diapo 15) ou la place des adverbes (diapo 11). Erreur 1 = le calque du « depuis » (diapo 12). Erreur 3 : *Last month I was in Dublin* est aussi correct.
 
 ---
 
@@ -497,10 +497,10 @@
 **Objectif pédagogique** — Poser des questions d'expérience, puis demander des détails au past simple, en se déplaçant dans la classe.
 
 **Visuel / Schéma / Agencement**
-- Grille de bingo 3 × 3 (🌍 🍣 🤩 🩹 🏆 ✈️ 🍳 📱 ❄️) avec une ligne « name » ; encadré vert « HOW TO PLAY ».
+- Grille de bingo 3 × 3 (🌍 🍣 🤩 🩹 🏆 🚁 🍳 📱 ❄️) avec une ligne « name » ; encadré vert « HOW TO PLAY ».
 
 **Contenu textuel**
-> *has been to London · has eaten sushi · has met a famous person · has broken a bone · has won a prize · has never flown · has cooked for 10 people · has lost a phone · has seen snow this year*
+> *has been to London · has eaten sushi · has met a famous person · has broken a bone · has won a prize · has flown in a helicopter · has cooked for 10 people · has lost a phone · has seen snow this year*
 > **HOW TO PLAY** — ① Ask: *Have you ever…?* ② *Yes, I have!* → write the name. ③ Ask one more question in the **past simple**: *When did you…? Where…?* ④ 3 names in a line = **BINGO!**
 
 **Notes pour l'animateur** — Imprimez la grille (une par personne). Tout le monde se lève. Vérifiez la question de détail au past simple avant d'accepter un nom : c'est elle qui fait travailler la comparaison. Participes à vérifier : *flown, broken, won, met, seen*.
@@ -515,13 +515,13 @@
 - Gabarit jeu de rôle : carte A (the interviewer) / carte B (the candidate) ; document « B'S CV » (6 lignes, pastilles bleues = present perfect, framboise = past simple) ; banque de phrases.
 
 **Contenu textuel**
-> **Situation** : A company is looking for a team leader. A interviews B about experience. Use the present perfect and the past simple.
+> **Situation** : A company is looking for a team leader. A interviews B about B's experience. Use the present perfect and the past simple.
 > **A — the interviewer** : Ask: *How long…? Have you ever…?* Then: *When…? What did you…?*
-> **B — the candidate** : Answer with the CV: what you have done (no date) and what you did (with a date).
-> B's CV : *since 2020 team leader, Brussels · 2015 – 2019 sales assistant, Leeds · diploma: Business, Leeds (2014) · travel: USA (2018) · Japan (2023) · projects: 3 conferences so far · never: worked abroad*
+> **B — the candidate** : Answer with the CV: what you have done (until now) and what you did (finished, with a date).
+> B's CV : *since 2020 team leader, Brussels · 2015 – 2019 sales assistant, Leeds · degree: Business, Leeds (2014) · travel: USA (2018) · Japan (2023) · events: organised 3 conferences so far · never: worked abroad*
 > Useful phrases : *How long have you worked as…? · Have you ever…? · What did you do in…? · When did you…? — I've worked… since / for… · I've never… · In 2018, I… · I've already… · That was a great experience.*
 
-**Notes pour l'animateur** — Formes attendues : *I've worked as a team leader since 2020 · I worked as a sales assistant from 2015 to 2019 · I studied business in Leeds · I went to the USA in 2018 · I've organised 3 conferences so far · I've never worked abroad.* Au 2e tour, B présente son vrai parcours.
+**Notes pour l'animateur** — Formes attendues : *I've worked as a team leader since 2020 · I worked as a sales assistant from 2015 to 2019 · I studied business in Leeds (I got my degree in 2014) · I went to the USA in 2018 · I've organised 3 conferences so far · I've never worked abroad.* *degree* = diplôme universitaire (faux ami : ✗ *diploma* au sens courant du français). Au 2e tour, B présente son vrai parcours.
 
 ---
 
@@ -538,7 +538,7 @@
 > 3. Past simple or present perfect? *I (lose) my phone yesterday.*
 >
 > Build 😟 😐 🙂 · Use 😟 😐 🙂 · Choose 😟 😐 🙂
-> **Homework** : write 4 things you have done in your life, then give one detail in the past simple for each.
+> **Homework**: write 4 things you have done in your life, then give one detail in the past simple for each.
 
 **Notes pour l'animateur** — Réponses :
 1. *gone · written · seen*

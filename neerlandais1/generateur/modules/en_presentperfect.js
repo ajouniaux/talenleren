@@ -52,7 +52,7 @@ function build(d) {
       { icon: 'FaLink', h: 'Use', t: 'I talk about experiences, results and situations that are still true.', color: 'accent1' },
       { icon: 'FaBalanceScale', h: 'Choose', t: 'I choose: present perfect or past simple?', color: 'accent4' },
     ],
-    band: 'No date, but a link with NOW → present perfect. A date → past simple.',
+    band: 'A link with NOW, no finished time → present perfect. A finished time → past simple.',
   });
 
   // ---------------------------------------------------------------- 3 warm-up: what has happened?
@@ -77,7 +77,7 @@ function build(d) {
     tl(s, 0.7, 12.75, y, { nu: 11.0, zones: [[0.8, 10.8, 'D5DCE6']] });
     bridge(s, 3.0, 11.0, y, 0.9);
     d.t(s, '**past action**', 2.0, y + 0.2, 2.0, 0.4, { size: 14, color: PP, align: 'center' });
-    d.t(s, '**+ link with NOW** : no date!', 4.8, 1.48, 4.5, 0.4, { size: 16, italic: true, color: PP, align: 'center' });
+    d.t(s, '**+ link with NOW**: no finished time!', 4.8, 1.48, 4.5, 0.4, { size: 16, italic: true, color: PP, align: 'center' });
     const U = [['EXPERIENCE', 'globe-showing-europe-africa', 'exp', 'ever · never', 'Have you ever <been> to Japan?'], ['RESULT NOW', 'key', 'res', 'just · already · yet', 'I <have lost> my keys!'], ['STILL TRUE', 'hourglass-not-done', 'dur', 'for · since', 'I <have lived> here for 5 years.']];
     const cw = (12.13 - 0.4) / 3;
     U.forEach(([h, ic, kind, words, ex], i) => {
@@ -89,13 +89,13 @@ function build(d) {
       chip(s, words, C.MK, x + 0.2, 5.0, { size: 13, h: 0.36, fill: false });
       rich(s, pc(ex, 15, PP), x + 0.2, 5.4, cw - 0.4, 0.55);
     });
-    band(s, 'Present perfect = un passé **sans date précise**, qui a un **lien avec maintenant**.', 6.2, 0.6, 'tx2', 16);
+    band(s, 'Present perfect = **pas de temps fini** (//yesterday, in 2019…//) + un **lien avec maintenant**.', 6.2, 0.6, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 5 the sentence in boxes
   {
     const s = d.page({ g: 5, tag: 'GRAMMAR', title: 'The sentence in boxes: have / has + participle' });
-    strip(s, 0.8, 1.75, [['She', 'n', 'SUBJECT'], ['has', 'a', 'HAVE / HAS'], ['visit', 'v3', 'PAST PARTICIPLE'], ['ed', 'ed'], ['London', 'n', 'COMPLEMENT'], ['three times.', 't', 'HOW OFTEN']], { size: 26, h: 0.82, ls: 11 });
+    strip(s, 0.8, 1.75, [['She', 'n', 'SUBJECT'], ['has', 'a', 'HAVE / HAS'], ['visit', 'v3', 'PAST PARTICIPLE'], ['ed', 'ed'], ['London', 'n', 'OBJECT'], ['three times.', 't', 'HOW OFTEN']], { size: 26, h: 0.82, ls: 11 });
     const G = [['have · ’ve', 'I · you · we · they', ['I’ve finished.', 'They have left.']], ['has · ’s', 'he · she · it', ['She’s finished.', 'It has started.']]];
     G.forEach(([h, who, L], i) => {
       const x = 0.6 + i * 3.1;
@@ -105,8 +105,8 @@ function build(d) {
       d.t(s, `//**${who}**//`, x + 0.1, 3.85, 2.75, 0.5, { size: 15, color: C.AUX, align: 'center', valign: 'middle' });
       L.forEach((t, j) => d.t(s, `//${t}//`, x + 0.1, 4.45 + j * 0.6, 2.75, 0.5, { size: 17, align: 'center', valign: 'middle' }));
     });
-    trap(s, 6.85, 3.2, 5.88, 2.8, ['« elle **est** partie » → //She **has** left.// : en anglais, **toujours** //have// ! (✗ //She is left.//)', '« j’ai visité » → //I’ve visited// **seulement** s’il n’y a pas de date précise.'], { size: 16, gap: 8 });
-    band(s, '//’s// = //has// ou //is// : //She’s finished// (has) · //She’s tired// (is).', 6.25, 0.55, 'tx2', 16);
+    trap(s, 6.85, 3.2, 5.88, 2.8, ['« elle **est** partie » → //She **has** left.// : en anglais, **toujours** //have// ! (✗ //She is left.//)', '« j’ai visité » → //I’ve visited// **seulement** s’il n’y a pas de **temps fini** (//yesterday, in 2019…//).'], { size: 16, gap: 8 });
+    band(s, '//’s// = //has// ou //is// : //She’s finished// (has) · //She’s happy// (is).', 6.25, 0.55, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 6 the past participle
@@ -160,7 +160,7 @@ function build(d) {
     chip(s, 'Yes, she has.', C.OK, 8.6, 3.15, { size: 16, h: 0.48 });
     chip(s, 'No, she hasn’t.', C.NEG, 8.6, 3.75, { size: 16, h: 0.48 });
     d.rect(s, 0.6, 4.4, 12.13, 1.65, { fill: TINT[C.QW], line: C.QW, lw: 1.5, radius: 0.12 });
-    d.t(s, '**Wh- questions : QUASI again**', 0.85, 4.45, 5, 0.42, { size: 15, color: C.QW, valign: 'middle' });
+    d.t(s, '**Wh- questions: Q · A · S · participle**', 0.85, 4.45, 5, 0.42, { size: 15, color: C.QW, valign: 'middle' });
     strip(s, 0.9, 4.95, [['How long', 'q', 'Q'], ['have', 'a', 'A'], ['you', 'n', 'S'], ['lived', 'v3', 'PARTICIPLE'], ['here?', 'n']], { size: 22, h: 0.66, ls: 12 });
     d.t(s, ['//**Where** have you been?//', '//**What** have you done?//'], 9.3, 4.85, 3.3, 1.1, { size: 16, valign: 'middle', gap: 4 });
     band(s, 'Pas de //do / did// : c’est //have / has// qui fait la négation et la question.', 6.25, 0.55, 'tx2', 16);
@@ -180,8 +180,8 @@ function build(d) {
     d.t(s, '? ? ?', 4.0, 2.6, 4, 0.4, { size: 14, bold: true, color: PP, align: 'center' });
     strip(s, 0.8, 3.45, [['Have', 'a'], ['you', 'n'], ['ever', 't', 'EVER = déjà (dans ta vie)'], ['been', 'v3'], ['to Japan?', 'n']], { size: 24, h: 0.72, ls: 11 });
     strip(s, 0.8, 4.6, [['I', 'n'], ['have', 'a'], ['never', 'ng', 'NEVER = jamais'], ['eaten', 'v3'], ['sushi.', 'n']], { size: 24, h: 0.72, ls: 11 });
-    rule(s, 8.6, 3.4, 4.13, 2.25, '✓ Place', ['//ever, never// : entre //have// et le participe', 'answer : //Yes, I have. · No, never.//'], C.OK, { size: 14.5 });
-    trap(s, 0.6, 5.75, 12.13, 1.05, ['Avec une date → past simple : ✗ //I have been to Japan in 2019.// → ✓ //I **went** to Japan in 2019.//'], { size: 15 });
+    rule(s, 8.6, 3.4, 4.13, 2.25, '✓ Place', ['//ever, never// : entre //have// et le participe', 'answer: //Yes, I have. · No, never.//'], C.OK, { size: 14.5 });
+    trap(s, 0.6, 5.75, 12.13, 1.05, ['Avec un temps fini (une date) → past simple : ✗ //I have been to Japan in 2019.// → ✓ //I **went** to Japan in 2019.//'], { size: 15 });
   }
 
   // ---------------------------------------------------------------- 10 been or gone
@@ -209,7 +209,7 @@ function build(d) {
   // ---------------------------------------------------------------- 11 use 2: result
   {
     const s = d.page({ g: 11, tag: 'USE 2', tagColor: PP, title: 'Result now: just, already, yet' });
-    const K = [['JUST', 'à l’instant', 'I’ve <just> <finished> the report.', 'between have + participle'], ['ALREADY', 'déjà (plus tôt que prévu)', 'She has <already> <left>.', 'between have + participle'], ['YET', 'déjà ? · pas encore', 'Have you finished <yet>? — Not <yet>.', 'at the end · ? and −']];
+    const K = [['JUST', 'à l’instant', 'I’ve <just> <finished> the report.', 'between have and the participle'], ['ALREADY', 'déjà (plus tôt que prévu)', 'She has <already> <left>.', 'between have and the participle'], ['YET', 'déjà ? · pas encore', 'Have you finished <yet>? — Not <yet>.', 'at the end · ? and −']];
     const cw = (12.13 - 0.4) / 3;
     K.forEach(([h, fr, ex, pos], i) => {
       const x = 0.6 + i * (cw + 0.2);
@@ -239,7 +239,7 @@ function build(d) {
     d.t(s, '= la durée', 8.4, 1.8, 1.8, 0.3, { size: 13, italic: true, color: PP, valign: 'middle' });
     strip(s, 4.4, 3.2, [['I', 'n'], ['have', 'a'], ['lived', 'v3'], ['here', 'n'], ['for five years.', 't']], { size: 20, h: 0.6 });
     strip(s, 4.4, 3.95, [['I', 'n'], ['have', 'a'], ['lived', 'v3'], ['here', 'n'], ['since 2021.', 't']], { size: 20, h: 0.6 });
-    rule(s, 0.6, 4.75, 3.9, 1.35, 'FOR + a length', ['//two hours · a week · ten years · ages//'], PP, { size: 14.5 });
+    rule(s, 0.6, 4.75, 3.9, 1.35, 'FOR + a period of time', ['//two hours · a week · ten years · ages//'], PP, { size: 14.5 });
     rule(s, 4.7, 4.75, 3.9, 1.35, 'SINCE + a starting point', ['//9 o’clock · Monday · 2021 · I was a child//'], C.MK, { size: 14.5 });
     trap(s, 8.8, 4.75, 3.93, 1.35, ['✗ //I live here since 5 years.//', '✓ //I’**ve lived** here **for** 5 years.//'], { size: 14, gap: 2, title: '« depuis 5 ans »' });
     band(s, 'Question : //**How long** have you lived here?//', 6.25, 0.55, 'tx2', 16);
@@ -267,18 +267,18 @@ function build(d) {
   {
     const s = d.page({ g: 14, tag: 'COMPARISON', tagColor: 'purple', title: 'Past simple or present perfect? Side by side' });
     const cw = 5.95; const X = [0.6, 6.78];
-    [['PAST SIMPLE', PS, 'locked', 'finished time · a date'], ['PRESENT PERFECT', PP, 'unlocked', 'no date · link with NOW']].forEach(([h, c, ic, sub], j) => {
+    [['PAST SIMPLE', PS, 'locked', 'finished time · yesterday, in 2019'], ['PRESENT PERFECT', PP, 'unlocked', 'link with NOW · no finished time']].forEach(([h, c, ic, sub], j) => {
       const x = X[j];
       d.rect(s, x, 1.55, cw, 0.6, { fill: c, line: null, radius: 0.1 });
       d.ill(s, ic, x + 0.15, 1.6, 0.5, 0.5);
       d.t(s, [`**${h}**`], x + 0.8, 1.55, 2.6, 0.6, { size: 16, color: 'bg1', valign: 'middle' });
-      d.t(s, `//${sub}//`, x + 3.2, 1.55, cw - 3.3, 0.6, { size: 12.5, color: 'bg1', align: 'right', valign: 'middle' });
+      d.t(s, `//${sub}//`, x + 2.95, 1.55, cw - 3.05, 0.6, { size: 11.5, color: 'bg1', align: 'right', valign: 'middle' });
       const ty = 2.6;
       d.line(s, x + 0.2, ty, x + cw - 0.2, ty, { color: '8A96A8', lw: 1.5 });
       d.rect(s, x + cw - 0.75, ty - 0.22, 0.06, 0.44, { fill: C.NOW, line: null, radius: 0 });
       if (j === 0) { d.rect(s, x + 0.6, ty - 0.3, 3.2, 0.6, { fill: 'FFFFFF', tr: 100, line: c, lw: 1.5, dash: 'dash', radius: 0.06 }); d.oval(s, x + 2.1, ty - 0.1, 0.2, 0.2, { fill: c }); } else bridge(s, x + 1.6, x + cw - 0.72, ty, 0.4, c);
     });
-    const R = [['I <lost> my keys {yesterday}.', 'I found them. (fini)', 'I <’ve lost> my keys!', 'I can’t get in. (résultat maintenant)'], ['She <lived> in Paris for 3 years.', 'She doesn’t live there now.', 'She <has lived> in Paris for 3 years.', 'She still lives there.'],
+    const R = [['I <lost> my keys {yesterday}.', 'yesterday = finished time (now? we don’t know)', 'I <’ve lost> my keys!', 'I can’t get in. (résultat maintenant)'], ['She <lived> in Paris for 3 years.', 'She doesn’t live there now.', 'She <has lived> in Paris for 3 years.', 'She still lives there.'],
       ['<Did> you <see> the match {last night}?', 'one occasion, finished', '<Have> you ever <seen> a live match?', 'in your life (expérience)'], ['I <wrote> 2 emails {this morning}.', 'It’s 3 p.m.: the morning is over.', 'I <’ve written> 2 emails {this morning}.', 'It’s 10 a.m.: still the morning!']];
     R.forEach(([a, an, b, bn], i) => {
       const y = 3.05 + i * 0.78;
@@ -321,7 +321,7 @@ function build(d) {
   // ---------------------------------------------------------------- 16 comparison 3: news → details
   {
     const s = d.page({ g: 16, tag: 'COMPARISON', tagColor: 'purple', title: 'In a conversation: news first, then details' });
-    const D = [['A', 'Have you ever been to Italy?', PP], ['B', 'Yes, I have. I’ve been there twice.', PP], ['A', 'When did you go?', PS], ['B', 'I went there last summer.', PS], ['A', 'Did you like it?', PS], ['B', 'Yes! We ate pizza every day!', PS]];
+    const D = [['A', 'Have you ever been to Italy?', PP], ['B', 'Yes, I have. I’ve been there twice.', PP], ['A', 'When did you last go?', PS], ['B', 'I went there last summer.', PS], ['A', 'Did you like it?', PS], ['B', 'Yes! We ate pizza every day!', PS]];
     D.forEach(([who, t, c], i) => {
       const y = 1.6 + i * 0.68; const x = who === 'A' ? 0.9 : 2.4; const w = 6.2;
       d.rect(s, x, y, w, 0.58, { fill: TINT[c], line: c, lw: 1.25, radius: 0.2 });
@@ -341,7 +341,7 @@ function build(d) {
   // ---------------------------------------------------------------- 17 FR ≠ EN
   {
     const s = d.page({ g: 17, tag: 'FR ≠ EN', title: 'French passé composé ≠ English present perfect' });
-    const R = [['J’ai vu ce film hier.', 'I saw the film yesterday.', 'date → PS', PS], ['Je suis allé·e à Londres trois fois.', 'I’ve been to London three times.', 'expérience → PP', PP], ['J’habite ici depuis 2021.', 'I’ve lived here since 2021.', 'depuis → PP', PP],
+    const R = [['J’ai vu ce film hier.', 'I saw that film yesterday.', 'hier → PS', PS], ['Je suis allé·e à Londres trois fois.', 'I’ve been to London three times.', 'expérience → PP', PP], ['J’habite ici depuis 2021.', 'I’ve lived here since 2021.', 'depuis → PP', PP],
       ['Je viens de finir.', 'I’ve just finished.', 'venir de → just', PP], ['Tu as déjà mangé des sushis ?', 'Have you ever eaten sushi?', 'déjà ? → ever', PP], ['Il y a deux ans, j’ai changé de travail.', 'Two years ago, I changed jobs.', 'ago → PS', PS]];
     d.flag(s, 'fr', 1.6, 1.55, 0.5); d.flag(s, 'gb', 6.5, 1.55, 0.5);
     R.forEach(([fr, en, why, c], i) => {
@@ -352,14 +352,14 @@ function build(d) {
       d.t(s, `//**${en}**//`, 6.1, y, 4.45, 0.6, { size: 16, color: c, valign: 'middle' });
       chip(s, why, c, 10.6, y + 0.1, { size: 13, h: 0.4, w: 2.0, fill: false, roman: true });
     });
-    band(s, 'Passé composé → **past simple** ou **present perfect** ? Cherchez la **date** et le **lien avec NOW**.', 6.2, 0.6, 'tx2', 15);
+    band(s, 'Passé composé → **past simple** ou **present perfect** ? Cherchez un **temps fini** et le **lien avec NOW**.', 6.2, 0.6, 'tx2', 15);
   }
 
   // ---------------------------------------------------------------- 18 remember
   {
     const s = d.page({ g: 18, tag: 'REMEMBER', title: 'Remember: present perfect vs past simple' });
-    const B = [['PRESENT PERFECT', PP, 'have / has + past participle', ['experience : ever · never', 'result now : just · already · yet', 'still true : for · since', 'open time : today · this week'], 'I’ve lost my keys! · I’ve lived here since 2021.'],
-      ['PAST SIMPLE', PS, 'V-ed / irregular · did · didn’t', ['finished time : yesterday · last… · …ago', 'a date : in 2019 · on Monday', 'story details : when? where? how?', 'closed time : last night'], 'I lost my keys yesterday. · I went to Rome in 2019.']];
+    const B = [['PRESENT PERFECT', PP, 'have / has + past participle', ['experience: ever · never', 'result now: just · already · yet', 'still true: for · since', 'open time: today · this week'], 'I’ve lost my keys! · I’ve lived here since 2021.'],
+      ['PAST SIMPLE', PS, 'V-ed / irregular · did · didn’t', ['finished time: yesterday · last… · …ago', 'a date: in 2019 · on Monday', 'story details: when? where? how?', 'closed time: last night'], 'I lost my keys yesterday. · I went to Rome in 2019.']];
     B.forEach(([h, c, f, L, ex], i) => {
       const x = 0.6 + i * 6.18;
       d.rect(s, x, 1.6, 5.95, 4.5, { fill: 'FFFFFF', line: c, lw: 2, radius: 0.12, shadow: true });
@@ -404,11 +404,12 @@ function build(d) {
       d.t(s, '➜', 6.65, y + 0.04, 0.45, rh - 0.1, { size: 18, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
       d.t(s, mode === 'q' ? '……………………………………………………' : `//${b}//`, 7.15, y + 0.04, 5.5, rh - 0.1, { size: 16, valign: 'middle', mode });
     });
+    if (mode === 'a') d.t(s, 'Entre //have// et le participe : //just, ever, already, never// · à la fin : //yet//.', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 22 ex3 for or since
   const ex3 = [['two hours', 0], ['Monday', 1], ['2020', 1], ['a week', 0], ['9 o’clock', 1], ['ages', 0], ['I was born', 1], ['ten years', 0], ['last summer', 1], ['a long time', 0]];
-  d.ex({ g: 22, title: 'Exercise 3 — For or since?', stars: '★', instr: 'A length → for. A starting point → since. Sort the expressions.' }, (s, mode, top) => {
+  d.ex({ g: 22, title: 'Exercise 3 — For or since?', stars: '★', instr: 'A period of time → for. A starting point → since. Sort the expressions.' }, (s, mode, top) => {
     let by = top;
     if (mode === 'q') {
       const w5 = (12.13 - 4 * 0.15) / 5;
@@ -420,7 +421,7 @@ function build(d) {
       by = top + 1.45;
     }
     const W2 = (12.13 - 0.2) / 2; const bh = 6.85 - by;
-    [['FOR', PP, 'hourglass-not-done', 'a length'], ['SINCE', C.MK, 'triangular-flag', 'a starting point']].forEach(([h, c, ic, sub], j) => {
+    [['FOR', PP, 'hourglass-not-done', 'a period of time'], ['SINCE', C.MK, 'triangular-flag', 'a starting point']].forEach(([h, c, ic, sub], j) => {
       const x = 0.6 + j * (W2 + 0.2);
       d.rect(s, x, by, W2, bh, { fill: TINT[c], line: c, lw: 2, dash: mode === 'q' ? 'dash' : undefined, radius: 0.12 });
       d.ill(s, ic, x + 0.2, by + 0.12, 0.6, 0.6);
@@ -466,7 +467,7 @@ function build(d) {
 
   // ---------------------------------------------------------------- 25 ex6 PS or PP
   const ex6 = [['I [[have lost]] (lose) my keys. I can’t open the door!', PP], ['I [[lost]] (lose) my keys yesterday, but I found them.', PS], ['She [[has worked]] (work) here since 2020.', PP], ['She [[worked]] (work) in Paris from 2015 to 2019.', PS], ['[[Have you ever seen]] (you / ever / see) a whale?', PP], ['[[Did you see]] (you / see) the match last night?', PS], ['We [[haven’t finished]] (not / finish) yet.', PP], ['They [[arrived]] (arrive) two hours ago.', PS]];
-  d.ex({ g: 25, title: 'Exercise 6 — Past simple or present perfect?', stars: '★★', instr: 'Look for the clue (a date? a link with now?), then write the verb.' }, (s, mode, top) => {
+  d.ex({ g: 25, title: 'Exercise 6 — Past simple or present perfect?', stars: '★★', instr: 'Look for the clue (a finished time? a link with now?), then write the verb.' }, (s, mode, top) => {
     const rh = ((mode === 'a' ? 6.45 : 6.75) - top) / 8;
     ex6.forEach(([t, c], i) => {
       const y = top + i * rh;
@@ -491,11 +492,11 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 27 ex8 detective
-  d.ex({ g: 27, title: 'Exercise 8 — The detective', stars: '★★', instr: 'Sam introduces himself to the team. Find the 5 mistakes.' }, (s, mode, top) => {
+  d.ex({ g: 27, title: 'Exercise 8 — The detective', stars: '★★', instr: 'Sam writes to his new team in Madrid. Find the 5 mistakes.' }, (s, mode, top) => {
     const h = 6.88 - top;
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, shadow: true });
     d.rect(s, 0.6, top, 9.0, 0.5, { fill: 'E6EBF2', line: null, radius: 0.04 });
-    d.t(s, 'From: Sam Taylor · To: the team · Subject: Hello!', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
+    d.t(s, 'From: Sam Taylor · To: the Madrid team · Subject: Hello!', 0.85, top, 8.5, 0.5, { size: 13, color: 'accent5', valign: 'middle' });
     const txt = ['//Hi everyone!//', '//My name is Sam. I {{work}}++ have worked++ here since 2021. Before that, I {{have worked}}++ worked++ for a bank in Leeds from 2015 to 2020. Last month I {{have been}}++ went++ to Dublin for a course. I {{have never visit}}++ have never visited++ our office in Madrid, but I {{already have met}}++ have already met++ the team online.//', '//See you soon!//', '//Sam//'];
     d.t(s, txt, 0.95, top + 0.65, 8.3, h - 0.8, { size: 16.5, gap: 6, mode, ls: 1.15, valign: 'top' });
     d.ill(s, 'magnifying-glass-tilted-left', 10.4, top + 0.1, 1.6, 1.6);
@@ -507,7 +508,7 @@ function build(d) {
   // ---------------------------------------------------------------- 28 ex9 find someone who
   {
     const s = d.page({ g: 28, tag: 'YOUR TURN!', title: 'Exercise 9 — Find someone who…', stars: '★★' });
-    const G = [['globe-showing-europe-africa', 'has been to London'], ['sushi', 'has eaten sushi'], ['star-struck', 'has met a famous person'], ['adhesive-bandage', 'has broken a bone'], ['trophy', 'has won a prize'], ['airplane', 'has never flown'], ['cooking', 'has cooked for 10 people'], ['mobile-phone', 'has lost a phone'], ['snowflake', 'has seen snow this year']];
+    const G = [['globe-showing-europe-africa', 'has been to London'], ['sushi', 'has eaten sushi'], ['star-struck', 'has met a famous person'], ['adhesive-bandage', 'has broken a bone'], ['trophy', 'has won a prize'], ['helicopter', 'has flown in a helicopter'], ['cooking', 'has cooked for 10 people'], ['mobile-phone', 'has lost a phone'], ['snowflake', 'has seen snow this year']];
     const cw = 2.55; const ch = 1.5;
     G.forEach(([ic, t], i) => {
       const x = 0.6 + (i % 3) * (cw + 0.12); const y = 1.6 + Math.floor(i / 3) * (ch + 0.12);
@@ -524,15 +525,15 @@ function build(d) {
   // ---------------------------------------------------------------- 29 ex10 job interview
   d.roleplay({
     g: 29, title: 'Exercise 10 — The job interview',
-    scenario: 'A company is looking for a team leader. A interviews B about experience. Use the present perfect and the past simple.',
+    scenario: 'A company is looking for a team leader. A interviews B about B’s experience. Use the present perfect and the past simple.',
     a: ['**A — the interviewer**', 'Ask: //How long…? Have you ever…?// Then: //When…? What did you…?//'],
-    b: ['**B — the candidate**', 'Answer with the CV: what you have done (no date) and what you did (with a date).'],
+    b: ['**B — the candidate**', 'Answer with the CV: what you have done (until now) and what you did (finished, with a date).'],
     bank: '//How long have you worked as…? · Have you ever…? · What did you do in…? · When did you…? — I’ve worked… since / for… · I’ve never… · In 2018, I… · I’ve already… · That was a great experience.//',
     doc: (s, x, y, w, h) => {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.6, { fill: 'tx2', line: null, radius: 0.04 });
       d.t(s, 'B’S CV', x + 0.15, y, w - 0.3, 0.6, { size: 13, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
-      const L = [['briefcase', 'since 2020', 'team leader, Brussels', PP], ['shopping-cart', '2015 – 2019', 'sales assistant, Leeds', PS], ['graduation-cap', 'diploma', 'Business, Leeds (2014)', PS], ['airplane', 'travel', 'USA (2018) · Japan (2023)', PS], ['trophy', 'projects', '3 conferences so far', PP], ['cross-mark', 'never', 'worked abroad', PP]];
+      const L = [['briefcase', 'since 2020', 'team leader, Brussels', PP], ['shopping-cart', '2015 – 2019', 'sales assistant, Leeds', PS], ['graduation-cap', 'degree', 'Business, Leeds (2014)', PS], ['airplane', 'travel', 'USA (2018) · Japan (2023)', PS], ['trophy', 'events', 'organised 3 conferences so far', PP], ['cross-mark', 'never', 'worked abroad', PP]];
       L.forEach(([ic, k, t, c], i) => {
         const yy = y + 0.75 + i * 0.73;
         d.ill(s, ic, x + 0.15, yy, 0.5, 0.5);
@@ -545,9 +546,9 @@ function build(d) {
   // ---------------------------------------------------------------- 30 ticket
   d.ticket({
     g: 30,
-    q: ['Past participle of //go//, //write//, //see// ?', '//for// or //since// ? … 2020 · … two weeks', 'Past simple or present perfect? //I (lose) my phone yesterday.//'],
+    q: ['Past participle of //go//, //write//, //see//?', '//for// or //since//? … 2020 · … two weeks', 'Past simple or present perfect? //I (lose) my phone yesterday.//'],
     self: ['Build', 'Use', 'Choose'],
-    teaser: { icon: 'FaBook', text: '**Homework** : write 4 things you have done in your life, then give one detail in the past simple for each.' },
+    teaser: { icon: 'FaBook', text: '**Homework**: write 4 things you have done in your life, then give one detail in the past simple for each.' },
   });
 }
 

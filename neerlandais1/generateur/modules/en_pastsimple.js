@@ -77,14 +77,14 @@ function build(d) {
       d.rect(s, 0.6, 4.3 + i * 0.6, 7.6, 0.52, { fill: i % 2 ? 'FFFFFF' : 'bg2', line: null, radius: 0.08 });
       rich(s, pc(t, 18), 0.8, 4.3 + i * 0.6, 7.3, 0.52);
     });
-    rule(s, 8.45, 4.25, 4.28, 1.75, 'The rule', ['an action **finished**', 'in a time **finished**', 'often with a **date** or a marker'], PS, { size: 15 });
+    rule(s, 8.45, 4.25, 4.28, 1.75, 'The rule', ['a **finished** action', 'in a **finished** time', 'often with a **date** or a time marker'], PS, { size: 15 });
     band(s, 'Past simple = une action **terminée**, dans un temps **terminé** : on peut répondre à « //When?// ».', 6.2, 0.6, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 5 the sentence in boxes
   {
     const s = d.page({ g: 5, tag: 'GRAMMAR', title: 'The sentence in boxes: base + -ed' });
-    strip(s, 0.9, 1.75, [['She', 'n', 'SUBJECT'], ['visit', 'b'], ['ed', 'ed', 'VERB + -ED'], ['her grandmother', 'n', 'COMPLEMENT'], ['last Sunday.', 't', 'WHEN']], { size: 28, h: 0.85, ls: 12 });
+    strip(s, 0.9, 1.75, [['She', 'n', 'SUBJECT'], ['visit', 'b'], ['ed', 'ed', 'VERB + -ED'], ['her grandmother', 'n', 'OBJECT'], ['last Sunday.', 't', 'WHEN']], { size: 28, h: 0.85, ls: 12 });
     d.rect(s, 0.6, 3.25, 6.0, 2.75, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
     d.t(s, '**Same form for everybody!**', 0.8, 3.33, 5.6, 0.45, { size: 16, color: PS, valign: 'middle' });
     ['I', 'You', 'He', 'She', 'It', 'We', 'They'].forEach((p, i) => {
@@ -95,7 +95,7 @@ function build(d) {
     d.t(s, '→', 4.45, 4.5, 0.5, 0.5, { size: 26, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
     chip(s, 'worked', PS, 5.0, 4.55, { size: 18, h: 0.52 });
     d.t(s, 'pas de //-s// : //he **worked**// ✓ · //he workeds// ✗', 0.8, 5.35, 5.6, 0.5, { size: 14, color: 'tx2', valign: 'middle' });
-    trap(s, 6.85, 3.25, 5.88, 2.75, ['« j’**ai travaillé** » · « je **travaillai** »', '→ //I **worked**// : un seul mot !', 'L’anglais n’a **pas d’auxiliaire** à l’affirmatif du past simple.']);
+    trap(s, 6.85, 3.25, 5.88, 2.75, ['« j’**ai travaillé** » · « je **travaillai** »', '→ //I **worked**// : un seul mot !', 'L’anglais n’a **pas d’auxiliaire** à la forme affirmative du past simple.']);
     band(s, 'Régulier : **base + -ed**. Une seule forme, pour toutes les personnes.', 6.25, 0.55, 'tx2', 16);
   }
 
@@ -103,7 +103,7 @@ function build(d) {
   {
     const s = d.page({ g: 6, tag: 'SPELLING', tagColor: C.MK, title: 'Spelling: four rules for -ed' });
     const R = [['① most verbs', '+ ed', [['work', 'worked'], ['play', 'played'], ['watch', 'watched']]], ['② ends in -e', '+ d', [['live', 'lived'], ['like', 'liked'], ['arrive', 'arrived']]],
-      ['③ consonant + y', 'y → ied', [['study', 'studied'], ['try', 'tried'], ['cry', 'cried']]], ['④ short: 1 vowel + 1 consonant', 'double + ed', [['stop', 'stopped'], ['plan', 'planned'], ['prefer', 'preferred']]]];
+      ['③ consonant + y', 'y → ied', [['study', 'studied'], ['try', 'tried'], ['cry', 'cried']]], ['④ stressed: 1 vowel + 1 consonant', 'double + ed', [['stop', 'stopped'], ['plan', 'planned'], ['prefer', 'preferred']]]];
     const cw = (12.73 - 4.0 - 0.3) / 3;
     R.forEach(([h, sf, L], i) => {
       const y = 1.6 + i * 0.95;
@@ -112,7 +112,7 @@ function build(d) {
       L.forEach(([b, r], j) => pcard(s, 4.0 + j * (cw + 0.15), y, cw, 0.85, b, r, PS, { bs: 13, rs: 15 }));
     });
     rule(s, 0.6, 5.5, 6.0, 1.35, '⚠ But: vowel + y = + ed', ['//play → played · enjoy → enjoyed · stay → stayed//'], C.KO, { size: 15 });
-    rule(s, 6.85, 5.5, 5.88, 1.35, '⚠ No doubling if…', ['the stress is not at the end : //**vi**sit → visited//', 'ends in //w, x, y// : //fix → fixed// · //travel → travelled// (UK) / //traveled// (US)'], C.KO, { size: 13.5 });
+    rule(s, 6.85, 5.5, 5.88, 1.35, '⚠ No doubling if…', ['the stress is not at the end: //**vi**sit → visited//', 'it ends in //w, x// or //y//: //fix → fixed · show → showed//', 'UK: final //-l// doubles: //travel → travelled// (US //traveled//)'], C.KO, { size: 13.5 });
   }
 
   // ---------------------------------------------------------------- 7 pronunciation
@@ -199,7 +199,7 @@ function build(d) {
     strip(s, 9.2, 1.7, [['He', 'n'], ['went', 'v2']], { size: 22, h: 0.7 });
     d.t(s, '↓', 9.9, 2.5, 0.6, 0.6, { size: 26, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
     strip(s, 9.2, 3.25, [['He', 'n'], ['didn’t', 'a'], ['go', 'b']], { size: 22, h: 0.7 });
-    rule(s, 0.6, 4.6, 6.0, 1.45, '✓ The rule', ['//didn’t// (= did not) + **base form**', 'the same for everybody : //I, you, he, we… didn’t go//'], C.OK, { size: 15 });
+    rule(s, 0.6, 4.6, 6.0, 1.45, '✓ The rule', ['//didn’t// (= did not) + **base form**', 'the same for everybody: //I, you, he, we… didn’t go//'], C.OK, { size: 15 });
     trap(s, 6.85, 4.6, 5.88, 1.45, ['Le passé est **déjà** dans //did// : ✗ //didn’t visited// · ✗ //didn’t went//'], { size: 15, title: 'Une seule marque du passé !' });
     band(s, 'À l’écrit soigné : //did not//. À l’oral : //didn’t//.', 6.25, 0.55, 'tx2', 16);
   }
@@ -250,7 +250,7 @@ function build(d) {
       d.line(s, x, below ? y + 0.1 : y - 0.1, x, below ? yy : yy + 0.46, { color: hexOf(C.MK), lw: 1, arrow: false });
       chip(s, t, C.MK, x - w / 2, yy, { size: 14, h: 0.46 });
     });
-    const B = [['in', '+ année, mois, saison', 'in 2019 · in May · in the summer'], ['on', '+ jour, date', 'on Monday · on 3 May'], ['at', '+ heure', 'at 9 o’clock · at night']];
+    const B = [['in', '+ année, mois, saison', 'in 2019 · in May · in the summer'], ['on', '+ jour, date', 'on Monday · on 3 May'], ['at', '+ heure (et //at night//)', 'at 9 o’clock · at night']];
     B.forEach(([p, r, ex], i) => {
       const x = 0.6 + i * 4.1;
       d.rect(s, x, 4.15, 3.93, 1.35, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
@@ -275,13 +275,13 @@ function build(d) {
       rich(s, pc(t, 18), x + 0.15, 4.3, cw - 0.3, 1.0, { align: 'center' });
       if (i < 3) d.t(s, '➜', x + cw - 0.05, 3.2, 0.35, 0.5, { size: 20, bold: true, color: 'accent2', align: 'center', valign: 'middle' });
     });
-    band(s, 'À vous : racontez votre matin d’hier en 4 images : //First, I… Then, I… After that, I… Finally, I…//', 5.75, 0.8, 'tx2', 16);
+    band(s, 'À vous : racontez votre matinée d’hier en 4 images : //First, I… Then, I… After that, I… Finally, I…//', 5.75, 0.8, 'tx2', 16);
   }
 
   // ---------------------------------------------------------------- 16 pièges
   {
     const s = d.page({ g: 16, tag: 'FR ≠ EN', title: 'Six traps for French speakers' });
-    const R = [['passé composé + date', 'I have seen him yesterday.', 'I saw him yesterday.'], ['did + past', 'Did you went?', 'Did you go?'], ['didn’t + past', 'He didn’t bought it.', 'He didn’t buy it.'], ['the irregular', 'I goed to Paris.', 'I went to Paris.'], ['the spelling', 'She studyed.', 'She studied.'], ['« il y a »', 'There are two days.', 'two days ago']];
+    const R = [['passé composé + date', 'I have seen him yesterday.', 'I saw him yesterday.'], ['did + past', 'Did you went?', 'Did you go?'], ['didn’t + past', 'He didn’t bought it.', 'He didn’t buy it.'], ['the irregular', 'I goed to Paris.', 'I went to Paris.'], ['the spelling', 'She studyed.', 'She studied.'], ['« il y a »', 'I arrived there are two days.', 'I arrived two days ago.']];
     const cw = (12.13 - 2 * 0.2) / 3; const ch = 2.15;
     R.forEach(([h, bad, good], i) => {
       const x = 0.6 + (i % 3) * (cw + 0.2); const y = 1.6 + Math.floor(i / 3) * (ch + 0.15);
@@ -306,7 +306,7 @@ function build(d) {
       d.t(s, `//${ex}//`, x + 0.15, 3.55, cw - 0.3, 1.2, { size: 15, align: 'center', valign: 'middle' });
     });
     d.rect(s, 0.6, 5.1, 12.13, 1.65, { fill: 'bg2', line: BORDER, radius: 0.12 });
-    d.t(s, ['**Spelling** : //lived · studied · stopped · played// — **Sounds** : /t/ //worked// · /d/ //played// · /ɪd/ //wanted//', '**Exceptions** : irregular verbs (learn them!) · //was / were// (no //did//) · //Who called?// (no //did//)'], 0.85, 5.1, 11.7, 1.65, { size: 15, valign: 'middle', gap: 6 });
+    d.t(s, ['**Spelling**: //lived · studied · stopped · played// — **Sounds**: /t/ //worked// · /d/ //played// · /ɪd/ //wanted//', '**Exceptions**: irregular verbs (learn them!) · //was / were// (no //did//) · //Who called?// (no //did//)'], 0.85, 5.1, 11.7, 1.65, { size: 15, valign: 'middle', gap: 6 });
     d.icon(s, 'FaCamera', 'accent5', 12.3, 1.05, 0.38);
   }
 
@@ -326,11 +326,11 @@ function build(d) {
       d.t(s, '→', x + 2.15, y + 0.04, 0.5, rh - 0.1, { size: 20, bold: true, color: 'accent5', align: 'center', valign: 'middle' });
       d.t(s, `//[[${r}]]//`, x + 2.75, y + 0.04, cw - 2.85, rh - 0.1, { size: 19, color: PS, valign: 'middle', mode });
     });
-    if (mode === 'a') d.t(s, 'Règles : ① 1, 8 · ② 4 · ③ 2, 6, 10 · ④ 3, 5 · pas de doublement : 7 (//**vi**sit//) · 9 : //traveled// (US).', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
+    if (mode === 'a') d.t(s, 'Règles : ① 1, 8 · ② 4 · ③ 2, 6, 10 · ④ 3, 5 · pas de doublement : 7 (//**vi**sit//) · 9 : //-l// doublé en anglais britannique → //travelled// (US //traveled//).', 0.6, 6.5, 12.13, 0.36, { size: 13, italic: true, color: 'accent5', align: 'center' });
   });
 
   // ---------------------------------------------------------------- 20 ex2 /t/ /d/ /ɪd/
-  const ex2 = [['worked', 0], ['played', 1], ['wanted', 2], ['watched', 0], ['lived', 1], ['needed', 2], ['stopped', 0], ['cleaned', 1], ['visited', 2], ['laughed', 0], ['opened', 1], ['decided', 2]];
+  const ex2 = [['looked', 0], ['called', 1], ['started', 2], ['helped', 0], ['tried', 1], ['waited', 2], ['missed', 0], ['listened', 1], ['ended', 2], ['washed', 0], ['enjoyed', 1], ['hated', 2]];
   d.ex({ g: 20, title: 'Exercise 2 — /t/, /d/ or /ɪd/?', stars: '★', instr: 'Say each verb aloud. Put it in the right box.' }, (s, mode, top) => {
     let by = top;
     if (mode === 'q') {
@@ -434,7 +434,7 @@ function build(d) {
   });
 
   // ---------------------------------------------------------------- 26 ex8 detective
-  d.ex({ g: 26, title: 'Exercise 8 — The detective', stars: '★★', instr: 'Lucas writes a postcard from Rome. Find the 5 mistakes.' }, (s, mode, top) => {
+  d.ex({ g: 26, title: 'Exercise 8 — The detective', stars: '★★', instr: 'Lucas writes to Emma about his trip to Rome. Find the 5 mistakes.' }, (s, mode, top) => {
     const h = 6.88 - top;
     d.rect(s, 0.6, top, 9.0, h, { fill: 'FFFDF7', line: 'accent5', lw: 1.25, shadow: true });
     d.line(s, 6.3, top + 0.3, 6.3, top + h - 0.3, { color: 'D5DCE6', lw: 1, arrow: false });
@@ -473,13 +473,13 @@ function build(d) {
     g: 28, title: 'Exercise 10 — Monday morning',
     scenario: 'Monday, 9 a.m., at the coffee machine. A asks about the weekend; B answers with the picture card. Then swap!',
     a: ['**A — the curious colleague**', 'Ask 6 questions about B’s weekend. React: //Really? · Lucky you! · Sounds great!//'],
-    b: ['**B — back from the weekend**', 'Answer with the card: past simple, regular and irregular. Give one detail more each time.'],
+    b: ['**B — back from the weekend**', 'Answer with the card: past simple, regular and irregular. Give one more detail each time.'],
     bank: '//How was your weekend? · What did you do? · Where did you go? · Who did you go with? · Did you…? — Yes, I did. / No, I didn’t. · It was great / boring / fun. · First… then… after that…//',
     doc: (s, x, y, w, h) => {
       d.rect(s, x, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1, radius: 0.04, shadow: true });
       d.rect(s, x, y, w, 0.6, { fill: 'tx2', line: null, radius: 0.04 });
       d.t(s, 'B’S WEEKEND', x + 0.15, y, w - 0.3, 0.6, { size: 13, bold: true, color: 'bg1', valign: 'middle', cs: 1 });
-      const L = [['SATURDAY', null], ['beach-with-umbrella', 'go to the beach'], ['person-swimming', 'swim in the sea'], ['fish', 'eat fish'], ['SUNDAY', null], ['old-woman', 'visit grandma'], ['cooking', 'cook a cake'], ['television', 'watch a series']];
+      const L = [['SATURDAY', null], ['beach-with-umbrella', 'go to the beach'], ['person-swimming', 'swim in the sea'], ['fish', 'eat fish'], ['SUNDAY', null], ['old-woman', 'visit grandma'], ['cooking', 'bake a cake'], ['television', 'watch a series']];
       let yy = y + 0.72;
       L.forEach(([ic, t]) => {
         if (!t) { d.t(s, `**${ic}**`, x + 0.2, yy, w - 0.4, 0.34, { size: 12, color: PS, cs: 1 }); yy += 0.38; return; }
@@ -493,9 +493,9 @@ function build(d) {
   // ---------------------------------------------------------------- 29 ticket
   d.ticket({
     g: 29,
-    q: ['Past simple of //go//, //study//, //stop// ?', 'Negative: //She saw the film.//', 'Question: //They arrived yesterday.// (When…?)'],
+    q: ['Past simple of //go//, //study//, //stop//?', 'Negative: //She saw the film.//', 'Question: //They arrived yesterday.// (When…?)'],
     self: ['Build', 'Use', 'Tell'],
-    teaser: { icon: 'FaBook', text: '**Homework** : write 6 sentences about your last holiday (2 negatives, 2 questions).' },
+    teaser: { icon: 'FaBook', text: '**Homework**: write 6 sentences about your last holiday (2 negatives, 2 questions).' },
   });
 }
 
