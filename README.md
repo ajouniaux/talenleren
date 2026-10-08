@@ -56,3 +56,7 @@ cd generateur
 npm install
 npm run build   # réécrit les fichiers dans ../powerpoints
 ```
+
+## Compléments de grammaire (A2–B1)
+
+Le dossier [`anglais_grammaire/`](anglais_grammaire/README.md) contient deux présentations autonomes, en schémas, sur le **past simple** et le **present perfect** (règles, exceptions, comparaison, dix exercices chacune). Elles prolongent les séances 3, 7, 9 et 13 du dossier.
