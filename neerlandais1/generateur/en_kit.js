@@ -36,7 +36,7 @@ function kit(d) {
     if (t.startsWith('~')) return [t.slice(1, -1), { bold: true, italic: it, color: hexOf(C.NEG), fontSize: size }];
     return [t, { italic: it, fontSize: size }];
   });
-  // bandes de mots avec étiquettes sous les cases
+  // bandes de mots avec étiquettes sous les cases ; -ed et n’t sont collés au mot précédent ; o.blank : cases vides en pointillés
   const ST = {
     n: { fill: 'FFFFFF', line: BORDER, lw: 1.25, color: 'tx1', bold: false, lc: 'accent5' },
     b: { fill: 'FBEDEB', line: 'accent6', lw: 1.75, color: 'accent6', bold: true, lc: 'accent6' },
@@ -55,9 +55,13 @@ function kit(d) {
     let cx = x; const pos = [];
     parts.forEach(([t, ty, lab]) => {
       const st = ST[ty || 'n'];
-      const tight = ty === 'ed';
+      const tight = ty === 'ed' || (ty === 'ng' && /^n[’']t/.test(t));
       const w = ty === 'e' ? 0.16 + plain(t).length * size * 0.006 : wOf(t, size) * (st.bold ? 1.12 : 1) + (st.bold ? 0.08 : 0) - (tight ? 0.12 : 0);
       if (tight && pos.length) cx -= gap - 0.02;
+      if (o.blank) {
+        d.rect(s, cx, y, w, h, { fill: 'FFFFFF', line: 'accent5', lw: 1.25, dash: 'dash', radius: 0.1 });
+        pos.push([cx, w, ty]); cx += w + gap; return;
+      }
       if (st.fill || st.line) d.rect(s, cx, y, w, h, { fill: st.fill || 'FFFFFF', line: st.line, lw: st.lw, dash: st.dash, radius: 0.1 });
       d.t(s, ty === 'x' ? `{{${t}}}` : (o.italic === false ? t : `//${t}//`), cx, y, w, h, { size, bold: st.bold, color: st.color, align: 'center', valign: 'middle' });
       if (lab) d.t(s, lab, cx - 0.35, y + h + 0.04, w + 0.7, 0.3, { size: ls, bold: true, color: st.lc, align: 'center', valign: 'top' });

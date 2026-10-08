@@ -1,13 +1,14 @@
 # English · A2–B1 · Grammar in pictures
 
-Deux présentations PowerPoint autonomes, aérées et visuelles, pour enseigner le **past simple** et le **present perfect** à des apprenant·es francophones (niveau A2–B1), puis les comparer.
+Trois présentations PowerPoint autonomes, aérées et visuelles, pour enseigner le **past simple** et le **present perfect** à des apprenant·es francophones (niveau A2–B1), puis les comparer.
 
 | Deck | Fichier | Gabarit | Diapos | Durée |
 |---|---|---|---|---|
 | *The past simple* · raconter ce qui est fini | `powerpoints/English_Past_simple.pptx` | `past_simple.md` | 37 | 2 × 90 min |
 | *The present perfect* · le passé qui touche le présent, et la comparaison avec le past simple | `powerpoints/English_Present_perfect.pptx` | `present_perfect.md` | 38 | 2 × 90 min |
+| *The past simple in boxes* · complément : la phrase découpée en cases, affirmative, négative, interrogative | `powerpoints/English_Past_simple_Sentences_in_boxes.pptx` | `past_simple_decoupe.md` | 22 | 60–90 min |
 
-Ordre conseillé : *Past simple* d'abord ; le deck *Present perfect* s'appuie dessus et contient toute la comparaison (côte à côte, arbre de décision, « news first, then details », passé composé ≠ present perfect).
+Ordre conseillé : *Past simple* d'abord (le complément *in boxes* peut suivre ses diapos 11–13 ou servir de révision) ; le deck *Present perfect* s'appuie dessus et contient toute la comparaison (côte à côte, arbre de décision, « news first, then details », passé composé ≠ present perfect).
 
 ## Ce que contient chaque deck
 
@@ -21,6 +22,8 @@ Ordre conseillé : *Past simple* d'abord ; le deck *Present perfect* s'appuie de
 6. **Dix exercices ludiques et variés** par deck : une diapo **question**, puis une diapo **✓ CORRECTION**. Au programme : tri, mémoire, texte à trous, phrases à reconstruire, détective (erreurs barrées en rouge), « Two truths and a lie », « Find someone who… » (bingo), jeu de rôle avec document (week-end, entretien d'embauche).
 7. **Ticket de sortie** avec auto-évaluation et devoir.
 
+Le complément *The past simple in boxes* ne contient **que la découpe de phrase** : les 9 cases et leurs couleurs, les trois formules (+ − ?), les transformations fléchées (le *-ed* passe dans *did*, *did* passe devant le sujet), QUASI, une phrase en quatre versions, les cas sans *did* (*be*, *who* sujet), puis cinq exercices de manipulation (colorier les cases, les remettre dans l'ordre, remplir des cases vides, trouver la case fausse, jeu de dés).
+
 ## Conventions
 
 - **Langue** : diapos en anglais simple ; pièges, bandes de synthèse et **notes du présentateur en français**, avec les réponses et les variantes acceptables.
@@ -30,10 +33,10 @@ Ordre conseillé : *Past simple* d'abord ; le deck *Present perfect* s'appuie de
 
 ## Régénérer les PowerPoint
 
-Les decks sont produits par le générateur du cours de néerlandais (`../neerlandais1/generateur`), qui partage le thème, les icônes et les gabarits d'exercices. Le code propre à l'anglais est dans `en_kit.js` (couleurs, libellés anglais, découpes de phrase, frises) et dans `modules/en_pastsimple.js` et `modules/en_presentperfect.js`. Les objectifs et les notes du présentateur sont lus dans les gabarits `past_simple.md` et `present_perfect.md` : modifier un gabarit met à jour les notes du deck.
+Les decks sont produits par le générateur du cours de néerlandais (`../neerlandais1/generateur`), qui partage le thème, les icônes et les gabarits d'exercices. Le code propre à l'anglais est dans `en_kit.js` (couleurs, libellés anglais, découpes de phrase, frises) et dans `modules/en_pastsimple.js`, `modules/en_presentperfect.js` et `modules/en_psboxes.js`. Les objectifs et les notes du présentateur sont lus dans les gabarits `past_simple.md`, `present_perfect.md` et `past_simple_decoupe.md` : modifier un gabarit met à jour les notes du deck.
 
 ```bash
 cd ../neerlandais1/generateur
 npm install
-node build.js en_pastsimple en_presentperfect   # réécrit les 2 fichiers dans ../../anglais_grammaire/powerpoints
+node build.js en_pastsimple en_presentperfect en_psboxes   # réécrit les 3 fichiers dans ../../anglais_grammaire/powerpoints
 ```

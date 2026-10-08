@@ -162,7 +162,7 @@ Le dossier `generateur/` contient le code source : `lib.js` (thème, schémas, g
 ```bash
 cd generateur
 npm install
-npm run build        # réécrit les 42 fichiers dans ../powerpoints (et les 2 decks anglais dans ../../anglais_grammaire/powerpoints)
+npm run build        # réécrit les 42 fichiers dans ../powerpoints (et les 3 decks anglais dans ../../anglais_grammaire/powerpoints)
 node build.js 3      # un seul module
 node build.js 6 10   # plusieurs modules
 node build.js uitspraak   # le complément de prononciation
@@ -175,5 +175,5 @@ node build.js verbind     # le complément A2–B1 sur la coordination et la sub
 node build.js tijden      # le complément A2–B1 sur les temps et la ligne du temps
 node build.js afleiding   # le complément A2–B1 sur la dérivation
 node build.js goedemorgen # le jeu de rôle A1 (après la 2e séance)
-node build.js en_pastsimple en_presentperfect   # les 2 decks anglais A2–B1 (voir ../anglais_grammaire)
+node build.js en_pastsimple en_presentperfect en_psboxes   # les 3 decks anglais A2–B1 (voir ../anglais_grammaire)
 ```
