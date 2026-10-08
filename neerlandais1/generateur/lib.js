@@ -44,6 +44,15 @@ const TAGS = {
   MISSIE: 'tx2', 'ÉCHAUFFEMENT': 'accent2', GRAMMAIRE: 'tx2', PRONONCIATION: 'accent4', VOCABULAIRE: 'accent3',
   'PIÈGE FR ≠ NL': 'accent6', 'À RETENIR': 'tx2', 'JIJ NU !': 'accent1', 'MISE EN SITUATION': PURPLE, '+ BONUS': 'accent5',
   'TICKET DE SORTIE': 'accent5', 'MINI-DÉFI': 'accent1', '+ APERÇU': 'accent5',
+  MISSION: 'tx2', 'WARM-UP': 'accent2', GRAMMAR: 'tx2', REMEMBER: 'tx2', 'YOUR TURN!': 'accent1', 'ROLE PLAY': PURPLE, 'EXIT TICKET': 'accent5', 'FR ≠ EN': 'accent6',
+};
+
+// Slide-furniture labels (Dutch decks by default; a deck can override them with meta.L, e.g. for English)
+const LBL = {
+  open: 'Ouverture', close: 'Clôture', correction: '✓ CORRECTIE', missionTag: 'MISSIE', missionTitle: 'Missie van vandaag',
+  exTag: 'JIJ NU !', exTitle: 'Oefeningen', exSection: 'JIJ NU ! — Oefeningen', ticketTag: 'TICKET DE SORTIE', ticketTitle: 'Ticket de sortie',
+  selfEval: 'AUTO-ÉVALUATION', roleTag: 'MISE EN SITUATION', bank: 'BANQUE DE PHRASES',
+  coverFoot: 'Néerlandais 1 · UE1 · Langue en situation, en milieu professionnel · A. Jouniaux · IRAM',
 };
 
 // Former archive image keys → Fluent Emoji illustrations (the archive pictures are no longer used).
@@ -216,8 +225,9 @@ class Deck {
     p.layout = 'LAYOUT_WIDE';
     p.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
     p.author = 'A. Jouniaux';
-    p.company = 'IRAM — Néerlandais 1 (UE1)';
-    p.subject = 'Néerlandais 1 — Langue en situation, en milieu professionnel';
+    this.L = { ...LBL, ...(meta.L || {}) };
+    p.company = meta.company || 'IRAM — Néerlandais 1 (UE1)';
+    p.subject = meta.subject || 'Néerlandais 1 — Langue en situation, en milieu professionnel';
     p.title = meta.docTitle || `Module ${meta.n} — ${meta.title}`;
     this.S = p.shapes;
     this.G = readTemplate(path.join(__dirname, '..', meta.template));
@@ -247,7 +257,7 @@ class Deck {
     p.defineSlideMaster({
       title: 'N1_COVER', background: { color: HEX.dk2 },
       objects: [
-        { text: { text: 'Néerlandais 1 · UE1 · Langue en situation, en milieu professionnel · A. Jouniaux · IRAM', options: { x: 0.6, y: 6.85, w: 9, h: 0.35, fontSize: 12, color: 'bg2', margin: 0 } } },
+        { text: { text: this.L.coverFoot, options: { x: 0.6, y: 6.85, w: 9, h: 0.35, fontSize: 12, color: 'bg2', margin: 0 } } },
         { placeholder: { options: { name: 'title', type: 'title', x: 0.6, y: 1.9, w: 6.2, h: 2.0, fontSize: 42, bold: true, color: 'bg1', valign: 'bottom', align: 'left', margin: 0 }, text: '' } },
         { placeholder: { options: { name: 'body', type: 'body', x: 0.6, y: 4.1, w: 6.2, h: 1.6, fontSize: 20, color: 'bg2', valign: 'top', align: 'left', margin: 0 }, text: '' } },
       ],
@@ -277,7 +287,7 @@ class Deck {
     s.addText(title, L > 60 ? { placeholder: 'title', fontSize: 22 } : L > 50 ? { placeholder: 'title', fontSize: 26 } : { placeholder: 'title' });
     let x = 0.6;
     if (spec.tag) x += this.chip(s, spec.tag, x, 0.26, spec.tagColor || TAGS[spec.tag] || 'tx2') + 0.12;
-    if (correction) x += this.chip(s, '✓ CORRECTIE', x, 0.26, 'accent3') + 0.12;
+    if (correction) x += this.chip(s, this.L.correction, x, 0.26, 'accent3') + 0.12;
     if (spec.stars) this.t(s, spec.stars, 11.13, 0.24, 1.6, 0.38, { size: 16, color: 'accent1', align: 'right', valign: 'middle', bold: true });
     s.addNotes(this.notesFor(spec.g, correction, spec.notes));
     return s;
@@ -495,7 +505,7 @@ class Deck {
 
   // ------------------------------------------------------------ slide types
   cover(o) {
-    this.section('Ouverture');
+    this.section(this.L.open);
     const s = this.slide('N1_COVER');
     this.chip(s, o.chip || `MODULE ${this.m.n} / 32`, 0.6, 0.7, 'accent1', 0.42, 14);
     s.addText(o.title, { placeholder: 'title' });
@@ -509,7 +519,7 @@ class Deck {
   }
 
   mission(o) {
-    const s = this.page({ g: o.g, tag: 'MISSIE', title: o.title || 'Missie van vandaag' });
+    const s = this.page({ g: o.g, tag: this.L.missionTag, title: o.title || this.L.missionTitle });
     const n = o.cards.length; const top = 1.7; const h = o.band ? 4.3 : 5.0; const gap = 0.3;
     const w = o.vertical ? 9.6 : (10.0 - gap * (n - 1)) / n;
     o.cards.forEach((c, i) => {
@@ -538,12 +548,12 @@ class Deck {
   }
 
   divider(o) {
-    this.section('JIJ NU ! — Oefeningen');
+    this.section(this.L.exSection);
     const s = this.slide('N1_DARK');
-    s.addText('Oefeningen', { placeholder: 'title' });
-    this.chip(s, 'JIJ NU !', 0.6, 0.26, 'accent1');
+    s.addText(this.L.exTitle, { placeholder: 'title' });
+    this.chip(s, this.L.exTag, 0.6, 0.26, 'accent1');
     s.addNotes(this.notesFor(o.g));
-    this.t(s, 'JIJ NU !', 0.6, 1.55, 8, 1.0, { size: 54, bold: true, color: 'accent1', head: true, valign: 'middle' });
+    this.t(s, this.L.exTag, 0.6, 1.55, 8, 1.0, { size: 54, bold: true, color: 'accent1', head: true, valign: 'middle' });
     const n = o.tiles.length; const per = Math.ceil(n / 2); const gap = o.wide ? 0.18 : 0.25;
     const w = ((o.wide ? 12.13 : 10.3) - gap * (per - 1)) / per; const h = 1.75;
     o.tiles.forEach(([title, stars, icon], i) => {
@@ -564,7 +574,7 @@ class Deck {
   ex(o, draw) {
     const modes = o.only || ['q', 'a'];
     for (const mode of modes) {
-      const s = this.page({ ...o, tag: o.tag || 'JIJ NU !' }, mode === 'a' && modes.length > 1);
+      const s = this.page({ ...o, tag: o.tag || this.L.exTag }, mode === 'a' && modes.length > 1);
       let top = 1.62;
       if (o.instr) {
         this.icon(s, 'FaHandPointRight', 'accent1', 0.6, top + 0.04, 0.3);
@@ -594,8 +604,8 @@ class Deck {
 
   // E9 ticket de sortie
   ticket(o) {
-    this.section('Clôture');
-    const s = this.page({ g: o.g, tag: 'TICKET DE SORTIE', title: o.title || 'Ticket de sortie' });
+    this.section(this.L.close);
+    const s = this.page({ g: o.g, tag: this.L.ticketTag, title: o.title || this.L.ticketTitle });
     const qh = (4.1 - 0.2 * (o.q.length - 1)) / o.q.length;
     o.q.forEach((q, i) => {
       const y = 1.7 + i * (qh + 0.2);
@@ -603,7 +613,7 @@ class Deck {
       this.num(s, i + 1, 0.8, y + qh / 2 - 0.25, 0.5, 'accent1', 18);
       this.t(s, q, 1.5, y + 0.08, 5.55, qh - 0.16, { size: 19, valign: 'middle', fit: true, max: 20, min: 13 });
     });
-    this.t(s, 'AUTO-ÉVALUATION', 7.6, 1.7, 5.1, 0.4, { size: 14, bold: true, color: 'accent5', cs: 2 });
+    this.t(s, this.L.selfEval, 7.6, 1.7, 5.1, 0.4, { size: 14, bold: true, color: 'accent5', cs: 2 });
     const rh = Math.min(0.95, 3.6 / o.self.length);
     o.self.forEach((label, i) => {
       const y = 2.2 + i * rh;
@@ -621,7 +631,7 @@ class Deck {
 
   // E8 role play: role cards + document + phrase bank
   roleplay(o) {
-    const s = this.page({ g: o.g, tag: 'MISE EN SITUATION', title: o.title, stars: o.stars || '★★★' });
+    const s = this.page({ g: o.g, tag: this.L.roleTag, title: o.title, stars: o.stars || '★★★' });
     const docW = o.doc ? 3.9 : 0; const W = 12.13 - (docW ? docW + 0.3 : 0);
     let y = 1.62;
     if (o.scenario) {
@@ -642,7 +652,7 @@ class Deck {
     if (o.bank) {
       const by = 6.88 - bankH;
       this.rect(s, 0.6, by, W, bankH, { fill: 'bg2', line: BORDER });
-      this.t(s, 'BANQUE DE PHRASES', 0.8, by + 0.08, 4, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
+      this.t(s, this.L.bank, 0.8, by + 0.08, 4, 0.3, { size: 12, bold: true, color: 'accent5', cs: 2 });
       this.t(s, o.bank, 0.8, by + 0.4, W - 0.4, bankH - 0.48, { size: 16, fit: true, max: 16, min: 11, gap: 3 });
     }
     if (o.doc) o.doc(s, 12.73 - docW, 1.62, docW, 5.26);

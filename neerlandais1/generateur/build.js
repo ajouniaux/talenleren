@@ -22,7 +22,10 @@ const { Deck, renderIcons } = require('./lib');
     const missing = Object.keys(d.G).map(Number).filter((n) => !d.used.has(n));
     if (missing.length) console.warn(`  ! template slides not used in ${f}: ${missing.join(', ')}`);
     const name = mod.meta.file || `Module_${mod.meta.n}_${mod.meta.slug}.pptx`;
-    await d.save(path.join(outDir, name));
+    // a deck may live outside neerlandais1 (meta.outDir, relative to this folder) unless OUT is forced
+    const dir = !process.env.OUT && mod.meta.outDir ? path.join(__dirname, mod.meta.outDir) : outDir;
+    fs.mkdirSync(dir, { recursive: true });
+    await d.save(path.join(dir, name));
     console.log(`${name}: ${d.pres.slides.length} slides`);
   }
 })().catch((e) => { console.error(e); process.exit(1); });
