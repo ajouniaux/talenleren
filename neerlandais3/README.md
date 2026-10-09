@@ -11,4 +11,6 @@ Chaque séquence (dialogues, exercices, grammaire en visuel, vocabulaire, Dageli
 
 **À vérifier** : le néerlandais n'a pas été relu par un second relecteur (choix d'économie) ; les exercices d'écoute dont le texte n'est pas dans le livret (messages vocaux, transcriptions) affichent seulement la grille.
 
+**Production guidée** : le complément *In vijf zinnen* (24 tâches d'écriture ou d'oral, A1 · A2 · B1, avec modèles annotés) se trouve dans [`../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx`](../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx) ; sa section B1 correspond à ce cours.
+
 Régénérer : `cd generateur && npm install && npm run build`.
