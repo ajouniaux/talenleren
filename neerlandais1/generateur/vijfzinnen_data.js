@@ -2,9 +2,7 @@
 // crit : 5 critères (une phrase chacun) · k = étiquette courte
 // ex : la production modèle ; {n:texte} ou {n:texte|étiquette} = bribe encadrée, reliée au critère n
 // mode : 'W' production écrite · 'O' production orale
-// scene : décor en coordonnées relatives (fx, fy, fw, fh entre 0 et 1 ; taille des emoji relative à la hauteur)
-//   ['bg', 'out' | 'in', haut, bas, horizon] · ['r', fx, fy, fw, fh, couleur, arrondi] · ['sign', texte, fx, fy, fw, fh, couleur]
-//   ['win', fx, fy, fw, fh] · ['e', emoji, fx, fy, taille] · ['line', fx1, fy1, fx2, fy2, couleur]
+// img : l'illustration (img/vijfzinnen/<img>.jpg, dessinée par vijf_art.js)
 
 const LEVELS = [
   {
@@ -12,10 +10,8 @@ const LEVELS = [
     spec: ['**zijn / hebben** · présent (-t)', 'ordre des mots et **inversion**', '**er is / er zijn**', '**niet / geen**', '**pluriel** · possessifs', 'prépositions de lieu', 'adjectif **qualificatif / attribut**', '**gaan** + infinitif · verbes à particule', '**en · maar · want**'],
     ctx: [
       {
-        t: 'Op het terras', fr: 'En terrasse', mode: 'O',
+        t: 'Op het terras', img: 'terras', fr: 'En terrasse', mode: 'O',
         sit: 'Il fait beau. Vous êtes en terrasse avec un·e collègue. Décrivez la scène et commandez.',
-        scene: [['bg', 'out', 'D6ECFA', 'E9DFCF', 0.66], ['e', 'sun', 0.82, 0.04, 0.17], ['sign', 'CAFÉ', 0.04, 0.06, 0.24, 0.13, 'tx2'], ['e', 'umbrella-on-ground', 0.28, 0.02, 0.6],
-          ['r', 0.3, 0.62, 0.4, 0.035, '8A96A8', 0.01], ['r', 0.485, 0.655, 0.03, 0.22, '8A96A8', 0], ['e', 'hot-beverage', 0.36, 0.49, 0.13], ['e', 'waffle', 0.52, 0.5, 0.12], ['e', 'woman', 0.02, 0.42, 0.4], ['e', 'man', 0.69, 0.42, 0.4]],
         crit: [
           { t: 'Situez la scène avec le verbe **ZIJN** : où êtes-vous ? avec qui ?', k: 'ZIJN' },
           { t: 'Commandez une boisson et un snack avec **IK WIL GRAAG…**', k: 'IK WIL GRAAG' },
@@ -33,11 +29,8 @@ const LEVELS = [
         notes: 'Par deux : A décrit la scène et commande, B joue le serveur ou la serveuse (« Wat mag het zijn? »). Acceptez aussi « Ik neem… » pour la commande. « alstublieft » (vous) / « alsjeblieft » (tu). Pluriel du verbe : de koffie en de wafel kostEN.',
       },
       {
-        t: 'Op de markt', fr: 'Au marché', mode: 'W',
+        t: 'Op de markt', img: 'markt', fr: 'Au marché', mode: 'W',
         sit: 'Samedi matin, vous faites vos courses au marché. Racontez.',
-        scene: [['bg', 'out', 'D6ECFA', 'E9DFCF', 0.7], ['r', 0.04, 0.05, 0.92, 0.14, 'accent6', 0.03], ['sign', 'MARKT', 0.34, 0.06, 0.32, 0.12, 'accent6'], ['e', 'man-farmer', 0.38, 0.17, 0.36],
-          ['r', 0.04, 0.52, 0.92, 0.2, 'B8865B', 0.02], ['e', 'red-apple', 0.07, 0.37, 0.15], ['e', 'tomato', 0.2, 0.37, 0.15], ['e', 'banana', 0.62, 0.37, 0.15], ['e', 'strawberry', 0.75, 0.37, 0.15], ['e', 'carrot', 0.86, 0.37, 0.14],
-          ['e', 'basket', 0.76, 0.73, 0.24], ['e', 'euro-banknote', 0.06, 0.76, 0.18]],
         crit: [
           { t: 'Commencez par le jour : **OP ZATERDAG** + verbe + sujet (inversion).', k: 'INVERSION' },
           { t: 'Nommez trois fruits ou légumes au **pluriel** (-S / -EN).', k: 'PLURIEL' },
@@ -55,10 +48,8 @@ const LEVELS = [
         notes: 'Vérifiez l’inversion : ✗ « Op zaterdag ik ben… ». Pluriel en -s après -el, -em, -en, -er non accentués (appels) et après certaines voyelles (auto’s, menu’s) ; en -en ailleurs (tomaat → tomaten, banaan → bananen). « er is » + singulier, « er zijn » + pluriel. Variante orale : jeu de rôle client·e / marchand·e.',
       },
       {
-        t: 'Mijn nieuwe collega', fr: 'Le nouveau collègue', mode: 'O',
+        t: 'Mijn nieuwe collega', img: 'collega', fr: 'Le nouveau collègue', mode: 'O',
         sit: 'Un·e nouveau·elle collègue arrive. Présentez-le ou présentez-la à l’équipe.',
-        scene: [['bg', 'in', 'EAF2FB', 'EADFCF', 0.72], ['sign', 'WELKOM!', 0.33, 0.06, 0.34, 0.13, 'accent3'], ['e', 'man-office-worker', 0.04, 0.3, 0.52], ['e', 'woman-office-worker', 0.59, 0.3, 0.52],
-          ['e', 'waving-hand', 0.43, 0.3, 0.17], ['e', 'potted-plant', 0.43, 0.6, 0.2]],
         crit: [
           { t: 'Donnez son nom et son pays avec **HEET** et **KOMT UIT**.', k: 'HEET / KOMT UIT' },
           { t: 'Donnez son âge avec **IS … JAAR**.', k: 'IS … JAAR' },
@@ -76,10 +67,8 @@ const LEVELS = [
         notes: 'La 3e personne exige le -t (heet, komt, werkt, danst). « zijn » est ici le possessif (son, sa, ses) et non le verbe « être » : profitez-en pour distinguer les deux. Variante : présenter un·e camarade de classe après une mini-interview.',
       },
       {
-        t: 'Mijn huis', fr: 'Mon logement', mode: 'W',
+        t: 'Mijn huis', img: 'huis', fr: 'Mon logement', mode: 'W',
         sit: 'Vous avez un nouvel appartement. Décrivez-le à un·e ami·e par message.',
-        scene: [['bg', 'in', 'FDF1E6', 'EADFCF', 0.72], ['win', 0.6, 0.1, 0.3, 0.4], ['e', 'sun-behind-cloud', 0.68, 0.15, 0.14], ['e', 'framed-picture', 0.14, 0.08, 0.2],
-          ['e', 'couch-and-lamp', 0.04, 0.34, 0.46], ['e', 'potted-plant', 0.8, 0.48, 0.25], ['e', 'key', 0.5, 0.68, 0.15]],
         crit: [
           { t: 'Dites où vous habitez avec **WONEN** + **IN** + ville.', k: 'WONEN IN' },
           { t: 'Donnez le nombre de pièces avec **HEBBEN** + nombre.', k: 'HEEFT + nombre' },
@@ -97,10 +86,8 @@ const LEVELS = [
         notes: 'Qualificatif = devant le nom, avec -e (een grote keuken) ; attribut = après « zijn », sans -e (de woonkamer is gezellig). Attention : « een groot huis » (het-woord, indéfini) n’a pas de -e. « de bank » = le canapé (et la banque) ; en Flandre, on dit souvent « de zetel ».',
       },
       {
-        t: 'Een familiefoto', fr: 'Une photo de famille', mode: 'O',
+        t: 'Een familiefoto', img: 'familie', fr: 'Une photo de famille', mode: 'O',
         sit: 'Montrez une photo de famille (réelle ou imaginaire) et présentez-la.',
-        scene: [['bg', 'in', 'FBEAF2', 'EADFCF', 0.8], ['r', 0.17, 0.06, 0.66, 0.66, 'B8865B', 0.02], ['r', 0.2, 0.1, 0.6, 0.58, 'FFFFFF', 0], ['r', 0.2, 0.48, 0.6, 0.2, 'D5E8D4', 0],
-          ['e', 'man', 0.22, 0.18, 0.34], ['e', 'woman', 0.38, 0.16, 0.34], ['e', 'boy', 0.54, 0.3, 0.26], ['e', 'dog-face', 0.67, 0.42, 0.18], ['e', 'camera-with-flash', 0.02, 0.66, 0.28]],
         crit: [
           { t: 'Commencez par **OP DEZE FOTO** + verbe + sujet (inversion).', k: 'OP DEZE FOTO' },
           { t: 'Présentez deux personnes avec **MIJN** + un membre de la famille.', k: 'MIJN + famille' },
@@ -118,11 +105,8 @@ const LEVELS = [
         notes: '« lang haar » sans -e (het haar, indéfini) mais « blauwe ogen » avec -e (pluriel) : bonne occasion de revoir la règle. « niet » se place ici en fin de phrase (ik ken hem niet). Variante : les apprenant·es montrent une vraie photo sur leur téléphone.',
       },
       {
-        t: 'Mijn dag', fr: 'Ma journée', mode: 'W',
+        t: 'Mijn dag', img: 'dag', fr: 'Ma journée', mode: 'W',
         sit: 'Décrivez une journée de travail ordinaire, du matin au soir.',
-        scene: [['bg', 'out', 'FDF1E6', 'FDF1E6', 1], ['line', 0.06, 0.62, 0.94, 0.62, 'D5DCE6'], ['e', 'sun', 0.04, 0.04, 0.16], ['e', 'crescent-moon', 0.84, 0.04, 0.16],
-          ['e', 'alarm-clock', 0.04, 0.38, 0.2], ['e', 'hot-beverage', 0.23, 0.38, 0.2], ['e', 'train', 0.42, 0.38, 0.2], ['e', 'laptop', 0.61, 0.38, 0.2], ['e', 'cooking', 0.8, 0.38, 0.2],
-          ['sign', '7:00', 0.05, 0.7, 0.13, 0.11, 'accent1'], ['sign', '7:15', 0.24, 0.7, 0.13, 0.11, 'accent1'], ['sign', '8:00', 0.43, 0.7, 0.13, 0.11, 'accent1'], ['sign', '9:00', 0.62, 0.7, 0.13, 0.11, 'accent1'], ['sign', '19:00', 0.81, 0.7, 0.14, 0.11, 'accent1']],
         crit: [
           { t: 'Commencez par l’heure : **OM … UUR** + verbe + sujet (inversion).', k: 'OM … UUR' },
           { t: 'Dites comment vous allez au travail avec **MET DE** + transport.', k: 'MET DE + transport' },
@@ -140,10 +124,8 @@ const LEVELS = [
         notes: 'Faites repérer les deux morceaux du verbe à particule : « ik bel… op » (opbellen). Inversion après un complément de temps en tête : om zeven uur drink ik, eerst lees ik, ’s avonds kook ik. « met de trein / met de bus / met de fiets », mais « te voet » (à pied).',
       },
       {
-        t: 'Het weer en mijn kleren', fr: 'La météo et mes vêtements', mode: 'W',
+        t: 'Het weer en mijn kleren', img: 'weer', fr: 'La météo et mes vêtements', mode: 'W',
         sit: 'Regardez la météo. Écrivez à un·e ami·e ce que vous mettez aujourd’hui.',
-        scene: [['bg', 'out', 'DCE3EA', 'D5E8D4', 0.72], ['e', 'cloud-with-rain', 0.05, 0.03, 0.3], ['e', 'cloud-with-rain', 0.55, 0.0, 0.24], ['e', 'wind-face', 0.8, 0.05, 0.2],
-          ['e', 'umbrella-with-rain-drops', 0.36, 0.3, 0.38], ['e', 'coat', 0.04, 0.48, 0.28], ['e', 'scarf', 0.64, 0.56, 0.2], ['sign', '8 °C', 0.8, 0.5, 0.17, 0.14, 'accent2']],
         crit: [
           { t: 'Décrivez le temps avec des verbes météo : **HET REGENT**, **HET WAAIT**…', k: 'HET REGENT…' },
           { t: 'Donnez la température avec **HET IS … GRADEN**.', k: '… GRADEN' },
@@ -161,10 +143,8 @@ const LEVELS = [
         notes: 'Verbes météo impersonnels : het regent, het waait, het sneeuwt, het vriest (mais : de zon schijnt). « want » + ordre normal (want ik wil…). Futur proche : gaan + infinitif à la fin de la phrase. Variante orale : un bulletin météo présenté devant la classe.',
       },
       {
-        t: 'Bij de dokter', fr: 'Chez le médecin', mode: 'O',
+        t: 'Bij de dokter', img: 'dokter', fr: 'Chez le médecin', mode: 'O',
         sit: 'Vous êtes malade. Expliquez au médecin ce qui ne va pas.',
-        scene: [['bg', 'in', 'E8F4EC', 'EADFCF', 0.75], ['sign', 'DOKTER', 0.04, 0.06, 0.3, 0.12, 'accent3'], ['e', 'man-health-worker', 0.58, 0.2, 0.56], ['e', 'face-with-thermometer', 0.08, 0.3, 0.36],
-          ['e', 'stethoscope', 0.4, 0.58, 0.2], ['e', 'pill', 0.1, 0.74, 0.14]],
         crit: [
           { t: 'Saluez et dites comment vous allez avec **IK BEN** + adjectif.', k: 'IK BEN + adj.' },
           { t: 'Utilisez **IK HEB PIJN AAN** + une partie du corps.', k: 'PIJN AAN' },
@@ -188,10 +168,8 @@ const LEVELS = [
     spec: ['**perfectum** (hebben / zijn)', 'imparfait **was / had / moest**', '**comparatif / superlatif**', 'diminutifs · impératif', 'verbes **pronominaux** · modaux · **zullen**', '**want · omdat · dus · daarom**', '**als / dat** + verbe à la fin', '**deze / die / dit / dat**', '**naar / tussen / boven**'],
     ctx: [
       {
-        t: 'Een weekend aan zee', fr: 'Un week-end à la mer', mode: 'W',
+        t: 'Een weekend aan zee', img: 'zee', fr: 'Un week-end à la mer', mode: 'W',
         sit: 'Lundi matin : racontez votre week-end à la mer à un·e collègue, par message.',
-        scene: [['bg', 'out', 'D6ECFA', 'F6E7C1', 0.62], ['r', 0, 0.5, 1, 0.12, '7FB3D5', 0], ['e', 'sun', 0.8, 0.03, 0.18], ['e', 'kite', 0.12, 0.02, 0.24], ['e', 'sailboat', 0.55, 0.33, 0.18],
-          ['e', 'umbrella-on-ground', 0.02, 0.46, 0.4], ['e', 'shrimp', 0.42, 0.72, 0.16], ['e', 'automobile', 0.66, 0.72, 0.2], ['e', 'automobile', 0.82, 0.72, 0.2]],
         crit: [
           { t: 'Situez avec **VORIG WEEKEND** + un perfectum avec **ZIJN**.', k: 'ZIJN + participe' },
           { t: 'Utilisez deux verbes au perfectum avec **HEBBEN**.', k: 'HEBBEN + participe' },
@@ -209,10 +187,8 @@ const LEVELS = [
         notes: 'Gaan, komen et les verbes de mouvement avec une destination → zijn (ik ben naar Oostende gegaan) ; sans destination → hebben (we hebben op het strand gewandeld), comme la plupart des autres verbes. Après « daarom », le verbe vient en 2e position (daarom hebben we…). « in de file staan » = être dans les bouchons. Faites souligner les participes (ge- … -d / -t / -en).',
       },
       {
-        t: 'Mijn nieuwe appartement', fr: 'Mon nouvel appartement', mode: 'W',
+        t: 'Mijn nieuwe appartement', img: 'appartement', fr: 'Mon nouvel appartement', mode: 'W',
         sit: 'Samedi soir, vous êtes enfin dans votre nouvel appartement. Décrivez l’ambiance.',
-        scene: [['bg', 'in', 'FDF1E6', 'EADFCF', 0.74], ['win', 0.05, 0.1, 0.18, 0.36], ['win', 0.41, 0.1, 0.18, 0.36], ['r', 0.24, 0.52, 0.16, 0.03, 'B8865B', 0], ['e', 'desktop-computer', 0.26, 0.34, 0.17],
-          ['e', 'mirror', 0.71, 0.06, 0.25], ['e', 'couch-and-lamp', 0.63, 0.38, 0.4], ['e', 'musical-notes', 0.88, 0.02, 0.12]],
         crit: [
           { t: 'Situez le contexte avec l’auxiliaire **ZIJN**.', k: 'ZIJN + participe' },
           { t: 'Décrivez l’ambiance avec trois adjectifs : deux **qualificatifs** et un **attribut**.', k: 'QUALIFICATIF / ATTRIBUT' },
@@ -230,10 +206,8 @@ const LEVELS = [
         notes: '« ben … verhuisd » : verhuizen (changer de lieu) fait son perfectum avec zijn. « want » + ordre normal (want ik woon nu…) ; « omdat » + verbe à la fin (omdat ik nu … woon). Qualificatifs avec -e devant le nom (een lichte, ruime woonkamer) ; attribut sans -e (de sfeer is gezellig). « boven de bank hangt… » : inversion après le complément de lieu.',
       },
       {
-        t: 'Een feestje', fr: 'Une invitation', mode: 'W',
+        t: 'Een feestje', img: 'feestje', fr: 'Une invitation', mode: 'W',
         sit: 'Vous organisez une fête d’anniversaire. Écrivez l’invitation à vos ami·es.',
-        scene: [['bg', 'in', 'FBEAF2', 'EADFCF', 0.75], ['sign', '30!', 0.4, 0.06, 0.2, 0.17, 'accent4'], ['e', 'balloon', 0.05, 0.04, 0.26], ['e', 'balloon', 0.78, 0.04, 0.26],
-          ['e', 'birthday-cake', 0.37, 0.4, 0.32], ['e', 'party-popper', 0.06, 0.5, 0.26], ['e', 'wrapped-gift', 0.72, 0.52, 0.24], ['e', 'top-hat', 0.6, 0.27, 0.16]],
         crit: [
           { t: 'Annoncez la fête avec un **diminutif** (-JE / -TJE).', k: 'DIMINUTIF' },
           { t: 'Donnez la date et l’heure avec **OP** … et **OM** …', k: 'OP … / OM …' },
@@ -251,10 +225,8 @@ const LEVELS = [
         notes: 'Diminutifs : feest → feestje, bericht → berichtje, kaart → kaartje ; -tje après une voyelle (ei → eitje) ou après -l / -n / -r / -w précédé d’une voyelle longue (stoel → stoeltje, deur → deurtje). Impératif = radical (neem, kom, ga) ; poli : « Neemt u… ». Avec « als », les verbes vont à la fin (als je niet kunt komen) et la principale commence par le verbe (stuur me dan…). Variante : l’invitation sous forme de message vocal.',
       },
       {
-        t: 'De trein heeft vertraging', fr: 'Le train a du retard', mode: 'O',
+        t: 'De trein heeft vertraging', img: 'trein', fr: 'Le train a du retard', mode: 'O',
         sit: 'Votre train est en retard. Laissez un message vocal à votre collègue.',
-        scene: [['bg', 'out', 'D6ECFA', 'D5DCE6', 0.66], ['sign', 'NAMEN', 0.05, 0.06, 0.26, 0.12, 'accent2'], ['sign', '+ 40 MIN', 0.6, 0.06, 0.34, 0.14, 'accent6'],
-          ['e', 'man-office-worker', 0.04, 0.32, 0.5], ['e', 'mobile-phone', 0.33, 0.5, 0.14], ['e', 'train', 0.58, 0.36, 0.3]],
         crit: [
           { t: 'Présentez-vous et dites où vous êtes avec **STAAN** ou **ZITTEN**.', k: 'STAAN / ZITTEN' },
           { t: 'Expliquez le problème au **perfectum**.', k: 'PERFECTUM' },
@@ -272,10 +244,8 @@ const LEVELS = [
         notes: '« Met Karim » : formule du téléphone pour se présenter. Position : ik sta op het perron / ik zit in de trein. « vertrekken » fait son perfectum avec zijn (is vertrokken). Faites enregistrer le message sur le téléphone : c’est une vraie tâche orale. Variante : le ou la collègue rappelle et répond.',
       },
       {
-        t: 'Een cadeau kopen', fr: 'Acheter un cadeau', mode: 'O',
+        t: 'Een cadeau kopen', img: 'cadeau', fr: 'Acheter un cadeau', mode: 'O',
         sit: 'Dans un magasin, vous cherchez un cadeau pour votre sœur. Comparez avec le vendeur ou la vendeuse.',
-        scene: [['bg', 'in', 'F1ECF7', 'EADFCF', 0.74], ['r', 0.03, 0.43, 0.56, 0.03, 'B8865B', 0], ['e', 'scarf', 0.06, 0.2, 0.22], ['e', 'blue-book', 0.32, 0.22, 0.2],
-          ['sign', '€ 80', 0.06, 0.5, 0.16, 0.1, 'accent6'], ['sign', '€ 20', 0.32, 0.5, 0.16, 0.1, 'accent3'], ['e', 'woman', 0.66, 0.14, 0.36], ['e', 'wrapped-gift', 0.7, 0.52, 0.24], ['e', 'shopping-bags', 0.05, 0.7, 0.24]],
         crit: [
           { t: 'Dites ce que vous cherchez avec **IK ZOEK** … **VOOR** …', k: 'IK ZOEK … VOOR' },
           { t: 'Comparez deux objets avec un **comparatif** + **DAN**.', k: 'COMPARATIF + DAN' },
@@ -293,10 +263,8 @@ const LEVELS = [
         notes: 'Comparatif : adjectif + -er (+ dan) ; superlatif : de / het + adjectif + -st(e). Démonstratifs : deze / die avec les de-woorden et le pluriel, dit / dat avec les het-woorden ; deze / dit = près, die / dat = loin. Après « dus », les deux ordres sont possibles (dus ik neem / dus neem ik). Jeu de rôle client·e / vendeur·euse.',
       },
       {
-        t: 'Bij de apotheek', fr: 'À la pharmacie', mode: 'O',
+        t: 'Bij de apotheek', img: 'apotheek', fr: 'À la pharmacie', mode: 'O',
         sit: 'Vous avez attrapé froid. Demandez conseil au pharmacien ou à la pharmacienne.',
-        scene: [['bg', 'in', 'E8F4EC', 'EADFCF', 0.74], ['sign', 'APOTHEEK', 0.54, 0.05, 0.42, 0.12, 'accent3'], ['e', 'woman-health-worker', 0.62, 0.2, 0.46], ['r', 0.5, 0.6, 0.5, 0.4, '3E9A62', 0],
-          ['e', 'pill', 0.52, 0.47, 0.13], ['e', 'honey-pot', 0.89, 0.46, 0.14], ['e', 'sneezing-face', 0.06, 0.28, 0.4]],
         crit: [
           { t: 'Dites depuis combien de temps avec **AL** + durée (+ présent).', k: 'AL + durée' },
           { t: 'Utilisez un verbe pronominal (**ZICH VOELEN**…).', k: 'PRONOMINAL' },
@@ -314,10 +282,8 @@ const LEVELS = [
         notes: '« al drie dagen » + présent = depuis trois jours (et ça continue). Pronominal : ik voel me, je voelt je, hij voelt zich. Registre poli : « u » avec le ou la pharmacien·ne. Variante : la personne à la pharmacie donne trois conseils à l’impératif (neem…, drink…, blijf…).',
       },
       {
-        t: 'Een vakantiekaartje', fr: 'Une carte postale', mode: 'W',
+        t: 'Een vakantiekaartje', img: 'kaartje', fr: 'Une carte postale', mode: 'W',
         sit: 'Vous êtes en vacances. Écrivez une carte postale à vos collègues.',
-        scene: [['bg', 'out', 'D6ECFA', 'F6E7C1', 0.7], ['r', 0, 0.56, 1, 0.14, '7FB3D5', 0], ['e', 'classical-building', 0.04, 0.16, 0.4], ['e', 'sun', 0.8, 0.04, 0.18],
-          ['e', 'sailboat', 0.5, 0.4, 0.18], ['e', 'postbox', 0.74, 0.5, 0.34], ['e', 'sunglasses', 0.34, 0.76, 0.14]],
         crit: [
           { t: 'Dites depuis quand vous êtes là avec **ZIJN** + **SINDS**.', k: 'SINDS' },
           { t: 'Racontez hier avec un verbe à particule au perfectum (**OP-GE-STAAN**).', k: 'PARTICULE + GE' },
@@ -335,10 +301,8 @@ const LEVELS = [
         notes: 'Participe des verbes à particule : ge- entre la particule et le radical (opstaan → opgestaan, aankomen → aangekomen). « was / had » : imparfait de zijn et hebben, très utile pour décrire. Après « misschien », inversion (misschien blijf ik hier). Variante : écrire une vraie carte et la lire à voix haute.',
       },
       {
-        t: 'Mijn eerste werkdag', fr: 'Mon premier jour de travail', mode: 'O',
+        t: 'Mijn eerste werkdag', img: 'werkdag', fr: 'Mon premier jour de travail', mode: 'O',
         sit: 'Racontez votre premier jour dans votre nouvelle entreprise à un·e ami·e.',
-        scene: [['bg', 'in', 'EAF2FB', 'EADFCF', 0.74], ['e', 'woman-office-worker', 0.04, 0.26, 0.56], ['r', 0.42, 0.64, 0.54, 0.03, 'B8865B', 0], ['e', 'clipboard', 0.47, 0.44, 0.2],
-          ['e', 'card-index-dividers', 0.6, 0.46, 0.18], ['e', 'hot-beverage', 0.8, 0.46, 0.17], ['e', 'red-question-mark', 0.8, 0.14, 0.2]],
         crit: [
           { t: 'Commencez par **GISTEREN** + perfectum (inversion !).', k: 'GISTEREN + inversion' },
           { t: 'Décrivez vos collègues avec un **qualificatif** (+ -E) et un **attribut**.', k: 'QUALIFICATIF / ATTRIBUT' },
@@ -362,10 +326,8 @@ const LEVELS = [
     spec: ['subordonnées : **toen, terwijl, nadat, hoewel, zodat, indien**', '**relatives** : die / dat / waar + préposition', '**passif** : worden, er wordt', 'conditionnel **zou(den)**', '**plus-que-parfait** · discours indirect', '**om … te** + infinitif', '**er** + préposition', 'connecteurs : **bovendien, enerzijds / anderzijds, echter, kortom**', 'registre **formel** (u, Geachte…)'],
     ctx: [
       {
-        t: 'Een klacht', fr: 'Une réclamation', mode: 'W',
+        t: 'Een klacht', img: 'klacht', fr: 'Une réclamation', mode: 'W',
         sit: 'Votre colis est arrivé en retard et abîmé. Écrivez au service clients.',
-        scene: [['bg', 'in', 'F1F3F6', 'EADFCF', 0.74], ['e', 'warning', 0.06, 0.06, 0.2], ['e', 'package', 0.06, 0.42, 0.34], ['e', 'collision', 0.27, 0.36, 0.18], ['e', 'laptop', 0.55, 0.4, 0.34],
-          ['e', 'e-mail', 0.64, 0.07, 0.22], ['e', 'face-with-steam-from-nose', 0.86, 0.06, 0.16]],
         crit: [
           { t: 'Ouvrez avec **GEACHTE** … et situez votre commande au **perfectum**.', k: 'GEACHTE / PERFECTUM' },
           { t: 'Utilisez le **passif** au passé : **WERD** + participe.', k: 'WERD + participe' },
@@ -383,10 +345,8 @@ const LEVELS = [
         notes: 'Registre formel : u / uw, « Geachte heer, mevrouw », « Met vriendelijke groeten ». Passif : worden + participe (werd geleverd = fut livré). « indien » = « als » formel, verbe à la fin ; la principale qui suit commence par le verbe (…, vraag ik). « dan ook » = par conséquent.',
       },
       {
-        t: 'Het sollicitatiegesprek', fr: 'L’entretien d’embauche', mode: 'O',
+        t: 'Het sollicitatiegesprek', img: 'sollicitatie', fr: 'L’entretien d’embauche', mode: 'O',
         sit: 'Lors d’un entretien, présentez votre parcours et votre motivation.',
-        scene: [['bg', 'in', 'EAF2FB', 'EADFCF', 0.74], ['e', 'man-office-worker', 0.04, 0.2, 0.5], ['e', 'woman-office-worker', 0.6, 0.2, 0.5], ['r', 0.04, 0.66, 0.92, 0.04, 'B8865B', 0],
-          ['e', 'page-facing-up', 0.43, 0.48, 0.17], ['e', 'handshake', 0.42, 0.1, 0.19]],
         crit: [
           { t: 'Présentez votre parcours avec **NADAT** + plus-que-parfait.', k: 'NADAT + HAD' },
           { t: 'Utilisez une relative avec **WAAR**.', k: 'WAAR' },
@@ -404,10 +364,8 @@ const LEVELS = [
         notes: 'Plus-que-parfait : had / was + participe (nadat ik … had behaald). Verbe à particule : aan te gaan (te entre la particule et le verbe). Après une subordonnée en tête, la principale commence par le verbe (…, werkte ik / …, leer ik). Jeu de rôle recruteur·euse / candidat·e, avec deux questions de relance.',
       },
       {
-        t: 'Verhuisd!', fr: 'On a déménagé !', mode: 'W',
+        t: 'Verhuisd!', img: 'verhuisd', fr: 'On a déménagé !', mode: 'W',
         sit: 'Vous avez déménagé. Racontez la journée du déménagement à un·e ami·e par e-mail.',
-        scene: [['bg', 'out', 'D6ECFA', 'D5DCE6', 0.72], ['e', 'cloud-with-rain', 0.42, 0.0, 0.24], ['e', 'house', 0.03, 0.12, 0.5], ['e', 'delivery-truck', 0.56, 0.36, 0.4],
-          ['e', 'package', 0.39, 0.58, 0.16], ['e', 'package', 0.42, 0.44, 0.15], ['e', 'hot-beverage', 0.04, 0.76, 0.16]],
         crit: [
           { t: 'Plantez le décor avec **TOEN** + imparfait (verbe à la fin).', k: 'TOEN + OVT' },
           { t: 'Racontez deux actions simultanées avec **TERWIJL**.', k: 'TERWIJL' },
@@ -425,10 +383,8 @@ const LEVELS = [
         notes: '« toen » + passé (un moment précis) ≠ « als » (présent, futur ou répétition). Après la subordonnée, la principale commence par le verbe (…, regende het). « erin » remplace « in de doos » (er + préposition). « het regent pijpenstelen » = il pleut des cordes.',
       },
       {
-        t: 'Een fietsongeluk', fr: 'Un accident à vélo', mode: 'O',
+        t: 'Een fietsongeluk', img: 'fiets', fr: 'Un accident à vélo', mode: 'O',
         sit: 'Vous avez vu un accident. Deux semaines plus tard, vous témoignez au commissariat.',
-        scene: [['bg', 'out', 'D6ECFA', '9AA5B4', 0.64], ['r', 0.04, 0.82, 0.14, 0.025, 'FFFFFF', 0], ['r', 0.3, 0.82, 0.14, 0.025, 'FFFFFF', 0], ['r', 0.56, 0.82, 0.14, 0.025, 'FFFFFF', 0], ['r', 0.82, 0.82, 0.14, 0.025, 'FFFFFF', 0],
-          ['sign', 'BUS', 0.86, 0.06, 0.11, 0.1, 'accent2'], ['e', 'person-standing', 0.85, 0.18, 0.3], ['e', 'woman-biking', 0.06, 0.34, 0.36], ['e', 'collision', 0.38, 0.36, 0.2], ['e', 'delivery-truck', 0.5, 0.32, 0.38], ['e', 'ambulance', 0.06, 0.74, 0.22]],
         crit: [
           { t: 'Plantez le décor à l’imparfait (**OVT**) : STOND, FIETSTE…', k: 'OVT' },
           { t: 'Racontez l’événement avec **PLOTSELING** + inversion.', k: 'PLOTSELING + inversion' },
@@ -446,10 +402,8 @@ const LEVELS = [
         notes: 'OVT pour le décor (stond, fietste) et pour les événements d’un récit. Discours indirect : « ik heb haar niet gezien » → « hij zei dat hij haar niet had gezien ». « zonder te kijken » = sans regarder. Variante : un·e apprenant·e joue le policier ou la policière et pose des questions (Hoe laat? Waar precies?).',
       },
       {
-        t: 'Thuiswerken: voor of tegen?', fr: 'Télétravail : pour ou contre ?', mode: 'O',
+        t: 'Thuiswerken: voor of tegen?', img: 'thuiswerk', fr: 'Télétravail : pour ou contre ?', mode: 'O',
         sit: 'Votre entreprise veut supprimer le télétravail. Donnez votre avis en réunion.',
-        scene: [['bg', 'in', 'F1F3F6', 'EADFCF', 0.74], ['e', 'house', 0.06, 0.06, 0.28], ['e', 'office-building', 0.74, 0.06, 0.28], ['e', 'balance-scale', 0.4, 0.03, 0.28],
-          ['e', 'laptop', 0.36, 0.42, 0.3], ['e', 'cat', 0.72, 0.52, 0.26], ['e', 'hot-beverage', 0.12, 0.56, 0.16]],
         crit: [
           { t: 'Donnez votre avis avec **VOLGENS MIJ** + inversion.', k: 'VOLGENS MIJ' },
           { t: 'Pesez le pour et le contre avec **ENERZIJDS** … **ANDERZIJDS** …', k: 'ENERZIJDS / ANDERZIJDS' },
@@ -467,10 +421,8 @@ const LEVELS = [
         notes: 'Connecteurs suivis d’une inversion : volgens mij, enerzijds, anderzijds, bovendien (verbe en 2e position). Hypothèse : als + zou(den) …, zou + infinitif (on peut aussi dire : als we … werkten, zou…). Variante : débat en deux équipes, chaque phrase dite par un·e membre différent·e.',
       },
       {
-        t: 'Een restaurantrecensie', fr: 'Un avis sur un restaurant', mode: 'W',
+        t: 'Een restaurantrecensie', img: 'recensie', fr: 'Un avis sur un restaurant', mode: 'W',
         sit: 'Vous avez dîné dans un nouveau restaurant. Écrivez un avis en ligne.',
-        scene: [['bg', 'in', 'FDF1E6', 'EADFCF', 0.74], ['sign', 'DE LEPEL', 0.3, 0.05, 0.4, 0.13, 'tx2'], ['e', 'french-fries', 0.1, 0.4, 0.24], ['e', 'fork-and-knife-with-plate', 0.37, 0.34, 0.3],
-          ['e', 'wine-glass', 0.72, 0.42, 0.2], ['e', 'hourglass-not-done', 0.86, 0.06, 0.16], ['e', 'star', 0.3, 0.8, 0.12], ['e', 'star', 0.39, 0.8, 0.12], ['e', 'star', 0.48, 0.8, 0.12], ['e', 'star', 0.57, 0.8, 0.12]],
         crit: [
           { t: 'Présentez le restaurant avec une **relative** (DIE / DAT, verbe à la fin).', k: 'RELATIVE' },
           { t: 'Décrivez le repas avec un **qualificatif** (+ -E) et un **superlatif**.', k: 'QUALIFICATIF / SUPERLATIF' },
@@ -488,10 +440,8 @@ const LEVELS = [
         notes: 'Relative : le verbe va à la fin (een restaurant dat … ligt). « waarop » = sur lequel (het terras waarop…) ; à l’oral, on entend aussi « waar je … op kunt zitten ». « echter » se place souvent après le verbe (de bediening was echter…). Variante : chaque apprenant·e donne une note de 1 à 5 étoiles et la justifie.',
       },
       {
-        t: 'Duurzaam leven', fr: 'Vivre durablement', mode: 'O',
+        t: 'Duurzaam leven', img: 'duurzaam', fr: 'Vivre durablement', mode: 'O',
         sit: 'Votre commune lance un défi « zéro déchet ». Présentez vos bonnes résolutions en réunion de quartier.',
-        scene: [['bg', 'out', 'D6ECFA', 'D5E8D4', 0.7], ['e', 'recycling-symbol', 0.05, 0.05, 0.22], ['e', 'globe-showing-europe-africa', 0.76, 0.04, 0.22], ['e', 'bicycle', 0.03, 0.48, 0.3],
-          ['e', 'seedling', 0.4, 0.6, 0.18], ['e', 'cup-with-straw', 0.55, 0.46, 0.2], ['e', 'leafy-green', 0.7, 0.55, 0.2], ['e', 'toothbrush', 0.86, 0.6, 0.16]],
         crit: [
           { t: 'Dites ce qui a changé avec **SINDS** + présent (inversion).', k: 'SINDS + inversion' },
           { t: 'Expliquez un but avec **OM … TE** + infinitif.', k: 'OM … TE' },
@@ -509,10 +459,8 @@ const LEVELS = [
         notes: '« om … te » (but) : te + infinitif à la fin ; « zodat » (conséquence) + verbe à la fin. Conseil : je zou / u zou / iedereen zou … moeten + infinitif. Variante : chaque groupe prépare cinq résolutions et la classe vote pour la plus réaliste… et la plus folle.',
       },
       {
-        t: 'Overlast van de buren', fr: 'Des voisins bruyants', mode: 'W',
+        t: 'Overlast van de buren', img: 'buren', fr: 'Des voisins bruyants', mode: 'W',
         sit: 'Vos voisins font la fête tous les soirs. Écrivez-leur un petit mot, poli mais clair.',
-        scene: [['bg', 'in', 'E6EBF2', 'F1F3F6', 0.5], ['r', 0, 0.48, 1, 0.04, '8A96A8', 0], ['e', 'speaker-high-volume', 0.06, 0.12, 0.24], ['e', 'musical-notes', 0.28, 0.06, 0.2], ['e', 'woman-dancing', 0.46, 0.05, 0.4],
-          ['e', 'party-popper', 0.74, 0.14, 0.24], ['e', 'bed', 0.05, 0.62, 0.32], ['e', 'sleepy-face', 0.44, 0.6, 0.28], ['e', 'alarm-clock', 0.74, 0.66, 0.24]],
         crit: [
           { t: 'Présentez-vous avec une relative : **DIE** (verbe à la fin).', k: 'DIE' },
           { t: 'Décrivez le problème avec le passif impersonnel : **ER WORDT** + participe.', k: 'ER WORDT + participe' },

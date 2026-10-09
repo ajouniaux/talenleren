@@ -1,6 +1,8 @@
 // In vijf zinnen — production écrite et orale guidée (A1 · A2 · B1) : 24 contextes du quotidien
-// chaque contexte : une diapo « tâche » (décor + 5 critères) et une diapo « modèle » (bribes encadrées et reliées aux critères)
-const { BORDER, HEX, PURPLE } = require('../lib');
+// dans le style « Gebruik deze foto als inspiratie » : bandeau « Niveau », puis trois diapos par contexte
+// (la consigne Zin 1 – 5 · la grande illustration · l'exemple, étiquettes vertes posées sur les bribes de texte)
+const path = require('path');
+const { HEX, PURPLE } = require('../lib');
 const { LEVELS } = require('../vijfzinnen_data');
 const MET = require('../calibri_metrics.json');
 
@@ -14,16 +16,23 @@ const meta = {
   L: { coverFoot: 'Néerlandais · A1 · A2 · B1 · Production guidée · A. Jouniaux · IRAM' },
 };
 
-// les 5 critères : bleu · orange · vert · violet · framboise
-const CR = ['accent2', 'accent1', 'accent3', 'purple', 'accent4'];
-const INK = '17375E';
-const hexOf = (c) => (c === 'purple' ? PURPLE : c === 'tx2' ? INK : HEX[c] || c);
-const TINT = { accent1: 'FDF1E6', accent2: 'EAF2FB', accent3: 'E8F4EC', accent4: 'FBEAF2', accent5: 'F1F3F6', accent6: 'FBEDEB', tx2: 'E6EBF2', purple: 'F1ECF7' };
+const IMG = path.join(__dirname, '..', 'img', 'vijfzinnen');
 const FONT = 'Calibri';
+const INK = '2B2F38'; const GREY = '6B7280';
+const ZIN = '5FA873';
+const LBLFOOT = 'Néerlandais · A1 · A2 · B1 · Production guidée · A. Jouniaux · IRAM'; const LAB = '7AB648'; const LAB_BG = 'E6F3DA'; const OK = '2E6B44';
+// le bandeau de chaque niveau
+const LV = {
+  A1: { fill: 'E6F4EA', line: '6DBE8A', text: '3D8C5A' },
+  A2: { fill: 'E4E8FB', line: 'F2A66C', text: '5B6BC8' },
+  B1: { fill: 'F4E8F6', line: 'B57FCB', text: '7E4C97' },
+  ALL: { fill: 'EEF1F6', line: '9AA6B8', text: '4A5568' },
+};
+const hexOf = (c) => (c === 'purple' ? PURPLE : HEX[c] || c);
 
 // largeur d'un texte en pouces (métriques de Calibri / Carlito)
-const measure = (t, size, bold, italic) => {
-  const tab = MET[bold ? (italic ? 'bi' : 'b') : (italic ? 'i' : 'r')];
+const measure = (t, size, bold) => {
+  const tab = MET[bold ? 'b' : 'r'];
   let u = 0;
   for (const ch of t) u += tab[ch] ?? 520;
   return (u / 1000) * (size / 72);
@@ -40,75 +49,79 @@ const parseEx = (str) => {
 };
 
 function build(d) {
-  const band = (s, txt, y = 6.25, h = 0.6, c = 'tx2', size = 16) => {
-    d.rect(s, 0.6, y, 12.13, h, { fill: c, line: null });
-    d.t(s, txt, 0.9, y, 11.6, h, { size, color: 'bg1', valign: 'middle' });
+  const P = d.pres;
+  P.defineSlideMaster({
+    title: 'VZ_PAGE', background: { color: 'FFFFFF' },
+    objects: [
+      { text: { text: meta.foot, options: { x: 1.7, y: 7.08, w: 8, h: 0.28, fontSize: 9.5, color: '9AA3B2', margin: 0, valign: 'middle' } } },
+      { placeholder: { options: { name: 'title', type: 'title', x: 1.7, y: 0.42, w: 11.2, h: 0.72, fontSize: 30, bold: true, color: INK, align: 'center', valign: 'middle', margin: 0 }, text: '' } },
+    ],
+    slideNumber: { x: 12.3, y: 7.08, w: 0.6, h: 0.28, fontSize: 9.5, color: '9AA3B2', align: 'right' },
+  });
+  // titre à gauche, à côté de la vignette (diapo « exemple »)
+  P.defineSlideMaster({
+    title: 'VZ_LEFT', background: { color: 'FFFFFF' },
+    objects: [
+      { text: { text: meta.foot, options: { x: 1.7, y: 7.08, w: 8, h: 0.28, fontSize: 9.5, color: '9AA3B2', margin: 0, valign: 'middle' } } },
+      { placeholder: { options: { name: 'title', type: 'title', x: 1.85, y: 0.38, w: 8.9, h: 1.0, fontSize: 24, bold: true, color: INK, align: 'left', valign: 'middle', margin: 0 }, text: '' } },
+    ],
+    slideNumber: { x: 12.3, y: 7.08, w: 0.6, h: 0.28, fontSize: 9.5, color: '9AA3B2', align: 'right' },
+  });
+  P.defineSlideMaster({
+    title: 'VZ_COVER', background: { color: 'FFFFFF' },
+    objects: [
+      { text: { text: LBLFOOT, options: { x: 1.7, y: 7.08, w: 8, h: 0.28, fontSize: 9.5, color: '9AA3B2', margin: 0, valign: 'middle' } } },
+      { placeholder: { options: { name: 'title', type: 'title', x: 1.7, y: 1.35, w: 5.7, h: 1.3, fontSize: 54, bold: true, color: INK, align: 'left', valign: 'bottom', margin: 0 }, text: '' } },
+    ],
+  });
+  const page = (g, title, o = {}) => {
+    const s = d.slide(o.left ? 'VZ_LEFT' : 'VZ_PAGE');
+    s.addText(title, { placeholder: 'title', ...(o.size ? { fontSize: o.size } : {}) });
+    s.addNotes(d.notesFor(g, false, o.notes));
+    return s;
   };
   const txt = (s, t, x, y, w, h, o = {}) => s.addText(t, {
-    x, y, w, h, fontSize: o.size, fontFace: FONT, bold: !!o.bold, italic: !!o.italic, color: hexOf(o.color || 'tx1'),
-    align: o.align || 'left', valign: 'middle', margin: 0, wrap: false, isTextBox: true,
+    x, y, w, h, fontSize: o.size || 16, fontFace: FONT, bold: !!o.bold, italic: !!o.italic, color: o.color || INK,
+    align: o.align || 'left', valign: o.valign || 'middle', margin: 0, wrap: o.wrap ?? true, isTextBox: true, charSpacing: o.cs, rotate: o.rotate,
   });
-
-  // ------------------------------------------------------------ le décor
-  const scene = (s, X, Y, W, H, ops) => {
-    const x = (f) => X + f * W; const y = (f) => Y + f * H;
-    ops.forEach((o) => {
-      const [k] = o;
-      if (k === 'bg') {
-        const [, kind, top, bot, hz] = o;
-        d.rect(s, X, Y, W, H * hz, { fill: top, line: null, radius: 0 });
-        if (hz < 1) d.rect(s, X, y(hz), W, H * (1 - hz), { fill: bot, line: null, radius: 0 });
-        if (kind === 'in' && hz < 1) d.rect(s, X, y(hz) - H * 0.015, W, H * 0.015, { fill: 'C9D1DC', line: null, radius: 0 });
-      } else if (k === 'r') {
-        const [, fx, fy, fw, fh, c, r] = o;
-        d.rect(s, x(fx), y(fy), fw * W, fh * H, { fill: c, line: null, radius: r ?? 0.04 });
-      } else if (k === 'sign') {
-        const [, t, fx, fy, fw, fh, c] = o;
-        d.rect(s, x(fx), y(fy), fw * W, fh * H, { fill: c, line: null, radius: Math.min(0.08, fh * H * 0.25) });
-        const sz = Math.max(5.5, Math.min(26, fh * H * 72 * 0.52));
-        d.t(s, `**${t}**`, x(fx), y(fy), fw * W, fh * H, { size: sz, color: 'bg1', align: 'center', valign: 'middle', cs: 1 });
-      } else if (k === 'win') {
-        const [, fx, fy, fw, fh] = o; const lw = Math.max(1, W * 0.6);
-        d.rect(s, x(fx), y(fy), fw * W, fh * H, { fill: 'CDE7F7', line: 'FFFFFF', lw, radius: 0 });
-        d.line(s, x(fx + fw / 2), y(fy), x(fx + fw / 2), y(fy + fh), { color: 'FFFFFF', lw: lw * 0.8, arrow: false });
-        d.line(s, x(fx), y(fy + fh / 2), x(fx + fw), y(fy + fh / 2), { color: 'FFFFFF', lw: lw * 0.8, arrow: false });
-      } else if (k === 'line') {
-        const [, fx1, fy1, fx2, fy2, c] = o;
-        d.line(s, x(fx1), y(fy1), x(fx2), y(fy2), { color: c, lw: Math.max(1, W * 0.8), arrow: false });
-      } else if (k === 'e') {
-        const [, name, fx, fy, fs] = o;
-        d.ill(s, name, x(fx), y(fy), fs * H, fs * H);
-      }
-    });
+  const box = (s, x, y, w, h, o = {}) => s.addShape(d.S.ROUNDED_RECTANGLE, {
+    x, y, w, h, rectRadius: o.r ?? 0.1, fill: { color: o.fill || 'FFFFFF', transparency: o.tr || 0 },
+    line: o.line ? { color: o.line, width: o.lw || 1.5, dashType: o.dash } : { color: 'FFFFFF', width: 0, transparency: 100 },
+    shadow: o.shadow ? { type: 'outer', color: '1B2430', opacity: o.so ?? 0.22, blur: o.blur ?? 8, offset: o.off ?? 3, angle: 90 } : undefined, rotate: o.rot,
+  });
+  // le bandeau vertical « Niveau … »
+  const banner = (s, lv, label) => {
+    const c = LV[lv];
+    box(s, 0.4, 0.4, 0.95, 6.55, { fill: c.fill, line: c.line, lw: 2.25, r: 0.12 });
+    txt(s, label, 0.875 - 3.2, 3.675 - 0.45, 6.4, 0.9, { size: 38, bold: true, color: c.text, align: 'center', rotate: 270, cs: 2 });
   };
-  // décor dans un cadre blanc
-  const framed = (s, X, Y, W, H, ops, o = {}) => {
-    d.rect(s, X, Y, W, H, { fill: 'FFFFFF', line: o.line || BORDER, lw: o.lw || 1, radius: 0.1, shadow: o.shadow !== false });
-    const p = o.pad ?? 0.08;
-    scene(s, X + p, Y + p, W - 2 * p, H - 2 * p, ops);
+  // une illustration dans un cadre blanc (style photo)
+  const photo = (s, img, x, y, w, o = {}) => {
+    const h = w / 1.6; const b = o.b ?? Math.max(0.05, w * 0.022);
+    box(s, x - b, y - b, w + 2 * b, h + 2 * b, { fill: 'FFFFFF', line: 'E3E7EE', lw: 0.75, r: 0.04, shadow: true, so: 0.25, blur: o.blur ?? 10, off: o.off ?? 4, rot: o.rot });
+    s.addImage({ path: path.join(IMG, `${img}${o.small ? '_s' : ''}.jpg`), x, y, w, h, rotate: o.rot });
+    return h;
   };
-  // pastille « à l'écrit / à l'oral »
-  const modeChip = (s, mode, x = 10.73, y = 0.24) => {
-    const w = 2.0; const c = mode === 'W' ? 'accent2' : 'accent1';
-    d.rect(s, x, y, w, 0.4, { fill: TINT[c], line: c, lw: 1.25, radius: 0.12 });
-    d.icon(s, mode === 'W' ? 'FaPenNib' : 'FaComments', hexOf(c), x + 0.14, y + 0.08, 0.24);
-    d.t(s, `**${mode === 'W' ? 'À L’ÉCRIT' : 'À L’ORAL'}**`, x + 0.45, y, w - 0.55, 0.4, { size: 12, color: c, valign: 'middle', cs: 1 });
+  const zinChip = (s, n, x, y, w = 1.0, h = 0.44) => {
+    box(s, x, y, w, h, { fill: ZIN, r: 0.06 });
+    txt(s, `Zin ${n}`, x, y, w, h, { size: 16, color: 'FFFFFF', align: 'center' });
+  };
+  const modeTag = (s, mode, x, y) => {
+    const c = mode === 'W' ? '4A7BD0' : 'D9822B';
+    box(s, x, y, 1.75, 0.4, { fill: mode === 'W' ? 'EAF1FC' : 'FDF1E6', line: c, lw: 1, r: 0.2 });
+    d.icon(s, mode === 'W' ? 'FaPenNib' : 'FaComments', c, x + 0.14, y + 0.09, 0.22);
+    txt(s, mode === 'W' ? 'À L’ÉCRIT' : 'À L’ORAL', x + 0.42, y, 1.25, 0.4, { size: 11.5, bold: true, color: c, cs: 1 });
   };
 
-  // ------------------------------------------------------------ la production modèle, mise en page mesurée
-  // renvoie la hauteur totale ; draw = false pour mesurer seulement
-  const typeset = (s, sentences, crit, X0, Y0, xmax, size, draw) => {
-    const lineH = (size / 72) * 1.32; const boxH = (size / 72) * 1.22; const pad = 0.05;
-    const tagS = 10.5; const tagH = 0.26; const tagGap = 0.05; const fg = 0.05;
-    const sp = measure(' ', size);
+  // ------------------------------------------------------------ l'exemple : texte suivi, étiquettes posées au-dessus des bribes
+  const flow = (s, paras, X0, Y0, xmax, size, draw) => {
+    const lineH = (size / 72) * 1.3; const boxH = (size / 72) * 1.22; const pad = 0.05;
+    const labS = 11; const labH = 0.27; const labGap = 0.07; const sp = measure(' ', size);
     let y = Y0;
-    sentences.forEach((str, si) => {
-      const segs = parseEx(str);
-      // jetons : mots ordinaires et bribes insécables, avec l'espace qui les précède
+    paras.forEach((para) => {
       const toks = []; let space = false;
-      segs.forEach((sg) => {
+      parseEx(para.text).forEach((sg) => {
         if (sg.n) { toks.push({ t: sg.t, n: sg.n, tag: sg.tag, space }); space = false; return; }
-        // « \n » force un retour à la ligne (ex. après la formule d'appel d'une lettre)
         sg.t.split('\n').forEach((part, pi) => {
           if (pi) { toks.push({ br: true }); space = false; }
           part.split(/(\s+)/).forEach((p) => {
@@ -118,178 +131,182 @@ function build(d) {
           });
         });
       });
-      // lignes
       const lines = [[]]; let x = X0;
       toks.forEach((tk) => {
         if (tk.br) { lines.push([]); x = X0; return; }
-        const w = tk.n ? measure(tk.t, size, true) + 2 * pad : measure(tk.t, size);
+        const w = measure(tk.t, size, !!tk.n) + (tk.n ? 2 * pad : 0);
         const line = lines[lines.length - 1];
-        const prev = line[line.length - 1];
-        const lead = line.length && tk.space ? sp + (tk.n || (prev && prev.n) ? fg : 0) : 0;
-        if (line.length && x + lead + w > xmax) { lines.push([]); x = X0; }
-        else x += lead;
+        const lead = line.length && tk.space ? sp + 0.02 : 0;
+        if (line.length && x + lead + w > xmax) { lines.push([]); x = X0; } else x += lead;
         lines[lines.length - 1].push({ ...tk, x, w });
         x += w;
       });
-      lines.forEach((ln, li) => {
+      lines.forEach((ln) => {
+        if (!ln.length) return;
         const hasFrag = ln.some((tk) => tk.n);
+        // dernière phrase centrée, comme dans le modèle
+        if (para.center) { const end = ln[ln.length - 1].x + ln[ln.length - 1].w; const dx = (xmax - end) / 2; ln.forEach((tk) => { tk.x += dx; }); }
+        const ty = y + (hasFrag ? labH + labGap : 0);
         if (draw) {
-          if (li === 0) d.num(s, si + 1, X0 - 0.52, y + (lineH - 0.36) / 2, 0.36, CR[si], 13);
-          // texte ordinaire : mots consécutifs regroupés
           let run = null;
-          const flush = () => { if (run) txt(s, run.t, run.x, y, run.w + 0.15, lineH, { size }); run = null; };
+          const flush = () => { if (run) txt(s, run.t, run.x, ty, run.w + 0.2, lineH, { size, wrap: false }); run = null; };
           ln.forEach((tk) => {
             if (tk.n) {
               flush();
-              const c = CR[tk.n - 1];
-              d.rect(s, tk.x, y + (lineH - boxH) / 2, tk.w, boxH, { fill: TINT[c], line: c, lw: 1.5, radius: 0.06 });
-              txt(s, tk.t, tk.x, y, tk.w, lineH, { size, bold: true, color: c, align: 'center' });
+              box(s, tk.x, ty + (lineH - boxH) / 2, tk.w, boxH, { fill: LAB_BG, r: 0.05 });
+              txt(s, tk.t, tk.x, ty, tk.w, lineH, { size, bold: true, align: 'center', wrap: false });
             } else if (run) { run.t += (tk.space ? ' ' : '') + tk.t; run.w = tk.x + tk.w - run.x; } else run = { t: tk.t, x: tk.x, w: tk.w };
           });
           flush();
-          // étiquettes reliées aux bribes
-          let last = -1;
+          let last = -9;
           ln.filter((tk) => tk.n).forEach((tk) => {
-            const c = CR[tk.n - 1];
-            const label = `${tk.n} · ${tk.tag || crit[tk.n - 1].k}`;
-            const tw = measure(label, tagS, true) + 0.16;
-            let tx = tk.x + tk.w / 2 - tw / 2;
-            tx = Math.max(tx, last + 0.06, X0 - 0.1);
-            tx = Math.min(tx, 12.78 - tw);
-            const ty = y + (lineH + boxH) / 2 + tagGap;
-            d.line(s, tk.x + tk.w / 2, y + (lineH + boxH) / 2, tx + tw / 2, ty, { color: hexOf(c), lw: 1.25, arrow: false });
-            d.rect(s, tx, ty, tw, tagH, { fill: c, line: null, radius: 0.1 });
-            txt(s, label, tx, ty, tw, tagH, { size: tagS, bold: true, color: 'FFFFFF', align: 'center' });
-            last = tx + tw;
+            const label = tk.tag || para.crit[tk.n - 1].k;
+            const lw = measure(label, labS, true) + 0.24;
+            let lx = Math.max(tk.x + tk.w / 2 - lw / 2, last + 0.06, X0 - 0.15);
+            lx = Math.min(lx, 12.95 - lw);
+            s.addShape(d.S.LINE, { x: Math.min(lx + lw / 2, tk.x + tk.w / 2), y: y + labH, w: Math.max(0.001, Math.abs(lx + lw / 2 - (tk.x + tk.w / 2))), h: labGap + (lineH - boxH) / 2, flipH: tk.x + tk.w / 2 < lx + lw / 2, line: { color: LAB, width: 1.25 } });
+            box(s, lx, y, lw, labH, { fill: LAB, r: 0.04 });
+            txt(s, label, lx, y, lw, labH, { size: labS, color: 'FFFFFF', align: 'center', wrap: false });
+            last = lx + lw;
           });
         }
-        y += lineH + (hasFrag ? tagGap + tagH : 0) + 0.02;
+        y = ty + lineH + 0.16;
       });
-      y += 0.1;
+      y += 0.22;
     });
-    return y - Y0 - 0.12;
+    return y - Y0 - 0.38;
   };
-  const fitType = (sentences, crit, X0, Y0, xmax, maxH, start) => {
+  const fitFlow = (paras, X0, Y0, xmax, maxH, start) => {
     let size = start;
-    while (size > 12 && typeset(null, sentences, crit, X0, Y0, xmax, size, false) > maxH) size -= 0.5;
+    while (size > 14 && flow(null, paras, X0, Y0, xmax, size, false) > maxH) size -= 0.5;
     return size;
   };
+  const paragraphs = (c) => [{ text: c.ex.slice(0, 4).join(' '), crit: c.crit }, { text: c.ex[4], crit: c.crit, center: true }];
 
-  // ------------------------------------------------------------ 1 cover
-  const L1 = LEVELS[0].ctx[0];
-  d.cover({
-    g: 1, chip: 'NEDERLANDS · A1 · A2 · B1', title: 'In vijf zinnen', sub: 'Production écrite et orale guidée : 24 contextes du quotidien', line: '1 image · 5 critères · 1 modèle',
-    visual: (s) => {
-      d.rect(s, 6.75, 1.2, 6.3, 4.2, { fill: 'FFFFFF', line: null, radius: 0.16 });
-      framed(s, 6.95, 1.4, 3.3, 2.4, L1.scene, { shadow: false });
-      L1.crit.forEach((c, i) => {
-        const y = 1.42 + i * 0.48;
-        d.num(s, i + 1, 10.45, y, 0.36, CR[i], 13);
-        d.rect(s, 10.9, y + 0.02, 1.95, 0.32, { fill: TINT[CR[i]], line: CR[i], lw: 1, radius: 0.08 });
-        txt(s, c.k, 10.9, y + 0.02, 1.95, 0.32, { size: 10, bold: true, color: CR[i], align: 'center' });
-      });
-      typeset(s, ['Ik {1:ben} op een terras.'], L1.crit, 7.5, 4.05, 12.9, 18, true);
-    },
-  });
+  // ------------------------------------------------------------ 1 couverture
+  {
+    const s = d.slide('VZ_COVER');
+    s.addText('In vijf zinnen', { placeholder: 'title' });
+    s.addNotes(d.notesFor(1));
+    banner(s, 'ALL', 'A1 · A2 · B1');
+    txt(s, 'Production écrite et orale guidée', 1.72, 2.8, 5.6, 0.5, { size: 22, color: GREY });
+    txt(s, '24 contextes du quotidien · 1 image · 5 phrases · 1 modèle', 1.72, 3.3, 5.6, 0.45, { size: 16, italic: true, color: GREY });
+    [['A1', 'Découverte'], ['A2', 'Survie'], ['B1', 'Seuil']].forEach(([lv, n], i) => {
+      const c = LV[lv]; const x = 1.72 + i * 1.82;
+      box(s, x, 4.15, 1.68, 0.62, { fill: c.fill, line: c.line, lw: 1.5, r: 0.14 });
+      txt(s, [{ text: `${lv} `, options: { bold: true, color: c.text } }, { text: n, options: { color: c.text } }], x, 4.15, 1.68, 0.62, { size: 16, align: 'center' });
+    });
+    box(s, 1.72, 5.15, 5.3, 0.8, { fill: 'EAF5EC', line: ZIN, lw: 1.25, r: 0.14 });
+    d.icon(s, 'FaComments', ZIN, 1.92, 5.38, 0.34);
+    txt(s, 'Lees je tekst voor aan je partner. Wat denkt hij/zij daarvan?', 2.4, 5.15, 4.5, 0.8, { size: 14.5, bold: true, color: OK });
+    photo(s, 'terras', 7.75, 0.85, 3.5, { small: true, rot: -4 });
+    photo(s, 'zee', 9.55, 2.45, 3.4, { small: true, rot: 5 });
+    photo(s, 'buren', 7.6, 4.3, 3.3, { small: true, rot: -2 });
+  }
 
-  // ------------------------------------------------------------ 2 how it works
+  // ------------------------------------------------------------ 2 mode d'emploi
   d.section('Mode d’emploi');
   {
-    const s = d.page({ g: 2, tag: 'MODE D’EMPLOI', tagColor: 'tx2', title: 'Hoe werkt het? Comment ça marche ?' });
-    const S = [['eyes', 'Kijk', 'Observez l’illustration : où ? qui ? quoi ?'], ['clipboard', 'Lees', 'Lisez les 5 critères : une phrase = un critère.'], ['writing-hand', 'Schrijf of spreek', 'Produisez vos 5 phrases, à l’écrit ou à l’oral (5 à 10 min).'], ['magnifying-glass-tilted-left', 'Vergelijk', 'Comparez avec le modèle : chaque encadré renvoie à un critère.']];
-    const cw = (12.13 - 3 * 0.2) / 4;
+    const s = page(2, 'Hoe werkt het? Comment ça marche ?');
+    banner(s, 'ALL', 'Mode d’emploi');
+    const S = [['FaImage', 'Kijk', 'Observez l’image : où ? qui ? quoi ?'], ['FaListOl', 'Lees', 'Lisez les 5 consignes : Zin 1 à Zin 5, une phrase chacune.'], ['FaPenNib', 'Schrijf of vertel', 'Écrivez ou dites vos 5 phrases (5 à 10 min).'], ['FaUserFriends', 'Deel', 'Lisez votre texte à votre partner, puis comparez avec l’exemple.']];
+    const cw = (11.2 - 3 * 0.25) / 4;
     S.forEach(([ic, h, t], i) => {
-      const x = 0.6 + i * (cw + 0.2);
-      d.rect(s, x, 1.6, cw, 2.35, { fill: 'FFFFFF', line: BORDER, lw: 1, radius: 0.12, shadow: true });
-      d.num(s, i + 1, x + 0.18, 1.75, 0.42, 'tx2', 15);
-      d.ill(s, ic, x + cw - 0.95, 1.72, 0.75, 0.75);
-      d.t(s, `**${h}**`, x + 0.2, 2.5, cw - 0.4, 0.4, { size: 17, color: 'tx2', valign: 'middle' });
-      d.t(s, t, x + 0.2, 2.9, cw - 0.4, 0.95, { size: 13.5, color: 'tx1', valign: 'top' });
+      const x = 1.7 + i * (cw + 0.25);
+      box(s, x, 1.55, cw, 2.3, { fill: 'FFFFFF', line: 'E3E7EE', lw: 1, r: 0.1, shadow: true, so: 0.12 });
+      s.addShape(d.S.OVAL, { x: x + 0.25, y: 1.8, w: 0.72, h: 0.72, fill: { color: 'EAF5EC' }, line: { color: ZIN, width: 1.5 } });
+      d.icon(s, ic, ZIN, x + 0.43, 1.98, 0.36);
+      txt(s, `${i + 1}`, x + cw - 0.65, 1.8, 0.4, 0.72, { size: 30, bold: true, color: 'D5DCE6', align: 'right' });
+      txt(s, h, x + 0.25, 2.65, cw - 0.5, 0.42, { size: 18, bold: true });
+      txt(s, t, x + 0.25, 3.05, cw - 0.5, 0.75, { size: 13.5, color: GREY, valign: 'top' });
     });
-    d.t(s, '**Exemple de correspondance critère → bribe de texte**', 0.6, 4.15, 8, 0.35, { size: 14, color: 'accent5' });
-    const C2 = LEVELS[1].ctx[1];
-    typeset(s, [C2.ex[1]], C2.crit, 1.15, 4.6, 12.7, 19, true);
-    band(s, 'Le but : vérifier le **lexique** et la **grammaire** du niveau, en laissant toute sa place à la **créativité** (la chute !).', 6.2, 0.62, 'tx2', 15.5);
+    txt(s, 'Dans l’exemple, chaque étiquette verte se pose sur la bribe de texte qui répond à la consigne :', 1.7, 4.15, 11.2, 0.4, { size: 14, italic: true, color: GREY });
+    const c2 = LEVELS[1].ctx[1];
+    flow(s, [{ text: c2.ex[1], crit: c2.crit }], 1.9, 4.7, 12.8, 21, true);
+    box(s, 4.2, 6.2, 6.2, 0.7, { fill: 'EAF5EC', line: ZIN, lw: 1.25, r: 0.14 });
+    txt(s, 'Le but : le lexique et la grammaire du niveau… et la créativité !', 4.2, 6.2, 6.2, 0.7, { size: 15, bold: true, color: OK, align: 'center' });
   }
 
-  // ------------------------------------------------------------ 3 evaluation
+  // ------------------------------------------------------------ 3 la grille
   {
-    const s = d.page({ g: 3, tag: 'ÉVALUATION', tagColor: 'tx2', title: 'Évaluer une production : la grille sur 10' });
-    const R = [['Critères respectés', '5', 'un point par phrase : le critère demandé est présent et correct', 'accent2', 'check-mark-button'], ['Correction', '2', 'conjugaison, ordre des mots, accords, orthographe ou prononciation', 'accent3', 'pencil'],
-      ['Vocabulaire', '1', 'mots précis et variés, adaptés à la situation', 'accent1', 'books'], ['Cohérence', '1', 'les 5 phrases racontent une même scène, dans l’ordre', 'purple', 'link'], ['Créativité', '1', 'une chute originale, de l’humour, une surprise', 'accent4', 'sparkles']];
-    R.forEach(([h, pts, t, c, ic], i) => {
-      const y = 1.6 + i * 0.86;
-      d.rect(s, 0.6, y, 8.6, 0.76, { fill: 'FFFFFF', line: c, lw: 1.5, radius: 0.12, shadow: true });
-      d.ill(s, ic, 0.75, y + 0.1, 0.56, 0.56);
-      d.t(s, `**${h}**`, 1.45, y, 2.3, 0.76, { size: 16, color: c, valign: 'middle' });
-      d.t(s, t, 3.75, y, 4.3, 0.76, { size: 13, color: 'tx1', valign: 'middle' });
-      d.rect(s, 8.25, y + 0.14, 0.8, 0.48, { fill: c, line: null, radius: 0.12 });
-      d.t(s, `**${pts} pt${pts === '1' ? '' : 's'}**`, 8.25, y + 0.14, 0.8, 0.48, { size: 14, color: 'bg1', align: 'center', valign: 'middle' });
+    const s = page(3, 'Évaluer une production : la grille sur 10');
+    banner(s, 'ALL', 'Évaluation');
+    const R = [['Consignes respectées', '5', 'un point par phrase : la consigne est présente et correcte', ZIN], ['Correction', '2', 'conjugaison, ordre des mots, accords, orthographe ou prononciation', '4A7BD0'],
+      ['Vocabulaire', '1', 'des mots précis et variés, adaptés à la situation', 'D9822B'], ['Cohérence', '1', 'les 5 phrases racontent une même scène', '8E6CC8'], ['Créativité', '1', 'une chute originale, de l’humour, une surprise', 'C2185B']];
+    R.forEach(([h, pts, t, c], i) => {
+      const y = 1.55 + i * 0.92;
+      box(s, 1.7, y, 8.7, 0.78, { fill: 'FFFFFF', line: 'E3E7EE', lw: 1, r: 0.12, shadow: true, so: 0.1 });
+      box(s, 1.85, y + 0.15, 0.48, 0.48, { fill: c, r: 0.24 });
+      txt(s, h, 2.5, y, 2.6, 0.78, { size: 17, bold: true, color: c });
+      txt(s, t, 5.1, y, 4.2, 0.78, { size: 13.5, color: GREY });
+      txt(s, `${pts} pt${pts === '1' ? '' : 's'}`, 9.35, y, 0.9, 0.78, { size: 17, bold: true, color: c, align: 'right' });
     });
-    // la barre des 10 points
     let k = 0;
-    R.forEach(([, pts, , c]) => { for (let j = 0; j < Number(pts); j += 1) { d.rect(s, 9.55, 1.6 + (9 - k) * 0.42, 0.75, 0.36, { fill: c, line: null, radius: 0.06 }); k += 1; } });
-    d.t(s, '**/ 10**', 10.45, 4.75, 1.5, 0.6, { size: 26, color: 'tx2', valign: 'middle' });
-    d.t(s, ['Avant de rendre :', 'cochez les 5 critères ✓'], 10.45, 2.2, 2.3, 1.2, { size: 13.5, italic: true, color: 'accent5', valign: 'top', gap: 2 });
-    band(s, 'À l’oral : même grille ; la **prononciation** et la **fluidité** remplacent l’orthographe dans « Correction ».', 6.25, 0.55, 'tx2', 15);
+    R.forEach(([, pts, , c]) => { for (let j = 0; j < Number(pts); j += 1) { box(s, 10.85, 1.55 + (9 - k) * 0.45, 0.8, 0.38, { fill: c, r: 0.08 }); k += 1; } });
+    txt(s, '/ 10', 11.8, 5.35, 1.1, 0.6, { size: 28, bold: true, color: INK });
+    txt(s, 'À l’oral : la prononciation et la fluidité remplacent l’orthographe.', 1.7, 6.3, 8.7, 0.45, { size: 13.5, italic: true, color: GREY });
   }
 
-  // ------------------------------------------------------------ niveaux
+  // ------------------------------------------------------------ les niveaux
   let g = 4;
   LEVELS.forEach((lvl) => {
     d.section(lvl.name);
-    // intercalaire du niveau
+    // intercalaire
     {
-      const s = d.page({ g, tag: `NIVEAU ${lvl.id}`, tagColor: lvl.color, title: `${lvl.name} — 8 contextes` }, false, 'N1_DARK');
-      d.t(s, '**Ce qu’on évalue**', 0.6, 1.6, 3.7, 0.4, { size: 16, color: 'accent1' });
-      d.t(s, lvl.spec.map((t) => `• ${t}`), 0.6, 2.05, 3.7, 4.6, { size: 14, color: 'bg1', valign: 'top', gap: 6 });
-      const cw = (12.73 - 4.6 - 3 * 0.15) / 4; const ch = 2.25;
-      lvl.ctx.forEach((c, i) => {
-        const x = 4.6 + (i % 4) * (cw + 0.15); const y = 1.6 + Math.floor(i / 4) * (ch + 0.2);
-        d.rect(s, x, y, cw, ch, { fill: 'FFFFFF', line: null, radius: 0.1 });
-        scene(s, x + 0.07, y + 0.07, cw - 0.14, (cw - 0.14) / 1.38, c.scene);
-        d.num(s, i + 1, x + 0.1, y + 1.5, 0.32, lvl.color, 11);
-        d.t(s, `**${c.t}**`, x + 0.47, y + 1.43, cw - 0.52, 0.48, { size: 11.5, color: 'tx2', valign: 'middle', fit: true, max: 11.5, min: 9 });
-        d.t(s, c.fr, x + 0.47, y + 1.86, cw - 0.52, 0.3, { size: 9.5, italic: true, color: 'accent5', valign: 'middle' });
-        d.icon(s, c.mode === 'W' ? 'FaPenNib' : 'FaComments', hexOf(c.mode === 'W' ? 'accent2' : 'accent1'), x + cw - 0.32, y + 0.12, 0.2);
+      const s = page(g, `Niveau ${lvl.id} — ${lvl.name.split('· ')[1]}`);
+      banner(s, lvl.id, `Niveau ${lvl.id}`);
+      const c = LV[lvl.id];
+      box(s, 1.7, 1.5, 3.3, 5.35, { fill: c.fill, line: c.line, lw: 1.25, r: 0.12 });
+      txt(s, 'Ce qu’on évalue', 1.9, 1.62, 3.0, 0.45, { size: 16, bold: true, color: c.text });
+      s.addText(lvl.spec.map((t, i) => ({ text: t.replace(/\*\*/g, ''), options: { bullet: { indent: 12 }, breakLine: i < lvl.spec.length - 1, paraSpaceAfter: 5 } })), {
+        x: 1.9, y: 2.1, w: 3.0, h: 4.6, fontSize: 13, fontFace: FONT, color: INK, valign: 'top', margin: 0, isTextBox: true,
+      });
+      const cw = 1.78; const gx = 0.17;
+      lvl.ctx.forEach((cx, i) => {
+        const x = 5.3 + (i % 4) * (cw + gx); const y = 1.6 + Math.floor(i / 4) * 2.65;
+        photo(s, cx.img, x, y, cw, { small: true, b: 0.05, blur: 6, off: 2 });
+        txt(s, `${i + 1} · ${cx.t}`, x - 0.05, y + cw / 1.6 + 0.1, cw + 0.1, 0.5, { size: 12, bold: true, valign: 'top' });
+        txt(s, cx.fr, x - 0.05, y + cw / 1.6 + 0.58, cw + 0.1, 0.3, { size: 10.5, italic: true, color: GREY, valign: 'top' });
+        d.icon(s, cx.mode === 'W' ? 'FaPenNib' : 'FaComments', cx.mode === 'W' ? '4A7BD0' : 'D9822B', x + cw - 0.27, y + 0.07, 0.2);
       });
       g += 1;
     }
     lvl.ctx.forEach((c, i) => {
-      // la tâche
+      const said = c.mode === 'W' ? 'schrijven' : 'zeggen';
+      // 1. la consigne
       {
-        const s = d.page({ g, tag: `${lvl.id} · ${i + 1} / 8`, tagColor: lvl.color, title: c.t });
-        modeChip(s, c.mode);
-        framed(s, 0.6, 1.6, 5.3, 3.85, c.scene);
-        d.rect(s, 0.6, 5.6, 5.3, 1.25, { fill: TINT[lvl.color], line: lvl.color, lw: 1.25, radius: 0.12 });
-        d.icon(s, 'FaMapMarkerAlt', hexOf(lvl.color), 0.78, 5.72, 0.28);
-        d.t(s, `**${c.fr}**`, 1.15, 5.66, 4.6, 0.36, { size: 15, color: lvl.color, valign: 'middle' });
-        d.t(s, c.sit, 0.8, 6.02, 4.95, 0.78, { size: 13, color: 'tx1', valign: 'top' });
-        d.icon(s, c.mode === 'W' ? 'FaPenNib' : 'FaComments', INK, 6.2, 1.67, 0.3);
-        d.t(s, `**${c.mode === 'W' ? 'Écrivez' : 'Dites'} 5 phrases**, une par critère :`, 6.6, 1.6, 6.1, 0.45, { size: 17, color: 'tx2', valign: 'middle' });
-        const rh = 0.86;
+        const s = page(g, 'Gebruik deze afbeelding als inspiratie');
+        banner(s, lvl.id, `Niveau ${lvl.id}`);
+        txt(s, [{ text: `${i + 1} · ${c.t}`, options: { bold: true, color: LV[lvl.id].text } }, { text: `   ${c.fr}`, options: { italic: true, color: GREY } }], 1.7, 1.12, 11.2, 0.4, { size: 15, align: 'center' });
+        photo(s, c.img, 1.85, 1.75, 4.75, { small: true });
+        modeTag(s, c.mode, 1.85, 5.0);
+        txt(s, c.sit, 3.75, 4.97, 2.9, 0.8, { size: 11.5, italic: true, color: GREY, valign: 'top' });
         c.crit.forEach((k, j) => {
-          const y = 2.18 + j * (rh + 0.08); const col = CR[j];
-          d.rect(s, 6.2, y, 6.53, rh, { fill: TINT[col], line: col, lw: 1.25, radius: 0.12 });
-          d.num(s, j + 1, 6.33, y + (rh - 0.44) / 2, 0.44, col, 15);
-          d.t(s, k.t, 6.92, y, 5.7, rh, { size: 14.5, color: 'tx1', valign: 'middle' });
+          const y = 1.72 + j * 0.66;
+          zinChip(s, j + 1, 6.95, y + 0.06);
+          d.t(s, k.t, 8.1, y, 4.8, 0.56, { size: 14.5, color: INK, valign: 'middle' });
         });
+        box(s, 3.55, 5.95, 7.5, 0.9, { fill: 'EAF5EC', line: ZIN, lw: 1.25, r: 0.16 });
+        d.icon(s, 'FaUserFriends', ZIN, 3.85, 6.19, 0.42);
+        txt(s, [{ text: c.mode === 'W' ? 'Lees je tekst voor aan je partner.' : 'Vertel je verhaal aan je partner.', options: { breakLine: true } }, { text: 'Wat denkt hij/zij daarvan?' }], 4.5, 5.95, 6.4, 0.9, { size: 18, bold: true, color: OK, align: 'center' });
       }
-      // le modèle
+      // 2. la grande illustration
       {
-        const s = d.page({ g, tag: `${lvl.id} · VOORBEELD`, tagColor: 'accent3', title: `${c.t} — voorbeeld`, notes: 'MODÈLE — montrez-le après les productions. Faites retrouver, pour chaque encadré, le critère auquel il répond.' });
-        modeChip(s, c.mode);
-        framed(s, 0.6, 1.5, 1.24, 0.9, c.scene, { pad: 0.04 });
-        const cw = (12.73 - 2.0 - 4 * 0.1) / 5;
-        c.crit.forEach((k, j) => {
-          const x = 2.0 + j * (cw + 0.1); const col = CR[j];
-          d.rect(s, x, 1.5, cw, 0.9, { fill: TINT[col], line: col, lw: 1.25, radius: 0.1 });
-          d.num(s, j + 1, x + 0.12, 1.5 + (0.9 - 0.36) / 2, 0.36, col, 13);
-          d.t(s, `**${k.k}**`, x + 0.55, 1.52, cw - 0.62, 0.86, { size: 13, color: col, align: 'center', valign: 'middle', fit: true, max: 13, min: 9.5 });
-        });
+        const s = page(g, c.t, { size: 24, notes: 'GRANDE IMAGE — laissez les apprenant·es observer et nommer ce qu’ils et elles voient avant d’écrire : Waar zijn we? Wie zie je? Wat gebeurt er?' });
+        banner(s, lvl.id, `Niveau ${lvl.id}`);
+        const w = 8.85;
+        photo(s, c.img, 1.7 + (11.2 - w) / 2, 1.35, w, { b: 0.12, blur: 14, off: 5 });
+      }
+      // 3. l'exemple
+      {
+        const s = page(g, `Hier is een voorbeeld van wat je had kunnen denken en ${said}…`, { left: true, notes: `EXEMPLE — chaque étiquette verte renvoie à une consigne (Zin 1 à Zin 5). Faites retrouver, pour chaque bribe, la consigne à laquelle elle répond.` });
+        banner(s, lvl.id, `Niveau ${lvl.id}`);
+        photo(s, c.img, 11.05, 0.32, 1.75, { small: true, b: 0.05, blur: 6, off: 2 });
+        const paras = paragraphs(c);
         const start = lvl.id === 'A1' ? 24 : lvl.id === 'A2' ? 22 : 20;
-        const size = fitType(c.ex, c.crit, 1.15, 2.62, 12.7, 6.98 - 2.62, start);
-        typeset(s, c.ex, c.crit, 1.15, 2.62, 12.7, size, true);
+        const size = fitFlow(paras, 1.85, 1.75, 12.8, 6.95 - 1.75, start);
+        const hgt = flow(null, paras, 1.85, 1.75, 12.8, size, false);
+        flow(s, paras, 1.85, 1.75 + Math.max(0, (6.95 - 1.75 - hgt) / 2.5), 12.8, size, true);
       }
       g += 1;
     });
@@ -298,16 +315,17 @@ function build(d) {
   // ------------------------------------------------------------ variantes
   d.section('Variantes');
   {
-    const s = d.page({ g, tag: 'VARIANTES', tagColor: 'tx2', title: 'Six variantes ludiques' });
-    const V = [['stopwatch', 'Contre la montre', 'Cinq phrases en cinq minutes. Le sablier tourne !'], ['link', 'La chaîne', 'Cinq apprenant·es, cinq phrases : chacun·e ajoute la sienne à l’oral.'], ['detective', 'Devinez le critère', 'On lit sa production ; la classe retrouve les cinq critères.'],
-      ['game-die', 'Le dé', 'On lance le dé : la phrase indiquée doit être dite en premier.'], ['up-arrow', 'Niveau supérieur', 'Même image, critères du niveau suivant : A1 → A2 → B1.'], ['trophy', 'La meilleure chute', 'Toutes les chutes au tableau ; la classe vote.']];
-    const cw = (12.13 - 2 * 0.2) / 3; const ch = 2.15;
+    const s = page(g, 'Six variantes ludiques');
+    banner(s, 'ALL', 'Variantes');
+    const V = [['stopwatch', 'Contre la montre', 'Cinq phrases en cinq minutes : le sablier tourne !'], ['link', 'La chaîne', 'Cinq apprenant·es, cinq phrases : chacun·e ajoute la sienne à l’oral.'], ['detective', 'Devinez la consigne', 'On lit sa production ; la classe retrouve les cinq consignes.'],
+      ['game-die', 'Le dé', 'On lance le dé : la phrase indiquée doit être dite en premier.'], ['up-arrow', 'Niveau supérieur', 'Même image, consignes du niveau suivant : A1 → A2 → B1.'], ['trophy', 'La meilleure chute', 'Toutes les chutes au tableau ; la classe vote.']];
+    const cw = (11.2 - 2 * 0.25) / 3; const ch = 2.4;
     V.forEach(([ic, h, t], i) => {
-      const x = 0.6 + (i % 3) * (cw + 0.2); const y = 1.6 + Math.floor(i / 3) * (ch + 0.2);
-      d.rect(s, x, y, cw, ch, { fill: 'FFFFFF', line: CR[i % 5], lw: 1.5, radius: 0.12, shadow: true });
-      d.ill(s, ic, x + 0.2, y + 0.2, 0.8, 0.8);
-      d.t(s, `**${h}**`, x + 1.15, y + 0.2, cw - 1.3, 0.8, { size: 17, color: CR[i % 5], valign: 'middle' });
-      d.t(s, t, x + 0.2, y + 1.1, cw - 0.4, 0.95, { size: 14, color: 'tx1', valign: 'top' });
+      const x = 1.7 + (i % 3) * (cw + 0.25); const y = 1.5 + Math.floor(i / 3) * (ch + 0.25);
+      box(s, x, y, cw, ch, { fill: 'FFFFFF', line: 'E3E7EE', lw: 1, r: 0.12, shadow: true, so: 0.12 });
+      d.ill(s, ic, x + 0.25, y + 0.25, 0.85, 0.85);
+      txt(s, h, x + 1.25, y + 0.25, cw - 1.4, 0.85, { size: 18, bold: true, color: ZIN });
+      txt(s, t, x + 0.25, y + 1.25, cw - 0.5, 1.0, { size: 14, color: GREY, valign: 'top' });
     });
   }
 }
