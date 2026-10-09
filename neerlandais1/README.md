@@ -178,5 +178,6 @@ node build.js tijden      # le complément A2–B1 sur les temps et la ligne du 
 node build.js afleiding   # le complément A2–B1 sur la dérivation
 node build.js goedemorgen # le jeu de rôle A1 (après la 2e séance)
 node build.js vijfzinnen  # la production guidée A1 · A2 · B1 (In vijf zinnen)
+node vijfzinnen_md.js     # In vijf zinnen : après avoir modifié vijfzinnen_data.js, régénère le gabarit in_vijf_zinnen.md
 node build.js en_pastsimple en_presentperfect en_psboxes   # les 3 decks anglais A2–B1 (voir ../anglais_grammaire)
 ```

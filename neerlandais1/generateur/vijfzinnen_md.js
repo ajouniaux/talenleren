@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const G = __dirname;
 const { LEVELS } = require(path.join(G, 'vijfzinnen_data.js'));
-const plainEx = (s) => s.replace(/\{\d:([^|}]+)(?:\|[^}]+)?\}/g, '$1');
-const marked = (s) => s.replace(/\{(\d):([^|}]+)(?:\|([^}]+))?\}/g, (m, n, t) => `[${t}]${String.fromCharCode(0x2080 + Number(n))}`);
+const plainEx = (s) => s.replace(/\n/g, ' ').replace(/\{\d:([^|}]+)(?:\|[^}]+)?\}/g, '$1');
+const marked = (s) => s.replace(/\n/g, ' ').replace(/\{(\d):([^|}]+)(?:\|([^}]+))?\}/g, (m, n, t) => `[${t}]${String.fromCharCode(0x2080 + Number(n))}`);
 const md = (t) => t.replace(/\*\*([^*]+)\*\*/g, '**$1**');
 let out = `# *In vijf zinnen* · Production écrite et orale guidée (A1 · A2 · B1)
 

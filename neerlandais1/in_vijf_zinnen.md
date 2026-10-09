@@ -132,7 +132,7 @@
 >
 > **MODÈLE** — [Op zaterdag ben ik]₁ op de markt in Gent. Ik koop [appels]₂, [tomaten]₂ en drie [bananen]₂. [Er zijn]₃ veel mensen en [er is]₃ muziek. “[Hoeveel]₄ kosten de aardbeien, meneer?” Oei, ik heb [geen]₅ tas bij me!
 
-**Notes pour l'animateur** — Vérifiez l’inversion : ✗ « Op zaterdag ik ben… ». Pluriel en -s après -el, -em, -en, -er et certaines voyelles (appels) ; en -en ailleurs (tomaten, bananen). « er is » + singulier, « er zijn » + pluriel. Variante orale : jeu de rôle client·e / marchand·e.
+**Notes pour l'animateur** — Vérifiez l’inversion : ✗ « Op zaterdag ik ben… ». Pluriel en -s après -el, -em, -en, -er non accentués (appels) et après certaines voyelles (auto’s, menu’s) ; en -en ailleurs (tomaat → tomaten, banaan → bananen). « er is » + singulier, « er zijn » + pluriel. Variante orale : jeu de rôle client·e / marchand·e.
 
 ---
 
@@ -176,7 +176,7 @@
 >
 > **MODÈLE** — Ik [woon nu in]₁ Leuven, vlak bij het station. Mijn appartement [heeft twee]₂ slaapkamers en een balkon. Ik heb een [grote]₃ keuken en de woonkamer [is gezellig]₃. De bank staat [naast]₄ het raam. [Maar]₅ er is geen lift… en ik woon op de vijfde verdieping!
 
-**Notes pour l'animateur** — Qualificatif = devant le nom, avec -e (een grote keuken) ; attribut = après « zijn », sans -e (de woonkamer is gezellig). Attention : « een groot huis » (het-woord, indéfini) n’a pas de -e. « de bank » = le canapé (et la banque).
+**Notes pour l'animateur** — Qualificatif = devant le nom, avec -e (een grote keuken) ; attribut = après « zijn », sans -e (de woonkamer is gezellig). Attention : « een groot huis » (het-woord, indéfini) n’a pas de -e. « de bank » = le canapé (et la banque) ; en Flandre, on dit souvent « de zetel ».
 
 ---
 
@@ -196,7 +196,7 @@
 > 4. Situez deux personnes avec **LINKS**, **RECHTS** ou **NAAST**.
 > 5. Terminez par une chute avec **NIET**.
 >
-> **MODÈLE** — [Op deze foto zie je]₁ mijn familie op vakantie. Dat is [mijn moeder]₂ en dat is [mijn broer]₂ Tom. Tom [heeft lang haar]₃ en blauwe ogen. Mijn vader staat [links]₄, [naast]₄ de hond. En de man rechts? Ik ken hem [niet]₅!
+> **MODÈLE** — [Op deze foto zie je]₁ mijn familie op vakantie. Dat is [mijn moeder]₂ en dat is [mijn broer]₂ Tom. Tom [heeft lang haar]₃ en blauwe ogen. Mijn vader staat [links]₄ en Tom staat [naast]₄ de hond. En de man rechts? Ik ken hem [niet]₅!
 
 **Notes pour l'animateur** — « lang haar » sans -e (het haar, indéfini) mais « blauwe ogen » avec -e (pluriel) : bonne occasion de revoir la règle. « niet » se place ici en fin de phrase (ik ken hem niet). Variante : les apprenant·es montrent une vraie photo sur leur téléphone.
 
@@ -242,7 +242,7 @@
 >
 > **MODÈLE** — Vandaag [regent het]₁ en [het waait]₁ hard. Het is maar [acht graden]₂. Ik [draag]₃ een [gele]₃ regenjas en blauwe laarzen. Ik neem ook een paraplu, [want]₄ ik wil niet nat worden. [Morgen ga ik]₅ op een terras [zitten]₅… in Spanje!
 
-**Notes pour l'animateur** — Verbes météo impersonnels : het regent, het waait, het sneeuwt, de zon schijnt. « want » + ordre normal (want ik wil…). Futur proche : gaan + infinitif à la fin de la phrase. Variante orale : un bulletin météo présenté devant la classe.
+**Notes pour l'animateur** — Verbes météo impersonnels : het regent, het waait, het sneeuwt, het vriest (mais : de zon schijnt). « want » + ordre normal (want ik wil…). Futur proche : gaan + infinitif à la fin de la phrase. Variante orale : un bulletin météo présenté devant la classe.
 
 ---
 
@@ -301,7 +301,7 @@
 >
 > **MODÈLE** — Vorig weekend [ben]₁ ik met vrienden naar Oostende [gegaan]₁. We [hebben]₂ op het strand [gewandeld]₂ en veel garnalen [gegeten]₂. [Het was]₃ zonnig, maar er was veel wind. [Daarom hebben we]₄ een vlieger gekocht. [Maar]₅ op de terugweg hebben we drie uur in de file gestaan!
 
-**Notes pour l'animateur** — Déplacement vers un lieu → zijn (ik ben naar Oostende gegaan) ; la plupart des autres verbes → hebben. Après « daarom », le verbe vient en 2e position (daarom hebben we…). « in de file staan » = être dans les bouchons. Faites souligner les participes (ge- … -d / -t / -en).
+**Notes pour l'animateur** — Gaan, komen et les verbes de mouvement avec une destination → zijn (ik ben naar Oostende gegaan) ; sans destination → hebben (we hebben op het strand gewandeld), comme la plupart des autres verbes. Après « daarom », le verbe vient en 2e position (daarom hebben we…). « in de file staan » = être dans les bouchons. Faites souligner les participes (ge- … -d / -t / -en).
 
 ---
 
@@ -321,9 +321,9 @@
 > 4. Utilisez **WANT** ou **OMDAT**.
 > 5. Concluez par une chute finale de votre choix.
 >
-> **MODÈLE** — Het is zaterdagavond en ik [ben]₁ eindelijk in mijn nieuwe appartement. Het is een [lichte]₂, [ruime]₂ woonkamer en de sfeer [is gezellig]₂. Mijn bureau staat [tussen]₃ de twee ramen en [boven]₃ de bank hangt een spiegel. Ik ben heel blij, [omdat]₄ ik nu dicht bij mijn werk [woon]₄. [Maar mijn buurman speelt elke avond om middernacht trompet!]₅
+> **MODÈLE** — Het is zaterdagavond en ik [ben]₁ eindelijk naar mijn nieuwe appartement [verhuisd]₁. Het is een [lichte]₂, [ruime]₂ woonkamer en de sfeer [is gezellig]₂. Mijn bureau staat [tussen]₃ de twee ramen en [boven]₃ de bank hangt een spiegel. Ik ben heel blij, [omdat]₄ ik nu dicht bij mijn werk [woon]₄. [Maar mijn buurman speelt elke avond tot middernacht trompet!]₅
 
-**Notes pour l'animateur** — Ce contexte reprend votre exemple de consigne. « want » + ordre normal (want ik woon nu…) ; « omdat » + verbe à la fin (omdat ik nu … woon). Qualificatifs avec -e devant le nom (een lichte, ruime woonkamer) ; attribut sans -e (de sfeer is gezellig). « boven de bank hangt… » : inversion après le complément de lieu.
+**Notes pour l'animateur** — « ben … verhuisd » : verhuizen (changer de lieu) fait son perfectum avec zijn. « want » + ordre normal (want ik woon nu…) ; « omdat » + verbe à la fin (omdat ik nu … woon). Qualificatifs avec -e devant le nom (een lichte, ruime woonkamer) ; attribut sans -e (de sfeer is gezellig). « boven de bank hangt… » : inversion après le complément de lieu.
 
 ---
 
@@ -343,9 +343,9 @@
 > 4. Ajoutez une condition avec **ALS** (verbes à la fin).
 > 5. Terminez par une consigne originale avec **MOETEN**.
 >
-> **MODÈLE** — Hallo allemaal, ik word dertig en ik geef een [feestje]₁! Het feest is [op zaterdag 12 oktober]₂ [om acht uur]₂. [Neem]₃ tram 4 tot aan het park en [kom]₃ dan naar nummer 15. [Als]₄ je niet [kunt komen]₄, stuur me dan een berichtje. Opgelet: iedereen [moet]₅ een hoed [dragen]₅!
+> **MODÈLE** — Hallo allemaal, ik word dertig en ik geef een [feestje]₁! Het feest is [op zaterdag 17 oktober]₂ [om acht uur ’s avonds]₂. [Neem]₃ tram 4 tot aan het park en [kom]₃ dan naar nummer 15. [Als]₄ je niet [kunt komen]₄, stuur me dan een berichtje. Opgelet: iedereen [moet]₅ een hoed [dragen]₅!
 
-**Notes pour l'animateur** — Diminutifs : feest → feestje, bericht → berichtje, kaart → kaartje. Impératif = radical (neem, kom, ga) ; poli : « Neemt u… ». Avec « als », les verbes vont à la fin (als je niet kunt komen) et la principale commence par le verbe (stuur me dan…). Variante : l’invitation sous forme de message vocal.
+**Notes pour l'animateur** — Diminutifs : feest → feestje, bericht → berichtje, kaart → kaartje ; -tje après une voyelle (ei → eitje) ou après -l / -n / -r / -w précédé d’une voyelle longue (stoel → stoeltje, deur → deurtje). Impératif = radical (neem, kom, ga) ; poli : « Neemt u… ». Avec « als », les verbes vont à la fin (als je niet kunt komen) et la principale commence par le verbe (stuur me dan…). Variante : l’invitation sous forme de message vocal.
 
 ---
 
@@ -389,7 +389,7 @@
 >
 > **MODÈLE** — Goedendag, ik [zoek een cadeau voor]₁ mijn zus. Het boek is [goedkoper dan]₂ de sjaal. Maar de rode sjaal is [de mooiste]₃ van de winkel. Mag ik [die]₄ sjaal daar en [dit]₄ boek eens zien? De sjaal kost tachtig euro, [dus]₅ ik neem… het boek!
 
-**Notes pour l'animateur** — Comparatif : adjectif + -er (+ dan) ; superlatif : de / het + adjectif + -st(e). Démonstratifs : deze / die avec les de-woorden, dit / dat avec les het-woorden ; deze / dit = près, die / dat = loin. Après « dus », les deux ordres sont possibles (dus ik neem / dus neem ik). Jeu de rôle client·e / vendeur·se.
+**Notes pour l'animateur** — Comparatif : adjectif + -er (+ dan) ; superlatif : de / het + adjectif + -st(e). Démonstratifs : deze / die avec les de-woorden et le pluriel, dit / dat avec les het-woorden ; deze / dit = près, die / dat = loin. Après « dus », les deux ordres sont possibles (dus ik neem / dus neem ik). Jeu de rôle client·e / vendeur·euse.
 
 ---
 
@@ -455,7 +455,7 @@
 >
 > **MODÈLE** — [Gisteren ben ik begonnen]₁ bij een bank in Brussel. Mijn collega’s [zijn vriendelijk]₂ en mijn baas is een [rustige]₂ man. Ik [moest]₃ de hele dag formulieren [invullen]₃. Ik [vind dat]₄ het werk interessant [is]₄. [Eigenlijk]₅ weet ik nog niet waar de koffiemachine staat…
 
-**Notes pour l'animateur** — « beginnen » fait son perfectum avec zijn (ik ben begonnen). Imparfait des modaux : moest, kon, wilde / wou, mocht. Après « dat », le verbe va à la fin. « Eigenlijk » (en fait) en tête → inversion (eigenlijk weet ik…). Variante : la conversation au téléphone avec un·e ami·e curieux·se.
+**Notes pour l'animateur** — « beginnen » fait son perfectum avec zijn (ik ben begonnen). Imparfait des modaux : moest, kon, wilde / wou, mocht. Après « dat », le verbe va à la fin. « Eigenlijk » (en fait) en tête → inversion (eigenlijk weet ik…). Variante : la conversation au téléphone avec un·e ami·e curieux·euse.
 
 ---
 
@@ -490,7 +490,7 @@
 > 4. Formulez votre demande au conditionnel : **ZOU** … **WILLEN**.
 > 5. Terminez fermement avec **INDIEN** + une formule finale.
 >
-> **MODÈLE** — [Geachte heer, mevrouw]₁, op 3 maart [heb]₁ ik een koffiezetapparaat bij u [besteld]₁. Het pakket [werd]₂ pas twee weken later [geleverd]₂. Bovendien was het toestel [dat ik ontving]₃ beschadigd. Ik [zou]₄ dan ook graag een nieuw toestel [willen ontvangen]₄. [Indien]₅ ik binnen tien dagen niets van u [hoor]₅, vraag ik mijn geld terug. [Met vriendelijke groeten]₅, Karim Benali
+> **MODÈLE** — [Geachte heer, mevrouw]₁, Op 3 maart [heb]₁ ik een koffiezetapparaat bij u [besteld]₁. Het pakket [werd]₂ pas twee weken later [geleverd]₂. Bovendien was het toestel [dat ik ontving]₃ beschadigd. Ik [zou]₄ dan ook graag een nieuw toestel [willen ontvangen]₄. [Indien]₅ ik binnen tien dagen niets van u [hoor]₅, vraag ik mijn geld terug. [Met vriendelijke groeten]₅, Karim Benali
 
 **Notes pour l'animateur** — Registre formel : u / uw, « Geachte heer, mevrouw », « Met vriendelijke groeten ». Passif : worden + participe (werd geleverd = fut livré). « indien » = « als » formel, verbe à la fin ; la principale qui suit commence par le verbe (…, vraag ik). « dan ook » = par conséquent.
 
@@ -512,9 +512,9 @@
 > 4. Nuancez une faiblesse avec **HOEWEL**.
 > 5. Terminez par une question audacieuse au conditionnel : **ZOU IK** … ?
 >
-> **MODÈLE** — [Nadat]₁ ik mijn diploma [had behaald]₁, heb ik vijf jaar als boekhouder gewerkt. Dat was bij een kleine firma [waar]₂ ik veel heb geleerd. Ik solliciteer bij uw bedrijf [om]₃ nieuwe uitdagingen [aan te gaan]₃. [Hoewel]₄ ik nog geen ervaring als teamleider [heb]₄, werk ik graag samen. [Zou ik]₅ misschien ook vier dagen per week [mogen werken]₅?
+> **MODÈLE** — [Nadat]₁ ik mijn diploma [had behaald]₁, werkte ik vijf jaar als boekhouder. Dat was bij een kleine firma [waar]₂ ik veel heb geleerd. Ik solliciteer bij uw bedrijf [om]₃ nieuwe uitdagingen [aan te gaan]₃. [Hoewel]₄ ik nog geen ervaring als teamleider [heb]₄, leer ik heel snel. [Zou ik]₅ misschien ook vier dagen per week [mogen werken]₅?
 
-**Notes pour l'animateur** — Plus-que-parfait : had / was + participe (nadat ik … had behaald). Verbe à particule : aan te gaan (te entre la particule et le verbe). Après une subordonnée en tête, la principale commence par le verbe (…, heb ik / …, werk ik). Jeu de rôle recruteur·euse / candidat·e, avec deux questions de relance.
+**Notes pour l'animateur** — Plus-que-parfait : had / was + participe (nadat ik … had behaald). Verbe à particule : aan te gaan (te entre la particule et le verbe). Après une subordonnée en tête, la principale commence par le verbe (…, werkte ik / …, leer ik). Jeu de rôle recruteur·euse / candidat·e, avec deux questions de relance.
 
 ---
 
@@ -549,7 +549,7 @@
 - **Diapo modèle** : vignette du décor, rappel des 5 critères, puis la production modèle, chaque bribe encadrée et reliée à son étiquette.
 
 **Contenu textuel**
-> *Vous avez vu un accident. Racontez à la police ce qui s’est passé.*
+> *Vous avez vu un accident. Deux semaines plus tard, vous témoignez au commissariat.*
 > 1. Plantez le décor à l’imparfait (**OVT**) : STOND, FIETSTE…
 > 2. Racontez l’événement avec **PLOTSELING** + inversion.
 > 3. Utilisez le **passif** au passé : **WERD** + participe.
@@ -578,7 +578,7 @@
 > 4. Faites une proposition avec **ALS** … **ZOUDEN** …, **ZOU** …
 > 5. Concluez avec **KORTOM** + une chute.
 >
-> **MODÈLE** — [Volgens mij is]₁ thuiswerken een grote stap vooruit. [Enerzijds]₂ verlies je geen tijd in de file, [anderzijds]₂ zie je je collega’s minder. [Bovendien werken]₃ veel mensen thuis rustiger en efficiënter. [Als]₄ we twee dagen per week thuis [zouden werken]₄, [zou]₄ iedereen tevreden zijn. [Kortom]₅: ik stem voor thuiswerken… en mijn kat ook!
+> **MODÈLE** — [Volgens mij is]₁ thuiswerken een groot voordeel voor iedereen. [Enerzijds]₂ verlies je geen tijd in de file, [anderzijds]₂ zie je je collega’s minder. [Bovendien werken]₃ veel mensen thuis rustiger en efficiënter. [Als]₄ we twee dagen per week thuis [zouden werken]₄, [zou]₄ iedereen tevreden zijn. [Kortom]₅: ik stem voor thuiswerken… en mijn kat ook!
 
 **Notes pour l'animateur** — Connecteurs suivis d’une inversion : volgens mij, enerzijds, anderzijds, bovendien (verbe en 2e position). Hypothèse : als + zou(den) …, zou + infinitif (on peut aussi dire : als we … werkten, zou…). Variante : débat en deux équipes, chaque phrase dite par un·e membre différent·e.
 
@@ -644,9 +644,9 @@
 > 4. Proposez une solution avec **ZOUDEN JULLIE** … **KUNNEN** … ?
 > 5. Terminez par une chute sympathique avec **MISSCHIEN** + inversion.
 >
-> **MODÈLE** — Beste buren, ik ben Sofie, de vrouw [die]₁ op de tweede verdieping [woont]₁. Elke avond [wordt er]₂ tot twee uur ’s nachts luide muziek [gespeeld]₂. Ik [begrijp dat]₃ jullie graag feesten, [maar]₃ ik moet om zes uur opstaan. [Zouden jullie]₄ de muziek na elf uur wat zachter [kunnen zetten]₄? [Misschien kunnen we]₅ eens samen een feestje geven… om tien uur!
+> **MODÈLE** — Beste buren, ik ben Sofie, de vrouw [die]₁ op de tweede verdieping [woont]₁. Elke avond [wordt er]₂ tot twee uur ’s nachts [gefeest]₂, met luide muziek. Ik [begrijp dat]₃ jullie graag feesten, [maar]₃ ik moet om zes uur opstaan. [Zouden jullie]₄ de muziek na elf uur wat zachter [kunnen zetten]₄? [Misschien kunnen we]₅ eens samen een feestje geven… tot tien uur!
 
-**Notes pour l'animateur** — Passif impersonnel : er wordt (veel) gefeest / muziek gespeeld (on fait la fête / on joue de la musique). Politesse : « Zouden jullie … kunnen … ? » est plus doux que « Kunnen jullie… ? ». « luide muziek » : qualificatif + -e. Variante : les voisin·es répondent par un petit mot.
+**Notes pour l'animateur** — Passif impersonnel (sans sujet) : er wordt (veel) gefeest / gedanst (on fait la fête / on danse). Dans « er wordt muziek gespeeld », muziek est le sujet : c’est un passif ordinaire avec « er ». Politesse : « Zouden jullie … kunnen … ? » est plus doux que « Kunnen jullie… ? ». « luide muziek » : qualificatif + -e. Variante : les voisin·es répondent par un petit mot.
 
 ---
 

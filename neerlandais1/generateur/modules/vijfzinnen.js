@@ -108,15 +108,20 @@ function build(d) {
       const toks = []; let space = false;
       segs.forEach((sg) => {
         if (sg.n) { toks.push({ t: sg.t, n: sg.n, tag: sg.tag, space }); space = false; return; }
-        sg.t.split(/(\s+)/).forEach((p) => {
-          if (!p) return;
-          if (/^\s+$/.test(p)) { space = true; return; }
-          toks.push({ t: p, n: 0, space }); space = false;
+        // « \n » force un retour à la ligne (ex. après la formule d'appel d'une lettre)
+        sg.t.split('\n').forEach((part, pi) => {
+          if (pi) { toks.push({ br: true }); space = false; }
+          part.split(/(\s+)/).forEach((p) => {
+            if (!p) return;
+            if (/^\s+$/.test(p)) { space = true; return; }
+            toks.push({ t: p, n: 0, space }); space = false;
+          });
         });
       });
       // lignes
       const lines = [[]]; let x = X0;
       toks.forEach((tk) => {
+        if (tk.br) { lines.push([]); x = X0; return; }
         const w = tk.n ? measure(tk.t, size, true) + 2 * pad : measure(tk.t, size);
         const line = lines[lines.length - 1];
         const prev = line[line.length - 1];
