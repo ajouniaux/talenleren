@@ -186,4 +186,5 @@ node build.js vijfzinnen_a1  # les 45 productions jalonnées A1 (Stap voor stap)
 node vijfzinnen_a1_md.js     # Stap voor stap : après avoir modifié vijfzinnen_a1_data.js, régénère le gabarit stap_voor_stap_a1.md
 node vijf_art_a1.js          # Stap voor stap : redessine les 45 illustrations (img/vijfzinnen/a1_*.jpg)
 node build.js en_pastsimple en_presentperfect en_psboxes   # les 3 decks anglais A2–B1 (voir ../anglais_grammaire)
+node build.js en_lesson1   # anglais UE3 : les 3 productions guidées du cours 1 (voir ../anglais_productions ; node en_lesson1_md.js régénère le gabarit)
 ```

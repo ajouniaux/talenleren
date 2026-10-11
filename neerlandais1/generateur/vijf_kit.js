@@ -7,6 +7,8 @@ const IMG = path.join(__dirname, 'img', 'vijfzinnen');
 const FONT = 'Calibri';
 const INK = '2B2F38'; const GREY = '6B7280';
 const ZIN = '5FA873'; const LAB = '7AB648'; const LAB_BG = 'E6F3DA'; const OK = '2E6B44';
+// le jalon supplémentaire (★ Challenge) : en or
+const GOLD = 'C99A06'; const GOLD_BG = 'FFF1C7'; const GOLD_BOX = 'FFF8E1';
 // les couleurs des bandeaux
 const LV = {
   A1: { fill: 'E6F4EA', line: '6DBE8A', text: '3D8C5A' },
@@ -18,13 +20,15 @@ const LV = {
   S2: { fill: 'E4EEFB', line: '6FA0DC', text: '3E6FB0' },
   S3: { fill: 'FDF1E4', line: 'F0A15E', text: 'B9661F' },
   S4: { fill: 'F4E8F6', line: 'B57FCB', text: '7E4C97' },
+  // les decks d'anglais (UE3) : le bleu nuit du livret
+  EN: { fill: 'E8EEF7', line: '1F3A68', text: '1F3A68' },
 };
 
 // largeur d'un texte en pouces (métriques de Calibri / Carlito)
 const measure = (t, size, bold) => {
   const tab = MET[bold ? 'b' : 'r'];
   let u = 0;
-  for (const ch of t) u += tab[ch] ?? 520;
+  for (const ch of t) u += tab[ch === '\u00a0' ? ' ' : ch] ?? 520;
   return (u / 1000) * (size / 72);
 };
 // « {n:texte|étiquette} » → segments
@@ -40,6 +44,17 @@ const parseEx = (str) => {
 
 function vijfKit(d, meta) {
   const P = d.pres;
+  // les libellés (néerlandais par défaut ; meta.T les remplace, p. ex. pour l'anglais)
+  const T = {
+    title: 'Gebruik deze afbeelding als inspiratie', zin: 'Zin', chipW: 1.0, ref: 'syllabus',
+    mode: { W: 'À L’ÉCRIT', O: 'À L’ORAL' },
+    partner: { W: 'Lees je tekst voor aan je partner.', O: 'Vertel je verhaal aan je partner.' }, partner2: 'Wat denkt hij/zij daarvan?',
+    example: (m) => `Hier is een voorbeeld van wat je had kunnen denken en ${m === 'W' ? 'schrijven' : 'zeggen'}…`,
+    bigNote: 'GRANDE IMAGE — laissez les apprenant·es observer et nommer ce qu’ils et elles voient avant d’écrire : Waar zijn we? Wie zie je? Wat gebeurt er?',
+    exNote: (n) => `EXEMPLE — chaque étiquette verte renvoie à une consigne (Zin 1 à Zin ${n}). Faites retrouver, pour chaque bribe, la consigne à laquelle elle répond.`,
+    challenge: '★ CHALLENGE', optional: 'optionnel',
+    ...(meta.T || {}),
+  };
   const foot = (text) => ({ text: { text, options: { x: 1.7, y: 7.08, w: 8, h: 0.28, fontSize: 9.5, color: '9AA3B2', margin: 0, valign: 'middle' } } });
   const num = { x: 12.3, y: 7.08, w: 0.6, h: 0.28, fontSize: 9.5, color: '9AA3B2', align: 'right' };
   P.defineSlideMaster({ title: 'VZ_PAGE', background: { color: 'FFFFFF' }, slideNumber: num, objects: [foot(meta.foot), { placeholder: { options: { name: 'title', type: 'title', x: 1.7, y: 0.42, w: 11.2, h: 0.72, fontSize: 30, bold: true, color: INK, align: 'center', valign: 'middle', margin: 0 }, text: '' } }] });
@@ -47,7 +62,7 @@ function vijfKit(d, meta) {
   P.defineSlideMaster({ title: 'VZ_LEFT', background: { color: 'FFFFFF' }, slideNumber: num, objects: [foot(meta.foot), { placeholder: { options: { name: 'title', type: 'title', x: 1.85, y: 0.38, w: 8.9, h: 1.0, fontSize: 24, bold: true, color: INK, align: 'left', valign: 'middle', margin: 0 }, text: '' } }] });
   P.defineSlideMaster({ title: 'VZ_COVER', background: { color: 'FFFFFF' }, objects: [foot(meta.L.coverFoot), { placeholder: { options: { name: 'title', type: 'title', x: 1.7, y: 1.35, w: 5.7, h: 1.3, fontSize: 54, bold: true, color: INK, align: 'left', valign: 'bottom', margin: 0 }, text: '' } }] });
 
-  const k = { INK, GREY, ZIN, LAB, OK, LV, FONT, measure };
+  const k = { INK, GREY, ZIN, LAB, OK, GOLD, GOLD_BG, GOLD_BOX, LV, FONT, measure, T };
   k.page = (g, title, o = {}) => {
     const s = d.slide(o.left ? 'VZ_LEFT' : 'VZ_PAGE');
     s.addText(title, { placeholder: 'title', ...(o.size ? { fontSize: o.size } : {}) });
@@ -77,15 +92,15 @@ function vijfKit(d, meta) {
     s.addImage({ path: path.join(IMG, `${img}${o.small ? '_s' : ''}.jpg`), x, y, w, h, rotate: o.rot });
     return h;
   };
-  k.zinChip = (s, n, x, y, w = 1.0, h = 0.44) => {
-    k.box(s, x, y, w, h, { fill: ZIN, r: 0.06 });
-    k.txt(s, `Zin ${n}`, x, y, w, h, { size: 16, color: 'FFFFFF', align: 'center' });
+  k.zinChip = (s, n, x, y, w = T.chipW, h = 0.44, fill = ZIN) => {
+    k.box(s, x, y, w, h, { fill, r: 0.06 });
+    k.txt(s, `${T.zin} ${n}`, x, y, w, h, { size: 16, color: 'FFFFFF', align: 'center' });
   };
   k.modeTag = (s, mode, x, y) => {
     const c = mode === 'W' ? '4A7BD0' : 'D9822B';
     k.box(s, x, y, 1.75, 0.4, { fill: mode === 'W' ? 'EAF1FC' : 'FDF1E6', line: c, lw: 1, r: 0.2 });
     d.icon(s, mode === 'W' ? 'FaPenNib' : 'FaComments', c, x + 0.14, y + 0.09, 0.22);
-    k.txt(s, mode === 'W' ? 'À L’ÉCRIT' : 'À L’ORAL', x + 0.42, y, 1.25, 0.4, { size: 11.5, bold: true, color: c, cs: 1 });
+    k.txt(s, T.mode[mode], x + 0.42, y, 1.25, 0.4, { size: 11.5, bold: true, color: c, cs: 1 });
   };
 
   // ------------------------------------------------------------ l'exemple : texte suivi, étiquettes posées au-dessus des bribes
@@ -94,15 +109,18 @@ function vijfKit(d, meta) {
     const labS = 11; const labH = 0.27; const labGap = 0.07; const sp = measure(' ', size);
     let y = Y0;
     paras.forEach((para) => {
+      const LC = para.gold ? GOLD : LAB; const BG = para.gold ? GOLD_BG : LAB_BG;
+      if (para.gold) y += 0.3;
       const toks = []; let space = false;
       if (para.speaker) { toks.push({ t: `${para.speaker}:`, n: 0, sp: true, space: false }); space = true; }
       parseEx(para.text).forEach((sg) => {
         if (sg.n) { toks.push({ t: sg.t, n: sg.n, tag: sg.tag, space }); space = false; return; }
         sg.t.split('\n').forEach((part, pi) => {
           if (pi) { toks.push({ br: true }); space = false; }
-          part.split(/(\s+)/).forEach((p) => {
+          // l'espace insécable (\u00a0) soude deux mots : « call him\u00a0out »
+          part.split(/([ \t]+)/).forEach((p) => {
             if (!p) return;
-            if (/^\s+$/.test(p)) { space = true; return; }
+            if (/^[ \t]+$/.test(p)) { space = true; return; }
             toks.push({ t: p, n: 0, space }); space = false;
           });
         });
@@ -119,6 +137,14 @@ function vijfKit(d, meta) {
         lines[lines.length - 1].push({ ...tk, x, w });
         x += w;
       });
+      // le jalon supplémentaire : un cadre doré et sa pastille « ★ CHALLENGE »
+      if (para.gold && draw) {
+        const hp = lines.filter((ln) => ln.length).reduce((h, ln) => h + (ln.some((tk) => tk.n) ? labH + labGap : 0) + lineH + 0.16, 0);
+        k.box(s, X0 - 0.2, y - 0.15, xmax - X0 + 0.35, hp + 0.08, { fill: GOLD_BOX, line: GOLD, lw: 1.25, r: 0.08 });
+        const tw = measure(`${T.challenge}  ·  ${T.optional}`, 11, true) + 0.3;
+        k.box(s, X0 - 0.05, y - 0.32, tw, 0.3, { fill: GOLD, r: 0.06 });
+        k.txt(s, `${T.challenge}  ·  ${T.optional}`, X0 - 0.05, y - 0.32, tw, 0.3, { size: 11, bold: true, color: 'FFFFFF', align: 'center', wrap: false });
+      }
       lines.forEach((ln) => {
         if (!ln.length) return;
         const hasFrag = ln.some((tk) => tk.n);
@@ -132,7 +158,7 @@ function vijfKit(d, meta) {
             if (tk.sp) { flush(); k.txt(s, tk.t, tk.x, ty, tk.w + 0.2, lineH, { size, bold: true, color: GREY, wrap: false }); return; }
             if (tk.n) {
               flush();
-              k.box(s, tk.x, ty + (lineH - boxH) / 2, tk.w, boxH, { fill: LAB_BG, r: 0.05 });
+              k.box(s, tk.x, ty + (lineH - boxH) / 2, tk.w, boxH, { fill: BG, r: 0.05 });
               k.txt(s, tk.t, tk.x, ty, tk.w, lineH, { size, bold: true, align: 'center', wrap: false });
             } else if (run) { run.t += (tk.space ? ' ' : '') + tk.t; run.w = tk.x + tk.w - run.x; } else run = { t: tk.t, x: tk.x, w: tk.w };
           });
@@ -143,8 +169,8 @@ function vijfKit(d, meta) {
             const lw = measure(label, labS, true) + 0.24;
             let lx = Math.max(tk.x + tk.w / 2 - lw / 2, last + 0.06, X0 - 0.15);
             lx = Math.min(lx, 12.95 - lw);
-            s.addShape(d.S.LINE, { x: Math.min(lx + lw / 2, tk.x + tk.w / 2), y: y + labH, w: Math.max(0.001, Math.abs(lx + lw / 2 - (tk.x + tk.w / 2))), h: labGap + (lineH - boxH) / 2, flipH: tk.x + tk.w / 2 < lx + lw / 2, line: { color: LAB, width: 1.25 } });
-            k.box(s, lx, y, lw, labH, { fill: LAB, r: 0.04 });
+            s.addShape(d.S.LINE, { x: Math.min(lx + lw / 2, tk.x + tk.w / 2), y: y + labH, w: Math.max(0.001, Math.abs(lx + lw / 2 - (tk.x + tk.w / 2))), h: labGap + (lineH - boxH) / 2, flipH: tk.x + tk.w / 2 < lx + lw / 2, line: { color: LC, width: 1.25 } });
+            k.box(s, lx, y, lw, labH, { fill: LC, r: 0.04 });
             k.txt(s, label, lx, y, lw, labH, { size: labS, color: 'FFFFFF', align: 'center', wrap: false });
             last = lx + lw;
           });
@@ -164,41 +190,51 @@ function vijfKit(d, meta) {
   // dialogues et SMS (c.lines) : une réplique par ligne, le nom de la personne qui parle en gris
   k.paragraphs = (c) => (c.lines
     ? c.ex.map((t) => { const m = t.match(/^((?:[A-Z][a-zé]+ ?){1,2}): (.*)$/); return m ? { text: m[2], speaker: m[1], crit: c.crit } : { text: t, crit: c.crit }; })
-    : [{ text: c.ex.slice(0, -1).join(' '), crit: c.crit }, { text: c.ex[c.ex.length - 1], crit: c.crit, center: true }]);
+    : [{ text: c.ex.slice(0, -1).join(' '), crit: c.crit }, { text: c.ex[c.ex.length - 1], crit: c.crit, center: true }])
+    .concat(c.ch && c.chEx ? [{ text: c.chEx, crit: [...c.crit, c.ch], gold: true }] : []);
 
   // ------------------------------------------------------------ les trois diapos d'un contexte
   // o : { lv, label (texte du bandeau), num (n° affiché), color (couleur du titre), start (taille de départ du texte) }
   k.context = (g, c, o) => {
-    const n = c.crit.length; const said = c.mode === 'W' ? 'schrijven' : 'zeggen';
+    const n = c.crit.length;
     // 1. la consigne
     {
-      const s = k.page(g, 'Gebruik deze afbeelding als inspiratie');
+      const s = k.page(g, T.title);
       k.banner(s, o.lv, o.label);
       k.txt(s, [{ text: `${o.num} · ${c.t}`, options: { bold: true, color: LV[o.lv].text } }, { text: `   ${c.fr}`, options: { italic: true, color: GREY } },
-        ...(c.ref ? [{ text: `   ·   syllabus ${c.ref}`, options: { color: '9AA3B2', fontSize: 12 } }] : [])], 1.7, 1.12, 11.2, 0.4, { size: 15, align: 'center' });
+        ...(c.ref ? [{ text: `   ·   ${T.ref} ${c.ref}`, options: { color: '9AA3B2', fontSize: 12 } }] : [])], 1.7, 1.12, 11.2, 0.4, { size: 15, align: 'center' });
       k.photo(s, c.img, 1.85, 1.75, 4.75, { small: true });
       k.modeTag(s, c.mode, 1.85, 5.0);
       k.txt(s, c.sit, 3.75, 4.97, 2.9, 0.8, { size: 11.5, italic: true, color: GREY, valign: 'top' });
-      const step = n <= 3 ? 0.95 : n === 4 ? 0.8 : 0.66; const y0 = 1.72 + (3.3 - step * n) / 2;
+      // avec un jalon supplémentaire, les consignes remontent pour lui laisser un cadre doré en bas
+      const area = c.ch ? 3.05 : 3.3; const top = c.ch ? 1.6 : 1.72;
+      const step = Math.min(n <= 3 ? 0.95 : n === 4 ? 0.8 : 0.66, area / n); const y0 = top + (area - step * n) / 2;
+      const tx = 6.95 + T.chipW + 0.15; const tw = 12.9 - tx;
       c.crit.forEach((kk, j) => {
         const y = y0 + j * step;
         k.zinChip(s, j + 1, 6.95, y + 0.06);
-        d.t(s, kk.t, 8.1, y, 4.8, 0.56, { size: n <= 3 ? 16 : 14.5, color: INK, valign: 'middle' });
+        d.t(s, kk.t, tx, y, tw, 0.56, { size: n <= 3 ? 16 : 14.5, color: INK, valign: 'middle' });
       });
+      if (c.ch) {
+        k.box(s, 6.82, 4.78, 6.18, 1.02, { fill: GOLD_BOX, line: GOLD, lw: 1.25, r: 0.1 });
+        k.zinChip(s, `${n + 1}`, 6.95, 5.07, T.chipW, 0.44, GOLD);
+        k.txt(s, `${T.challenge}  ·  ${T.optional}`, tx, 4.8, tw, 0.3, { size: 10.5, bold: true, color: GOLD, cs: 1 });
+        d.t(s, c.ch.t, tx, 5.08, tw, 0.68, { size: 13.5, color: INK, valign: 'top' });
+      }
       k.box(s, 3.55, 5.95, 7.5, 0.9, { fill: 'EAF5EC', line: ZIN, lw: 1.25, r: 0.16 });
       d.icon(s, 'FaUserFriends', ZIN, 3.85, 6.19, 0.42);
-      k.txt(s, [{ text: c.mode === 'W' ? 'Lees je tekst voor aan je partner.' : 'Vertel je verhaal aan je partner.', options: { breakLine: true } }, { text: 'Wat denkt hij/zij daarvan?' }], 4.5, 5.95, 6.4, 0.9, { size: 18, bold: true, color: OK, align: 'center' });
+      k.txt(s, [{ text: T.partner[c.mode], options: { breakLine: true } }, { text: T.partner2 }], 4.5, 5.95, 6.4, 0.9, { size: 18, bold: true, color: OK, align: 'center' });
     }
     // 2. la grande illustration
     {
-      const s = k.page(g, c.t, { size: 24, notes: 'GRANDE IMAGE — laissez les apprenant·es observer et nommer ce qu’ils et elles voient avant d’écrire : Waar zijn we? Wie zie je? Wat gebeurt er?' });
+      const s = k.page(g, c.t, { size: 24, notes: T.bigNote });
       k.banner(s, o.lv, o.label);
       const w = 8.85;
       k.photo(s, c.img, 1.7 + (11.2 - w) / 2, 1.35, w, { b: 0.12, blur: 14, off: 5 });
     }
     // 3. l'exemple
     {
-      const s = k.page(g, `Hier is een voorbeeld van wat je had kunnen denken en ${said}…`, { left: true, notes: `EXEMPLE — chaque étiquette verte renvoie à une consigne (Zin 1 à Zin ${n}). Faites retrouver, pour chaque bribe, la consigne à laquelle elle répond.` });
+      const s = k.page(g, T.example(c.mode), { left: true, notes: T.exNote(n) });
       k.banner(s, o.lv, o.label);
       k.photo(s, c.img, 11.05, 0.32, 1.75, { small: true, b: 0.05, blur: 6, off: 2 });
       const paras = k.paragraphs(c);

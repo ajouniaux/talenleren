@@ -60,3 +60,7 @@ npm run build   # réécrit les fichiers dans ../powerpoints
 ## Compléments de grammaire (A2–B1)
 
 Le dossier [`anglais_grammaire/`](anglais_grammaire/README.md) contient trois présentations autonomes, en schémas, sur le **past simple** et le **present perfect** (règles, exceptions, comparaison, dix exercices chacune), et un complément sur la phrase au past simple découpée en cases (+ − ?). Elles prolongent les séances 3, 7, 9 et 13 du dossier.
+
+## Productions guidées (B1)
+
+Le dossier [`anglais_productions/`](anglais_productions/README.md) propose des tâches d'écriture et d'oral **jalonnées**, à faire après chaque cours, dans le style *Use this picture as inspiration* : une illustration du livret, cinq consignes (Sentence 1 à 5), un exemple aux bribes étiquetées, et un **jalon supplémentaire plus difficile** (★ Challenge, Sentence 6). *In five sentences (+1) · Lesson 1* évalue en trois productions le lexique et la grammaire du premier cours : le message de 06.58, Atlas House à 8.15, la chronologie pour 9 h (prépositions de temps, past simple, phrasal verbs, carte mentale de l'incident, fait ≠ supposition ; past simple ≠ present perfect dans le jalon).
