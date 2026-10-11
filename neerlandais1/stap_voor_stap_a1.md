@@ -147,7 +147,7 @@
 > 2. L’après-midi : **’S MIDDAGS** + verbe + **IK**.
 > 3. Le soir : **’S AVONDS** + verbe + **IK**.
 >
-> **EXEMPLE** — [’s Morgens]₁ werk ik op school. [’s Middags]₂ eet ik een broodje. [’s Avonds]₃ kijk ik een film… en ik slaap!
+> **EXEMPLE** — [’s Morgens]₁ werk ik op school. [’s Middags]₂ eet ik een broodje. [’s Avonds]₃ kijk ik een film… en ik slaap in de zetel!
 
 **Notes pour l'animateur** — ’s morgens, ’s middags et ’s avonds expriment une habitude (tous les jours). Rappelez le bloc « moment + verbe + ik ». Les verbes utiles : werk, eet, drink, kijk, ga, slaap. Variante orale : le voisin ou la voisine devine l’heure de chaque phrase.
 
@@ -163,7 +163,7 @@
 - **Exemple** : « Hier is een voorbeeld van wat je had kunnen denken en zeggen… », vignette, puis le texte, chaque bribe surlignée et surmontée de son étiquette verte.
 
 **Contenu textuel**
-> *Il est 20 h. Pieter téléphone à Emma. Que fait-il ce soir ?*
+> *Il est 22 h. Pieter téléphone à Emma. Que fait-il ce soir ?*
 > 1. Saluez selon le moment : **GOEDENAVOND** + prénom.
 > 2. Ce soir précisément : **VANAVOND** + verbe + **IK**.
 > 3. Avant de dormir : **WELTERUSTEN!** ou **GOEDENACHT!**
@@ -184,7 +184,7 @@
 - **Exemple** : « Hier is een voorbeeld van wat je had kunnen denken en schrijven… », vignette, puis le texte, chaque bribe surlignée et surmontée de son étiquette verte.
 
 **Contenu textuel**
-> *D’habitude, vous travaillez. Mais aujourd’hui, c’est les vacances !*
+> *D’habitude, vous travaillez. Mais aujourd’hui, vous êtes en vacances !*
 > 1. Une habitude : **’S MORGENS** + verbe + **IK**.
 > 2. Mais aujourd’hui : **VANDAAG** + verbe + **IK**.
 > 3. Cet après-midi : **VANMIDDAG** + verbe + **IK**.
@@ -212,7 +212,7 @@
 >
 > **EXEMPLE** — Pieter: Hoi Emma! [Hoe gaat het?]₁ / Emma: [Het gaat prima]₂, dank je. [En met jou?]₃ / Pieter: Ook goed, bedankt!
 
-**Notes pour l'animateur** — Échelle des réponses : slecht · niet zo goed · het kan beter · het gaat wel · goed · prima · uitstekend. Tutoiement : Hoe gaat het met je / met jou? — vouvoiement : met u. Jouez le mini-dialogue trois fois, chaque fois plus vite (couche 3 : fluidité).
+**Notes pour l'animateur** — Échelle des réponses : slecht · niet zo goed · het valt niet mee · het kan beter · het gaat wel · goed · prima · uitstekend. Tutoiement : Hoe gaat het met je / met jou? — vouvoiement : met u. Jouez le mini-dialogue trois fois, chaque fois plus vite (couche 3 : fluidité).
 
 ---
 
@@ -233,7 +233,7 @@
 >
 > **EXEMPLE** — [Ik ben een beetje moe]₁, [want ik heb veel werk]₂. [Ik voel me]₃ ook gestrest… Koffie, alsjeblieft!
 
-**Notes pour l'animateur** — Les nuanceurs : een beetje (un peu) → vrij (assez) → heel / zeer (très) → ontzettend (extrêmement). Adjectifs : moe, blij, gestrest, ontspannen, druk, nerveus, gelukkig, verdrietig, bang. Après want, l’ordre des mots ne change pas : want ik heb… Jeu « Twee gevoelens, één leugen » : trois phrases, une fausse.
+**Notes pour l'animateur** — Les nuanceurs : een beetje (un peu) → vrij (assez) → heel / zeer (très) → ontzettend (extrêmement). Adjectifs : moe, blij, gestrest, ontspannen, druk, nerveus, gelukkig, verdrietig, bang. Pour « occupé·e », on dit plus souvent : ik heb het druk. Après want, l’ordre des mots ne change pas : want ik heb… Jeu « Twee gevoelens, één leugen » : trois phrases, une fausse.
 
 ---
 
@@ -319,7 +319,7 @@
 > 3. Une réponse négative : **NEE, IK HEB GEEN** …
 > 4. Une chute avec **ER IS** …
 >
-> **EXEMPLE** — Pieter: [Ik heb]₁ honger! [Heb je]₂ een broodje, Emma? / Emma: [Nee, ik heb geen]₃ broodje. / Maar kijk: [er is]₄ een frietkot!
+> **EXEMPLE** — Pieter: [Ik heb]₁ honger! [Heb je]₂ een broodje, Emma? / Emma: [Nee, ik heb geen]₃ broodje. / Emma: Maar [er is]₄ hier een frietkot!
 
 **Notes pour l'animateur** — Avec HEBBEN : honger (faim), dorst (soif), tijd (le temps), gelijk (raison). Question oui / non : le verbe en premier, et le -t disparaît devant je : Heb je…? (✗ Hebt je). Een → geen à la forme négative.
 
@@ -447,7 +447,7 @@
 >
 > **EXEMPLE** — [De koffie]₁ is heet. [Het brood]₂ is vers. Er is [een banaan]₃ voor Emma. Help! [De katten]₄ eten de kaas!
 
-**Notes pour l'animateur** — Apprenez toujours le mot avec son article. De ≈ 3 mots sur 4 ; het : les diminutifs (het meisje), les langues (het Nederlands), les verbes-noms (het eten). Au pluriel, toujours de : het huis → de huizen. Pas de « een » au pluriel.
+**Notes pour l'animateur** — Apprenez toujours le mot avec son article. De ≈ 2 mots sur 3 ; het : les diminutifs (het meisje), les langues (het Nederlands), les verbes-noms (het eten). Au pluriel, toujours de : het huis → de huizen. Pas de « een » au pluriel.
 
 ---
 
@@ -465,11 +465,11 @@
 > 1. Un pluriel en **-EN** : twee brod**en**…
 > 2. Un pluriel en **-S** : zes croissant**s**…
 > 3. Une question : **HOEVEEL KOSTEN** … ?
-> 4. Une chute avec un pluriel irrégulier : kinder**en**, eier**en**.
+> 4. Une chute avec un pluriel irrégulier : kind**eren**, ei**eren**.
 >
 > **EXEMPLE** — Ik koop twee [broden]₁ en zes [croissants]₂. [Hoeveel kosten]₃ de taarten? Ik heb vier [kinderen]₄… en ze hebben honger!
 
-**Notes pour l'animateur** — Règle générale : -en. Après -el, -er, -en, -je : -s (tafels, computers, meisjes). Après a, o, u, i, y : -’s (auto’s). L’orthographe bouge : brood → broden (voyelle longue : une seule lettre), bus → bussen (voyelle courte : consonne doublée). Irréguliers : kind → kinderen, ei → eieren.
+**Notes pour l'animateur** — Règle générale : -en. Après -el, -er, -en, -je : -s (tafels, computers, meisjes), comme beaucoup de mots empruntés (croissants). Après a, o, u, i, y : -’s (auto’s). L’orthographe bouge : brood → broden (voyelle longue : une seule lettre), bus → bussen (voyelle courte : consonne doublée). Irréguliers : kind → kinderen, ei → eieren.
 
 ---
 
@@ -513,7 +513,7 @@
 >
 > **EXEMPLE** — Het huis van Sarah [is groot]₁. Het heeft [een rode deur]₂ en [een klein balkon]₃. En in de tuin? [Twee grote honden]₄!
 
-**Notes pour l'animateur** — Mémo : een groot huis · het grote huis · een grote man · grote huizen. Pas de -e seulement si trois conditions sont réunies : mot en het + een (ou geen) + singulier. Variante : décrivez votre propre maison ou votre chambre.
+**Notes pour l'animateur** — Mémo : een groot huis · het grote huis · een grote man · grote huizen. Le -e disparaît seulement si trois conditions sont réunies : mot en het + singulier + een / geen (ou sans article : vers brood). Variante : décrivez votre propre maison ou votre chambre.
 
 ---
 
@@ -535,7 +535,7 @@
 >
 > **EXEMPLE** — — Hallo! [Hoe heet je]₁? — Lisa. / — [Waar woon je]₂? — In Gent. / — [Spreek je]₃ Frans? — Ja, een beetje. / — [Wat drink je]₄? — Thee… met veel suiker!
 
-**Notes pour l'animateur** — Question ouverte : mot en W + verbe + sujet (Waar woon je?). Question oui / non : verbe + sujet (Woon je in Gent?). Devant je / jij, le -t disparaît : jij drinkt → Drink jij koffie? Les mots en W : wie, wat, waar, wanneer, waarom, hoe, hoeveel, welke.
+**Notes pour l'animateur** — Question ouverte : mot en W + verbe + sujet (Waar woon je?). Question oui / non : verbe + sujet (Woon je in Gent?). Devant je / jij, le -t disparaît : jij drinkt → Drink jij koffie? Les mots interrogatifs : wie, wat, waar, wanneer, waarom, hoe, hoeveel, welke.
 
 ---
 
@@ -577,7 +577,7 @@
 > 3. L’heure : **HET IS** + half / kwart over / kwart voor…
 > 4. Une chute avec un **nombre** au-dessus de 20.
 >
-> **EXEMPLE** — [Op maandag]₁ heeft Emma een les [om negen uur]₂. Oei, [het is half negen]₃! En haar bus heeft [vijfentwintig]₄ minuten vertraging!
+> **EXEMPLE** — [Op maandag]₁ heeft Emma les [om negen uur]₂. Oei, [het is half negen]₃! En haar bus heeft [vijfentwintig]₄ minuten vertraging!
 
 **Notes pour l'animateur** — Piège : half negen = 8 h 30 (à mi-chemin vers neuf heures). Kwart over acht = 8 h 15 ; kwart voor negen = 8 h 45. Au-dessus de 20, l’unité d’abord : 25 = vijfentwintig. Om + heure · op + jour, date · in + mois, saison.
 
@@ -595,7 +595,7 @@
 **Contenu textuel**
 > *Le chat de Sarah se cache partout ! Où est-il ?*
 > 1. **OP** : sur une surface.
-> 2. **IN** : dans un lieu fermé.
+> 2. **IN** : dans, à l’intérieur.
 > 3. **BIJ** : chez, près de.
 > 4. Une chute avec **NAAR** (un mouvement) !
 >
@@ -643,9 +643,9 @@
 > 3. Avec **EVEN** : un instant.
 > 4. Une chute polie avec **ALSJEBLIEFT**.
 >
-> **EXEMPLE** — Goedemorgen! [Kom maar binnen]₁! [Open]₂ je boek. [Luister even]₃! En je gsm in je tas, [alsjeblieft]₄!
+> **EXEMPLE** — Goedemorgen! [Kom maar binnen]₁! [Open]₂ je boek. [Luister even]₃! En stop je gsm in je tas, [alsjeblieft]₄!
 
-**Notes pour l'animateur** — Impératif = infinitif sans -en : luisteren → luister, kijken → kijk, lezen → lees (z → s). Une seule forme pour tout le monde. Un impératif seul paraît sec : ajoutez even (un instant), eens (pour voir), maar (vas-y) ou alsjeblieft / alstublieft. Jeu « Jacques a dit » : « Simon zegt: sta op! ».
+**Notes pour l'animateur** — Impératif = la forme de « ik » (le radical) : luisteren → luister, kijken → kijk, lezen → lees, zitten → zit, opstaan → sta op. Une seule forme pour tout le monde. Un impératif seul paraît sec : ajoutez even (un instant), eens (pour voir), maar (vas-y) ou alsjeblieft / alstublieft. Jeu « Jacques a dit » : « Simon zegt: sta op! ».
 
 ---
 
@@ -696,7 +696,7 @@
 - **Exemple** : « Hier is een voorbeeld van wat je had kunnen denken en schrijven… », vignette, puis le texte, chaque bribe surlignée et surmontée de son étiquette verte.
 
 **Contenu textuel**
-> *Dimanche, toute la famille mange chez la grand-mère. Présentez-la.*
+> *Dimanche, toute la famille mange chez la grand-mère. Présentez votre famille.*
 > 1. Les parents : **MIJN VADER** / **MIJN MOEDER** …
 > 2. Les frères et sœurs : **IK HEB** een broer / een zus…
 > 3. Les grands-parents : **MIJN OMA** / **MIJN OPA** …
@@ -724,7 +724,7 @@
 > 3. Un lieu de la ville : het station, de brug, de kerk…
 > 4. Une chute avec **HET VERKEERSLICHT**.
 >
-> **EXEMPLE** — [Ik woon in]₁ Antwerpen. Ik ga [met de fiets]₂ naar het werk. Ik fiets naar [het station]₃ en over [de brug]₃. Maar [het verkeerslicht]₄ is rood… en ik ben laat!
+> **EXEMPLE** — [Ik woon in]₁ Antwerpen. Ik ga [met de fiets]₂ naar het werk. Ik fiets naar [het station]₃ en over [de brug]₃. Maar [het verkeerslicht]₄ is rood… en ik ben te laat!
 
 **Notes pour l'animateur** — Mots de la fiche : het station, de trein, de bus, de tram, de fiets, de auto, de straat, het verkeerslicht, de brug, de kerk, het museum, de bibliotheek, de plattegrond, de bushalte, de parking. Met de… (le moyen) · naar… (la destination).
 
@@ -790,9 +790,9 @@
 > 3. Un symptôme : **IK HEB KOORTS**.
 > 4. Une chute : **IK GA NAAR** de dokter / de apotheek…
 >
-> **EXEMPLE** — Hallo Pieter, [ik ben ziek]₁. [Mijn hoofd doet pijn]₂. [Ik heb koorts]₃: negenendertig graden! Morgen [ga ik naar]₄ de dokter… of naar oma!
+> **EXEMPLE** — Hallo Pieter, [ik ben ziek]₁. [Mijn hoofd doet pijn]₂. [Ik heb koorts]₃: negenendertig graden! Vanmiddag [ga ik naar]₄ de dokter… en niet naar kantoor!
 
-**Notes pour l'animateur** — Mots de la fiche : het hoofd, het oog, de neus, de mond, het oor, de hand, de arm, het been, de voet, de buik, de dokter, het ziekenhuis, de apotheek, de medicijnen, de koorts. Mijn buik / mijn keel / mijn rug doet pijn. Mimez : la classe devine où vous avez mal.
+**Notes pour l'animateur** — Mots de la fiche : het hoofd, het oog, de neus, de mond, het oor, de hand, de arm, het been, de voet, de buik, de dokter, het ziekenhuis, de apotheek, de medicijnen, de koorts. Mijn buik / mijn keel / mijn rug doet pijn. « Vanmiddag ga ik » : le bloc de la séquence 1.1 (moment + verbe + ik), l’étiquette IK GA NAAR se pose donc sur « ga ik naar ». Mimez : la classe devine où vous avez mal.
 
 ---
 
@@ -814,7 +814,7 @@
 >
 > **EXEMPLE** — [Ik werk in]₁ een groot kantoor in Brussel. [Er is]₂ een nieuwe computer op mijn bureau. [Mijn collega]₃ is heel vriendelijk. Maar [de koffieautomaat]₄ is kapot!
 
-**Notes pour l'animateur** — Mots de la fiche : het kantoor (le lieu), het bureau (le meuble), de computer, de printer, de vergadering, de collega, de baas, de fabriek, het contract, het loon, de koffieautomaat, de lift, de klant. Attention : het bureau = le meuble ; het kantoor = le bureau-lieu.
+**Notes pour l'animateur** — Mots de la fiche : het kantoor (le lieu), het bureau (le meuble), de computer, de printer, de vergadering, de collega, de baas, de fabriek, het contract, het loon, de koffieautomaat, de lift, de klant. Attention : het bureau = le meuble ; het kantoor = le bureau-lieu (en Belgique, on entend aussi « naar het bureau » pour le lieu).
 
 ---
 
@@ -834,7 +834,7 @@
 > 3. Une demande à l’impératif : **BEL** me / **STUUR** …
 > 4. Prenez congé : **TOT STRAKS** + votre prénom.
 >
-> **EXEMPLE** — [Hoi Pieter]₁! / Ik ben laat: [mijn gsm]₂ is bijna leeg en ik heb geen oplader. / [Bel]₃ me niet, [stuur]₃ een berichtje! / [Tot straks]₄, Emma
+> **EXEMPLE** — [Hoi Pieter]₁! / Ik ben te laat: [mijn gsm]₂ is bijna leeg en ik heb geen oplader. / [Bel]₃ me niet, [stuur]₃ me een berichtje! / [Tot straks]₄, Emma
 
 **Notes pour l'animateur** — Mots de la fiche : de telefoon, de gsm, bellen, het berichtje, de e-mail, de bijlage, het scherm, de headset, de wifi, de oplader, versturen, het wachtwoord, het videogesprek. Écrivez le SMS sur un vrai téléphone et envoyez-le à votre voisin·e, qui répond.
 
@@ -856,7 +856,7 @@
 > 3. Une question : **WAAR IS** het loket … ?
 > 4. Une chute avec **DE WACHTRIJ**.
 >
-> **EXEMPLE** — Goedemorgen, [ik heb een afspraak]₁ om tien uur. [Hier is]₂ mijn paspoort en het formulier. [Waar is]₃ loket drie? O nee, [de wachtrij]₄ is heel lang… twintig mensen!
+> **EXEMPLE** — Goedemorgen, [ik heb een afspraak]₁ om tien uur. [Hier is]₂ mijn paspoort, en hier is het formulier. [Waar is]₃ loket drie? O nee, [de wachtrij]₄ is heel lang… twintig mensen!
 
 **Notes pour l'animateur** — Mots de la fiche : het formulier, de handtekening, het paspoort, het gemeentehuis, het loket, de wachtrij, de stempel, de brief, de envelop, de postzegel, de brievenbus, de afspraak, het dossier, de factuur. Jeu de rôle : l’employé·e au guichet répond « Neem een nummertje! ».
 
@@ -900,7 +900,7 @@
 > 3. Une opinion négative : **IK VIND HET NIET LEUK**.
 > 4. Une chute avec **WANT**.
 >
-> **EXEMPLE** — [Ik ben een beetje zenuwachtig]₁. Muziek? [Ik vind het leuk]₂! Zingen? [Ik vind het niet leuk]₃… Maar ik zing toch, [want Pieter zingt heel vals]₄!
+> **EXEMPLE** — [Ik ben een beetje zenuwachtig]₁. Dansen? [Ik vind het leuk]₂! Zingen? [Ik vind het niet leuk]₃… Maar ik zing toch, [want Pieter zingt heel vals]₄!
 
 **Notes pour l'animateur** — Mots de la fiche : blij, verdrietig, boos, bang, moe, verrast, verliefd, zenuwachtig, zich vervelen, trots, rustig, ziek · Ik vind het (niet) leuk · Ik weet het niet. Vals zingen = chanter faux. Variante : un sondage dans la classe (« Vind je zingen leuk? »).
 
@@ -940,7 +940,7 @@
 >
 > **EXEMPLE** — [Goedemorgen, mevrouw]₁. [Ik zoek werk]₂ en [ik wil me inschrijven]₃. [Welke documenten]₄ heb ik nodig? Oei… ik heb mijn identiteitskaart [niet]₅ bij me!
 
-**Notes pour l'animateur** — Vocabulaire du jalon A1 : inschrijven, zoeken, de werkzoekende, het interimkantoor, het inschrijvingsformulier, zich aanmelden. « Ik heb mijn identiteitskaart niet bij me » : niet devant un possessif (fiche 06). Jeu de rôle : l’employé·e demande « Hoe heet u? Wat is uw adres? ».
+**Notes pour l'animateur** — Vocabulaire du jalon A1 : inschrijven, zoeken, de werkzoekende, het interimkantoor, het inschrijvingsformulier, zich aanmelden. « Ik heb mijn identiteitskaart niet bij me » : mijn + nom → niet (pas geen) ; niet vient après l’objet, devant la préposition (bij me) (fiche 06). Jeu de rôle : l’employé·e demande « Hoe heet u? Wat is uw adres? ».
 
 ---
 
@@ -1000,14 +1000,14 @@
 
 **Contenu textuel**
 > *Vous voulez suivre un cours de néerlandais. Vous posez vos questions à l’accueil.*
-> 1. Le début : **WANNEER** begint de les?
+> 1. Le début : **WANNEER** begint de cursus?
 > 2. Le lieu : **WAAR** is het klaslokaal?
 > 3. Le prix : **HOEVEEL** kost de cursus?
 > 4. Une chute avec **HOE LANG** duurt … ?
 >
-> **EXEMPLE** — [Wanneer]₁ begint de les? [Waar]₂ is het klaslokaal? [Hoeveel]₃ kost de cursus? En [hoe lang]₄ duurt de pauze?
+> **EXEMPLE** — [Wanneer]₁ begint de cursus? [Waar]₂ is het klaslokaal? [Hoeveel]₃ kost de cursus? En [hoe lang]₄ duurt de pauze?
 
-**Notes pour l'animateur** — Vocabulaire du jalon A1 : wanneer, het klaslokaal, de les, hoeveel, hoe lang, welke, beginnen, kosten, duren. Jalon A2 (pour les plus rapides) : répondre — « De les begint op maandag en duurt tien weken. »
+**Notes pour l'animateur** — Vocabulaire du jalon A1 : wanneer, het klaslokaal, de les, hoeveel, hoe lang, welke, beginnen, kosten, duren. Jalon A2 (pour les plus rapides) : répondre — « De cursus begint op maandag en duurt tien weken. »
 
 ---
 
@@ -1047,10 +1047,10 @@
 > *Entretien d’embauche. Répondez simplement aux questions.*
 > 1. Ce que vous savez faire : **IK KAN GOED** + verbe.
 > 2. Ce que vous voulez apprendre : **IK WIL GRAAG** … **LEREN**.
-> 3. Quand vous commencez : **IK KAN BEGINNEN OP** …
+> 3. Quand vous commencez : **IK KAN** + jour + **BEGINNEN**.
 > 4. Une chute avec **MAAR** !
 >
-> **EXEMPLE** — [Ik kan goed]₁ koken en organiseren. [Ik wil graag]₂ beter Nederlands [leren]₂. [Ik kan beginnen op]₃ maandag… [Maar]₄ niet om zeven uur ’s morgens!
+> **EXEMPLE** — [Ik kan goed]₁ koken en organiseren. [Ik wil graag]₂ beter Nederlands [leren]₂. [Ik kan]₃ maandag [beginnen]₃… [Maar]₄ niet om zeven uur ’s morgens!
 
 **Notes pour l'animateur** — Vocabulaire du jalon A1 : kunnen, willen, moeten, leren, beginnen, goed, graag, nog, vanaf. Verbe modal + infinitif à la fin : Ik kan goed koken. Ik wil Nederlands leren. Jeu de rôle avec les questions du syllabus : Wat kunt u goed? Wanneer kunt u beginnen?
 
@@ -1073,7 +1073,7 @@
 > 4. Une autre question : **WIE IS** … ?
 > 5. Une chute amusante !
 >
-> **EXEMPLE** — — Hallo, [ik ben nieuw hier]₁. Ik ben Lisa. / — [Ik werk op de afdeling]₂ marketing. [Wat doe jij]₃? / — Ik werk in de administratie. / — En [wie is]₄ de manager? — [Ik!]₅
+> **EXEMPLE** — — Hallo, [ik ben nieuw hier]₁. Ik ben Lisa. [Ik werk op de afdeling]₂ marketing. / — Welkom, Lisa! Ik ben Tom. / — [Wat doe jij]₃, Tom? — Ik werk in de administratie. / — En [wie is]₄ de manager? — [Ik!]₅
 
 **Notes pour l'animateur** — Vocabulaire du jalon A1 : nieuw, hier, de afdeling, werken, doen, de marketing, de administratie, de verkoopafdeling. Jouez la scène debout, comme à la machine à café. Variante : chacun·e tire une carte « afdeling » (marketing, verkoop, logistiek…).
 
@@ -1095,7 +1095,7 @@
 > 3. Répondez avec un nuanceur : een beetje, heel, **ONTZETTEND**…
 > 4. Une chute avec **WANT**.
 >
-> **EXEMPLE** — — [Hoe voel je je vandaag]₁, Sarah? [Ben je moe]₂? / — Ja, [ontzettend moe]₃, [want mijn baby slaapt niet]₄!
+> **EXEMPLE** — — [Hoe voel je je vandaag]₁, Sarah? [Ben je moe]₂? / — Ja, [ontzettend moe]₃, [want mijn baby slaapt ’s nachts niet]₄!
 
 **Notes pour l'animateur** — Vocabulaire du jalon A1 : moe, gestrest, rustig, vrij, heel, bezet, een beetje, ontzettend. Recyclage de la séquence 1.2 (ik voel me + nuanceur + adjectif). Jeu : on mime une émotion, la classe demande « Ben je… ? ».
 

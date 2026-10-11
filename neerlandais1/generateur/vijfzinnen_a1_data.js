@@ -39,13 +39,13 @@ const SECTIONS = [
         ex: [
           '{1:’s Morgens|’S MORGENS} werk ik op school.',
           '{2:’s Middags|’S MIDDAGS} eet ik een broodje.',
-          '{3:’s Avonds|’S AVONDS} kijk ik een film… en ik slaap!',
+          '{3:’s Avonds|’S AVONDS} kijk ik een film… en ik slaap in de zetel!',
         ],
         notes: '’s morgens, ’s middags et ’s avonds expriment une habitude (tous les jours). Rappelez le bloc « moment + verbe + ik ». Les verbes utiles : werk, eet, drink, kijk, ga, slaap. Variante orale : le voisin ou la voisine devine l’heure de chaque phrase.',
       },
       {
         t: 'Vanavond', img: 'a1_vanavond', fr: 'Ce soir', ref: '1.1 · p. 6', mode: 'O',
-        sit: 'Il est 20 h. Pieter téléphone à Emma. Que fait-il ce soir ?',
+        sit: 'Il est 22 h. Pieter téléphone à Emma. Que fait-il ce soir ?',
         crit: [
           { t: 'Saluez selon le moment : **GOEDENAVOND** + prénom.', k: 'GOEDENAVOND' },
           { t: 'Ce soir précisément : **VANAVOND** + verbe + **IK**.', k: 'VANAVOND' },
@@ -60,7 +60,7 @@ const SECTIONS = [
       },
       {
         t: 'Vandaag is anders!', img: 'a1_vandaag', fr: 'Aujourd’hui, c’est différent !', ref: '1.1 · p. 6', mode: 'W',
-        sit: 'D’habitude, vous travaillez. Mais aujourd’hui, c’est les vacances !',
+        sit: 'D’habitude, vous travaillez. Mais aujourd’hui, vous êtes en vacances !',
         crit: [
           { t: 'Une habitude : **’S MORGENS** + verbe + **IK**.', k: 'HABITUDE' },
           { t: 'Mais aujourd’hui : **VANDAAG** + verbe + **IK**.', k: 'VANDAAG' },
@@ -86,7 +86,7 @@ const SECTIONS = [
           'Emma: {2:Het gaat prima|HET GAAT …}, dank je. {3:En met jou?}',
           'Pieter: Ook goed, bedankt!',
         ],
-        notes: 'Échelle des réponses : slecht · niet zo goed · het kan beter · het gaat wel · goed · prima · uitstekend. Tutoiement : Hoe gaat het met je / met jou? — vouvoiement : met u. Jouez le mini-dialogue trois fois, chaque fois plus vite (couche 3 : fluidité).',
+        notes: 'Échelle des réponses : slecht · niet zo goed · het valt niet mee · het kan beter · het gaat wel · goed · prima · uitstekend. Tutoiement : Hoe gaat het met je / met jou? — vouvoiement : met u. Jouez le mini-dialogue trois fois, chaque fois plus vite (couche 3 : fluidité).',
       },
       {
         t: 'Een beetje moe', img: 'a1_moe', fr: 'Un peu fatigué·e', ref: '1.2 · p. 25', mode: 'W',
@@ -101,7 +101,7 @@ const SECTIONS = [
           '{3:Ik voel me} ook gestrest…',
           'Koffie, alsjeblieft!',
         ],
-        notes: 'Les nuanceurs : een beetje (un peu) → vrij (assez) → heel / zeer (très) → ontzettend (extrêmement). Adjectifs : moe, blij, gestrest, ontspannen, druk, nerveus, gelukkig, verdrietig, bang. Après want, l’ordre des mots ne change pas : want ik heb… Jeu « Twee gevoelens, één leugen » : trois phrases, une fausse.',
+        notes: 'Les nuanceurs : een beetje (un peu) → vrij (assez) → heel / zeer (très) → ontzettend (extrêmement). Adjectifs : moe, blij, gestrest, ontspannen, druk, nerveus, gelukkig, verdrietig, bang. Pour « occupé·e », on dit plus souvent : ik heb het druk. Après want, l’ordre des mots ne change pas : want ik heb… Jeu « Twee gevoelens, één leugen » : trois phrases, une fausse.',
       },
       {
         t: 'Goedemiddag, meneer Janssens!', img: 'a1_janssens', fr: 'Bonjour, Monsieur !', ref: '1.2 · p. 21', mode: 'O', lines: true,
@@ -166,7 +166,7 @@ const SECTIONS = [
         ex: [
           'Pieter: {1:Ik heb} honger! {2:Heb je} een broodje, Emma?',
           'Emma: {3:Nee, ik heb geen|GEEN} broodje.',
-          'Maar kijk: {4:er is} een frietkot!',
+          'Emma: Maar {4:er is} hier een frietkot!',
         ],
         notes: 'Avec HEBBEN : honger (faim), dorst (soif), tijd (le temps), gelijk (raison). Question oui / non : le verbe en premier, et le -t disparaît devant je : Heb je…? (✗ Hebt je). Een → geen à la forme négative.',
       },
@@ -261,7 +261,7 @@ const SECTIONS = [
           'Er is {3:een banaan|EEN} voor Emma.',
           'Help! {4:De katten|DE + pluriel} eten de kaas!',
         ],
-        notes: 'Apprenez toujours le mot avec son article. De ≈ 3 mots sur 4 ; het : les diminutifs (het meisje), les langues (het Nederlands), les verbes-noms (het eten). Au pluriel, toujours de : het huis → de huizen. Pas de « een » au pluriel.',
+        notes: 'Apprenez toujours le mot avec son article. De ≈ 2 mots sur 3 ; het : les diminutifs (het meisje), les langues (het Nederlands), les verbes-noms (het eten). Au pluriel, toujours de : het huis → de huizen. Pas de « een » au pluriel.',
       },
       {
         t: 'Bij de bakker', img: 'a1_bakker', fr: 'Chez le boulanger', ref: 'fiche 02 · p. 59', mode: 'W',
@@ -270,14 +270,14 @@ const SECTIONS = [
           { t: 'Un pluriel en **-EN** : twee brod**en**…', k: '-EN' },
           { t: 'Un pluriel en **-S** : zes croissant**s**…', k: '-S' },
           { t: 'Une question : **HOEVEEL KOSTEN** … ?', k: 'HOEVEEL' },
-          { t: 'Une chute avec un pluriel irrégulier : kinder**en**, eier**en**.', k: '-EREN' },
+          { t: 'Une chute avec un pluriel irrégulier : kind**eren**, ei**eren**.', k: '-EREN' },
         ],
         ex: [
           'Ik koop twee {1:broden|-EN} en zes {2:croissants|-S}.',
           '{3:Hoeveel kosten|HOEVEEL} de taarten?',
           'Ik heb vier {4:kinderen|-EREN}… en ze hebben honger!',
         ],
-        notes: 'Règle générale : -en. Après -el, -er, -en, -je : -s (tafels, computers, meisjes). Après a, o, u, i, y : -’s (auto’s). L’orthographe bouge : brood → broden (voyelle longue : une seule lettre), bus → bussen (voyelle courte : consonne doublée). Irréguliers : kind → kinderen, ei → eieren.',
+        notes: 'Règle générale : -en. Après -el, -er, -en, -je : -s (tafels, computers, meisjes), comme beaucoup de mots empruntés (croissants). Après a, o, u, i, y : -’s (auto’s). L’orthographe bouge : brood → broden (voyelle longue : une seule lettre), bus → bussen (voyelle courte : consonne doublée). Irréguliers : kind → kinderen, ei → eieren.',
       },
       {
         t: 'Waar is mijn gsm?', img: 'a1_spullen', fr: 'Où est mon portable ?', ref: 'fiche 03 · p. 60', mode: 'O',
@@ -310,7 +310,7 @@ const SECTIONS = [
           'Het heeft {2:een rode deur|adj. + -E} en {3:een klein balkon|EEN + adj. + HET}.',
           'En in de tuin? {4:Twee grote honden|pluriel + -E}!',
         ],
-        notes: 'Mémo : een groot huis · het grote huis · een grote man · grote huizen. Pas de -e seulement si trois conditions sont réunies : mot en het + een (ou geen) + singulier. Variante : décrivez votre propre maison ou votre chambre.',
+        notes: 'Mémo : een groot huis · het grote huis · een grote man · grote huizen. Le -e disparaît seulement si trois conditions sont réunies : mot en het + singulier + een / geen (ou sans article : vers brood). Variante : décrivez votre propre maison ou votre chambre.',
       },
       {
         t: 'Hoe heet je?', img: 'a1_vragen', fr: 'Comment t’appelles-tu ?', ref: 'fiche 05 · p. 62', mode: 'O', lines: true,
@@ -327,7 +327,7 @@ const SECTIONS = [
           '— {3:Spreek je|VERBE + JE} Frans? — Ja, een beetje.',
           '— {4:Wat drink je}? — Thee… met veel suiker!',
         ],
-        notes: 'Question ouverte : mot en W + verbe + sujet (Waar woon je?). Question oui / non : verbe + sujet (Woon je in Gent?). Devant je / jij, le -t disparaît : jij drinkt → Drink jij koffie? Les mots en W : wie, wat, waar, wanneer, waarom, hoe, hoeveel, welke.',
+        notes: 'Question ouverte : mot en W + verbe + sujet (Waar woon je?). Question oui / non : verbe + sujet (Woon je in Gent?). Devant je / jij, le -t disparaît : jij drinkt → Drink jij koffie? Les mots interrogatifs : wie, wat, waar, wanneer, waarom, hoe, hoeveel, welke.',
       },
       {
         t: 'Een slechte dag', img: 'a1_slechtedag', fr: 'Une mauvaise journée', ref: 'fiche 06 · p. 63', mode: 'W',
@@ -356,7 +356,7 @@ const SECTIONS = [
           { t: 'Une chute avec un **nombre** au-dessus de 20.', k: 'NOMBRE' },
         ],
         ex: [
-          '{1:Op maandag|OP + jour} heeft Emma een les {2:om negen uur|OM + heure}.',
+          '{1:Op maandag|OP + jour} heeft Emma les {2:om negen uur|OM + heure}.',
           'Oei, {3:het is half negen|HET IS …}!',
           'En haar bus heeft {4:vijfentwintig|NOMBRE} minuten vertraging!',
         ],
@@ -367,7 +367,7 @@ const SECTIONS = [
         sit: 'Le chat de Sarah se cache partout ! Où est-il ?',
         crit: [
           { t: '**OP** : sur une surface.', k: 'OP' },
-          { t: '**IN** : dans un lieu fermé.', k: 'IN' },
+          { t: '**IN** : dans, à l’intérieur.', k: 'IN' },
           { t: '**BIJ** : chez, près de.', k: 'BIJ' },
           { t: 'Une chute avec **NAAR** (un mouvement) !', k: 'NAAR' },
         ],
@@ -408,9 +408,9 @@ const SECTIONS = [
           'Goedemorgen! {1:Kom maar binnen|MAAR}!',
           '{2:Open|IMPÉRATIF} je boek.',
           '{3:Luister even|EVEN}!',
-          'En je gsm in je tas, {4:alsjeblieft}!',
+          'En stop je gsm in je tas, {4:alsjeblieft}!',
         ],
-        notes: 'Impératif = infinitif sans -en : luisteren → luister, kijken → kijk, lezen → lees (z → s). Une seule forme pour tout le monde. Un impératif seul paraît sec : ajoutez even (un instant), eens (pour voir), maar (vas-y) ou alsjeblieft / alstublieft. Jeu « Jacques a dit » : « Simon zegt: sta op! ».',
+        notes: 'Impératif = la forme de « ik » (le radical) : luisteren → luister, kijken → kijk, lezen → lees, zitten → zit, opstaan → sta op. Une seule forme pour tout le monde. Un impératif seul paraît sec : ajoutez even (un instant), eens (pour voir), maar (vas-y) ou alsjeblieft / alstublieft. Jeu « Jacques a dit » : « Simon zegt: sta op! ».',
       },
     ],
   },
@@ -438,7 +438,7 @@ const SECTIONS = [
       },
       {
         t: 'Bij oma op zondag', img: 'a1_oma', fr: 'Le dimanche chez la grand-mère', ref: 'vocabulaire 02 · p. 79', mode: 'W',
-        sit: 'Dimanche, toute la famille mange chez la grand-mère. Présentez-la.',
+        sit: 'Dimanche, toute la famille mange chez la grand-mère. Présentez votre famille.',
         crit: [
           { t: 'Les parents : **MIJN VADER** / **MIJN MOEDER** …', k: 'OUDERS' },
           { t: 'Les frères et sœurs : **IK HEB** een broer / een zus…', k: 'BROER / ZUS' },
@@ -466,7 +466,7 @@ const SECTIONS = [
           '{1:Ik woon in} Antwerpen.',
           'Ik ga {2:met de fiets} naar het werk.',
           'Ik fiets naar {3:het station|IN DE STAD} en over {3:de brug|IN DE STAD}.',
-          'Maar {4:het verkeerslicht} is rood… en ik ben laat!',
+          'Maar {4:het verkeerslicht} is rood… en ik ben te laat!',
         ],
         notes: 'Mots de la fiche : het station, de trein, de bus, de tram, de fiets, de auto, de straat, het verkeerslicht, de brug, de kerk, het museum, de bibliotheek, de plattegrond, de bushalte, de parking. Met de… (le moyen) · naar… (la destination).',
       },
@@ -516,9 +516,9 @@ const SECTIONS = [
           'Hallo Pieter, {1:ik ben ziek}.',
           '{2:Mijn hoofd doet pijn|DOET PIJN}.',
           '{3:Ik heb koorts|KOORTS}: negenendertig graden!',
-          'Morgen {4:ga ik naar|IK GA NAAR} de dokter… of naar oma!',
+          'Vanmiddag {4:ga ik naar|IK GA NAAR} de dokter… en niet naar kantoor!',
         ],
-        notes: 'Mots de la fiche : het hoofd, het oog, de neus, de mond, het oor, de hand, de arm, het been, de voet, de buik, de dokter, het ziekenhuis, de apotheek, de medicijnen, de koorts. Mijn buik / mijn keel / mijn rug doet pijn. Mimez : la classe devine où vous avez mal.',
+        notes: 'Mots de la fiche : het hoofd, het oog, de neus, de mond, het oor, de hand, de arm, het been, de voet, de buik, de dokter, het ziekenhuis, de apotheek, de medicijnen, de koorts. Mijn buik / mijn keel / mijn rug doet pijn. « Vanmiddag ga ik » : le bloc de la séquence 1.1 (moment + verbe + ik), l’étiquette IK GA NAAR se pose donc sur « ga ik naar ». Mimez : la classe devine où vous avez mal.',
       },
       {
         t: 'Op kantoor', img: 'a1_kantoor', fr: 'Au bureau', ref: 'vocabulaire 07 · p. 84', mode: 'W',
@@ -535,7 +535,7 @@ const SECTIONS = [
           '{3:Mijn collega|COLLEGA} is heel vriendelijk.',
           'Maar {4:de koffieautomaat} is kapot!',
         ],
-        notes: 'Mots de la fiche : het kantoor (le lieu), het bureau (le meuble), de computer, de printer, de vergadering, de collega, de baas, de fabriek, het contract, het loon, de koffieautomaat, de lift, de klant. Attention : het bureau = le meuble ; het kantoor = le bureau-lieu.',
+        notes: 'Mots de la fiche : het kantoor (le lieu), het bureau (le meuble), de computer, de printer, de vergadering, de collega, de baas, de fabriek, het contract, het loon, de koffieautomaat, de lift, de klant. Attention : het bureau = le meuble ; het kantoor = le bureau-lieu (en Belgique, on entend aussi « naar het bureau » pour le lieu).',
       },
       {
         t: 'Een berichtje', img: 'a1_berichtje', fr: 'Un SMS', ref: 'vocabulaire 08 · p. 85', mode: 'W', lines: true,
@@ -548,8 +548,8 @@ const SECTIONS = [
         ],
         ex: [
           '{1:Hoi Pieter}!',
-          'Ik ben laat: {2:mijn gsm|GSM} is bijna leeg en ik heb geen oplader.',
-          '{3:Bel|IMPÉRATIF} me niet, {3:stuur|IMPÉRATIF} een berichtje!',
+          'Ik ben te laat: {2:mijn gsm|GSM} is bijna leeg en ik heb geen oplader.',
+          '{3:Bel|IMPÉRATIF} me niet, {3:stuur|IMPÉRATIF} me een berichtje!',
           '{4:Tot straks}, Emma',
         ],
         notes: 'Mots de la fiche : de telefoon, de gsm, bellen, het berichtje, de e-mail, de bijlage, het scherm, de headset, de wifi, de oplader, versturen, het wachtwoord, het videogesprek. Écrivez le SMS sur un vrai téléphone et envoyez-le à votre voisin·e, qui répond.',
@@ -565,7 +565,7 @@ const SECTIONS = [
         ],
         ex: [
           'Goedemorgen, {1:ik heb een afspraak} om tien uur.',
-          '{2:Hier is} mijn paspoort en het formulier.',
+          '{2:Hier is} mijn paspoort, en hier is het formulier.',
           '{3:Waar is} loket drie?',
           'O nee, {4:de wachtrij} is heel lang… twintig mensen!',
         ],
@@ -599,7 +599,7 @@ const SECTIONS = [
         ],
         ex: [
           '{1:Ik ben een beetje zenuwachtig|IK BEN + adj.}.',
-          'Muziek? {2:Ik vind het leuk|LEUK}!',
+          'Dansen? {2:Ik vind het leuk|LEUK}!',
           'Zingen? {3:Ik vind het niet leuk|NIET LEUK}…',
           'Maar ik zing toch, {4:want Pieter zingt heel vals|WANT}!',
         ],
@@ -628,7 +628,7 @@ const SECTIONS = [
           '{4:Welke documenten} heb ik nodig?',
           'Oei… ik heb mijn identiteitskaart {5:niet|NIET / GEEN} bij me!',
         ],
-        notes: 'Vocabulaire du jalon A1 : inschrijven, zoeken, de werkzoekende, het interimkantoor, het inschrijvingsformulier, zich aanmelden. « Ik heb mijn identiteitskaart niet bij me » : niet devant un possessif (fiche 06). Jeu de rôle : l’employé·e demande « Hoe heet u? Wat is uw adres? ».',
+        notes: 'Vocabulaire du jalon A1 : inschrijven, zoeken, de werkzoekende, het interimkantoor, het inschrijvingsformulier, zich aanmelden. « Ik heb mijn identiteitskaart niet bij me » : mijn + nom → niet (pas geen) ; niet vient après l’objet, devant la préposition (bij me) (fiche 06). Jeu de rôle : l’employé·e demande « Hoe heet u? Wat is uw adres? ».',
       },
       {
         t: 'Over je cv', img: 'a1_cv', fr: 'Parler du CV', ref: 'fiche 2 · p. 93', mode: 'O', lines: true,
@@ -669,18 +669,18 @@ const SECTIONS = [
         t: 'Een cursus Nederlands', img: 'a1_cursus', fr: 'Un cours de néerlandais', ref: 'fiche 4 · p. 95', mode: 'O',
         sit: 'Vous voulez suivre un cours de néerlandais. Vous posez vos questions à l’accueil.',
         crit: [
-          { t: 'Le début : **WANNEER** begint de les?', k: 'WANNEER' },
+          { t: 'Le début : **WANNEER** begint de cursus?', k: 'WANNEER' },
           { t: 'Le lieu : **WAAR** is het klaslokaal?', k: 'WAAR' },
           { t: 'Le prix : **HOEVEEL** kost de cursus?', k: 'HOEVEEL' },
           { t: 'Une chute avec **HOE LANG** duurt … ?', k: 'HOE LANG' },
         ],
         ex: [
-          '{1:Wanneer} begint de les?',
+          '{1:Wanneer} begint de cursus?',
           '{2:Waar} is het klaslokaal?',
           '{3:Hoeveel} kost de cursus?',
           'En {4:hoe lang} duurt de pauze?',
         ],
-        notes: 'Vocabulaire du jalon A1 : wanneer, het klaslokaal, de les, hoeveel, hoe lang, welke, beginnen, kosten, duren. Jalon A2 (pour les plus rapides) : répondre — « De les begint op maandag en duurt tien weken. »',
+        notes: 'Vocabulaire du jalon A1 : wanneer, het klaslokaal, de les, hoeveel, hoe lang, welke, beginnen, kosten, duren. Jalon A2 (pour les plus rapides) : répondre — « De cursus begint op maandag en duurt tien weken. »',
       },
       {
         t: 'Een formulier invullen', img: 'a1_formulier', fr: 'Remplir un formulaire', ref: 'fiche 5 · p. 96', mode: 'W',
@@ -707,13 +707,13 @@ const SECTIONS = [
         crit: [
           { t: 'Ce que vous savez faire : **IK KAN GOED** + verbe.', k: 'IK KAN GOED' },
           { t: 'Ce que vous voulez apprendre : **IK WIL GRAAG** … **LEREN**.', k: 'IK WIL … LEREN' },
-          { t: 'Quand vous commencez : **IK KAN BEGINNEN OP** …', k: 'BEGINNEN' },
+          { t: 'Quand vous commencez : **IK KAN** + jour + **BEGINNEN**.', k: 'BEGINNEN' },
           { t: 'Une chute avec **MAAR** !', k: 'MAAR' },
         ],
         ex: [
           '{1:Ik kan goed} koken en organiseren.',
           '{2:Ik wil graag|IK WIL …} beter Nederlands {2:leren|… LEREN}.',
-          '{3:Ik kan beginnen op|BEGINNEN} maandag…',
+          '{3:Ik kan|IK KAN …} maandag {3:beginnen|… BEGINNEN}…',
           '{4:Maar} niet om zeven uur ’s morgens!',
         ],
         notes: 'Vocabulaire du jalon A1 : kunnen, willen, moeten, leren, beginnen, goed, graag, nog, vanaf. Verbe modal + infinitif à la fin : Ik kan goed koken. Ik wil Nederlands leren. Jeu de rôle avec les questions du syllabus : Wat kunt u goed? Wanneer kunt u beginnen?',
@@ -729,9 +729,9 @@ const SECTIONS = [
           { t: 'Une chute amusante !', k: 'CHUTE' },
         ],
         ex: [
-          '— Hallo, {1:ik ben nieuw hier|NIEUW}. Ik ben Lisa.',
-          '— {2:Ik werk op de afdeling|AFDELING} marketing. {3:Wat doe jij}?',
-          '— Ik werk in de administratie.',
+          '— Hallo, {1:ik ben nieuw hier|NIEUW}. Ik ben Lisa. {2:Ik werk op de afdeling|AFDELING} marketing.',
+          '— Welkom, Lisa! Ik ben Tom.',
+          '— {3:Wat doe jij}, Tom? — Ik werk in de administratie.',
           '— En {4:wie is} de manager? — {5:Ik!|CHUTE}',
         ],
         notes: 'Vocabulaire du jalon A1 : nieuw, hier, de afdeling, werken, doen, de marketing, de administratie, de verkoopafdeling. Jouez la scène debout, comme à la machine à café. Variante : chacun·e tire une carte « afdeling » (marketing, verkoop, logistiek…).',
@@ -747,7 +747,7 @@ const SECTIONS = [
         ],
         ex: [
           '— {1:Hoe voel je je vandaag|HOE VOEL JE JE}, Sarah? {2:Ben je moe|BEN JE …?}?',
-          '— Ja, {3:ontzettend moe|NUANCEUR}, {4:want mijn baby slaapt niet|WANT}!',
+          '— Ja, {3:ontzettend moe|NUANCEUR}, {4:want mijn baby slaapt ’s nachts niet|WANT}!',
         ],
         notes: 'Vocabulaire du jalon A1 : moe, gestrest, rustig, vrij, heel, bezet, een beetje, ontzettend. Recyclage de la séquence 1.2 (ik voel me + nuanceur + adjectif). Jeu : on mime une émotion, la classe demande « Ben je… ? ».',
       },

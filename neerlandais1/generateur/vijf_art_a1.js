@@ -99,7 +99,7 @@ S.a1_vanavond = (k) => [
   k.E('couch-and-lamp', 80, 360, 560, { flip: true }), k.E('man-raising-hand', 330, 430, 330, { shadow: false }), k.E('popcorn', 560, 640, 150), k.E('mobile-phone', 640, 560, 100, { shadow: false, rot: -14 }),
   k.R(820, 560, 600, 50, '#2A2640', { rx: 8 }), k.R(860, 610, 30, 150, '#2A2640'), k.R(1350, 610, 30, 150, '#2A2640'),
   k.R(880, 270, 520, 300, '#000000', { op: 0.3, f: k.blur(12), rx: 14 }), k.R(860, 250, 520, 300, '#14161E', { rx: 14 }), k.R(878, 268, 484, 264, k.lin([[0, '2E5E8E'], [1, '5BA3D6']]), { rx: 6 }), k.E('film-projector', 1010, 300, 220, { shadow: false }),
-  X.digital(k, 1440, 560, 140, 64, '20:00', 'FFB547'),
+  X.digital(k, 1440, 560, 140, 64, '22:00', 'FFB547'),
   X.say(k, 420, 200, 270, 130, [['waving-hand', 30, 20, 90], ['crescent-moon', 140, 20, 90]]),
   k.vignette(0.3),
 ].join('');
