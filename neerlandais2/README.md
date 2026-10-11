@@ -26,7 +26,7 @@ Une présentation par séance, pour projeter au tableau le traitement de chaque 
 
 Chaque exercice du livret a une diapositive « question » puis une diapositive « ✓ CORRECTIE ». Les ajouts hors syllabus portent le tag « + BONUS ». Les notes du présentateur (en français) donnent la conduite de l'activité et signalent les coquilles du livret.
 
-**Production guidée** : le complément *In vijf zinnen* (24 tâches d'écriture ou d'oral, A1 · A2 · B1, avec modèles annotés) se trouve dans [`../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx`](../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx) ; sa section A2 correspond à ce cours.
+**Production guidée** : le complément *In vijf zinnen* (24 tâches d'écriture ou d'oral, A1 · A2 · B1, avec modèles annotés) se trouve dans [`../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx`](../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx) ; sa section A2 correspond à ce cours. Pour les vrais débutants, *Stap voor stap* ([`../neerlandais1/powerpoints/Stap_voor_stap_A1_debutants.pptx`](../neerlandais1/powerpoints/Stap_voor_stap_A1_debutants.pptx)) propose **45 petites productions jalonnées (A1)** qui suivent pas à pas le syllabus *Néerlandais en situation* : Emma & Pieter, les fiches de grammaire A1, le vocabulaire thématique et les mises en situation (jalon A1).
 
 ## À vérifier avant les cours
 - **Textes lus par le professeur** (1.1.1, 1.1.2, 1.2.1, 1.3.2…) : quand le texte n'est pas dans le syllabus, la diapositive affiche la grille ; la solution dépend du texte lu.

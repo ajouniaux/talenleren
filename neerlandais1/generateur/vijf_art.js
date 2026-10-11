@@ -487,9 +487,9 @@ S.buren = (k) => [
 ].join('');
 
 // ------------------------------------------------------------------ rendu
-async function render(name) {
+async function render(name, fn = S[name]) {
   const k = kit();
-  const body = S[name](k);
+  const body = fn(k);
   let svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><defs>${k.defs.join('')}</defs>${body}</svg>`;
   for (const e of k.used) {
     const png = await sharp(emojiFile(e)).png().toBuffer();
@@ -508,4 +508,4 @@ if (require.main === module) {
   })().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { S, render, OUT };
+module.exports = { S, render, OUT, kit, city };
