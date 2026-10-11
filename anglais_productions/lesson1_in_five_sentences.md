@@ -96,15 +96,15 @@
 > *Mark Shaw left you a voicemail at 06.58. Before you leave the house, write a short message to your team.*
 > 1. Who called, and when? **PAST SIMPLE** + **AT** + a time.
 > 2. What happened? An **IRREGULAR** verb: **FOUND**, **WENT OFF**, **HEARD**…
-> 3. Where exactly? Two words for **THE PLACE**: the technical room, the floor…
+> 3. Where exactly? Two **PLACE** words from the mind map: the technical room, the floor, the ceiling…
 > 4. What must the team bring, and when? **BY** + a deadline.
 > 5. A twist: a **NEGATIVE** in the past simple, **DIDN’T** + base form.
 > ★ 6. The honest sentence: what we **DON’T KNOW YET**, and what would **PROVE** it.
 >
-> **EXAMPLE** — Mark Shaw [called at 6.58]₁ this morning and left a voicemail. The cleaners [found]₂ water at 6.50, and it was still running. The leak is in the [technical room]₃, on the [second floor]₃ of Atlas House. Please bring the file on the November incident: we must be there [by 8.15]₄. And sorry, I [didn’t hear]₅ my phone the first time!
-> **★ CHALLENGE** — [We don’t know yet]₆ how long the water has been running: [the alarm log]₆ will show it.
+> **EXAMPLE** — Mark Shaw [called at 6.58]₁ this morning and left a voicemail. The cleaners [found]₂ water at 6.50, and it was still running. There is water [on the floor]₃ of the [technical room]₃, on the second floor. Please bring the file on the November incident to Atlas House [by 8.15]₄. Sorry, I [didn’t hear]₅ my phone at 6.58: I was in the shower!
+> **★ CHALLENGE** — [We don’t know yet]₆ how long the water has been running, but [the alarm log]₆ will show when it started.
 
-**Notes pour l'animateur** — Production écrite, 10 min, juste après la prise de notes de la messagerie. Attendus : called, found, went off (le fait daté est au past simple) ; at + heure précise ; by + date limite (≠ until). Négation : didn’t + base verbale (✗ didn’t heard). Mark demande « for a quarter past eight » : acceptez « at 8.15 » comme « by 8.15 ». ★ Challenge : la phrase honnête de la p. 4 du livret. On ne devine pas la durée (✗ all night) ; on cite une source vérifiable : le journal d’alarme, des photos horodatées, le rapport d’un technicien. « how long the water has been running » reprend la correction du livret.
+**Notes pour l'animateur** — Production écrite, 10 min, juste après la prise de notes de la messagerie. Attendus : called, found, went off (le fait daté est au past simple) ; at + heure précise ; by + date limite (≠ until). Négation : didn’t + base verbale (✗ didn’t heard). Mark demande « for a quarter past eight » : « at 8.15 » est juste (l’heure du rendez-vous), mais la consigne 4 exige by + date limite. ★ Challenge : la phrase honnête de la p. 4 du livret. On ne devine pas la durée (✗ all night) ; on cite une source vérifiable : le journal d’alarme, des photos horodatées, les images de vidéosurveillance (CCTV), le relevé des badges. « how long the water has been running » reprend la correction du livret.
 
 ---
 
@@ -122,14 +122,14 @@
 > 1. The night: **BETWEEN** … **AND** … + a fact in the past simple.
 > 2. Ask a question in the past simple: **DID** + subject + base form?
 > 3. Use **TURN UP** or **CALL OUT** in the right form.
-> 4. A delay or a duration: **IN** twenty minutes, **FOR** two hours…
+> 4. A time from now or a duration: **IN** twenty minutes, **FOR** two hours…
 > 5. A twist with **UNTIL** or **BY**: choose the right one!
 > ★ 6. Contrast the **PRESENT PERFECT** (the result now) and the **PAST SIMPLE** (the dated fact).
 >
-> **EXAMPLE** — [Between 23.41 and 06.47]₁, nobody checked the technical room. [Did the guard hear]₂ the alarm last night? The plumber didn’t [turn up]₃, so I [called out]₃ another one. He will be here [in twenty minutes]₄. We can’t put this off [until Friday]₅: Legal wants a timeline [by nine]₅!
-> **★ CHALLENGE** — The water [has damaged]₆ the ceiling, but the cleaners only [found]₆ the leak at 6.50.
+> **EXAMPLE** — [Between 23.41 and 6.47]₁, nobody went into the technical room: the badge record shows it. [Did the guard hear]₂ the alarm last night? The plumber didn’t [turn up]₃, so I [called out]₃ another one. He’ll be here [in twenty minutes]₄. We can’t put the timeline off [until Friday]₅: the insurer wants it [by nine]₅!
+> **★ CHALLENGE** — The water [has damaged]₆ the ceiling, but the cleaners only [found]₆ the water at 6.50.
 
-**Notes pour l'animateur** — Production orale en binôme : B joue Mark et relance (« Who found it? », « Are you sure? », « How do you know? »). Attendus : between … and … ; Did + sujet + base verbale (✗ Did the guard heard) ; turn up et call out conjugués (turned up, called out ; avec un pronom : call him out). In = dans (un délai), for = pendant (une durée). Until = jusqu’à (ça continue) ≠ by = au plus tard. Le support du cours écrit tantôt 11.40, tantôt 11.41 (23 h 41) : acceptez les deux. ★ Challenge : la comparaison « Please mind the differences ». Le résultat visible maintenant (has damaged) ≠ le fait daté (found at 6.50) ; ✗ The cleaners have found the leak at 6.50.
+**Notes pour l'animateur** — Production orale en binôme : B joue Mark et relance (« Who found it? », « Are you sure? », « How do you know? »). Attendus : between … and … ; Did + sujet + base verbale (✗ Did the guard heard) ; turn up et call out conjugués (turned up, called out ; avec un pronom : call him out). In = dans (un moment à venir : in twenty minutes ; attention, delay = retard), for = pendant (une durée) ; avec le present perfect, for = depuis (✗ since two hours). Until = jusqu’à (ça continue) ≠ by = au plus tard. Le support du cours écrit tantôt 11.40, tantôt 11.41 (23 h 40 ou 23 h 41) : acceptez les deux. ★ Challenge : la comparaison « Please mind the differences ». Le résultat visible maintenant (has damaged) ≠ le fait daté (found at 6.50) ; ✗ The cleaners have found the leak at 6.50.
 
 ---
 
@@ -145,16 +145,16 @@
 **Contenu textuel**
 > *Mark needs a written timeline of the night by nine. Facts only: every time must be verifiable.*
 > 1. A **VERIFIABLE** time: past simple + **AT** + its source (the alarm log, the CCTV…).
-> 2. Two phrasal verbs from the Word file: **BREAK DOWN** and **SHUT DOWN**.
+> 2. Two phrasal verbs from the lesson: **BREAK DOWN** and **SHUT DOWN**.
 > 3. Three words from the mind map: a **PERSON**, some **EVIDENCE**, some **PAPERWORK**.
-> 4. A **NEGATIVE** and a **QUESTION** in the past simple.
+> 4. A **NEGATIVE**, and a **QUESTION** for Mark, in the past simple.
 > 5. A twist: what happens next, with **LOOK INTO** or **SORT OUT**.
 > ★ 6. A **FINISHED TIME** (last…, … ago) **and** a present perfect with **NEVER** or **EVER**.
 >
-> **EXAMPLE** — The alarm went off [at 23.41]₁: [the alarm log]₁ shows it. During the night, two cooling units [broke down]₂ and rack A2 [shut down]₂ automatically. The [cleaners]₃ found the water at 6.50 and took [timestamped photos]₃ for the [claim]₃. The plumber [didn’t turn up]₄ before 7.30. [Did]₄ anybody call him out? Next, Legal will [look into]₅ the badge log… before the insurer’s assessor turns up!
-> **★ CHALLENGE** — The same riser leaked [last November]₆, but rack A2 [has never shut down]₆ before.
+> **EXAMPLE** — The alarm went off [at 23.41]₁: [the alarm log]₁ shows it. During the night, two cooling units [broke down]₂ and rack A2 [shut down]₂ automatically. The [cleaners]₃ found the water at 6.50 and took [timestamped photos]₃ for the [claim]₃. The plumber [didn’t turn up]₄ before 8.15. [Did]₄ anybody call him out during the night? Next, Mark will [look into]₅ the badge record… before the insurer’s assessor turns up!
+> **★ CHALLENGE** — There was an incident [last November]₆, but rack A2 [has never shut down]₆ before.
 
-**Notes pour l'animateur** — Production écrite, 15 min, à rendre « by nine ». Attendus : une heure vérifiable et sa source (✗ around eleven, ✗ late last night : refusés par l’expert d’assurance) ; broke down, shut down (break → broke, shut → shut). Mots de la carte mentale : people (the plumber, the cleaners, the insurer, the contractor, the witness, the assessor) · evidence (the alarm log, the CCTV, the timestamp, the receipt, the statement) · paperwork (the report, the claim, the timeline, the invoice, the message). Négation et question : didn’t + base, Did + sujet + base. Look into est inséparable (look into it) ; sort out est séparable (sort it out). ★ Challenge : un temps révolu (last November, two days ago, in 2019) appelle le past simple ; une expérience jusqu’à maintenant (never, ever) appelle le present perfect.
+**Notes pour l'animateur** — Production écrite, 15 min, à rendre « by nine ». Attendus : une heure vérifiable et sa source (✗ around eleven, ✗ late last night : refusés par l’expert d’assurance) ; broke down, shut down (break → broke, shut → shut). Mots de la carte mentale : people (the plumber, the cleaners, the insurer, the contractor, the witness, the assessor) · evidence (the voicemail, the alarm log, the CCTV, the timestamp, the receipt, the statement) · paperwork (the report, the claim, the timeline, the invoice, the message). Négation et question : didn’t + base, Did + sujet + base. Look into est inséparable (look into it) ; sort out est séparable (sort it out). ★ Challenge : un moment terminé et daté (last November, two days ago, in 2019) appelle le past simple ; une expérience jusqu’à maintenant (never, ever) appelle le present perfect.
 
 ---
 
