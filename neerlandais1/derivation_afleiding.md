@@ -10,11 +10,10 @@
 
 ## Choix didactiques
 
-- **Quatre catégories, quatre couleurs** sur toutes les diapos, comme au M14 : **nom** bleu (*de / het*), **verbe** rouge, **adjectif** orange ; en plus, l'**adverbe** est vert et les **affixes** (suffixes, préfixes) sont violets.
-- Schéma **DV1** « le carrefour des catégories » : un triangle NOM · VERBE · ADJECTIF (+ ADVERBE collé à l'adjectif par un « = »). Chaque flèche porte ses suffixes. Une version miniature, en haut à droite des diapos de règles, montre « où l'on est » (flèche active en violet).
-- Schéma **DV2** « la machine à mots » : base (couleur de départ) + affixe (violet) → résultat (couleur d'arrivée). Le même gabarit sert pour tous les exemples.
-- Schéma **DV3** « préfixe + racine + suffixe » : des briques (rappel du M14). Le **suffixe** (à droite) décide la catégorie et l'article ; le **préfixe** (à gauche) change le sens.
-- Chaque règle est présentée en deux encadrés : **✓ La norme** (vert) et **⚠ Exceptions** (rouge).
+- **Une idée par diapo, l’essentiel en tableau** : un petit sur-titre (la flèche de passage, p. ex. VERBE → NOM), le titre centré, la **formule** dans une pastille claire, puis un **tableau sobre** (filets fins, pas de cadres) ; au plus deux encadrés discrets **✓ La règle** et **! Attention** en bas. Les détails et les exceptions secondaires sont dans les **notes du présentateur**.
+- **Deux couleurs seulement** : le **bleu nuit** pour la structure (titres, en-têtes, racines) et le **bleu-vert** pour les **affixes** (suffixes, préfixes) : dans chaque mot, la partie qui fait la dérivation ressort (*de vergader**ing***, ***on**betaalbaar*). Le gris pour les commentaires ; le rouge seulement pour barrer une forme fautive. Les catégories sont nommées, plus codées par couleur.
+- Schéma **DV1** « le carrefour des catégories » : un triangle NOM · VERBE · ADJECTIF (+ ADVERBE collé à l'adjectif par un « = »), en bleu nuit ; chaque flèche porte ses suffixes. Une version miniature, en haut à droite des diapos de règles, montre « où l'on est » (flèche active en bleu-vert).
+- Schéma **DV3** « préfixe + racine + suffixe » : des briques (rappel du M14), la racine pleine en bleu nuit, les affixes en contour bleu-vert. Le **suffixe** (à droite) décide la catégorie et l'article ; le **préfixe** (à gauche) change le sens.
 - Point de départ francophone : le français dérive aussi (*payer → paiement, payable*) ; les suffixes jumeaux (*-tion / -tie, -ité / -iteit, -able / -baar*) sont un pont. Le grand piège : l'adverbe français en *-ment*, qui n'a pas d'équivalent (*snel = rapide, rapidement*).
 - Application : le passage du **style verbal** (oral) au **style nominal** (titres, notes de service, e-mails formels).
 
@@ -38,7 +37,7 @@
 
 **Visuel / Schéma / Agencement**
 - Couverture sombre.
-- *À droite* : la racine *werk-* au centre, un engrenage ⚙️, six mots de la famille en couleurs (verbe rouge, noms bleus, adjectifs orange).
+- *À droite* : une carte blanche : la racine *werk-* avec quatre mots de la famille, rangés par catégorie, le suffixe en bleu-vert.
 
 **Contenu textuel**
 > **Werken, de werking, werkbaar**
@@ -86,7 +85,7 @@
 **Objectif pédagogique** — Rappeler les catégories et leur rôle (sujet, verbe, complément, adjectif, adverbe).
 
 **Visuel / Schéma / Agencement**
-- Une phrase en couleurs avec, sous chaque mot, son rôle : *De **nieuwe** (adjectif) **collega** (nom · sujet) **werkt** (verbe) **snel** (adverbe) aan **het rapport** (nom · complément).*
+- Une phrase dont les mots-clés sont soulignés, avec sous chacun sa catégorie (ADJ., NOM, VERBE, ADV.), puis un tableau catégorie · on la reconnaît… · exemple · rôle : *De **nieuwe** (adjectif) **collega** (nom · sujet) **werkt** (verbe) **snel** (adverbe) aan **het rapport** (nom · complément).*
 - Quatre cartes : NOM 📦 · VERBE 🏃 · ADJECTIF 🎨 · ADVERBE ⏱️ (test, exemple, rôle).
 
 **Contenu textuel**
@@ -105,8 +104,8 @@
 **Objectif pédagogique** — Présenter la carte complète (schéma **DV1**).
 
 **Visuel / Schéma / Agencement**
-- Un triangle : NOM (en haut, bleu), VERBE (en bas à gauche, rouge), ADJECTIF (en bas à droite, orange) ; l'ADVERBE (vert) collé à l'adjectif par « = ».
-- Deux flèches entre chaque paire ; une étiquette par flèche avec les suffixes (violet). Au centre ⚙️ « le suffixe décide ».
+- Un triangle en bleu nuit : NOM (en haut), VERBE (en bas à gauche), ADJECTIF (en bas à droite) ; l'ADVERBE collé à l'adjectif par « = ».
+- Deux flèches fines entre chaque paire ; une étiquette par flèche avec les suffixes (bleu-vert). Au centre, « le suffixe décide ».
 
 **Contenu textuel**
 > **VERBE → NOM** : *het + inf. · radical · -ing · -er · -atie* · **NOM → VERBE** : *+ -en · -eren · be-*
@@ -123,7 +122,7 @@
 **Objectif pédagogique** — Comprendre la construction d'un mot dérivé (schéma **DV3**).
 
 **Visuel / Schéma / Agencement**
-- Trois mots en briques colorées (préfixes et suffixes violets, racine dans la couleur de sa catégorie) → le mot obtenu, sa catégorie, sa traduction ; une image par mot.
+- Trois mots en briques (racine pleine bleu nuit, affixes en contour bleu-vert) → le mot obtenu, sa catégorie, sa traduction ; en bas, un tableau préfixe · racine · suffixe.
 - Trois lignes de légende.
 
 **Contenu textuel**
@@ -144,7 +143,7 @@
 
 **Visuel / Schéma / Agencement**
 - Miniature du carrefour (VERBE → NOM).
-- Trois machines à mots avec image (🚬, 💳, 📖) et une phrase chacune ; encadré « norme » ; encadré violet *het ge-*.
+- La formule « het + infinitif = le fait de… » ; un tableau verbe · nom · exemple (trois lignes) ; deux encadrés : la règle et *het ge-*.
 
 **Contenu textuel**
 > *roken → het roken* — *Het roken is hier verboden.*
@@ -180,7 +179,7 @@
 **Objectif pédagogique** — Reconnaître les noms formés sur le radical seul et leur article.
 
 **Visuel / Schéma / Agencement**
-- Trois bandes : **DE** + radical (bleu nuit) · **HET** + radical à préfixe (orange) · **la voyelle change** (violet, à apprendre) ; quatre cartes « verbe ↓ nom » par bande ; encadré exceptions.
+- La formule ; un tableau à trois colonnes : **de** + radical · **het** + radical à préfixe · **la voyelle change** (quatre exemples chacune) ; un encadré « à retenir ».
 
 **Contenu textuel**
 > **DE** : *starten → de start · wensen → de wens · vragen → de vraag · groeien → de groei*
@@ -379,7 +378,7 @@
 
 **Visuel / Schéma / Agencement**
 - Miniature du carrefour (ADJECTIF = ADVERBE).
-- 🏎️ *een snelle auto* = *Hij rijdt snel.* ; tableau néerlandais / adjectif FR / adverbe FR ; encadré exceptions ; bande rouge « piège ».
+- La formule *een snelle auto* = *Hij rijdt snel.* ; tableau néerlandais · adjectif FR · adverbe FR (le *-ment* français en bleu-vert) ; deux encadrés : « pas de *-lijk*, pas de *-e* » et les adverbes sans adjectif.
 
 **Contenu textuel**
 > FR : rapide → rapide**ment** · NL : *snel → snel*
@@ -414,7 +413,7 @@
 **Objectif pédagogique** — Déduire *de* ou *het* du suffixe.
 
 **Visuel / Schéma / Agencement**
-- 🧭 ; deux colonnes : **DE** (bleu nuit) et **HET** (orange), avec suffixe et exemple ; une ligne d'exceptions.
+- Un tableau à deux colonnes : **de** et **het**, avec suffixe et exemple ; une phrase de synthèse.
 
 **Contenu textuel**
 > **DE** : *-ing* (de vergadering) · *-heid* (de vrijheid) · *-te* (de lengte) · *-iteit* (de kwaliteit) · *-(a)tie* (de informatie) · *-er, -ster* : personne (de leraar) · *-ij, -erij* (de bakkerij) · *-schap* : relation, qualité (de vriendschap)
@@ -422,7 +421,7 @@
 > Comme au M14 : le **dernier** élément commande. ⚠ *het schilderij · de datum · het gebergte · de verkoop*
 > *Les mots en -ing, -heid, -te, -iteit, -tie sont toujours de : une bonne nouvelle !*
 
-**Notes pour l'animateur** — Lien M5 (les familles DE / HET). Couleurs du M5 : bleu nuit = DE, orange = HET. *-schap* : *de vriendschap, de wetenschap* mais *het lidmaatschap, het voorzitterschap, het ouderschap* (statut) et *het landschap, het gezelschap, het gereedschap*. *-er* : seulement pour les personnes et les appareils (*het nummer, het water* ne sont pas dérivés).
+**Notes pour l'animateur** — Lien M5 (les familles DE / HET). *-schap* : *de vriendschap, de wetenschap* mais *het lidmaatschap, het voorzitterschap, het ouderschap* (statut) et *het landschap, het gezelschap, het gereedschap*. *-er* : seulement pour les personnes et les appareils (*het nummer, het water* ne sont pas dérivés).
 
 ---
 
@@ -443,12 +442,12 @@
 
 ---
 
-### [DIAPOSITIVE 24 : La famille werk, en couleurs]
+### [DIAPOSITIVE 24 : La famille werk]
 
 **Objectif pédagogique** — Corriger l'échauffement et montrer que les suffixes s'empilent.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : l'étoile de la diapo 3, maintenant en couleurs, avec le suffixe sous chaque mot.
+- *À gauche* : l'étoile de la diapo 3, maintenant avec la catégorie sous chaque mot et le suffixe en bleu-vert.
 - *À droite* : la chaîne *het werk → werkloos → de werkloosheid* (*-loos*, puis *-heid*).
 
 **Contenu textuel**
@@ -466,7 +465,7 @@
 **Objectif pédagogique** — Transformer une phrase verbale en groupe nominal (et inversement).
 
 **Visuel / Schéma / Agencement**
-- 🗣️ ORAL (des verbes) · 📝 ÉCRIT (des noms) ; quatre paires de phrases avec ⇄ ; trois règles de transformation en couleurs.
+- 🗣️ ORAL (des verbes) · 📝 ÉCRIT (des noms) ; un tableau de quatre paires de phrases ; un petit tableau « ce qui change » (le verbe, le sujet et le complément, l’adverbe).
 
 **Contenu textuel**
 > *De prijzen stijgen.* ⇄ *De stijging van de prijzen*
@@ -505,7 +504,7 @@
 **Objectif pédagogique** — Anticiper les erreurs typiques.
 
 **Visuel / Schéma / Agencement**
-- Six cartes : titre, forme fautive barrée (rouge), forme correcte (vert).
+- Un tableau : le piège · faux (barré en rouge) · juste (la correction en bleu-vert).
 
 **Contenu textuel**
 > 1 l'adverbe en *-lijk* — ~~*Hij werkt snellijk.*~~ → *Hij werkt snel.*
@@ -524,7 +523,7 @@
 **Objectif pédagogique** — Synthèse à photographier.
 
 **Visuel / Schéma / Agencement**
-- Sept lignes : passage (pastilles de couleur) et suffixes ; bande de synthèse. Icône appareil photo.
+- Un tableau de sept lignes : passage et suffixes ; une phrase de synthèse. Icône appareil photo.
 
 **Contenu textuel**
 > VERBE → NOM : *het + infinitif · radical · -ing (de) · -er / -aar / -der · -eren → -atie*
@@ -575,7 +574,7 @@
 **Objectif pédagogique** — Former le nom demandé (action, personne, appareil) avec son article.
 
 **Visuel / Schéma / Agencement**
-- Dix lignes sur deux colonnes : verbe (rouge), ce qu'on cherche, nom à compléter.
+- Deux tableaux de cinq lignes : verbe, ce qu'on cherche, nom à compléter.
 
 **Contenu textuel**
 > 1 *vergaderen* (l'action) · 2 *roken* (l'action) · 3 *besturen* (la personne) · 4 *organiseren* (l'action) · 5 *beginnen* (le moment)
@@ -594,7 +593,7 @@
 **Objectif pédagogique** — Choisir le bon suffixe pour nominaliser un adjectif.
 
 **Visuel / Schéma / Agencement**
-- Dix lignes sur deux colonnes : adjectif (orange) → nom à compléter.
+- Deux tableaux de cinq lignes : adjectif → nom à compléter.
 
 **Contenu textuel**
 > *ziek · vrij · lang · mogelijk · warm · snel · zeker · breed · gezond · hoog*
@@ -611,7 +610,7 @@
 **Objectif pédagogique** — Former et accorder un adjectif dérivé d'un nom, en contexte.
 
 **Visuel / Schéma / Agencement**
-- Huit phrases à trous ; le nom de départ dans une pastille bleue.
+- Un tableau de huit phrases à trous, avec le nom de départ.
 
 **Contenu textuel**
 > 1 (*de zon*) *Het is vandaag …… weer.* · 2 (*het gevaar*) *Die straat is …… .* · 3 (*de techniek*) *We hebben een …… probleem.* · 4 (*het hout*) *Ik koop een …… tafel.*
@@ -648,7 +647,7 @@
 **Objectif pédagogique** — Former des verbes de changement à partir d'adjectifs.
 
 **Visuel / Schéma / Agencement**
-- Six lignes : adjectif (orange) · situation · phrase à compléter.
+- Un tableau de six lignes : adjectif · situation · phrase à compléter.
 
 **Contenu textuel**
 > 1 (*groot*) *Het kantoor is te klein.* → *We moeten het …… .* · 2 (*kort*) *De tekst is te lang.* → *Kun je hem …… ?* · 3 (*beter*) *De service is niet goed.* → *We willen hem …… .*
@@ -683,7 +682,7 @@
 **Objectif pédagogique** — Construire une famille complète à partir d'un verbe.
 
 **Visuel / Schéma / Agencement**
-- Tableau : VERBE · ACTION · PERSONNE · « QU'ON PEUT… » · CONTRAIRE (couleurs des catégories) ; trois verbes.
+- Tableau : VERBE · ACTION · PERSONNE · « QU'ON PEUT… » · CONTRAIRE ; trois verbes.
 
 **Contenu textuel**
 > *betalen · lezen · gebruiken*
@@ -701,7 +700,7 @@
 **Objectif pédagogique** — Transformer des phrases en style nominal.
 
 **Visuel / Schéma / Agencement**
-- Six lignes : phrase verbale (rouge pâle) ➜ groupe nominal à écrire (bleu pâle) ; 📰.
+- Un tableau de six lignes : style verbal → style nominal à écrire.
 
 **Contenu textuel**
 > 1 *De prijzen stijgen.* · 2 *Het kantoor opent maandag.* · 3 *We vergaderen om 10 uur.* · 4 *De trein vertrekt om 8 uur.* · 5 *De klanten zijn tevreden.* · 6 *Je moet snel betalen.*
@@ -718,7 +717,7 @@
 **Objectif pédagogique** — Déduire l'article du suffixe.
 
 **Visuel / Schéma / Agencement**
-- Douze cartes : case pour l'article + nom ; au corrigé, la case en bleu nuit (*de*) ou orange (*het*).
+- Un tableau de douze noms, précédés de pointillés pour l'article ; au corrigé, *de* ou *het* en bleu-vert.
 
 **Contenu textuel**
 > *betaling · lezen · vertrek · begin · gezondheid · toerisme · document · organisatie · mengsel · vriendschap · lidmaatschap · bakkerij*
@@ -752,7 +751,7 @@
 **Objectif pédagogique** — Produire un maximum de mots dérivés, de façon ludique.
 
 **Visuel / Schéma / Agencement**
-- 🏭 ; huit cartes-racines (bleu nuit) ; douze cartes-suffixes (violettes) ; règle des points.
+- Huit cartes-racines (bleu nuit) ; douze cartes-suffixes (contour bleu-vert) ; le barème en tableau.
 
 **Contenu textuel**
 > Par équipes : tirez une **racine**, puis fabriquez un maximum de mots avec les **cartes-suffixes** en 2 minutes.
