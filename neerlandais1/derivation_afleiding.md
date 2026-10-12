@@ -11,9 +11,9 @@
 ## Choix didactiques
 
 - **Une idée par diapo, l’essentiel en tableau** : un petit sur-titre (la flèche de passage, p. ex. VERBE → NOM), le titre centré, la **formule** dans une pastille claire, puis un **tableau sobre** (filets fins, pas de cadres) ; au plus deux encadrés discrets **✓ La règle** et **! Attention** en bas. Les détails et les exceptions secondaires sont dans les **notes du présentateur**.
-- **Deux couleurs seulement** : le **bleu nuit** pour la structure (titres, en-têtes, racines) et le **bleu-vert** pour les **affixes** (suffixes, préfixes) : dans chaque mot, la partie qui fait la dérivation ressort (*de vergader**ing***, ***on**betaalbaar*). Le gris pour les commentaires ; le rouge seulement pour barrer une forme fautive. Les catégories sont nommées, plus codées par couleur.
-- Schéma **DV1** « le carrefour des catégories » : un triangle NOM · VERBE · ADJECTIF (+ ADVERBE collé à l'adjectif par un « = »), en bleu nuit ; chaque flèche porte ses suffixes. Une version miniature, en haut à droite des diapos de règles, montre « où l'on est » (flèche active en bleu-vert).
-- Schéma **DV3** « préfixe + racine + suffixe » : des briques (rappel du M14), la racine pleine en bleu nuit, les affixes en contour bleu-vert. Le **suffixe** (à droite) décide la catégorie et l'article ; le **préfixe** (à gauche) change le sens.
+- **Le code couleur du M14, appliqué avec retenue** : chaque catégorie a sa couleur (**nom en bleu**, **verbe en rouge**, **adjectif en orange**, **adverbe en vert**), dans les en-têtes de colonnes, les sur-titres (VERBE → NOM) et les mots des tableaux ; les **affixes** (suffixes, préfixes) sont en **violet** : dans chaque mot, la partie qui fait la dérivation ressort (*de vergader**ing***, ***on**betaalbaar*). *De* en bleu nuit, *het* en orange (comme dans tout le cours). Encadrés : **✓ La règle** en vert, **! Attention** en rouge, **+ Astuce** en violet. Le bleu nuit reste la couleur de la structure (titres, filets), le gris celle des commentaires ; une forme fautive est barrée en rouge.
+- Schéma **DV1** « le carrefour des catégories » : un triangle NOM · VERBE · ADJECTIF (+ ADVERBE collé à l'adjectif par un « = »), chaque sommet dans la couleur de sa catégorie ; chaque flèche, de la couleur de la catégorie d'arrivée, porte ses suffixes (en violet). Une version miniature, en haut à droite des diapos de règles, montre « où l'on est » (flèche active en violet).
+- Schéma **DV3** « préfixe + racine + suffixe » : des briques (rappel du M14), la racine pleine dans la couleur de sa catégorie, les affixes en violet. Le **suffixe** (à droite) décide la catégorie et l'article ; le **préfixe** (à gauche) change le sens.
 - Point de départ francophone : le français dérive aussi (*payer → paiement, payable*) ; les suffixes jumeaux (*-tion / -tie, -ité / -iteit, -able / -baar*) sont un pont. Le grand piège : l'adverbe français en *-ment*, qui n'a pas d'équivalent (*snel = rapide, rapidement*).
 - Application : le passage du **style verbal** (oral) au **style nominal** (titres, notes de service, e-mails formels).
 
@@ -37,7 +37,7 @@
 
 **Visuel / Schéma / Agencement**
 - Couverture sombre.
-- *À droite* : une carte blanche : la racine *werk-* avec quatre mots de la famille, rangés par catégorie, le suffixe en bleu-vert.
+- *À droite* : une carte blanche : la racine *werk-* avec quatre mots de la famille, rangés par catégorie (nom bleu, verbe rouge, adjectif orange), le suffixe en violet.
 
 **Contenu textuel**
 > **Werken, de werking, werkbaar**
@@ -104,8 +104,8 @@
 **Objectif pédagogique** — Présenter la carte complète (schéma **DV1**).
 
 **Visuel / Schéma / Agencement**
-- Un triangle en bleu nuit : NOM (en haut), VERBE (en bas à gauche), ADJECTIF (en bas à droite) ; l'ADVERBE collé à l'adjectif par « = ».
-- Deux flèches fines entre chaque paire ; une étiquette par flèche avec les suffixes (bleu-vert). Au centre, « le suffixe décide ».
+- Un triangle aux sommets colorés : NOM (en haut, bleu), VERBE (en bas à gauche, rouge), ADJECTIF (en bas à droite, orange) ; l'ADVERBE (vert) collé à l'adjectif par « = ».
+- Deux flèches fines entre chaque paire, de la couleur de la catégorie d'arrivée ; une étiquette par flèche avec les suffixes (violet). Au centre, « le suffixe décide ».
 
 **Contenu textuel**
 > **VERBE → NOM** : *het + inf. · radical · -ing · -er · -atie* · **NOM → VERBE** : *+ -en · -eren · be-*
@@ -122,7 +122,7 @@
 **Objectif pédagogique** — Comprendre la construction d'un mot dérivé (schéma **DV3**).
 
 **Visuel / Schéma / Agencement**
-- Trois mots en briques (racine pleine bleu nuit, affixes en contour bleu-vert) → le mot obtenu, sa catégorie, sa traduction ; en bas, un tableau préfixe · racine · suffixe.
+- Trois mots en briques (racine pleine dans la couleur de sa catégorie, affixes en violet) → le mot obtenu, sa catégorie, sa traduction ; en bas, un tableau préfixe · racine · suffixe.
 - Trois lignes de légende.
 
 **Contenu textuel**
@@ -378,7 +378,7 @@
 
 **Visuel / Schéma / Agencement**
 - Miniature du carrefour (ADJECTIF = ADVERBE).
-- La formule *een snelle auto* = *Hij rijdt snel.* ; tableau néerlandais · adjectif FR · adverbe FR (le *-ment* français en bleu-vert) ; deux encadrés : « pas de *-lijk*, pas de *-e* » et les adverbes sans adjectif.
+- La formule *een snelle auto* = *Hij rijdt snel.* ; tableau néerlandais · adjectif FR · adverbe FR (le *-ment* français en violet) ; deux encadrés : « pas de *-lijk*, pas de *-e* » et les adverbes sans adjectif.
 
 **Contenu textuel**
 > FR : rapide → rapide**ment** · NL : *snel → snel*
@@ -447,7 +447,7 @@
 **Objectif pédagogique** — Corriger l'échauffement et montrer que les suffixes s'empilent.
 
 **Visuel / Schéma / Agencement**
-- *À gauche* : l'étoile de la diapo 3, maintenant avec la catégorie sous chaque mot et le suffixe en bleu-vert.
+- *À gauche* : l'étoile de la diapo 3, maintenant avec la catégorie sous chaque mot (en couleur) et le suffixe en violet.
 - *À droite* : la chaîne *het werk → werkloos → de werkloosheid* (*-loos*, puis *-heid*).
 
 **Contenu textuel**
@@ -504,7 +504,7 @@
 **Objectif pédagogique** — Anticiper les erreurs typiques.
 
 **Visuel / Schéma / Agencement**
-- Un tableau : le piège · faux (barré en rouge) · juste (la correction en bleu-vert).
+- Un tableau : le piège · faux (barré en rouge) · juste (la correction en vert).
 
 **Contenu textuel**
 > 1 l'adverbe en *-lijk* — ~~*Hij werkt snellijk.*~~ → *Hij werkt snel.*
@@ -717,7 +717,7 @@
 **Objectif pédagogique** — Déduire l'article du suffixe.
 
 **Visuel / Schéma / Agencement**
-- Un tableau de douze noms, précédés de pointillés pour l'article ; au corrigé, *de* ou *het* en bleu-vert.
+- Un tableau de douze noms, précédés de pointillés pour l'article ; au corrigé, *de* en bleu nuit ou *het* en orange.
 
 **Contenu textuel**
 > *betaling · lezen · vertrek · begin · gezondheid · toerisme · document · organisatie · mengsel · vriendschap · lidmaatschap · bakkerij*
@@ -751,7 +751,7 @@
 **Objectif pédagogique** — Produire un maximum de mots dérivés, de façon ludique.
 
 **Visuel / Schéma / Agencement**
-- Huit cartes-racines (bleu nuit) ; douze cartes-suffixes (contour bleu-vert) ; le barème en tableau.
+- Huit cartes-racines (bleu nuit) ; douze cartes-suffixes (violet) ; le barème en tableau.
 
 **Contenu textuel**
 > Par équipes : tirez une **racine**, puis fabriquez un maximum de mots avec les **cartes-suffixes** en 2 minutes.
