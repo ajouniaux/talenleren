@@ -1,0 +1,8 @@
+Déposez ici les enregistrements de la Luistoets (facultatif mais recommandé) :
+
+  a2-luistoets.mp3   dialogue « Een telefoongesprek met het interimkantoor » (niveau A2)
+  b1-luistoets.mp3   interview « Werk in uitvoering » (niveau B1)
+
+Les transcriptions à enregistrer se trouvent dans ../contenu.js (rubrique « transcription »).
+Sans ces fichiers, le test utilise la voix néerlandaise du navigateur de l'étudiant.
+Pour les générer automatiquement : ../outils/generer_audio.py (voir ../README.md, § 5).

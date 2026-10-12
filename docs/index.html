@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Test de néerlandais — Valorisation des acquis</title>
+  <meta name="description" content="Épreuve en ligne de valorisation des acquis en néerlandais (niveaux A2 et B1) : compréhension à la lecture, compréhension à l'audition et production écrite.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1a2e49">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a2e49'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23ff8237' text-anchor='middle'%3ENL%3C/text%3E%3C/svg%3E">
+
+  <!-- Polices -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              marine: { 50: '#f1f5fa', 100: '#dfe8f3', 200: '#bfd0e6', 300: '#91afd3', 400: '#5f88bb', 500: '#3e6aa3', 600: '#2f5488', 700: '#28456f', 800: '#223a5c', 900: '#1a2e49', 950: '#111e31' },
+              oranje: { 50: '#fff6ed', 100: '#ffead4', 200: '#ffd1a8', 300: '#ffb070', 400: '#ff8237', 500: '#f86512', 600: '#e04c08', 700: '#b93909', 800: '#932e10', 900: '#772810' },
+            },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+              serif: ['"Source Serif 4"', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
+            },
+            boxShadow: {
+              carte: '0 1px 2px rgba(17,30,49,.06), 0 8px 24px -12px rgba(17,30,49,.18)',
+            },
+          },
+        },
+      };
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen bg-slate-50 font-sans text-slate-800 antialiased">
+  <a href="#contenu" class="lien-evitement">Aller au contenu</a>
+
+  <!-- ===== En-tête : titre, niveau, chronomètre, progression ===== -->
+  <header id="entete" class="sticky top-0 z-30 border-b border-slate-200 bg-white no-print">
+    <div class="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:px-6">
+      <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-marine-900 text-sm font-extrabold tracking-wide text-oranje-400" aria-hidden="true">NL</div>
+      <div class="min-w-0 flex-1">
+        <p class="truncate text-[0.95rem] font-semibold leading-tight text-marine-900" id="titre-app">Valorisation des acquis — Néerlandais</p>
+        <p class="truncate text-xs text-slate-500" id="sous-titre-app">Compréhension à la lecture · à l'audition · production écrite</p>
+      </div>
+      <span id="badge-niveau" class="hidden rounded-full bg-marine-50 px-2.5 py-1 text-xs font-bold text-marine-800 ring-1 ring-inset ring-marine-200"></span>
+      <div id="chrono" class="hidden items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5 text-sm font-semibold tabular-nums text-slate-700" role="timer" aria-live="off" aria-label="Temps restant">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>
+        <span id="chrono-texte">--:--</span>
+      </div>
+    </div>
+    <nav id="progression" class="mx-auto max-w-6xl px-4 pb-3 sm:px-6" aria-label="Progression du test"></nav>
+  </header>
+
+  <!-- ===== Contenu (écrans générés par script.js) ===== -->
+  <main id="contenu" class="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:px-6 sm:pt-8" tabindex="-1">
+    <div id="app" aria-live="polite">
+      <div class="flex min-h-[40vh] items-center justify-center text-slate-500">Chargement du test…</div>
+    </div>
+    <noscript>
+      <div class="rounded-xl border border-red-200 bg-red-50 p-4 text-red-800">Ce test nécessite JavaScript. Activez-le dans votre navigateur puis rechargez la page.</div>
+    </noscript>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white no-print">
+    <div class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-5 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+      <p id="pied-etablissement">Enseignement de promotion sociale</p>
+      <p>Vos données servent uniquement à l'évaluation et sont transmises à votre professeur.</p>
+    </div>
+  </footer>
+
+  <!-- Fenêtre modale, notifications, zone d'impression -->
+  <div id="modale-racine"></div>
+  <div id="toasts" class="pointer-events-none fixed inset-x-0 bottom-4 z-50 flex flex-col items-center gap-2 px-4 no-print" aria-live="polite" aria-atomic="false"></div>
+  <div id="zone-impression" aria-hidden="true"></div>
+
+  <script src="config.js"></script>
+  <script src="contenu.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

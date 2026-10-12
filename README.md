@@ -1,5 +1,7 @@
 # English UE 3 — Case File 01 « The night nobody heard »
 
+> **Test de néerlandais en ligne (valorisation des acquis A2 · B1)** : application web dans le dossier [`docs/`](docs/), publiable sur GitHub Pages. Le guide d'installation et de configuration est dans [`docs/README.md`](docs/README.md).
+
 Une présentation PowerPoint par séance (19 au total) pour projeter au tableau le livret *Project Atlas*.
 
 ## Les 19 séances
