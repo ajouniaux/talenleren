@@ -40,6 +40,18 @@ Une présentation PowerPoint par séance (19 au total) pour projeter au tableau 
 
 Les **notes du présentateur** (en français) donnent les consignes de conduite, les durées et les réponses alternatives acceptables.
 
+## Style « séance 1 » (séances 04 et 05)
+
+Les séances 04 et 05 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
+
+- **Schémas et arbres de décision** : fait ou supposition ? · past simple ou past continuous ? · orthographe -ing / -ed · quatre « images du passé » · frise barre / point · échelle de certitude · mindmap de la chronologie.
+- **Illustrations** : imagier numéroté du local technique (12 objets), grille de description d’image, portraits des personnages tirés de l’illustration de la scène 2.
+- **Compréhension** : écoute livre fermé (*Catch the numbers*), True / False / Not given, témoignage inédit de l’agent d’entretien (script dans les notes, cohérent avec le dossier).
+- **Jeux oraux (GAME)** : Memory challenge, Rumour game, Hot seat, Mood cards (séance 04) · Sentence tennis, Objection!, Spelling bee, Alibi game, Draw my evening (séance 05). Les diapositives GAME et + EXTRA sont facultatives.
+- **Vocabulaire** : Water damage, certainty words, connecteurs de récit, phrasal verbs de la nuit.
+
+Le code de ce style est dans `generateur/lib_light.js` ; une séance l’utilise avec `style: 'light'` dans son `meta`.
+
 ## Points à vérifier avant les cours
 
 - **Messages vocaux (séances 2 et 13)** : les scripts audio ne sont pas dans le livret. Les corrections des prises de notes (séance 2, ligne 5 ; séance 13, Q1–Q3, Q5–Q6) sont des réponses probables, déduites du reste du dossier. Elles sont à ajuster à votre enregistrement. Les notes du présentateur le rappellent.

@@ -1,9 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const { Deck, prepIcons } = require('./lib');
+const { LightDeck, prepLight } = require('./lib_light');
 
 (async () => {
   await prepIcons();
+  await prepLight();
   const only = process.argv.slice(2).map(Number);
   const outDir = process.env.OUT || path.join(__dirname, 'out');
   fs.mkdirSync(outDir, { recursive: true });
@@ -12,7 +14,7 @@ const { Deck, prepIcons } = require('./lib');
     const mod = require('./sessions/' + f);
     if (only.length && !only.includes(mod.meta.n)) continue;
     console.log('building', f);
-    const d = new Deck(mod.meta);
+    const d = mod.meta.style === 'light' ? new LightDeck(mod.meta) : new Deck(mod.meta);
     mod.build(d);
     const name = `Seance_${String(mod.meta.n).padStart(2, '0')}_${mod.meta.slug}.pptx`;
     await d.save(path.join(outDir, name));

@@ -965,4 +965,4 @@ function hasAnswers(spec) {
   return spec.rows.some((r) => r.some((c) => /\[\[|\{\{|<</.test(c)));
 }
 
-module.exports = { Deck, prepIcons, EXP, THEME };
+module.exports = { Deck, prepIcons, EXP, THEME, IMGS, IMG_DIR, fitSize, textH, linesFor, flow, postProcess, shadow };
