@@ -9,6 +9,8 @@
 
 Chaque séquence (dialogues, exercices, grammaire en visuel, vocabulaire, Dagelijks leven, Taak) est projetée page par page, avec une diapositive question puis une diapositive « ✓ CORRECTIE ». Les ajouts hors syllabus portent le tag « + BONUS ». Notes du présentateur en français, coquilles du livret signalées.
 
+**Séance 02 retravaillée avec l'enseignant** : sa couverture « UE 3 Les 2 », sa règle illustrée *die / dat* et son image finale sont gardées telles quelles (`generateur/img/ue3/`, `generateur/img/u02_*.jpg`, méthode `keep()` du générateur) ; la séance suit la progression *découvrir → règle → s'entraîner → lire → écrire → transférer → bilan*, avec le code couleur *de / die* bleu, *het / dat* framboise, verbe rouge.
+
 **À vérifier** : le néerlandais n'a pas été relu par un second relecteur (choix d'économie) ; les exercices d'écoute dont le texte n'est pas dans le livret (messages vocaux, transcriptions) affichent seulement la grille.
 
 **Production guidée** : le complément *In vijf zinnen* (24 tâches d'écriture ou d'oral, A1 · A2 · B1, avec modèles annotés) se trouve dans [`../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx`](../neerlandais1/powerpoints/In_vijf_zinnen_A1_A2_B1.pptx) ; sa section B1 correspond à ce cours.

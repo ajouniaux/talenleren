@@ -189,6 +189,12 @@ class Deck {
   }
 
   section(title) { this.pres.addSection({ title }); this.sec = title; }
+  // a slide made by the teacher in PowerPoint (img/ue3/<name>.json + its images), put back as is when saving
+  keep(name) {
+    if (!this.kept) { this.kept = []; this.pres.defineSlideMaster({ title: 'ATLAS_BLANK', background: { color: HEX.lt1 } }); }
+    this.kept.push({ n: this.pres.slides.length + 1, name });
+    return this.slide('ATLAS_BLANK');
+  }
   slide(master = 'ATLAS_CONTENT') { return this.pres.addSlide({ masterName: master, sectionTitle: this.sec }); }
 
   chip(s, text, x, y, color, h = 0.34, size = 12) {
@@ -1043,15 +1049,32 @@ class Deck {
 
   async save(file) {
     await this.pres.writeFile({ fileName: file });
-    await postProcess(file);
+    await postProcess(file, this.kept);
   }
 }
 
 // After pptxgenjs: (1) keep only the first <a:pPr> of each paragraph (pptxgenjs writes one per run);
-// (2) write the course colours into the theme, so scheme colours resolve to them.
+// (2) write the course colours into the theme, so scheme colours resolve to them;
+// (3) put back the teacher's own slides (Deck.keep).
 const SLOTS = ['dk1', 'lt1', 'dk2', 'lt2', 'accent1', 'accent2', 'accent3', 'accent4', 'accent5', 'accent6', 'hlink', 'folHlink'];
-async function postProcess(file) {
+async function postProcess(file, kept = []) {
   const zip = await JSZip.loadAsync(fs.readFileSync(file));
+  // (3) the teacher's own slides (keep): their shape tree, images and links replace the blank placeholder
+  const REL = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/';
+  for (const { n, name } of kept) {
+    const spec = JSON.parse(fs.readFileSync(path.join(IMG_DIR, 'ue3', name + '.json'), 'utf8'));
+    const sp = `ppt/slides/slide${n}.xml`; const rp = `ppt/slides/_rels/slide${n}.xml.rels`;
+    let rels = await zip.file(rp).async('string'); const map = {}; let k = 0;
+    for (const [rid, r] of Object.entries(spec.rels)) {
+      const id = `rIdKeep${++k}`; map[rid] = id;
+      const rel = r.media ? `<Relationship Id="${id}" Type="${REL}image" Target="../media/keep_${r.media}"/>` : `<Relationship Id="${id}" Type="${REL}hyperlink" Target="${r.link}" TargetMode="External"/>`;
+      if (r.media) zip.file(`ppt/media/keep_${r.media}`, fs.readFileSync(path.join(IMG_DIR, 'ue3', r.media)));
+      rels = rels.replace('</Relationships>', rel + '</Relationships>');
+    }
+    const tree = spec.spTree.replace(/r:(embed|id|link)="([^"]*)"/g, (m, a, id) => `r:${a}="${map[id] || id}"`);
+    zip.file(sp, (await zip.file(sp).async('string')).replace(/<p:spTree>[\s\S]*<\/p:spTree>/, () => tree));
+    zip.file(rp, rels);
+  }
   const themePart = 'ppt/theme/theme1.xml';
   const scheme = `<a:clrScheme name="${THEME.name}">` + SLOTS.map((k) => `<a:${k}><a:srgbClr val="${THEME.colors[k]}"/></a:${k}>`).join('') + '</a:clrScheme>';
   const themeXml = (await zip.file(themePart).async('string'))
@@ -1094,4 +1117,4 @@ function hasAnswers(spec) {
   return spec.rows.some((r) => r.some((c) => /\[\[|\{\{|<</.test(c)));
 }
 
-module.exports = { Deck, prepIcons, PEOPLE, THEME };
+module.exports = { Deck, prepIcons, PEOPLE, THEME, HEX, HEAD, BORDER, PURPLE, parse, plain, flow, textH, fitSize, ico, shadow };
