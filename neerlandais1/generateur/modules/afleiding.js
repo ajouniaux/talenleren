@@ -1,6 +1,6 @@
 // Werken, de werking, werkbaar — La dérivation : passer d'une catégorie de mot à l'autre (complément A2–B1)
 // Édition épurée : une idée par diapo, la formule au centre, les exemples dans des tableaux sobres,
-// deux couleurs seulement (bleu nuit pour la structure, bleu-vert pour les affixes), les détails dans les notes.
+// le code couleur du M14 (nom bleu, verbe rouge, adjectif orange, adverbe vert, affixes violets), les détails dans les notes.
 const { measure } = require('../vijf_kit');
 
 const meta = {
@@ -10,7 +10,7 @@ const meta = {
   foot: 'Néerlandais · A2–B1 · La dérivation',
 };
 
-// ------------------------------------------------------------------ la palette (deux couleurs, des gris)
+// ------------------------------------------------------------------ la palette
 const NAVY = '17375E';   // la structure : titres, en-têtes, la racine
 const INK = '1B2333';    // le texte
 const MUTED = '6B7686';  // les commentaires
@@ -34,7 +34,8 @@ function build(d) {
   P.defineSlideMaster({ title: 'AF_DARK', background: { color: NAVY }, slideNumber: num('C9D4E2'), objects: [footer('C9D4E2'), { placeholder: { options: { name: 'title', type: 'title', x: 1.5, y: 0.6, w: 10.33, h: 0.8, fontSize: 30, bold: true, color: 'FFFFFF', align: 'center', valign: 'middle', margin: 0 }, text: '' } }] });
 
   // ---------------------------------------------------------------- texte enrichi
-  // **gras** · //italique// · {affixe} (bleu-vert) · ~~forme fautive~~ (barrée) · [[réponse]] (pointillés / bleu-vert)
+  // **gras** · //italique// · {affixe} (violet) · ~~forme fautive~~ (barrée) · [[réponse]] (pointillés / couleur de la catégorie)
+  // <N> <V> <A> <D> <DE> <HET> <OK> … </> : la couleur de la catégorie
   const runs = (str, o = {}, mode = 'a') => {
     const out = []; let b = false; let it = false; let a = false; let e = false; let ans = false; let cat = null;
     String(str).split(/(\*\*|\/\/|\{|\}|~~|\[\[|\]\]|<(?:N|V|A|D|DE|HET|OK)>|<\/>)/).forEach((tk) => {
@@ -120,7 +121,7 @@ function build(d) {
     s.addTable(data, { x, y, w, colW, rowH: o.rowH || 0.5, fontFace: FONT, fontSize: size, margin: [0.03, 0.1, 0.03, 0.1], autoPage: false });
   };
 
-  // ---------------------------------------------------------------- le carrefour miniature (monochrome)
+  // ---------------------------------------------------------------- le carrefour miniature
   function mini(s, act) {
     const Pn = { N: [12.2, 0.42], V: [11.72, 1.12], A: [12.68, 1.12] }; const r = 0.16;
     [['N', 'V'], ['N', 'A'], ['V', 'A']].forEach(([a, b]) => line(s, Pn[a][0], Pn[a][1], Pn[b][0], Pn[b][1], LINE, 1.25));
