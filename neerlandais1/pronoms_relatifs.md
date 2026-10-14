@@ -10,8 +10,8 @@
 
 ## Choix didactiques
 
-- **Un schéma par diapo** : la mise en page épurée du complément *Afleiding* (sur-titre, titre centré, formule dans une pastille claire, tableau sobre, deux encadrés discrets **✓ La règle** et **! Attention** en bas), mais ici chaque règle est d'abord **dessinée** : une flèche courbe relie toujours le relatif à son nom.
-- **Le code couleur du cours** : *die* en **bleu nuit** et *dat* en **orange** (comme *de* et *het*, M5, M20, M22) ; *wat* en **vert** ; *wie* en **framboise** ; *waar* + préposition en **violet** (comme au M22) ; le *dat* du temps (*de dag dat*, *waarop*) en **bleu** ; le **verbe conjugué en rouge** (charte, § 5.3). Le nom auquel renvoie le relatif (l'antécédent) est souligné dans la couleur de son relatif. Encadrés : **✓ La règle** en vert, **! Attention** en rouge, **+ En plus** en bleu.
+- **Le modèle illustré du cours** (celui de la première édition d'*Afleiding*) : étiquette de couleur et titre, **pastilles** pleines pour les relatifs et les verbes (le nom auquel renvoie le relatif en pastille claire), **cartes** à bandeau de couleur, illustrations, rangées à fond alterné, deux encadrés **✓ La norme** (vert) et **⚠ Attention** (rouge), un **bandeau bleu nuit** de synthèse. En haut à droite, la réglette « vous êtes ici » allume le ou les relatifs de la diapo. Chaque règle est d'abord **dessinée** : une flèche courbe relie toujours le relatif à son nom.
+- **Le code couleur du cours** : *die* en **bleu nuit** et *dat* en **orange** (comme *de* et *het*, M5, M20, M22) ; *wat* en **vert** ; *wie* en **framboise** ; *waar* + préposition en **violet** (comme au M22) ; le *dat* du temps (*de dag dat*, *waarop*) en **bleu** ; le **verbe conjugué en rouge** (charte, § 5.3). Le nom auquel renvoie le relatif (l'antécédent) est en pastille claire, dans la couleur de son relatif. Encadrés : **✓ La norme** en vert, **⚠ Attention** en rouge, **+ En plus** en bleu.
 - Schéma **R1** « l'anatomie » : le nom (souligné) ← le relatif (flèche courbe) … le verbe à la fin (rouge).
 - Schéma **R2** « l'aiguillage » (reprise du S18, M22) : trois rails (mot *de*, pluriel, mot *het*) vers deux gares, *die* et *dat*.
 - Schéma **R3** « le sandwich » : la relative s'ouvre au milieu de la principale ; les deux verbes se touchent (« verbe, verbe », M9).
@@ -58,7 +58,7 @@
 **Objectif pédagogique** — Présenter les 3 objectifs.
 
 **Visuel / Schéma / Agencement**
-- Trois pastilles (icône, verbe, phrase) : Choisir (bleu nuit) · Construire (rouge) · Traduire (violet) ; une phrase de synthèse.
+- Trois cartes (icône, verbe, phrase) : Choisir (bleu nuit) · Construire (rouge) · Traduire (violet) ; l'enseignant illustré ; bandeau de synthèse.
 
 **Contenu textuel**
 > **Choisir** — le bon relatif : *die, dat, wat, wie, waar-*
@@ -75,10 +75,10 @@
 **Objectif pédagogique** — Découvrir les trois gestes de la relative : remplacer le nom, placer le relatif en tête, envoyer le verbe à la fin.
 
 **Visuel / Schéma / Agencement**
-- En haut, deux phrases en étiquettes : *Ik heb een collega.* + *De collega spreekt vijf talen.* ; le nom répété est barré et remplacé par *die* ; une flèche rouge envoie *spreekt* à la fin.
-- En bas, la phrase fusionnée : *Ik heb een collega die vijf talen spreekt.* ; la flèche courbe relie *die* à *een collega*.
+- En haut, deux phrases en étiquettes blanches : *Ik heb een collega.* + *De collega spreekt vijf talen.* ; le nom répété est barré en rouge, le verbe en rouge ; à gauche, une illustration (la collègue, le rapport).
+- En dessous, la phrase fusionnée en pastilles : *Ik heb [een collega] [die] vijf talen [spreekt].* ; la flèche courbe relie *die* à *een collega*.
 - Deuxième exemple (mot *het*, le nom est complément) : *Ik lees het rapport.* + *Sofie heeft het rapport geschreven.* → *Ik lees het rapport dat Sofie heeft geschreven.*
-- Trois pastilles numérotées : ① le nom répété → *die / dat* · ② le relatif en tête · ③ le verbe à la fin.
+- Des pastilles numérotées sous les mots ; en bas, le bandeau bleu nuit : ① le nom répété → *die / dat* · ② le relatif en tête · ③ le verbe à la fin.
 
 **Contenu textuel**
 > *Ik heb een collega. De collega spreekt vijf talen.* → *Ik heb een collega **die** vijf talen **spreekt**.*
@@ -94,15 +94,15 @@
 **Objectif pédagogique** — Nommer les trois pièces : l'antécédent, le relatif, le verbe à la fin.
 
 **Visuel / Schéma / Agencement**
-- Schéma **R1** : *Ik zoek de collega die de sleutel heeft.* en grand ; *de collega* souligné en bleu nuit, *die* en bleu nuit, *heeft* en rouge ; la flèche courbe de *die* vers *de collega* ; sous la phrase, trois étiquettes : « l'antécédent (le nom) », « le relatif », « le verbe à la fin » ; une accolade sous la relative.
-- La formule : nom ← relatif … verbe.
-- Deux encadrés : ✓ la règle (subordonnée : verbe à la fin) · ! on ne supprime jamais le relatif.
+- Schéma **R1** : *Ik zoek de collega die de sleutel heeft.* en grandes pastilles : *de collega* en pastille claire bleu nuit, *die* en pastille pleine bleu nuit, *heeft* en rouge ; la flèche courbe de *die* vers *de collega* ; sous la phrase, trois étiquettes : « l'antécédent (le nom) », « le relatif », « le verbe à la fin » ; une accolade sous la relative.
+- Bandeau bleu nuit : nom ← relatif + … + verbe.
+- Deux encadrés : ✓ la norme (subordonnée : verbe à la fin) · ⚠ on ne supprime jamais le relatif.
 
 **Contenu textuel**
 > *Ik zoek **de collega** ← **die** de sleutel **heeft**.*
 > l'antécédent · le relatif · la relative · le verbe conjugué à la fin
-> ✓ **La règle** — La relative est une subordonnée (le « wagon » du M9) : le verbe conjugué va à la fin.
-> ! **Jamais sans relatif** — ~~*de collega ik zoek*~~ (anglais : *the colleague I'm looking for*) → *de collega die ik zoek*
+> ✓ **La norme** — La relative est une subordonnée (le « wagon » du M9) : le verbe conjugué va à la fin.
+> ⚠ **Jamais sans relatif** — ~~*de collega ik zoek*~~ (anglais : *the colleague I'm looking for*) → *de collega die ik zoek*
 
 **Notes pour l'animateur** — Le relatif suit directement son nom (sauf avec une préposition : *de collega met wie…*). Les apprenant·es qui parlent anglais suppriment parfois le relatif : en néerlandais, comme en français, il est obligatoire.
 
@@ -114,14 +114,14 @@
 
 **Visuel / Schéma / Agencement**
 - Schéma **R2** : trois rails à gauche (mot *de* · pluriel · mot *het*) qui mènent à deux gares : *die* (bleu nuit) et *dat* (orange) ; un exemple par rail, la flèche courbe du relatif vers son nom.
-- Deux encadrés : ✓ la règle · ! les personnes en *het* et les diminutifs.
+- Deux encadrés : ✓ la norme · ⚠ les personnes en *het* et les diminutifs.
 
 **Contenu textuel**
 > mot *de* → **die** : *de klant die belt*
 > mot *het* → **dat** : *het rapport dat klaar is*
 > pluriel (*de* ou *het*) → **die** : *de rapporten die klaar zijn*
-> ✓ **La règle** — Regardez l'article du nom : *de* → *die*, *het* → *dat*, pluriel → toujours *die*.
-> ! **Attention** — *het meisje **dat**… · het kind **dat**… · het kopje **dat**…* (diminutif en *-je* = *het*)
+> ✓ **La norme** — Regardez l'article du nom : *de* → *die*, *het* → *dat*, pluriel → toujours *die*.
+> ⚠ **Attention** — *het meisje **dat**… · het kind **dat**… · het kopje **dat**…* (diminutif en *-je* = *het*)
 
 **Notes pour l'animateur** — Les mêmes mots que les démonstratifs (M20) : *die / dat* suivent *de / het*. En cas de doute sur l'article, le dictionnaire tranche ; les diminutifs (*-je, -tje, -pje*) sont toujours *het*. *het meisje dat…* : c'est le mot qui décide, pas la personne.
 
@@ -132,15 +132,15 @@
 **Objectif pédagogique** — Comprendre que le néerlandais ne distingue pas *qui* (sujet) et *que* (complément).
 
 **Visuel / Schéma / Agencement**
-- *À gauche*, deux portes françaises : *qui* (sujet) et *que* (complément) ; elles se rejoignent sur une seule porte néerlandaise : *die / dat*, choisie par le nom.
-- Tableau : français · néerlandais (quatre lignes, *qui / que* en gris, *die / dat* en couleur).
-- Encadré ! : la phrase ambiguë *de collega die Sofie helpt*.
+- *À gauche*, le drapeau français et deux portes : *qui* (sujet) et *que* (complément) ; elles se rejoignent sur une seule porte néerlandaise (drapeau néerlandais) : *die / dat*, choisie par le nom.
+- *À droite*, quatre rangées : « français » ➜ néerlandais (*qui / que* en gris, *die / dat* en couleur) ; en bas, bandeau bleu nuit (*die me helpt / die ik help*).
+- Encadré ⚠ : la phrase ambiguë *de collega die Sofie helpt*.
 
 **Contenu textuel**
 > *le collègue **qui** m'aide* → *de collega **die** me helpt* · *le collègue **que** j'aide* → *de collega **die** ik help*
 > *le rapport **qui** est prêt* → *het rapport **dat** klaar is* · *le rapport **que** je lis* → *het rapport **dat** ik lees*
-> ✓ **La règle** — Le français regarde la **fonction** (qui / que) ; le néerlandais regarde le **nom** (*die / dat*).
-> ! **Qui fait quoi ?** — *de collega die Sofie helpt* = qui aide Sofie… ou que Sofie aide : le contexte décide.
+> ✓ **La norme** — Le français regarde la **fonction** (qui / que) ; le néerlandais regarde le **nom** (*die / dat*).
+> ⚠ **Qui fait quoi ?** — *de collega die Sofie helpt* = qui aide Sofie… ou que Sofie aide : le contexte décide.
 
 **Notes pour l'animateur** — Avec un pronom, l'ordre lève le doute : *die **me** helpt* (il m'aide, *me* est complément) · *die **ik** help* (je l'aide, *ik* est sujet). Avec deux noms, seul le contexte (ou l'accord du verbe : *de collega die de klanten **helpen*** = que les clients aident) permet de trancher.
 
@@ -152,14 +152,14 @@
 
 **Visuel / Schéma / Agencement**
 - Le train du M9 : la locomotive *Ik zoek de collega* et le wagon *die de sleutel heeft*, le verbe rouge au bout du wagon.
-- Tableau : la relative, ce qu'on observe (un verbe, deux verbes, un verbe séparable, un participe).
+- Quatre rangées alternées : la relative · ce qu'on observe (un verbe, verbe + infinitif, auxiliaire + participe, verbe séparable recollé).
 
 **Contenu textuel**
 > *de collega die de sleutel **heeft*** — un verbe
 > *de klant die ik morgen **moet bellen*** — verbe + infinitif
 > *het dossier dat ik gisteren **heb gelezen*** — auxiliaire + participe (ou *gelezen heb*)
 > *de collega die altijd vroeg **opstaat*** — le verbe séparable se recolle (*opstaan*, M11)
-> ✓ **La règle** — tous les verbes au bout de la relative.
+> ✓ **La norme** — tous les verbes au bout de la relative.
 > + **Deux ordres** — *heb gelezen* = *gelezen heb* : les deux sont corrects.
 
 **Notes pour l'animateur** — C'est la règle de *omdat, dat, als* (M9). Le verbe séparable se recolle comme après *omdat* : *Hij staat vroeg op* → *de collega die vroeg opstaat*. Avec un modal et un infinitif, le modal précède : *die ik moet bellen*.
@@ -171,15 +171,15 @@
 **Objectif pédagogique** — Insérer une relative après le sujet ; gérer la rencontre des deux verbes.
 
 **Visuel / Schéma / Agencement**
-- Schéma **R3** « le sandwich » : la principale *De collega … spreekt vijf talen* s'ouvre ; la relative *die naast me zit* se glisse dans l'ouverture (bulle bleu clair) ; les deux verbes rouges *zit, spreekt* se touchent, une virgule entre les deux.
-- Tableau : trois exemples.
+- Schéma **R3** « le sandwich » : la principale *De collega … spreekt vijf talen* en deux cadres ; la relative *die naast me zit* se glisse entre les deux, un peu surélevée (cadre bleu clair) ; un arc gris montre que la principale continue ; sous les deux verbes rouges *zit, spreekt*, la pastille « verbe, verbe ».
+- Trois rangées d'exemples.
 - Deux encadrés.
 
 **Contenu textuel**
 > *De collega **die naast me zit**, spreekt vijf talen.*
 > *Het rapport dat Sofie **schrijft**, **is** bijna klaar.* · *De klanten die gebeld **hebben**, **krijgen** een antwoord.* · *De printer die op de eerste verdieping **staat**, **werkt** niet.*
 > ✓ **Verbe, verbe** — le verbe de la relative puis celui de la principale ; une virgule entre les deux.
-> ! **Pas trop long** — une relative courte au milieu ; une relative longue, plutôt à la fin (diapo suivante).
+> ⚠ **Pas trop long** — une relative courte au milieu ; une relative longue, plutôt à la fin (diapo suivante).
 
 **Notes pour l'animateur** — La virgule entre les deux verbes n'est pas obligatoire mais elle aide à lire (Taaladvies la conseille). Faites lire à voix haute : une petite pause après la relative.
 
@@ -191,13 +191,13 @@
 
 **Visuel / Schéma / Agencement**
 - Schéma **R4** : *Ik heb de collega [die de sleutel heeft] gebeld.* (phrase lourde, le participe très loin) ; une flèche courbe fait sauter la relative par-dessus *gebeld* → *Ik heb de collega gebeld die de sleutel heeft.*
-- Tableau : trois exemples.
+- Trois rangées d'exemples.
 
 **Contenu textuel**
 > *Ik heb de collega ~~die de sleutel heeft~~ gebeld.* → *Ik heb de collega **gebeld** die de sleutel heeft.*
 > *We hebben een klant **gevonden** die het project wil betalen.* · *Wil je het rapport **lezen** dat ik geschreven heb?* · *Ze heeft een collega **gebeld** die Frans spreekt.*
-> ✓ **La règle** — la relative peut suivre le participe ou l'infinitif de la fin : la phrase reste légère.
-> ! **Attention** — pas d'autre nom entre les deux qui crée une confusion.
+> ✓ **La norme** — la relative peut suivre le participe ou l'infinitif de la fin : la phrase reste légère.
+> ⚠ **Attention** — pas d'autre nom entre les deux qui crée une confusion.
 
 **Notes pour l'animateur** — Les deux versions sont correctes ; la version « sautée » est la plus naturelle dès que la relative est longue. Elle est très fréquente à l'oral comme à l'écrit. Le relatif reste lié à son nom : *de collega … die*.
 
@@ -208,13 +208,13 @@
 **Objectif pédagogique** — Distinguer la relative qui choisit (sans virgules) de la relative qui ajoute une information (entre virgules).
 
 **Visuel / Schéma / Agencement**
-- Schéma **R5** « le filtre et la parenthèse » : deux rangées de six collègues. En haut, sans virgules : trois collègues seulement ont l'épingle « Gent » (le filtre). En bas, entre virgules : les six sont mis en évidence (la parenthèse).
+- Schéma **R5** « le filtre et la parenthèse » : deux cartes, chacune avec une phrase et six collègues illustrés. En haut, sans virgule avant *die* : trois collègues seulement ont l'épingle « Gand » (le filtre), les autres sont pâlis. En bas, entre virgules : les six sont mis en évidence (la parenthèse). Bandeau bleu nuit de synthèse.
 - Deux phrases, deux sens.
 
 **Contenu textuel**
 > *Mijn collega's **die in Gent wonen**, komen met de trein.* → seulement ceux de Gand : la relative **choisit**.
 > *Mijn collega's**, die in Gent wonen,** komen met de trein.* → tous (et tous habitent Gand) : la relative **ajoute** une information.
-> ✓ **La règle** — pas de virgule avant le relatif = on choisit · entre virgules = une information en plus.
+> ✓ **La norme** — pas de virgule avant le relatif = on choisit · entre virgules = une information en plus.
 > + **Un nom propre** — toujours entre virgules : *Sofie, die in Gent woont, komt met de trein.*
 
 **Notes pour l'animateur** — Comme en français (« Les collègues qui habitent Gand… » / « Les collègues, qui habitent Gand, … »). À l'oral, la parenthèse se reconnaît aux pauses. C'est la virgule **avant** *die* qui fait la différence. La virgule après la relative (*… wonen, komen*) est la virgule « verbe, verbe » de la diapo 8 : on la met dans les deux cas, elle ne change pas le sens.
@@ -227,15 +227,15 @@
 
 **Visuel / Schéma / Agencement**
 - Une rangée de « mots sans nom » (*alles · iets · niets · veel · weinig · het enige · het eerste · het mooiste*) ; des flèches vertes convergent vers la gare *wat*.
-- Tableau : exemple · français.
+- Quatre rangées : exemple · « français ».
 
 **Contenu textuel**
 > *Alles **wat** je zegt, klopt.* — Tout ce que tu dis est juste.
 > *Is er iets **wat** ik kan doen?* — Y a-t-il quelque chose que je puisse faire ?
 > *Dat is het enige **wat** ik weet.* — C'est la seule chose que je sache.
 > *Het mooiste **wat** ik ooit gezien heb.* — La plus belle chose que j'aie jamais vue.
-> ✓ **La règle** — pas de nom, mais un mot « chose » → *wat*.
-> ! **À l'oral** — on entend aussi *iets dat, niets dat* (surtout en Belgique) ; *wat* est toujours juste.
+> ✓ **La norme** — pas de nom, mais un mot « chose » → *wat*.
+> ⚠ **À l'oral** — on entend aussi *iets dat, niets dat* (surtout en Belgique) ; *wat* est toujours juste.
 
 **Notes pour l'animateur** — Taaladvies : après *alles, iets, niets, veel, weinig* et après un adjectif employé seul (*het enige, het mooiste*), *wat* est le plus courant ; *dat* se rencontre aussi après *iets, niets* et un superlatif. Pour l'examen : *wat*. Avec un vrai nom, retour à *die / dat* : *het enige **boek dat** ik heb*.
 
@@ -247,14 +247,14 @@
 
 **Visuel / Schéma / Agencement**
 - *Hij komt altijd te laat, wat ik vervelend vind.* : une accolade verte couvre toute la première phrase ; la flèche courbe part de *wat* vers l'accolade.
-- Tableau : trois exemples · français.
+- Trois rangées : exemple · « français ».
 
 **Contenu textuel**
 > *Hij komt altijd te laat, **wat** ik vervelend vind.* — …, ce que je trouve agaçant.
 > *Ze heeft de job gekregen, **wat** niemand verwachtte.* — …, ce que personne n'attendait.
 > *De lift werkt niet, **wat** erg lastig is.* — …, ce qui est très embêtant.
-> ✓ **La règle** — après une virgule, *wat* reprend toute l'idée qui précède.
-> ! **Attention** — ~~*…, dat erg lastig is*~~ → *wat* : il n'y a pas de nom.
+> ✓ **La norme** — après une virgule, *wat* reprend toute l'idée qui précède.
+> ⚠ **Attention** — ~~*…, dat erg lastig is*~~ → *wat* : il n'y a pas de nom.
 
 **Notes pour l'animateur** — Comparez : *De lift, **die** niet werkt, …* (*die* = l'ascenseur) et *De lift werkt niet, **wat** lastig is* (*wat* = le fait que l'ascenseur ne marche pas). Le français dit « ce qui / ce que » : le néerlandais dit toujours *wat*.
 
@@ -265,15 +265,15 @@
 **Objectif pédagogique** — Employer *wie* et *wat* sans antécédent (« celui qui », « ce que »).
 
 **Visuel / Schéma / Agencement**
-- Deux cases d'antécédent vides en pointillés : une silhouette (personne) → *wie* (framboise) ; une boîte (chose) → *wat* (vert).
-- Tableau : exemple · français ; la principale commence par le verbe (« verbe, verbe »).
+- Deux cartes : une case d'antécédent vide en pointillés (« sans nom ») avec une personne → *wie* (framboise) ; avec un paquet (une chose) → *wat* (vert).
+- Quatre rangées : exemple · « français » ; la principale commence par le verbe (« verbe, verbe »).
 
 **Contenu textuel**
 > ***Wie** te laat **komt**, **betaalt** de koffie.* — Celui qui arrive en retard paie le café.
 > ***Wie** wil meedoen, kan zich inschrijven.* — Ceux qui veulent participer peuvent s'inscrire.
 > ***Wat** je zegt, **is** niet waar.* — Ce que tu dis n'est pas vrai.
 > *Ik begrijp niet **wat** hij bedoelt.* — Je ne comprends pas ce qu'il veut dire.
-> ✓ **La règle** — pas de nom : une personne → *wie* · une chose → *wat*.
+> ✓ **La norme** — pas de nom : une personne → *wie* · une chose → *wat*.
 > + **Plus formel** — *degene die* (celui / celle qui) · *diegenen die* (ceux qui) · *datgene wat* (ce que).
 
 **Notes pour l'animateur** — *Wie … , betaalt* : la relative occupe la 1re place, donc la principale commence par son verbe (« verbe, verbe », comme à la diapo 8). Dans les règlements : *Wie rookt, betaalt een boete.* *Wie* singulier : le verbe reste au singulier (*Wie wil…*). Le 4e exemple est, pour les grammairien·nes, une question indirecte : il se construit de la même façon.
@@ -285,14 +285,14 @@
 **Objectif pédagogique** — Choisir *préposition + wie* (personne) ou *waar + préposition* (chose).
 
 **Visuel / Schéma / Agencement**
-- Un embranchement : « préposition + relatif ? » ; à gauche une personne → *met wie* (framboise) ; à droite un ordinateur → *waarmee* (violet).
-- Tableau à deux colonnes : personne · chose (quatre verbes).
+- Un embranchement : « préposition + relatif ? » mène à deux cartes à bandeau de couleur.
+- Carte « UNE PERSONNE → préposition + *wie* » (framboise, une collègue) et carte « UNE CHOSE → *waar* + préposition » (violet, un ordinateur) : quatre exemples chacune.
 
 **Contenu textuel**
 > **personne** : *de collega **met wie** ik werk* · *de klant **op wie** ik wacht* · *de man **aan wie** ik denk* · *de vriendin **over wie** ik praat*
 > **chose** : *de laptop **waarmee** ik werk* · *de bus **waarop** ik wacht* · *het project **waaraan** ik denk* · *het boek **waarover** ik praat*
-> ✓ **La règle** — personne : préposition + *wie* · chose : *waar* + préposition, en un mot.
-> ! **Jamais** — ~~*met wat*~~, ~~*met die*~~, ~~*met dat*~~ pour une chose.
+> ✓ **La norme** — personne : préposition + *wie* · chose : *waar* + préposition, en un mot.
+> ⚠ **Jamais** — ~~*met wat*~~, ~~*met die*~~, ~~*met dat*~~ pour une chose.
 
 **Notes pour l'animateur** — À l'oral, on entend aussi *waar-* pour une personne (*de collega waarmee ik werk*) : c'est accepté dans la langue familière, mais à l'écrit, *met wie* est la règle sûre. Le relatif reste après le nom, la préposition passe devant : *de collega met wie…* (le français fait pareil : « avec qui »).
 
@@ -303,13 +303,13 @@
 **Objectif pédagogique** — Former *waar* + préposition et connaître les deux changements (*met → mee, tot → toe*).
 
 **Visuel / Schéma / Agencement**
-- Schéma **R6** : les briques ~~*met*~~ + ~~*wat*~~ (barrées) → *waar* + *mee* (violet), puis le mot *waarmee*.
-- Une grille de douze briques : *waarmee, waartoe, waarop, waaraan, waarover, waarvan, waarvoor, waarin, waarnaar, waaruit, waarbij, waarom* ; *mee* et *toe* encadrés.
+- Schéma **R6** : les briques (rappel du M14) ~~*met*~~ + ~~*wat*~~ (barrées) → *waar* + *mee* (violet) = *waarmee* ; en bas, bandeau bleu nuit (le tableau du M23).
+- Douze cartes : *waarmee, waartoe, waarop, waaraan, waarover, waarvan, waarvoor, waarin, waarnaar, waaruit, waarbij, waarom* ; *mee* et *toe* en rouge, dans une carte rouge.
 
 **Contenu textuel**
 > ~~*met wat*~~ → ***waarmee***
 > *met → waarmee* · *tot → waartoe* · *op → waarop* · *aan → waaraan* · *over → waarover* · *van → waarvan* · *voor → waarvoor* · *in → waarin* · *naar → waarnaar* · *uit → waaruit* · *bij → waarbij* · *om → waarom*
-> ! **Deux changements** — *met → mee* · *tot → toe*
+> ⚠ **Deux changements** — *met → mee* · *tot → toe*
 > + **waarom** — « pourquoi », mais aussi « la raison pour laquelle » : *de reden waarom hij vertrekt*
 
 **Notes pour l'animateur** — C'est le tableau de conversion du M23 (*er, daar, waar* + préposition) : on ne met jamais une préposition devant *het, dat, wat* pour une chose. *waarom* est relatif après *de reden* ; ailleurs, c'est l'adverbe interrogatif.
@@ -321,14 +321,14 @@
 **Objectif pédagogique** — Séparer *waar* et la préposition, comme à l'oral.
 
 **Visuel / Schéma / Agencement**
-- Schéma **R7** : *de pen waarmee ik schrijf* (un mot) puis *de pen waar ik mee schrijf* ; un arc violet relie *waar* et *mee*, qui encadrent la relative (rappel de la pince du M11).
-- Tableau : un mot · la pince (quatre exemples).
+- Schéma **R7** : en pastilles, *de pen waarmee ik schrijf* = *de pen waar ik mee schrijf* ; sous la deuxième, un arc violet relie *waar* et *mee*, qui encadrent la relative (rappel de la pince du M11).
+- Trois rangées : en un mot ⇄ la pince.
 
 **Contenu textuel**
 > *de pen **waarmee** ik schrijf* = *de pen **waar** ik **mee** schrijf*
 > *het project waaraan ik werk* = *het project **waar** ik **aan** werk* · *de bus waarop ik wacht* = *de bus **waar** ik al een uur **op** wacht* · *het dossier waarnaar je zoekt* = *het dossier **waar** je **naar** zoekt*
 > ✓ **Les deux sont justes** — à l'oral, la pince est la plus fréquente.
-> ! **Sa place** — la préposition se met juste avant les verbes de la fin : *waar ik al een uur **op** wacht*.
+> ⚠ **Sa place** — la préposition se met juste avant les verbes de la fin : *waar ik al een uur **op** wacht*.
 
 **Notes pour l'animateur** — Même mécanisme qu'avec *er* (M23) : *Ik wacht er al een uur op.* Avec deux verbes : *het project waar ik niet **aan** heb gedacht* (ou *gedacht heb*). On ne sépare pas *wie* : *de collega met wie ik werk* reste en un bloc.
 
@@ -339,7 +339,7 @@
 **Objectif pédagogique** — Construire la relative à partir d'un verbe à préposition fixe (M23).
 
 **Visuel / Schéma / Agencement**
-- Tableau : verbe + préposition · personne (*wie*, framboise) · chose (*waar-*, violet), six lignes.
+- Six rangées : le verbe et sa préposition dans une étiquette · une personne (*wie*, framboise) · une chose (*waar-*, violet).
 - Deux encadrés.
 
 **Contenu textuel**
@@ -349,8 +349,8 @@
 > *rekenen op* : *de collega's op wie ik reken* · *de hulp waarop ik reken*
 > *zorgen voor* : *de kinderen voor wie ik zorg* · *de planten waarvoor ik zorg*
 > *zoeken naar* : *de kandidaat naar wie we zoeken* · *het dossier waarnaar ik zoek*
-> ✓ **La règle** — apprenez le verbe avec sa préposition : elle passe devant le relatif.
-> ! **≠ français** — *attendre quelqu'un* → *wachten **op*** · *chercher* → *zoeken **naar***
+> ✓ **La norme** — apprenez le verbe avec sa préposition : elle passe devant le relatif.
+> ⚠ **≠ français** — *attendre quelqu'un* → *wachten **op*** · *chercher* → *zoeken **naar***
 
 **Notes pour l'animateur** — Le français « attendre » et « chercher » n'ont pas de préposition : c'est la principale source d'erreur (~~*de bus die ik wacht*~~). Avec *zoeken*, sans préposition, on peut aussi dire *het dossier dat ik zoek* (chercher un objet précis).
 
@@ -361,14 +361,14 @@
 **Objectif pédagogique** — Traduire « où » : *waar* pour un lieu, *dat* ou *waarop / waarin* pour un moment.
 
 **Visuel / Schéma / Agencement**
-- Deux panneaux : une épingle (le lieu, violet) et un calendrier (le temps, bleu).
-- Sous chaque panneau, trois exemples.
-- Encadré ! : *de dag dat* (et non *die*).
+- Deux cartes à bandeau : LE LIEU (violet, une épingle) et LE TEMPS (bleu, un calendrier), avec leurs pastilles (*waar, waarin, waarop* / *dat, waarop, waarin*).
+- Dans chaque carte, trois exemples.
+- Encadré ⚠ : *de dag dat* (et non *die*).
 
 **Contenu textuel**
 > **le lieu** → *waar* (*waarin, waarop*) : *het kantoor **waar** ik werk* · *de stad **waar** ze woont* · *de zaal **waarin** we vergaderen*
 > **le temps** → *dat* ou *waarop / waarin* : *de dag **dat** (**waarop**) ik begon* · *het moment **dat** (**waarop**) hij binnenkwam* · *het jaar **dat** (**waarin**) we verhuisden*
-> ! **Attention** — ~~*de dag waar*~~ : *waar* = le lieu · *de dag **dat*** : ce *dat* ne change pas (~~*de dag die*~~).
+> ⚠ **Attention** — ~~*de dag waar*~~ : *waar* = le lieu · *de dag **dat*** : ce *dat* ne change pas (~~*de dag die*~~).
 
 **Notes pour l'animateur** — *de dag dat ik begon* : ici, *dat* ne s'accorde pas avec *de dag* ; il veut dire « où, quand ». *de dag die…* existe, mais au sens de « le jour qui… » (*de dag die alles veranderde*). *waarop* (jour, moment) et *waarin* (année, période) sont un peu plus soutenus. Dans le récit, on entend aussi *toen* : *in de tijd toen ik in Gent woonde*.
 
@@ -379,8 +379,8 @@
 **Objectif pédagogique** — Traduire « dont » en passant par le verbe néerlandais et sa préposition.
 
 **Visuel / Schéma / Agencement**
-- Une carte « dont » au centre ; quatre branches, chacune avec le verbe néerlandais : *nodig hebben* (pas de préposition → *die / dat*) · *praten over* (→ *over wie / waarover*) · *trots zijn op* (→ *op wie / waarop*) · la possession (→ *van wie / waarvan*).
-- La formule : « dont » → quel verbe néerlandais ?
+- Une étiquette « dont » au centre ; quatre cartes à bandeau gris ardoise, une illustration chacune, avec le verbe néerlandais : *nodig hebben* (pas de préposition → *dat / die*) · *praten over* (→ *over wie / waarover*) · *trots zijn op* (→ *op wie / waarop*) · la possession (→ *van wie / waarvan*).
+- Deux encadrés : ✓ la méthode · + très écrit (*wiens, wier*).
 
 **Contenu textuel**
 > *le dossier dont j'ai besoin* → *nodig hebben* → *het dossier **dat** ik nodig heb*
@@ -399,7 +399,7 @@
 **Objectif pédagogique** — Rassembler toutes les traductions dans un seul tableau.
 
 **Visuel / Schéma / Agencement**
-- Tableau à trois colonnes : français · néerlandais (en couleur) · exemple ; dix lignes.
+- Dix rangées alternées : français · pastille du relatif (en couleur) · exemple ; l'icône « appareil photo ».
 
 **Contenu textuel**
 > qui, que (nom *de*, pluriel) → *die* · *de klant die belt*
@@ -422,7 +422,7 @@
 **Objectif pédagogique** — Repérer les erreurs fréquentes des francophones.
 
 **Visuel / Schéma / Agencement**
-- Tableau : le piège · faux (barré en rouge) · juste (le relatif en couleur).
+- Huit cartes : sept pièges (✗ faux, barré en rouge · ✓ juste, le relatif en couleur) et une carte bleu nuit « Le réflexe : l'arbre de décision ».
 
 **Contenu textuel**
 > le mot *het* : ~~*het meisje die*~~ → *het meisje dat*
@@ -443,7 +443,7 @@
 
 **Visuel / Schéma / Agencement**
 - Schéma **R8** : un arbre de haut en bas. ① « Une préposition devant ? » — oui → « personne ou chose ? » → *préposition + wie* (framboise) / *waar + préposition* (violet) ; non → ② « Un nom juste avant ? » — oui → ③ « *de*, *het* ou pluriel ? » → *die* (bleu nuit) / *dat* (orange) ; non (ou *alles, iets*, une phrase) → *wie* (personne) / *wat* (chose).
-- Sous chaque terminus, un exemple.
+- Sous chaque terminus (pastille de couleur), un exemple ; à droite, le bandeau « Et toujours : tous les verbes à la fin de la relative ».
 
 **Contenu textuel**
 > ① Une préposition devant ? oui → personne : *met wie* · chose : *waarmee*
@@ -459,8 +459,8 @@
 **Objectif pédagogique** — Synthétiser : quand, exemple, traduction.
 
 **Visuel / Schéma / Agencement**
-- Cinq colonnes, une pastille de couleur par relatif : *die · dat · wat · wie · waar-* ; trois lignes : quand ? · exemple · en français.
-- Phrase de conclusion : le verbe à la fin.
+- Cinq cartes à bandeau de couleur, une par relatif : *die · dat · wat · wie · waar-* ; dans chaque carte : quand ? · exemple · en français.
+- Bandeau bleu nuit : le verbe à la fin, la virgule avant le relatif.
 
 **Contenu textuel**
 > **die** — nom *de*, pluriel · *de klant die belt* · qui, que
@@ -479,7 +479,7 @@
 **Objectif pédagogique** — Annoncer les exercices (du plus simple au plus difficile).
 
 **Visuel / Schéma / Agencement**
-- Douze tuiles numérotées sur fond sombre, avec titre et étoiles.
+- Douze tuiles numérotées sur fond sombre, avec titre, étoiles et icône ; l'enseignant illustré.
 
 **Contenu textuel**
 > 1 Die of dat ? ★ · 2 Une seule phrase ★★ · 3 Qui ou que ? ★★ · 4 Au milieu ★★★ · 5 Virgules ★★ · 6 die, dat ou wat ? ★★ · 7 wie ou waar- ? ★★ · 8 La pince ★★ · 9 Dont et où ★★★ · 10 Le détective ★★ · 11 Taboe ! ★ · 12 La photo d'équipe ★★★
@@ -493,10 +493,10 @@
 **Objectif pédagogique** — Choisir *die* ou *dat* selon le nom.
 
 **Visuel / Schéma / Agencement**
-- Douze groupes nominaux en quatre rangées de trois, des pointillés à la place du relatif ; au corrigé, *die* en bleu nuit, *dat* en orange.
+- Douze cartes (trois colonnes, quatre rangées) : le nom, une case en pointillés, la suite ; au corrigé, la carte prend la couleur du relatif (*die* bleu nuit, *dat* orange).
 
 **Contenu textuel**
-> 1 *de klant … belt* · 2 *het rapport … klaar is* · 3 *de rapporten … klaar zijn* · 4 *het meisje … aan de balie werkt* · 5 *de printer … niet werkt* · 6 *het kantoor … we huren* · 7 *de collega's … thuiswerken* · 8 *het kopje … op tafel staat* · 9 *de stagiair … morgen begint* · 10 *het team … het project leidt* · 11 *de mensen … ik ken* · 12 *het bedrijf … ik bel*
+> 1 *de klant … belt* · 2 *het rapport … klaar is* · 3 *de rapporten … klaar zijn* · 4 *het meisje … hier werkt* · 5 *de printer … niet werkt* · 6 *het kantoor … we huren* · 7 *de collega's … thuiswerken* · 8 *het kopje … op tafel staat* · 9 *de stagiair … morgen begint* · 10 *het team … het project leidt* · 11 *de mensen … ik ken* · 12 *het bedrijf … ik bel*
 >
 > **✓ CORRECTIE** — 1 *die* · 2 *dat* · 3 *die* · 4 *dat* · 5 *die* · 6 *dat* · 7 *die* · 8 *dat* · 9 *die* · 10 *dat* · 11 *die* · 12 *dat*
 > *het meisje, het kopje* (*-je*) : mots *het* → *dat* · pluriel → toujours *die*.
@@ -510,7 +510,7 @@
 **Objectif pédagogique** — Relier deux phrases avec *die / dat* et envoyer le verbe à la fin.
 
 **Visuel / Schéma / Agencement**
-- Tableau : deux phrases · une phrase (six lignes) ; au corrigé, le relatif en couleur et le verbe en rouge.
+- Six rangées : les deux phrases (fond clair) ➜ une seule phrase (cadre blanc) ; au corrigé, le relatif en couleur et le verbe en rouge.
 
 **Contenu textuel**
 > 1 *Ik heb een collega. Hij spreekt vijf talen.* · 2 *Hier is het rapport. Je hebt het rapport gevraagd.* · 3 *We zoeken een stagiair. Hij spreekt goed Frans.* · 4 *Dat is de printer. Hij is altijd kapot.* · 5 *Ken je het restaurant? Het ligt naast het station.* · 6 *Ik bel de klanten. Ze hebben een klacht gestuurd.*
@@ -526,7 +526,7 @@
 **Objectif pédagogique** — Traduire *qui* et *que* : seul le nom décide.
 
 **Visuel / Schéma / Agencement**
-- Tableau : français · néerlandais (six lignes, par paires *qui / que*).
+- Six rangées : « français » ➜ néerlandais (par paires *qui / que*).
 
 **Contenu textuel**
 > 1 *le client qui appelle* · 2 *le client que j'appelle* · 3 *le bureau qui est libre* · 4 *le bureau que je réserve* · 5 *les collègues qui m'aident* · 6 *les collègues que j'aide*
@@ -543,7 +543,7 @@
 **Objectif pédagogique** — Insérer une relative après le sujet ; « verbe, verbe ».
 
 **Visuel / Schéma / Agencement**
-- Tableau : la phrase · l'information à ajouter · la nouvelle phrase (cinq lignes).
+- Cinq rangées : la phrase et l'information à ajouter (fond clair) ➜ la nouvelle phrase.
 
 **Contenu textuel**
 > 1 *De collega spreekt vijf talen.* (*Ze zit naast me.*) · 2 *Het rapport is bijna klaar.* (*Sofie schrijft het.*) · 3 *De printer werkt niet.* (*Hij staat op de eerste verdieping.*) · 4 *De klanten krijgen een korting.* (*Ze betalen online.*) · 5 *Het project begint in mei.* (*We hebben het gisteren besproken.*)
@@ -559,7 +559,7 @@
 **Objectif pédagogique** — Comprendre le sens d'une relative avec ou sans virgules.
 
 **Visuel / Schéma / Agencement**
-- Tableau : la phrase · le sens (six lignes, par paires) ; au corrigé, le sens en bleu.
+- Six rangées : la phrase ➜ le sens (par paires) ; au corrigé, le sens en bleu.
 
 **Contenu textuel**
 > 1 *De collega's die thuiswerken, krijgen een laptop.* · 2 *De collega's, die thuiswerken, krijgen een laptop.* · 3 *Mijn zus die in Brussel woont, komt morgen.* · 4 *Mijn zus, die in Brussel woont, komt morgen.* · 5 *De treinen die vertraging hebben, staan op het bord.* · 6 *Sofie, die net terug is uit Gent, geeft de presentatie.*
@@ -576,7 +576,7 @@
 **Objectif pédagogique** — Choisir entre *die, dat* et *wat*.
 
 **Visuel / Schéma / Agencement**
-- Deux tableaux de cinq phrases, des pointillés à la place du relatif.
+- Deux colonnes de cinq rangées, des pointillés à la place du relatif.
 
 **Contenu textuel**
 > 1 *Alles … je zegt, klopt.* · 2 *Is er iets … ik voor je kan doen?* · 3 *Dat is het enige … ik weet.* · 4 *Het rapport … je stuurde, is perfect.* · 5 *Hij komt altijd te laat, … ik vervelend vind.* · 6 *De vergadering … om 10 uur begint, duurt lang.* · 7 *Er is niets … hij niet kan.* · 8 *Het nieuwe kantoor, … in het centrum ligt, is mooi.* · 9 *Stel niet uit tot morgen … je vandaag kunt doen.* · 10 *Dat is het mooiste … ik ooit gezien heb.*
@@ -593,7 +593,7 @@
 **Objectif pédagogique** — Choisir *préposition + wie* ou *waar + préposition*.
 
 **Visuel / Schéma / Agencement**
-- Deux tableaux de quatre lignes : le nom, la préposition donnée, la relative à compléter.
+- Deux colonnes de quatre rangées : la relative à compléter et, à droite, la préposition dans une étiquette.
 
 **Contenu textuel**
 > 1 *de collega … ik samenwerk* (met) · 2 *de laptop … ik werk* (met) · 3 *de bus … ik elke dag wacht* (op) · 4 *de klant … we het gisteren hadden* (over) · 5 *het project … ze denkt* (aan) · 6 *de manager … je het formulier geeft* (aan) · 7 *de reden … hij vertrekt* (om) · 8 *het bedrijf … ik werk* (voor)
@@ -610,7 +610,7 @@
 **Objectif pédagogique** — Passer d'une forme à l'autre : *waarmee* ⇄ *waar … mee*.
 
 **Visuel / Schéma / Agencement**
-- Tableau : en un mot · avec la pince (six lignes ; les deux dernières dans l'autre sens).
+- Six rangées : en un mot ⇄ avec la pince (les deux dernières dans l'autre sens).
 
 **Contenu textuel**
 > 1 *de pen waarmee ik schrijf* · 2 *het project waaraan we werken* · 3 *de vergadering waarover hij praat* · 4 *de bus waarop ik al een uur wacht* · 5 *de documenten waar je naar zoekt* · 6 *het bedrijf waar ik voor werk*
@@ -626,7 +626,7 @@
 **Objectif pédagogique** — Traduire *dont* et *où* en partant du verbe néerlandais.
 
 **Visuel / Schéma / Agencement**
-- Tableau : français · néerlandais (huit lignes).
+- Huit rangées : « français » ➜ néerlandais.
 
 **Contenu textuel**
 > 1 *le bureau où je travaille* · 2 *le jour où j'ai commencé* · 3 *le dossier dont j'ai besoin* · 4 *le collègue dont je parle* · 5 *le projet dont je suis fier·e* · 6 *l'année où nous avons déménagé* · 7 *la collègue dont la voiture est en panne* · 8 *la salle où nous nous réunissons*
@@ -642,7 +642,7 @@
 **Objectif pédagogique** — Repérer et corriger cinq erreurs de relatifs dans un e-mail.
 
 **Visuel / Schéma / Agencement**
-- Un e-mail de Karim à Lotte ; au corrigé, l'erreur barrée en rouge, la correction dans la couleur de son relatif.
+- Un e-mail de Karim à Lotte, la loupe et la pastille rouge « 5 erreurs ? » ; au corrigé, l'erreur barrée en rouge, la correction dans la couleur de son relatif.
 
 **Contenu textuel**
 > « *Beste Lotte, Bedankt voor het rapport die je gisteren hebt gestuurd. De printer die staat op de tweede verdieping, is nog altijd kapot. De klant met wat ik vorige week vergaderd heb, wil het contract tekenen. Vrijdag is de dag waar we de nieuwe stagiair ontmoeten. O ja, de lift werkt nog altijd niet, dat erg lastig is. Groetjes, Karim* »
@@ -675,7 +675,7 @@
 
 **Visuel / Schéma / Agencement**
 - Une « photo » de l'équipe Peeters & Co : six collègues numérotés (dont la cuisinière de la cafétéria et le technicien), chacun avec un objet (café, ordinateur, téléphone, plante, vélo, dossier).
-- Deux rôles (A, B) ; une banque de relatives.
+- Consigne en bandeau violet ; deux cartes de rôle (A décrit, B devine) ; une banque de relatives ; à droite, la photo.
 
 **Contenu textuel**
 > **A** choisit une personne en secret et la décrit en trois relatives : *Ik zoek de collega die… · met wie… · naast wie…*
