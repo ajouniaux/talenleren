@@ -40,15 +40,19 @@ Une présentation PowerPoint par séance (19 au total) pour projeter au tableau 
 
 Les **notes du présentateur** (en français) donnent les consignes de conduite, les durées et les réponses alternatives acceptables.
 
-## Style « séance 1 » (séances 04 et 05)
+## Style « séance 1 » (séances 04 à 08)
 
-Les séances 04 et 05 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
+Les séances 04 à 08 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
 
-- **Schémas et arbres de décision** : fait ou supposition ? · past simple ou past continuous ? · orthographe -ing / -ed · quatre « images du passé » · frise barre / point · échelle de certitude · mindmap de la chronologie.
-- **Illustrations** : imagier numéroté du local technique (12 objets), grille de description d’image, portraits des personnages tirés de l’illustration de la scène 2.
-- **Compréhension** : écoute livre fermé (*Catch the numbers*), True / False / Not given, témoignage inédit de l’agent d’entretien (script dans les notes, cohérent avec le dossier).
-- **Jeux oraux (GAME)** : Memory challenge, Rumour game, Hot seat, Mood cards (séance 04) · Sentence tennis, Objection!, Spelling bee, Alibi game, Draw my evening (séance 05). Les diapositives GAME et + EXTRA sont facultatives.
-- **Vocabulaire** : Water damage, certainty words, connecteurs de récit, phrasal verbs de la nuit.
+| Séance | Schémas et arbres de décision | Compréhension | Jeux oraux (GAME) | Vocabulaire ajouté |
+|---|---|---|---|---|
+| 04 | fait ou supposition ? · past simple ou continuous ? · quatre images du passé · frise de la nuit | écoute livre fermé · True / False / Not given · témoignage de l’agent d’entretien | Memory challenge · Rumour game · Hot seat · Mood cards | imagier du local (12 objets) · dégâts des eaux · mots de la certitude |
+| 05 | when ou while ? · orthographe -ing / -ed · mindmap de la chronologie | Objection! (écoute de détail) · Draw my evening | Sentence tennis · Spelling bee · Alibi game | connecteurs de récit · phrasal verbs de la nuit |
+| 06 | Can I write it in the report? · say, tell, claim or confirm? · échelle de comparaison des sources | Exhibit A plein écran + lecture d’assesseur avec lignes surlignées | Time bingo · Back to the board · Press conference | mots d’un journal · lire une heure, donner une durée |
+| 07 | past simple ou participe ? · questions sujet / objet · 22 verbes en 4 familles | Red flag or on the ball? (écoute de situations) | Three-form relay · Case File Jeopardy | mindmap de 18 collocations · idiomes |
+| 08 | échelle de la preuve · quel verbe de preuve ? · no record ≠ nobody · sent → acknowledged | l’expert IT explique (écoute, comparaison avec un colis) | Overstated! · Taboo · jeu de rôle A / B | evidence / proof · langage de la preuve |
+
+Les textes d’écoute inventés (agent d’entretien, Objection!, expert IT, journaux de Back to the board) sont cohérents avec le dossier ; leurs scripts sont dans les notes du présentateur. Les diapositives GAME et + EXTRA sont facultatives.
 
 Le code de ce style est dans `generateur/lib_light.js` ; une séance l’utilise avec `style: 'light'` dans son `meta`.
 

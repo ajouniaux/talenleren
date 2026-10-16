@@ -346,9 +346,9 @@ exports.build = (d) => {
   d.roleCards({
     title: 'Hot seat — the people in the room', tag: 'GAME', page: 'Hors livret',
     cards: [
-      { who: 'MARK', name: 'Mark', role: 'in charge of the building', color: 'tx2', lines: ['**You were** standing in the doorway.', '**You know:** the water was still running.', '**You don’t know:** when it started.'] },
+      { who: 'MARK', name: 'Mark', role: 'called you at 6.58', color: 'tx2', lines: ['**You were** standing in the doorway.', '**You know:** the water was still running.', '**You don’t know:** when it started.'] },
       { who: 'IRIS', name: 'Iris', role: 'just back from the 2nd floor', color: 'accent3', lines: ['**You were** photographing the ceiling.', '**You know:** the floor is soaked.', '**You think:** it was leaking all night.'] },
-      { who: 'SAMUEL', name: 'Samuel', role: 'IT — the server rack', color: 'accent2', lines: ['**You were** checking the server rack.', '**You know:** the alarm went off at 11.40.', '**You don’t know:** who was on site.'] },
+      { who: 'SAMUEL', name: 'Samuel', role: 'behind the server rack', color: 'accent2', lines: ['**You were** checking the server rack.', '**You know:** the alarm went off at 11.40.', '**You don’t know:** who was on site.'] },
       { who: 'CLEANER', name: 'The cleaner', role: 'cleaning team, 06.50', color: 'accent1', icon: 'FaBroom', lines: ['**You were** pushing your trolley.', '**You know:** water was running at 6.50.', '**You don’t know:** when it started.'] },
     ],
     ask: '**One student = one character**, two minutes in the hot seat. The class asks: //What were you doing when…? · How do you know? · Are you sure?// — answer **in character**, with a certainty word.',
