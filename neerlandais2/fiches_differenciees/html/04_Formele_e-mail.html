@@ -1,0 +1,260 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Fiche 4 · Een formele e-mail</title><style>
+@page { size: A4; margin: 12mm 14mm 11mm 14mm; }
+:root {
+  --ink: #1d2433; --muted: #5d6677; --line: #d9dee7; --soft: #f3f5f9;
+  --nl: #1f4ea3; --slot: #e6e9ef; --accent: #1d2433;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', 'DejaVu Sans', sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.38; }
+.page { page-break-after: always; break-after: page; position: relative; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.run { font-size: 7.5pt; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 3.5mm; display: flex; justify-content: space-between; }
+.kicker { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 1mm; }
+h1 { font-size: 24pt; line-height: 1.1; margin: 0 0 1.5mm; letter-spacing: -.01em; }
+h1.big { font-size: 34pt; }
+.sub { font-size: 12pt; color: var(--muted); margin: 0 0 4mm; }
+h2 { font-size: 12pt; margin: 3.5mm 0 1.6mm; }
+h3 { font-size: 10pt; margin: 3mm 0 1mm; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0 0 2mm; }
+ul { margin: 0 0 2mm; padding-left: 5mm; }
+li { margin-bottom: .8mm; }
+.nl { color: var(--nl); font-weight: 700; }
+.fr { color: var(--muted); font-style: italic; font-weight: 400; font-size: 8.5pt; }
+.slot { background: var(--slot); font-style: italic; font-weight: 500; color: #3c4456; padding: 0 1.4mm; border-radius: 1.2mm; white-space: nowrap; }
+.v { color: #7b4bb3; font-weight: 700; }
+.s { font-weight: 800; color: var(--ink); }
+.plus { color: var(--muted); padding: 0 .6mm; }
+.badges { display: flex; gap: 2mm; flex-wrap: wrap; margin-bottom: 4mm; }
+.badge { font-size: 8pt; font-weight: 600; border: 1px solid var(--line); border-radius: 10mm; padding: .6mm 2.6mm; background: #fff; }
+.badge.lvl { background: var(--ink); color: #fff; border-color: var(--ink); }
+.box { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.box .kicker { color: var(--ink); }
+.soft { background: var(--soft); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+th, td { border: 1px solid var(--line); padding: 1.1mm 2mm; vertical-align: top; text-align: left; }
+th { background: var(--ink); color: #fff; font-size: 7.8pt; letter-spacing: .05em; text-transform: uppercase; }
+td.time { width: 16mm; color: var(--muted); text-align: right; white-space: nowrap; }
+td.phase { width: 27mm; font-weight: 700; }
+.dlg td { border: none; padding: .35mm 1.2mm; font-size: 8.8pt; }
+.dlg td.who { width: 6mm; color: var(--muted); font-weight: 700; }
+.levels { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.levels > div { border-right: 1px solid var(--line); }
+.levels > div:last-child { border-right: none; }
+.levels .hd { color: #fff; font-weight: 700; text-align: center; padding: 1.8mm 1mm; font-size: 9pt; }
+.levels .bd { padding: 2mm; font-size: 8.3pt; color: var(--muted); text-align: center; }
+.vhead { display: flex; align-items: stretch; gap: 3mm; margin-bottom: 3mm; }
+.vnum { width: 15mm; min-height: 15mm; color: #fff; font-size: 22pt; font-weight: 800; display: flex; align-items: center; justify-content: center; border-radius: 1.5mm; }
+.vtitle h1 { font-size: 20pt; margin: 0; }
+.stars { font-family: 'DejaVu Sans', sans-serif; font-size: 13pt; margin-left: 2mm; letter-spacing: .05em; }
+.vtitle .tag { color: var(--muted); font-size: 9.5pt; }
+.steps td:first-child { width: 47%; }
+.steps td .num { font-weight: 800; margin-right: 1.2mm; }
+.bank { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin-bottom: 1mm; }
+.bank > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: .9mm 2mm; line-height: 1.25; }
+.bank-h { font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 2.5mm 0 1mm; }
+.hint { font-size: 8.5pt; color: var(--muted); font-style: italic; }
+.order .line { display: flex; gap: 2.5mm; margin: .9mm 0; }
+.order .blank { width: 9mm; border-bottom: 1px solid var(--ink); flex: none; }
+.order .grp { font-size: 8pt; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 2.5mm 0 .5mm; }
+.pat td:first-child { width: 30mm; color: var(--muted); font-size: 9pt; }
+.pat .ex { display: block; font-size: 8.3pt; color: var(--muted); margin-top: .5mm; }
+.pat .ex b { color: var(--nl); font-weight: 600; }
+.legend { font-size: 8.5pt; margin-bottom: 2mm; }
+.rule { border-bottom: 1px solid #c9cfda; height: 8mm; }
+.keys div { margin: 1.2mm 0; }
+.check td { text-align: center; width: 15mm; }
+.check td:first-child { text-align: left; width: auto; }
+.check th { text-align: center; }
+.check th:first-child { text-align: left; }
+.scale { text-align: center; white-space: nowrap; letter-spacing: .25em; font-size: 11pt; }
+.buoy { border: 1.4px dashed #df7f26; border-radius: 2mm; padding: 2mm 3.5mm; margin: 0 0 3mm; background: #fff8f0; }
+.buoy .kicker { color: #b45f12; }
+.buoy .items { display: grid; grid-template-columns: 1fr 1fr; gap: .6mm 5mm; }
+.observe { border: 1px solid var(--line); border-left: 4px solid var(--nl); border-radius: 1mm; padding: 2mm 3mm; margin: 2mm 0 3mm; }
+.observe .q { margin-top: 1mm; }
+.fill { display: inline-block; min-width: 55mm; border-bottom: 1px dotted var(--ink); }
+.small { font-size: 8.5pt; }
+.muted { color: var(--muted); }
+.spiral { font-size: 7.5pt; font-weight: 700; color: #2b8c99; border: 1px solid #2b8c99; border-radius: 1mm; padding: 0 1mm; margin-left: 1mm; vertical-align: 1px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.card { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3mm; break-inside: avoid; }
+.card .ct { font-weight: 800; font-size: 10.5pt; margin-bottom: 1mm; }
+.card .row { display: flex; gap: 2mm; font-size: 9pt; margin: .5mm 0; }
+.card .row .k { width: 22mm; flex: none; color: var(--muted); }
+.cut { border: 1.4px dashed var(--muted); }
+.err td:first-child { color: #b3261e; text-decoration: line-through; width: 34%; }
+.err td:nth-child(2) { color: var(--nl); font-weight: 700; width: 34%; }
+.mail { border: 1.4px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.mail .bar { background: var(--ink); color: #fff; font-size: 8pt; padding: 1.2mm 3mm; letter-spacing: .05em; }
+.mail .hdr { border-bottom: 1px solid var(--line); padding: 1.5mm 3mm; font-size: 9pt; }
+.mail .hdr div { display: flex; gap: 2mm; }
+.mail .hdr .k { width: 20mm; color: var(--muted); }
+.mail .body { padding: 3mm; }
+.mail .body p { margin: 0 0 1.8mm; }
+.form { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 3mm; }
+.form .f { display: flex; gap: 2mm; align-items: flex-end; margin: 2.2mm 0; }
+.form .f .k { width: 30mm; font-weight: 700; flex: none; }
+.form .f .k span { display: block; font-weight: 400; font-size: 7.5pt; color: var(--muted); }
+.form .f .l { flex: 1; border-bottom: 1px solid var(--ink); height: 5mm; }
+.path { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5mm; margin: 2mm 0 4mm; }
+.path .st { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm; position: relative; }
+.path .st .no { font-size: 18pt; font-weight: 800; line-height: 1; }
+.path .st .ti { font-weight: 700; margin: 1mm 0; }
+.path .st .lv { display: inline-block; font-size: 7.5pt; font-weight: 700; color: #fff; padding: .3mm 1.8mm; border-radius: 5mm; }
+.foot { font-size: 7.5pt; color: var(--muted); margin-top: 2mm; }
+.arrows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; }
+.arrows div { border: 1px solid var(--line); border-radius: 1.5mm; padding: 1.5mm 2mm; display: flex; gap: 2mm; align-items: center; }
+.arrows .ic { font-size: 15pt; width: 8mm; text-align: center; color: var(--ink); }
+.who-tag { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; border-radius: 1mm; padding: 0 1.8mm; margin-right: 1.5mm; }
+</style></head><body><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 4 · Een formele e-mail</span><span>A2 · Expression écrite · individuel + relecture en binôme</span></div>
+  <div class="kicker">Scénario de séance</div>
+  <h1>Een formele e-mail</h1>
+  <div class="sub">Répondre à un mail formel (invitation à un entretien)</div>
+  <div class="badges"><span class="badge lvl">A2</span><span class="badge">Expression écrite · individuel + relecture en binôme</span><span class="badge">⏱ 2 × 50 min</span><span class="badge">📘 Telefoon & mail p. 85</span><span class="badge">📘 Administratie p. 86</span><span class="badge">📘 En · maar · want p. 73</span><span class="badge">📘 Fiche 3 p. 94</span></div>
+  <div class="grid2">
+    <div class="soft">
+      <div class="kicker">Intention de communication</div><p>Garder un rendez-vous d'embauche quand on n'est pas disponible : répondre vite, poliment et complètement.</p>
+      <div class="kicker">Fonctions langagières</div><ul><li>saluer et prendre congé à l'écrit (registre formel)</li><li>remercier</li><li>refuser et justifier</li><li>proposer une alternative</li><li>annoncer un document joint</li></ul>
+      <div class="kicker">Cibles</div>
+      <p class="small"><b>Lexique :</b> mail et administration (de uitnodiging, het gesprek, de bijlage, beschikbaar), jours et dates, motifs (les, examen, afspraak).</p>
+      <p class="small"><b>Forme :</b> registre <span class="nl">u / uw</span> ; verbe en 2e position après <span class="nl">Helaas</span> / <span class="nl">In de bijlage</span> (↺ fiche 1) ; A2 : <span class="nl">omdat</span> + verbe à la fin.</p>
+    </div>
+    <div class="soft"><div class="kicker">Réponse modèle (corrigé)</div><table class="dlg"><tr><td class="who"></td><td class="nl">Onderwerp: RE: Uitnodiging sollicitatiegesprek</td></tr><tr><td class="who"></td><td class="nl">Geachte mevrouw Vermeulen,</td></tr><tr><td class="who"></td><td class="nl">Hartelijk bedankt voor uw e-mail en voor de uitnodiging.</td></tr><tr><td class="who"></td><td class="nl">Helaas ben ik op dinsdag 17 november niet beschikbaar, want ik heb dan les.</td></tr><tr><td class="who"></td><td class="nl">Kan ik op woensdag 18 of donderdag 19 november komen? Ik ben de hele dag vrij.</td></tr><tr><td class="who"></td><td class="nl">In de bijlage vindt u een kopie van mijn diploma.</td></tr><tr><td class="who"></td><td class="nl">Ik kijk uit naar uw antwoord.</td></tr><tr><td class="who"></td><td class="nl">Met vriendelijke groeten,</td></tr><tr><td class="who"></td><td class="nl">Yasmina Benali</td></tr></table><p class="hint">Variante A2 : « …, omdat ik dan een examen heb. » — 62 mots.</p></div>
+  </div>
+  <h2>Déroulement</h2>
+  <table><tr><td class="phase">Rencontre</td><td>Lecture du mail reçu. Avant le sens des mots : <b>qui écrit, à qui, pourquoi, que faut-il faire, avant quand ?</b> On repère les deux actions demandées (répondre, envoyer le diplôme).</td><td class="time">10 min</td></tr><tr><td class="phase">Répétition</td><td>Lecture de la réponse modèle. Jeu d'association formule ↔ fonction (saluer, remercier, refuser…), puis dictée en chaîne des formules fixes.</td><td class="time">10 min</td></tr><tr><td class="phase">Variation</td><td>On change un seul emplacement à la fois : le jour, puis la raison, puis la pièce jointe. On fait remarquer, sans règle, <span class="nl">Helaas ben ik</span> (comme <span class="nl">Elke dag schrijf ik</span>, fiche 1).</td><td class="time">10 min</td></tr><tr><td class="phase">Choix</td><td>Présentation du parcours. Chacun choisit sa variante. Rappel : la feuille-réponse est la même pour tous.</td><td class="time">5 min</td></tr><tr><td class="phase">Rédaction</td><td>Rédaction individuelle sur la feuille « Mijn antwoord ». L'enseignant·e circule, aide les Héro·ïnes à remplir les emplacements.</td><td class="time">20 min</td></tr><tr><td class="phase">Relecture</td><td>Échange des feuilles et <b>relecture croisée</b> avec la grille (elle remplace l'interaction orale). Chacun·e améliore une phrase de son propre mail.</td><td class="time">15 min</td></tr><tr><td class="phase">Retour</td><td>Focus on form : 2 ou 3 phrases d'apprenant·es projetées (anonymes), améliorées ensemble. Autoévaluation.</td><td class="time">15 min</td></tr></table>
+  </section><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 4 · Een formele e-mail</span><span>Repères didactiques</span></div>
+  <div class="kicker">Repères pour l'enseignant·e</div>
+  <h1>Focus on form & observation</h1>
+  <h2>1 · La forme à faire remarquer (sans en faire une leçon)</h2>
+  <div class="observe"><b>Après un mot en tête de phrase, le verbe vient tout de suite (2e place) :</b> <span class="nl">Ik ben dinsdag niet beschikbaar.</span> → <span class="nl">Helaas ben ik dinsdag niet beschikbaar.</span> · <span class="nl">In de bijlage vindt u…</span><br>
+    <b>C'est la même règle que dans la fiche 1</b> (<span class="nl">Elke dag schrijf ik…</span>) : le faire dire aux apprenant·es (« Où l'avez-vous déjà vu ? »). C'est la spirale.<br>
+    <b>Registre :</b> tableau à deux colonnes au tableau — <span class="nl">Hoi Ines! / Doei!</span> (collègue, SMS) vs <span class="nl">Geachte mevrouw Vermeulen, / Met vriendelijke groeten,</span> (mail formel).<br>
+    <b>A2 :</b> <span class="nl">…, want ik heb dan les.</span> → <span class="nl">…, omdat ik dan les heb.</span> (verbe à la fin).<br>
+    <span class="muted small">Syllabus : Woordvolgorde p. 68 · En · maar · want p. 73 · Telefoon & mail p. 85.</span></div>
+  <h2>2 · Erreurs attendues chez des francophones</h2>
+  <table class="err"><tr><th>On entendra…</th><th>On vise…</th><th>Piste de reprise</th></tr><tr><td>Hallo mevrouw, … Doei!</td><td>Geachte mevrouw Vermeulen, … Met vriendelijke groeten,</td><td class="small">Les intrus de la variante 2 ; tableau formel / familier.</td></tr><tr><td>Helaas ik ben niet beschikbaar.</td><td>Helaas ben ik niet beschikbaar.</td><td class="small">↺ fiche 1 : « verbe = 2 ». Souligner le verbe en relecture.</td></tr><tr><td>Geachte mevrouw Ines,</td><td>Geachte mevrouw Vermeulen,</td><td class="small"><span class="nl">Geachte</span> + nom de famille ; <span class="nl">Beste</span> + prénom est moins formel.</td></tr><tr><td>…, omdat ik heb een examen.</td><td>…, omdat ik een examen heb.</td><td class="small">A1 : accepter <span class="nl">want</span>. A2 : encadré Observe.</td></tr></table>
+  <h2>3 · Grille d'observation (pendant l'interaction)</h2>
+  <table><tr><th>Critère</th><th>Repère A1</th><th>Repère A2</th></tr><tr><td><b>Réalisation de la tâche</b></td><td class="small">Répond aux 3 points essentiels : remercier, refuser + autre jour, pièce jointe.</td><td class="small">Tous les points + raison + question ou coordonnées.</td></tr><tr><td><b>Registre</b></td><td class="small">Formules d'appel et finale formelles.</td><td class="small"><span class="nl">u / uw</span> cohérent du début à la fin.</td></tr><tr><td><b>Forme ciblée</b></td><td class="small">Phrases S + V correctes ; <span class="nl">want</span>.</td><td class="small">Inversion après <span class="nl">Helaas / In de bijlage</span> ; <span class="nl">omdat</span> + V final.</td></tr><tr><td><b>Longueur, clarté</b></td><td class="small">40 à 60 mots, ordre logique.</td><td class="small">60 à 80 mots, ordre logique, sans répétition.</td></tr></table>
+  <h2>4 · Ce que cette fiche ajoute au modèle</h2>
+  <ul class="small"><li><b>Transposition à l'écrit</b> : les 5 variantes ARK, prévues pour l'oral, sont adaptées à l'expression écrite (même logique : on retire les aides peu à peu).</li><li><b>Mail authentique mis en forme</b> comme une boîte de réception : on lit pour agir, pas pour traduire.</li><li><b>Intrus familiers</b> dans la variante 2 : on travaille le registre sans exposé théorique.</li><li><b>Relecture croisée</b> avec grille : elle remplace l'interaction et rend la correction concrète et non menaçante.</li><li><b>Feuille-réponse commune</b> au format mail, pour toutes les variantes.</li></ul>
+  <h2>5 · Prolongements</h2>
+  <ul class="small"><li>Second mail : Mme Vermeulen confirme le jeudi. Accuser réception en 2 phrases (<span class="nl">Bedankt voor de bevestiging. Tot donderdag!</span>).</li><li>Mail d'absence au travail : prévenir qu'on est malade (<span class="nl">Helaas ben ik vandaag ziek…</span>).</li></ul>
+  </section><section class="page">
+  <div class="run"><span>Néerlandais 2 · Fiche 4 · Expression écrite</span><span>Fil rouge : la firma Verbeke</span></div>
+  <div class="kicker">Champ thématique : téléphone & mail · administration</div>
+  <h1 class="big">✉️ Een formele e-mail</h1>
+  <div class="sub">Répondre à un mail formel (invitation à un entretien)</div>
+  <div class="badges"><span class="badge lvl">A2</span><span class="badge">Expression écrite · individuel + relecture en binôme</span></div>
+  <div class="box"><div class="kicker">Je peux… (can-do)</div><b>… répondre poliment à un mail professionnel : remercier, refuser un rendez-vous, proposer un autre moment et joindre un document.</b></div>
+  <h2>Pendant cette fiche, tu vas…</h2>
+  <ul><li>comprendre ce qu'un mail formel te demande</li><li>utiliser les formules d'un mail formel (Geachte…, Met vriendelijke groeten)</li><li>remercier, refuser poliment et donner une raison</li><li>proposer un autre moment</li><li>annoncer une pièce jointe</li></ul>
+  <div class="soft"><div class="kicker">La tâche finale (pour tout le monde)</div>Tu réponds au mail de Mme Vermeulen en <b>15 minutes</b>, dans le cadre « Mijn antwoord ». Puis un·e partenaire relit ton mail avec la grille de relecture.</div>
+  <h2>Choisis ton niveau de départ</h2>
+  <p class="small">Toutes les variantes mènent à la <b>même tâche finale</b>. Elles changent seulement l'aide que tu reçois. Il n'y a pas de « mauvais » choix : commence là où tu te sens à l'aise, et monte quand tu es prêt·e. Tu peux aussi redescendre.</p>
+  <div class="levels"><div><div class="hd" style="background:#3d9a5f">1 · Champion·ne</div><div class="bd">Je suis chaque étape. J'ai toutes les phrases.</div></div><div><div class="hd" style="background:#2b8c99">2 · Superchampion·ne</div><div class="bd">J'ai toutes les phrases. J'organise moi-même.</div></div><div><div class="hd" style="background:#3a5fc0">3 · Héro·ïne</div><div class="bd">Je construis mes phrases avec des modèles.</div></div><div><div class="hd" style="background:#7b4bb3">4 · Superhéro·ïne</div><div class="bd">J'ai quelques structures. Je note mes aides.</div></div><div><div class="hd" style="background:#df7f26">5 · Légende</div><div class="bd">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="buoy"><div class="kicker">🛟 Bouée de secours · si un mot te manque</div><div class="items"><div>Reprends les mots du mail reçu : <span class="nl">uitnodiging</span>, <span class="nl">gesprek</span>, <span class="nl">diploma</span>.</div><div>Une idée trop difficile ? Écris-la <span class="nl">plus simplement</span>.</div><div><span class="nl">want</span> suffit : <span class="nl">omdat</span> est un bonus.</div><div>Un mot inconnu ? Contourne-le : <span class="nl">een document</span>, <span class="nl">een afspraak</span>.</div><div>Garde <span class="nl">u / uw</span> du début à la fin.</div><div>Relis la place du verbe : <span class="nl">Helaas ben ik…</span></div></div></div>
+  <p class="small">✉ Le mail reçu est dans chaque variante. Feuille-réponse et grille de relecture : fin de fiche.</p>
+  <p style="margin-top:4mm">Nom : ........................................................ &nbsp; Groupe : .......... &nbsp; Je commence en variante n° ......</p>
+  </section><section class="page"><div class="run"><span>Een formele e-mail · Fiche 4</span><span>Variante 1 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3d9a5f">1</div>
+  <div class="vtitle"><h1>Champion·ne<span class="stars" style="color:#3d9a5f">★☆☆☆☆</span></h1><div class="tag">Je suis chaque étape. J'ai toutes les phrases.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as postulé chez <b>Verbeke</b>. Tu reçois ce mail de la responsable du personnel. Tu dois lui <b>répondre par écrit</b>, poliment.<div class="mail" style="font-size:8.4pt;margin:2mm 0 0"><div class="bar">✉ INBOX · 1 nieuw bericht</div>
+<div class="hdr"><div><span class="k">Van</span><span>ines.vermeulen@verbeke.be</span></div><div><span class="k">Onderwerp</span><b>Uitnodiging sollicitatiegesprek</b></div></div>
+<div class="body nl" style="font-weight:500;color:#1d2433">
+<p>Beste kandidaat,</p>
+<p>Bedankt voor uw sollicitatie voor de functie van administratief bediende. Wij nodigen u graag uit voor een gesprek op <b>dinsdag 17 november om 10 uur</b>, in ons kantoor: Kerkstraat 12, 1000 Brussel (tweede verdieping).</p>
+<p>Kunt u ook een <b>kopie van uw diploma</b> meesturen? Wij verwachten uw antwoord voor vrijdag 13 november.</p>
+<p style="margin:0">Met vriendelijke groeten,<br>Ines Vermeulen · Personeelsdienst · Firma Verbeke</p></div></div><p style="margin:2mm 0 0"><b>Problème :</b> mardi 17, tu n'es pas libre (tu as cours). Tu es libre <b>mercredi 18</b> et <b>jeudi 19 novembre</b>.</p></div>
+  <h2>Prépare-toi : suis les étapes et choisis tes phrases</h2>
+  <table class="steps"><tr><th>Ce que tu dois écrire</th><th>Ce que tu peux écrire</th></tr><tr><td><span class="num">1.</span>Écris l'objet du mail.</td><td><div class="nl">RE: Uitnodiging sollicitatiegesprek</div></td></tr><tr><td><span class="num">2.</span>Salue la personne (formel).</td><td><div class="nl">Geachte mevrouw Vermeulen,</div></td></tr><tr><td><span class="num">3.</span>Remercie.</td><td><div class="nl">Hartelijk bedankt voor uw e-mail.</div><div class="nl">Bedankt voor de uitnodiging.</div></td></tr><tr><td><span class="num">4.</span>Dis que tu n'es pas libre mardi, et pourquoi.</td><td><div class="nl">Helaas ben ik op dinsdag 17 november niet beschikbaar,</div><div class="nl">want ik heb dan les.</div></td></tr><tr><td><span class="num">5.</span>Propose un autre jour.</td><td><div class="nl">Kan ik op woensdag 18 november komen?</div><div class="nl">Ik ben de hele dag vrij.</div></td></tr><tr><td><span class="num">6.</span>Annonce la pièce jointe.</td><td><div class="nl">In de bijlage vindt u een kopie van mijn diploma.</div></td></tr><tr><td><span class="num">7.</span>Termine et signe.</td><td><div class="nl">Ik kijk uit naar uw antwoord.</div><div class="nl">Met vriendelijke groeten,</div><div class="nl">prénom<span class="plus">+</span>nom</div></td></tr></table>
+  <div class="bank-h">Banque de mots : remplace si tu veux</div><div class="bank"><div><span class="nl">want ik heb dan les</span> <span class="fr">car j'ai cours</span></div><div><span class="nl">want ik heb dan een examen</span> <span class="fr">car j'ai un examen</span></div><div><span class="nl">want ik werk dan</span> <span class="fr">car je travaille</span></div><div><span class="nl">op woensdag 18 november</span> <span class="fr">le mercredi 18</span></div><div><span class="nl">op donderdag 19 november</span> <span class="fr">le jeudi 19</span></div><div><span class="nl">in de voormiddag</span> <span class="fr">dans la matinée</span></div><div><span class="nl">mijn diploma</span> <span class="fr">mon diplôme</span></div><div><span class="nl">mijn cv</span> <span class="fr">mon CV</span></div><div><span class="nl">een kopie van …</span> <span class="fr">une copie de …</span></div></div>
+  <p class="hint">Astuce : entoure tes phrases, puis recopie-les dans le cadre « Mijn antwoord ».</p>
+  </section><section class="page"><div class="run"><span>Een formele e-mail · Fiche 4</span><span>Variante 2 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#2b8c99">2</div>
+  <div class="vtitle"><h1>Superchampion·ne<span class="stars" style="color:#2b8c99">★★☆☆☆</span></h1><div class="tag">J'ai toutes les phrases. J'organise moi-même.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as postulé chez <b>Verbeke</b>. Tu reçois ce mail de la responsable du personnel. Tu dois lui <b>répondre par écrit</b>, poliment.<div class="mail" style="font-size:8.4pt;margin:2mm 0 0"><div class="bar">✉ INBOX · 1 nieuw bericht</div>
+<div class="hdr"><div><span class="k">Van</span><span>ines.vermeulen@verbeke.be</span></div><div><span class="k">Onderwerp</span><b>Uitnodiging sollicitatiegesprek</b></div></div>
+<div class="body nl" style="font-weight:500;color:#1d2433">
+<p>Beste kandidaat,</p>
+<p>Bedankt voor uw sollicitatie voor de functie van administratief bediende. Wij nodigen u graag uit voor een gesprek op <b>dinsdag 17 november om 10 uur</b>, in ons kantoor: Kerkstraat 12, 1000 Brussel (tweede verdieping).</p>
+<p>Kunt u ook een <b>kopie van uw diploma</b> meesturen? Wij verwachten uw antwoord voor vrijdag 13 november.</p>
+<p style="margin:0">Met vriendelijke groeten,<br>Ines Vermeulen · Personeelsdienst · Firma Verbeke</p></div></div><p style="margin:2mm 0 0"><b>Problème :</b> mardi 17, tu n'es pas libre (tu as cours). Tu es libre <b>mercredi 18</b> et <b>jeudi 19 novembre</b>.</p></div>
+  <h2>Prépare-toi</h2>
+  <p>Voici les phrases de la réponse, mélangées, avec <b>3 intrus</b> trop familiers pour un mail formel. <b>Barre</b> les intrus, puis <b>numérote</b> les autres dans l'ordre. Recopie ensuite ton mail dans le cadre « Mijn antwoord ».</p>
+  <div class="order"><div class="grp">Début et fin</div><div class="line"><span class="blank"></span><span class="nl">Met vriendelijke groeten,</span></div><div class="line"><span class="blank"></span><span class="nl">Hoi Ines!</span></div><div class="line"><span class="blank"></span><span class="nl">Ik kijk uit naar uw antwoord.</span></div><div class="line"><span class="blank"></span><span class="nl">Geachte mevrouw Vermeulen,</span></div><div class="line"><span class="blank"></span><span class="nl">Doei!</span></div><div class="grp">Le message</div><div class="line"><span class="blank"></span><span class="nl">In de bijlage vindt u een kopie van mijn diploma.</span></div><div class="line"><span class="blank"></span><span class="nl">Kan je mij terugbellen?</span></div><div class="line"><span class="blank"></span><span class="nl">Helaas ben ik op dinsdag niet beschikbaar, want ik heb dan les.</span></div><div class="line"><span class="blank"></span><span class="nl">Hartelijk bedankt voor uw e-mail.</span></div><div class="line"><span class="blank"></span><span class="nl">Ik ben de hele dag vrij.</span></div><div class="line"><span class="blank"></span><span class="nl">Kan ik op woensdag 18 november komen?</span></div></div>
+  <div class="soft" style="margin-top:3mm"><div class="kicker">Banque de mots</div><div class="nl">maandag · dinsdag · woensdag · donderdag · vrijdag · in de voormiddag · in de namiddag</div><div class="nl">want ik heb dan les · want ik werk dan · want ik heb dan een afspraak bij de dokter</div><div class="nl">mijn diploma · mijn cv · een kopie van mijn identiteitskaart</div></div>
+  <div class="box" style="border-width:1px"><b>Défi :</b> change le jour, la raison et la pièce jointe, puis ajoute <b>une phrase à toi</b>.</div>
+  <p class="hint">Tu te sens à l'aise ? Essaie la variante Héro·ïne la prochaine fois.</p>
+  </section><section class="page"><div class="run"><span>Een formele e-mail · Fiche 4</span><span>Variante 3 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3a5fc0">3</div>
+  <div class="vtitle"><h1>Héro·ïne<span class="stars" style="color:#3a5fc0">★★★☆☆</span></h1><div class="tag">Je construis mes phrases avec des modèles.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as postulé chez <b>Verbeke</b>. Tu reçois ce mail de la responsable du personnel. Tu dois lui <b>répondre par écrit</b>, poliment.<div class="mail" style="font-size:8.4pt;margin:2mm 0 0"><div class="bar">✉ INBOX · 1 nieuw bericht</div>
+<div class="hdr"><div><span class="k">Van</span><span>ines.vermeulen@verbeke.be</span></div><div><span class="k">Onderwerp</span><b>Uitnodiging sollicitatiegesprek</b></div></div>
+<div class="body nl" style="font-weight:500;color:#1d2433">
+<p>Beste kandidaat,</p>
+<p>Bedankt voor uw sollicitatie voor de functie van administratief bediende. Wij nodigen u graag uit voor een gesprek op <b>dinsdag 17 november om 10 uur</b>, in ons kantoor: Kerkstraat 12, 1000 Brussel (tweede verdieping).</p>
+<p>Kunt u ook een <b>kopie van uw diploma</b> meesturen? Wij verwachten uw antwoord voor vrijdag 13 november.</p>
+<p style="margin:0">Met vriendelijke groeten,<br>Ines Vermeulen · Personeelsdienst · Firma Verbeke</p></div></div><p style="margin:2mm 0 0"><b>Problème :</b> mardi 17, tu n'es pas libre (tu as cours). Tu es libre <b>mercredi 18</b> et <b>jeudi 19 novembre</b>.</p></div>
+  <h2>Prépare-toi : 1) saluer · 2) remercier · 3) refuser et justifier · 4) proposer · 5) joindre · 6) conclure</h2>
+  <div class="legend"><b>Légende :</b> <span class="s">S</span> = sujet (ik, jij, u, hij, zij…) · <span class="v">[werken]</span> = verbe à conjuguer · <span class="slot">mot</span> = à choisir · <span class="nl">vet</span> = à garder tel quel · <span class="spiral">↺ déjà vu</span> = vu dans une fiche précédente</div>
+  <table class="pat"><tr><td>Objet</td><td><span class="nl">RE:</span><span class="plus">+</span><span class="slot">objet du mail reçu</span><span class="ex">ex. : <b>RE: Uitnodiging sollicitatiegesprek</b></span></td></tr><tr><td>Saluer</td><td><span class="nl">Geachte</span><span class="plus">+</span><span class="slot">mevrouw / meneer</span><span class="plus">+</span><span class="slot">nom de famille</span> <span class="nl">,</span><span class="ex">ex. : <b>Geachte mevrouw Vermeulen,</b></span></td></tr><tr><td>Remercier</td><td><span class="nl">Hartelijk bedankt voor</span><span class="plus">+</span><span class="slot">uw e-mail / de uitnodiging</span><span class="ex">ex. : <b>Hartelijk bedankt voor de uitnodiging.</b></span></td></tr><tr><td>Refuser</td><td><span class="nl">Helaas</span><span class="plus">+</span><span class="v">[zijn]</span><span class="plus">+</span><span class="nl">ik op</span><span class="plus">+</span><span class="slot">jour</span><span class="plus">+</span><span class="nl">niet beschikbaar</span> <span class="spiral">↺ déjà vu</span><span class="ex">ex. : <b>Helaas ben ik op dinsdag niet beschikbaar,</b></span></td></tr><tr><td>Justifier (A1)</td><td><span class="nl">…, want ik</span><span class="plus">+</span><span class="v">[hebben]</span><span class="plus">+</span><span class="nl">dan</span><span class="plus">+</span><span class="slot">raison</span><span class="ex">ex. : <b>…, want ik heb dan les.</b></span></td></tr><tr><td>Justifier (A2)</td><td><span class="nl">…, omdat ik dan</span><span class="plus">+</span><span class="slot">raison</span><span class="plus">+</span><span class="v">[hebben]</span><span class="ex">ex. : <b>…, omdat ik dan een examen heb.</b></span></td></tr><tr><td>Proposer</td><td><span class="nl">Kan ik op</span><span class="plus">+</span><span class="slot">jour<span class="plus">+</span>date</span><span class="plus">+</span><span class="nl">komen?</span><span class="ex">ex. : <b>Kan ik op donderdag 19 november komen?</b></span></td></tr><tr><td>Pièce jointe</td><td><span class="nl">In de bijlage vindt u</span><span class="plus">+</span><span class="slot">document</span><span class="ex">ex. : <b>In de bijlage vindt u mijn cv.</b></span></td></tr><tr><td>Conclure</td><td><span class="nl">Ik kijk uit naar uw antwoord. Met vriendelijke groeten,</span><span class="plus">+</span><span class="slot">prénom nom</span><span class="ex">ex. : <b>Met vriendelijke groeten, Karim Haddad</b></span></td></tr></table>
+  <div class="observe"><b>Observe</b> (pas besoin d'apprendre une règle) : <span class="nl">Ik ben dinsdag niet beschikbaar.</span> → <span class="nl">Helaas ben ik dinsdag niet beschikbaar.</span> <span class="spiral">↺ déjà vu</span> (fiche 1 : <span class="nl">Elke dag schrijf ik e-mails.</span>)<div class="q">Après <span class="nl">Helaas</span>, quel mot vient juste après ? <span class="fill"></span></div></div>
+  <p class="small muted">Mots utiles : de uitnodiging · het gesprek · beschikbaar · vrij · de bijlage · het diploma · het cv · de kopie · les · het examen</p>
+  </section><section class="page"><div class="run"><span>Een formele e-mail · Fiche 4</span><span>Variante 4 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#7b4bb3">4</div>
+  <div class="vtitle"><h1>Superhéro·ïne<span class="stars" style="color:#7b4bb3">★★★★☆</span></h1><div class="tag">J'ai quelques structures. Je note mes aides.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as postulé chez <b>Verbeke</b>. Tu reçois ce mail de la responsable du personnel. Tu dois lui <b>répondre par écrit</b>, poliment.<div class="mail" style="font-size:8.4pt;margin:2mm 0 0"><div class="bar">✉ INBOX · 1 nieuw bericht</div>
+<div class="hdr"><div><span class="k">Van</span><span>ines.vermeulen@verbeke.be</span></div><div><span class="k">Onderwerp</span><b>Uitnodiging sollicitatiegesprek</b></div></div>
+<div class="body nl" style="font-weight:500;color:#1d2433">
+<p>Beste kandidaat,</p>
+<p>Bedankt voor uw sollicitatie voor de functie van administratief bediende. Wij nodigen u graag uit voor een gesprek op <b>dinsdag 17 november om 10 uur</b>, in ons kantoor: Kerkstraat 12, 1000 Brussel (tweede verdieping).</p>
+<p>Kunt u ook een <b>kopie van uw diploma</b> meesturen? Wij verwachten uw antwoord voor vrijdag 13 november.</p>
+<p style="margin:0">Met vriendelijke groeten,<br>Ines Vermeulen · Personeelsdienst · Firma Verbeke</p></div></div><p style="margin:2mm 0 0"><b>Problème :</b> mardi 17, tu n'es pas libre (tu as cours). Tu es libre <b>mercredi 18</b> et <b>jeudi 19 novembre</b>.</p></div>
+  <h2>Structures clés</h2>
+  <div class="keys"><div><span class="nl">Geachte</span> … <span class="nl">,</span> / <span class="nl">Met vriendelijke groeten,</span></div><div><span class="nl">Helaas</span><span class="plus">+</span><span class="v">V</span><span class="plus">+</span><span class="s">S</span> … <span class="nl">niet beschikbaar</span></div><div><span class="nl">…, want</span> … · <span class="nl">…, omdat</span> …<span class="plus">+</span><span class="v">V</span></div><div><span class="nl">Kan ik op</span> … <span class="nl">komen?</span></div><div><span class="nl">In de bijlage vindt u</span> …</div></div>
+  <div class="soft"><b>Pour aller plus loin (A2, facultatif) :</b> pose une question pratique (<span class="nl">Is er een parking?</span> · <span class="nl">Moet ik nog iets meebrengen?</span>) et donne ton numéro (<span class="nl">U kunt mij bereiken op 0476 12 34 56.</span>).</div>
+  <h2>Note ici les expressions et les structures qui vont t'aider</h2>
+  <div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div>
+  <p class="hint">Tu n'as pas besoin de tout écrire : quelques mots-clés suffisent.</p>
+  </section><section class="page"><div class="run"><span>Een formele e-mail · Fiche 4</span><span>Variante 5 / 5 · Tâche finale</span></div>
+  <div class="vhead"><div class="vnum" style="background:#df7f26">5</div>
+  <div class="vtitle"><h1>Légende<span class="stars" style="color:#df7f26">★★★★★</span></h1><div class="tag">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="box" style="border-color:#df7f26"><div class="kicker">Tâche finale de communication</div>Réponds au mail de Mme Vermeulen. Remercie, explique que tu n'es pas libre mardi et pourquoi, propose un autre moment, annonce ta pièce jointe et termine poliment. Écris dans le cadre « Mijn antwoord ».<div class="mail" style="font-size:8.4pt;margin:2mm 0 0"><div class="bar">✉ INBOX · 1 nieuw bericht</div>
+<div class="hdr"><div><span class="k">Van</span><span>ines.vermeulen@verbeke.be</span></div><div><span class="k">Onderwerp</span><b>Uitnodiging sollicitatiegesprek</b></div></div>
+<div class="body nl" style="font-weight:500;color:#1d2433">
+<p>Beste kandidaat,</p>
+<p>Bedankt voor uw sollicitatie voor de functie van administratief bediende. Wij nodigen u graag uit voor een gesprek op <b>dinsdag 17 november om 10 uur</b>, in ons kantoor: Kerkstraat 12, 1000 Brussel (tweede verdieping).</p>
+<p>Kunt u ook een <b>kopie van uw diploma</b> meesturen? Wij verwachten uw antwoord voor vrijdag 13 november.</p>
+<p style="margin:0">Met vriendelijke groeten,<br>Ines Vermeulen · Personeelsdienst · Firma Verbeke</p></div></div><p style="margin:2mm 0 0"><b>Problème :</b> mardi 17, tu n'es pas libre (tu as cours). Tu es libre <b>mercredi 18</b> et <b>jeudi 19 novembre</b>.</p>
+  <p style="margin:1.5mm 0 0"><b>Temps :</b> 15 minutes, sans notes · <b>Longueur :</b> 40 à 60 mots (A1) · 60 à 80 mots (A2)</p><p class="small" style="margin:1mm 0 0"><b>Bonus A2 :</b> pose une question pratique et utilise <span class="nl">omdat</span>.</p></div>
+  <h2>Mon autoévaluation</h2>
+  <p>Variante choisie : &nbsp;☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5</p>
+  <table class="check"><tr><th>Dans mon mail, j'ai…</th><th>pas encore</th><th>presque</th><th>oui</th></tr><tr><td>utilisé une formule d'appel et une formule finale formelles</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>remercié</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>refusé mardi et donné une raison</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>proposé un autre moment</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>annoncé la pièce jointe</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>utilisé u / uw partout (pas je / jij)</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>relu la place du verbe (Helaas ben ik…)</td><td>☐</td><td>☐</td><td>☐</td></tr></table>
+  <h2>Comment je me suis senti·e ?</h2>
+  <p class="small muted">1 = pas du tout · 6 = tout à fait</p>
+  <table><tr><td>Avant d'écrire, j'étais stressé·e.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'ai oublié des choses que je savais, à cause du stress.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'avais l'impression qu'il y avait trop de règles à retenir.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr></table>
+  <div class="grid2"><div><h2>Une expression que je retiens</h2><div class="rule"></div></div>
+  <div><h2>La prochaine fois, je tente la variante…</h2>
+  <p>☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5<br>parce que ...........................................................</p></div></div>
+  <p class="foot">Les échelles reprennent des items d'anxiété suivis dans l'expérimentation ARK (Nedconsult).</p>
+  </section><section class="page">
+  <div class="run"><span>Een formele e-mail · Fiche 4</span><span>Feuille-réponse · toutes les variantes</span></div>
+  <div class="kicker">Ma réponse</div><h1>✉ Mijn antwoord</h1>
+  <div class="mail"><div class="bar">✉ NIEUW BERICHT</div>
+  <div class="hdr"><div><span class="k">Aan</span><span>ines.vermeulen@verbeke.be</span></div>
+  <div><span class="k">Onderwerp</span><span class="fill" style="min-width:120mm"></span></div>
+  <div><span class="k">Bijlage 📎</span><span class="fill" style="min-width:120mm"></span></div></div>
+  <div class="body"><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div></div></div>
+  <p class="small muted">Nombre de mots : ........ &nbsp; (A1 : 40 à 60 · A2 : 60 à 80)</p>
+  </section><section class="page">
+  <div class="run"><span>Een formele e-mail · Fiche 4</span><span>Relecture croisée · remplace l'interaction</span></div>
+  <div class="kicker">Échange tes feuilles avec un·e partenaire</div><h1>🔎 Relecture croisée</h1>
+  <p>Lis le mail de ton/ta partenaire. Coche ce que tu trouves. Souligne au crayon <b>une</b> phrase à améliorer. Tu ne corriges pas : tu montres.</p>
+  <table class="check"><tr><th>Dans ce mail…</th><th>Exemple</th><th>oui</th><th>pas encore</th></tr>
+  <tr><td>La formule d'appel est formelle.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Geachte mevrouw Vermeulen,</td><td>☐</td><td>☐</td></tr><tr><td>Il/elle remercie.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Hartelijk bedankt voor …</td><td>☐</td><td>☐</td></tr><tr><td>Il/elle refuse mardi et donne une raison.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Helaas ben ik … niet beschikbaar, want …</td><td>☐</td><td>☐</td></tr><tr><td>Il/elle propose un autre moment.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Kan ik op … komen?</td><td>☐</td><td>☐</td></tr><tr><td>Il/elle annonce la pièce jointe.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">In de bijlage vindt u …</td><td>☐</td><td>☐</td></tr><tr><td>La formule finale est formelle.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Met vriendelijke groeten,</td><td>☐</td><td>☐</td></tr><tr><td>« u / uw » partout (pas « je / jij »).</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Kunt u … · uw e-mail</td><td>☐</td><td>☐</td></tr><tr><td>Après Helaas / In de bijlage, le verbe vient tout de suite.</td><td class="nl" style="text-align:left;width:62mm;font-size:8.6pt">Helaas <u>ben</u> ik … · In de bijlage <u>vindt</u> u …</td><td>☐</td><td>☐</td></tr></table>
+  <h2>Un compliment pour mon/ma partenaire</h2><div class="rule"></div>
+  <h2>Un conseil pour la prochaine fois</h2><div class="rule"></div>
+  <p class="small muted" style="margin-top:3mm">Relu par : .................................................</p>
+  </section></body></html>

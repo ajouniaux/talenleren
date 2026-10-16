@@ -1,0 +1,156 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Parcours · Néerlandais au travail</title><style>
+@page { size: A4; margin: 12mm 14mm 11mm 14mm; }
+:root {
+  --ink: #1d2433; --muted: #5d6677; --line: #d9dee7; --soft: #f3f5f9;
+  --nl: #1f4ea3; --slot: #e6e9ef; --accent: #1d2433;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', 'DejaVu Sans', sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.38; }
+.page { page-break-after: always; break-after: page; position: relative; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.run { font-size: 7.5pt; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 3.5mm; display: flex; justify-content: space-between; }
+.kicker { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 1mm; }
+h1 { font-size: 24pt; line-height: 1.1; margin: 0 0 1.5mm; letter-spacing: -.01em; }
+h1.big { font-size: 34pt; }
+.sub { font-size: 12pt; color: var(--muted); margin: 0 0 4mm; }
+h2 { font-size: 12pt; margin: 3.5mm 0 1.6mm; }
+h3 { font-size: 10pt; margin: 3mm 0 1mm; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0 0 2mm; }
+ul { margin: 0 0 2mm; padding-left: 5mm; }
+li { margin-bottom: .8mm; }
+.nl { color: var(--nl); font-weight: 700; }
+.fr { color: var(--muted); font-style: italic; font-weight: 400; font-size: 8.5pt; }
+.slot { background: var(--slot); font-style: italic; font-weight: 500; color: #3c4456; padding: 0 1.4mm; border-radius: 1.2mm; white-space: nowrap; }
+.v { color: #7b4bb3; font-weight: 700; }
+.s { font-weight: 800; color: var(--ink); }
+.plus { color: var(--muted); padding: 0 .6mm; }
+.badges { display: flex; gap: 2mm; flex-wrap: wrap; margin-bottom: 4mm; }
+.badge { font-size: 8pt; font-weight: 600; border: 1px solid var(--line); border-radius: 10mm; padding: .6mm 2.6mm; background: #fff; }
+.badge.lvl { background: var(--ink); color: #fff; border-color: var(--ink); }
+.box { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.box .kicker { color: var(--ink); }
+.soft { background: var(--soft); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+th, td { border: 1px solid var(--line); padding: 1.1mm 2mm; vertical-align: top; text-align: left; }
+th { background: var(--ink); color: #fff; font-size: 7.8pt; letter-spacing: .05em; text-transform: uppercase; }
+td.time { width: 16mm; color: var(--muted); text-align: right; white-space: nowrap; }
+td.phase { width: 27mm; font-weight: 700; }
+.dlg td { border: none; padding: .35mm 1.2mm; font-size: 8.8pt; }
+.dlg td.who { width: 6mm; color: var(--muted); font-weight: 700; }
+.levels { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.levels > div { border-right: 1px solid var(--line); }
+.levels > div:last-child { border-right: none; }
+.levels .hd { color: #fff; font-weight: 700; text-align: center; padding: 1.8mm 1mm; font-size: 9pt; }
+.levels .bd { padding: 2mm; font-size: 8.3pt; color: var(--muted); text-align: center; }
+.vhead { display: flex; align-items: stretch; gap: 3mm; margin-bottom: 3mm; }
+.vnum { width: 15mm; min-height: 15mm; color: #fff; font-size: 22pt; font-weight: 800; display: flex; align-items: center; justify-content: center; border-radius: 1.5mm; }
+.vtitle h1 { font-size: 20pt; margin: 0; }
+.stars { font-family: 'DejaVu Sans', sans-serif; font-size: 13pt; margin-left: 2mm; letter-spacing: .05em; }
+.vtitle .tag { color: var(--muted); font-size: 9.5pt; }
+.steps td:first-child { width: 47%; }
+.steps td .num { font-weight: 800; margin-right: 1.2mm; }
+.bank { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin-bottom: 1mm; }
+.bank > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: .9mm 2mm; line-height: 1.25; }
+.bank-h { font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 2.5mm 0 1mm; }
+.hint { font-size: 8.5pt; color: var(--muted); font-style: italic; }
+.order .line { display: flex; gap: 2.5mm; margin: .9mm 0; }
+.order .blank { width: 9mm; border-bottom: 1px solid var(--ink); flex: none; }
+.order .grp { font-size: 8pt; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 2.5mm 0 .5mm; }
+.pat td:first-child { width: 30mm; color: var(--muted); font-size: 9pt; }
+.pat .ex { display: block; font-size: 8.3pt; color: var(--muted); margin-top: .5mm; }
+.pat .ex b { color: var(--nl); font-weight: 600; }
+.legend { font-size: 8.5pt; margin-bottom: 2mm; }
+.rule { border-bottom: 1px solid #c9cfda; height: 8mm; }
+.keys div { margin: 1.2mm 0; }
+.check td { text-align: center; width: 15mm; }
+.check td:first-child { text-align: left; width: auto; }
+.check th { text-align: center; }
+.check th:first-child { text-align: left; }
+.scale { text-align: center; white-space: nowrap; letter-spacing: .25em; font-size: 11pt; }
+.buoy { border: 1.4px dashed #df7f26; border-radius: 2mm; padding: 2mm 3.5mm; margin: 0 0 3mm; background: #fff8f0; }
+.buoy .kicker { color: #b45f12; }
+.buoy .items { display: grid; grid-template-columns: 1fr 1fr; gap: .6mm 5mm; }
+.observe { border: 1px solid var(--line); border-left: 4px solid var(--nl); border-radius: 1mm; padding: 2mm 3mm; margin: 2mm 0 3mm; }
+.observe .q { margin-top: 1mm; }
+.fill { display: inline-block; min-width: 55mm; border-bottom: 1px dotted var(--ink); }
+.small { font-size: 8.5pt; }
+.muted { color: var(--muted); }
+.spiral { font-size: 7.5pt; font-weight: 700; color: #2b8c99; border: 1px solid #2b8c99; border-radius: 1mm; padding: 0 1mm; margin-left: 1mm; vertical-align: 1px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.card { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3mm; break-inside: avoid; }
+.card .ct { font-weight: 800; font-size: 10.5pt; margin-bottom: 1mm; }
+.card .row { display: flex; gap: 2mm; font-size: 9pt; margin: .5mm 0; }
+.card .row .k { width: 22mm; flex: none; color: var(--muted); }
+.cut { border: 1.4px dashed var(--muted); }
+.err td:first-child { color: #b3261e; text-decoration: line-through; width: 34%; }
+.err td:nth-child(2) { color: var(--nl); font-weight: 700; width: 34%; }
+.mail { border: 1.4px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.mail .bar { background: var(--ink); color: #fff; font-size: 8pt; padding: 1.2mm 3mm; letter-spacing: .05em; }
+.mail .hdr { border-bottom: 1px solid var(--line); padding: 1.5mm 3mm; font-size: 9pt; }
+.mail .hdr div { display: flex; gap: 2mm; }
+.mail .hdr .k { width: 20mm; color: var(--muted); }
+.mail .body { padding: 3mm; }
+.mail .body p { margin: 0 0 1.8mm; }
+.form { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 3mm; }
+.form .f { display: flex; gap: 2mm; align-items: flex-end; margin: 2.2mm 0; }
+.form .f .k { width: 30mm; font-weight: 700; flex: none; }
+.form .f .k span { display: block; font-weight: 400; font-size: 7.5pt; color: var(--muted); }
+.form .f .l { flex: 1; border-bottom: 1px solid var(--ink); height: 5mm; }
+.path { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5mm; margin: 2mm 0 4mm; }
+.path .st { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm; position: relative; }
+.path .st .no { font-size: 18pt; font-weight: 800; line-height: 1; }
+.path .st .ti { font-weight: 700; margin: 1mm 0; }
+.path .st .lv { display: inline-block; font-size: 7.5pt; font-weight: 700; color: #fff; padding: .3mm 1.8mm; border-radius: 5mm; }
+.foot { font-size: 7.5pt; color: var(--muted); margin-top: 2mm; }
+.arrows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; }
+.arrows div { border: 1px solid var(--line); border-radius: 1.5mm; padding: 1.5mm 2mm; display: flex; gap: 2mm; align-items: center; }
+.arrows .ic { font-size: 15pt; width: 8mm; text-align: center; color: var(--ink); }
+.who-tag { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; border-radius: 1mm; padding: 0 1.8mm; margin-right: 1.5mm; }
+</style></head><body><section class="page">
+  <div class="run"><span>Néerlandais 2 (UE2) · Mises en situation socioprofessionnelles</span><span>Document enseignant</span></div>
+  <div class="kicker">Parcours différencié · calque ARK (Nedconsult)</div>
+  <h1 class="big">Néerlandais au travail</h1>
+  <div class="sub">5 fiches · 5 variantes chacune · de A1 à A2 · un fil rouge : la firma Verbeke, à Bruxelles</div>
+  <div class="path"><div class="st" style="border-color:#3d9a5f"><div class="no" style="color:#3d9a5f">1</div><div class="ti">☕ Op het werk</div><div class="small muted">Se présenter au travail, décrire ses tâches</div><div style="margin-top:1.5mm"><span class="lv" style="background:#3d9a5f">A1</span> <span class="small muted">EO interaction</span></div></div><div class="st" style="border-color:#3d9a5f"><div class="no" style="color:#3d9a5f">2</div><div class="ti">🗺️ De weg vragen</div><div class="small muted">Demander le chemin vers une entreprise</div><div style="margin-top:1.5mm"><span class="lv" style="background:#3d9a5f">A1</span> <span class="small muted">EO interaction</span></div></div><div class="st" style="border-color:#2b8c99"><div class="no" style="color:#2b8c99">3</div><div class="ti">📞 Aan de telefoon</div><div class="small muted">Prendre un appel, noter un message</div><div style="margin-top:1.5mm"><span class="lv" style="background:#2b8c99">A1 → A2</span> <span class="small muted">EO interaction</span></div></div><div class="st" style="border-color:#3a5fc0"><div class="no" style="color:#3a5fc0">4</div><div class="ti">✉️ Een formele e-mail</div><div class="small muted">Répondre à une invitation à un entretien</div><div style="margin-top:1.5mm"><span class="lv" style="background:#3a5fc0">A2</span> <span class="small muted">Expression écrite</span></div></div><div class="st" style="border-color:#7b4bb3"><div class="no" style="color:#7b4bb3">5</div><div class="ti">💼 Het sollicitatiegesprek</div><div class="small muted">Passer un entretien d'embauche</div><div style="margin-top:1.5mm"><span class="lv" style="background:#7b4bb3">A2 · synthèse</span> <span class="small muted">EO interaction</span></div></div></div>
+  <p class="small">L'ordre suit la <b>difficulté</b>, pas la chronologie de l'histoire : on commence par des échanges courts et prévisibles entre collègues (A1), on finit par l'entretien, qui réutilise tout (A2). Chaque fiche peut aussi s'utiliser seule, à la séance indiquée.</p>
+  <h2>La spirale grammaticale : chaque forme revient</h2>
+  <table><tr><th>Forme</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th><th style="text-align:center">4</th><th style="text-align:center">5</th></tr>
+  <tr><td>Verbe en 2e position (V2, inversion)</td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td></td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td style="text-align:center"><span class="spiral">↺</span></td></tr><tr><td>Impératif</td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td></td><td></td><td></td></tr><tr><td>Prépositions de lieu (sans « van »)</td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td></td><td></td><td></td></tr><tr><td>Verbes séparables (terug|bellen)</td><td style="text-align:center"><span class="spiral">↺</span></td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td></td><td></td></tr><tr><td>Registre formel u / uw</td><td></td><td style="text-align:center"><span class="spiral">↺</span></td><td style="text-align:center"><span class="spiral">↺</span></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td style="text-align:center"><span class="spiral">↺</span></td></tr><tr><td>want → omdat (verbe à la fin)</td><td style="text-align:center"><span class="spiral">↺</span></td><td></td><td></td><td style="text-align:center;background:#e7eefb;color:#1f4ea3;font-weight:700">A2</td><td style="text-align:center;background:#e7eefb;color:#1f4ea3;font-weight:700">A2</td></tr><tr><td>Verbe à la fin : Weet u waar … is?</td><td></td><td style="text-align:center;background:#e7eefb;color:#1f4ea3;font-weight:700">A2</td><td></td><td></td><td></td></tr><tr><td>La « pince » : perfectum et modaux</td><td></td><td></td><td style="text-align:center"><span class="spiral">↺</span></td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td></tr><tr><td>Chiffres, épeler, dates</td><td></td><td></td><td style="text-align:center;background:#1d2433;color:#fff;font-weight:700">focus</td><td style="text-align:center"><span class="spiral">↺</span></td><td style="text-align:center"><span class="spiral">↺</span></td></tr></table>
+  <p class="small muted"><b>focus</b> = forme travaillée en <i>focus on form</i> dans la fiche · <span class="spiral">↺</span> = forme réutilisée, signalée « déjà vu » dans les patrons · <b>A2</b> = forme proposée en bonus.</p>
+  <h2>Liens avec le syllabus</h2>
+  <table><tr><td style="width:8mm"><b>1</b></td><td class="small">Fiche 7 p. 98 · Werk & bedrijf p. 84 · Woordvolgorde p. 68 · Altijd · nooit p. 74</td><td class="small muted" style="width:26mm">séance 16</td></tr><tr><td style="width:8mm"><b>2</b></td><td class="small">Fiche 9 p. 100a · In de stad p. 80 · Voorzetsels p. 65 · Gebiedende wijs p. 67</td><td class="small muted" style="width:26mm">séance 9</td></tr><tr><td style="width:8mm"><b>3</b></td><td class="small">Telefoon & mail p. 85 · Getallen p. 64 · Hem · haar · hun p. 71 · Fiche 3 p. 94</td><td class="small muted" style="width:26mm">séances 12-13</td></tr><tr><td style="width:8mm"><b>4</b></td><td class="small">Telefoon & mail p. 85 · Administratie p. 86 · En · maar · want p. 73</td><td class="small muted" style="width:26mm">séance 12</td></tr><tr><td style="width:8mm"><b>5</b></td><td class="small">Fiche 6 p. 97 · Fiche 2 p. 93 · Perfectum p. 69</td><td class="small muted" style="width:26mm">séances 14-15</td></tr></table>
+  </section><section class="page">
+  <div class="run"><span>Néerlandais 2 (UE2) · Mises en situation socioprofessionnelles</span><span>La méthode en une page</span></div>
+  <div class="kicker">Ce qu'on garde du dispositif ARK</div>
+  <h1>La méthode en une page</h1>
+  <h2>1 · Partir de ce qu'on veut dire, pas de la règle</h2>
+  <table><tr><th>Intention</th><th>Fonction langagière</th><th>Expression lexicalisée</th><th>Patron</th></tr>
+  <tr><td>se présenter au travail</td><td>décrire ses tâches</td><td class="nl">Elke dag schrijf ik e-mails.</td><td><span class="slot">fréquence</span> + <span class="v">V</span> + <span class="s">S</span> + <span class="slot">tâche</span></td></tr>
+  <tr><td>garder un rendez-vous</td><td>refuser poliment</td><td class="nl">Helaas ben ik dinsdag niet beschikbaar.</td><td><span class="nl">Helaas</span> + <span class="v">V</span> + <span class="s">S</span> + …</td></tr></table>
+  <p class="small">On rencontre d'abord un bloc tout fait (<b>répétition</b>), puis la même structure avec d'autres mots (<b>variation</b>). La règle n'est jamais un préalable : on la fait <b>remarquer</b> dans la tâche (encadré « Observe », phase Retour).</p>
+  <h2>2 · Une même tâche, cinq niveaux d'aide</h2>
+  <div class="levels"><div><div class="hd" style="background:#3d9a5f">1 · Champion·ne</div><div class="bd">Je suis chaque étape. J'ai toutes les phrases.</div></div><div><div class="hd" style="background:#2b8c99">2 · Superchampion·ne</div><div class="bd">J'ai toutes les phrases. J'organise moi-même.</div></div><div><div class="hd" style="background:#3a5fc0">3 · Héro·ïne</div><div class="bd">Je construis mes phrases avec des modèles.</div></div><div><div class="hd" style="background:#7b4bb3">4 · Superhéro·ïne</div><div class="bd">J'ai quelques structures. Je note mes aides.</div></div><div><div class="hd" style="background:#df7f26">5 · Légende</div><div class="bd">Sans aide, comme à l'évaluation.</div></div></div>
+  <p class="small">La tâche finale est <b>la même pour tous</b>. L'apprenant·e choisit sa variante, sans jugement, et peut monter ou redescendre. On vise l'anxiété (peur de se tromper, d'oublier ce qu'on sait sous la pression), sans baisser l'exigence.</p>
+  <h2>3 · Ce que ces fiches ajoutent au modèle</h2>
+  <table>
+  <tr><td style="width:44mm"><b>🛟 Bouée de secours</b></td><td class="small">Des phrases de dépannage dans toutes les variantes : savoir quoi dire quand on bloque est une compétence, pas un échec.</td></tr>
+  <tr><td><b>⇄ Écart d'information</b></td><td class="small">Cartes A/B, carte de l'appelant·e, carte du/de la recruteur·euse : on parle parce qu'il manque vraiment une information à l'autre.</td></tr>
+  <tr><td><b>✔ Produit vérifiable</b></td><td class="small">Lieu noté sur le plan, message téléphonique, mail : l'apprenant·e voit tout de suite si l'échange a réussi.</td></tr>
+  <tr><td><b>↺ Spirale</b></td><td class="small">Les formes déjà vues sont signalées dans les patrons : on montre qu'on réutilise ce qu'on sait déjà.</td></tr>
+  <tr><td><b>👤 Profils d'emprunt</b></td><td class="small">Une identité fictive pour qui n'a pas (encore) d'emploi ou ne veut pas parler de soi. C'est de la sécurité affective, pour un public adulte.</td></tr>
+  <tr><td><b>A2 Bonus</b></td><td class="small">Même tâche, exigence plus haute : différenciation vers le haut, sans fiche supplémentaire.</td></tr>
+  <tr><td><b>✍ Transposition à l'écrit</b></td><td class="small">Fiche 4 : les 5 variantes appliquées à l'expression écrite, avec une relecture croisée à la place de l'interaction.</td></tr>
+  <tr><td><b>📋 Grille A1 / A2</b></td><td class="small">Pour chaque fiche : forme à faire remarquer, erreurs attendues chez des francophones, critères d'observation.</td></tr>
+  </table>
+  <h2>4 · Conseils pratiques</h2>
+  <ul class="small">
+  <li><b>Imprimer chaque variante sur une couleur de papier</b> (vert, bleu clair, bleu, violet, orange) : le choix se voit et se normalise dans la classe.</li>
+  <li>Imprimer <b>toutes</b> les variantes en quelques exemplaires : changer de variante en cours de route doit rester possible.</li>
+  <li>Les pages 1-2 de chaque fiche sont pour l'enseignant·e ; les pages élèves commencent à la page de garde.</li>
+  <li>Les binômes peuvent <b>mélanger les niveaux</b> : un·e Champion·ne et une Légende font la même tâche.</li>
+  </ul>
+  <p class="foot">Méthode d'après : ASBL Nedconsult, N. Tybergin, <i>Expérimentation d'un dispositif d'apprentissage de l'expression orale en néerlandais</i> (Athénée Royal de Koekelberg, 2021-2023).</p>
+  </section></body></html>

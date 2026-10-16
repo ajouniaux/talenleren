@@ -1,0 +1,266 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Fiche 3 · Aan de telefoon</title><style>
+@page { size: A4; margin: 12mm 14mm 11mm 14mm; }
+:root {
+  --ink: #1d2433; --muted: #5d6677; --line: #d9dee7; --soft: #f3f5f9;
+  --nl: #1f4ea3; --slot: #e6e9ef; --accent: #1d2433;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', 'DejaVu Sans', sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.38; }
+.page { page-break-after: always; break-after: page; position: relative; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.run { font-size: 7.5pt; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 3.5mm; display: flex; justify-content: space-between; }
+.kicker { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 1mm; }
+h1 { font-size: 24pt; line-height: 1.1; margin: 0 0 1.5mm; letter-spacing: -.01em; }
+h1.big { font-size: 34pt; }
+.sub { font-size: 12pt; color: var(--muted); margin: 0 0 4mm; }
+h2 { font-size: 12pt; margin: 3.5mm 0 1.6mm; }
+h3 { font-size: 10pt; margin: 3mm 0 1mm; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0 0 2mm; }
+ul { margin: 0 0 2mm; padding-left: 5mm; }
+li { margin-bottom: .8mm; }
+.nl { color: var(--nl); font-weight: 700; }
+.fr { color: var(--muted); font-style: italic; font-weight: 400; font-size: 8.5pt; }
+.slot { background: var(--slot); font-style: italic; font-weight: 500; color: #3c4456; padding: 0 1.4mm; border-radius: 1.2mm; white-space: nowrap; }
+.v { color: #7b4bb3; font-weight: 700; }
+.s { font-weight: 800; color: var(--ink); }
+.plus { color: var(--muted); padding: 0 .6mm; }
+.badges { display: flex; gap: 2mm; flex-wrap: wrap; margin-bottom: 4mm; }
+.badge { font-size: 8pt; font-weight: 600; border: 1px solid var(--line); border-radius: 10mm; padding: .6mm 2.6mm; background: #fff; }
+.badge.lvl { background: var(--ink); color: #fff; border-color: var(--ink); }
+.box { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.box .kicker { color: var(--ink); }
+.soft { background: var(--soft); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+th, td { border: 1px solid var(--line); padding: 1.1mm 2mm; vertical-align: top; text-align: left; }
+th { background: var(--ink); color: #fff; font-size: 7.8pt; letter-spacing: .05em; text-transform: uppercase; }
+td.time { width: 16mm; color: var(--muted); text-align: right; white-space: nowrap; }
+td.phase { width: 27mm; font-weight: 700; }
+.dlg td { border: none; padding: .35mm 1.2mm; font-size: 8.8pt; }
+.dlg td.who { width: 6mm; color: var(--muted); font-weight: 700; }
+.levels { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.levels > div { border-right: 1px solid var(--line); }
+.levels > div:last-child { border-right: none; }
+.levels .hd { color: #fff; font-weight: 700; text-align: center; padding: 1.8mm 1mm; font-size: 9pt; }
+.levels .bd { padding: 2mm; font-size: 8.3pt; color: var(--muted); text-align: center; }
+.vhead { display: flex; align-items: stretch; gap: 3mm; margin-bottom: 3mm; }
+.vnum { width: 15mm; min-height: 15mm; color: #fff; font-size: 22pt; font-weight: 800; display: flex; align-items: center; justify-content: center; border-radius: 1.5mm; }
+.vtitle h1 { font-size: 20pt; margin: 0; }
+.stars { font-family: 'DejaVu Sans', sans-serif; font-size: 13pt; margin-left: 2mm; letter-spacing: .05em; }
+.vtitle .tag { color: var(--muted); font-size: 9.5pt; }
+.steps td:first-child { width: 47%; }
+.steps td .num { font-weight: 800; margin-right: 1.2mm; }
+.bank { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin-bottom: 1mm; }
+.bank > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: .9mm 2mm; line-height: 1.25; }
+.bank-h { font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 2.5mm 0 1mm; }
+.hint { font-size: 8.5pt; color: var(--muted); font-style: italic; }
+.order .line { display: flex; gap: 2.5mm; margin: .9mm 0; }
+.order .blank { width: 9mm; border-bottom: 1px solid var(--ink); flex: none; }
+.order .grp { font-size: 8pt; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 2.5mm 0 .5mm; }
+.pat td:first-child { width: 30mm; color: var(--muted); font-size: 9pt; }
+.pat .ex { display: block; font-size: 8.3pt; color: var(--muted); margin-top: .5mm; }
+.pat .ex b { color: var(--nl); font-weight: 600; }
+.legend { font-size: 8.5pt; margin-bottom: 2mm; }
+.rule { border-bottom: 1px solid #c9cfda; height: 8mm; }
+.keys div { margin: 1.2mm 0; }
+.check td { text-align: center; width: 15mm; }
+.check td:first-child { text-align: left; width: auto; }
+.check th { text-align: center; }
+.check th:first-child { text-align: left; }
+.scale { text-align: center; white-space: nowrap; letter-spacing: .25em; font-size: 11pt; }
+.buoy { border: 1.4px dashed #df7f26; border-radius: 2mm; padding: 2mm 3.5mm; margin: 0 0 3mm; background: #fff8f0; }
+.buoy .kicker { color: #b45f12; }
+.buoy .items { display: grid; grid-template-columns: 1fr 1fr; gap: .6mm 5mm; }
+.observe { border: 1px solid var(--line); border-left: 4px solid var(--nl); border-radius: 1mm; padding: 2mm 3mm; margin: 2mm 0 3mm; }
+.observe .q { margin-top: 1mm; }
+.fill { display: inline-block; min-width: 55mm; border-bottom: 1px dotted var(--ink); }
+.small { font-size: 8.5pt; }
+.muted { color: var(--muted); }
+.spiral { font-size: 7.5pt; font-weight: 700; color: #2b8c99; border: 1px solid #2b8c99; border-radius: 1mm; padding: 0 1mm; margin-left: 1mm; vertical-align: 1px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.card { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3mm; break-inside: avoid; }
+.card .ct { font-weight: 800; font-size: 10.5pt; margin-bottom: 1mm; }
+.card .row { display: flex; gap: 2mm; font-size: 9pt; margin: .5mm 0; }
+.card .row .k { width: 22mm; flex: none; color: var(--muted); }
+.cut { border: 1.4px dashed var(--muted); }
+.err td:first-child { color: #b3261e; text-decoration: line-through; width: 34%; }
+.err td:nth-child(2) { color: var(--nl); font-weight: 700; width: 34%; }
+.mail { border: 1.4px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.mail .bar { background: var(--ink); color: #fff; font-size: 8pt; padding: 1.2mm 3mm; letter-spacing: .05em; }
+.mail .hdr { border-bottom: 1px solid var(--line); padding: 1.5mm 3mm; font-size: 9pt; }
+.mail .hdr div { display: flex; gap: 2mm; }
+.mail .hdr .k { width: 20mm; color: var(--muted); }
+.mail .body { padding: 3mm; }
+.mail .body p { margin: 0 0 1.8mm; }
+.form { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 3mm; }
+.form .f { display: flex; gap: 2mm; align-items: flex-end; margin: 2.2mm 0; }
+.form .f .k { width: 30mm; font-weight: 700; flex: none; }
+.form .f .k span { display: block; font-weight: 400; font-size: 7.5pt; color: var(--muted); }
+.form .f .l { flex: 1; border-bottom: 1px solid var(--ink); height: 5mm; }
+.path { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5mm; margin: 2mm 0 4mm; }
+.path .st { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm; position: relative; }
+.path .st .no { font-size: 18pt; font-weight: 800; line-height: 1; }
+.path .st .ti { font-weight: 700; margin: 1mm 0; }
+.path .st .lv { display: inline-block; font-size: 7.5pt; font-weight: 700; color: #fff; padding: .3mm 1.8mm; border-radius: 5mm; }
+.foot { font-size: 7.5pt; color: var(--muted); margin-top: 2mm; }
+.arrows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; }
+.arrows div { border: 1px solid var(--line); border-radius: 1.5mm; padding: 1.5mm 2mm; display: flex; gap: 2mm; align-items: center; }
+.arrows .ic { font-size: 15pt; width: 8mm; text-align: center; color: var(--ink); }
+.who-tag { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; border-radius: 1mm; padding: 0 1.8mm; margin-right: 1.5mm; }
+</style></head><body><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 3 · Aan de telefoon</span><span>A1 → A2 · EO en interaction · binômes A/B, dos à dos</span></div>
+  <div class="kicker">Scénario de séance</div>
+  <h1>Aan de telefoon</h1>
+  <div class="sub">Prendre un appel et noter un message</div>
+  <div class="badges"><span class="badge lvl">A1 → A2</span><span class="badge">EO en interaction · binômes A/B, dos à dos</span><span class="badge">⏱ 2 × 50 min</span><span class="badge">📘 Telefoon & mail p. 85</span><span class="badge">📘 Getallen p. 64</span><span class="badge">📘 Hem · haar · hun p. 71</span><span class="badge">📘 Fiche 3 p. 94</span></div>
+  <div class="grid2">
+    <div class="soft">
+      <div class="kicker">Intention de communication</div><p>Gérer un appel entrant au travail quand la personne demandée est absente, sans perdre l'information.</p>
+      <div class="kicker">Fonctions langagières</div><ul><li>décrocher, s'identifier (routine téléphonique)</li><li>faire patienter, expliquer une absence</li><li>demander des informations, faire épeler, vérifier</li><li>promettre une action (rappel), prendre congé</li></ul>
+      <div class="kicker">Cibles</div>
+      <p class="small"><b>Lexique :</b> routines du téléphone, motifs d'absence (in vergadering, met verlof…), objets d'appel (bestelling, factuur, contract), chiffres et alphabet.</p>
+      <p class="small"><b>Forme :</b> verbes séparables en blocs (<span class="nl">Hij belt u terug · Kan hij mij terugbellen?</span>) ; pronoms <span class="nl">u · mij · hem · haar</span>.</p>
+    </div>
+    <div class="soft"><div class="kicker">Dialogue modèle</div><table class="dlg"><tr><td class="who">A</td><td class="nl">Firma Verbeke, goedemiddag. U spreekt met Sara.</td></tr><tr><td class="who">B</td><td class="nl">Goedemiddag. Met Tom Janssens, van de firma Delta. Kan ik meneer Peeters spreken?</td></tr><tr><td class="who">A</td><td class="nl">Een moment, alstublieft. … Sorry, meneer Peeters is in vergadering. Kan ik een boodschap noteren?</td></tr><tr><td class="who">B</td><td class="nl">Ja, graag. Kan hij mij terugbellen?</td></tr><tr><td class="who">A</td><td class="nl">Natuurlijk. Wat is uw naam, alstublieft?</td></tr><tr><td class="who">B</td><td class="nl">Janssens. J-A-N-S-S-E-N-S.</td></tr><tr><td class="who">A</td><td class="nl">En wat is uw telefoonnummer?</td></tr><tr><td class="who">B</td><td class="nl">0476 12 34 56.</td></tr><tr><td class="who">A</td><td class="nl">Dus: 0476 12 34 56. Waarover gaat het?</td></tr><tr><td class="who">B</td><td class="nl">Over de bestelling van vrijdag.</td></tr><tr><td class="who">A</td><td class="nl">Goed. Hij belt u vanmiddag terug.</td></tr><tr><td class="who">B</td><td class="nl">Dank u wel. Tot ziens.</td></tr><tr><td class="who">A</td><td class="nl">Graag gedaan. Tot ziens!</td></tr></table><p class="hint">Lecture des numéros en Belgique : par groupes (« nul vier zes zeven · twaalf · vierendertig · zesenvijftig »).</p></div>
+  </div>
+  <h2>Déroulement</h2>
+  <table><tr><td class="phase">Rencontre</td><td>Écoute du dialogue (2 fois), <b>sans le texte</b>. Au 2e passage, chacun remplit une Telefoonnotitie. On compare : la fiche de message est déjà le produit de la tâche.</td><td class="time">10 min</td></tr><tr><td class="phase">Répétition</td><td>Chaîne des numéros : chacun lit un numéro de gsm, le voisin le note et le relit (<span class="nl">Dus: …?</span>). Puis on épelle des noms de famille (alphabet).</td><td class="time">10 min</td></tr><tr><td class="phase">Variation</td><td>On change un seul emplacement à la fois : la personne demandée, puis le motif d'absence, puis le moment du rappel (<span class="nl">vanmiddag → maandag</span>).</td><td class="time">10 min</td></tr><tr><td class="phase">Choix</td><td>Présentation du parcours. Chacun choisit sa variante. Distribution des cartes B et des fiches de message.</td><td class="time">5 min</td></tr><tr><td class="phase">Préparation</td><td>Préparation avec la fiche choisie. Les Héro·ïnes s'entraînent à lire le planning et à construire <span class="nl">… is met verlof. Zij belt u maandag terug.</span></td><td class="time">10 min</td></tr><tr><td class="phase">Interaction</td><td><b>Dos à dos.</b> B appelle (carte 1, puis 2) ; A note. Vérification fiche ↔ carte. On inverse les rôles. Carte 3 (transfert) pour les binômes à l'aise.</td><td class="time">30 min</td></tr><tr><td class="phase">Retour</td><td>Focus on form : <span class="nl">Hij belt u terug</span> / <span class="nl">Kan hij mij terugbellen?</span> Autoévaluation et choix de la variante suivante.</td><td class="time">15 min</td></tr></table>
+  </section><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 3 · Aan de telefoon</span><span>Repères didactiques</span></div>
+  <div class="kicker">Repères pour l'enseignant·e</div>
+  <h1>Focus on form & observation</h1>
+  <h2>1 · La forme à faire remarquer (sans en faire une leçon)</h2>
+  <div class="observe"><b>Les verbes séparables, d'abord comme blocs :</b> <span class="nl">Hij belt u terug.</span> → <span class="nl">Kan hij mij terugbellen?</span> → <span class="nl">Ik verbind u door.</span><br>
+    <b>Comment :</b> écrire <span class="nl">terug|bellen</span> en deux couleurs. Avec <span class="nl">kan</span>, les deux morceaux se recollent à la fin ; sans <span class="nl">kan</span>, <span class="nl">terug</span> part à la fin. Même logique que <span class="nl">Zullen we … eten?</span> (fiche 1).<br>
+    <b>Routine pragmatique :</b> au téléphone, on se nomme avec <span class="nl">met</span> : <span class="nl">Met Sara.</span> / <span class="nl">U spreekt met Sara.</span><br>
+    <span class="muted small">Syllabus : Telefoon & mail p. 85 · Getallen p. 64 · Hem · haar · hun p. 71.</span></div>
+  <h2>2 · Erreurs attendues chez des francophones</h2>
+  <table class="err"><tr><th>On entendra…</th><th>On vise…</th><th>Piste de reprise</th></tr><tr><td>Ik ben Sara. (au téléphone)</td><td>U spreekt met Sara.</td><td class="small">Routine affichée près du « téléphone » de la classe.</td></tr><tr><td>Hij terugbelt u.</td><td>Hij belt u terug.</td><td class="small">Carton <span class="nl">terug</span> que l'on déplace à la fin.</td></tr><tr><td>vijftig zes (56)</td><td>zesenvijftig</td><td class="small">Unité avant dizaine : rappel Getallen p. 64, chaîne des numéros.</td></tr></table>
+  <h2>3 · Grille d'observation (pendant l'interaction)</h2>
+  <table><tr><th>Critère</th><th>Repère A1</th><th>Repère A2</th></tr><tr><td><b>Réalisation de la tâche</b></td><td class="small">Décroche, fait patienter, note nom et numéro justes.</td><td class="small">Gère l'absence avec le planning, note tout, propose rappel ou transfert.</td></tr><tr><td><b>Lexique</b></td><td class="small">Routines de base (<span class="nl">Een moment · Tot ziens</span>).</td><td class="small">Motifs d'absence variés, objets d'appel.</td></tr><tr><td><b>Forme ciblée</b></td><td class="small"><span class="nl">Hij belt u terug</span> comme bloc figé.</td><td class="small">Séparables et pronoms variés (<span class="nl">Zij belt u maandag terug</span>).</td></tr><tr><td><b>Interaction</b></td><td class="small">Fait répéter, fait épeler.</td><td class="small">Reformule pour vérifier, reste en « u » jusqu'au bout.</td></tr></table>
+  <h2>4 · Ce que cette fiche ajoute au modèle</h2>
+  <ul class="small"><li><b>Dos à dos</b> : sans lecture labiale, on retrouve la vraie difficulté du téléphone.</li><li><b>Planning de l'accueil</b> dans la mise en situation : l'apprenant·e doit raisonner pour répondre (absent·e ? jusqu'à quand ?).</li><li><b>Écart d'information + produit vérifiable</b> : la Telefoonnotitie se compare à la carte B.</li><li><b>Carte libre</b> pour les Légendes : elles et ils inventent leur appel.</li></ul>
+  <h2>5 · Prolongements</h2>
+  <ul class="small"><li>Message vocal : chacun enregistre l'annonce du répondeur de Verbeke (<span class="nl">U bent verbonden met… Wij zijn bereikbaar van … tot …</span>).</li><li>« Téléphone arabe » professionnel : A transmet le message noté à C, qui le transmet à la « personne absente ».</li></ul>
+  </section><section class="page">
+  <div class="run"><span>Néerlandais 2 · Fiche 3 · Expression orale en interaction</span><span>Fil rouge : la firma Verbeke</span></div>
+  <div class="kicker">Champ thématique : téléphone & mail · telefoon & mail</div>
+  <h1 class="big">📞 Aan de telefoon</h1>
+  <div class="sub">Prendre un appel et noter un message</div>
+  <div class="badges"><span class="badge lvl">A1 → A2</span><span class="badge">EO en interaction · binômes A/B, dos à dos</span></div>
+  <div class="box"><div class="kicker">Je peux… (can-do)</div><b>… répondre au téléphone au travail, dire que la personne est absente et noter un message complet (nom, numéro, objet).</b></div>
+  <h2>Pendant cette fiche, tu vas…</h2>
+  <ul><li>décrocher au nom de l'entreprise</li><li>faire patienter et expliquer qu'une personne est absente</li><li>demander et noter un nom (épeler) et un numéro</li><li>demander l'objet de l'appel</li><li>promettre un rappel et terminer poliment</li></ul>
+  <div class="soft"><div class="kicker">La tâche finale (pour tout le monde)</div>Dos à dos avec ton/ta partenaire, tu réponds à <b>3 appels</b> à l'accueil de Verbeke. Pour chaque appel, tu remplis une <i>Telefoonnotitie</i>. Puis vous inversez les rôles.</div>
+  <h2>Choisis ton niveau de départ</h2>
+  <p class="small">Toutes les variantes mènent à la <b>même tâche finale</b>. Elles changent seulement l'aide que tu reçois. Il n'y a pas de « mauvais » choix : commence là où tu te sens à l'aise, et monte quand tu es prêt·e. Tu peux aussi redescendre.</p>
+  <div class="levels"><div><div class="hd" style="background:#3d9a5f">1 · Champion·ne</div><div class="bd">Je suis chaque étape. J'ai toutes les phrases.</div></div><div><div class="hd" style="background:#2b8c99">2 · Superchampion·ne</div><div class="bd">J'ai toutes les phrases. J'organise moi-même.</div></div><div><div class="hd" style="background:#3a5fc0">3 · Héro·ïne</div><div class="bd">Je construis mes phrases avec des modèles.</div></div><div><div class="hd" style="background:#7b4bb3">4 · Superhéro·ïne</div><div class="bd">J'ai quelques structures. Je note mes aides.</div></div><div><div class="hd" style="background:#df7f26">5 · Légende</div><div class="bd">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="buoy"><div class="kicker">🛟 Bouée de secours · si un mot te manque</div><div class="items"><div><span class="nl">Sorry, ik versta u niet goed.</span></div><div><span class="nl">Kunt u dat herhalen?</span></div><div><span class="nl">Kunt u wat langzamer spreken?</span></div><div><span class="nl">Kunt u dat spellen?</span></div><div><span class="nl">Een moment, alstublieft.</span></div><div><span class="nl">Dus: … ?</span></div></div></div>
+  <p class="small">📞 Fin de fiche : cartes de l'appelant·e (rôle B) et fiches <i>Telefoonnotitie</i> (rôle A).</p>
+  <p style="margin-top:4mm">Nom : ........................................................ &nbsp; Groupe : .......... &nbsp; Je commence en variante n° ......</p>
+  </section><section class="page"><div class="run"><span>Aan de telefoon · Fiche 3</span><span>Variante 1 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3d9a5f">1</div>
+  <div class="vtitle"><h1>Champion·ne<span class="stars" style="color:#3d9a5f">★☆☆☆☆</span></h1><div class="tag">Je suis chaque étape. J'ai toutes les phrases.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu travailles à <b>l'accueil de Verbeke</b>. Le téléphone sonne. Un·e client·e veut parler à un·e collègue. Regarde le planning : si la personne n'est pas là, tu prends un message complet sur la fiche <i>Telefoonnotitie</i>.<table style="margin:2mm 0 0;font-size:8.8pt"><tr><th colspan="3">📋 Planning de l'accueil · vandaag</th></tr>
+<tr><td class="nl">meneer Peeters</td><td>in vergadering <span class="fr">en réunion</span></td><td>terug om 15 uur → <span class="nl">vanmiddag</span></td></tr>
+<tr><td class="nl">mevrouw Claes</td><td>met verlof <span class="fr">en congé</span></td><td>terug op maandag → <span class="nl">maandag</span></td></tr>
+<tr><td class="nl">meneer Wouters</td><td>op kantoor <span class="fr">au bureau</span></td><td>bonus A2 → <span class="nl">Ik verbind u door.</span></td></tr></table></div>
+  <h2>Prépare-toi : suis les étapes et choisis tes phrases</h2>
+  <table class="steps"><tr><th>Ce que tu dois faire</th><th>Ce que tu peux dire</th></tr><tr><td><span class="num">1.</span>Décroche : entreprise, salutation, ton prénom.</td><td><div class="nl">Firma Verbeke, goedemorgen.</div><div class="nl">U spreekt met Sara.</div></td></tr><tr><td><span class="num">2.</span>Demande ce que la personne veut.</td><td><div class="nl">Waarmee kan ik u helpen?</div></td></tr><tr><td><span class="num">3.</span>Fais patienter. Regarde le planning. Dis que la personne est absente.</td><td><div class="nl">Een moment, alstublieft.</div><div class="nl">Sorry, meneer Peeters is in vergadering.</div><div class="nl">Sorry, mevrouw Claes is met verlof.</div></td></tr><tr><td><span class="num">4.</span>Propose de prendre un message.</td><td><div class="nl">Kan ik een boodschap noteren?</div></td></tr><tr><td><span class="num">5.</span>Demande le nom (fais épeler) et le numéro.</td><td><div class="nl">Wat is uw naam, alstublieft?</div><div class="nl">Kunt u dat spellen?</div><div class="nl">Wat is uw telefoonnummer?</div></td></tr><tr><td><span class="num">6.</span>Vérifie le numéro. Demande l'objet de l'appel.</td><td><div class="nl">Dus: 0476 12 34 56?</div><div class="nl">Waarover gaat het?</div></td></tr><tr><td><span class="num">7.</span>Promets le rappel. Termine l'appel.</td><td><div class="nl">Hij belt u vanmiddag terug.</div><div class="nl">Zij belt u maandag terug.</div><div class="nl">Dank u wel. Tot ziens!</div></td></tr></table>
+  <div class="bank-h">Banque de mots : l'absence et le rappel</div><div class="bank"><div><span class="nl">in vergadering</span> <span class="fr">en réunion</span></div><div><span class="nl">met verlof</span> <span class="fr">en congé</span></div><div><span class="nl">niet op kantoor</span> <span class="fr">pas au bureau</span></div><div><span class="nl">ziek</span> <span class="fr">malade</span></div><div><span class="nl">aan de telefoon</span> <span class="fr">en ligne</span></div><div><span class="nl">op kantoor</span> <span class="fr">au bureau</span></div><div><span class="nl">vanmiddag</span> <span class="fr">cet après-midi</span></div><div><span class="nl">morgen</span> <span class="fr">demain</span></div><div><span class="nl">maandag</span> <span class="fr">lundi</span></div></div><div class="bank-h">L'objet de l'appel</div><div class="bank"><div><span class="nl">de bestelling</span> <span class="fr">la commande</span></div><div><span class="nl">de factuur</span> <span class="fr">la facture</span></div><div><span class="nl">het contract</span> <span class="fr">le contrat</span></div><div><span class="nl">de vergadering</span> <span class="fr">la réunion</span></div><div><span class="nl">de afspraak</span> <span class="fr">le rendez-vous</span></div><div><span class="nl">de levering</span> <span class="fr">la livraison</span></div></div>
+  <p class="hint">Astuce : garde la fiche Telefoonnotitie à côté de toi, et le planning sous les yeux.</p>
+  </section><section class="page"><div class="run"><span>Aan de telefoon · Fiche 3</span><span>Variante 2 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#2b8c99">2</div>
+  <div class="vtitle"><h1>Superchampion·ne<span class="stars" style="color:#2b8c99">★★☆☆☆</span></h1><div class="tag">J'ai toutes les phrases. J'organise moi-même.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu travailles à <b>l'accueil de Verbeke</b>. Le téléphone sonne. Un·e client·e veut parler à un·e collègue. Regarde le planning : si la personne n'est pas là, tu prends un message complet sur la fiche <i>Telefoonnotitie</i>.<table style="margin:2mm 0 0;font-size:8.8pt"><tr><th colspan="3">📋 Planning de l'accueil · vandaag</th></tr>
+<tr><td class="nl">meneer Peeters</td><td>in vergadering <span class="fr">en réunion</span></td><td>terug om 15 uur → <span class="nl">vanmiddag</span></td></tr>
+<tr><td class="nl">mevrouw Claes</td><td>met verlof <span class="fr">en congé</span></td><td>terug op maandag → <span class="nl">maandag</span></td></tr>
+<tr><td class="nl">meneer Wouters</td><td>op kantoor <span class="fr">au bureau</span></td><td>bonus A2 → <span class="nl">Ik verbind u door.</span></td></tr></table></div>
+  <h2>Prépare-toi</h2>
+  <p>Pendant l'appel, tu dois : <b>décrocher · expliquer l'absence · prendre le message (nom, numéro, objet) · conclure</b>. Numérote les phrases dans l'ordre où tu veux les dire.</p>
+  <div class="order"><div class="grp">Décrocher</div><div class="line"><span class="blank"></span><span class="nl">Firma Verbeke, goedemiddag.</span></div><div class="line"><span class="blank"></span><span class="nl">U spreekt met …</span></div><div class="line"><span class="blank"></span><span class="nl">Waarmee kan ik u helpen?</span></div><div class="grp">L'absence</div><div class="line"><span class="blank"></span><span class="nl">Een moment, alstublieft.</span></div><div class="line"><span class="blank"></span><span class="nl">Sorry, … is in vergadering.</span></div><div class="line"><span class="blank"></span><span class="nl">Kan ik een boodschap noteren?</span></div><div class="grp">Le message</div><div class="line"><span class="blank"></span><span class="nl">Wat is uw naam, alstublieft?</span></div><div class="line"><span class="blank"></span><span class="nl">Kunt u dat spellen?</span></div><div class="line"><span class="blank"></span><span class="nl">Wat is uw telefoonnummer?</span></div><div class="line"><span class="blank"></span><span class="nl">Dus: … ?</span></div><div class="line"><span class="blank"></span><span class="nl">Waarover gaat het?</span></div><div class="grp">Conclure</div><div class="line"><span class="blank"></span><span class="nl">Hij / Zij belt u … terug.</span></div><div class="line"><span class="blank"></span><span class="nl">Dank u voor uw telefoontje.</span></div><div class="line"><span class="blank"></span><span class="nl">Tot ziens!</span></div></div>
+  <div class="soft" style="margin-top:3mm"><div class="kicker">Banque de mots</div><div class="nl">in vergadering · met verlof · niet op kantoor · ziek · aan de telefoon</div><div class="nl">vanmiddag · morgen · maandag · na de vergadering</div><div class="nl">de bestelling · de factuur · het contract · de afspraak · de levering</div></div>
+  <div class="box" style="border-width:1px"><b>Défi :</b> change la personne absente, le motif et le moment du rappel. Fais épeler <b>au moins une fois</b>.</div>
+  <p class="hint">Tu te sens à l'aise ? Essaie la variante Héro·ïne la prochaine fois.</p>
+  </section><section class="page"><div class="run"><span>Aan de telefoon · Fiche 3</span><span>Variante 3 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3a5fc0">3</div>
+  <div class="vtitle"><h1>Héro·ïne<span class="stars" style="color:#3a5fc0">★★★☆☆</span></h1><div class="tag">Je construis mes phrases avec des modèles.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu travailles à <b>l'accueil de Verbeke</b>. Le téléphone sonne. Un·e client·e veut parler à un·e collègue. Regarde le planning : si la personne n'est pas là, tu prends un message complet sur la fiche <i>Telefoonnotitie</i>.<table style="margin:2mm 0 0;font-size:8.8pt"><tr><th colspan="3">📋 Planning de l'accueil · vandaag</th></tr>
+<tr><td class="nl">meneer Peeters</td><td>in vergadering <span class="fr">en réunion</span></td><td>terug om 15 uur → <span class="nl">vanmiddag</span></td></tr>
+<tr><td class="nl">mevrouw Claes</td><td>met verlof <span class="fr">en congé</span></td><td>terug op maandag → <span class="nl">maandag</span></td></tr>
+<tr><td class="nl">meneer Wouters</td><td>op kantoor <span class="fr">au bureau</span></td><td>bonus A2 → <span class="nl">Ik verbind u door.</span></td></tr></table></div>
+  <h2>Prépare-toi : 1) décroche · 2) gère l'absence · 3) prends le message · 4) conclus</h2>
+  <div class="legend"><b>Légende :</b> <span class="s">S</span> = sujet (ik, jij, u, hij, zij…) · <span class="v">[werken]</span> = verbe à conjuguer · <span class="slot">mot</span> = à choisir · <span class="nl">vet</span> = à garder tel quel · <span class="spiral">↺ déjà vu</span> = vu dans une fiche précédente</div>
+  <table class="pat"><tr><td>Décrocher</td><td><span class="nl">Firma Verbeke,</span><span class="plus">+</span><span class="slot">goedemorgen / goedemiddag</span> <span class="nl">. U spreekt met</span><span class="plus">+</span><span class="slot">prénom</span><span class="ex">ex. : <b>Firma Verbeke, goedemorgen. U spreekt met Sara.</b></span></td></tr><tr><td>Aider</td><td><span class="nl">Waarmee kan ik u helpen?</span><span class="ex">ex. : <b>Waarmee kan ik u helpen?</b></span></td></tr><tr><td>Absence</td><td><span class="slot">meneer / mevrouw<span class="plus">+</span>nom</span><span class="plus">+</span><span class="v">[zijn]</span><span class="plus">+</span><span class="slot">motif</span><span class="ex">ex. : <b>Mevrouw Claes is met verlof.</b></span></td></tr><tr><td>Proposer</td><td><span class="nl">Kan ik een boodschap noteren?</span><span class="ex">ex. : <b>Kan ik een boodschap noteren?</b></span></td></tr><tr><td>Demander</td><td><span class="nl">Wat is uw</span><span class="plus">+</span><span class="slot">naam / telefoonnummer</span> <span class="nl">?</span><span class="ex">ex. : <b>Wat is uw telefoonnummer?</b></span></td></tr><tr><td>Faire épeler</td><td><span class="nl">Kunt u</span><span class="plus">+</span><span class="slot">dat / uw naam</span><span class="plus">+</span><span class="nl">spellen?</span><span class="ex">ex. : <b>Kunt u uw naam spellen?</b></span></td></tr><tr><td>Vérifier</td><td><span class="nl">Dus:</span><span class="plus">+</span><span class="slot">info</span> <span class="nl">?</span> <span class="spiral">↺ déjà vu</span><span class="ex">ex. : <b>Dus: Janssens, 0476 12 34 56?</b></span></td></tr><tr><td>Promettre</td><td><span class="slot">hij / zij</span><span class="plus">+</span><span class="v">[bellen]</span><span class="plus">+</span><span class="nl">u</span><span class="plus">+</span><span class="slot">moment</span><span class="plus">+</span><span class="nl">terug.</span><span class="ex">ex. : <b>Zij belt u maandag terug.</b></span></td></tr><tr><td>Transférer (A2)</td><td><span class="nl">Een moment, ik verbind u door.</span><span class="ex">ex. : <b>Een moment, ik verbind u door.</b></span></td></tr><tr><td>Conclure</td><td><span class="nl">Dank u voor uw telefoontje. Tot ziens!</span><span class="ex">ex. : <b>Dank u voor uw telefoontje. Tot ziens!</b></span></td></tr></table>
+  <div class="observe"><b>Observe</b> (pas besoin d'apprendre une règle) : <span class="nl">Hij belt u terug.</span> → <span class="nl">Kan hij mij terugbellen?</span><div class="q">Que devient <span class="nl">terug</span> quand il y a <span class="nl">kan</span> ? <span class="fill"></span></div></div>
+  <p class="small muted">Mots utiles : in vergadering · met verlof · niet op kantoor · vanmiddag · morgen · maandag · de bestelling · de factuur · het contract</p>
+  </section><section class="page"><div class="run"><span>Aan de telefoon · Fiche 3</span><span>Variante 4 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#7b4bb3">4</div>
+  <div class="vtitle"><h1>Superhéro·ïne<span class="stars" style="color:#7b4bb3">★★★★☆</span></h1><div class="tag">J'ai quelques structures. Je note mes aides.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu travailles à <b>l'accueil de Verbeke</b>. Le téléphone sonne. Un·e client·e veut parler à un·e collègue. Regarde le planning : si la personne n'est pas là, tu prends un message complet sur la fiche <i>Telefoonnotitie</i>.<table style="margin:2mm 0 0;font-size:8.8pt"><tr><th colspan="3">📋 Planning de l'accueil · vandaag</th></tr>
+<tr><td class="nl">meneer Peeters</td><td>in vergadering <span class="fr">en réunion</span></td><td>terug om 15 uur → <span class="nl">vanmiddag</span></td></tr>
+<tr><td class="nl">mevrouw Claes</td><td>met verlof <span class="fr">en congé</span></td><td>terug op maandag → <span class="nl">maandag</span></td></tr>
+<tr><td class="nl">meneer Wouters</td><td>op kantoor <span class="fr">au bureau</span></td><td>bonus A2 → <span class="nl">Ik verbind u door.</span></td></tr></table></div>
+  <h2>Structures clés</h2>
+  <div class="keys"><div><span class="nl">Firma Verbeke,</span> … <span class="nl">U spreekt met</span> …</div><div>… <span class="v">[zijn]</span><span class="plus">+</span><span class="slot">motif</span> <span class="nl">. Kan ik een boodschap noteren?</span></div><div><span class="nl">Wat is uw</span> … <span class="nl">? Kunt u dat spellen?</span></div><div><span class="slot">hij / zij</span><span class="plus">+</span><span class="nl">belt u</span> … <span class="nl">terug.</span></div></div>
+  <div class="soft"><b>Pour aller plus loin (A2, facultatif) :</b> si la personne est là, transfère (<span class="nl">Een moment, ik verbind u door.</span>) ; ou propose un autre moment ↺ fiche 3 du syllabus (<span class="nl">Kunt u morgen om tien uur terugbellen?</span>).</div>
+  <h2>Note ici les expressions et les structures qui vont t'aider</h2>
+  <div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div>
+  <p class="hint">Tu n'as pas besoin de tout écrire : quelques mots-clés suffisent.</p>
+  </section><section class="page"><div class="run"><span>Aan de telefoon · Fiche 3</span><span>Variante 5 / 5 · Tâche finale</span></div>
+  <div class="vhead"><div class="vnum" style="background:#df7f26">5</div>
+  <div class="vtitle"><h1>Légende<span class="stars" style="color:#df7f26">★★★★★</span></h1><div class="tag">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="box" style="border-color:#df7f26"><div class="kicker">Tâche finale de communication</div>Tu travailles à l'accueil de Verbeke. Ton/ta partenaire appelle avec une carte B. Décroche, explique l'absence (regarde le planning), note le message complet sur la Telefoonnotitie et termine poliment l'appel. Puis inversez les rôles.<table style="margin:2mm 0 0;font-size:8.8pt"><tr><th colspan="3">📋 Planning de l'accueil · vandaag</th></tr>
+<tr><td class="nl">meneer Peeters</td><td>in vergadering <span class="fr">en réunion</span></td><td>terug om 15 uur → <span class="nl">vanmiddag</span></td></tr>
+<tr><td class="nl">mevrouw Claes</td><td>met verlof <span class="fr">en congé</span></td><td>terug op maandag → <span class="nl">maandag</span></td></tr>
+<tr><td class="nl">meneer Wouters</td><td>op kantoor <span class="fr">au bureau</span></td><td>bonus A2 → <span class="nl">Ik verbind u door.</span></td></tr></table>
+  <p style="margin:1.5mm 0 0"><b>Préparation :</b> 2 minutes, sans notes (planning et fiche de message autorisés) · <b>Appel :</b> 2 à 3 minutes, dos à dos</p><p class="small" style="margin:1mm 0 0"><b>Bonus A2 :</b> carte 3 : la personne est au bureau, transfère l'appel ; ou propose un autre moment pour rappeler.</p></div>
+  <h2>Mon autoévaluation</h2>
+  <p>Variante choisie : &nbsp;☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5</p>
+  <table class="check"><tr><th>Pendant l'échange, j'ai pu…</th><th>pas encore</th><th>presque</th><th>oui</th></tr><tr><td>décrocher (entreprise, salutation, prénom)</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>faire patienter et expliquer l'absence</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>noter le nom correctement (faire épeler)</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>noter le numéro correctement</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>demander l'objet de l'appel</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>promettre un rappel et terminer poliment</td><td>☐</td><td>☐</td><td>☐</td></tr></table>
+  <h2>Comment je me suis senti·e ?</h2>
+  <p class="small muted">1 = pas du tout · 6 = tout à fait</p>
+  <table><tr><td>Avant l'appel, j'étais stressé·e.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'ai oublié des choses que je savais, à cause du stress.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'avais l'impression qu'il y avait trop de règles à retenir.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr></table>
+  <div class="grid2"><div><h2>Une expression que je retiens</h2><div class="rule"></div></div>
+  <div><h2>La prochaine fois, je tente la variante…</h2>
+  <p>☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5<br>parce que ...........................................................</p></div></div>
+  <p class="foot">Les échelles reprennent des items d'anxiété suivis dans l'expérimentation ARK (Nedconsult).</p>
+  </section><section class="page">
+  <div class="run"><span>Aan de telefoon · Fiche 3</span><span>Rôle B · cartes à découper</span></div>
+  <div class="vhead"><div class="vnum" style="background:#df7f26">B</div><div class="vtitle"><h1>Je bel naar Verbeke</h1><div class="tag">Tu es le/la client·e qui appelle. Prends une carte. Ne la montre pas.</div></div></div>
+  <div class="cards"><div class="card cut"><div class="ct">📞 Carte appelant·e 1</div>
+    <div class="row"><span class="k">Jij bent</span><span class="nl">Tom Janssens</span></div>
+    <div class="row"><span class="k">Bedrijf</span><span class="nl">firma Delta</span></div>
+    <div class="row"><span class="k">Je vraagt</span><span class="nl">meneer Peeters</span></div>
+    <div class="row"><span class="k">Je nummer</span><span class="nl">0476 12 34 56</span></div>
+    <div class="row"><span class="k">Het gaat over</span><span class="nl">de bestelling van vrijdag</span></div></div><div class="card cut"><div class="ct">📞 Carte appelant·e 2</div>
+    <div class="row"><span class="k">Jij bent</span><span class="nl">Nadia El Amrani</span></div>
+    <div class="row"><span class="k">Bedrijf</span><span class="nl">interimkantoor Werkpunt</span></div>
+    <div class="row"><span class="k">Je vraagt</span><span class="nl">mevrouw Claes</span></div>
+    <div class="row"><span class="k">Je nummer</span><span class="nl">02 512 44 80</span></div>
+    <div class="row"><span class="k">Het gaat over</span><span class="nl">het contract van Karim Haddad</span></div></div><div class="card cut"><div class="ct">📞 Carte appelant·e 3 <span class="badge" style="font-size:7pt">bonus A2</span></div>
+    <div class="row"><span class="k">Jij bent</span><span class="nl">Lucas Dubois</span></div>
+    <div class="row"><span class="k">Bedrijf</span><span class="nl">Hotel Central</span></div>
+    <div class="row"><span class="k">Je vraagt</span><span class="nl">meneer Wouters</span></div>
+    <div class="row"><span class="k">Je nummer</span><span class="nl">0495 87 65 43</span></div>
+    <div class="row"><span class="k">Het gaat over</span><span class="nl">de vergadering van dinsdag</span></div></div>
+  <div class="card cut"><div class="ct">📞 Carte libre (Légende)</div>
+    <div class="row"><span class="k">Jij bent</span><span class="fill" style="min-width:45mm"></span></div><div class="row"><span class="k">Bedrijf</span><span class="fill" style="min-width:45mm"></span></div><div class="row"><span class="k">Je vraagt</span><span class="fill" style="min-width:45mm"></span></div><div class="row"><span class="k">Je nummer</span><span class="fill" style="min-width:45mm"></span></div><div class="row"><span class="k">Het gaat over</span><span class="fill" style="min-width:45mm"></span></div></div></div>
+  <h2>Ce que tu peux dire (B)</h2>
+  <table class="steps"><tr><th>Ce que tu fais</th><th>Ce que tu peux dire</th></tr>
+  <tr><td>Salue et dis qui tu es.</td><td class="nl">Goedemorgen. Met Tom Janssens, van de firma Delta.</td></tr>
+  <tr><td>Demande la personne.</td><td class="nl">Kan ik meneer Peeters spreken, alstublieft?</td></tr>
+  <tr><td>Demande un rappel.</td><td class="nl">Kan hij / zij mij terugbellen?</td></tr>
+  <tr><td>Donne ton nom, épelle, donne ton numéro.</td><td class="nl">J-A-N-S-S-E-N-S. · Mijn nummer is 0476 12 34 56.</td></tr>
+  <tr><td>Dis pourquoi tu appelles.</td><td class="nl">Het gaat over de bestelling van vrijdag.</td></tr>
+  <tr><td>Remercie et dis au revoir.</td><td class="nl">Dank u wel. Tot ziens!</td></tr></table>
+  <p class="hint">Assis·e dos à dos avec ton/ta partenaire : comme au téléphone, on ne voit pas la bouche.</p>
+  </section><section class="page">
+  <div class="run"><span>Aan de telefoon · Fiche 3</span><span>Rôle A · fiche de message</span></div>
+  <div class="vhead"><div class="vnum" style="background:#1f4ea3">A</div><div class="vtitle"><h1>Telefoonnotitie</h1><div class="tag">Remplis une fiche par appel. À la fin, compare avec la carte de ton/ta partenaire : tout est juste ?</div></div></div>
+  <div class="form" style="margin-bottom:3mm"><div style="display:flex;justify-content:space-between"><b>☎ Telefoonnotitie 1</b><span class="small muted">Verbeke · receptie</span></div>
+    <div class="f"><span class="k">Voor<span>pour</span></span><span class="l"></span></div><div class="f"><span class="k">Van<span>de la part de</span></span><span class="l"></span></div><div class="f"><span class="k">Bedrijf<span>entreprise</span></span><span class="l"></span></div><div class="f"><span class="k">Telefoon<span>numéro</span></span><span class="l"></span></div><div class="f"><span class="k">Over<span>objet</span></span><span class="l"></span></div>
+    <div class="f"><span class="k">Terugbellen<span>rappeler</span></span><span>☐ ja &nbsp; ☐ nee &nbsp;&nbsp; wanneer ? </span><span class="l"></span></div></div><div class="form" style="margin-bottom:3mm"><div style="display:flex;justify-content:space-between"><b>☎ Telefoonnotitie 2</b><span class="small muted">Verbeke · receptie</span></div>
+    <div class="f"><span class="k">Voor<span>pour</span></span><span class="l"></span></div><div class="f"><span class="k">Van<span>de la part de</span></span><span class="l"></span></div><div class="f"><span class="k">Bedrijf<span>entreprise</span></span><span class="l"></span></div><div class="f"><span class="k">Telefoon<span>numéro</span></span><span class="l"></span></div><div class="f"><span class="k">Over<span>objet</span></span><span class="l"></span></div>
+    <div class="f"><span class="k">Terugbellen<span>rappeler</span></span><span>☐ ja &nbsp; ☐ nee &nbsp;&nbsp; wanneer ? </span><span class="l"></span></div></div><div class="form" style="margin-bottom:3mm"><div style="display:flex;justify-content:space-between"><b>☎ Telefoonnotitie 3</b><span class="small muted">Verbeke · receptie</span></div>
+    <div class="f"><span class="k">Voor<span>pour</span></span><span class="l"></span></div><div class="f"><span class="k">Van<span>de la part de</span></span><span class="l"></span></div><div class="f"><span class="k">Bedrijf<span>entreprise</span></span><span class="l"></span></div><div class="f"><span class="k">Telefoon<span>numéro</span></span><span class="l"></span></div><div class="f"><span class="k">Over<span>objet</span></span><span class="l"></span></div>
+    <div class="f"><span class="k">Terugbellen<span>rappeler</span></span><span>☐ ja &nbsp; ☐ nee &nbsp;&nbsp; wanneer ? </span><span class="l"></span></div></div>
+  </section></body></html>

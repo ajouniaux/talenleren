@@ -1,0 +1,296 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Fiche 2 · De weg vragen</title><style>
+@page { size: A4; margin: 12mm 14mm 11mm 14mm; }
+:root {
+  --ink: #1d2433; --muted: #5d6677; --line: #d9dee7; --soft: #f3f5f9;
+  --nl: #1f4ea3; --slot: #e6e9ef; --accent: #1d2433;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', 'DejaVu Sans', sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.38; }
+.page { page-break-after: always; break-after: page; position: relative; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.run { font-size: 7.5pt; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 3.5mm; display: flex; justify-content: space-between; }
+.kicker { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 1mm; }
+h1 { font-size: 24pt; line-height: 1.1; margin: 0 0 1.5mm; letter-spacing: -.01em; }
+h1.big { font-size: 34pt; }
+.sub { font-size: 12pt; color: var(--muted); margin: 0 0 4mm; }
+h2 { font-size: 12pt; margin: 3.5mm 0 1.6mm; }
+h3 { font-size: 10pt; margin: 3mm 0 1mm; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+p { margin: 0 0 2mm; }
+ul { margin: 0 0 2mm; padding-left: 5mm; }
+li { margin-bottom: .8mm; }
+.nl { color: var(--nl); font-weight: 700; }
+.fr { color: var(--muted); font-style: italic; font-weight: 400; font-size: 8.5pt; }
+.slot { background: var(--slot); font-style: italic; font-weight: 500; color: #3c4456; padding: 0 1.4mm; border-radius: 1.2mm; white-space: nowrap; }
+.v { color: #7b4bb3; font-weight: 700; }
+.s { font-weight: 800; color: var(--ink); }
+.plus { color: var(--muted); padding: 0 .6mm; }
+.badges { display: flex; gap: 2mm; flex-wrap: wrap; margin-bottom: 4mm; }
+.badge { font-size: 8pt; font-weight: 600; border: 1px solid var(--line); border-radius: 10mm; padding: .6mm 2.6mm; background: #fff; }
+.badge.lvl { background: var(--ink); color: #fff; border-color: var(--ink); }
+.box { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.box .kicker { color: var(--ink); }
+.soft { background: var(--soft); border-radius: 2mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; }
+table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+th, td { border: 1px solid var(--line); padding: 1.1mm 2mm; vertical-align: top; text-align: left; }
+th { background: var(--ink); color: #fff; font-size: 7.8pt; letter-spacing: .05em; text-transform: uppercase; }
+td.time { width: 16mm; color: var(--muted); text-align: right; white-space: nowrap; }
+td.phase { width: 27mm; font-weight: 700; }
+.dlg td { border: none; padding: .35mm 1.2mm; font-size: 8.8pt; }
+.dlg td.who { width: 6mm; color: var(--muted); font-weight: 700; }
+.levels { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.levels > div { border-right: 1px solid var(--line); }
+.levels > div:last-child { border-right: none; }
+.levels .hd { color: #fff; font-weight: 700; text-align: center; padding: 1.8mm 1mm; font-size: 9pt; }
+.levels .bd { padding: 2mm; font-size: 8.3pt; color: var(--muted); text-align: center; }
+.vhead { display: flex; align-items: stretch; gap: 3mm; margin-bottom: 3mm; }
+.vnum { width: 15mm; min-height: 15mm; color: #fff; font-size: 22pt; font-weight: 800; display: flex; align-items: center; justify-content: center; border-radius: 1.5mm; }
+.vtitle h1 { font-size: 20pt; margin: 0; }
+.stars { font-family: 'DejaVu Sans', sans-serif; font-size: 13pt; margin-left: 2mm; letter-spacing: .05em; }
+.vtitle .tag { color: var(--muted); font-size: 9.5pt; }
+.steps td:first-child { width: 47%; }
+.steps td .num { font-weight: 800; margin-right: 1.2mm; }
+.bank { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin-bottom: 1mm; }
+.bank > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: .9mm 2mm; line-height: 1.25; }
+.bank-h { font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 2.5mm 0 1mm; }
+.hint { font-size: 8.5pt; color: var(--muted); font-style: italic; }
+.order .line { display: flex; gap: 2.5mm; margin: .9mm 0; }
+.order .blank { width: 9mm; border-bottom: 1px solid var(--ink); flex: none; }
+.order .grp { font-size: 8pt; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 2.5mm 0 .5mm; }
+.pat td:first-child { width: 30mm; color: var(--muted); font-size: 9pt; }
+.pat .ex { display: block; font-size: 8.3pt; color: var(--muted); margin-top: .5mm; }
+.pat .ex b { color: var(--nl); font-weight: 600; }
+.legend { font-size: 8.5pt; margin-bottom: 2mm; }
+.rule { border-bottom: 1px solid #c9cfda; height: 8mm; }
+.keys div { margin: 1.2mm 0; }
+.check td { text-align: center; width: 15mm; }
+.check td:first-child { text-align: left; width: auto; }
+.check th { text-align: center; }
+.check th:first-child { text-align: left; }
+.scale { text-align: center; white-space: nowrap; letter-spacing: .25em; font-size: 11pt; }
+.buoy { border: 1.4px dashed #df7f26; border-radius: 2mm; padding: 2mm 3.5mm; margin: 0 0 3mm; background: #fff8f0; }
+.buoy .kicker { color: #b45f12; }
+.buoy .items { display: grid; grid-template-columns: 1fr 1fr; gap: .6mm 5mm; }
+.observe { border: 1px solid var(--line); border-left: 4px solid var(--nl); border-radius: 1mm; padding: 2mm 3mm; margin: 2mm 0 3mm; }
+.observe .q { margin-top: 1mm; }
+.fill { display: inline-block; min-width: 55mm; border-bottom: 1px dotted var(--ink); }
+.small { font-size: 8.5pt; }
+.muted { color: var(--muted); }
+.spiral { font-size: 7.5pt; font-weight: 700; color: #2b8c99; border: 1px solid #2b8c99; border-radius: 1mm; padding: 0 1mm; margin-left: 1mm; vertical-align: 1px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.card { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm 3mm; break-inside: avoid; }
+.card .ct { font-weight: 800; font-size: 10.5pt; margin-bottom: 1mm; }
+.card .row { display: flex; gap: 2mm; font-size: 9pt; margin: .5mm 0; }
+.card .row .k { width: 22mm; flex: none; color: var(--muted); }
+.cut { border: 1.4px dashed var(--muted); }
+.err td:first-child { color: #b3261e; text-decoration: line-through; width: 34%; }
+.err td:nth-child(2) { color: var(--nl); font-weight: 700; width: 34%; }
+.mail { border: 1.4px solid var(--ink); border-radius: 2mm; overflow: hidden; margin-bottom: 3mm; }
+.mail .bar { background: var(--ink); color: #fff; font-size: 8pt; padding: 1.2mm 3mm; letter-spacing: .05em; }
+.mail .hdr { border-bottom: 1px solid var(--line); padding: 1.5mm 3mm; font-size: 9pt; }
+.mail .hdr div { display: flex; gap: 2mm; }
+.mail .hdr .k { width: 20mm; color: var(--muted); }
+.mail .body { padding: 3mm; }
+.mail .body p { margin: 0 0 1.8mm; }
+.form { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 3mm; }
+.form .f { display: flex; gap: 2mm; align-items: flex-end; margin: 2.2mm 0; }
+.form .f .k { width: 30mm; font-weight: 700; flex: none; }
+.form .f .k span { display: block; font-weight: 400; font-size: 7.5pt; color: var(--muted); }
+.form .f .l { flex: 1; border-bottom: 1px solid var(--ink); height: 5mm; }
+.path { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5mm; margin: 2mm 0 4mm; }
+.path .st { border: 1.4px solid var(--ink); border-radius: 2mm; padding: 2.5mm; position: relative; }
+.path .st .no { font-size: 18pt; font-weight: 800; line-height: 1; }
+.path .st .ti { font-weight: 700; margin: 1mm 0; }
+.path .st .lv { display: inline-block; font-size: 7.5pt; font-weight: 700; color: #fff; padding: .3mm 1.8mm; border-radius: 5mm; }
+.foot { font-size: 7.5pt; color: var(--muted); margin-top: 2mm; }
+.arrows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; }
+.arrows div { border: 1px solid var(--line); border-radius: 1.5mm; padding: 1.5mm 2mm; display: flex; gap: 2mm; align-items: center; }
+.arrows .ic { font-size: 15pt; width: 8mm; text-align: center; color: var(--ink); }
+.who-tag { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; border-radius: 1mm; padding: 0 1.8mm; margin-right: 1.5mm; }
+</style></head><body><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 2 · De weg vragen</span><span>A1 · EO en interaction · binômes A/B</span></div>
+  <div class="kicker">Scénario de séance</div>
+  <h1>De weg vragen</h1>
+  <div class="sub">Demander et indiquer le chemin vers une entreprise</div>
+  <div class="badges"><span class="badge lvl">A1</span><span class="badge">EO en interaction · binômes A/B</span><span class="badge">⏱ 2 × 50 min</span><span class="badge">📘 Fiche 9 p. 100a</span><span class="badge">📘 In de stad p. 80</span><span class="badge">📘 Voorzetsels p. 65</span><span class="badge">📘 Gebiedende wijs p. 67</span></div>
+  <div class="grid2">
+    <div class="soft">
+      <div class="kicker">Intention de communication</div><p>Trouver une entreprise (rendez-vous, entretien) dans un quartier inconnu et aider quelqu'un qui cherche son chemin.</p>
+      <div class="kicker">Fonctions langagières</div><ul><li>attirer l'attention poliment, remercier</li><li>demander où se trouve un lieu</li><li>donner un itinéraire, situer un lieu</li><li>vérifier sa compréhension, faire répéter</li></ul>
+      <div class="kicker">Cibles</div>
+      <p class="small"><b>Lexique :</b> lieux de la ville et de l'emploi (gemeentehuis, interimkantoor, fabriek…), directions, prépositions de lieu, ordinaux.</p>
+      <p class="small"><b>Forme :</b> impératif (<span class="nl">Ga · Neem · Sla</span> : verbe en tête, sans sujet) ; prépositions <b>sans</b> <span class="nl">van</span> (<span class="nl">naast de bank</span>) ; A2 : <span class="nl">Weet u waar … is?</span></p>
+    </div>
+    <div class="soft"><div class="kicker">Dialogue modèle</div><table class="dlg"><tr><td class="who">A</td><td class="nl">Pardon, mevrouw. Mag ik iets vragen?</td></tr><tr><td class="who">B</td><td class="nl">Natuurlijk.</td></tr><tr><td class="who">A</td><td class="nl">Ik zoek de firma Verbeke. Weet u waar dat is?</td></tr><tr><td class="who">B</td><td class="nl">Ja. Ga hier rechtdoor tot de Kerkstraat. Sla daar rechtsaf. De firma Verbeke is links, naast de apotheek.</td></tr><tr><td class="who">A</td><td class="nl">Dus: rechtdoor, dan rechtsaf, en links naast de apotheek?</td></tr><tr><td class="who">B</td><td class="nl">Ja, precies.</td></tr><tr><td class="who">A</td><td class="nl">Is het ver?</td></tr><tr><td class="who">B</td><td class="nl">Nee, vijf minuten te voet.</td></tr><tr><td class="who">A</td><td class="nl">Dank u wel!</td></tr><tr><td class="who">B</td><td class="nl">Graag gedaan. Succes!</td></tr><tr><td class="who"></td><td class="nl"><span class="muted" style="font-weight:600">À la réception (bonus A2)</span></td></tr><tr><td class="who">A</td><td class="nl">Goedemorgen. Ik heb een afspraak met mevrouw Vermeulen.</td></tr><tr><td class="who">R</td><td class="nl">Neem de lift naar de tweede verdieping. Haar kantoor is rechts achteraan.</td></tr></table><p class="hint">Le trajet du dialogue correspond au plan : faites-le suivre du doigt sur la carte projetée.</p></div>
+  </div>
+  <h2>Déroulement</h2>
+  <table><tr><td class="phase">Rencontre</td><td>Écoute du dialogue (2 fois) avec le plan complet projeté. Les apprenant·es suivent le trajet du doigt, puis repèrent ce que chacun fait (aborder, demander, expliquer, vérifier, remercier).</td><td class="time">10 min</td></tr><tr><td class="phase">Répétition</td><td>« Jacques a dit » des directions : l'enseignant·e dit <span class="nl">Ga rechtdoor · Sla linksaf · Sla rechtsaf</span>, la classe mime avec les bras. Puis un·e apprenant·e prend la place.</td><td class="time">10 min</td></tr><tr><td class="phase">Variation</td><td>On change un seul emplacement à la fois : le lieu cherché, puis l'ordinal (<span class="nl">eerste → tweede</span>), puis le repère (<span class="nl">naast → tegenover</span>).</td><td class="time">10 min</td></tr><tr><td class="phase">Choix</td><td>Présentation du parcours. Chacun choisit sa variante ; les binômes reçoivent les cartes A et B (cachées).</td><td class="time">5 min</td></tr><tr><td class="phase">Préparation</td><td>Préparation avec la fiche choisie. Les Héro·ïnes s'entraînent à décrire un trajet sur le plan avec les patrons.</td><td class="time">10 min</td></tr><tr><td class="phase">Interaction</td><td>A demande ses 3 lieux et les note sur sa carte ; puis B. Vérification en posant les deux cartes côte à côte. Nouveau binôme, nouveaux lieux (inventés).</td><td class="time">30 min</td></tr><tr><td class="phase">Retour</td><td>Focus on form : <span class="nl">naast de bank</span> (et pas « naast van »). Autoévaluation et choix de la variante suivante.</td><td class="time">15 min</td></tr></table>
+  </section><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 2 · De weg vragen</span><span>Repères didactiques</span></div>
+  <div class="kicker">Repères pour l'enseignant·e</div>
+  <h1>Focus on form & observation</h1>
+  <h2>1 · La forme à faire remarquer (sans en faire une leçon)</h2>
+  <div class="observe"><b>L'impératif met le verbe en tête, sans sujet :</b> <span class="nl">Ga rechtdoor. Neem de tweede straat. Sla linksaf.</span><br>
+    <b>Les prépositions de lieu s'emploient sans « van » :</b> <span class="nl">naast de bank · tegenover de kerk</span> (≠ « à côté <u>de</u> »).<br>
+    <b>Comment :</b> pendant la Variation, faire produire 3 phrases avec <span class="nl">naast / tegenover</span>, et demander : « Combien de mots entre <span class="nl">naast</span> et <span class="nl">de bank</span> ? » — zéro.<br>
+    <b>A2 :</b> <span class="nl">Waar is de bank?</span> → <span class="nl">Weet u waar de bank is?</span> : le verbe part à la fin (encadré « Observe » de la variante 3).<br>
+    <span class="muted small">Syllabus : Voorzetsels p. 65 · Gebiedende wijs p. 67 · In de stad p. 80 · Fiche 9 p. 100a.</span></div>
+  <h2>2 · Erreurs attendues chez des francophones</h2>
+  <table class="err"><tr><th>On entendra…</th><th>On vise…</th><th>Piste de reprise</th></tr><tr><td>naast van de bank</td><td>naast de bank</td><td class="small">Reformulation en écho ; afficher « naast / tegenover + de … » au tableau.</td></tr><tr><td>Neem de twee straat links.</td><td>Neem de tweede straat links.</td><td class="small">Rappeler eerste · tweede · derde avec les doigts.</td></tr><tr><td>Weet u waar is de bank?</td><td>Weet u waar de bank is?</td><td class="small">A1 : accepter <span class="nl">Waar is de bank?</span> ; A2 : encadré Observe.</td></tr></table>
+  <h2>3 · Grille d'observation (pendant l'interaction)</h2>
+  <table><tr><th>Critère</th><th>Repère A1</th><th>Repère A2</th></tr><tr><td><b>Réalisation de la tâche</b></td><td class="small">Demande poliment ; retrouve 2 lieux sur 3.</td><td class="small">Retrouve les 3 lieux ; donne un trajet en 3 étapes avec un repère.</td></tr><tr><td><b>Lexique</b></td><td class="small">Directions de base (rechtdoor, links, rechts).</td><td class="small">Ordinaux, prépositions variées, <span class="nl">oversteken</span>.</td></tr><tr><td><b>Forme ciblée</b></td><td class="small">Impératif correct (Ga, Neem).</td><td class="small">Prépositions sans « van » ; <span class="nl">Weet u waar … is?</span></td></tr><tr><td><b>Interaction</b></td><td class="small">Remercie, fait répéter.</td><td class="small">Reformule pour vérifier (<span class="nl">Dus: … ?</span>).</td></tr></table>
+  <h2>4 · Ce que cette fiche ajoute au modèle</h2>
+  <ul class="small"><li><b>Vrai écart d'information</b> : cartes A et B différentes. On ne peut réussir qu'en parlant et en écoutant.</li><li><b>Produit vérifiable</b> : le numéro écrit sur le bon bâtiment. Chacun·e voit tout de suite si l'échange a réussi, sans jugement de l'enseignant·e.</li><li><b>Pictogrammes de direction</b> au lieu de longues listes : aide visuelle pour toutes les variantes.</li><li><b>Seconde étape A2</b> à la réception (étage, ascenseur) : elle fait le lien avec la fiche 5.</li><li><b>Corrigé</b> du plan avec des itinéraires possibles.</li></ul>
+  <h2>5 · Prolongements</h2>
+  <ul class="small"><li>Trajet réel : de l'école à la gare la plus proche, décrit à l'oral puis envoyé par SMS à un·e « collègue ».</li><li>Inverser la contrainte : B invente un lieu sur un bâtiment vide, A doit le trouver.</li></ul>
+  </section><section class="page">
+  <div class="run"><span>Néerlandais 2 · Fiche 2 · Expression orale en interaction</span><span>Fil rouge : la firma Verbeke</span></div>
+  <div class="kicker">Champ thématique : en ville · in de stad</div>
+  <h1 class="big">🗺️ De weg vragen</h1>
+  <div class="sub">Demander et indiquer le chemin vers une entreprise</div>
+  <div class="badges"><span class="badge lvl">A1</span><span class="badge">EO en interaction · binômes A/B</span></div>
+  <div class="box"><div class="kicker">Je peux… (can-do)</div><b>… demander poliment où se trouve une entreprise, comprendre le chemin, et expliquer un chemin simple à quelqu'un.</b></div>
+  <h2>Pendant cette fiche, tu vas…</h2>
+  <ul><li>aborder poliment une personne dans la rue</li><li>demander où se trouve un lieu</li><li>comprendre et donner un itinéraire (rechtdoor, links, rechts…)</li><li>situer un lieu (naast, tegenover, op de hoek)</li><li>vérifier, faire répéter et remercier</li></ul>
+  <div class="soft"><div class="kicker">La tâche finale (pour tout le monde)</div>Avec ta carte (A ou B), tu demandes le chemin vers <b>3 lieux</b> et tu les retrouves sur le plan. Puis tu expliques à ton/ta partenaire le chemin vers <b>ses</b> 3 lieux.</div>
+  <h2>Choisis ton niveau de départ</h2>
+  <p class="small">Toutes les variantes mènent à la <b>même tâche finale</b>. Elles changent seulement l'aide que tu reçois. Il n'y a pas de « mauvais » choix : commence là où tu te sens à l'aise, et monte quand tu es prêt·e. Tu peux aussi redescendre.</p>
+  <div class="levels"><div><div class="hd" style="background:#3d9a5f">1 · Champion·ne</div><div class="bd">Je suis chaque étape. J'ai toutes les phrases.</div></div><div><div class="hd" style="background:#2b8c99">2 · Superchampion·ne</div><div class="bd">J'ai toutes les phrases. J'organise moi-même.</div></div><div><div class="hd" style="background:#3a5fc0">3 · Héro·ïne</div><div class="bd">Je construis mes phrases avec des modèles.</div></div><div><div class="hd" style="background:#7b4bb3">4 · Superhéro·ïne</div><div class="bd">J'ai quelques structures. Je note mes aides.</div></div><div><div class="hd" style="background:#df7f26">5 · Légende</div><div class="bd">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="buoy"><div class="kicker">🛟 Bouée de secours · si un mot te manque</div><div class="items"><div><span class="nl">Sorry, ik begrijp het niet.</span></div><div><span class="nl">Kunt u dat herhalen?</span></div><div><span class="nl">Kunt u wat langzamer spreken?</span></div><div><span class="nl">Kunt u het op de kaart tonen?</span></div><div><span class="nl">Links of rechts?</span></div><div><span class="nl">Hoe zeg je « … »?</span></div></div></div>
+  <p class="small">🗺️ Les cartes A et B sont à la fin de la fiche. Chacun·e garde sa carte <b>cachée</b> : c'est ce qui rend l'échange réel.</p>
+  <p style="margin-top:4mm">Nom : ........................................................ &nbsp; Groupe : .......... &nbsp; Je commence en variante n° ......</p>
+  </section><section class="page"><div class="run"><span>De weg vragen · Fiche 2</span><span>Variante 1 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3d9a5f">1</div>
+  <div class="vtitle"><h1>Champion·ne<span class="stars" style="color:#3d9a5f">★☆☆☆☆</span></h1><div class="tag">Je suis chaque étape. J'ai toutes les phrases.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as rendez-vous chez <b>Verbeke</b> et dans d'autres lieux du quartier. Tu sors de la gare, mais tu ne connais pas le chemin. Tu demandes à un·e passant·e, qui t'explique. Ensuite, c'est toi qui aides : vous échangez les rôles.</div>
+  <h2>Prépare-toi : suis les étapes et choisis tes phrases</h2>
+  <table class="steps"><tr><th>Ce que tu dois faire</th><th>Ce que tu peux dire</th></tr><tr><td><span class="num">1.</span><b>A</b> · Aborde poliment une personne.</td><td><div class="nl">Pardon, meneer / mevrouw.</div><div class="nl">Mag ik iets vragen?</div></td></tr><tr><td><span class="num">2.</span><b>A</b> · Demande où est le lieu.</td><td><div class="nl">Ik zoek het gemeentehuis.</div><div class="nl">Waar is het interimkantoor, alstublieft?</div></td></tr><tr><td><span class="num">3.</span><b>B</b> · Explique le chemin.</td><td><div class="nl">Ga hier rechtdoor.</div><div class="nl">Neem de tweede straat links.</div><div class="nl">Sla rechtsaf.</div></td></tr><tr><td><span class="num">4.</span><b>B</b> · Dis où se trouve le lieu.</td><td><div class="nl">Het is links, naast de bank.</div><div class="nl">Het is rechts, tegenover de bakkerij.</div><div class="nl">Het is op de hoek.</div></td></tr><tr><td><span class="num">5.</span><b>A</b> · Vérifie en répétant, ou fais répéter.</td><td><div class="nl">Dus: rechtdoor en dan links?</div><div class="nl">Sorry, kunt u dat herhalen?</div></td></tr><tr><td><span class="num">6.</span><b>A</b> · Demande si c'est loin. <b>B</b> · Réponds.</td><td><div class="nl">Is het ver?</div><div class="nl">Nee, vijf minuten te voet.</div></td></tr><tr><td><span class="num">7.</span><b>A</b> · Remercie. <b>B</b> · Réponds.</td><td><div class="nl">Dank u wel!</div><div class="nl">Graag gedaan!</div></td></tr></table>
+  <div class="bank-h">Banque de mots : les lieux</div><div class="bank"><div><span class="nl">het station</span> <span class="fr">la gare</span></div><div><span class="nl">de bank</span> <span class="fr">la banque</span></div><div><span class="nl">de kerk</span> <span class="fr">l'église</span></div><div><span class="nl">de apotheek</span> <span class="fr">la pharmacie</span></div><div><span class="nl">de bakkerij</span> <span class="fr">la boulangerie</span></div><div><span class="nl">het park</span> <span class="fr">le parc</span></div><div><span class="nl">het gemeentehuis</span> <span class="fr">la maison communale</span></div><div><span class="nl">het interimkantoor</span> <span class="fr">l'agence d'intérim</span></div><div><span class="nl">de fabriek</span> <span class="fr">l'usine</span></div></div><div class="bank-h">Situer</div><div class="bank"><div><span class="nl">naast</span> <span class="fr">à côté de</span></div><div><span class="nl">tegenover</span> <span class="fr">en face de</span></div><div><span class="nl">op de hoek</span> <span class="fr">au coin</span></div><div><span class="nl">links · rechts</span> <span class="fr">à gauche · à droite</span></div><div><span class="nl">tot de Kerkstraat</span> <span class="fr">jusqu'à la Kerkstraat</span></div><div><span class="nl">vijf minuten te voet</span> <span class="fr">5 minutes à pied</span></div></div>
+  <p class="hint">Astuce : entoure les phrases que tu vas utiliser. Les pictogrammes de direction sont sous ta carte.</p>
+  </section><section class="page"><div class="run"><span>De weg vragen · Fiche 2</span><span>Variante 2 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#2b8c99">2</div>
+  <div class="vtitle"><h1>Superchampion·ne<span class="stars" style="color:#2b8c99">★★☆☆☆</span></h1><div class="tag">J'ai toutes les phrases. J'organise moi-même.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as rendez-vous chez <b>Verbeke</b> et dans d'autres lieux du quartier. Tu sors de la gare, mais tu ne connais pas le chemin. Tu demandes à un·e passant·e, qui t'explique. Ensuite, c'est toi qui aides : vous échangez les rôles.</div>
+  <h2>Prépare-toi</h2>
+  <p>Dans cet échange, tu vas <b>demander</b> (A) puis <b>expliquer</b> (B). Numérote les phrases dans l'ordre où tu veux les dire, dans chaque colonne de rôle.</p>
+  <div class="order"><div class="grp">A · Je demande</div><div class="line"><span class="blank"></span><span class="nl">Pardon, mevrouw. Mag ik iets vragen?</span></div><div class="line"><span class="blank"></span><span class="nl">Ik zoek …</span></div><div class="line"><span class="blank"></span><span class="nl">Waar is …, alstublieft?</span></div><div class="line"><span class="blank"></span><span class="nl">Dus: … en dan …?</span></div><div class="line"><span class="blank"></span><span class="nl">Is het ver?</span></div><div class="line"><span class="blank"></span><span class="nl">Dank u wel!</span></div><div class="grp">B · J'explique</div><div class="line"><span class="blank"></span><span class="nl">Natuurlijk.</span></div><div class="line"><span class="blank"></span><span class="nl">Ga hier rechtdoor.</span></div><div class="line"><span class="blank"></span><span class="nl">Neem de eerste straat rechts.</span></div><div class="line"><span class="blank"></span><span class="nl">Sla linksaf.</span></div><div class="line"><span class="blank"></span><span class="nl">Het is links, naast de bank.</span></div><div class="line"><span class="blank"></span><span class="nl">Nee, vijf minuten te voet.</span></div><div class="line"><span class="blank"></span><span class="nl">Graag gedaan!</span></div></div>
+  <div class="soft" style="margin-top:3mm"><div class="kicker">Banque de mots</div><div class="nl">het gemeentehuis · het interimkantoor · de fabriek · het hotel · het restaurant</div><div class="nl">eerste · tweede · derde · links · rechts · rechtdoor</div><div class="nl">naast · tegenover · op de hoek · tot de … · vijf minuten te voet</div></div>
+  <div class="box" style="border-width:1px"><b>Défi :</b> change le lieu, l'ordinal (<span class="nl">eerste / tweede</span>) et utilise <b>une autre préposition</b> (<span class="nl">tegenover, op de hoek</span>).</div>
+  <p class="hint">Tu te sens à l'aise ? Essaie la variante Héro·ïne la prochaine fois.</p>
+  </section><section class="page"><div class="run"><span>De weg vragen · Fiche 2</span><span>Variante 3 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#3a5fc0">3</div>
+  <div class="vtitle"><h1>Héro·ïne<span class="stars" style="color:#3a5fc0">★★★☆☆</span></h1><div class="tag">Je construis mes phrases avec des modèles.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as rendez-vous chez <b>Verbeke</b> et dans d'autres lieux du quartier. Tu sors de la gare, mais tu ne connais pas le chemin. Tu demandes à un·e passant·e, qui t'explique. Ensuite, c'est toi qui aides : vous échangez les rôles.</div>
+  <h2>Prépare-toi : 1) aborde · 2) demande · 3) écoute ou explique le chemin · 4) vérifie · 5) remercie</h2>
+  <div class="legend"><b>Légende :</b> <span class="s">S</span> = sujet (ik, jij, u, hij, zij…) · <span class="v">[werken]</span> = verbe à conjuguer · <span class="slot">mot</span> = à choisir · <span class="nl">vet</span> = à garder tel quel · <span class="spiral">↺ déjà vu</span> = vu dans une fiche précédente</div>
+  <table class="pat"><tr><td>Aborder</td><td><span class="nl">Pardon,</span><span class="plus">+</span><span class="slot">meneer / mevrouw</span> <span class="nl">. Mag ik iets vragen?</span><span class="ex">ex. : <b>Pardon, mevrouw. Mag ik iets vragen?</b></span></td></tr><tr><td>Demander (A1)</td><td><span class="nl">Waar is</span><span class="plus">+</span><span class="slot">lieu</span> <span class="nl">, alstublieft?</span><span class="ex">ex. : <b>Waar is de bank, alstublieft?</b></span></td></tr><tr><td>Demander (A2)</td><td><span class="nl">Weet u waar</span><span class="plus">+</span><span class="slot">lieu</span><span class="plus">+</span><span class="nl">is?</span><span class="ex">ex. : <b>Weet u waar het gemeentehuis is?</b></span></td></tr><tr><td>Aller</td><td><span class="nl">Ga</span><span class="plus">+</span><span class="slot">rechtdoor / tot …</span><span class="ex">ex. : <b>Ga rechtdoor tot de Marktstraat.</b></span></td></tr><tr><td>Choisir la rue</td><td><span class="nl">Neem de</span><span class="plus">+</span><span class="slot">eerste / tweede / derde</span><span class="plus">+</span><span class="nl">straat</span><span class="plus">+</span><span class="slot">links / rechts</span><span class="ex">ex. : <b>Neem de eerste straat rechts.</b></span></td></tr><tr><td>Tourner</td><td><span class="nl">Sla</span><span class="plus">+</span><span class="slot">linksaf / rechtsaf</span><span class="ex">ex. : <b>Sla daar linksaf.</b></span></td></tr><tr><td>Situer</td><td><span class="nl">Het is</span><span class="plus">+</span><span class="slot">links / rechts</span> <span class="nl">,</span><span class="plus">+</span><span class="slot">naast / tegenover</span><span class="plus">+</span><span class="slot">repère</span><span class="ex">ex. : <b>Het is rechts, tegenover de bakkerij.</b></span></td></tr><tr><td>Vérifier</td><td><span class="nl">Dus:</span><span class="plus">+</span><span class="slot">étape</span><span class="plus">+</span><span class="nl">en dan</span><span class="plus">+</span><span class="slot">étape</span> <span class="nl">?</span><span class="ex">ex. : <b>Dus: rechtdoor en dan links?</b></span></td></tr><tr><td>Remercier</td><td><span class="nl">Dank u wel!</span> — <span class="nl">Graag gedaan!</span><span class="ex">ex. : <b>Dank u wel voor de hulp!</b></span></td></tr></table>
+  <div class="observe"><b>Observe</b> (pas besoin d'apprendre une règle) : <span class="nl">Waar is de bank?</span> → <span class="nl">Weet u waar de bank is?</span><br><span class="nl">Ga rechtdoor. Neem de tweede straat.</span> (où est le sujet ?)<div class="q">Dans la 2e question, où va le verbe <span class="nl">is</span> ? <span class="fill"></span></div></div>
+  <p class="small muted">Mots utiles : rechtdoor · links · rechts · eerste · tweede · derde · naast · tegenover · op de hoek · oversteken · ver · te voet</p>
+  </section><section class="page"><div class="run"><span>De weg vragen · Fiche 2</span><span>Variante 4 / 5</span></div>
+  <div class="vhead"><div class="vnum" style="background:#7b4bb3">4</div>
+  <div class="vtitle"><h1>Superhéro·ïne<span class="stars" style="color:#7b4bb3">★★★★☆</span></h1><div class="tag">J'ai quelques structures. Je note mes aides.</div></div></div><div class="box"><div class="kicker">Mise en situation</div>Tu as rendez-vous chez <b>Verbeke</b> et dans d'autres lieux du quartier. Tu sors de la gare, mais tu ne connais pas le chemin. Tu demandes à un·e passant·e, qui t'explique. Ensuite, c'est toi qui aides : vous échangez les rôles.</div>
+  <h2>Structures clés</h2>
+  <div class="keys"><div><span class="nl">Weet u waar</span> … <span class="nl">is?</span></div><div><span class="nl">Ga</span> · <span class="nl">Neem</span> · <span class="nl">Sla</span><span class="plus">+</span>…</div><div><span class="nl">Het is</span><span class="plus">+</span><span class="nl">naast</span> / <span class="nl">tegenover</span> / <span class="nl">op de hoek</span> …</div><div><span class="nl">Dus:</span> … <span class="nl">en dan</span> … <span class="nl">?</span></div></div>
+  <div class="soft"><b>Pour aller plus loin (A2, facultatif) :</b> à la réception de Verbeke, annonce ton rendez-vous (<span class="nl">Ik heb een afspraak met mevrouw Vermeulen.</span>) et comprends l'étage (<span class="nl">Neem de lift naar de tweede verdieping.</span>).</div>
+  <h2>Note ici les expressions et les structures qui vont t'aider</h2>
+  <div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div><div class="rule"></div>
+  <p class="hint">Tu n'as pas besoin de tout écrire : quelques mots-clés suffisent.</p>
+  </section><section class="page"><div class="run"><span>De weg vragen · Fiche 2</span><span>Variante 5 / 5 · Tâche finale</span></div>
+  <div class="vhead"><div class="vnum" style="background:#df7f26">5</div>
+  <div class="vtitle"><h1>Légende<span class="stars" style="color:#df7f26">★★★★★</span></h1><div class="tag">Sans aide, comme à l'évaluation.</div></div></div>
+  <div class="box" style="border-color:#df7f26"><div class="kicker">Tâche finale de communication</div>Tu sors de la gare. Avec ta carte (A ou B), demande le chemin vers tes 3 lieux et écris leur numéro sur la carte. Ensuite, explique à ton/ta partenaire le chemin vers ses 3 lieux. Vérifiez ensemble en comparant vos cartes.
+  <p style="margin:1.5mm 0 0"><b>Préparation :</b> 2 minutes, sans notes (seulement la carte) · <b>Interaction :</b> 5 minutes</p><p class="small" style="margin:1mm 0 0"><b>Bonus A2 :</b> à la réception de Verbeke, annonce ton rendez-vous et demande où est le bureau.</p></div>
+  <h2>Mon autoévaluation</h2>
+  <p>Variante choisie : &nbsp;☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5</p>
+  <table class="check"><tr><th>Pendant l'échange, j'ai pu…</th><th>pas encore</th><th>presque</th><th>oui</th></tr><tr><td>aborder poliment et remercier</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>demander où se trouve un lieu</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>comprendre le chemin et retrouver le lieu sur la carte</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>expliquer un chemin (rechtdoor, links, rechts…)</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>situer un lieu (naast, tegenover, op de hoek)</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>faire répéter ou vérifier quand je n'avais pas compris</td><td>☐</td><td>☐</td><td>☐</td></tr></table>
+  <h2>Comment je me suis senti·e ?</h2>
+  <p class="small muted">1 = pas du tout · 6 = tout à fait</p>
+  <table><tr><td>Avant de commencer, j'étais stressé·e.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'ai oublié des choses que je savais, à cause du stress.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr><tr><td>J'avais l'impression qu'il y avait trop de règles à retenir.</td><td class="scale">① ② ③ ④ ⑤ ⑥</td></tr></table>
+  <div class="grid2"><div><h2>Une expression que je retiens</h2><div class="rule"></div></div>
+  <div><h2>La prochaine fois, je tente la variante…</h2>
+  <p>☐ 1 &nbsp; ☐ 2 &nbsp; ☐ 3 &nbsp; ☐ 4 &nbsp; ☐ 5<br>parce que ...........................................................</p></div></div>
+  <p class="foot">Les échelles reprennent des items d'anxiété suivis dans l'expérimentation ARK (Nedconsult).</p>
+  </section><section class="page">
+  <div class="run"><span>De weg vragen · Fiche 2</span><span>Carte A · ne la montre pas à ton/ta partenaire</span></div>
+  <div class="vhead"><div class="vnum" style="background:#1f4ea3">A</div>
+  <div class="vtitle"><h1>Kaart A</h1><div class="tag">Tu pars de la gare (★). Tu ne sais pas où sont tes 3 lieux. Ton/ta partenaire (carte B) les connaît.</div></div></div>
+  <div class="soft"><b>Je cherche :</b> &nbsp; <b>1</b> <span class="nl">Interimkantoor Werkpunt</span> &nbsp;·&nbsp; <b>2</b> <span class="nl">Gemeentehuis</span> &nbsp;·&nbsp; <b>3</b> <span class="nl">Opleidingscentrum</span><br><span class="small">Écoute le chemin et écris le <b>numéro</b> sur le bon bâtiment. Ensuite, explique à ton/ta partenaire le chemin vers <b>ses</b> lieux.</span></div>
+  <svg viewBox="0 0 680 470" width="100%" style="border:1.4px solid #1d2433;border-radius:2mm;display:block" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#df7f26"/></marker></defs>
+  <rect width="680" height="470" fill="#fff"/>
+  <rect x="135" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="325" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="515" y="0" width="30" height="470" fill="#e3e6ec"/>
+  <rect x="0" y="75" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="215" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="355" width="680" height="30" fill="#e3e6ec"/>
+  <g font-size="9.5" fill="#5d6677" font-style="italic" font-weight="600">
+    <text x="20" y="94">Kerkstraat</text><text x="575" y="94">Kerkstraat</text>
+    <text x="20" y="234">Marktstraat</text><text x="575" y="234">Marktstraat</text>
+    <text x="20" y="374">Schoolstraat</text><text x="575" y="374">Schoolstraat</text>
+    <text transform="translate(154 175) rotate(-90)">Molenstraat</text>
+    <text transform="translate(344 345) rotate(-90)">Stationsstraat</text>
+    <text transform="translate(534 340) rotate(-90)">Parklaan</text>
+  </g><rect x="552" y="110" width="124" height="101" rx="6" fill="#d9efdf" stroke="#3d9a5f" stroke-width="1.3"/><text x="614" y="165" text-anchor="middle" font-size="10" font-weight="700" fill="#2c6e44">🌳 Park</text><rect x="240" y="15" width="85" height="58" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="282.5" y="47.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="282.5" dy="0">⛪ Kerk</tspan></text><rect x="360" y="22" width="70" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="395" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="395" dy="0">Apotheek</tspan></text><rect x="440" y="22" width="72" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="476" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="476" dy="-5.5">Firma</tspan><tspan x="476" dy="11">Verbeke</tspan></text><rect x="15" y="112" width="115" height="48" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="72.5" y="139.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="72.5" dy="0">Supermarkt</tspan></text><rect x="225" y="250" width="98" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="274" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="274" dy="0">Bakkerij</tspan></text><rect x="360" y="250" width="85" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="402.5" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="402.5" dy="0">Bank</tspan></text><rect x="190" y="398" width="130" height="62" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="255" y="432.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="255" dy="0">Station</tspan></text><rect x="372" y="400" width="80" height="55" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="412" y="431" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="412" dy="0">Ⓟ Parking</tspan></text><rect x="168" y="15" width="68" height="58" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="202" y="47.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="202" dy="-5.5">Fabriek</tspan><tspan x="202" dy="11">Delta</tspan></text><rect x="360" y="160" width="85" height="52" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="402.5" y="189.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="402.5" dy="-5.5">Hotel</tspan><tspan x="402.5" dy="11">Central</tspan></text><rect x="168" y="250" width="52" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="194" y="278.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1d2433"><tspan x="194" dy="-9.350000000000001">Restau-</tspan><tspan x="194" dy="9.350000000000001">rant</tspan><tspan x="194" dy="9.350000000000001">De Molen</tspan></text><rect x="15" y="15" width="115" height="55" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="168" y="160" width="52" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="160" width="58" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="250" width="115" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="250" width="58" height="44" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="552" y="302" width="90" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="225" y="306" width="98" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="306" width="115" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="225" y="160" width="98" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="452" y="302" width="61" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="552" y="22" width="90" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><circle cx="340" cy="452" r="9" fill="#df7f26"/><text x="340" y="456" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">★</text>
+  <text x="356" y="466" font-size="9" font-weight="700" fill="#b45f12">Je bent hier</text>
+  <path d="M340 440 L340 412" stroke="#df7f26" stroke-width="2.5" marker-end="url(#ar)"/></svg>
+  <h2>Pour expliquer le chemin</h2><div class="arrows">
+  <div><span class="ic">⬆</span><span><span class="nl">Ga rechtdoor.</span><br><span class="fr">va tout droit</span></span></div>
+  <div><span class="ic">⬅</span><span><span class="nl">Sla linksaf.</span><br><span class="fr">tourne à gauche</span></span></div>
+  <div><span class="ic">➡</span><span><span class="nl">Sla rechtsaf.</span><br><span class="fr">tourne à droite</span></span></div>
+  <div><span class="ic">①</span><span><span class="nl">Neem de eerste straat links.</span><br><span class="fr">prends la 1re rue à gauche</span></span></div>
+  <div><span class="ic">②</span><span><span class="nl">Neem de tweede straat rechts.</span><br><span class="fr">prends la 2e rue à droite</span></span></div>
+  <div><span class="ic">⤴</span><span><span class="nl">Steek de straat over.</span><br><span class="fr">traverse la rue</span></span></div>
+  <div><span class="ic">▣▣</span><span><span class="nl">naast de bank</span><br><span class="fr">à côté de la banque</span></span></div>
+  <div><span class="ic">▣ ▢</span><span><span class="nl">tegenover de kerk</span><br><span class="fr">en face de l'église</span></span></div>
+  <div><span class="ic">⌐</span><span><span class="nl">op de hoek</span><br><span class="fr">au coin</span></span></div>
+</div>
+  </section><section class="page">
+  <div class="run"><span>De weg vragen · Fiche 2</span><span>Carte B · ne la montre pas à ton/ta partenaire</span></div>
+  <div class="vhead"><div class="vnum" style="background:#df7f26">B</div>
+  <div class="vtitle"><h1>Kaart B</h1><div class="tag">Tu pars de la gare (★). Tu ne sais pas où sont tes 3 lieux. Ton/ta partenaire (carte A) les connaît.</div></div></div>
+  <div class="soft"><b>Je cherche :</b> &nbsp; <b>1</b> <span class="nl">Fabriek Delta</span> &nbsp;·&nbsp; <b>2</b> <span class="nl">Hotel Central</span> &nbsp;·&nbsp; <b>3</b> <span class="nl">Restaurant De Molen</span><br><span class="small">Écoute le chemin et écris le <b>numéro</b> sur le bon bâtiment. Ensuite, explique à ton/ta partenaire le chemin vers <b>ses</b> lieux.</span></div>
+  <svg viewBox="0 0 680 470" width="100%" style="border:1.4px solid #1d2433;border-radius:2mm;display:block" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#df7f26"/></marker></defs>
+  <rect width="680" height="470" fill="#fff"/>
+  <rect x="135" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="325" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="515" y="0" width="30" height="470" fill="#e3e6ec"/>
+  <rect x="0" y="75" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="215" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="355" width="680" height="30" fill="#e3e6ec"/>
+  <g font-size="9.5" fill="#5d6677" font-style="italic" font-weight="600">
+    <text x="20" y="94">Kerkstraat</text><text x="575" y="94">Kerkstraat</text>
+    <text x="20" y="234">Marktstraat</text><text x="575" y="234">Marktstraat</text>
+    <text x="20" y="374">Schoolstraat</text><text x="575" y="374">Schoolstraat</text>
+    <text transform="translate(154 175) rotate(-90)">Molenstraat</text>
+    <text transform="translate(344 345) rotate(-90)">Stationsstraat</text>
+    <text transform="translate(534 340) rotate(-90)">Parklaan</text>
+  </g><rect x="552" y="110" width="124" height="101" rx="6" fill="#d9efdf" stroke="#3d9a5f" stroke-width="1.3"/><text x="614" y="165" text-anchor="middle" font-size="10" font-weight="700" fill="#2c6e44">🌳 Park</text><rect x="240" y="15" width="85" height="58" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="282.5" y="47.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="282.5" dy="0">⛪ Kerk</tspan></text><rect x="360" y="22" width="70" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="395" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="395" dy="0">Apotheek</tspan></text><rect x="440" y="22" width="72" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="476" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="476" dy="-5.5">Firma</tspan><tspan x="476" dy="11">Verbeke</tspan></text><rect x="15" y="112" width="115" height="48" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="72.5" y="139.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="72.5" dy="0">Supermarkt</tspan></text><rect x="225" y="250" width="98" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="274" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="274" dy="0">Bakkerij</tspan></text><rect x="360" y="250" width="85" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="402.5" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="402.5" dy="0">Bank</tspan></text><rect x="190" y="398" width="130" height="62" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="255" y="432.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="255" dy="0">Station</tspan></text><rect x="372" y="400" width="80" height="55" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="412" y="431" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="412" dy="0">Ⓟ Parking</tspan></text><rect x="225" y="160" width="98" height="52" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="274" y="189.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="274" dy="-5.5">Interimkantoor</tspan><tspan x="274" dy="11">Werkpunt</tspan></text><rect x="452" y="302" width="61" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="482.5" y="330.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="482.5" dy="-5.5">Gemeente-</tspan><tspan x="482.5" dy="11">huis</tspan></text><rect x="552" y="22" width="90" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="597" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="597" dy="-5.5">Opleidings-</tspan><tspan x="597" dy="11">centrum</tspan></text><rect x="15" y="15" width="115" height="55" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="168" y="160" width="52" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="160" width="58" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="250" width="115" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="250" width="58" height="44" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="552" y="302" width="90" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="225" y="306" width="98" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="306" width="115" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="168" y="15" width="68" height="58" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="360" y="160" width="85" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="168" y="250" width="52" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><circle cx="340" cy="452" r="9" fill="#df7f26"/><text x="340" y="456" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">★</text>
+  <text x="356" y="466" font-size="9" font-weight="700" fill="#b45f12">Je bent hier</text>
+  <path d="M340 440 L340 412" stroke="#df7f26" stroke-width="2.5" marker-end="url(#ar)"/></svg>
+  <h2>Pour expliquer le chemin</h2><div class="arrows">
+  <div><span class="ic">⬆</span><span><span class="nl">Ga rechtdoor.</span><br><span class="fr">va tout droit</span></span></div>
+  <div><span class="ic">⬅</span><span><span class="nl">Sla linksaf.</span><br><span class="fr">tourne à gauche</span></span></div>
+  <div><span class="ic">➡</span><span><span class="nl">Sla rechtsaf.</span><br><span class="fr">tourne à droite</span></span></div>
+  <div><span class="ic">①</span><span><span class="nl">Neem de eerste straat links.</span><br><span class="fr">prends la 1re rue à gauche</span></span></div>
+  <div><span class="ic">②</span><span><span class="nl">Neem de tweede straat rechts.</span><br><span class="fr">prends la 2e rue à droite</span></span></div>
+  <div><span class="ic">⤴</span><span><span class="nl">Steek de straat over.</span><br><span class="fr">traverse la rue</span></span></div>
+  <div><span class="ic">▣▣</span><span><span class="nl">naast de bank</span><br><span class="fr">à côté de la banque</span></span></div>
+  <div><span class="ic">▣ ▢</span><span><span class="nl">tegenover de kerk</span><br><span class="fr">en face de l'église</span></span></div>
+  <div><span class="ic">⌐</span><span><span class="nl">op de hoek</span><br><span class="fr">au coin</span></span></div>
+</div>
+  </section><section class="page">
+  <div class="run"><span>Document enseignant · Fiche 2 · De weg vragen</span><span>Corrigé des cartes</span></div>
+  <div class="kicker">Corrigé</div><h1>Le plan complet</h1>
+  <p class="small muted">En bleu, les lieux cherchés par A ; en orange, ceux cherchés par B. Les bâtiments gris restent vides : ce sont des leurres, pour que la carte ne « donne » pas la réponse.</p>
+  <svg viewBox="0 0 680 470" width="100%" style="border:1.4px solid #1d2433;border-radius:2mm;display:block" font-family="Inter, DejaVu Sans, sans-serif">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#df7f26"/></marker></defs>
+  <rect width="680" height="470" fill="#fff"/>
+  <rect x="135" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="325" y="0" width="30" height="470" fill="#e3e6ec"/><rect x="515" y="0" width="30" height="470" fill="#e3e6ec"/>
+  <rect x="0" y="75" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="215" width="680" height="30" fill="#e3e6ec"/><rect x="0" y="355" width="680" height="30" fill="#e3e6ec"/>
+  <g font-size="9.5" fill="#5d6677" font-style="italic" font-weight="600">
+    <text x="20" y="94">Kerkstraat</text><text x="575" y="94">Kerkstraat</text>
+    <text x="20" y="234">Marktstraat</text><text x="575" y="234">Marktstraat</text>
+    <text x="20" y="374">Schoolstraat</text><text x="575" y="374">Schoolstraat</text>
+    <text transform="translate(154 175) rotate(-90)">Molenstraat</text>
+    <text transform="translate(344 345) rotate(-90)">Stationsstraat</text>
+    <text transform="translate(534 340) rotate(-90)">Parklaan</text>
+  </g><rect x="552" y="110" width="124" height="101" rx="6" fill="#d9efdf" stroke="#3d9a5f" stroke-width="1.3"/><text x="614" y="165" text-anchor="middle" font-size="10" font-weight="700" fill="#2c6e44">🌳 Park</text><rect x="240" y="15" width="85" height="58" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="282.5" y="47.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="282.5" dy="0">⛪ Kerk</tspan></text><rect x="360" y="22" width="70" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="395" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="395" dy="0">Apotheek</tspan></text><rect x="440" y="22" width="72" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="476" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="476" dy="-5.5">Firma</tspan><tspan x="476" dy="11">Verbeke</tspan></text><rect x="15" y="112" width="115" height="48" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="72.5" y="139.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="72.5" dy="0">Supermarkt</tspan></text><rect x="225" y="250" width="98" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="274" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="274" dy="0">Bakkerij</tspan></text><rect x="360" y="250" width="85" height="50" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="402.5" y="278.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="402.5" dy="0">Bank</tspan></text><rect x="190" y="398" width="130" height="62" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="255" y="432.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="255" dy="0">Station</tspan></text><rect x="372" y="400" width="80" height="55" rx="4" fill="#fff" stroke="#1d2433" stroke-width="1.3"/><text x="412" y="431" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="412" dy="0">Ⓟ Parking</tspan></text><rect x="225" y="160" width="98" height="52" rx="4" fill="#e7eefb" stroke="#1d2433" stroke-width="1.3"/><text x="274" y="189.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="274" dy="-5.5">Interimkantoor</tspan><tspan x="274" dy="11">Werkpunt</tspan></text><rect x="452" y="302" width="61" height="50" rx="4" fill="#e7eefb" stroke="#1d2433" stroke-width="1.3"/><text x="482.5" y="330.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="482.5" dy="-5.5">Gemeente-</tspan><tspan x="482.5" dy="11">huis</tspan></text><rect x="552" y="22" width="90" height="50" rx="4" fill="#e7eefb" stroke="#1d2433" stroke-width="1.3"/><text x="597" y="50.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="597" dy="-5.5">Opleidings-</tspan><tspan x="597" dy="11">centrum</tspan></text><rect x="168" y="15" width="68" height="58" rx="4" fill="#fbefe3" stroke="#1d2433" stroke-width="1.3"/><text x="202" y="47.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="202" dy="-5.5">Fabriek</tspan><tspan x="202" dy="11">Delta</tspan></text><rect x="360" y="160" width="85" height="52" rx="4" fill="#fbefe3" stroke="#1d2433" stroke-width="1.3"/><text x="402.5" y="189.5" text-anchor="middle" font-size="10" font-weight="700" fill="#1d2433"><tspan x="402.5" dy="-5.5">Hotel</tspan><tspan x="402.5" dy="11">Central</tspan></text><rect x="168" y="250" width="52" height="50" rx="4" fill="#fbefe3" stroke="#1d2433" stroke-width="1.3"/><text x="194" y="278.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1d2433"><tspan x="194" dy="-9.350000000000001">Restau-</tspan><tspan x="194" dy="9.350000000000001">rant</tspan><tspan x="194" dy="9.350000000000001">De Molen</tspan></text><rect x="15" y="15" width="115" height="55" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="168" y="160" width="52" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="160" width="58" height="52" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="250" width="115" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="455" y="250" width="58" height="44" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="552" y="302" width="90" height="50" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="225" y="306" width="98" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><rect x="15" y="306" width="115" height="46" rx="4" fill="#fafbfc" stroke="#9aa3b2" stroke-width="1.3"/><circle cx="340" cy="452" r="9" fill="#df7f26"/><text x="340" y="456" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">★</text>
+  <text x="356" y="466" font-size="9" font-weight="700" fill="#b45f12">Je bent hier</text>
+  <path d="M340 440 L340 412" stroke="#df7f26" stroke-width="2.5" marker-end="url(#ar)"/></svg>
+  <h2>Itinéraires attendus (depuis la gare ★)</h2>
+  <table><tr><th></th><th>Lieu</th><th>Itinéraire possible</th></tr><tr><td><b>A1</b></td><td>Interimkantoor Werkpunt</td><td class="nl">Ga rechtdoor. Neem de tweede straat links. Het is rechts, tegenover de bakkerij.</td></tr><tr><td><b>A2</b></td><td>Gemeentehuis</td><td class="nl">Neem de eerste straat rechts. Het is links, op de hoek van de Parklaan.</td></tr><tr><td><b>A3</b></td><td>Opleidingscentrum</td><td class="nl">Ga rechtdoor tot de Kerkstraat. Sla rechtsaf. Steek de Parklaan over. Het is links, tegenover het park.</td></tr><tr><td><b>B1</b></td><td>Fabriek Delta</td><td class="nl">Ga rechtdoor tot de Kerkstraat. Sla linksaf. Het is rechts, naast de kerk, op de hoek.</td></tr><tr><td><b>B2</b></td><td>Hotel Central</td><td class="nl">Neem de tweede straat rechts. Het is links, tegenover de bank.</td></tr><tr><td><b>B3</b></td><td>Restaurant De Molen</td><td class="nl">Neem de tweede straat links. Ga rechtdoor tot de Molenstraat. Het is links, op de hoek, naast de bakkerij.</td></tr></table>
+  <p class="hint">D'autres itinéraires sont justes : on valide si le lieu trouvé est le bon.</p>
+  </section></body></html>

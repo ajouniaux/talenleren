@@ -1,0 +1,11 @@
+{
+  "name": "neerlandais2-fiches-differenciees",
+  "private": true,
+  "description": "Générateur des fiches différenciées socioprofessionnelles (calque ARK, 5 variantes) — Néerlandais 2",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
