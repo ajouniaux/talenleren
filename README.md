@@ -11,9 +11,9 @@ Une présentation PowerPoint par séance (19 au total) pour projeter au tableau 
 | 03 | Scene 1 · 06.58 | p. 5–7 | `Seance_03_Scene1_Past_simple_toolkit.pptx` | Prétérit (4 formes, -ed prononcé) · verbes à particule |
 | 04 | Scene 2 · 08.15 | p. 8–9 | `Seance_04_Scene2_The_room.pptx` | Past continuous vs prétérit · marqueurs de certitude |
 | 05 | Scene 2 · 08.20 | p. 9–10 | `Seance_05_Scene2_The_timeline.pptx` | when / while · orthographe -ing / -ed · chronologie |
-| 06 | Can I write it in the report? · say, tell, claim or confirm? · lire une heure, donner une durée | intrus d’orthographe · repérage dans l’Exhibit · appariement · mots mêlés · remise en ordre de la nuit · classement « room vs log » · cadres de réponse · QCM · e-mail de Mark à corriger | Time bingo · Press conference | mots d’un journal · verbes de rapport |
-| 07 | past simple ou participe ? · questions sujet / objet · mindmap de 18 collocations | appariement de demi-phrases · repérage des formes dans un texte · classement en 4 familles · intrus (sens et prononciation) · banque de mots · mots dans le désordre · note du stagiaire à corriger · vrai ou faux | Three-form relay · Case File Jeopardy | verbes irréguliers · collocations · idiomes |
-| 08 | échelle de la preuve · quel verbe de preuve ? · no record ≠ nobody | cartes-devinettes · remise en ordre (échelle, chaîne d’une alerte) · intrus · classement P / N / C · repérage dans l’illustration · écoute en vrai ou faux · classement des questions par expert · article de presse à corriger · banque de mots | Taboo · jeu de rôle A / B | evidence / proof · langage de la preuve |
+| 06 | Scene 3 · 09.05 | p. 11–12 | `Seance_06_Scene3_The_log.pptx` | Lire un journal d’alarme · durées · verbes introducteurs |
+| 07 | Scene 3 · 09.05 | p. 13–15 | `Seance_07_Scene3_Verbs_and_collocations.pptx` | Prétérit / participe passé · questions sujet · collocations |
+| 08 | Scene 3 · 09.05 | p. 16–17 | `Seance_08_Scene3_Sort_the_witnesses.pptx` | Langage de la preuve · questions d’experts |
 | 09 | Scene 4 · 09.40 | p. 18–19 | `Seance_09_Scene4_The_board.pptx` | Present perfect · already / yet / just |
 | 10 | Scene 4 · 10.00 | p. 20–22 | `Seance_10_Scene4_Ten_oclock_update.pptx` | Point d’avancement · vocabulaire des 4 domaines |
 | 11 | Scene 5 · 10.20 | p. 23–24 | `Seance_11_Scene5_The_email.pptx` | Faux amis · prétérit + temps révolu · e-mail |
@@ -48,11 +48,11 @@ Les séances 04 à 08 suivent le modèle de la présentation de la première sé
 |---|---|---|---|---|
 | 04 | fait ou supposition ? · past simple ou continuous ? · quatre images du passé · frise de la nuit | écoute livre fermé · True / False / Not given · témoignage de l’agent d’entretien | Memory challenge · Rumour game · Hot seat · Mood cards | imagier du local (12 objets) · dégâts des eaux · mots de la certitude |
 | 05 | when ou while ? · orthographe -ing / -ed · mindmap de la chronologie | Objection! (écoute de détail) · Draw my evening | Sentence tennis · Spelling bee · Alibi game | connecteurs de récit · phrasal verbs de la nuit |
-| 06 | Can I write it in the report? · say, tell, claim or confirm? · échelle de comparaison des sources | Exhibit A plein écran + lecture d’assesseur avec lignes surlignées | Time bingo · Back to the board · Press conference | mots d’un journal · lire une heure, donner une durée |
-| 07 | past simple ou participe ? · questions sujet / objet · 22 verbes en 4 familles | Red flag or on the ball? (écoute de situations) | Three-form relay · Case File Jeopardy | mindmap de 18 collocations · idiomes |
-| 08 | échelle de la preuve · quel verbe de preuve ? · no record ≠ nobody · sent → acknowledged | l’expert IT explique (écoute, comparaison avec un colis) | Overstated! · Taboo · jeu de rôle A / B | evidence / proof · langage de la preuve |
+| 06 | Can I write it in the report? · say, tell, claim or confirm? · lire une heure, donner une durée | intrus d’orthographe · repérage dans l’Exhibit · appariement · mots mêlés · remise en ordre de la nuit · classement « room vs log » · cadres de réponse · QCM · e-mail de Mark à corriger | Time bingo · Press conference | mots d’un journal · verbes de rapport |
+| 07 | past simple ou participe ? · questions sujet / objet · mindmap de 18 collocations | appariement de demi-phrases · repérage des formes dans un texte · classement en 4 familles · intrus (sens et prononciation) · banque de mots · mots dans le désordre · note du stagiaire à corriger · vrai ou faux | Three-form relay · Case File Jeopardy | verbes irréguliers · collocations · idiomes |
+| 08 | échelle de la preuve · quel verbe de preuve ? · no record ≠ nobody | cartes-devinettes · remise en ordre (échelle, chaîne d’une alerte) · intrus · classement P / N / C · repérage dans l’illustration · écoute en vrai ou faux · classement des questions par expert · article de presse à corriger · banque de mots | Taboo · jeu de rôle A / B | evidence / proof · langage de la preuve |
 
-Les textes d’écoute inventés (agent d’entretien, Objection!, expert IT, journaux de Back to the board) sont cohérents avec le dossier ; leurs scripts sont dans les notes du présentateur. Les diapositives GAME et + EXTRA sont facultatives.
+Les textes inventés (témoignage de l’agent d’entretien, Objection!, explication de l’expert IT, mise à jour d’Iris, e-mail de Mark, note du stagiaire, article de presse) sont cohérents avec le dossier ; les scripts et les réponses sont dans les notes du présentateur. Les diapositives GAME et + EXTRA sont facultatives.
 
 Le code de ce style est dans `generateur/lib_light.js` ; une séance l’utilise avec `style: 'light'` dans son `meta`.
 
