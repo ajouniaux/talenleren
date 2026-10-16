@@ -6,7 +6,8 @@ exports.meta = {
   subtitle: 'At nine o’clock Mark will ask you what holds up.', pages: 'Livret p. 16–17', img: 's3_log', time: '09.05', sceneLabel: 'SCENE 3',
   coverNotes: "Séance 8 — Scène 3, livret p. 16–17 : tri des déclarations (P / N / C) et premières questions d’experts.\n"
     + "Objectifs : le langage de la preuve (prove, confirm, show, suggest, does not establish), evidence / proof, « no record ≠ nobody », sent / delivered / read / acknowledged, expliquer son domaine en anglais simple.\n"
-    + "Déroulé indicatif (90 min) : warm-up (5') · échelle de la preuve + piège evidence + arbre (15') · Sort the witnesses p. 16 (15') · no record ≠ nobody (5') · la chaîne d’une alerte + écoute de l’expert IT (10') · jeu Overstated! (10') · Your expert p. 16–17 (15') · Taboo ou jeu de rôle (15').\n"
+    + "Formats variés : cartes-devinettes (warm-up) · remise en ordre (échelle) · intrus · classement P / N / C · repérage dans l’image · remise en ordre (chaîne) · vrai ou faux (écoute) · appariement (expert ↔ question) · texte à corriger (article de presse) · Taboo · jeu de rôle.\n"
+    + "Déroulé indicatif (90 min) : warm-up (5') · échelle de la preuve + intrus + arbre (15') · Sort the witnesses (15') · repérage dans l’image + no record (10') · la chaîne d’une alerte + écoute (10') · Your expert (15') · article à corriger (10') · Taboo ou jeu de rôle (10').\n"
     + "Les diapositives GAME et + EXTRA sont facultatives.",
 };
 
@@ -14,24 +15,52 @@ exports.build = (d) => {
   d.cover();
   d.section('Warm-up');
 
-  d.list({
-    title: 'Warm-up: the professional block', tag: 'WARM-UP', page: 'Séance 7',
-    instr: 'Which verb goes with the noun? One block, no translation.',
-    cols: 2, max: 26, maxA: 26,
-    items: ['to [[raise]] the alarm', 'to [[file]] a claim', 'to [[assess]] the damage', 'to [[carry out]] an inspection', 'to [[meet]] a deadline', 'to [[make good]] the floor', 'to [[draw up]] a report', 'to [[take]] steps'],
+  d.flashcards({
+    title: 'Warm-up: which block is it?', tag: 'WARM-UP', page: 'Séance 7',
+    instr: 'Read the clue — say the **verb + noun** block. Teams take turns.',
+    perRow: 4,
+    cards: [
+      { q: 'What the cleaners did at 6.50, when they called for help.', a: 'raise the alarm', fr: 'donner l’alerte' },
+      { q: 'What you do with an insurer after water damage.', a: 'file a claim', fr: 'déclarer un sinistre' },
+      { q: 'What the expert will do with the damage this afternoon.', a: 'assess the damage', fr: 'évaluer les dégâts' },
+      { q: 'What the site manager did at 20:04, on paper.', a: 'carry out an inspection', fr: 'effectuer une inspection' },
+      { q: 'What you must do with Friday’s deadline.', a: 'meet the deadline', fr: 'respecter le délai' },
+      { q: 'What the property manager must do with the floor.', a: 'make good the floor', fr: 'remettre en état' },
+      { q: 'What you will do with your report by 5 p.m.', a: 'draw up a report', fr: 'rédiger un rapport' },
+      { q: 'What Legal has done to protect the file.', a: 'take steps', fr: 'prendre des mesures' },
+    ],
+    notes: "Réactivation de la séance 7 sous forme de devinettes : une équipe lit l’indice, l’autre répond avec la collocation complète.",
   });
 
   d.section('The language of evidence');
-  d.ladder({
-    title: 'From proof to doubt: the evidence ladder', tag: 'VOCABULARY', page: 'Hors livret',
-    rows: [
-      { pct: '100 %', h: 'PROVES', words: 'proves · establishes', ex: 'The badge log proves that badge 0102 was used at 20:04.', color: 'accent3' },
-      { pct: '✓', h: 'CONFIRMS', words: 'confirms · is consistent with', ex: 'The log confirms that unit 3 shut down at 02:16.', color: '5E9A3C' },
-      { pct: '≈', h: 'SHOWS', words: 'shows · indicates', ex: 'The photos show a soaked floor at 8.20.', color: 'accent2' },
-      { pct: '?', h: 'SUGGESTS', words: 'suggests · points to', ex: 'The humidity alarm suggests water near the sensors.', color: 'accent1' },
-      { pct: '✗', h: 'DOES NOT ESTABLISH', words: 'does not establish · does not prove', ex: 'The log does not establish who carried the badge.', color: 'accent6' },
+  d.reorder({
+    title: 'Build the evidence ladder', tag: 'VOCABULARY', page: 'Hors livret',
+    instr: 'Put the five verbs in order — from the **strongest** (100 %) to the **weakest** (✗).',
+    instrA: 'Strongest first. Climb the ladder with the same piece of evidence: //The 23:42 line proves… shows… does not establish…//',
+    items: [
+      { tag: 'PROVES', t: 'The badge log **proves** that badge 0102 was used at 20:04.' },
+      { tag: 'CONFIRMS', t: 'The log **confirms** that unit 3 shut down at 02:16.' },
+      { tag: 'SHOWS', t: 'The photos **show** a soaked floor at 8.20.' },
+      { tag: 'SUGGESTS', t: 'The humidity alarm **suggests** water near the sensors.' },
+      { tag: 'DOES NOT', t: 'The log **does not establish** who carried the badge.' },
     ],
-    notes: "Faire monter et descendre l’échelle avec une même pièce : « The 23:42 notification proves that an alert was sent… shows that the phone received it… does not establish that anybody read it. »",
+    shuffle: [3, 0, 4, 2, 1],
+    note: { kind: 'keep', text: '**prove · confirm** = a document records it · **show · suggest** = it makes it likely · **does not establish** = say what is missing.' },
+    notes: "Remise en ordre en binôme, puis lecture de l’échelle de haut en bas.",
+  });
+
+  d.oddOneOut({
+    title: 'Find the intruder', tag: 'VOCABULARY', page: 'Hors livret',
+    instr: 'Meaning, grammar or pronunciation: one item in each line does not belong.',
+    rows: [
+      { words: ['proves', 'confirms', 'establishes', 'suggests'], odd: 3, why: '**suggests** — only likely' },
+      { words: ['evidence', 'proof', 'a record', 'evidences'], odd: 3, why: '✗ **evidences** — uncountable' },
+      { words: ['a witness', 'a statement', 'a testimony', 'a threshold'], odd: 3, why: '**threshold** — not a person’s words' },
+      { words: ['sent', 'delivered', 'read', 'repaired'], odd: 3, why: '**repaired** — not a message status' },
+      { words: ['hypothesis', 'guess', 'fact', 'assumption'], odd: 2, why: '**fact** — proved' },
+      { words: ['proved', 'confirmed', 'showed', 'established'], odd: 3, why: '**established** — -ed = /t/, not /d/' },
+    ],
+    notes: "Ligne 6 : intrus de prononciation (rappel de la séance 3) — proved /pruːvd/, confirmed /kənˈfɜːmd/, showed /ʃəʊd/ finissent en /d/ ; established /ɪˈstæblɪʃt/ finit en /t/. Faire prononcer chaque ligne avant de dévoiler.",
   });
 
   d.compare({
@@ -52,20 +81,47 @@ exports.build = (d) => {
   });
 
   d.section('Sort the witnesses');
-  d.table({
+  d.sort({
     title: 'Sort the witnesses before Mark asks you to', tag: 'YOUR MOVE', page: 'Livret p. 16',
-    instr: 'Six statements were made in the room. Mark them **P** (provable today), **N** (not yet provable) or **C** (contradicted by another source).',
-    headers: ['STATEMENT', 'P / N / C', 'WHY?'], colW: [4.3, 1.6, 6.23], align: ['left', 'center', 'left'],
-    rows: [
-      ['The water was still running at 6.50 a.m.', '[[P]]', '[[The cleaners saw it; their entry is logged (06:47).]]'],
-      ['The pipe was leaking all night.', '[[N]]', '[[Iris: “I think” — a supposition; nothing yet on the pipe.]]'],
-      ['The contractor’s team left at eight.', '[[C]]', '[[The log shows the exit at 19:58.]]'],
-      ['Two IT units have stopped working.', '[[P (partly)]]', '[[Samuel checked; the log shows only unit 3 (02:16).]]'],
-      ['It is the same pipe as last November.', '[[N]]', '[[Samuel: “It might be” — needs maintenance records.]]'],
-      ['Nobody was on site at 11.40 p.m.', '[[N]]', '[[No badge after 20:19 — but a log only records badges.]]'],
+    instr: 'Six statements were made in the room. Put each one in a column — then say **why**.',
+    bankLabel: 'STATEMENTS', bankSize: 14,
+    categories: [
+      { h: 'P', sub: 'provable today', color: 'accent3' },
+      { h: 'N', sub: 'not yet provable', color: 'accent1' },
+      { h: 'C', sub: 'contradicted', color: 'accent6' },
+    ],
+    items: [
+      { t: 'The water was still running at 6.50.', a: 'Water at 6.50 — the cleaners saw it (06:47)', cat: 0 },
+      { t: 'The pipe was leaking all night.', a: 'Pipe all night — Iris: “I think”', cat: 1 },
+      { t: 'The team left at eight.', a: 'Team at eight — the log says 19:58', cat: 2 },
+      { t: 'Two IT units have stopped.', a: 'Two units — only unit 3 logged (partly)', cat: 0 },
+      { t: 'It is the same pipe as in November.', a: 'Same pipe — “might be”: need records', cat: 1 },
+      { t: 'Nobody was on site at 11.40 p.m.', a: 'Nobody on site — a log records badges only', cat: 1 },
     ],
     notes: "Individuellement (5 min), puis comparaison par deux : chaque désaccord se règle avec un verbe de l’échelle (proves, suggests…).",
-    notesA: "Accepter d’autres justifications si elles s’appuient sur le dossier. Ligne 3 : « until eight » est approximativement juste (19:58) — l’important est d’écrire l’heure du journal. Ligne 6 : transition vers la diapositive suivante.",
+    notesA: "Accepter d’autres justifications si elles s’appuient sur le dossier. « The team left at eight » : approximativement juste (19:58), mais la ligne du journal contredit la précision — l’important est d’écrire 19:58. « Two units » : P partiellement (unit 3 seulement dans le journal).",
+  });
+
+  d.pictureDict({
+    title: 'Look at the evidence on the table', tag: 'READING', page: 'Livret p. 11 · illustration', img: 's3_log', hunt: true,
+    alt: 'Samuel taps the printed log on the table; badges, a phone and coffee cups lie around it',
+    instr: 'Find each item in the picture and **say where it is**: //on the left, next to, under…//',
+    instrA: 'Which of these is **evidence**? Which is only a **clue**?',
+    marks: [
+      { n: 1, x: 330, y: 490, en: 'the printed log', fr: 'le journal imprimé' },
+      { n: 2, x: 505, y: 458, en: 'the highlighted line', fr: 'la ligne surlignée' },
+      { n: 3, x: 445, y: 372, en: 'Samuel’s finger', fr: 'le doigt de Samuel' },
+      { n: 4, x: 590, y: 540, en: 'two access badges', fr: 'deux badges d’accès' },
+      { n: 5, x: 700, y: 470, en: 'a lanyard', fr: 'un cordon' },
+      { n: 6, x: 770, y: 420, en: 'a mobile phone', fr: 'un téléphone portable' },
+      { n: 7, x: 205, y: 365, en: 'a coffee cup', fr: 'un gobelet de café' },
+      { n: 8, x: 805, y: 210, en: 'Iris’s phone', fr: 'le téléphone d’Iris' },
+      { n: 9, x: 255, y: 62, en: 'a security poster', fr: 'une affiche de sécurité' },
+      { n: 10, x: 712, y: 108, en: 'a floor plan', fr: 'un plan d’étage' },
+    ],
+    bank: [6, 1, 9, 4, 7, 2, 10, 5, 3, 8],
+    notes: "Repérage visuel en binôme : un élève nomme l’objet, l’autre le localise (« The badges are on the right, next to the lanyard »). Prépare la question : qu’est-ce qui constitue une preuve ? Le journal imprimé, oui ; un gobelet de café, non.",
+    notesA: "Prononciation : lanyard /ˈlænjəd/ · badge /bædʒ/ · highlighted /ˈhaɪlaɪtɪd/.",
   });
 
   d.timeline({
@@ -82,20 +138,18 @@ exports.build = (d) => {
   });
 
   d.section('The IT expert');
-  d.chevrons({
-    title: 'Sent, delivered, read, acknowledged', tag: 'YOUR EXPERT', page: 'Livret p. 16 · IT',
-    steps: [
-      { h: 'SENT', color: '44546A', ex: 'The system **sent** the alert at 23:42. → the alarm **worked**.' },
-      { h: 'DELIVERED', color: 'accent2', ex: 'The phone **received** it. → somebody **could** have known.' },
-      { h: 'READ', color: 'accent1', ex: 'Somebody **opened** it. → not in Exhibit A.' },
-      { h: 'ACKNOWLEDGED', color: 'accent3', ex: 'Somebody **confirmed** it (OK, reply). → somebody **knew**.' },
+  d.reorder({
+    title: 'The life of an alert — put it in order', tag: 'YOUR EXPERT', page: 'Livret p. 16 · IT',
+    instr: 'Four steps, from the system to a person. Put them in order.',
+    instrA: 'Our log stops at step **2**: somebody **could** have known. Only step **4** proves that somebody **knew**.',
+    items: [
+      { tag: 'SENT', t: 'The system **sends** the alert at 23:42. → the alarm **worked**.' },
+      { tag: 'DELIVERED', t: 'The phone **receives** it. → somebody **could** have known.' },
+      { tag: 'READ', t: 'Somebody **opens** it. → not in Exhibit A.' },
+      { tag: 'ACK.', t: 'Somebody **confirms** it (OK, a reply). → somebody **knew**.' },
     ],
-    rows: [
-      { h: 'IN EXHIBIT A', icon: 'FaFileAlt', color: 'accent5', lines: ['sent ✓ · delivered ✓', 'read? acknowledged?', '→ **no record**'] },
-      { h: 'WHAT IT PROVES', icon: 'FaBalanceScale', color: 'accent2', lines: ['delivered → somebody **could** have known', 'only acknowledged → somebody **knew**'] },
-      { h: 'SAY IT', icon: 'FaCommentDots', color: 'accent3', lines: ['//The alert **was delivered** at 23:42.//', '//There is **no record** that it was read.//'] },
-    ],
-    notes: "Support pour l’expert IT. Selon les systèmes, « received » désigne parfois la réception par l’appareil (≈ delivered) : laisser l’étudiant IT nuancer.",
+    shuffle: [2, 0, 3, 1],
+    notes: "ACK. = acknowledged. Support pour l’expert IT. Selon les systèmes, « received » désigne parfois la réception par l’appareil (≈ delivered) : laisser l’étudiant IT nuancer.",
   });
 
   d.banner({
@@ -103,41 +157,50 @@ exports.build = (d) => {
     banner: { icon: 'FaBoxOpen', color: 'accent2', h: 'It’s a bit like a parcel…', sub: 'Your teacher reads the IT expert’s explanation **twice**. Booklets closed.' },
     cards: [
       { icon: 'FaHeadphones', color: 'tx2', h: 'Listening 1', t: 'What does the expert compare the alert to?' },
-      { icon: 'FaPenNib', color: 'accent1', h: 'Listening 2', t: 'Match each status with the parcel: **sent · delivered · read · acknowledged**.' },
+      { icon: 'FaPenNib', color: 'accent1', h: 'Listening 2', t: 'True or false? Six statements — next slide.' },
       { icon: 'FaUsers', color: 'accent3', h: 'After', t: 'Where does **our** log stop? Explain it to a neighbour in one sentence.' },
     ],
     notes: "SCRIPT (inventé, cohérent avec l’Exhibit A) :\n« Let me explain with a parcel. The shop sends it: that’s “sent”. The courier leaves it at your door: that’s “delivered”. You open it: that’s “read”. And when you sign for it, that’s “acknowledged”. Now, our log stops at “delivered”. So the phone got the alert at 23:42. But we have no record that anybody opened it — and no record that anybody confirmed it. Delivered means somebody could have known. Only acknowledged means somebody knew. »",
   });
 
-  d.list({
-    title: 'Listen: the IT expert explains', tag: 'LISTENING', page: 'Hors livret', mode: 'a',
-    instr: 'The script — the four statuses in **bold**.',
-    number: false, gap: 10, maxA: 21,
+  d.trueFalse({
+    title: 'Listen: true or false?', tag: 'LISTENING', page: 'Hors livret',
+    instr: 'Second listening. Tick **T** or **F** — correct the false ones.',
     items: [
-      'Let me explain with a **parcel**. The shop sends it: that’s **“sent”**. The courier leaves it at your door: that’s **“delivered”**.',
-      'You open it: that’s **“read”**. And when you sign for it, that’s **“acknowledged”**.',
-      'Now, our log stops at “delivered”. So the phone got the alert at 23:42. But we have **no record** that anybody opened it — and **no record** that anybody confirmed it.',
-      '**Delivered** means somebody **could** have known. Only **acknowledged** means somebody **knew**.',
+      { s: 'The expert compares the alert to a letter.', a: false, why: 'to a **parcel**.' },
+      { s: '“Delivered” = the courier leaves it at your door.', a: true, why: 'the phone got the alert.' },
+      { s: '“Read” = you sign for the parcel.', a: false, why: 'you **open** it.' },
+      { s: 'Our log stops at “delivered”.', a: true, why: 'the phone got it at 23:42.' },
+      { s: 'The log shows that somebody opened the alert.', a: false, why: 'there is **no record** of it.' },
+      { s: 'Only “acknowledged” proves somebody knew.', a: true, why: '“delivered” = could have known.' },
     ],
-    note: { kind: 'keep', label: 'Explain like an expert', text: 'an **everyday comparison** (//It’s a bit like…//) makes a technical point clear to non-experts.' },
-  });
-
-  d.list({
-    title: 'Overstated! — bring each claim down a step', tag: 'GAME', page: 'Hors livret',
-    instr: 'Your teacher reads a claim that goes **too far**. Shout **“Overstated!”** and correct it with the right verb from the ladder.',
-    max: 20, sizeA: 16,
-    items: [
-      { q: 'The log **proves** that the site manager caused the leak.', a: 'It **shows** that badge 0102 was used at 20:04 — it **does not establish** who used it, or the cause.' },
-      { q: 'The notification **proves** that somebody read the alert.', a: 'It was **delivered**: somebody **could** have known. There is **no record** that it was read.' },
-      { q: 'The photos **prove** that the water ran all night.', a: 'They **show** the state of the room at 8.20 — not how long the water ran.' },
-      { q: 'The humidity alarm **proves** that the pipe burst.', a: 'It **suggests** water near the sensors — the cause is a hypothesis.' },
-      { q: 'No badge after 20:19 **proves** that nobody was in the building.', a: 'It **does not establish** that: a log only records badges.' },
-      { q: 'Samuel’s memory **proves** that the alarm went off at 11.40.', a: 'A memory **proves** nothing — the log **shows** 23:41.' },
-    ],
-    notes: "En équipes : le premier qui crie « Overstated! » propose la correction ; si elle est juste (bon verbe + limite de la preuve), l’équipe marque un point.",
+    notes: "Relire le script (notes de la diapositive précédente) avant cette activité. Correction : faire citer la phrase exacte du script.",
   });
 
   d.section('Your expert');
+  d.sort({
+    title: 'Which expert would ask this?', tag: 'YOUR EXPERT', page: 'Livret p. 16–17',
+    instr: 'Four firms, eight questions: put each question under the expert who would ask it — **two each**.',
+    bankLabel: 'QUESTIONS', bankSize: 14,
+    categories: [
+      { h: 'IT', sub: 'Northline IT Services', color: '0E7C66' },
+      { h: 'LAW', sub: 'Harwell Legal', color: '8B3A2F' },
+      { h: 'ACC', sub: 'Blanchet & Renard', color: '1F4E79' },
+      { h: 'RE', sub: 'Corven Property', color: 'B8782A' },
+    ],
+    items: [
+      { t: 'Delivered or acknowledged?', cat: 0 },
+      { t: 'Can we name badge 0102?', cat: 1 },
+      { t: 'How much will unit 3 cost?', cat: 2 },
+      { t: 'Did the water come from above?', cat: 3 },
+      { t: 'What does a log establish?', cat: 1 },
+      { t: 'Did anyone open the alert?', cat: 0 },
+      { t: 'Who must repair the floor?', cat: 3 },
+      { t: 'What does the policy cover?', cat: 2 },
+    ],
+    notes: "Classement en binôme (3 min). Chaque firme garde ensuite ses deux questions pour l’activité suivante (questions complètes du livret, p. 16–17).",
+  });
+
   d.experts({
     title: 'Your eye on Exhibit A', tag: 'YOUR EXPERT', page: 'Livret p. 16–17',
     cards: [
@@ -160,6 +223,20 @@ exports.build = (d) => {
     note: { kind: 'tip', label: 'One minute, three moves', text: '**define** the word · **limit** what it proves · **advise** the next step.' },
   });
 
+  d.fixText({
+    title: 'The journalist went too far — correct the article', tag: 'YOUR MOVE', page: 'Hors livret',
+    instr: 'A local news site published this. Find **six** problems: overstatements, a wrong time, a grammar slip — and a name that should not be there.',
+    instrA: 'Each claim brought back to what the evidence **really** shows.',
+    docLabel: 'ONLINE NEWS', docTitle: '“Flood at Atlas House: the night guard ignored the alarm”', count: 6, docColor: MAGENTA_,
+    countLabels: ['6 problems', '✓ 6 corrections'],
+    paras: [
+      'An alert was sent to a mobile at 23:42, which {{proves that the guard read it}}@@ means that somebody could have known@@. The alarm went off at {{11.40 p.m}}@@ 23:41@@.',
+      'According to our sources, {{the site manager entered the room at 20:04}}@@ an access to zone 2F was recorded at 20:04@@. {{Nobody was in the building}}@@ No access was recorded@@ after 20:19.',
+      'The humidity alarm {{proves}}@@ suggests@@ that the old pipe burst. The water ran {{during}}@@ for@@ about seven hours.',
+    ],
+    notes: "Texte inventé (article fictif). Lecture individuelle, puis comparaison en binôme : pour chaque correction, citer la règle — l’échelle de la preuve, « no record ≠ nobody », ne nommer personne, l’heure vient du journal.",
+  });
+
   d.cardGrid({
     title: 'Taboo — explain it without the obvious words', tag: 'GAME', page: 'Hors livret',
     instr: 'A player explains the word **without** saying it or the three taboo words. The team has 30 seconds to guess.',
@@ -167,14 +244,14 @@ exports.build = (d) => {
     cards: [
       { label: 'TABOO', big: 'evidence', fr: '✗ proof · show · court', ex: '= les preuves (indénombrable)' },
       { label: 'TABOO', big: 'a threshold', fr: '✗ limit · level · alarm', ex: '= un seuil' },
-      { label: 'TABOO', big: 'acknowledged', fr: '✗ confirm · read · OK', ex: '= dont la réception est confirmée' },
+      { label: 'TABOO', big: 'acknowledged', fr: '✗ confirm · read · OK', ex: '= acquitté' },
       { label: 'TABOO', big: 'an estimate', fr: '✗ price · cost · repair', ex: '= un devis' },
       { label: 'TABOO', big: 'a badge', fr: '✗ card · door · enter', ex: '= un badge d’accès' },
       { label: 'TABOO', big: 'a shutdown', fr: '✗ stop · off · server', ex: '= un arrêt' },
       { label: 'TABOO', big: 'humidity', fr: '✗ water · wet · air', ex: '= l’humidité' },
       { label: 'TABOO', big: 'an assessor', fr: '✗ claim · expert · loss', ex: '= un expert en sinistres' },
     ],
-    notes: "Variante : chaque firme (ACC, IT, LAW, RE) prépare deux cartes Taboo de son domaine. Utiliser les formules « DEFINE » de la diapositive précédente : It’s a thing that… / It’s a person who… / It’s what you do when…",
+    notes: "Variante : chaque firme (ACC, IT, LAW, RE) prépare deux cartes Taboo de son domaine. Utiliser les formules « DEFINE » : It’s a thing that… / It’s a person who… / It’s what you do when…",
   });
 
   d.roleplay({
@@ -200,20 +277,22 @@ exports.build = (d) => {
     notes: "Format du jeu de rôle de la séance 1. Réponses possibles B : 1. Yes — the cleaners saw it; their entry was recorded at 06:47. 2. No access was recorded after 20:19 — but that does not prove that nobody was there. 3. There is no record that it was read: it was only delivered. 4. It proves that a badge was used — not who carried it. 5. OK, I’ll ask the IT provider for an estimate. 6. I’ll write “an access was recorded”.",
   });
 
-  d.table({
-    title: 'The language of evidence', tag: 'WORD FILE', page: 'Hors livret',
-    headers: ['ENGLISH', 'FRANÇAIS', 'IN THE FILE'], colW: [3.2, 3.3, 5.63], boldCol: 0, align: ['center', 'center', 'left'],
-    rows: [
-      ['evidence (U) · a piece of evidence', 'des preuves · une preuve', '**Two pieces of evidence** contradict Samuel.'],
-      ['proof · to prove', 'la preuve · prouver', 'The log gives **proof** that unit 3 shut down.'],
-      ['to establish', 'établir', 'The log does not **establish** who carried the badge.'],
-      ['to suggest · to point to', 'laisser penser · indiquer', 'The humidity alarm **points to** a leak above.'],
-      ['a record · there is no record of', 'une trace · il n’y a aucune trace de', '**There is no record** that the alert was read.'],
-      ['a witness · a statement', 'un témoin · une déclaration', 'Ask the cleaners for a written **statement**.'],
-      ['a hypothesis · to rule out', 'une hypothèse · écarter', 'We cannot **rule out** a second leak.'],
-      ['to back up · to support', 'étayer, corroborer', 'Nothing **supports** Verdier’s claim.'],
+  d.list({
+    title: 'The language of evidence — complete the sentences', tag: 'WORD FILE', page: 'Hors livret',
+    instr: 'Use each word once.',
+    bank: ['evidence', 'record', 'establish', 'rule out', 'statement', 'supports', 'witness', 'points to'],
+    cols: 2, max: 20, maxA: 19, gap: 9,
+    items: [
+      'Two pieces of [[evidence]] contradict Samuel. //(les preuves)//',
+      'There is no [[record]] that the alert was read. //(une trace)//',
+      'The log does not [[establish]] who carried the badge. //(établir)//',
+      'We cannot [[rule out]] a second leak. //(écarter)//',
+      'Ask the cleaners for a written [[statement]]. //(une déclaration)//',
+      'Nothing [[supports]] Verdier’s claim. //(étayer)//',
+      'The cleaner is our only [[witness]] at 6.50. //(un témoin)//',
+      'The humidity alarm [[points to]] a leak above the ceiling. //(indiquer)//',
     ],
-    notes: "Prononciation : evidence /ˈevɪdəns/ · hypothesis /haɪˈpɒθəsɪs/ (pl. hypotheses /-siːz/) · acknowledged /əkˈnɒlɪdʒd/ (k muet).",
+    notes: "Prononciation : evidence /ˈevɪdəns/ · hypothesis /haɪˈpɒθəsɪs/ · acknowledged /əkˈnɒlɪdʒd/ · witness /ˈwɪtnəs/.",
   });
 
   d.closing({

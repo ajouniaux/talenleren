@@ -6,8 +6,9 @@ exports.meta = {
   coverTitle: 'The verbs you need\nbefore ten o’clock', coverSize: 36,
   subtitle: 'Past simple, past participle — and what professionals say', pages: 'Livret p. 13–15', img: 's3_redflag', time: '09.05', sceneLabel: 'SCENE 3',
   coverNotes: "Séance 7 — Scène 3, livret p. 13–15 : consolidation avant le present perfect de la scène 4.\n"
-    + "Objectifs : prétérit vs participe passé (deux formes, deux emplois), 22 verbes irréguliers classés en familles, questions sujet (Who entered?) vs questions objet (Who did he call?), collocations professionnelles, deux expressions idiomatiques.\n"
-    + "Déroulé indicatif (90 min) : warm-up (5') · field note p. 13 + arbre (15') · familles de verbes + Three-form relay (15') · Dry run A (5') · questions sujet + Dry run B–C (15') · Case File Jeopardy (10') · Word file p. 15 + mindmap (10') · idiomes + Red flag or on the ball? (10') · extra (5').\n"
+    + "Objectifs : prétérit vs participe passé (deux formes, deux emplois), verbes irréguliers classés en familles, questions sujet (Who entered?) vs questions objet (Who did he call?), collocations professionnelles, deux expressions idiomatiques.\n"
+    + "Formats variés : appariement (warm-up, collocations) · repérage dans un texte · classement en familles · intrus · phrases à compléter avec banque de mots · mots dans le désordre · texte à corriger · vrai ou faux.\n"
+    + "Déroulé indicatif (90 min) : warm-up (5') · field note p. 13 + arbre + repérage (15') · familles + relais (15') · intrus + Dry run A (10') · questions + Dry run B–C (15') · Jeopardy (10') · collocations : appariement + mindmap + texte à corriger (15') · idiomes + vrai ou faux (5').\n"
     + "Les diapositives GAME et + EXTRA sont facultatives.",
 };
 
@@ -15,10 +16,20 @@ exports.build = (d) => {
   d.cover();
   d.section('Warm-up');
 
-  d.list({
-    title: 'Warm-up: report it, time it', tag: 'WARM-UP', page: 'Séance 6',
-    instr: 'Complete with a reporting verb or a duration.',
-    items: ['Samuel [[said]] that the alarm went off at 11.40.', 'He [[told]] us that nobody was on site.', 'Verdier [[claims]] the pipe is old — nothing proves it.', 'The log [[confirms]] that unit 3 shut down at 02:16.', 'From 23:41 to 06:47 = [[seven hours and six minutes]]'],
+  d.match({
+    title: 'Warm-up: match the two halves', tag: 'WARM-UP', page: 'Séance 6',
+    instr: 'Each beginning (1–6) has only **one** possible ending (A–F).',
+    pairs: [
+      ['Samuel said', 'that the alarm went off at 11.40.'],
+      ['He told', 'us that nobody was on site.'],
+      ['Verdier claims', 'the pipe is old — nothing proves it.'],
+      ['The log confirms', 'that unit 3 shut down at 02:16.'],
+      ['The water ran', 'for about seven hours.'],
+      ['From 23:41 to 06:47', 'is seven hours and six minutes.'],
+    ],
+    order: [3, 0, 5, 1, 4, 2], split: 0.36,
+    note: { kind: 'keep', text: '**tell** + a person (//told us//) · **say** + that · **claim** = doubt · **confirm** = a document · **for** + a duration.' },
+    notes: "Réactivation de la séance 6. Les élèves justifient chaque paire : « He told needs a person: us. »",
   });
 
   d.section('Two forms of each verb');
@@ -55,19 +66,45 @@ exports.build = (d) => {
       { q: 'Is there a form of **be** before it?', hint: 'was · were · is · has been — the passive', yes: { h: 'PAST PARTICIPLE (passive)', t: 'The water **was ++found++** at 6.50.', color: 'accent3' } },
     ],
     last: { h: 'PAST SIMPLE — the dated fact', t: 'The cleaners ==found== it at 6.50. The alarm ==went off== at 23:41.', color: MAGENTA_ },
-    notes: "Deux questions suffisent : have devant → participe ; be devant → participe (passif) ; sinon → prétérit. Tester : « The team has …… (leave) » / « Unit 3 …… (break down) at 02:16 ».",
   });
 
-  d.headerCards({
-    title: 'The 22 verbs of a report, in four families', tag: 'VOCABULARY', page: 'Hors livret',
-    perRow: 4, after: 4, bSize: 15,
-    cards: [
-      { h: 'ALL THE SAME', color: 'accent5', big: 'A · A · A', bullets: false, lines: ['shut · shut · ++shut++', 'put · put · ++put++', 'cut · cut · ++cut++', 'let · let · ++let++', 'set · set · ++set++', 'cost · cost · ++cost++'] },
-      { h: 'PAST = PARTICIPLE', color: 'accent2', big: 'A · B · B', bullets: false, lines: ['find · found · ++found++', 'leave · left · ++left++', 'hear · heard · ++heard++', 'send · sent · ++sent++', 'tell · told · ++told++', 'bring · brought · ++brought++', 'make · made · ++made++', 'have · had · ++had++', 'get · got · ++got++'] },
-      { h: 'BASE = PARTICIPLE', color: 'accent1', big: 'A · B · A', bullets: false, lines: ['come · came · ++come++', 'run · ran · ++run++', 'become · became · ++become++'] },
-      { h: 'THREE FORMS', color: MAGENTA_, big: 'A · B · C', bullets: false, lines: ['be · was / were · ++been++', 'begin · began · ++begun++', 'break · broke · ++broken++', 'go · went · ++gone++', 'know · knew · ++known++', 'ring · rang · ++rung++', 'see · saw · ++seen++', 'speak · spoke · ++spoken++', 'take · took · ++taken++', 'write · wrote · ++written++'] },
+  d.fixText({
+    title: 'Spot the two forms in Iris’s update', tag: 'READING', page: 'Hors livret',
+    instr: 'Find **five past participles** (a result) and **four past simple** forms (a dated fact). Use the tree!',
+    instrA: '++Green++ = past participle (result) · ==magenta== = past simple (dated fact).',
+    docLabel: 'IRIS’S UPDATE', docTitle: 'Atlas House — 9.30 a.m.', docColor: 'accent3', count: 9,
+    paras: [
+      'Since 8 a.m., I have $$taken$$ forty photos of the ceiling, and Samuel has $$checked$$ the rack twice.',
+      'Mark &&called&& me at 6.58. The cleaners &&found&& the water at 6.50 and &&raised&& the alarm. The temperature alarm &&went off&& at 23:41, and a notification was $$sent$$ one minute later.',
+      'Nobody has $$seen$$ the floor under the rack yet, and nobody has $$made$$ any repairs.',
     ],
-    notes: "Les participes sont en vert. Stratégie : apprendre d’abord la famille A · B · C (trois formes différentes) — ce sont les participes du present perfect de la scène 4. Prononciation : brought /brɔːt/, told /təʊld/, known /nəʊn/, written /ˈrɪtn/.",
+    countLabels: ['9 forms to find', '✓ 9 forms'],
+    notes: "Repérage visuel dans un texte : les élèves soulignent (participes) et entourent (prétérits), puis justifient avec l’arbre : « have before it → participle ». Texte inventé, cohérent avec le dossier. Unit 3 et la scène 4 (present perfect) arrivent ensuite.",
+  });
+
+  d.section('Families of verbs');
+  d.sort({
+    title: 'Sort the verbs into four families', tag: 'VOCABULARY', page: 'Hors livret',
+    instr: 'Say the three forms aloud (//go · went · gone//), then put each verb in its family.',
+    bankLabel: 'THE VERBS',
+    categories: [
+      { h: 'A · A · A', sub: 'all the same', color: 'accent5' },
+      { h: 'A · B · B', sub: 'past = participle', color: 'accent2' },
+      { h: 'A · B · A', sub: 'base = participle', color: 'accent1' },
+      { h: 'A · B · C', sub: 'three forms', color: MAGENTA_ },
+    ],
+    items: [
+      { t: 'go', a: 'go · went · gone', cat: 3 }, { t: 'find', a: 'find · found · found', cat: 1 }, { t: 'shut', a: 'shut · shut · shut', cat: 0 },
+      { t: 'come', a: 'come · came · come', cat: 2 }, { t: 'take', a: 'take · took · taken', cat: 3 }, { t: 'leave', a: 'leave · left · left', cat: 1 },
+      { t: 'cut', a: 'cut · cut · cut', cat: 0 }, { t: 'see', a: 'see · saw · seen', cat: 3 }, { t: 'send', a: 'send · sent · sent', cat: 1 },
+      { t: 'run', a: 'run · ran · run', cat: 2 }, { t: 'break', a: 'break · broke · broken', cat: 3 }, { t: 'hear', a: 'hear · heard · heard', cat: 1 },
+      { t: 'put', a: 'put · put · put', cat: 0 }, { t: 'write', a: 'write · wrote · written', cat: 3 }, { t: 'tell', a: 'tell · told · told', cat: 1 },
+      { t: 'be', a: 'be · was / were · been', cat: 3 }, { t: 'bring', a: 'bring · brought · brought', cat: 1 }, { t: 'become', a: 'become · became · become', cat: 2 },
+      { t: 'know', a: 'know · knew · known', cat: 3 }, { t: 'make', a: 'make · made · made', cat: 1 }, { t: 'begin', a: 'begin · began · begun', cat: 3 },
+      { t: 'have', a: 'have · had · had', cat: 1 }, { t: 'ring', a: 'ring · rang · rung', cat: 3 }, { t: 'get', a: 'get · got · got', cat: 1 },
+      { t: 'speak', a: 'speak · spoke · spoken', cat: 3 }, { t: 'let', a: 'let · let · let', cat: 0 },
+    ],
+    notes: "Classement en binôme (5 min). Stratégie : apprendre d’abord la famille A · B · C — ce sont les participes du present perfect de la scène 4. Prononciation : brought /brɔːt/, told /təʊld/, known /nəʊn/, written /ˈrɪtn/.",
   });
 
   d.game({
@@ -83,12 +120,26 @@ exports.build = (d) => {
     tilesLabel: 'THE BOARD', tilesPerRow: 5,
     tiles: ['be', 'begin', 'break', 'bring', 'come', 'find', 'get', 'go', 'have', 'hear', 'know', 'leave', 'make', 'ring', 'run', 'see', 'send', 'shut', 'speak', 'take', 'tell', 'write'],
     win: 'the first team to **ten correct sentences**.',
-    notes: "Accepter toute phrase plausible et correcte liée au dossier. Pour corser : imposer le temps de la phrase (prétérit avec une heure, ou present perfect sans heure).",
+  });
+
+  d.oddOneOut({
+    title: 'Find the intruder', tag: 'VOCABULARY', page: 'Hors livret',
+    instr: 'Grammar or pronunciation: one word in each line does not belong. Say **why**.',
+    rows: [
+      { words: ['went', 'took', 'saw', 'opened'], odd: 3, why: '**opened** is regular (-ed)' },
+      { words: ['broken', 'written', 'taken', 'left'], odd: 3, why: '**left** — no -en participle' },
+      { words: ['cut', 'shut', 'put', 'ran'], odd: 3, why: '**ran** — run · ran · run' },
+      { words: ['found', 'heard', 'sent', 'gone'], odd: 3, why: '**gone** — the past is //went//' },
+      { words: ['brought', 'thought', 'caught', 'laughed'], odd: 3, why: '**laughed** /lɑːft/ — not /ɔːt/' },
+      { words: ['heard', 'word', 'bird', 'heart'], odd: 3, why: '**heart** /hɑːt/ — not /ɜː/' },
+    ],
+    notes: "Lignes 5–6 : intrus de prononciation — faire répéter les séries à voix haute avant de dévoiler.",
   });
 
   d.list({
     title: 'Two minutes with Exhibit A in front of you', tag: 'DRY RUN', page: 'Livret p. 14',
-    instr: 'A · Complete from the log. Use the past form.',
+    instr: 'A · Complete from the log. Use the words in the bank, in the past form.',
+    bank: ['entered', 'left ×2', 'went off', 'was', 'shut down'],
     items: ['The cabling team [[left]] //(leave)// zone 2F at 19.58.', 'The site manager [[entered]] //(enter)// at 20.04 and [[left]] //(leave)// fifteen minutes later.', 'The temperature alarm [[went off]] //(go off)// at 23.41.', 'A notification [[was]] //(be)// delivered one minute later.', 'Unit 3 [[shut down]] //(shut down)// at 02.16.'],
   });
 
@@ -104,6 +155,19 @@ exports.build = (d) => {
     note: { kind: 'trap', text: '//Qui est entré ?// → **Who entered?** (✗ //Who did enter?//) · //Que s’est-il passé ?// → **What happened?** (✗ //What did happen?//)' },
   });
 
+  d.scramble({
+    title: 'Put the words in order — with or without did?', tag: 'GRAMMAR', page: 'Hors livret',
+    instr: 'Subject question → **no did**. Object question → **did + base**.',
+    rows: [
+      { words: ['zone 2F', 'entered', 'at 20:04', 'Who', '?'], a: 'Who entered zone 2F at 20:04?' },
+      { words: ['the water', 'did', 'run', 'How long', '?'], a: 'How long did the water run?' },
+      { words: ['at 02:16', 'happened', 'What', '?'], a: 'What happened at 02:16?' },
+      { words: ['Iris', 'take', 'did', 'What', '?'], a: 'What did Iris take? — photos of the ceiling' },
+      { words: ['call', 'did', 'Mark', 'Who', 'at 6.58', '?'], a: 'Who did Mark call at 6.58? — you!' },
+    ],
+    notes: "Faire répondre oralement à chaque question une fois remise en ordre.",
+  });
+
   d.list({
     title: 'Ask the building manager — and fix the forms', tag: 'DRY RUN', page: 'Livret p. 14',
     number: false, max: 24, maxA: 22,
@@ -112,9 +176,9 @@ exports.build = (d) => {
       '(who / enter / 20.04) → [[Who entered zone 2F at 20.04?]]',
       '(how long / the water / run) → [[How long did the water run?]]',
       { h: 'C · One word is wrong in each sentence. Correct it.' },
-      'The alarm {{was going off}} @@went off@@ at 23.41 exactly.',
-      'Nobody {{did heard}} @@heard@@ the notification.',
-      'The team {{was leave}} @@left@@ at 19.58.',
+      'The alarm {{was going off}}@@ went off@@ at 23.41 exactly.',
+      'Nobody {{did heard}}@@ heard@@ the notification.',
+      'The team {{was leave}}@@ left@@ at 19.58.',
     ],
     note: { kind: 'watch', text: 'B1: the answer is the subject → **no did** · C2: //did// + past form = a double past. Emphatic //did hear// exists, but not in a report.' },
   });
@@ -128,40 +192,22 @@ exports.build = (d) => {
     notes: "Réponses à lire (catégorie / valeur → question attendue) :\nWHO 100 : The cleaning team. → Who entered the ground floor at 06:47?\nWHO 200 : Samuel. → Who said the alarm went off at 11.40?\nWHO 300 : The site manager’s badge. → Which badge entered zone 2F at 20:04?\nWHAT 100 : The temperature alarm. → What went off at 23:41?\nWHAT 200 : Unit 3 shut down. → What happened at 02:16?\nWHAT 300 : Photos of the ceiling. → What did Iris take?\nWHEN 100 : At 6.50. → When did the cleaners find the water?\nWHEN 200 : At 19:58. → When did the cabling team leave zone 2F?\nWHEN 300 : At 23:42. → When did the system send the notification?\nHOW LONG 100 : Fifteen minutes. → How long did badge 0102 stay in zone 2F?\nHOW LONG 200 : About seven hours. → How long did the water run?\nHOW LONG 300 : Three minutes. → How long after the temperature alarm did the humidity alarm go off?",
   });
 
-  d.table({
-    title: 'Case File Jeopardy — the questions', tag: 'GAME', page: 'Hors livret', mode: 'a',
-    headers: ['THE ANSWER', 'THE QUESTION'], colW: [4.6, 7.53], align: ['left', 'left'], max: 16,
-    rows: [
-      ['**WHO? 100** — The cleaning team.', '[[Who entered the ground floor at 06:47?]]'],
-      ['**WHO? 200** — Samuel.', '[[Who said the alarm went off at 11.40?]]'],
-      ['**WHAT? 100** — The temperature alarm.', '[[What went off at 23:41?]]'],
-      ['**WHAT? 200** — Unit 3 shut down.', '[[What happened at 02:16?]]'],
-      ['**WHAT? 300** — Photos of the ceiling.', '[[What did Iris take?]] //(object question)//'],
-      ['**WHEN? 100** — At 6.50.', '[[When did the cleaners find the water?]]'],
-      ['**WHEN? 300** — At 23:42.', '[[When did the system send the notification?]]'],
-      ['**HOW LONG? 100** — Fifteen minutes.', '[[How long did badge 0102 stay in zone 2F?]]'],
-      ['**HOW LONG? 200** — About seven hours.', '[[How long did the water run?]]'],
-    ],
-    notes: "Sélection pour la correction collective (liste complète dans les notes de la diapositive précédente).",
-  });
-
   d.section('Collocations and idioms');
-  d.table({
-    title: 'What professionals do with an alarm', tag: 'WORD FILE', page: 'Livret p. 15',
-    instr: 'These verb + noun pairs are not a matter of choice: you learn them as **one block**.',
-    headers: ['PROFESSIONALS SAY', 'THEY NEVER SAY', 'FRANÇAIS'], colW: [4.0, 4.0, 4.13],
-    rows: [
-      ['to **raise** the alarm', '{{to lift the alarm}}', 'donner l’alerte'],
-      ['to **assess** the damage', '{{to count the damage}}', 'évaluer les dégâts'],
-      ['to **file** a claim', '{{to make a claim file}}', 'déclarer un sinistre'],
-      ['to **take** steps', '{{to do steps}}', 'prendre des mesures'],
-      ['to **draw up** a report', '{{to put up a report}}', 'rédiger / établir un rapport'],
-      ['to **carry out** an inspection', '{{to run an inspection}}', 'effectuer une inspection'],
-      ['to **meet** a deadline', '{{to respect a deadline}}', 'respecter un délai'],
-      ['to **make good** the floor', '{{to repair back the floor}}', 'remettre le sol en état'],
+  d.match({
+    title: 'What professionals do with an alarm — match the blocks', tag: 'WORD FILE', page: 'Livret p. 15',
+    instr: 'Verb + noun: these pairs are not a matter of choice. Match each verb (1–8) with its noun (A–H).',
+    pairs: [
+      ['to raise', 'the alarm', 'donner l’alerte'],
+      ['to assess', 'the damage', 'évaluer les dégâts'],
+      ['to file', 'a claim', 'déclarer un sinistre'],
+      ['to take', 'steps', 'prendre des mesures'],
+      ['to draw up', 'a report', 'rédiger un rapport'],
+      ['to carry out', 'an inspection', 'effectuer une inspection'],
+      ['to meet', 'a deadline', 'respecter un délai'],
+      ['to make good', 'the floor', 'remettre en état'],
     ],
-    mode: 'a',
-    notes: "Faux ami : respecter un délai → meet a deadline (✗ respect a deadline).",
+    order: [5, 2, 7, 0, 3, 6, 1, 4], split: 0.5,
+    instrA: 'Never: ✗ //lift the alarm// · ✗ //count the damage// · ✗ //do steps// · ✗ //respect a deadline// — say the **block**.',
   });
 
   d.mindmap({
@@ -178,6 +224,20 @@ exports.build = (d) => {
     notes: "Jeu rapide : l’enseignant dit un nom (the damage, a deadline…), la classe répond avec le verbe. Puis l’inverse.",
   });
 
+  d.fixText({
+    title: 'The intern’s note — correct it before Mark reads it', tag: 'YOUR MOVE', page: 'Hors livret',
+    instr: 'The new intern wrote this note for Mark. Find **six mistakes**: three wrong blocks, three wrong participles.',
+    instrA: 'Blocks from the Word file · participle after **have / has**.',
+    docLabel: 'INTERN’S NOTE', docTitle: 'Atlas House — what we have done so far', count: 6, docColor: 'accent1',
+    paras: [
+      'This morning the cleaners {{lifted the alarm}}@@ raised the alarm@@ at 6.50.',
+      'Iris {{has took}}@@ has taken@@ forty photos of the ceiling, and Mark has already {{did steps}}@@ taken steps@@ to protect the servers.',
+      'An expert will {{count the damage}}@@ assess the damage@@ this afternoon. Nobody {{has saw}}@@ has seen@@ the floor under the rack yet.',
+      'We must {{respect the deadline}}@@ meet the deadline@@ of Friday.',
+    ],
+    notes: "Texte inventé. Travail individuel puis par deux ; chaque correction est justifiée : « a block » (collocation) ou « have + participle ».",
+  });
+
   d.picture({
     title: 'Two idioms: a warning and a compliment', tag: 'WORD FILE', page: 'Livret p. 15', img: 's3_redflag', imgW: 6.4,
     alt: 'Left: a woman raises a red flag over a risk assessment. Right: Samuel reacts fast to alerts on his laptop and phone.',
@@ -189,41 +249,25 @@ exports.build = (d) => {
     ],
   });
 
-  d.list({
-    title: 'Red flag or on the ball?', tag: 'GAME', page: 'Hors livret',
-    instr: 'Your teacher reads each situation. Hold up **red** (a red flag) or **green** (on the ball) — then say it in a full sentence.',
-    max: 21, sizeA: 17,
+  d.trueFalse({
+    title: 'True or false? Idioms and blocks', tag: 'VOCABULARY', page: 'Livret p. 15',
+    instr: 'Hold up **T** or **F** — and correct the false ones.',
     items: [
-      { q: 'The cleaners called for help two minutes after they found the water.', a: 'The cleaners **were on the ball**: they reacted at once.' },
-      { q: 'A notification was delivered at 23:42 — and nobody reacted.', a: 'That **raises a red flag**: somebody could have known.' },
-      { q: 'Samuel printed the log before anybody asked him.', a: 'Samuel **was on the ball**.' },
-      { q: 'The same pipe has caused trouble since the summer, and nobody repaired it.', a: 'That **raises a red flag**: somebody **dropped the ball**.' },
-      { q: 'A badge entered zone 2F after the works had ended.', a: 'That **raises a red flag** — to check, without naming anyone.' },
-      { q: 'Iris photographed the ceiling before anything was moved.', a: 'Iris **was on the ball**.' },
+      { s: '“To raise a red flag” is a compliment.', a: false, why: 'it points out a risk.' },
+      { s: 'If you are “on the ball”, you react fast.', a: true, why: 'alert and quick to react.' },
+      { s: '“To drop the ball” means to make a mistake.', a: true, why: 'by not paying attention.' },
+      { s: '“To keep an eye on” the pipe means to repair it.', a: false, why: 'it means to watch it closely.' },
+      { s: 'In English, you “respect” a deadline.', a: false, why: 'you **meet** a deadline.' },
+      { s: '“To draw up a report” means to write it.', a: true, why: 'rédiger un rapport.' },
+      { s: 'You “file” a claim with an insurer.', a: true, why: 'déclarer un sinistre.' },
+      { s: '“To make good the floor” means to clean it.', a: false, why: 'it means to repair it.' },
     ],
-    notes: "Cartons rouge / vert (ou mains levées). Exiger une phrase complète avec l’expression. Item 5 : rappeler la règle « name the line, not the person ».",
-  });
-
-  d.list({
-    title: 'Use the block, not the translation', tag: '+ EXTRA', page: 'Hors livret',
-    instr: 'Complete with the right collocation (verb + noun), in the right form.',
-    max: 22, maxA: 20,
-    items: [
-      'The cleaners [[raised the alarm]] at 6.50.',
-      'An expert will [[assess the damage]] this afternoon.',
-      'We should not [[file a claim]] before the cause is established.',
-      'Legal has already [[taken steps]] to protect the file.',
-      'You must [[draw up a report]] by 5 p.m.',
-      'A final inspection [[was carried out]] at 20.04.',
-      'If the estimate arrives late, we will not [[meet the deadline]].',
-      'The property manager must [[make good the floor]] before the handover.',
-    ],
-    notes: "Item 6 : passif — annonce la phrase « sans nom » de la scène 9.",
+    notes: "Cartons T / F (ou pouce levé / baissé). Pour chaque F, un élève donne la bonne formule dans une phrase du dossier.",
   });
 
   d.closing({
     cliff: 'At nine o’clock Mark will ask you **what holds up**. Six statements were made in the room. Which ones can you prove today?',
-    homework: ['Learn the **22 irregular verbs** — family by family.', 'Learn the **8 collocations** of the Word file (p. 15).', 'Prepare p. 16: decide **P, N or C** for each statement.'],
+    homework: ['Learn the irregular verbs — **family by family**.', 'Learn the **8 blocks** of the Word file (p. 15).', 'Prepare p. 16: decide **P, N or C** for each statement.'],
     exit: 'Ask the two questions you would ask the building manager — one **Who…?**, one **How long…?**',
   });
 };

@@ -4,7 +4,8 @@ exports.meta = {
   subtitle: 'A printed sheet, eight lines, and one contradiction.', pages: 'Livret p. 11–12', img: 's3_log', time: '09.05', sceneLabel: 'SCENE 3',
   coverNotes: "Séance 6 — Scène 3 (09.05), livret p. 11–12 : l’Exhibit A (journal de la GTB) contredit ce qui a été dit dans la salle.\n"
     + "Objectifs : lire des données, dire les heures (24 h, a.m. / p.m.), donner une durée, comparer deux sources, rapporter des propos (say, tell, claim, confirm), nommer sans accuser.\n"
-    + "Déroulé indicatif (90 min) : warm-up (5') · scène + Exhibit A + mots du journal (15') · lire les heures + Time bingo (15') · Back to the board (10') · Your move Q1–Q6 (25') · arbre « Can I write it? » + room vs log (10') · reporting verbs + Press conference (10').\n"
+    + "Formats variés : intrus (warm-up) · repérage dans l’Exhibit · appariement · mots mêlés · remise en ordre · classement · phrases à compléter · QCM · texte à corriger.\n"
+    + "Déroulé indicatif (90 min) : warm-up (5') · scène + Exhibit A + repérage (15') · vocabulaire : appariement + mots mêlés (10') · heures + Time bingo (10') · remise en ordre + classement (15') · Your move Q1–Q6 (20') · arbres + texte à corriger (10') · Press conference (5').\n"
     + "Les diapositives GAME et + EXTRA sont facultatives.",
 };
 
@@ -12,11 +13,18 @@ exports.build = (d) => {
   d.cover();
   d.section('Warm-up');
 
-  d.list({
-    title: 'Warm-up: -ing and past forms', tag: 'WARM-UP', page: 'Séance 5',
-    instr: 'Write the -ing form and the past form. Use the spelling tree.',
-    cols: 2, max: 26, maxA: 24,
-    items: ['run → [[running / ran]]', 'stop → [[stopping / stopped]]', 'notice → [[noticing / noticed]]', 'carry → [[carrying / carried]]', 'leave → [[leaving / left]]', 'lie (mentir) → [[lying / lied]]'],
+  d.oddOneOut({
+    title: 'Warm-up: find the spelling mistake', tag: 'WARM-UP', page: 'Séance 5',
+    instr: 'One form in each line is **wrong**. Find it — and spell it right.',
+    rows: [
+      { words: ['running', 'stoping', 'planned', 'lying'], odd: 1, why: '**stopping** — double the p' },
+      { words: ['noticed', 'carried', 'lieing', 'travelled'], odd: 2, why: '**lying** — ie → y' },
+      { words: ['visitted', 'opened', 'happened', 'preferred'], odd: 0, why: '**visited** — VIsit: no double' },
+      { words: ['carrying', 'carryed', 'studied', 'tried'], odd: 1, why: '**carried** — consonant + y → ied' },
+      { words: ['leaving', 'noticeing', 'arriving', 'taking'], odd: 1, why: '**noticing** — drop the -e' },
+      { words: ['began', 'runned', 'left', 'heard'], odd: 1, why: '**ran** — irregular' },
+    ],
+    notes: "Rappel de l’arbre d’orthographe de la séance 5. Faire épeler la bonne forme à voix haute, en anglais.",
   });
 
   d.section('Exhibit A');
@@ -48,32 +56,53 @@ exports.build = (d) => {
   });
 
   d.exhibitQuiz({
-    ...EXHIBIT_A, docTitle: 'Night log, Monday to Tuesday', title: 'Read it like an assessor', tag: 'READING', page: 'Livret p. 11',
+    ...EXHIBIT_A, docTitle: 'Night log, Monday to Tuesday', title: 'Spot it in the log', tag: 'READING', page: 'Livret p. 11',
+    askLabel: 'READ IT LIKE AN ASSESSOR',
     questions: [
       { q: 'Which line is **one minute** off what Samuel said?', a: '**23:41** — Samuel said 11.40.', rows: [3] },
       { q: 'Which line shows **somebody** in 2F after the works?', a: '**20:04** — an entry, until the exit at **20:19**.', rows: [1, 2] },
       { q: 'Which line shows that somebody **could** have known?', a: '**23:42** — a notification was **delivered**.', rows: [4] },
     ],
-    notes: "Lecture silencieuse, 2 minutes. Les élèves répondent par le numéro de ligne (l’heure), pas par un nom.",
+    notes: "Repérage visuel, 2 minutes : les élèves répondent par l’heure de la ligne, pas par un nom.",
     notesA: "Les lignes surlignées portent le numéro de la question. Ces trois lignes reviennent dans Your move Q1–Q3.",
   });
 
-  d.table({
-    title: 'The words of a log', tag: 'WORD FILE', page: 'Livret p. 11',
-    headers: ['ENGLISH', 'FRANÇAIS', 'IN EXHIBIT A'], colW: [3.1, 3.2, 5.83], boldCol: 0, align: ['center', 'center', 'left'],
-    rows: [
-      ['a log · a line', 'un journal · une ligne', 'Samuel taps a **line** of the **log**.'],
-      ['a printout', 'une impression papier', 'He puts a **printout** on the table.'],
-      ['a threshold', 'un seuil', 'TEMPERATURE ALARM — **threshold** 28 °C'],
-      ['an access badge', 'un badge d’accès', '**access badge** 0447'],
-      ['an entry · an exit', 'une entrée · une sortie', 'badge 0102 — **entry** … — **exit**'],
-      ['a notification · delivered', 'une alerte · remise', 'Alarm **notification** sent — status: **delivered**'],
-      ['humidity · a sensor', 'l’humidité · un capteur', '**HUMIDITY** ALARM — threshold 85 %'],
-      ['an automatic shutdown', 'un arrêt automatique', 'unit 3 — **automatic shutdown**'],
-      ['a rack · a unit', 'une baie · un serveur', 'Server **rack** A2 — **unit** 3'],
-      ['GF · 2F', 'rez-de-chaussée · 2e étage', 'Zone **GF** — cleaning team'],
+  d.section('Words of a log');
+  d.match({
+    title: 'The words of a log — match them', tag: 'VOCABULARY', page: 'Livret p. 11',
+    instr: 'Match each word (1–8) with its meaning (A–H).',
+    pairs: [
+      ['a threshold', 'the level that starts an alarm', 'un seuil'],
+      ['an entry', 'a badge going in', 'une entrée'],
+      ['an exit', 'a badge going out', 'une sortie'],
+      ['delivered', 'it reached the phone', 'remis'],
+      ['humidity', 'water in the air', 'l’humidité'],
+      ['an automatic shutdown', 'a machine stops by itself', 'un arrêt automatique'],
+      ['a printout', 'a document on paper', 'une impression'],
+      ['GF', 'the ground floor', 'le rez-de-chaussée'],
     ],
-    notes: "Prononciation : threshold /ˈθreʃhəʊld/ · humidity /hjuːˈmɪdəti/ · sensor /ˈsensə/ · GF = ground floor (UK) = first floor (US) !",
+    order: [4, 0, 6, 2, 7, 1, 5, 3],
+    instrA: '**GF** = ground floor (UK) = //first floor// (US) · say: threshold /ˈθreʃhəʊld/ · humidity /hjuːˈmɪdəti/.',
+  });
+
+  d.wordSearch({
+    title: 'Twelve words hidden in the log', tag: 'GAME', page: 'Hors livret',
+    rows: 10, cols: 12, seed: 11,
+    words: [
+      { w: 'THRESHOLD', r: 0, c: 0, d: 'h', fr: 'seuil' },
+      { w: 'RACK', r: 1, c: 1, d: 'h', fr: 'baie' },
+      { w: 'SHUTDOWN', r: 2, c: 2, d: 'h', fr: 'arrêt' },
+      { w: 'HUMIDITY', r: 4, c: 3, d: 'h', fr: 'humidité' },
+      { w: 'ENTRY', r: 6, c: 0, d: 'h', fr: 'entrée' },
+      { w: 'EXIT', r: 8, c: 1, d: 'h', fr: 'sortie' },
+      { w: 'UNIT', r: 9, c: 0, d: 'h', fr: 'serveur' },
+      { w: 'ALARM', r: 9, c: 5, d: 'h', fr: 'alarme' },
+      { w: 'BADGE', r: 2, c: 0, d: 'v', fr: 'badge' },
+      { w: 'SENSOR', r: 1, c: 11, d: 'v', fr: 'capteur' },
+      { w: 'ZONE', r: 5, c: 10, d: 'v', fr: 'zone' },
+      { w: 'LOG', r: 6, c: 7, d: 'v', fr: 'journal' },
+    ],
+    notes: "Mots mêlés en binôme, 4 minutes : les mots sont horizontaux (→) ou verticaux (↓). Le premier binôme qui trouve les 12 mots les lit à voix haute dans une phrase tirée de l’Exhibit A.",
   });
 
   d.section('Times and durations');
@@ -90,7 +119,7 @@ exports.build = (d) => {
       { label: '+ A DURATION', big: 'for', fr: 'pendant', ex: 'The water ran **for** about seven hours.' },
       { label: 'ATTENTION', big: 'for ≠ during', fr: 'pendant + durée · + nom', ex: '**for** seven hours · **during** the night', kind: 'attention' },
     ],
-    notes: "Faire lire Exhibit A ligne par ligne avec deux lectures de l’heure. ✗ during seven hours → for seven hours.",
+    notes: "✗ during seven hours → for seven hours.",
   });
 
   d.game({
@@ -105,28 +134,49 @@ exports.build = (d) => {
     ],
     tilesLabel: 'THE BOARD', tiles: ['20:04', '23:41', '06:47', '02:16', '19:58', '23:42', '20:19', '23:44', '12:00', '00:00', '07:15', '18:30', '13:05', '08:50', '21:40', '06:50'],
     win: 'the first correct line. Second round: a student reads the times.',
-    notes: "Lire dans le désordre, en variant les formes :\n20:04 twenty oh four / eight oh four p.m. · 23:41 twenty-three forty-one / eleven forty-one p.m. · 06:47 six forty-seven a.m. / thirteen minutes to seven · 02:16 two sixteen a.m. / sixteen minutes past two · 19:58 nineteen fifty-eight / two minutes to eight · 23:42 eleven forty-two p.m. · 20:19 eight nineteen p.m. · 23:44 sixteen minutes to midnight · 12:00 noon / midday · 00:00 midnight · 07:15 a quarter past seven · 18:30 half past six p.m. · 13:05 five past one p.m. · 08:50 ten to nine a.m. · 21:40 twenty to ten p.m. · 06:50 ten to seven a.m.\nVérifier la ligne gagnante à voix haute.",
+    notes: "Lire dans le désordre, en variant les formes :\n20:04 twenty oh four / eight oh four p.m. · 23:41 twenty-three forty-one / eleven forty-one p.m. · 06:47 six forty-seven a.m. / thirteen minutes to seven · 02:16 two sixteen a.m. · 19:58 two minutes to eight · 23:42 eleven forty-two p.m. · 20:19 eight nineteen p.m. · 23:44 sixteen minutes to midnight · 12:00 noon · 00:00 midnight · 07:15 a quarter past seven · 18:30 half past six p.m. · 13:05 five past one p.m. · 08:50 ten to nine a.m. · 21:40 twenty to ten p.m. · 06:50 ten to seven a.m.",
   });
 
-  d.compare({
-    title: 'Back to the board — read a log aloud', tag: 'SPEAKING', page: 'Hors livret',
-    left: { h: 'LOG 1 — A reads, B writes', color: 'accent2', icon: 'FaVolumeUp', bullets: false, items: ['**18:30** — Zone GF — main door — locked', '**21:15** — Zone 1F — motion sensor — alarm', '**21:32** — security patrol — arrived on site', '**21:40** — Zone 1F — window open — false alarm', '**00:05** — Zone 2F — temperature 24 °C — normal'] },
-    right: { h: 'LOG 2 — B reads, A writes', color: 'accent4', icon: 'FaVolumeUp', bullets: false, items: ['**06:12** — Zone GF — badge entry — cleaning team', '**07:03** — car park — barrier — opened', '**08:45** — Zone 3F — lift 2 — out of order', '**10:20** — lift engineer — arrived on site', '**12:00** — Zone 3F — lift 2 — back in service'] },
-    note: { kind: 'tip', label: 'How to play', text: 'B sits **with their back to the screen** and writes Log 1 as A reads it. Then swap for Log 2. Check together: every time right? Read times **two ways**.' },
-    notes: "Dictée en binôme : écoute, prononciation des heures, épellation éventuelle (« Sorry, did you say fifteen or fifty? »). Ces deux journaux sont inventés, hors dossier.",
-  });
-
-  d.ladder({
-    title: 'The room vs the log: words to compare', tag: 'VOCABULARY', page: 'Livret p. 12',
-    rows: [
-      { pct: '✓', h: 'MATCHES', words: 'matches · confirms · is consistent with', ex: 'The log confirms that unit 3 shut down at 02:16.', color: 'accent3' },
-      { pct: '≈', h: 'ROUGHLY', words: 'roughly matches · is close to', ex: '“Until eight” roughly matches 19:58.', color: '5E9A3C' },
-      { pct: '+1 min', h: 'A GAP', words: 'one minute later than · three minutes after', ex: '23:41 is one minute later than Samuel said.', color: 'accent2' },
-      { pct: '½', h: 'PARTLY', words: 'partly confirms · only shows', ex: 'The log only shows unit 3 — not two units.', color: 'accent1' },
-      { pct: '✗', h: 'CONTRADICTS', words: 'contradicts · does not match', ex: 'The 20:04 entry contradicts “nobody was on site”.', color: 'accent6' },
-      { pct: '∅', h: 'NO RECORD', words: 'the log does not say · there is no record of', ex: 'There is no record of anyone reading the alert.', color: 'accent5' },
+  d.section('The night, in order');
+  d.reorder({
+    title: 'Put the night back in order', tag: 'READING', page: 'Livret p. 11',
+    instr: 'Booklets **closed**! Number the eight events from 1 to 8 — then check with Exhibit A.',
+    instrA: 'With the time from the log — and tell it with //first, then, after that, finally//.',
+    items: [
+      { tag: '19:58', t: 'The cabling team left zone 2F.' },
+      { tag: '20:04', t: 'A badge entered zone 2F after the works.' },
+      { tag: '20:19', t: 'The same badge left zone 2F.' },
+      { tag: '23:41', t: 'The temperature alarm went off.' },
+      { tag: '23:42', t: 'A notification was sent to a mobile — and delivered.' },
+      { tag: '23:44', t: 'The humidity alarm went off.' },
+      { tag: '02:16', t: 'A server unit shut down automatically.' },
+      { tag: '06:47', t: 'The cleaning team entered the ground floor.' },
     ],
-    notes: "Outil pour les questions Q1 à Q6 et pour le tableau « The room vs the log ».",
+    shuffle: [3, 7, 1, 5, 0, 6, 2, 4],
+    notes: "Remise en ordre de mémoire (2 min), puis vérification dans l’Exhibit A. Faire raconter la nuit en binôme avec les connecteurs de la séance 5.",
+  });
+
+  d.sort({
+    title: 'The room vs the log: sort the statements', tag: 'YOUR MOVE', page: 'Livret p. 8–12',
+    instr: 'What was said at 08.15 — what does Exhibit A do with it? Put each statement in a column.',
+    categories: [
+      { h: 'MATCHES', sub: 'confirms · roughly matches', color: 'accent3' },
+      { h: 'PARTLY', sub: 'one minute off · only shows', color: 'accent2' },
+      { h: 'CONTRADICTS', sub: 'does not match', color: 'accent6' },
+      { h: 'NOT IN THE LOG', sub: 'there is no record of', color: 'accent5' },
+    ],
+    items: [
+      { t: '“The cleaners found water at 6.50.”', a: '“Water at 6.50” — entry 06:47', cat: 0 },
+      { t: '“Nobody was on site.”', a: '“Nobody on site” — entry 20:04', cat: 2 },
+      { t: '“The alarm went off at 11.40.”', a: '“11.40” — the log says 23:41', cat: 1 },
+      { t: '“The pipe leaked all night.”', a: '“The pipe leaked” — no record', cat: 3 },
+      { t: '“The team worked until eight.”', a: '“Until eight” — exit 19:58', cat: 0 },
+      { t: '“Two units have stopped.”', a: '“Two units” — only unit 3', cat: 1 },
+      { t: '“Nobody heard the alarm.”', a: '“Nobody heard” — no record', cat: 3 },
+      { t: '“The alarm system worked.”', a: '“It worked” — sent 23:42', cat: 0 },
+    ],
+    notes: "Classement en binôme, puis justification à l’oral avec le mot de la colonne : « The log roughly matches what Iris said: the exit was at 19:58. »",
+    notesA: "« Nobody heard » : le journal montre une notification délivrée à 23:42 — quelqu’un aurait pu savoir — mais il ne dit rien de ce que les gens ont entendu.",
   });
 
   d.section('Your move');
@@ -137,16 +187,19 @@ exports.build = (d) => {
     opts: ['The same time, to the minute — Samuel read it from the log.', '23:41 — one minute later than he remembered, so his figure came from memory.', '23:44 — he confused the temperature alarm with the humidity alarm.', 'The log gives no time for the alarm, only for the notification.'],
     ans: 1,
     why: 'Samuel said **11.40 p.m.**; the log says **23:41**. One minute is nothing — unless the assessor notices that the figure came **from memory**. In the report, every time comes **from Exhibit A**.',
-    notes: "Vote à main levée avant la correction.",
   });
 
   d.list({
-    title: 'Read the log against the room — Q2 · Q4 · Q5', tag: 'YOUR MOVE', page: 'Livret p. 12',
-    number: false, max: 22, sizeA: 17,
+    title: 'Q2 · Q4 · Q5 — answer in a full sentence', tag: 'YOUR MOVE', page: 'Livret p. 12',
+    instr: 'Complete the answer frames from Exhibit A. Then copy the full sentences into your booklet.',
+    number: false, max: 21, maxA: 20, gap: 8,
     items: [
-      { q: '**2.** Samuel said that nobody was on site that night. **Which line shows that somebody was in zone 2F after the cabling team had gone, and for how long?**', a: 'Lines **20:04** (entry) and **20:19** (exit): somebody was in zone 2F for **fifteen minutes** after the cabling team left at 19:58.' },
-      { q: '**4.** Between which two lines did the water run without anyone knowing? Give the length of that period.', a: 'Between **23:41** (temperature alarm) and **06:47** (cleaning team entry): about **seven hours** (7 h 06).' },
-      { q: '**5.** What happened at 02:16, and what does it prove about the water?', a: 'Unit 3 of rack A2 **shut down automatically**: the damage **was still spreading** more than two hours after the alarm. It does **not** prove where the water came from.' },
+      { h: '2 · Who was in zone 2F after the works?' },
+      { t: 'Lines [[20:04]] and [[20:19]] show that somebody was in zone 2F for [[fifteen minutes]] after the cabling team left at [[19:58]].' },
+      { h: '4 · How long did the water run before anyone knew?' },
+      { t: 'Between [[23:41]] (temperature alarm) and [[06:47]] (cleaning team), the water ran for about [[seven hours]].' },
+      { h: '5 · What happened at 02:16 — and what does it prove?' },
+      { t: 'Unit 3 [[shut down automatically]]: the damage was still [[spreading]]. It does [[not prove]] where the water came from.' },
     ],
     notesA: "Q4 : accepter aussi 23:42 → 06:47 (7 h 05), si l’élève part de la notification. Q5 : insister sur la limite de la preuve.",
   });
@@ -159,14 +212,15 @@ exports.build = (d) => {
     why: '23:42: a notification was **sent** and **delivered** to a mobile — the phone received it, so somebody **could** have known. It does not prove that anybody **read** it (see the IT expert, Séance 8).',
   });
 
-  d.list({
-    title: 'Read the log against the room — Q6', tag: 'YOUR MOVE', page: 'Livret p. 12',
-    number: false, max: 24, maxA: 20,
-    items: [
-      { q: '**6.** Which single line of this log is the most dangerous for us, and who does it point at? Answer in two lines — **and be careful how you name that person.**', a: '**20:04** — badge 0102, entry, “site manager”: it places one identifiable person in zone 2F **after** the works, a few hours before the alarm. Careful wording: //An access to zone 2F was recorded at 20:04.// — no badge number, no job title.' },
-    ],
-    note: { kind: 'watch', text: 'also acceptable: **23:42** (the mobile that received the alert), if justified · ✗ //The site manager entered the room at 20:04.// = an accusation.' },
-    notesA: "Prépare la scène 9 (« the fact stays, the number goes »). Le livret fait dire à Mark à la fin de la scène 3 : « Do not write that badge number anywhere. Not yet. »",
+  d.mcq({
+    title: 'Q6 — the lawyer’s red pen', tag: 'YOUR MOVE', page: 'Livret p. 12',
+    instr: 'The most dangerous line is **20:04**: it points at one person. Three sentences are dangerous — one is safe.',
+    q: '**6.** Which sentence can go in the report?',
+    opts: ['The site manager entered the technical room at 20:04.', 'Badge 0102 entered zone 2F at 20:04.', 'An access to zone 2F was recorded at 20:04.', 'Somebody sneaked into zone 2F at 20:04.'],
+    ans: 2,
+    why: 'It keeps the **fact** (time, zone) and names **nobody**. A = an accusation · B = a badge number identifies a person · D = a guess about intentions.',
+    notes: "Q6 du livret : d’abord identifier la ligne (20:04) et la personne visée (le site manager), puis choisir la formulation. Accepter aussi 23:42 comme ligne dangereuse si c’est justifié.",
+    notesA: "Prépare la scène 9 (« the fact stays, the number goes »). Le livret fait dire à Mark : « Do not write that badge number anywhere. Not yet. »",
   });
 
   d.tree({
@@ -177,21 +231,6 @@ exports.build = (d) => {
       { q: 'Does it **name** someone — a name, a badge, a job title?', hint: 'badge 0102 · “site manager”', yes: { h: 'REMOVE THE NAME — KEEP THE FACT', t: '//An access to zone 2F **was recorded** at 20:04.//', color: 'accent1' } },
     ],
     last: { h: 'WRITE IT — with its time and its source', t: '//The temperature alarm went off at 23:41 (Exhibit A).//', color: 'accent3' },
-    notes: "Passer les lignes de l’Exhibit A dans l’arbre. La tournure passive (was recorded, was sent) permet de rapporter un fait sans nommer personne.",
-  });
-
-  d.table({
-    title: 'The room vs the log', tag: '+ EXTRA', page: 'Livret p. 8–12',
-    instr: 'What was said at 08.15 — what Exhibit A shows — your verdict, with a word from the comparison scale.',
-    headers: ['IN THE ROOM (08.15)', 'IN THE LOG', 'VERDICT'], colW: [4.6, 3.3, 4.23], align: ['left', 'center', 'center'],
-    rows: [
-      ['Samuel: the alarm went off at **11.40 p.m.**', '[[23:41]]', '[[one minute later — from memory]]'],
-      ['Iris: the team was working **until eight**', '[[exit at 19:58]]', '[[roughly matches — write 19:58]]'],
-      ['Samuel: **nobody** was on site', '[[entry 20:04 → exit 20:19]]', '[[contradicts it (until 20:19)]]'],
-      ['Mark: **two units** have stopped', '[[only unit 3 (02:16)]]', '[[partly confirms — check unit 2]]'],
-      ['Briefing: **nobody heard** it', '[[notification delivered 23:42]]', '[[not proved — somebody could have known]]'],
-    ],
-    notes: "Synthèse : elle prépare directement « Sort the witnesses » (p. 16, séance 8).",
   });
 
   d.section('Reporting verbs');
@@ -217,20 +256,22 @@ exports.build = (d) => {
       { q: 'Is it in a **document**, or proved?', hint: 'the log · a photo · a report', yes: { h: 'CONFIRM · STATE · REPORT', t: 'The log **confirms** that unit 3 shut down.', color: 'accent3' } },
     ],
     last: { h: 'SAY (THAT)', t: 'Samuel **said** that the alarm went off at 11.40.', color: 'tx2' },
-    notes: "Concordance des temps : au discours indirect après un verbe au passé, le présent recule au prétérit (is → was).",
+    notes: "Concordance des temps : « The floor is soaked. » → Iris told Mark that the floor was soaked.",
   });
 
-  d.list({
-    title: 'Report it — at the right level of certainty', tag: '+ EXTRA', page: 'Hors livret',
-    instr: 'Rewrite each statement with a reporting verb that shows how much you trust it.',
-    max: 22, maxA: 19,
-    noteQ: { kind: 'tip', label: 'One step back', text: '//“The floor **is** soaked.”// → Iris told Mark that the floor **was** soaked.' },
-    items: [
-      'Samuel: “The alarm went off at 11.40.” //(the log says 23:41)// → [[Samuel said that the alarm went off at 11.40, but the log shows 23:41.]]',
-      'Verdier: “The pipe is old.” //(nothing supports it)// → [[Verdier claims that the pipe is old.]]',
-      'The log: unit 3 shut down at 02:16. → [[The log confirms that unit 3 shut down at 02:16.]]',
-      'Iris to Mark: “The floor is soaked.” → [[Iris told Mark that the floor was soaked.]]',
+  d.fixText({
+    title: 'Mark’s email — check it before he sends it', tag: 'YOUR MOVE', page: 'Hors livret',
+    instr: 'Mark asks you to read his email to the insurer. Find **six mistakes**: grammar, a time, a verb — and one dangerous sentence.',
+    instrA: 'A report email = the **time from the log**, the **right reporting verb**, **no names**.',
+    docLabel: 'DRAFT EMAIL', docTitle: 'To: the insurer — Subject: Atlas House, water damage', count: 6, docColor: 'accent2',
+    paras: [
+      'Dear Sir or Madam,',
+      'This morning our analyst {{said us}}@@ told us@@ that the temperature alarm went off {{at around 11.40}}@@ at 23:41@@. The log {{claims}}@@ confirms@@ that unit 3 shut down at 02:16.',
+      '{{The site manager entered zone 2F at 20:04.}}@@ An access to zone 2F was recorded at 20:04.@@ The cleaners {{have found}}@@ found@@ the water at 6.50, and it ran {{during}}@@ for@@ about seven hours.',
+      'Kind regards, Mark Shaw',
     ],
+    notes: "Lecture individuelle (3 min), comparaison par deux, puis correction collective. Chaque correction est justifiée par une règle vue dans la séance.",
+    notesA: "1. say → tell + personne · 2. l’heure vient du journal (23:41), pas de la mémoire · 3. claim exprime un doute : un journal confirme · 4. ne nommer personne : tournure passive · 5. heure précise → prétérit (séance 3) · 6. pendant + durée → for.",
   });
 
   d.game({
@@ -245,12 +286,12 @@ exports.build = (d) => {
     ],
     say: ['//Can you confirm that…?//', '//What time exactly did…?//', '//We cannot confirm that yet.//', '//No comment at this stage.//', '//Atlas House **claims / confirms / reports** that…//'],
     win: 'the best headline: **true, precise — and it names nobody.**',
-    notes: "Variante : un journaliste « à scandale » essaie d’obtenir un nom ; les porte-parole doivent rester factuels (passif, « an access was recorded »). Bon réinvestissement de l’arbre « Can I write it in the report? ».",
+    notes: "Variante : un journaliste « à scandale » essaie d’obtenir un nom ; les porte-parole doivent rester factuels (passif, « an access was recorded »).",
   });
 
   d.closing({
     cliff: 'The log does not say what Samuel remembered. Before ten o’clock, you will need eight verbs — and **two forms of each**: the dated fact, and the result.',
-    homework: ['Learn the **words of a log**.', 'Read Exhibit A aloud at home: every time, **two ways**.', 'Learn the reporting verbs: **say, tell, claim, report, confirm**.'],
+    homework: ['Learn the **words of a log** (matching + word search).', 'Read Exhibit A aloud at home: every time, **two ways**.', 'Learn the reporting verbs: **say, tell, claim, report, confirm**.'],
     exit: 'In one sentence: what does line **23:42** prove — and what does it **not** prove?',
   });
 };

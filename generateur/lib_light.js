@@ -30,7 +30,7 @@ const TAGS = {
 // **bold**  //italic//  [[answer]] (blank in question, green in correction)  {{wrong}} (red struck in correction)
 // <<right>> (green in correction)  ^^blue^^ (past continuous)  ==magenta== (past simple)  ##orange##  %%purple%%
 // !!red!!  ++green++  ~~navy~~  ___ (always a blank)
-const MK = /(@@[\s\S]+?@@|\*\*[\s\S]+?\*\*|\[\[[\s\S]+?\]\]|\{\{[\s\S]+?\}\}|<<[\s\S]+?>>|\/\/[\s\S]+?\/\/|\^\^[\s\S]+?\^\^|==[\s\S]+?==|##[\s\S]+?##|%%[\s\S]+?%%|!![\s\S]+?!!|\+\+[\s\S]+?\+\+|~~[\s\S]+?~~|_{3,})/g;
+const MK = /(\$\$[\s\S]+?\$\$|&&[\s\S]+?&&|@@[\s\S]+?@@|\*\*[\s\S]+?\*\*|\[\[[\s\S]+?\]\]|\{\{[\s\S]+?\}\}|<<[\s\S]+?>>|\/\/[\s\S]+?\/\/|\^\^[\s\S]+?\^\^|==[\s\S]+?==|##[\s\S]+?##|%%[\s\S]+?%%|!![\s\S]+?!!|\+\+[\s\S]+?\+\+|~~[\s\S]+?~~|_{3,})/g;
 const STYLE = { '^^': 'accent2', '==': MAGENTA, '##': 'accent1', '%%': 'accent4', '!!': 'accent6', '++': 'accent3', '~~': 'tx2' };
 function blank(v) { return '…'.repeat(Math.min(16, Math.max(6, Math.round(plain(v).length * 0.6)))); }
 function parse(str, mode = 'a', base = {}) {
@@ -42,7 +42,9 @@ function parse(str, mode = 'a', base = {}) {
     const t = m[0];
     const two = t.slice(0, 2);
     const v = t.length > 4 ? t.slice(2, -2) : t;
-    if (two === '@@') { if (mode !== 'q') out.push(...parse(v, mode, { ...base, bold: true, color: 'accent3' })); }
+    if (two === '$$') out.push(...parse(v, mode, mode === 'q' ? base : { ...base, bold: true, color: 'accent3', highlight: 'D9EDD5' }));
+    else if (two === '&&') out.push(...parse(v, mode, mode === 'q' ? base : { ...base, bold: true, color: MAGENTA, highlight: 'F6DDE9' }));
+    else if (two === '@@') { if (mode !== 'q') out.push(...parse(v, mode, { ...base, bold: true, color: 'accent3' })); }
     else if (two === '**') out.push(...parse(v, mode, { ...base, bold: true }));
     else if (two === '[[') {
       if (mode === 'q') out.push({ text: blank(v), options: { ...base, bold: false, italic: false, color: 'accent5' } });
@@ -58,7 +60,7 @@ function parse(str, mode = 'a', base = {}) {
   if (!out.length) out.push({ text: '', options: { ...base } });
   return out;
 }
-function plain(str) { return String(str).replace(/@@|\*\*|\[\[|\]\]|\{\{|\}\}|<<|>>|\/\/|\^\^|==|##|%%|!!|\+\+|~~/g, ''); }
+function plain(str) { return String(str).replace(/\$\$|&&|@@|\*\*|\[\[|\]\]|\{\{|\}\}|<<|>>|\/\/|\^\^|==|##|%%|!!|\+\+|~~/g, ''); }
 function hasAnswers(items) { return items.some((it) => (typeof it === 'string' ? /\[\[|\{\{|<<|@@/.test(it) : !!(it && (it.a || /\[\[|\{\{|<<|@@/.test(it.t || ''))))); }
 
 // ---------------------------------------------------------------- icons and portraits
@@ -295,7 +297,8 @@ class LightDeck {
       const s = this.content(spec, mode === 'a');
       const note = mode !== 'q' ? spec.note : spec.noteQ;
       const nh = this.noteH(note);
-      const y = s.y0;
+      let y = s.y0;
+      if (spec.bank) y = this.bank(s, spec.bank, y, mode) + 0.3;
       const h = BOTTOM - y - (nh ? nh + 0.25 : 0);
       const max = mode === 'q' ? (spec.max || 26) : (spec.maxA || spec.max || 22);
       let pt = (mode === 'a' && spec.sizeA) || spec.size || max;
@@ -681,7 +684,7 @@ class LightDeck {
       const s = this.content(spec, mode === 'a');
       const y = s.y0; const h = BOTTOM - y;
       const r = this.img(s, spec.img, L, y, spec.imgW || 6.9, h, { valign: 'top', align: 'left', alt: spec.alt });
-      spec.marks.forEach((m) => this.num(s, m.n, r.x + (m.x / iw) * r.w - 0.18, r.y + (m.y / ih) * r.h - 0.18, 0.36, mode === 'a' ? 'accent1' : 'tx2', 13));
+      if (!(spec.hunt && mode === 'q')) spec.marks.forEach((m) => this.num(s, m.n, r.x + (m.x / iw) * r.w - 0.18, r.y + (m.y / ih) * r.h - 0.18, 0.36, mode === 'a' ? 'accent1' : 'tx2', 13));
       const x = r.x + r.w + 0.4; const w = R - x;
       const items = mode === 'q' ? spec.bank.map((n) => spec.marks.find((m) => m.n === n)) : spec.marks;
       const rh = Math.min(0.55, h / items.length);
@@ -689,7 +692,8 @@ class LightDeck {
       items.forEach((m, i) => {
         const yy = y + i * rh;
         if (mode === 'q') {
-          s.addShape(this.S.ROUNDED_RECTANGLE, { x, y: yy + rh / 2 - 0.16, w: 0.42, h: 0.32, rectRadius: 0.05, fill: { color: 'FFFFFF' }, line: { color: hx('tx2'), width: 1 } });
+          if (spec.hunt) this.icon(s, 'FaSearch', 'accent1', x + 0.06, yy + rh / 2 - 0.15, 0.3);
+          else s.addShape(this.S.ROUNDED_RECTANGLE, { x, y: yy + rh / 2 - 0.16, w: 0.42, h: 0.32, rectRadius: 0.05, fill: { color: 'FFFFFF' }, line: { color: hx('tx2'), width: 1 } });
           this.text(s, m.en, x + 0.6, yy, w - 0.6, rh, { fontSize: pt, valign: 'middle' });
         } else {
           this.num(s, m.n, x, yy + rh / 2 - 0.16, 0.32, 'accent1', 11);
@@ -1104,6 +1108,288 @@ class LightDeck {
       });
     });
     if (spec.note) this.noteBox(s, spec.note, BOTTOM - nh, nh);
+  }
+
+  // ------------------------------------------------------------ WORD BANK (chips in a tinted strip); returns the bottom y
+  bank(s, words, y, mode = 'q', o = {}) {
+    const pt = o.size || 16; const ch = 0.42; const gap = 0.14; const pad = 0.2;
+    const ws = words.map((t) => Math.max(0.7, plain(t).length * (pt / 72) * 0.52 + 0.4));
+    const rows = []; let row = []; let acc = 0; const maxW = W - 0.5 - 1.2;
+    ws.forEach((w, i) => { if (acc + w > maxW && row.length) { rows.push(row); row = []; acc = 0; } row.push(i); acc += w + gap; });
+    if (row.length) rows.push(row);
+    const h = pad * 2 + rows.length * ch + (rows.length - 1) * 0.1;
+    this.box(s, L, y, W, h, 'accent1', { t: 92, line: 1, dash: 'dash' });
+    s.addText(o.label || 'WORD BANK', { x: L + 0.2, y, w: 1.1, h, fontSize: 11, bold: true, color: 'accent1', charSpacing: 1, valign: 'middle', margin: 0, isTextBox: true });
+    rows.forEach((r, k) => {
+      let x = L + 1.3;
+      r.forEach((i) => {
+        s.addText(parse(words[i], 'a', { bold: true }), { shape: this.S.ROUNDED_RECTANGLE, rectRadius: 0.2, x, y: y + pad + k * (ch + 0.1), w: ws[i], h: ch, fill: { color: 'FFFFFF' }, line: { color: hx('accent1'), width: 1 }, color: mode === 'a' ? 'accent5' : 'tx2', fontSize: pt, align: 'center', valign: 'middle', margin: 0 });
+        x += ws[i] + gap;
+      });
+    });
+    return y + h;
+  }
+
+  // ------------------------------------------------------------ MATCHING (1–n ↔ A–F; the correction draws the links)
+  // pairs [[left, right, fr?]], order = indices of the pairs in the right-hand column
+  match(spec) {
+    const n = spec.pairs.length; const order = spec.order || spec.pairs.map((_, i) => i);
+    const letters = 'ABCDEFGHIJ';
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const note = mode === 'a' ? spec.note : spec.noteQ; const nh = Math.max(this.noteH(spec.note), this.noteH(spec.noteQ));
+      const y0 = s.y0; const mid = 1.5;
+      const lw = (W - mid) * (spec.split || 0.42); const rw = W - mid - lw; const rx = L + lw + mid;
+      const avail = BOTTOM - y0 - (nh ? nh + 0.25 : 0); const gap = n >= 7 ? 0.08 : 0.12;
+      const rh = Math.min(0.78, (avail - gap * (n - 1)) / n);
+      const pt = Math.min(...spec.pairs.flatMap(([l, r, fr]) => [
+        fitSize([plain(l)], lw - 0.75, rh - 0.06, 18, 12, 0, 0.5, 'match-l'),
+        fitSize([plain(r)], rw - 0.75, rh - 0.06, 18, 12, 0, 0.5, 'match-r')]));
+      const yAt = (i) => y0 + i * (rh + gap);
+      spec.pairs.forEach(([l, , fr], i) => {
+        const y = yAt(i);
+        this.box(s, L, y, lw, rh, 'tx2', { fill: 'bg2', lineColor: BORDER, line: 0.75 });
+        this.num(s, i + 1, L + 0.12, y + rh / 2 - 0.19, 0.38, 'tx2', 13);
+        s.addText(parse(l, 'a', { bold: true, color: 'tx2' }), { x: L + 0.62, y, w: lw - 0.72, h: rh, fontSize: pt, valign: 'middle', margin: 0, isTextBox: true });
+        if (mode === 'a' && fr) {
+          const used = 0.62 + plain(l).length * (pt / 72) * 0.52 + 0.25;
+          const fw = Math.max(1.0, lw - used - 0.12);
+          this.text(s, fr, L + lw - fw - 0.12, y, fw, rh, { fontSize: fw < 1.5 ? 11 : 13, italic: true, color: 'accent5', align: 'right', valign: 'middle' });
+        }
+      });
+      order.forEach((pi, k) => {
+        const y = yAt(k);
+        this.box(s, rx, y, rw, rh, 'tx2', { fill: 'FFFFFF', lineColor: BORDER, line: 0.75 });
+        this.num(s, letters[k], rx + 0.12, y + rh / 2 - 0.19, 0.38, 'accent1', 13);
+        this.text(s, spec.pairs[pi][1], rx + 0.62, y, rw - 0.72, rh, { fontSize: pt, valign: 'middle' });
+      });
+      if (mode === 'a') {
+        spec.pairs.forEach((_, i) => {
+          const k = order.indexOf(i);
+          this.ln(s, L + lw + 0.04, yAt(i) + rh / 2, rx - 0.04, yAt(k) + rh / 2, { color: 'accent3', width: 2.25 });
+          s.addShape(this.S.OVAL, { x: L + lw - 0.04, y: yAt(i) + rh / 2 - 0.07, w: 0.14, h: 0.14, fill: { color: hx('accent3') }, line: { type: 'none' } });
+          s.addShape(this.S.OVAL, { x: rx - 0.1, y: yAt(k) + rh / 2 - 0.07, w: 0.14, h: 0.14, fill: { color: hx('accent3') }, line: { type: 'none' } });
+        });
+      } else {
+        spec.pairs.forEach((_, i) => s.addShape(this.S.OVAL, { x: L + lw - 0.04, y: yAt(i) + rh / 2 - 0.07, w: 0.14, h: 0.14, fill: { color: 'FFFFFF' }, line: { color: hx('tx2'), width: 1 } }));
+        order.forEach((_, k) => s.addShape(this.S.OVAL, { x: rx - 0.1, y: yAt(k) + rh / 2 - 0.07, w: 0.14, h: 0.14, fill: { color: 'FFFFFF' }, line: { color: hx('accent1'), width: 1 } }));
+      }
+      if (note) this.noteBox(s, note, BOTTOM - nh, nh);
+    }
+  }
+
+  // ------------------------------------------------------------ ODD ONE OUT (rows of word chips; the correction marks the intruder and says why)
+  oddOneOut(spec) {
+    const rows = spec.rows; const n = rows.length;
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const y0 = s.y0; const avail = BOTTOM - y0; const gap = 0.16;
+      const rh = Math.min(0.82, (avail - gap * (n - 1)) / n);
+      const labW = rows.some((r) => r.label) ? 1.35 : 0;
+      const whyW = 3.7; const cx0 = L + 0.62 + labW; const cw = W - 0.62 - labW - whyW - 0.3;
+      const k = Math.max(...rows.map((r) => r.words.length)); const cg = 0.14; const chipW = (cw - cg * (k - 1)) / k;
+      const pt = Math.min(18, ...rows.flatMap((r) => r.words.map((w) => fitSize([plain(w)], chipW - 0.2, rh - 0.2, 18, 12, 0, 0.5, 'odd'))));
+      rows.forEach((r, i) => {
+        const y = y0 + i * (rh + gap);
+        this.num(s, i + 1, L, y + rh / 2 - 0.19, 0.38, 'tx2', 13);
+        if (r.label) s.addText(parse(r.label, 'a', { bold: true, color: 'tx2' }), { x: L + 0.55, y, w: labW, h: rh, fontSize: 17, fontFace: HEAD, valign: 'middle', margin: 0, isTextBox: true });
+        r.words.forEach((w, j) => {
+          const x = cx0 + j * (chipW + cg);
+          const odd = mode === 'a' && j === r.odd; const ok = mode === 'a' && j !== r.odd;
+          s.addText(parse(w, 'a', odd ? { strike: 'sngStrike' } : {}), { shape: this.S.ROUNDED_RECTANGLE, rectRadius: 0.12, x, y: y + 0.08, w: chipW, h: rh - 0.16,
+            fill: { color: odd ? 'F6DCD8' : ok ? 'E6F0E4' : hx('bg2') }, line: { color: odd ? hx('accent6') : ok ? 'B9D3B4' : BORDER, width: odd ? 2 : 1 },
+            color: odd ? 'accent6' : 'tx1', bold: odd, fontSize: pt, align: 'center', valign: 'middle', margin: 0 });
+        });
+        if (mode === 'a' && r.why) this.text(s, '→ ' + r.why, R - whyW, y, whyW, rh, { fontSize: Math.min(16, pt), valign: 'middle', base: { color: 'tx2' }, color: 'tx2' });
+      });
+    }
+  }
+
+  // ------------------------------------------------------------ SORT (word bank → columns; the correction puts every item in its column)
+  // categories [{h, sub, color}], items [{t, a, cat}] in the order of the bank
+  sort(spec) {
+    const cats = spec.categories; const nc = cats.length;
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      let y = s.y0;
+      if (mode === 'q') y = this.bank(s, spec.items.map((it) => it.t), y, 'q', { label: spec.bankLabel || 'SORT THEM', size: spec.bankSize || 15 }) + 0.3;
+      const gap = 0.22; const cw = (W - gap * (nc - 1)) / nc; const hh = spec.sub === false || mode === 'a' ? 0.48 : 0.72;
+      const bodyH = BOTTOM - y - hh;
+      const per = cats.map((_, c) => spec.items.filter((it) => it.cat === c));
+      const maxN = Math.max(...per.map((p) => p.length));
+      const ih = Math.min(0.72, (bodyH - 0.3 - 0.06 * (maxN - 1)) / Math.max(1, maxN));
+      const pt = Math.min(16, ...spec.items.map((it) => fitSize([plain(it.a || it.t)], cw - 0.35, ih + 0.02, 16, 11, 0, 0.5, 'sort')));
+      cats.forEach((c, i) => {
+        const x = L + i * (cw + gap); const col = c.color || 'tx2';
+        s.addShape(this.S.ROUNDED_RECTANGLE, { x, y, w: cw, h: hh, rectRadius: 0.08, fill: { color: hx(col) }, line: { type: 'none' } });
+        const one = mode === 'a' && c.sub;
+        s.addText([{ text: c.h + (one ? '  ' : ''), options: { bold: true, fontSize: 15, charSpacing: 1, breakLine: !!c.sub && !one } }, ...(c.sub ? parse(c.sub, 'a', { fontSize: 12, italic: true }) : [])], { x: x + 0.1, y, w: cw - 0.2, h: hh, color: 'bg1', align: 'center', valign: 'middle', margin: 0, isTextBox: true });
+        this.box(s, x, y + hh + 0.06, cw, bodyH - 0.06, col, { t: 94, line: 1, dash: mode === 'q' ? 'dash' : undefined });
+        if (mode === 'a') per[i].forEach((it, k) => {
+          s.addText(parse(it.a || it.t, 'a'), { shape: this.S.ROUNDED_RECTANGLE, rectRadius: 0.1, x: x + 0.12, y: y + hh + 0.16 + k * (ih + 0.06), w: cw - 0.24, h: ih, fill: { color: 'FFFFFF' }, line: { color: hx(col), width: 1 }, color: 'tx1', fontSize: pt, align: 'center', valign: 'middle', margin: 0 });
+        });
+      });
+    }
+  }
+
+  // ------------------------------------------------------------ REORDER (shuffled cards A–F → numbered sequence)
+  // items in the right order [{t, tag}], shuffle = display order on the question slide
+  reorder(spec) {
+    const n = spec.items.length; const letters = 'ABCDEFGHIJ';
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const note = mode === 'a' ? spec.note : undefined; const nh = this.noteH(note);
+      const y0 = s.y0; const avail = BOTTOM - y0 - (nh ? nh + 0.2 : 0); const gap = 0.1;
+      const rh = Math.min(0.7, (avail - gap * (n - 1)) / n);
+      const seq = mode === 'q' ? spec.shuffle : spec.items.map((_, i) => i);
+      const tagPt = 15; const tagW = mode === 'a' && spec.items.some((it) => it.tag) ? Math.max(1.2, Math.max(...spec.items.map((it) => (it.tag || '').length)) * 0.6 * tagPt / 72 + 0.3) : 0;
+      const tx = L + 1.05 + tagW; const tw = W - 1.05 - tagW - 0.2;
+      const pt = Math.min(19, ...spec.items.map((it) => fitSize([plain(it.t)], tw, rh - 0.06, 19, 12, 0, 0.5, 'reorder')));
+      if (mode === 'a') this.ln(s, L + 0.27, y0 + rh / 2, L + 0.27, y0 + (n - 1) * (rh + gap) + rh / 2, { color: 'accent3', width: 2.5 });
+      seq.forEach((idx, k) => {
+        const it = spec.items[idx]; const y = y0 + k * (rh + gap);
+        if (mode === 'q') {
+          this.num(s, letters[k], L, y + rh / 2 - 0.2, 0.4, 'accent1', 14);
+          s.addShape(this.S.ROUNDED_RECTANGLE, { x: L + 0.52, y: y + rh / 2 - 0.19, w: 0.42, h: 0.38, rectRadius: 0.05, fill: { color: 'FFFFFF' }, line: { color: hx('tx2'), width: 1.25 } });
+        } else {
+          this.num(s, k + 1, L + 0.05, y + rh / 2 - 0.22, 0.44, 'accent3', 15);
+          s.addText(letters[spec.shuffle.indexOf(idx)], { x: L + 0.52, y, w: 0.42, h: rh, fontSize: 13, bold: true, color: 'accent1', align: 'center', valign: 'middle', margin: 0, isTextBox: true });
+        }
+        this.box(s, L + 1.0, y, W - 1.0, rh, 'tx2', mode === 'a' ? { fill: 'bg2', lineColor: 'B9D3B4', line: 1 } : { fill: 'bg2', lineColor: BORDER, line: 0.75 });
+        if (tagW && it.tag) s.addText(it.tag, { x: L + 1.15, y, w: tagW - 0.1, h: rh, fontSize: tagPt, bold: true, color: 'tx2', fontFace: 'Courier New', valign: 'middle', margin: 0, isTextBox: true });
+        this.text(s, it.t, tx, y, tw, rh, { fontSize: pt, valign: 'middle' });
+      });
+      if (note) this.noteBox(s, note, BOTTOM - nh, nh);
+    }
+  }
+
+  // ------------------------------------------------------------ SCRAMBLE (words in the wrong order → the sentence)
+  scramble(spec) {
+    const n = spec.rows.length;
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const y0 = s.y0; const gap = 0.18; const rh = Math.min(1.0, (BOTTOM - y0 - gap * (n - 1)) / n);
+      const chipH = Math.min(0.44, rh * 0.48);
+      spec.rows.forEach((r, i) => {
+        const y = y0 + i * (rh + gap);
+        this.num(s, i + 1, L, y + 0.02, 0.38, 'tx2', 13);
+        let x = L + 0.6;
+        r.words.forEach((w) => {
+          const cw = Math.max(0.55, plain(w).length * 0.13 + 0.35);
+          s.addText(parse(w, 'a'), { shape: this.S.ROUNDED_RECTANGLE, rectRadius: 0.18, x, y, w: cw, h: chipH, fill: { color: mode === 'a' ? 'F1F3F7' : hx('bg2') }, line: { color: BORDER, width: 1 }, color: mode === 'a' ? 'accent5' : 'tx2', bold: true, fontSize: 16, align: 'center', valign: 'middle', margin: 0 });
+          x += cw + 0.12;
+        });
+        if (mode === 'a') this.text(s, '→ ' + r.a, L + 0.6, y + chipH + 0.04, W - 0.6, rh - chipH - 0.04, { fontSize: 19, bold: true, color: 'accent3', valign: 'middle' });
+        else s.addShape(this.S.LINE, { x: L + 0.6, y: y + rh - 0.12, w: 7.5, h: 0, line: { color: hx('accent5'), width: 1, dashType: 'sysDot' } });
+      });
+    }
+  }
+
+  // ------------------------------------------------------------ TEXT TO CORRECT (a document with n mistakes: {{wrong}}@@right@@)
+  fixText(spec) {
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const note = mode === 'a' ? spec.note : undefined; const nh = this.noteH(note);
+      const y = s.y0; const h = BOTTOM - y - (nh ? nh + 0.25 : 0);
+      s.addShape(this.S.RECTANGLE, { x: L, y, w: W, h, fill: { color: 'FFFFFF' }, line: { color: BORDER, width: 1 }, shadow: shadow() });
+      const cw = this.chip(s, spec.docLabel, L + 0.3, y + 0.2, spec.docColor || 'accent5');
+      s.addText(spec.docTitle, { x: L + 0.3 + cw + 0.25, y: y + 0.16, w: W - cw - 2.6, h: 0.42, fontSize: 17, bold: true, color: 'accent5', fontFace: HEAD, margin: 0, valign: 'middle', isTextBox: true });
+      if (spec.count) {
+        s.addShape(this.S.ROUNDED_RECTANGLE, { x: R - 2.05, y: y + 0.17, w: 1.8, h: 0.42, rectRadius: 0.2, fill: { color: mode === 'a' ? hx('accent3') : MAGENTA }, line: { type: 'none' } });
+        const [cq, ca] = spec.countLabels || [`${spec.count} mistakes`, `✓ ${spec.count} corrections`];
+        s.addText(mode === 'a' ? ca : cq, { x: R - 2.05, y: y + 0.17, w: 1.8, h: 0.42, fontSize: 14, bold: true, color: 'bg1', align: 'center', valign: 'middle', margin: 0, isTextBox: true });
+      }
+      s.addShape(this.S.LINE, { x: L + 0.3, y: y + 0.75, w: W - 0.6, h: 0, line: { color: hx('accent5'), width: 1, dashType: 'dash' } });
+      const ph = h - 1.0;
+      const pt = spec.size || fitSize(spec.paras.map((p) => plain(p.replace(/@@[\s\S]+?@@/g, (m) => ' ' + m))), W - 0.8, ph, 21, 14, 10, 0.5, 'fixtext');
+      const ps = spec.paras.map((p) => ({ runs: parse(p, mode), opts: { paraSpaceAfter: 10, lineSpacingMultiple: 1.15 } }));
+      s.addText(flow(ps), { x: L + 0.4, y: y + 0.9, w: W - 0.8, h: ph, fontSize: pt, color: 'tx1', valign: 'top', margin: 0, isTextBox: true });
+      if (note) this.noteBox(s, note, BOTTOM - nh, nh);
+    }
+  }
+
+  // ------------------------------------------------------------ TRUE OR FALSE (the correction fills T or F and adds the reason)
+  trueFalse(spec) {
+    const n = spec.items.length;
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const y0 = s.y0; const gap = 0.12; const rh = Math.min(0.95, (BOTTOM - y0 - gap * (n - 1)) / n);
+      const tw = W - 2.1; const sw = (tw - 0.7) * 0.5; const ww = (tw - 0.7) - sw - 0.25;
+      const pt = Math.min(19, ...spec.items.map((it) => fitSize([plain(it.s)], sw, rh - 0.08, 19, 12, 0, 0.5, 'tf')));
+      const wpt = Math.min(pt - 1, ...spec.items.map((it) => fitSize(['→ ' + plain(it.why || '')], ww, rh - 0.06, 18, 12, 0, 0.5, 'tf-why')));
+      spec.items.forEach((it, i) => {
+        const y = y0 + i * (rh + gap);
+        this.box(s, L, y, W, rh, 'tx2', { fill: i % 2 ? 'FFFFFF' : 'bg2', lineColor: BORDER, line: 0.5 });
+        s.addText(`${i + 1}.`, { x: L + 0.15, y, w: 0.5, h: rh, fontSize: pt, bold: true, color: 'tx2', valign: 'middle', margin: 0, isTextBox: true });
+        this.text(s, it.s, L + 0.65, y, mode === 'a' ? sw : tw - 0.7, rh, { fontSize: pt, valign: 'middle' });
+        if (mode === 'a' && it.why) this.text(s, '→ ' + it.why, L + 0.65 + sw + 0.25, y, ww, rh, { fontSize: wpt, bold: true, color: it.a ? 'accent3' : 'accent6', valign: 'middle' });
+        ['T', 'F'].forEach((t, k) => {
+          const on = mode === 'a' && ((t === 'T') === !!it.a); const d = Math.min(0.5, rh - 0.16);
+          const col = t === 'T' ? 'accent3' : 'accent6';
+          s.addText(t, { shape: this.S.OVAL, x: R - 1.35 + k * 0.65, y: y + rh / 2 - d / 2, w: d, h: d, fill: { color: on ? hx(col) : 'FFFFFF' }, line: { color: mode === 'a' && !on ? 'D5DCE6' : hx(col), width: 1.5 }, color: on ? 'bg1' : mode === 'a' ? 'C3CAD5' : col, bold: true, fontSize: 15, align: 'center', valign: 'middle', margin: 0 });
+        });
+      });
+    }
+  }
+
+  // ------------------------------------------------------------ WORD SEARCH (letter grid; the correction highlights each word)
+  // words [{w, r, c, d: 'h'|'v'}]; the other cells are filled from a fixed seed
+  wordSearch(spec) {
+    const R0 = spec.rows; const C0 = spec.cols;
+    const grid = Array.from({ length: R0 }, () => Array(C0).fill(null));
+    spec.words.forEach(({ w, r, c, d }) => [...w].forEach((ch, k) => {
+      const rr = d === 'v' ? r + k : r; const cc = d === 'v' ? c : c + k;
+      if (grid[rr][cc] && grid[rr][cc] !== ch) throw new Error(`word search clash at ${rr},${cc}`);
+      grid[rr][cc] = ch;
+    }));
+    let seed = spec.seed || 7; const rnd = () => ((seed = (seed * 9301 + 49297) % 233280) / 233280);
+    const AB = 'ABCDEFGHIKLMNOPRSTUVWY';
+    for (const row of grid) for (let k = 0; k < C0; k++) if (!row[k]) row[k] = AB[Math.floor(rnd() * AB.length)];
+    const cols = ['D9EDD5', 'DCE8F5', 'FBE3CC', 'E8DFF2', 'F6DDE9', 'FFF0BF'];
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const y0 = s.y0; const cell = Math.min((BOTTOM - y0) / R0, 7.4 / C0);
+      const gx = L; const gw = cell * C0; const gh = cell * R0;
+      s.addShape(this.S.RECTANGLE, { x: gx, y: y0, w: gw, h: gh, fill: { color: 'FFFFFF' }, line: { color: BORDER, width: 1 }, shadow: shadow() });
+      if (mode === 'a') spec.words.forEach(({ w, r, c, d }, i) => {
+        const x = gx + c * cell + 0.04; const y = y0 + r * cell + 0.04;
+        s.addShape(this.S.ROUNDED_RECTANGLE, { x, y, w: d === 'v' ? cell - 0.08 : w.length * cell - 0.08, h: d === 'v' ? w.length * cell - 0.08 : cell - 0.08, rectRadius: cell * 0.4, fill: { color: cols[i % cols.length] }, line: { color: 'B9C3CF', width: 0.75 } });
+      });
+      grid.forEach((row, r) => row.forEach((ch, c) => {
+        s.addText(ch, { x: gx + c * cell, y: y0 + r * cell, w: cell, h: cell, fontSize: Math.round(cell * 34), bold: true, color: 'tx2', fontFace: 'Courier New', align: 'center', valign: 'middle', margin: 0, isTextBox: true });
+      }));
+      const lx = gx + gw + 0.5; const lw = R - lx;
+      s.addText(spec.listLabel || `FIND ${spec.words.length} WORDS`, { x: lx, y: y0, w: lw, h: 0.36, fontSize: 13, bold: true, color: MAGENTA, charSpacing: 1.5, margin: 0, valign: 'middle', isTextBox: true });
+      const n = spec.words.length; const per = Math.ceil(n / 2); const colW = lw / 2; const rh = Math.min(0.5, (BOTTOM - y0 - 0.5) / per);
+      spec.words.forEach(({ w, fr }, i) => {
+        const x = lx + Math.floor(i / per) * colW; const y = y0 + 0.5 + (i % per) * rh;
+        this.icon(s, mode === 'a' ? 'FaRegCheckSquare' : 'FaRegSquare', mode === 'a' ? 'accent3' : 'tx2', x, y + rh / 2 - 0.13, 0.26);
+        s.addText([{ text: w.toLowerCase(), options: { bold: true, color: 'tx2' } }, ...(mode === 'a' && fr ? [{ text: '  ' + fr, options: { italic: true, color: 'accent5', fontSize: 11 } }] : [])], { x: x + 0.36, y, w: colW - 0.4, h: rh, fontSize: 15, valign: 'middle', margin: 0, isTextBox: true });
+      });
+    }
+  }
+
+  // ------------------------------------------------------------ FLASHCARDS (front: a clue · back: the word)
+  flashcards(spec) {
+    const n = spec.cards.length; const per = spec.perRow || 4; const rowsN = Math.ceil(n / per);
+    for (const mode of ['q', 'a']) {
+      const s = this.content(spec, mode === 'a');
+      const gap = 0.22; const cw = (W - gap * (per - 1)) / per; const y0 = s.y0; const ch = (BOTTOM - y0 - gap * (rowsN - 1)) / rowsN;
+      const qpt = Math.min(...spec.cards.map((c) => fitSize([plain(c.q)], cw - 0.4, ch * (mode === 'a' ? 0.4 : 0.62), 18, 12, 0, 0.5, 'flash')));
+      spec.cards.forEach((c, i) => {
+        const x = L + (i % per) * (cw + gap); const y = y0 + Math.floor(i / per) * (ch + gap);
+        this.box(s, x, y, cw, ch, 'tx2', mode === 'a' ? { fill: 'FFFFFF', lineColor: 'B9D3B4', line: 1.25, shadow: true } : { fill: 'bg2', lineColor: BORDER, line: 0.75 });
+        this.num(s, i + 1, x + 0.12, y + 0.12, 0.34, mode === 'a' ? 'accent3' : 'tx2', 12);
+        if (mode === 'q') {
+          this.text(s, c.q, x + 0.2, y + 0.5, cw - 0.4, ch * 0.62, { fontSize: qpt, align: 'center', valign: 'middle' });
+          if (c.hint) this.text(s, c.hint, x + 0.2, y + ch - 0.5, cw - 0.4, 0.36, { fontSize: 13, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+        } else {
+          s.addText(parse(c.a, 'a', { bold: true, color: 'accent3' }), { x: x + 0.2, y: y + 0.45, w: cw - 0.4, h: ch * 0.3, fontSize: 22, fontFace: HEAD, align: 'center', valign: 'middle', margin: 0, isTextBox: true });
+          if (c.fr) this.text(s, c.fr, x + 0.2, y + 0.45 + ch * 0.3, cw - 0.4, 0.32, { fontSize: 13, italic: true, color: 'accent5', align: 'center', valign: 'middle' });
+          this.text(s, c.q, x + 0.2, y + ch * 0.55 + 0.2, cw - 0.4, ch * 0.45 - 0.3, { fontSize: Math.min(qpt, 14), color: 'accent5', align: 'center', valign: 'top' });
+        }
+      });
+    }
   }
 
   async save(file) {
