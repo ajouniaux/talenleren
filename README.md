@@ -40,9 +40,9 @@ Une présentation PowerPoint par séance (19 au total) pour projeter au tableau 
 
 Les **notes du présentateur** (en français) donnent les consignes de conduite, les durées et les réponses alternatives acceptables.
 
-## Style « séance 1 » (séances 04 à 11)
+## Style « séance 1 » (séances 04 à 14)
 
-Les séances 04 à 11 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
+Les séances 04 à 14 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
 
 | Séance | Schémas et arbres de décision | Exercices (lecture, écoute, vocabulaire, grammaire) | Jeux oraux (GAME) | Vocabulaire ajouté |
 |---|---|---|---|---|
@@ -54,6 +54,9 @@ Les séances 04 à 11 suivent le modèle de la présentation de la première sé
 | 09 | carte de métro de la grammaire (S2 → S14) · train de la phrase (ordre des mots) · WHEN? ou SO WHAT? · frise depuis 09.40 | dominos de participes · post-its à classer sur le tableau · « où va le petit mot ? » · banque de mots | ENERGIZER debout / assis · vente aux enchères d’erreurs · Find someone who… | already · yet · just · mots-signaux |
 | 10 | feu tricolore de l’avancement · update annoté avec renvois aux séances · tableau de bord RAG des quatre firmes | Beat the clock (minuteur) · chat d’équipe sur téléphone · écrire l’update sur téléphone · brouillon de Samuel à corriger (e-mail) | ENERGIZER pouces · Roll the dice (team call) | expressions d’avancement · 20 mots des quatre domaines |
 | 11 | arbre des deux formes verbales (ponts S3, S4–5, S9) · e-mail propre annoté · curseur de formalité | tri par couleur · e-mail dans une fenêtre de messagerie · chasse aux faux amis · cartes faux amis · mots croisés · note d’accompagnement à compléter | escape game à code · ENERGIZER ami / faux ami | 7 faux amis · registre de l’e-mail |
+| 12 | diagramme de Venn Exhibit A / Exhibit B (pont S6) · balance « à qui profite la phrase ? » · épingle et mètre ruban de for / since | surligneurs (vérifiable / opinion) · QCM · classement fait / opinion / contredit · vrai ou faux des faux amis · choix binaire (Dry run A) · cartes-éclair (Dry run B) | contre-interrogatoire de M. Verdier · ENERGIZER épingle / bras ouverts | claim · admit · deny · concede · blame · acknowledge · 10 + 8 faux amis · escalate, chase, shift the blame |
+| 13 | épingle et mètre ruban de for / since · tri present perfect / prétérit (ponts S3, S9) · « Name the fact, not the person » (pont S7) | Beat the clock · messagerie + bloc-notes (écoute) · QCM · dominos de l’assurance · choix binaire · questions en désordre · passif à réécrire · une minute au téléphone | roue « How long have you…? » · Two truths and a lie · ENERGIZER au téléphone · carrousel de jeux de rôle | claim · policy · excess · cover · wear and tear · settle · turn down · formules téléphoniques |
+| 14 | carte de métro (S3 → S16) · jauge de certitude · train des modaux, présent et passé (pont S7) · chevrons des trois rounds · tableau d’enquêteur en liège | appariement · choix binaire must / mustn’t / can’t · jauges à interpréter · intrus | ENERGIZER baromètre humain · avocat du diable | rule out · a hunch · a clue · back up · ought to · had better |
 
 Les textes inventés (témoignage de l’agent d’entretien, Objection!, explication de l’expert IT, mise à jour d’Iris, e-mail de Mark, note du stagiaire, article de presse, chat d’équipe, brouillon de Samuel) sont cohérents avec le dossier ; les scripts et les réponses sont dans les notes du présentateur. Les diapositives GAME, ENERGIZER et + EXTRA sont facultatives ; les ENERGIZER (orange) servent à relancer l’attention quand le groupe fatigue, les diapositives BRIDGE (vert canard) relient la séance aux précédentes.
 
@@ -64,6 +67,7 @@ Le code de ce style est dans `generateur/lib_light.js` ; une séance l’utilise
 - **Messages vocaux (séances 2 et 13)** : les scripts audio ne sont pas dans le livret. Les corrections des prises de notes (séance 2, ligne 5 ; séance 13, Q1–Q3, Q5–Q6) sont des réponses probables, déduites du reste du dossier. Elles sont à ajuster à votre enregistrement. Les notes du présentateur le rappellent.
 - **Livret p. 9** : la réplique 11 du dialogue manque (passage de 10 à 12).
 - **Livret p. 25, Q5** : la phrase citée *« I have never seen this pipe before »* n’apparaît pas dans l’Exhibit B (p. 23).
+- **Livret p. 33, carte IT** : *« midnight, sixteen minutes after the temperature alarm »* — l’alarme de température est à 23:41 (19 minutes avant minuit) ; seize minutes correspondent à l’alarme d’humidité (23:44).
 - **Fiches des firmes (p. 45–46)** : *« Friday 14 November 2026 »*, alors que le 14 novembre 2026 est un **samedi**. Les présentations reproduisent les fiches telles quelles, mais le rapport modèle écrit « 14 November 2026 » sans le jour, et la diapositive sur les dates en fait un point d’attention.
 
 ## Régénérer les présentations
