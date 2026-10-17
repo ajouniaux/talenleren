@@ -40,9 +40,9 @@ Une présentation PowerPoint par séance (19 au total) pour projeter au tableau 
 
 Les **notes du présentateur** (en français) donnent les consignes de conduite, les durées et les réponses alternatives acceptables.
 
-## Style « séance 1 » (séances 04 à 08)
+## Style « séance 1 » (séances 04 à 11)
 
-Les séances 04 à 08 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
+Les séances 04 à 11 suivent le modèle de la présentation de la première séance : fond blanc partout, une idée par diapositive, gros caractères, pas de pied de page ni d’encadré latéral. Le déroulé indicatif est dans les notes de la couverture.
 
 | Séance | Schémas et arbres de décision | Exercices (lecture, écoute, vocabulaire, grammaire) | Jeux oraux (GAME) | Vocabulaire ajouté |
 |---|---|---|---|---|
@@ -51,8 +51,11 @@ Les séances 04 à 08 suivent le modèle de la présentation de la première sé
 | 06 | Can I write it in the report? · say, tell, claim or confirm? · lire une heure, donner une durée | intrus d’orthographe · repérage dans l’Exhibit · appariement · mots mêlés · remise en ordre de la nuit · classement « room vs log » · cadres de réponse · QCM · e-mail de Mark à corriger | Time bingo · Press conference | mots d’un journal · verbes de rapport |
 | 07 | past simple ou participe ? · questions sujet / objet · mindmap de 18 collocations | appariement de demi-phrases · repérage des formes dans un texte · classement en 4 familles · intrus (sens et prononciation) · banque de mots · mots dans le désordre · note du stagiaire à corriger · vrai ou faux | Three-form relay · Case File Jeopardy | verbes irréguliers · collocations · idiomes |
 | 08 | échelle de la preuve · quel verbe de preuve ? · no record ≠ nobody | cartes-devinettes · remise en ordre (échelle, chaîne d’une alerte) · intrus · classement P / N / C · repérage dans l’illustration · écoute en vrai ou faux · classement des questions par expert · article de presse à corriger · banque de mots | Taboo · jeu de rôle A / B | evidence / proof · langage de la preuve |
+| 09 | carte de métro de la grammaire (S2 → S14) · train de la phrase (ordre des mots) · WHEN? ou SO WHAT? · frise depuis 09.40 | dominos de participes · post-its à classer sur le tableau · « où va le petit mot ? » · banque de mots | ENERGIZER debout / assis · vente aux enchères d’erreurs · Find someone who… | already · yet · just · mots-signaux |
+| 10 | feu tricolore de l’avancement · update annoté avec renvois aux séances · tableau de bord RAG des quatre firmes | Beat the clock (minuteur) · chat d’équipe sur téléphone · écrire l’update sur téléphone · brouillon de Samuel à corriger (e-mail) | ENERGIZER pouces · Roll the dice (team call) | expressions d’avancement · 20 mots des quatre domaines |
+| 11 | arbre des deux formes verbales (ponts S3, S4–5, S9) · e-mail propre annoté · curseur de formalité | tri par couleur · e-mail dans une fenêtre de messagerie · chasse aux faux amis · cartes faux amis · mots croisés · note d’accompagnement à compléter | escape game à code · ENERGIZER ami / faux ami | 7 faux amis · registre de l’e-mail |
 
-Les textes inventés (témoignage de l’agent d’entretien, Objection!, explication de l’expert IT, mise à jour d’Iris, e-mail de Mark, note du stagiaire, article de presse) sont cohérents avec le dossier ; les scripts et les réponses sont dans les notes du présentateur. Les diapositives GAME et + EXTRA sont facultatives.
+Les textes inventés (témoignage de l’agent d’entretien, Objection!, explication de l’expert IT, mise à jour d’Iris, e-mail de Mark, note du stagiaire, article de presse, chat d’équipe, brouillon de Samuel) sont cohérents avec le dossier ; les scripts et les réponses sont dans les notes du présentateur. Les diapositives GAME, ENERGIZER et + EXTRA sont facultatives ; les ENERGIZER (orange) servent à relancer l’attention quand le groupe fatigue, les diapositives BRIDGE (vert canard) relient la séance aux précédentes.
 
 Le code de ce style est dans `generateur/lib_light.js` ; une séance l’utilise avec `style: 'light'` dans son `meta`.
 
